@@ -2,13 +2,16 @@
 title: Add practice quiz and exam for a course
 original-url: https://docs.microsoftcommunitytraining.com/docs/add-practice-course-and-exam
 ---
+
+# Add practice quiz and exam for a course
+
 Microsoft Community Training platform allows trainers to add assessments as a way to evaluate learners on their knowledge and proficiency. The platform provides two types of assessments in the form of Practice Quiz and Exam containing one or more multiple-choice questions.
 
-**Practice Quiz** - A Practice Quiz serves as a refresher for learners and facilitate revision of a particular lesson. There is no limit to the number of Practice Quizzes you can add to a course. 
+**Practice Quiz** - A Practice Quiz serves as a refresher for learners and facilitate revision of a particular lesson. There is no limit to the number of Practice Quizzes you can add to a course.
 
 **Exam**  -  An Exam is used to evaluate learners on their proficiency and knowledge in a particular course to measure learning outcome. Unlike practice quiz, an exam has limited number of attempts and a passing percentage as specified by the trainer.
 
-In this article, you will learn more about how to add assessments to a course followed by an overview on sample assessment question types, in respective sections: 
+In this article, you will learn more about how to add assessments to a course followed by an overview on sample assessment question types, in respective sections:
 
 ### Permission Level
 
@@ -27,7 +30,8 @@ The Microsoft Community Training  management portal provides role-based administ
 
 In this article, you will learn about how to add practice quiz to a course:
 
-@(Warning)(Tips)(Use the practice test after every 2-3 lessons to help learners retain and revise the learning concept. Keep the questions short and simple.  Answering correctly makes the learner want to go to the next lesson, ensuring higher completion rate of courses.)
+> [!TIP]
+> Use the practice test after every 2-3 lessons to help learners retain and revise the learning concept. Keep the questions short and simple.  Answering correctly makes the learner want to go to the next lesson, ensuring higher completion rate of courses.)
 
 1.	On the Microsoft Community Training portal, login and [**switch to administrator view**](https://microsoftindia.document360.io/docs/configure-platform#step-2--switch-to-administrator-view-of-the-portal).
 
@@ -37,26 +41,27 @@ In this article, you will learn about how to add practice quiz to a course:
 ![image.png](../../../media/image%28245%29.png)
 
 4.	Enter details for the **Question 1** on the portal as below:
-    * Question Title – add your question in this field. Check [**sample questions**](https://docs.microsoftcommunitytraining.com/docs/add-practice-course-and-exam#question-types-for-a-practice-quiz-or-exam) to know more about the types of questions you can create on the portal. 
+    * Question Title – add your question in this field. Check [**sample questions**](#question-types-for-a-practice-quiz-or-exam) to know more about the types of questions you can create on the portal. 
     * Options – add one or more options as possible answers for the question. Check the **radio button** to the left of the text field to select the correct answer. 
-    ![Quiz title](../../../media/Quiz%20title.png){height="" width="400"}
+    ![Quiz title](../../../media/Quiz%20title.png)
 
- @(Warning)(Note)( If only two possible options are needed use **Delete** button  next to the option field to remove the options.To add more options use **Add Option** button to increase choices for the question.)
+> [!NOTE]
+> If only two possible options are needed use **Delete** button  next to the option field to remove the options.To add more options use **Add Option** button to increase choices for the question.)
  
-:::(Info) (Tips)
-The Question and Options both support HTML rich text. Please ensure the rich text formatting is applied from the options available in the editing box only and not from the content source. 
-:::
+> [!TIP]
+> The Question and Options both support HTML rich text. Please ensure the rich text formatting is applied from the options available in the editing box only and not from the content source.
  
 5.	Click or tap **Add Question** at the bottom-right of the Quiz card, to add more questions in the Practice Quiz and repeat Step 4.
 
 6.	Once you are done adding questions, click or tap **Save** icon to the right-end of the quiz title to upload the practice quiz to the portal.
 
-@(Warning)(Tips)(Use the [**bulk upload questions feature**](https://microsoftindia.document360.io/docs/create-practice-course-and-exam#bulk-upload-questions-for-a-practice-quiz-or-exam) to seamlessly import your existing questions list for a practice quiz.)
-
+> [!TIP]
+> Use the [**bulk upload questions feature**](https://microsoftindia.document360.io/docs/create-practice-course-and-exam#bulk-upload-questions-for-a-practice-quiz-or-exam) to seamlessly import your existing questions list for a practice quiz.
 ## Add final exam for a course
 In this article, you will learn about how to add an exam to a course:
 
-@(Warning)(Tips)(Use the exam to evaluate the knowledge of a learner that is acquired from the course. Keep a fair pass percentage based on the degree of difficulty and number of attempts as required for the role.)
+> [!TIP]
+> Use the exam to evaluate the knowledge of a learner that is acquired from the course. Keep a fair pass percentage based on the degree of difficulty and number of attempts as required for the role.
 
 1.	On the Microsoft Community Training portal, login and [**switch to administrator view**](https://microsoftindia.document360.io/docs/configure-platform#step-2--switch-to-administrator-view-of-the-portal).
 
@@ -69,24 +74,27 @@ In this article, you will learn about how to add an exam to a course:
     * Enter **Quiz Title**. The quiz title is the name for the exam displayed to the learners on the web portal and mobile application. For example: *Final Exam* 
     * Define the **passing percentage** and **number of attempts** a learner can take the exam based on the degree of difficulty.
     * Enable the **shuffle mode** for the exam questions if required. This will ensure that learners will always be offered a different version of the quiz so you can be sure that answers cannot be memorized for subsequent attempts or copied from others 
-![image.png](../../../media/image%28210%29.png){height="" width="600"}
+![image.png](../../../media/image%28210%29.png)
 
-@(Info)(Note)(All the questions in the exam carry equal weightage. And **Exam** is always the last segment of the course.)
+> [!NOTE]
+> All the questions in the exam carry equal weightage. And **Exam** is always the last segment of the course.
 
 5.	Enter details for the **Question 1** on the portal as below:
-    * Question Title – add your question in this field. Check [**sample questions**](https://docs.microsoftcommunitytraining.com/docs/add-practice-course-and-exam#question-types-for-a-practice-quiz-or-exam) to know more about the types of questions you can create on the portal.  
+    * Question Title – add your question in this field. Check [**sample questions**](#question-types-for-a-practice-quiz-or-exam) to know more about the types of questions you can create on the portal.  
     * Options – add one or more options as possible answers for the question.  Check the **radio button** to the left of the text field to select the correct answer.
   
-  @(Warning)(Note)( If only two possible options are needed, use **Delete** button  next to the option field to remove the options. To add more options use **Add Option** button to increase choices for the question.)
-:::(Info) (Tips)
-The Question and Options both support HTML rich text. Please ensure the rich text formatting is applied from the options available in the editing box only and not from the content source. 
-:::
+> [!NOTE]
+> If only two possible options are needed, use **Delete** button  next to the option field to remove the options. To add more options use **Add Option** button to increase choices for the question.
+
+> [!TIP]
+> The Question and Options both support HTML rich text. Please ensure the rich text formatting is applied from the options available in the editing box only and not from the content source.
   
   6. Click or tap **Add Question**, to add more questions in the **Exam** and repeat Step 5.
 
 7.	Once you are done adding questions, click or tap **Save** icon to the right-end of the quiz title to upload the exam to the portal.
  
- @(Warning)(Tips)(Use the [**bulk upload questions feature**](https://microsoftindia.document360.io/docs/create-practice-course-and-exam#bulk-upload-questions-for-a-practice-quiz-or-exam) to seamlessly import your existing questions list for an Exam.)
+> [!TIP]
+> Use the [**bulk upload questions feature**](https://microsoftindia.document360.io/docs/create-practice-course-and-exam#bulk-upload-questions-for-a-practice-quiz-or-exam) to seamlessly import your existing questions list for an Exam.
  
 ## Bulk upload questions for a practice quiz or exam
 In this topic, you will learn how to bulk upload questions for a practice quiz or exam in the management portal:
@@ -96,18 +104,19 @@ Before you start doing the bulk upload of questions for a practice quiz or exam,
 
 #### Step 1 - Download the sample CSV file
 
-1.	Click or tap on the **Import CSV** icon to the top right of Practice Quiz or Exam card. 
-![Import CSV icon](../../../media/Import%20CSV%20icon.png){height="150" width="400"}
+1.	Click or tap on the **Import CSV** icon to the top right of Practice Quiz or Exam card.
+![Import CSV icon](../../../media/Import%20CSV%20icon.png)
 
 3.	In the bulk upload panel, download the sample CSV and save on your local machine.
-![Import CSV bar](../../../media/Import%20CSV%20bar.png){height="" width="250"}
+![Import CSV bar](../../../media/Import%20CSV%20bar.png)
 
-#### Step 2 – Edit the sample CSV file to create question list 
+#### Step 2 – Edit the sample CSV file to create question list
 
 1.	Open the sample csv file in Microsoft Excel.
 
 2.	Remove the sample questions from the CSV file.
-@(Info)(Important)(Do not remove the column headers from the CSV file.)
+> [!IMPORTANT]
+> Do not remove the column headers from the CSV file.
 
 3.	Start adding 1 question per row with the following information under each column header:
     * Serial Number – put the sequence number of the question in the list.  
@@ -121,14 +130,13 @@ Before you start doing the bulk upload of questions for a practice quiz or exam,
     * Use **semi-colon (;) as delimiter** when adding multiple values for a single option  
     * For any cell, do not split the text into multiple lines (i.e. do not use **ALT + Enter**)
 
-:::(Info) (Note)
-There may be questions with different number of choices. For questions which have fewer choices, add some placeholder values while uploading from CSV. Later, remove these options after upload. 
-
-For example, there are 5 questions in the list – first 3 questions have 4 choices each and remaining 2 questions have only 2 choices, add as placeholder value for choice 3 and choice 4 in the CSV file for the last two questions.
-:::
+> [!NOTE]
+> There may be questions with different number of choices. For questions which have fewer choices, add some placeholder values while uploading from CSV. Later, remove these options after upload.
+>
+> For example, there are 5 questions in the list – first 3 questions have 4 choices each and remaining 2 questions have only 2 choices, add as placeholder value for choice 3 and choice 4 in the CSV file for the last two questions.
 
 #### Step 3 – Verify the CSV file before uploading
-1.	Open the question list csv file in Notepad. **Right Click > Open with > Notepad**. 
+1.	Open the question list csv file in Notepad. **Right Click > Open with > Notepad**.
 
 2.	Remove Word Wrap formatting from the tool bar. **Format > Word Wrap**.
 
@@ -139,10 +147,10 @@ For example, there are 5 questions in the list – first 3 questions have 4 choi
 
 4.	In case you find any issues with the file, edit and correct the structure as described in the previous step.
 
-### Steps for bulk upload questions for a Practice Quiz or Exam 
+### Steps for bulk upload questions for a Practice Quiz or Exam
 
 1. Click or tap on the **Import CSV** icon to the top right of Practice Quiz or Exam card.
-![Import CSV icon](../../../media/Import%20CSV%20icon.png){height="150" width="400"}
+![Import CSV icon](../../../media/Import%20CSV%20icon.png)
 
 2.	In the bulk upload panel, choose the Upload option and select the csv file containing the question list.  
 ![image.png](../../../media/image%2850%29.png)
@@ -163,10 +171,8 @@ Following are the question types that can be created on the portal,
 6. Numerical Question – can be answered with a specified mathematical precision 
 7. Association Question – can be answered by logical matching of text/images 
 
-:::(Info) (Note)
-The question and answer options support **rich text** to enable text formatting (bold, italics, underline, bullets, numbering etc.), images and external web links.
-:::
-
+> [!NOTE]
+> The question and answer options support **rich text** to enable text formatting (bold, italics, underline, bullets, numbering etc.), images and external web links.
 ### Single Choice Question
 ![image.png](../../../media/image%28225%29.png)
 
@@ -174,7 +180,7 @@ For this type of question, learners can choose a single answer among the availab
 
 To create a single choice question,  
 1. Add the question with required images/links and a set of answer option 
-2. Select the correct answer by checking the radio button to the left of the answer option 
+2. Select the correct answer by checking the radio button to the left of the answer option
 
 This question will appear like this for the learners -  
 ![image.png](../../../media/image%28227%29.png)
@@ -189,9 +195,9 @@ To create a multiple-choice question,
 2.	Create answer options as combinations of the possible options listed in the question title box
 3.	Select the correct answer option by checking the radio button to the left of the answer text field
 
-This question will appear like this for the learners - 
-![image.png](../../../media/image%28230%29.png)
+This question will appear like this for the learners -
 
+![image.png](../../../media/image%28230%29.png)
 ### True/False Question  
 ![image.png](../../../media/image%28234%29.png)
 
@@ -202,7 +208,8 @@ To create a True/False question,
 2.	Add two answer options as True and False
 3.	Select the correct answer option by checking the radio button to the left of the answer text field
 
-The question will appear like this for the learners – 
+The question will appear like this for the learners –
+
 ![image.png](../../../media/image%28232%29.png)
 
 ### Fill in the Blank Question 
@@ -210,25 +217,27 @@ The question will appear like this for the learners –
 
 For this type of question, learners can choose only one answer among the available options which fills the blank in the question to complete the phrase. 
 
-To create a Fill in the Blank question, 
+To create a Fill in the Blank question,
 1.	Add the question statement leaving a series of underscores to indicate blanks to be filled
 2.	Add the answer options with text/image to be filled in the blanks
 3.	Select the correct answer option by checking the radio button to the left of the answer text field
 
-The question will appear like this for the learners – 
+The question will appear like this for the learners –
+
 ![image.png](../../../media/image%28236%29.png)
 
 ### Chronological Question 
 ![image.png](../../../media/image%28237%29.png)
 
-For this type of question, learners need to decide on the correct chronological order for the objects in the question. 
+For this type of question, learners need to decide on the correct chronological order for the objects in the question.
 
 To create a chronological question, 
 1.	Add the question with text or images to be ordered in a specified chronological order
 2.	Add the answer options with possible ordering schemes (including the correct order)
 3.	Select the correct order by checking the radio button left of the answer text field
 
-The question will appear like this for the learners - 
+The question will appear like this for the learners -
+
 ![image.png](../../../media/image%28238%29.png)
 
 ### Numerical Question   
@@ -236,23 +245,25 @@ The question will appear like this for the learners -
 
 For this type of question, learners can answer to the nearest possible numerical answer option based on their mathematical computation. 
 
-To create a numerical question, 
+To create a numerical question,
 1.	Add the computation question mentioning the precision scale required for the answer
 2.	Complex equations can be included in the question and answers by inserting them as images
 3.	Add the answer options and select the correct answer by checking the radio button on the left
 
 The question will appear like this for the learners –
+
 ![image.png](../../../media/image%28240%29.png)
 
 ### Association Question
 ![image.png](../../../media/image%28241%29.png)
 
-For this type of question, learners can define associations between the elements of two lists. 
+For this type of question, learners can define associations between the elements of two lists.
 
-To create an association or matching question, 
+To create an association or matching question,
 1.	Add the question statement to match/associate the text or images
 2.	Add the answer options with possible matches (including the correct match) 
 3.	Select the correct order by checking the radio button left of the answer text field  
 
 The question will appear like this for the learners –
+
 ![image.png](../../../media/image%28243%29.png)

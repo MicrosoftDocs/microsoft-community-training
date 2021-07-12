@@ -2,6 +2,8 @@
 title: Content Management - Overview
 original-url: https://docs.microsoftcommunitytraining.com/docs/content-management-overview
 ---
+# Content Management - Overview
+
 Microsoft Community Training platform allows you to create and manage  content, as well as  it quickly and easily. Organizations can add rich multi-media content, quizzes and exams as content and create a structured learning experience for the learners. 
 
 All the management functionalities of courses are stacked together in a single panel under the **Content Tab**  – a one-stop-shop for administrators to manage content on the portal. From the content tab, administrators can create Categories, Courses and Learning paths, upload and manage course materials, configure course settings, and much more. 
@@ -17,7 +19,7 @@ Microsoft Community Training platform provides the following learning taxonomy t
 
 ![Course Management - Learning path](../media/Course%20Management%20-%20Learning%20path.png)
 
-#### 1. Category  
+### 1. Category  
 
 A  **Category**  is a collection of multiple courses.  
  
@@ -27,7 +29,7 @@ For example, training your extended workforce may include different subjects suc
  
 Alternatively, categories can also help you organize your learning content for different departments within your organization such as marketing, legal, customer support and finance. Each of these departments can be a category on the platform. 
  
-#### 2. Course
+### 2. Course
 
 A **Course** is a collection of lessons and assessments.  
  
@@ -37,7 +39,7 @@ Every course may also include a certificate, that will be awarded to the learner
  
 For example, an organization has a technical course on Washing Machine installation with a total duration of 20 minutes from start to finish. We can divide the video into segments of 2 to 3 minutes resulting in 6-10 lessons and add an exam towards the end to assess and certify the learners.  
  
-#### 3. Lessons 
+### 3. Lessons
 
 A **Lesson** is a single unit of learning in the form of Audio, Video, PDF, Word document or PowerPoint presentation. These are created as easy-to-learn capsules – short, simple and informative.  
  
@@ -48,17 +50,16 @@ A **Lesson** is a single unit of learning in the form of Audio, Video, PDF, Word
 * Other formats:  PDF, PPT, PPTX, DOCX, EPUB, HTML  
 * Hyperlinks: Paste link in the upload lesson dialogue box. 
  
-####  4. Assessments
+### 4. Assessments
 
 **Assessments** are a way to test learner’s understanding of the course content and check their knowledge & proficiency. They may contain one or more multiple-choice questions. Microsoft Community Training platform provides two types of assessments: 
+#### Practice Quiz
 
-**Practice Quiz**
-
-A **Practice Quiz** to serve as a refresher for learners and facilitate revision of a particular lesson. It encourages and motivates the learner to go to the next lesson. 
+A **Practice Quiz** to serve as a refresher for learners and facilitate revision of a particular lesson. It encourages and motivates the learner to go to the next lesson.
  
-For example, a learner who has seen 3 lessons takes a Practice Quiz and finds that he has got 2 out of 3 questions correct. He can go back to the lesson, view it again and then repeat the quiz till he corrects his understanding. 
+For example, a learner who has seen 3 lessons takes a Practice Quiz and finds that he has got 2 out of 3 questions correct. He can go back to the lesson, view it again and then repeat the quiz till he corrects his understanding.
 
-**Exam**
+#### Exam
 
  An **Exam** is to evaluate learners on their proficiency and knowledge in a particular course, with limited number of attempts and passing percentage as specified by you.  
  
@@ -66,71 +67,71 @@ Exam is always kept at the end of the course and learners can attempt only when 
  
 For example, an organization who wants to certify their technician on Washing Machine installation can put an exam at the end with a passing percentage to assess their knowledge and provide certificate accordingly.  
 
-**Difference between a Practice Quiz and an Exam**
+#### Difference between a Practice Quiz and an Exam
 
 |  | Practice Quiz  | Exam |
 | --- | --- | --- |
-| Purpose |  Allows the learner to revise the concept of the previous lessons.  Use it as a confidence-building reiteration of the key points in the previous lessons before moving further | Means of Assessment where the learner is evaluated for the questions. Based on the performance in the Exam, the learner is awarded a Certificate of Completion. |
+| Purpose | Allows the learner to revise the concept of the previous lessons.  Use it as a confidence-building reiteration of the key points in the previous lessons before moving further | Means of Assessment where the learner is evaluated for the questions. Based on the performance in the Exam, the learner is awarded a Certificate of Completion. |
 | Functionalities | There is no restriction on the number of attempts for a Practice Quiz. There can be one or more practice quizzes in a course | There is passing percentage, a limit on the number of attempts and shuffle mode for an Exam. There can be only one Exam at the end of the course |
 
-#### 5. Certification
+### 5. Certification
 
-Organization can enable certification and [**offer customized certificates**](https://microsoftindia.document360.io/docs/customize-the-certificate-template) to the learners on successful completion of the courses.   
+Organization can enable certification and [**offer customized certificates**](https://microsoftindia.document360.io/docs/customize-the-certificate-template) to the learners on successful completion of the courses.
 
-#### 6. Learning Paths
+### 6. Learning Paths
 A **Learning Path** is a logical sequence of Courses referenced from one or multiple categories.
 
 Think of Learning Path like a curriculum that specializes learner in a specific skill in a traditional education system. Within a curriculum, you can have one or more courses from different categories each of which may instruct learners to gain expertise in a guided manner to gain the specific skill set(s).
-A Learning Path references courses from various categories which learners can be optionally enforced to complete in an order. A Learning Path can be assigned by the administrators to a individual or group of users. 
+A Learning Path references courses from various categories which learners can be optionally enforced to complete in an order. A Learning Path can be assigned by the administrators to a individual or group of users.
 
-For example, training your extended workforce may include different competencies such as Sales Expert, Compliance 101 and Safety Expert. Each of these competencies can be a learning path on the platform with courses from different categories added to the paths. 
+For example, training your extended workforce may include different competencies such as Sales Expert, Compliance 101 and Safety Expert. Each of these competencies can be a learning path on the platform with courses from different categories added to the paths.
 
-## Steps to create content in the portal 
+## Steps to create content in the portal
 
-Content creation is one of the core activities of any online learning program. This is why Microsoft Community Training platform provides specific set of features to help administrators to create new content on the portal. Given below are the few simple steps to get started with content management on the management portal: 
+Content creation is one of the core activities of any online learning program. This is why Microsoft Community Training platform provides specific set of features to help administrators to create new content on the portal. Given below are the few simple steps to get started with content management on the management portal:
 ![Course Management - Learning path](../media/Course%20Management%20-%20Learning%20path.png)
 
-#### Step 1 - Create a new category  
- Here are the detailed steps on [**how to create new category**](https://microsoftindia.document360.io/docs/create-a-course-category)  on the portal. 
+### Step 1 - Create a new category
+ Here are the detailed steps on [**how to create new category**](https://microsoftindia.document360.io/docs/create-a-course-category) on the portal.
  
-#### Step 2 -  Create a course  
- Here are the detailed steps on [**how to create a new course**](https://microsoftindia.document360.io/docs/create-a-new-course)  on the portal. 
+### Step 2 -  Create a course
+ Here are the detailed steps on [**how to create a new course**](https://microsoftindia.document360.io/docs/create-a-new-course) on the portal.
  
-#### Step 3 – Upload content for the course  
- Here are the detailed steps on [**upload content for the course**](https://microsoftindia.document360.io/docs/upload-content-to-a-course)  on the portal. 
+### Step 3 – Upload content for the course
+ Here are the detailed steps on [**upload content for the course**](https://microsoftindia.document360.io/docs/upload-content-to-a-course) on the portal.
  
-#### Step 4 – Add practice quiz and exam for the course  
- Here are the detailed steps on [**how to add quizzes and exams**](https://microsoftindia.document360.io/docs/create-practice-course-and-exam)  for the course on the portal. 
+### Step 4 – Add practice quiz and exam for the course
+ Here are the detailed steps on [**how to add quizzes and exams**](https://microsoftindia.document360.io/docs/create-practice-course-and-exam) for the course on the portal.
  
-#### Step 5 – Publish the course for the learners  
- Here are the detailed steps on [**how to publish a course**](https://microsoftindia.document360.io/docs/publishing-course)  for the learners on the portal. 
+### Step 5 – Publish the course for the learners  
+ Here are the detailed steps on [**how to publish a course**](https://microsoftindia.document360.io/docs/publishing-course) for the learners on the portal.
 
-#### Step 6 – Create a new Learning path
-Here are the detailed steps on [**how to create a new Learning path** ](/v1/docs/create-a-learning-path) for the learners on the portal. 
+### Step 6 – Create a new Learning path
+Here are the detailed steps on [**how to create a new Learning path** ](../content-management/create-content/create-learning-path/2_create-a-learning-path) for the learners on the portal.
 
 #### Step 7 – Add courses to the Learning path
-Here are the detailed steps to [**add courses to the Learning path**](/v1/docs/add-course-to-a-learning-path) for the learners on the portal. 
+Here are the detailed steps to [**add courses to the Learning path**](../content-management/create-content/create-learning-path/3_add-course-to-a-learning-path) for the learners on the portal.
 
-#### Step 8 – Publish the Learning path  
-Here are the detailed steps on [**how to publish a Learning path**](/v1/docs/publish-a-learning-path-on-the-portal).  
+### Step 8 – Publish the Learning path  
+Here are the detailed steps on [**how to publish a Learning path**](../content-management/create-content/create-learning-path/4_publish-a-learning-path-on-the-portal).  
 
 ## View content analytics to track and measure effectiveness
 
-Microsoft Community Training platform provides out of the box rich analytics for organizations to track overall learner’s enrollment and completion for different courses, measure learner’s performance and ensure quality of content in satisfactory and meets the success criteria set by the organization. 
+Microsoft Community Training platform provides out of the box rich analytics for organizations to track overall learner’s enrollment and completion for different courses, measure learner’s performance and ensure quality of content in satisfactory and meets the success criteria set by the organization.
 The management portal has content and user related in-built reports at [**category level**](https://docs.microsoftcommunitytraining.com/docs/category-view-report)  to help administrators track and measure effectiveness of the learning content.
 
-![Track analytics](../media/Track%20analytics.png){height="400" width="700"}
+![Track analytics](../media/Track%20analytics.png)
 
 ## Best practices to create courses on the portal
  
 1. Use [**bulk upload courses**](https://microsoftindia.document360.io/docs/create-a-new-course#steps-for-bulk-upload-courses-to-the-portal) to create multiple courses on the portal in few simple clicks  
 
-2.  For video lessons – keep the length of the video short i.e. 2-3 minutes for easy consumption    
+2.  For video lessons – keep the length of the video short i.e. 2-3 minutes for easy consumption
 
-3.  Categories and courses are alphabetically stacked, so it is best to use numbering 01, 02, 03, 04, 05 etc. 
+3.  Categories and courses are alphabetically stacked, so it is best to use numbering 01, 02, 03, 04, 05 etc.
 
 4.  Order of categories/courses can be changed by editing the name/number  
 
-5.  Only order of lessons is user defined and can be manually moved up/down. 
+5.  Only order of lessons is user defined and can be manually moved up/down.
 
 6.  For quizzes and exams, keep the questions simple to help learners revise and retain the training lessons. It must cover key points of the lessons to keep learners engaged and encourage them to complete the course.

@@ -2,7 +2,10 @@
 title: Create a category
 original-url: https://docs.microsoftcommunitytraining.com/docs/create-a-category
 ---
-A **category** is a collection of courses on a specific topic. Categories help you organize your learning content for different learners. You can create a new category and add courses with lessons, practice quizzes and exams. 
+
+# Create a category
+
+A **category** is a collection of courses on a specific topic. Categories help you organize your learning content for different learners. You can create a new category and add courses with lessons, practice quizzes and exams.
 In this article, you will learn more about how to create a category, edit a category and delete a category in respective sections.
 
 ### Permissions Level
@@ -17,7 +20,7 @@ The Microsoft Community Training management portal provides role-based administr
 | Category Administrator | Yes |
 | Group Administrator | No |
 
-## Create a new category 
+## Create a new category
 In this topic, you will learn the simple steps to **Create Category** in the platform.
 
 1.	On the Microsoft Community Training portal, after login [**switch to administrator view**](https://microsoftindia.document360.io/docs/configure-platform#step-2--switch-to-administrator-view-of-the-portal).
@@ -25,18 +28,20 @@ In this topic, you will learn the simple steps to **Create Category** in the pla
 2.	Select the **Content** menu on the left bar and click on **Categories** tab
 
 3.	Select **New Category**, on the bottom-left of the page.
-  ![New category button](../../../media/New%20category%20button.png){height="40" width="140"}
-3.	Enter **Category name**. For example: the category name is *AI for agriculture.*
+
+  ![New category button](../../../media/New%20category%20button.png)
+
+4.	Enter **Category name**. For example: the category name is *AI for agriculture.*
 
 ![image.png](../../../media/image%28385%29.png)
 
+5.	Choose **Upload** option to open file picker and select an image file as **Category Thumbnail.**
 
-4.	Choose **Upload** option to open file picker and select an image file as **Category Thumbnail.**
+6.	Select the **Organization** for the category. By default, it is assigned to a default organization.
 
-5.	Select the **Organization** for the category. By default, it is assigned to a default organization. 
+7.	Click or tap on the **Create** button to create a new category.
 
-6.	Click or tap on the **Create** button to create a new category.
-
-@(Info)(Tips)(Recommended size for the thumbnail image is 320*180 px)
+> [!TIP]
+> Recommended size for the thumbnail image is 320*180 px
 
 **Next >** Once a category is created, you can [**add courses**](https://microsoftindia.document360.io/docs/create-a-course) under the category and upload content for the learning program.

@@ -11,7 +11,7 @@ To make it simple for new users to get started with Microsoft Community Training
  
 ## Step 1 – Login to the portal
  
-Click **Get Started** or **Sign In** button to create an account or login. You can Login with your mobile number, social account (aka email address) or Azure Active Directory account as defined at the [**time of deploying the platform**](../install-your-platform-instance/3_installation-guide-detailed-steps) from Azure marketplace.  
+Click **Get Started** or **Sign In** button to create an account or login. You can Login with your mobile number, social account (aka email address) or Azure Active Directory account as defined at the [**time of deploying the platform**](../infrastructure-management/install-your-platform-instance/3_installation-guide-detailed-steps) from Azure marketplace.  
 
 ![sign-in](../media/sign-in.png)
 
@@ -91,7 +91,7 @@ Here are some checklists for you to complete before you proceed with the rollout
 
 1. [**Customize the certificate template**](../settings/5_customize-the-certificate-template) awarded to the learners on the course completion  
 
-2. [**Create and publish the mobile app**](,,/infrastructure-management/install-your-platform-instance/5_create-publish-mobile-app) for the learning portal on the Google Play Store  
+2. [**Create and publish the mobile app**](../infrastructure-management/install-your-platform-instance/5_create-publish-mobile-app) for the learning portal on the Google Play Store  
 
 3. For delivering learning inside Microsoft Teams, [**create a Teams app**](../infrastructure-management/install-your-platform-instance/7_create-teams-app-for-your-training-portal) and pin as Training tab in Microsoft Teams via Office 365 admin portal.
 

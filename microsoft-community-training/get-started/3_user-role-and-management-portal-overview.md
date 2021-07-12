@@ -31,7 +31,7 @@ Here are the steps on [**how to assign global administrator permission to a user
 ### 2. Organization Administrator
 This role is assigned to owners of a specific organization. An **Organization** on the Microsoft Community Platform is a set of learners and administrators who have a particular purpose or belong to a specific criteria viz. location, job function, interest etc. The organization administrator can use the management portal to manage content and users for its organization. 
 
-Here are the steps on [**how to assign organization administrator permission to a user**](../user-management/add-users/3_add-an-administrtor-to-the-portal).
+Here are the steps on [**how to assign organization administrator permission to a user**](../user-management/add-users/3_add-an-administrator-to-the-portal).
  
 ### 3. Content Administrator
 This role is assigned to a content expert who is responsible for creating, managing and reviewing courses on the management portal for the training program. There are two levels of content administrator in the management portal: 

@@ -29,6 +29,6 @@ We recommend administrators to go through the following checklist before publish
 1.	Click or tap ![View](../../../media/View.png)  **View as Learner** icon on top right of the course details page to get a preview and experience how the learners woud see and consume the course content whenever they login.  
 
 2.	Rearrange the structure of the course and lesson sequence using simple drag and drop operation.
-![move courses-final \(003\)](../../../media/move%20courses-final%20%28003%29%281%29.gif?branch=main)
+![move courses-final \(003\)](../../media/move-courses-final.gif)
 
 3. Click or tap **Publish** on right-navigation of the page to publish the course to the learners.

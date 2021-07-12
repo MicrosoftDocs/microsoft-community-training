@@ -84,6 +84,3 @@ Before you begin, please create a group using the steps mentioned [**in this art
 
 > [!IMPORTANT]
 > In case, platform is setup with **Social Account** or **Azure Active Directory** as login identity then you will need to enter email address in the above step.
-
-> [!div class="nextstepaction"]
-> [Azure Windows virtual machine tutorials](./tutorial-manage-vm.md)

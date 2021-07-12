@@ -118,7 +118,7 @@ Here are the detailed steps on [**how to publish a Learning path**](../content-m
 ## View content analytics to track and measure effectiveness
 
 Microsoft Community Training platform provides out of the box rich analytics for organizations to track overall learner’s enrollment and completion for different courses, measure learner’s performance and ensure quality of content in satisfactory and meets the success criteria set by the organization.
-The management portal has content and user related in-built reports at [**category level**](https://docs.microsoftcommunitytraining.com/docs/category-view-report)  to help administrators track and measure effectiveness of the learning content.
+The management portal has content and user related in-built reports at [**category level**](../analytics/in-built-reports/3_category-view-report)  to help administrators track and measure effectiveness of the learning content.
 
 ![Track analytics](../media/Track%20analytics.png)
 

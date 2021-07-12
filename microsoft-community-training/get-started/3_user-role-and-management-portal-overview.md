@@ -70,7 +70,7 @@ Here are the steps on [**how to assign group administrator permission to a user*
 
 This is the default role assigned to any user added to the portal. User with this role permission can only view and consume the learning content and don’t have access to the administrative functionalities on the platform. 
 
-Here are steps on [how to navigate the portal as a Learner](/v1/docs/web-app).
+Here are steps on [how to navigate the portal as a Learner](../learner-experience/2_web-app).
 
 > [!IMPORTANT]
 > There is no restriction on the number of users you can add in the portal for a given administrative role. For e.g. you can have multiple global administrators for the portal

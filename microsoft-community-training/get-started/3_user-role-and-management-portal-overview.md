@@ -23,7 +23,7 @@ To execute these functions, the platform provides a role-based hierarchy of admi
 
 This role is assigned to decision makers or program owners who are responsible for the overall execution, monitoring and success of the training program. The global administrator can use the management portal to create content, manage users, enroll learners to courses, use reports & analytics, and customize the portal for branding purposes. 
 
-Here are the steps on [**how to assign global administrator permission to a user**](../user-management/add-users/3_add-an-administrator-to-the-porta)
+Here are the steps on [**how to assign global administrator permission to a user**](../user-management/add-users/3_add-an-administrator-to-the-portal)
 
 > [!IMPORTANT]
 > Except for portal branding and profile page customization, global administrator can delegate all the other activities like content management and user management to other administators on the portal.

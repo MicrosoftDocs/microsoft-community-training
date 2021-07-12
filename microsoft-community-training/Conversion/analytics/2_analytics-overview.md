@@ -7,8 +7,6 @@ original-url: https://docs.microsoftcommunitytraining.com/docs/analytics-overvie
 
 Microsoft Community Training platform provides out of the box rich analytics for tracking progress in learning, course completion and engagement and performance of learners. These insights enable the administrators to monitor progress and improvise training programs. Analytics empower the organization to make improved decisions about their training program which is always supported by data and behavior of users, thus enabling smart program administration.
 
-![image.png](../media/image%28430%29.png)
-
 ## Role-based admin access to analytics
 
 Analytics on the management portal is accessible to Global Admins, Organization Admins, Learning Path Admins, Category Admins, Course Admins and Group Admins. Depending upon the administrative role, users will have access to relevant reports and dashboards on the platform.
@@ -23,15 +21,15 @@ Here is the high-level comparison of analytics information available to differen
 
 To provide a rich out of the box experience to an admin, Microsoft Community Training platform provides different views, designed to facilitate tracking learner progress and program monitoring at various levels:
 
-1. [**Overall Summary**](./in-built-reports/2_overall-summary) - Provides a high-level picture of learner enrolments and course completion
+1. [**Overall Summary**](../in-built-reports/2_overall-summary) - Provides a high-level picture of learner enrolments and course completion
 
-2. [**Category Analytics**](./in-built-reports/3_category-view-report) - Allows an admin to track the progress of various courses in a category
+2. [**Category Analytics**](../in-built-reports/3_category-view-report) - Allows an admin to track the progress of various courses in a category
 
-3. [**Course Analytics**](./in-built-reports/4_course-view-report) - Allows an admin to track the course progress
+3. [**Course Analytics**](../in-built-reports/4_course-view-report) - Allows an admin to track the course progress
 
-4. [**Group Analytics**](./in-built-reports/5_group-view-report) - Allows an admin to view the progress of a group of users
+4. [**Group Analytics**](../in-built-reports/5_group-view-report) - Allows an admin to view the progress of a group of users
 
-5. [**Individual Learner’s Report Card**](./in-built-reports/6_learner-report-card-view) - Allows an admin to view the progress of a learner in all the different courses
+5. [**Individual Learner’s Report Card**](../in-built-reports/6_learner-report-card-view) - Allows an admin to view the progress of a learner in all the different courses
 
 <!-- ## Advanced Search in Analytics
 

@@ -52,7 +52,7 @@ All the courses in the platform are created under a category. These catego
 
 ![Upload content to portal](../media/Upload%20content%20to%20portal.png)
 
-To add learning material into your training portal, first you need to [**define a category**](../content-management/create-content/create-course-category/2_create-a-categoryy)  and [**create courses under the category**](https://microsoftindia.document360.io/docs/create-a-course-category). This can be done from the **Content Tab** in the management portal. When you create a new course, remember the following: 
+To add learning material into your training portal, first you need to [**define a category**](../content-management/create-content/create-course-category/2_create-a-category)  and [**create courses under the category**](https://microsoftindia.document360.io/docs/create-a-course-category). This can be done from the **Content Tab** in the management portal. When you create a new course, remember the following: 
 
 1. The course name should simple and clear. Users should instantly understand the topic of the course upon reading the title. 
 
@@ -77,7 +77,7 @@ In case you have to onboard and manage a large user base, [**create groups**](ht
  
 Here are some best practices to follow to ease user management on the portal: 
 
-1. [**Assign administrators**](../user-management/add-users/3_add-an-administrator-to-the-portal#add-a-group-administrator-to-the-portal) to delegate administrative tasks like user onboarding and course enrollment to the ground level facilitator or supervisors. Facilitators/Supervisors can track and monitor course activities of all the learners in their group and [**send reminders**](../user-management/manage-users/3_send-announcement-to-the-users) to drive completion.  
+1. [**Assign administrators**](../user-management/add-users/3_add-an-administrator-to-the-portal) to delegate administrative tasks like user onboarding and course enrollment to the ground level facilitator or supervisors. Facilitators/Supervisors can track and monitor course activities of all the learners in their group and [**send reminders**](../user-management/manage-users/3_send-announcement-to-the-users) to drive completion.  
 
 2. Leverage user profile information to [**create rules and automatically add users**](../user-management/organize-users/5_setup-automatic-user-enrollment-for-a-group-1) to different groups at the time of sign up and assign courses  
 

@@ -2,6 +2,9 @@
 title: Login Types and User Identity
 original-url: https://docs.microsoftcommunitytraining.com/docs/faqs-user-management
 ---
+
+# Login Types and User Identity
+
 ## Types of login identities 
 
 #### What kind of login identity is supported by Microsoft Community Training platform?
@@ -15,7 +18,8 @@ Currently, there are 3 forms of login identity supported in the platform out of 
 
 Apart from the out-of-box identities, platform can integrate with any existing OAuth 2.0, OpenID Connect or SAML based authenticate service for login. For more information, reach out us [**via helpdesk**](https://go.microsoft.com/fwlink/?linkid=2104630). 
 
-@(Info)(Note)(Organization can use only 1 of the identity type for login purpose.)
+> [!NOTE]  
+> Organization can use only 1 of the identity type for login purpose.
 
 
 #### I want to use Microsoft Community Training platform for both my internal and external workforces training. How can I configure the platform for such scenarios?
@@ -59,7 +63,7 @@ Every time when a user logs in using their mobile number he or she will receive 
 #### What makes Microsoft Community Training secure if anyone with a valid phone number or email address can access the platform? How can I prevent access to course content in such scenarios? 
 There are often scenarios when an organization wants to restrict portal access only to their internal workforces, identified communities or an existing list of learners.  In such scenarios, admins can use the Restricted User Access setting in the management portal to prevent users outside of the organization from logging into the portal. 
 
-When this setting is enabled, only users that are added or imported to the portal by the organization will be allowed to access the portal. Please refer [**this article**](https://docs.microsoftcommunitytraining.com/docs/restrict-portal-access-to-users-outside-your-organization) to learn how to restrict access to your learning portal.
+When this setting is enabled, only users that are added or imported to the portal by the organization will be allowed to access the portal. Please refer [**this article**](../settings/3_restrict-portal-access-to-users-outside-your-organization) to learn how to restrict access to your learning portal.
 
 
 #### For phone based login, my learners are unable to receive One Time Password (OTP)? What should I do? 
@@ -79,13 +83,13 @@ Post which, admins can us [**via helpdesk**](https://go.microsoft.com/fwlink/?li
 ## Email address login
 
 #### How  to configure social account or email-based login on the Microsoft Community Training platform?
-Refer to [**this article**](https://docs.microsoftcommunitytraining.com/docs/configure-login-social-work-school-account), to understand how  to configure social account and email-based login for the Microsoft Community Training  platform.
+Refer to [**this article**](../infrastructure-management/install-your-platform-instance/4_configure-login-social-work-school-account), to understand how  to configure social account and email-based login for the Microsoft Community Training  platform.
 
 
 #### Can I allow my users to login via social media accounts such as Google & Facebook?
 To enable Google and Facebook login for Microsoft Community Training instance, you need to setup the platform with Azure AD B2C (i.e. social account option) at the time of deployment. Post which, you can add Google and Facebook as IDP provider on your Azure AD B2C tenant. For more information, checkout the links below:
 
-1. [**Setting up Microsoft Community Training with Azure AD B2C**](https://docs.microsoftcommunitytraining.com/docs/configure-login-social-work-school-account)
+1. [**Setting up Microsoft Community Training with Azure AD B2C**](../infrastructure-management/install-your-platform-instance/4_configure-login-social-work-school-account)
 2. [**Setup sign in with Google in Azure AD B2C**](https://docs.microsoft.com/en-us/azure/active-directory-b2c/identity-provider-google)
 
 
@@ -101,7 +105,7 @@ For more information, please contact us [**via Helpdesk**](https://go.microsoft.
 ## SSO & Integration with external IDP
 
 #### How can I setup Single Sign On for Microsoft Community Training platform with an existing identity provider?
-Microsoft Community Training (Microsoft community training) platform supports all the standard OAuth 2.0 and OpenID connect auth service provider and Single Sign-On can be enabled between the existing system and Microsoft community training platform seamlessly. See the [**deployment guide for more details**](https://docs.microsoftcommunitytraining.com/docs/configure-login-social-work-school-account#social-account-or-email-based-authentication). 
+Microsoft Community Training (Microsoft community training) platform supports all the standard OAuth 2.0 and OpenID connect auth service provider and Single Sign-On can be enabled between the existing system and Microsoft community training platform seamlessly. See the [**deployment guide for more details**](../infrastructure-management/install-your-platform-instance/4_configure-login-social-work-school-account#social-account-or-email-based-authentication). 
 
 In case of the existing identity system is not OAuth2.0 / OpenID connect based then enabling Single Sign On between Microsoft community training and the existing system will require custom work as highlighted flow diagram below. Please raise a support ticket for more information and kick start the SSO discussion.   
 
@@ -112,7 +116,7 @@ For all queries regarding SSO and/or custom login, contact us via  **[Helpdesk](
 #### I am already using OKTA for managing my workforces. How can I enable SSO with Microsoft Community Training?
 Microsoft Community Training supports single sign on with OKTA. To enable this, you must set up your platform with Azure AD B2C (aka social account login) and add OKTA as IDP provider on your Azure AD B2C tenant. For more details see below article:
 
-1. [**Setting up Microsoft Community Training with Azure AD B2C**](https://docs.microsoftcommunitytraining.com/docs/configure-login-social-work-school-account)
+1. [**Setting up Microsoft Community Training with Azure AD B2C**](../infrastructure-management/install-your-platform-instance/4_configure-login-social-work-school-account)
 2. [**Setup sign in with OKTA in Azure AD B2C**](https://docs.microsoft.com/en-us/azure/active-directory-b2c/identity-provider-generic-openid-connect)
 
 #### Does Microsoft Community Training support any OAuth2.0 or SAML based identity provider?
@@ -130,33 +134,35 @@ Microsoft Community Training platforms allow two ways of setting up user registr
 
 2. **Restrict to  your community or organization**: In this mode, organizations  can decide who can access the platform and restrict platform access to only known list of users. . 
 
-For more details, checkout **[this article](https://docs.microsoftcommunitytraining.com/v1/docs/restrict-portal-access-to-users-outside-your-organization)**. 
+For more details, checkout **[this article](../settings/3_restrict-portal-access-to-users-outside-your-organization)**. 
 
 #### How do we prevent access to the platform once the user leaves the organization? 
-You can delete a user from the platform once he or she leaves the organization. Refer [**this article**](https://docs.microsoftcommunitytraining.com/docs/remove-user-from-the-portal) to learn how.
+You can delete a user from the platform once he or she leaves the organization. Refer [**this article**](../user-management/manage-users/5_remove-user-from-the-portal) to learn how.
 
 
 #### Can a non-logged in user view my course content? 
 No, Microsoft Community Training platform requires users to be logged in to the portal before they are allowed to view the course content. 
 
 #### How do I prevent users outside my organization from accessing the platform? I don't want outside users to access the content on the platform 	
-We provide you a way to restrict users from the platform. 
-Refer **[this article](https://docs.microsoftcommunitytraining.com/docs/restrict-portal-access-to-users-outside-your-organization)** to learn how.
+We provide you a way to restrict users from the platform.
+
+Refer **[this article](../settings/3_restrict-portal-access-to-users-outside-your-organization)** to learn how.
 
 
 #### Can I pre-register users on the platform and limit portal access to only these users?
 You can pre-register users by importing your existing users' database to the Microsoft community training portal. 
 
-For more information, **[refer here](https://docs.microsoftcommunitytraining.com/docs/restrict-portal-access-to-users-outside-your-organization)**.
+For more information, **[refer here](../settings/3_restrict-portal-access-to-users-outside-your-organization)**.
 
 
 #### I have a list of users in my database and I want to restrict my training portal to only these list of users  
 Organizations can restrict portal access only to their internal workforces, identified communities or an existing list of leaners.
+
 For example, a large manufacturing company has created product training courses for its sales and services workforce in the organization. They have set up the platform with Phone Number as an identity for the training program. 
 
 Since these training courses are meant only for internal employees, admins can use the Restricted User Access setting in the management portal to prevent users outside of the organization from logging into the portal. When this setting is enabled, only users that are added or imported to the portal by the organization will be allowed to access the portal. 
 
-For more information, **[refer here](https://docs.microsoftcommunitytraining.com/docs/restrict-portal-access-to-users-outside-your-organization)**
+For more information, **[refer here](../settings/3_restrict-portal-access-to-users-outside-your-organization)**
 
     
 #### Where are the learners data such as name, email ID & phone number saved? 

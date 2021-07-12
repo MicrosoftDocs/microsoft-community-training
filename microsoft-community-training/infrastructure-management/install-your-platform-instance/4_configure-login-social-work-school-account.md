@@ -2,12 +2,15 @@
 title: Configure login identity for the platform
 original-url: https://docs.microsoftcommunitytraining.com/docs/configure-login-social-work-school-account
 ---
+
+# Configure login identity for the platform
+
 Microsoft Community Training platform provides three types of login:
 1. Phone number
 2. Social email-based login via your Microsoft, Google or Facebook account
 3. Microsoft Work or School account
 
-@(Info)(Note)(Please note this article is in continuation of the [**installation article**](https://docs.microsoftcommunitytraining.com/docs/installation-guide-detailed-steps).)
+@(Info)(Note)(Please note this article is in continuation of the [**installation article**](../../infrastructure-management/install-your-platform-instance/3_installation-guide-detailed-steps).)
 
 In this article, we will walk you through on how to configure login identity for the platform.
  
@@ -88,7 +91,7 @@ Here are the steps an create on Azure AD B2C tenant and link the same with your 
 
 5.	Go to Azure Active Directory from the left menu of your Azure portal, click on Domain Names and copy the tenant name under Name to be required later for **Tenant Name**. For example, if the default domain for your Azure AD tenant is **contoso.onmicrosoft.com**, then enter **contoso**. 
 
-6. Next continue from **Step 9** in  the [**installation article**](https://docs.microsoftcommunitytraining.com/docs/installation-guide-detailed-steps).
+6. Next continue from **Step 9** in  the [**installation article**](../../infrastructure-management/install-your-platform-instance/3_installation-guide-detailed-steps).
 
 ### 2. Configure you Local Account
 You can configure local account for your training portal by following the instructions below:
@@ -145,5 +148,5 @@ The script asks for the following two inputs:
 The AAD script takes ~2 minutes to run and outputs 4 values on screen (Client ID, Client Secret, Tenant Id, Tenant name). Make a note of the output values as they will be needed in next step. If someone else ran the script, ask them to share this output.
 A new app is created. If an app already exists with the same name, the script will delete the existing app and create a new app. 
 
-### Step 3 - Next continue from **Step 9** in  the [**installation article**](https://docs.microsoftcommunitytraining.com/docs/installation-guide-detailed-steps).
+### Step 3 - Next continue from **Step 9** in  the [**installation article**](../../infrastructure-management/install-your-platform-instance/3_installation-guide-detailed-steps).
 Provide the output values from the script executed in step 2

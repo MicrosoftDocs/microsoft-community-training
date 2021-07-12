@@ -2,6 +2,9 @@
 title: Backup, Security & Privacy
 original-url: https://docs.microsoftcommunitytraining.com/docs/security-and-privacy
 ---
+
+# Backup, Security & Privacy
+
 ## Data storage and ownership
 
 #### Where is the solution running from? Can it be hosted on any public cloud?
@@ -23,7 +26,7 @@ Microsoft community training can ensure that in case of unforeseen failures and 
 
 Since Microsoft Community Training is a managed application, back up and replication is not enabled by default. Customers can enable backup/replication of the data to the data center region of their choice
 
-Refer to [**this article**](https://docs.microsoftcommunitytraining.com/v1/docs/business-continuity-and-disaster-recovery-for-your-platform-instance) to learn more. 
+Refer to [**this article**](../infrastructure-management/configure-your-platform-infrastructure/5_business-continuity-and-disaster-recovery-for-your-platform-instance) to learn more. 
 
 #### What is the backup policy?
 Customers can configure the **[backup frequency and policy](https://docs.microsoft.com/en-us/azure/backup/backup-azure-manage-vms#manage-backup-policy-for-a-vm)**. From the product team perspective, we recommend customers to do daily a backup.  
@@ -41,7 +44,7 @@ For more details on Transfer Data Encryption, please visit [**this article**](ht
 
 #### Can the customer use their own encryption keys for data encryption?
 
-Currently, we use the default encryption key (256-bit AES encryption) provided by the Azure Services such as Azure SQL, Azure Blob Storage, etc. 
+Currently, we use the default encryption key (256-bit AES encryption) provided by the Azure Services such as Azure SQL, Azure Blob Storage, etc.  
 Customer can use their own encryption key features by the underlying Azure services if required. For more details, please check out [**Azure SQL TDE with customer-managed key**](https://docs.microsoft.com/en-us/azure/sql-database/transparent-data-encryption-byok-azure-sql), [**Azure Storage encryption for data at rest**](https://docs.microsoft.com/en-us/azure/storage/common/storage-service-encryption) and [**configure customer-managed keys**](https://docs.microsoft.com/en-us/azure/storage/common/storage-encryption-keys-portal). 
 
 
@@ -92,36 +95,37 @@ Customer content on the Azure blob storage and Azure SQL databases are highly se
 
 Lastly, Azure web app is secured against external attacks by following best practices in building scalable server applications. 
 
-Here are some of the key things we do to secure the platform: 
+Here are some of the key things we do to secure the platform:  
 a.	We use encryption in Transit to ensure the data over a network over API calls can’t be tampered with
 
 b.	Always use of Secure connections (HTTPS)
 
 c.	Use the latest TLS standards (TLS 1.2) to ensure the Transport Layer Security is foolproof
 
-d.	DDOS attacks are prevented using configuration settings in the Azure Web App service. For more details, please visit the following documents:
-    i.	[**Azure DDOS protection service preview**](https://azure.microsoft.com/en-in/services/ddos-protection/)
-    ii.	[**Dynamic IP Security**](https://docs.microsoft.com/en-us/iis/configuration/system.webserver/security/dynamicipsecurity/)
+d.	DDOS attacks are prevented using configuration settings in the Azure Web App service. For more details, please visit the following documents:  
+    i. [**Azure DDOS protection service preview**](https://azure.microsoft.com/en-in/services/ddos-protection/)  
+    ii. [**Dynamic IP Security**](https://docs.microsoft.com/en-us/iis/configuration/system.webserver/security/dynamicipsecurity/)
 
 
 #### How are feature and security updates applied to the platform? What is the update frequency?
-We release monthly updates to the platform. Since the Microsoft Community Training platform will be deployed as a managed app, all the platform updates will be pushed directly by Microsoft without any intervention required by the customer. For more details, please visit [**this article**](https://docs.microsoftcommunitytraining.com/docs/installation-overview).
+We release monthly updates to the platform. Since the Microsoft Community Training platform will be deployed as a managed app, all the platform updates will be pushed directly by Microsoft without any intervention required by the customer. For more details, please visit [**this article**](../infrastructure-management/install-your-platform-instance/2_installation-overview).
 
 
 #### How to view my Azure portals Secret Key vault?
 Please follow the below steps to view / access your Azure key vault
-    •	Login to your [**Azure portal**](https://portal.azure.com/)
-    •	Select the Key Vault in your resource group which is used to create the Microsoft Community Training application
-    •	Select **‘Access policies’**
-    •	Select **‘Add Access policy’** button
-    •	Select **All from the drop down** for – Key permissions, Secret permissions and certificate permission
-    •	Select principal then select your username and click ‘Select button’
-    •	Authorized application field – please **leave it empty** and it’s not mandatory
-    •	**Select Add** and Save the policy
-    •	Now **go to ‘Secrets’** and Refresh
-    •	Select the Secret name
-    •	Select the current version displayed in the window
-    •	Using the **‘Copy to clipboard’** button copy the secret which is the last masked field
+
+* Login to your [**Azure portal**](https://portal.azure.com/)
+* Select the Key Vault in your resource group which is used to create the Microsoft Community Training application
+* Select **‘Access policies’**
+* Select **‘Add Access policy’** button
+* Select **All from the drop down** for – Key permissions, Secret permissions and certificate permission
+* Select principal then select your username and click ‘Select button’
+* Authorized application field – please **leave it empty** and it’s not mandatory
+* **Select Add** and Save the policy
+* Now **go to ‘Secrets’** and Refresh
+* Select the Secret name
+* Select the current version displayed in the window
+* Using the **‘Copy to clipboard’** button copy the secret which is the last masked field
 
 #### Does the mobile app on Android support EMS/MDM polices via Intune? 
 Microsoft Community Training doesn’t support (aka honor) any Intune policies. We don’t differentiate between managed or unmanaged devices i.e. none of the MDM policies are applicable to the mobile app. 

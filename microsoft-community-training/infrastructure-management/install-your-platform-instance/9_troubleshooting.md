@@ -2,6 +2,9 @@
 title: Troubleshooting Guide
 original-url: https://docs.microsoftcommunitytraining.com/docs/troubleshooting
 ---
+
+# Troubleshooting Guide
+
 It is possible that installation may fail for a variety of reasons. If you're in doubt about any field value you have entered during installation, reach out to us with your query and our support team will contact you.
 
 If you are facing any of the issues below, follow the instructions given to troubleshoot.
@@ -94,4 +97,4 @@ Please follow the steps mentioned below to manually register the CDN resource pr
 •	Select **Resource providers** and view the list of available resource providers.
 •	Registering a resource provider configures your subscription to work with the resource provider. The scope for registration is always the subscription. To **register a resource provider (Microsoft.Cdn)**, select Register.
 
-Next > [**Delete the Resource Group**](https://docs.microsoftcommunitytraining.com/docs/delete-your-training-instance) created for failed deployment and restart the [**installation process**](https://docs.microsoftcommunitytraining.com/docs/installation-guide-detailed-steps) from the begining.
+Next > [**Delete the Resource Group**](../../infrastructure-management/configure-your-platform-infrastructure/6_delete-your-training-instance) created for failed deployment and restart the [**installation process**](../../infrastructure-management/install-your-platform-instance/3_installation-guide-detailed-steps) from the begining.

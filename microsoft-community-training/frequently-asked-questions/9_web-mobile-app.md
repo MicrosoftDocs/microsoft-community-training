@@ -2,16 +2,19 @@
 title: Web & Mobile App
 original-url: https://docs.microsoftcommunitytraining.com/docs/web-mobile-app
 ---
+
+# Web & Mobile App
+
 ## Learner experience
 
 #### It takes too much time to open the website on my browser / portal is responding very slowly 	
-It is possible that your infrastructure is unable to handle the high traffic load. Refer **[this article](https://docs.microsoftcommunitytraining.com/docs/scale-up-instance-configuration)** to upscale your platform and meet your growing needs.
+It is possible that your infrastructure is unable to handle the high traffic load. Refer **[this article](../infrastructure-management/configure-your-platform-infrastructure/4_scale-up-instance-configuration)** to upscale your platform and meet your growing needs.
 
 #### I can't open external links embedded inside the PDF document in the platform. 
 For security reasons, we have disabled clicking on external links for the PDF document on the platform. Hence, you should not add any  link in PDF lesson file. 
 
 #### Can learners change/update user profile fields ?
-Learners can change/update profile fields via profile section in the learners portal. Administrator can change these values via the bulk upload functionality. Refer [**this article**](https://docs.microsoftcommunitytraining.com/docs/add-multiple-users-to-the-group#steps-to-bulk-upload-users-to-specific-group) for more information. 
+Learners can change/update profile fields via profile section in the learners portal. Administrator can change these values via the bulk upload functionality. Refer [**this article**](../user-management/organize-users/4_add-multiple-users-to-the-group#steps-to-bulk-upload-users-to-specific-group) for more information. 
 
 
 
@@ -27,9 +30,10 @@ Microsoft Community Training platform is designed to be lightweight and supports
 
 #### How can learners search for courses on the platform? 
 After successful login, learners can see all the courses to which he or she has registered for and their completion status.
- Users can also browse the course library and register for more courses as required. 
+
+Users can also browse the course library and register for more courses as required. 
  
-For further information [**refer here**](https://docs.microsoftcommunitytraining.com/docs/mobile)
+For further information [**refer here**](../learner-experience/3_mobile)
  
 
 
@@ -38,15 +42,15 @@ For further information [**refer here**](https://docs.microsoftcommunitytraining
 #### How to restrict users to view the courses until they sign in?
 There are two ways to achieve this:
 
-1. Create a custom home page 
+1. Create a custom home page  
+   
+   You can create a custom HTML landing page with login button. The landing page can be designed to have any information about your organization or training program. When user selects login, you can direct them to our sign in flow and on successful login, users will shown the My Course Page.
 
-You can create a custom HTML landing page with login button. The landing page can be designed to have any information about your organization or training program. When user selects login, you can direct them to our sign in flow and on successful login, users will shown the My Course Page.
-
-2. Mark all the course as admin only by following the below steps
-•	Login to Management portal as administrator with access to the courses
-•	Select the Course and click More (…) button 
-•	Select Edit course 
-•	In ‘Learner Enrollment’ options select ‘Only admin can enroll learners’
+2. Mark all the course as admin only by following the below steps  
+   * Login to Management portal as administrator with access to the courses
+   * Select the Course and click More (…) button 
+   * Select Edit course 
+   * In ‘Learner Enrollment’ options select ‘Only admin can enroll learners’
 
 #### Can learners create their own lesson plans? 
 No. Learners cannot create their own lesson plans. They can only go through course plan and lesson as defined by the trainer and administrator.
@@ -54,13 +58,14 @@ No. Learners cannot create their own lesson plans. They can only go through cour
  
 ####  What are the video playback controls available for Microsoft Community Training?
 We have the below-mentioned functions which are available on our inbuilt video player, 
-1.	Play & Pause
-2.	See Videos Progress
-3.	Turn Closed Captions on and off
-4.	Volume Adjustments 
-5.	Setting Video Quality based on the data bandwidth 
-6.	Viewing video on full screen.
-![image.png](../media/image%28310%29.png)
+1. Play & Pause
+2. See Videos Progress
+3. Turn Closed Captions on and off
+4. Volume Adjustments 
+5. Setting Video Quality based on the data bandwidth 
+6. Viewing video on full screen.
+
+   ![image.png](../media/image%28310%29.png)
 
 
 #### Can learners switch the audio language just like how they can select the subtitle language on the web and mobile app?
@@ -115,7 +120,7 @@ Learners can download content on their mobile app by clicking on the download ic
 #### What is the name of the Mobile application available on android?
 Just like a web app, a mobile app can also be customized and branded according to the organization's norms. You can provide the preferred app title while publishing the APK on your google play store account. 
 
-For more information [**refer here**](https://docs.microsoftcommunitytraining.com/docs/create-publish-mobile-app).
+For more information [**refer here**](../infrastructure-management/install-your-platform-instance/5_create-publish-mobile-app).
 
 
 #### How can I test mobile app before uploading the same to the Google Play Store?
@@ -127,9 +132,6 @@ As Android platform polices are subjected to change, we suggest you refer to [**
 
 #### How to restrict users from downloading course material on mobile app?
 Download functionality on the mobile app is turned on by default and cannot be disabled. However, the downloaded content can only be consumed within the app and are not accessible outside the mobile app. This ensures that learners won’t be able to share content with others.
-
-
-
 
 ## Discussion forum & announcement
 
@@ -144,7 +146,7 @@ Yes, you can disable the comment functionality from the lessons. Once disabled, 
 
 Microsoft Community Training platform has  a functionality called discussion forum which learners can use to ask questions to other participants, trainers or administrator. Anyone who is registered for the course (or admins) can respond to these questions. 
  
-Refer this [**article**](https://docs.microsoftcommunitytraining.com/docs/web-app#step-6-discuss-and-share-information-with-peers) for more information. 
+Refer this [**article**](../learner-experience/2_web-app#step-6-discuss-and-share-information-with-peers) for more information. 
 
 
 #### What is the Discussion Forum feature? 
@@ -154,6 +156,7 @@ Forum is open to all learners enrolled on the course where real-time Q & A can t
 
 #### How to access discussion forums on the platform? 
 Discussion Forums can be accessed from the course details page. By tapping the add a comment button from the top right corner of the course details page, discussion forum panel can be opened. See the  below screenshot:
+
 ![image.png](../media/image%28321%29.png)
 
 

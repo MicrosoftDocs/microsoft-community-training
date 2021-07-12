@@ -105,7 +105,7 @@ Please note - all content hosted in the content library is free of charge and pr
 #### How to request for teams manifest file?
 1. Create a support ticket on[ Microsoft Community Training Helpdesk](https://sangamhelpdesk.microsoftcrmportals.com/SignIn?ReturnUrl=%2Fsupport%2Fcreate-case%2F) for a Microsoft Teams app manifest for your training platform instance in the following format,
 
-![manifest](../media/manifest.JPG)
+   ![manifest](../media/manifest.JPG)
 
 2. Our team will provide you the Teams app manifest within 2-3 business days.
 
@@ -132,7 +132,7 @@ Yes, Microsoft Community Training platform comes with exhaustive instrumentation
 
 Apart from the inbuilt reports, customers can create dashboard and custom reports using third-party visualization tools such as Power BI. 
 
-For more information on analytics, check out [**this article**](./analytics/2_analytics-overview.
+For more information on analytics, check out [**this article**](../analytics/2_analytics-overview).
 
 ####  How to delete my training portal? 
 When you no longer need your training portal, you can delete it by deleting the resource group from the Azure portal. [Refer to this article](../infrastructure-management/configure-your-platform-infrastructure/6_delete-your-training-instance) for more details.  

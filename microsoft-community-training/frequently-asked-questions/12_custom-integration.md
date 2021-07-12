@@ -2,6 +2,9 @@
 title: Platform Extensibility & Integration
 original-url: https://docs.microsoftcommunitytraining.com/docs/custom-integration
 ---
+
+# Platform Extensibility & Integration
+
 ## Live meetings and webinars 
 
 #### Will I be able to conduct live training sessions using Microsoft Community Training platform?
@@ -35,10 +38,10 @@ Microsoft Community Training doesn't come with any out of box integrations with 
 
 ### Can I embed or integrate Microsoft Community Training to our existing mobile application?
 
-Yes, Customers can integrate Microsoft Community Training platform to their existing mobile application. 
+Yes, Customers can integrate Microsoft Community Training platform to their existing mobile application.  
 For example, you can add a 'Training' button on the home screen and clicking on the button will launch the Microsoft Community Training platform inside the existing app as a web view.
 
-Alternatively, you can also use [**REST APIs**](https://docs.microsoftcommunitytraining.com/docs/apis) to create your own learning experience within your existing app/service. 
+Alternatively, you can also use [**REST APIs**](../infrastructure-management/install-your-platform-instance/6_apis) to create your own learning experience within your existing app/service. 
 
 Please  contact us [**via Helpdesk**](https://go.microsoft.com/fwlink/?linkid=2104630) to get help on the integration.
 
@@ -55,9 +58,6 @@ E-Commerce and Payment  functionalities are not available on our platform out of
 Example: You will be able to integrate our APIs with your catalog page, whenever someone purchases a course, the learner can be enrolled to the respective courses. 
 
 For more details, reach out to us [**via helpdesk**](https://go.microsoft.com/fwlink/?linkid=2104630).
-
-
-
 
 ## Alerts and reminders
 
@@ -77,14 +77,12 @@ Microsoft community training does not have this function out of the box. However
 
 For more details, reach out to us [**via helpdesk**](https://go.microsoft.com/fwlink/?linkid=2104630).
 
-
-
 ## Rest APIs
 
 #### Are there any Rest APIs available for integration with existing systems or applications?
 Microsoft Community Training platform provides REST APIs to help organization integrate the platform with the existing system and consume training via custom endpoints such as your own mobile app or website. 
 
-For more information, [**refer here**](https://docs.microsoftcommunitytraining.com/docs/apis).
+For more information, [**refer here**](../infrastructure-management/install-your-platform-instance/6_apis).
 
 #### How can I sync / import users data from my existing system to Microsoft Community Training?	
 Contact us via **[Helpdesk](https://go.microsoft.com/fwlink/?linkid=2104630)** and leave your requirements in the ticket description. Our support team will reach out to you in 2-3 business days and help you with your syncing/importing users data from your existing system to your portal.

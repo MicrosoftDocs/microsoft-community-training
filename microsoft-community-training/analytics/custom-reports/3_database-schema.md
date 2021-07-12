@@ -13,19 +13,16 @@ In this article, you will learn more about the platform's database schema and it
 Following are the two ways to access the MCT Database,
 
 #### Method 1: Using Connection string
-Go to the MCT portal's SQL database from the Managed resource group (Find the dapclp-db-xxxxxxxxx SQL database).  
-Click on Setting -> Connection strings to get the connection strings for the SQL database, as in the below image,
-
+Go to the MCT portal's SQL database from the Managed resource group (Find the dapclp-db-xxxxxxxxx SQL database). 
+Click on Setting -> Connection strings to get the connection strings for the SQL database, as in the below image, 
 ![image.png](../../media/image%28346%29.png)
 
 #### Method 2: Use Username and Password (Online Azure query editor)
 Go to the MCT portal's SQL database from the Managed resource group (Find the dapclp-db-xxxxxxxxx SQL database).
 1. Select Query Editor
-
 ![image.png](../../media/image%28347%29.png)
 
 2. This query editor will ask for username and password that can be retrieved from key-vault. (Go to resource group and select key vault)
-
 ![image.png](../../media/image%28348%29.png)
 
 ## Accessing Key Vault 
@@ -55,9 +52,8 @@ Go the key vault. By default, user does not have access permission to view the k
 8. Select the password as shown in above screenshot.
 9. Then click on the current version, click on "Show Secret Value" button in the right pane, you can see the Password for the selected item
 
-> [!NOTE]  
+> ![NOTE] 
 > You may need to add your IP address in Firewall. 
-
 ![firewal select](../../media/firewal%20select.png)
 
 To add client IP, click on add client IP and select the save icon
@@ -65,9 +61,7 @@ To add client IP, click on add client IP and select the save icon
 
 ## Executing SQL Queries 
 1. To run a SQL query go to your Azure portal and click on **Query editor**
-
 ![image.png](../../media/image%28353%29.png)
 
 2. The admin to login to the above portal can be obtained from **Key vault**. See [accessing Key vaults](./3_database-schema#accessing-key-vault) section for more details. 
-
 ![image.png](../../media/image%28354%29.png)

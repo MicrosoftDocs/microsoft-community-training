@@ -2,6 +2,9 @@
 title: Pricing & Subscription
 original-url: https://docs.microsoftcommunitytraining.com/docs/pricing-subscription
 ---
+
+# Pricing & Subscription
+
 ## Azure Subscription
 
 #### My organization is not using Microsoft Azure. Can I still use Microsoft Community Training?
@@ -15,34 +18,35 @@ Currently, Microsoft Community Training uses Azure services which are not availa
 To learn more about how to create a pay-as-you-go subscription, [**refer this article**](https://azure.microsoft.com/en-in/pricing/purchase-options/pay-as-you-go/) on Azure documentation.
 
 #### I'm a non-profit organization. Can I avail any grant or sponsorship for using the training portal?
-If you’re a non-profit and would like to avail an Azure grant for using Microsoft Community Training platform, you can apply by referring **[this article](https://docs.microsoftcommunitytraining.com/docs/setup-platform-instance-on-azure-subscription-for-nonprofits)** and avail the grant subject to eligibility.
+If you’re a non-profit and would like to avail an Azure grant for using Microsoft Community Training platform, you can apply by referring **[this article](../infrastructure-management/install-your-platform-instance/10_setup-platform-instance-on-azure-subscription-for-nonprofits)** and avail the grant subject to eligibility.
 
 #### Can nonprofit organizations use their existing  Azure Credits towards Microsoft Community Training platform hosting cost?
 Nonprofit organization can receive $3500 worth of Azure credit from Microsoft, which can be used towards hosting of the Microsoft Community Training platform. 
 
 For more details on Microsoft Nonprofit offers, please check  [**this link**](https://nonprofit.microsoft.com/register).
 
-To redeem Azure grant and deploy the platform on sponsored subscription for nonprofits, refer to [**this article**](https://docs.microsoftcommunitytraining.com/docs/setup-platform-instance-on-azure-subscription-for-nonprofits).  
+To redeem Azure grant and deploy the platform on sponsored subscription for nonprofits, refer to [**this article**](../infrastructure-management/install-your-platform-instance/10_setup-platform-instance-on-azure-subscription-for-nonprofits).  
 
 #### For how long the Microsoft Azure grant for nonprofit is valid? Do we get it every year?
 The Azure credits for nonprofits is an annual grant - every year organizations  receives $3500 worth of Azure credit.  
 
 
 #### What are the Azure Services used by Microsoft Community Training platform?
-Here are the list of services that are used by the Microsoft Community Training platform: 	 
-•	Azure App Service 	
-•	Azure Blob Storage 	
-•	Azure Media Service 	
-•	Content Delivery Network 	
-•	Azure SQL Database 	
-•	Azure Key Vault 	
-•	Azure Application Insights
+Here are the list of services that are used by the Microsoft Community Training platform:
+ 
+* Azure App Service 	
+* Azure Blob Storage 	
+* Azure Media Service 	
+* Content Delivery Network 	
+* Azure SQL Database 	
+* Azure Key Vault 	
+* Azure Application Insights
 
 
 ## Pricing & Purchase
 
 #### How can customers buy Microsoft Community Training platform?
-Microsoft Community Training is now available in Public Preview and organizations can deploy the application on their Azure subscription from  Azure Marketplace. Refer **[this article](https://docs.microsoftcommunitytraining.com/docs/installation-overview )**  to learn more.
+Microsoft Community Training is now available in Public Preview and organizations can deploy the application on their Azure subscription from  Azure Marketplace. Refer **[this article](../infrastructure-management/install-your-platform-instance/2_installation-overview)**  to learn more.
 
 
 #### How much will I be charged to use Microsoft Community Training? What is the pricing model?
@@ -53,12 +57,12 @@ Refer to this [**pricing calculator**](https://communitytraining.microsoft.com/p
 #### What is the difference between basic and standard plans for Microsoft Community Training? 
 You will get the same set of features irrespective of configuration and plan you choose. The plan with determine the hardware configuration which will be used  to run the platform on the Azure cloud and different will only be w.r.t to the application performance. Here is our recommendation on when to use each plan:
 
-**Basic plan** is used when you have lower traffic requirements and limited training content on the platform. 
+**Basic plan** is used when you have lower traffic requirements and limited training content on the platform.
+
 **Standard plan** is used when you have higher traffic requirements and want to provide smooth user experience at scale
 
-:::(Warning) (Recommendation)
-We recommend customers to opt-in for a standard plan for superior user experience and application performance.
-:::
+> [!WARNING]  
+> We recommend customers to opt-in for a standard plan for superior user experience and application performance.
 
 #### Will I be charged license fee for Microsoft Community Training platform in the future? 
 Microsoft Community Training platform is in public preview right now. Currently, there are no plans to charge any licensing fee for the solution to existing or new customers. 

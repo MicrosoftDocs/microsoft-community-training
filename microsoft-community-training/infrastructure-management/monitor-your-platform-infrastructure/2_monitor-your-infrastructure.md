@@ -2,6 +2,9 @@
 title: Monitor your platform Infrastructure
 original-url: https://docs.microsoftcommunitytraining.com/docs/monitor-your-infrastructure
 ---
+
+# Monitor your platform Infrastructure
+
 ## Azure Consumption and Costs
 Your training portal is composed of various resources such as Azure SQL, Azure Media Service, Azure App Service etc. Each serve to provide your learners a complete learning experience. As your learners use the training portal, each of these resources get consumed and you get appropriately billed based on the usage. You can estimate your azure consumption cost for Microsoft Community Training platform [**here**](https://communitytraining.microsoft.com/pricing/). 
 

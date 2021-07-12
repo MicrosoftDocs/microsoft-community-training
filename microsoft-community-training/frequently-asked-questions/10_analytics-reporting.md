@@ -2,12 +2,15 @@
 title: Analytics & Reporting
 original-url: https://docs.microsoftcommunitytraining.com/docs/analytics-reporting
 ---
+
+# Analytics & Reporting
+
 ## Tracking learner progress and course completion 
 
 #### How to track learner’s progress on the Microsoft Community Training platform?
 Microsoft Community Training allows organizations to track and stay updated on learner's progress and performance scores through quizzes and exams. Customers can use the inbuilt analytics to track learners' engagements and progress. Also, individual learner’s progress can be tracked and downloaded. 
 
-For more information, [**refer here**](https://docs.microsoftcommunitytraining.com/docs/overall-summary).
+For more information, [**refer here**](../analytics/in-built-reports/2_overall-summary).
 
 #### Do learners have to watch the whole video for the lesson to be considered complete? 
 Video lessons are marked complete only after the learners have watched the video for the entire duration. However, if videos are coming from external links such as YouTube, it is marked complete the moment learners play it. 
@@ -24,13 +27,13 @@ Microsoft Community Training provides real-time course progress for both adminis
  
 * **Other external links** – Any other external links attached as a lesson or marked complete as soon as users open the external webpage and redirected. 
 
-**For the Learners** 
+**For the Learners**  
 Learners can view their overall course progress on the home page as shown in Fig 1. Also, in the course details page, a Green tick as seen in Fig 2 represents lesson completion. The grey colored lesson number indications that the lesson is yet to be taken or completed. 
 
 ![image.png](../media/image%28318%29.png)
 
-**For the Administrator**
-Administrator can view overall learner progress and course completion from the management portal. Check out [**this article**](https://docs.microsoftcommunitytraining.com/docs/analytics-overview) for more details. 
+**For the Administrator**  
+Administrator can view overall learner progress and course completion from the management portal. Check out [**this article**](../analytics/2_analytics-overview) for more details. 
 
 
 #### How is the course completion verified on the Microsoft Community Training? 
@@ -39,12 +42,12 @@ Microsoft Community Training can track when any content is played/consumed and r
 #### How learners progress will be tracked when learners are consuming content both of the web and mobile app?
 Learner's progress is seamlessly tracked and sync across devices both on the web and mobile app.
 
-**Web App**
+**Web App**  
 Learner using the platform via web are tracked in real-time as their course progresses. 
 
 Example: When a learner uses the platform via the web, the learners will be able to see his or her course progression percentage in real-time, also organizations will be able to track and view the learner’s progress and quizzes results. 
 
-**Mobile App**
+**Mobile App**  
 While the mobile platform works like the web, there are few changes to the tracking progress when learners download the video and consume then offline. The learner’s offline progress is stored locally and pushed to the server once they get connected to the internet. 
 
 Example: When a learner downloads the course content and consume it offline, all the course progress which includes quizzes and exams are stored locally on the learner's mobile storage. Once the learner gets connected to the internet all his stored progress gets synced with our platform.
@@ -81,15 +84,15 @@ For more information, contact us [**via the helpdesk**](https://go.microsoft.com
 
 To provide a rich out of the box experience to an admin, Microsoft Community Training platform provides different views, designed to facilitate tracking learner progress and program monitoring at various levels:
 
-1.	[**Overall Summary**](https://docs.microsoftcommunitytraining.com/docs/overall-summary) - Provides a high-level picture of learner enrolments and course completion 
+1.	[**Overall Summary**](../analytics/in-built-reports/2_overall-summary) - Provides a high-level picture of learner enrolments and course completion 
 
-2.	[**Category Analytics**](https://docs.microsoftcommunitytraining.com/docs/category-view-report) - Allows an admin to track the progress of various courses in a category
+2.	[**Category Analytics**](../analytics/in-built-reports/3_category-view-report) - Allows an admin to track the progress of various courses in a category
 
-3.	[**Course Analytics**](https://docs.microsoftcommunitytraining.com/docs/course-view-report) - Allows an admin to track the course progress
+3.	[**Course Analytics**](../analytics/in-built-reports/4_course-view-report) - Allows an admin to track the course progress
 
-4.	[**Group Analytics**](https://docs.microsoftcommunitytraining.com/docs/group-view-report) - Allows an admin to view the progress of a group of users
+4.	[**Group Analytics**](../analytics/in-built-reports/5_group-view-report) - Allows an admin to view the progress of a group of users
 
-5.	[**Individual Learner’s Report Card**](https://docs.microsoftcommunitytraining.com/docs/learner-report-card-view) - Allows an admin to view the progress of a learner in all the different courses
+5.	[**Individual Learner’s Report Card**](../analytics/in-built-reports/6_learner-report-card-view) - Allows an admin to view the progress of a learner in all the different courses
 
 
 #### How to check the number of learners enrolled in a course and course completion percentage?
@@ -97,38 +100,37 @@ Category/Course Analytics provides admin a glance at the learner enrolments, lea
 
 To access the course and category analytics, you can either select the View Analytics option from (…) More menu for a Category / Course under the Courses tab or select a specific row from the Category grid in the overall summary view page. 
 
-For more information, please [**refer here**](https://docs.microsoftcommunitytraining.com/docs/analytics-overview).
+For more information, please [**refer here**](../analytics/2_analytics-overview).
 
 
 #### How to view individual learners average quiz scores, courses enrolled, and completed? 
-From the group view grid you will be able to see user’s progress and quiz scores. Please [**refer here**](https://docs.microsoftcommunitytraining.com/docs/group-view-report) for more information.
+From the group view grid you will be able to see user’s progress and quiz scores. Please [**refer here**](../analytics/in-built-reports/5_group-view-report) for more information.
 
 #### How is the course completion  percentage computed for a learner? 
 Course completion percentage is computed based on the course items (including lesson, quizzes and exams) completed for a given course by the learners. For e.g. if we have 5 lessons in a course then post completion of each lesson course progress will be increased by 20%.
 
-:::(Info) (Note)
-Every course items in a course has equal weightage i.e. if there are 20 items for a course (including lesson, practice quiz and exams) then completion of each item will increase the course completion by 5%. 
-:::
-
-
+> [!NOTE]  
+> Every course items in a course has equal weightage i.e. if there are 20 items for a course (including lesson, practice quiz and exams) then completion of each item will increase the course completion by 5%. 
 
 #### How to view and download individual learners progress? 
 
 Learner Report Card View provides administrators to monitor and track each learner’s progress and performance across all the enrolled courses. This information helps administrators (especially group admins) track course completion and follow up with learners to drive adoption of the training program.
 
-To access the Learner Report Card View, you need to select a user from the group details page or All users list page. For more information, [**refer here**](https://docs.microsoftcommunitytraining.com/docs/learner-report-card-view).
+To access the Learner Report Card View, you need to select a user from the group details page or All users list page. For more information, [**refer here**](../analytics/in-built-reports/6_learner-report-card-view).
 
 
 #### What is the available file format to download the analytics? 
 Currently, administrators can download analytics in CSV format, Admins can also make use of Power BI integration to manipulate data as per their requirement.
 
-If you observe, that the data fields are not rendering correctly in the CSV downloaded file this is because of Unicode encoding in the file. We recommend to change the settings in the file to ensure that Arabic or other language values are displayed as expected in the document after export. 
+If you observe, that the data fields are not rendering correctly in the CSV downloaded file this is because of Unicode encoding in the file. We recommend to change the settings in the file to ensure that Arabic or other language values are displayed as expected in the document after export.
+
 Please use [this link](https://www.nextofwindows.com/how-to-display-csv-files-with-unicode-utf-8-encoding-in-excel) for details and also the steps to change the settings. 
 
 
 
 #### How to view and export users from Microsoft Community Training platform? 
 You can view and export all users on the portal from the administrator view, click on the user's tab, and select all users. By clicking on the download list, you will be able to export all the users on the portal. Refer below the image for clarity:
+
 ![image.png](../media/image%28319%29.png)
 
 #### How can I create custom report relevant to my organization?

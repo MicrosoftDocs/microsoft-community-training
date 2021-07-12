@@ -2,12 +2,15 @@
 title: Setup Microsoft Teams as learner's endpoint for the platform
 original-url: https://docs.microsoftcommunitytraining.com/docs/create-teams-app-for-your-training-portal
 ---
+
+# Setup Microsoft Teams as learner's endpoint for the platform
+
 Microsoft Community Training allows organization to enable online learning inside Microsoft Teams across web, mobile and desktop app. For more details on Microsoft Community Training platform integration with Microsoft Teams, [**visit our website**](https://communitytraining.microsoft.com/teams/). 
 
 In this article, we will walk you through the steps required to configure your instance with Microsoft Teams.
 
 ## Before you begin
-This article assumes you have followed the steps outlined in the [**installation article**](https://docs.microsoftcommunitytraining.com/docs/installation-guide-detailed-steps) and enabled Microsoft Teams as an endpoint during deployment from the marketplace. 
+This article assumes you have followed the steps outlined in the [**installation article**](../../infrastructure-management/install-your-platform-instance/3_installation-guide-detailed-steps) and enabled Microsoft Teams as an endpoint during deployment from the marketplace. 
 
 If you haven't, please follow the Installation steps first and then refer this article to configure Microsoft Teams for your instance. Make sure you have the teams app package.
 

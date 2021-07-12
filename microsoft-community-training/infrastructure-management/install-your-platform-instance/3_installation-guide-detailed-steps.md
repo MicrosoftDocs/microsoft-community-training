@@ -2,6 +2,9 @@
 title: Detailed step by step installation guide
 original-url: https://docs.microsoftcommunitytraining.com/docs/installation-guide-detailed-steps
 ---
+
+# Detailed step by step installation guide
+
 In this article, you’ll learn how to install and deploy Microsoft Community Training platform on your Azure subscription.
 
 ## Before you begin
@@ -11,7 +14,7 @@ Create a pay-as-you-go Azure subscription. To learn more about how to create it,
 
 If you have a free trial Azure subscription, please upgrade to a Pay-as-you-go Azure subscription. See the [**detailed steps here**](https://docs.microsoft.com/en-us/azure/billing/billing-upgrade-azure-subscription#upgrade-your-azure-free-account). **We currently do not support Microsoft Community Training on free trial Azure subscriptions.**
 
-@(Warning)(Tips)(If you’re a nonprofit organization who wants to use Microsoft Community Training platform, you can apply and avail the Azure grant subject to eligibility. See the [**detailed steps here**](https://docs.microsoftcommunitytraining.com/docs/setup-platform-instance-on-azure-subscription-for-nonprofits).)
+@(Warning)(Tips)(If you’re a nonprofit organization who wants to use Microsoft Community Training platform, you can apply and avail the Azure grant subject to eligibility. See the [**detailed steps here**](../../infrastructure-management/install-your-platform-instance/10_setup-platform-instance-on-azure-subscription-for-nonprofits).)
 
 ### 2.	Get the right ownership access 
 Get the ownership access to your pay-as-you-go Azure subscription. To learn more about how to get access, refer [**this article**](https://docs.microsoft.com/en-us/azure/role-based-access-control/overview) on Azure documentation. 
@@ -47,15 +50,15 @@ Get the ownership access to your pay-as-you-go Azure subscription. To learn more
 ![image.png](../../media/image%2897%29.png)
 
 8. The next section is **Setup your portal details**. Enter values as per the instructions below and click **OK**.
-    * ***Website Name*** - The name of your learning portal. For example, if you enter “Contoso”, your learning portal’s website URL will be of the form "https://contoso.azurefd.net". You can map the learning portal to a [**custom domain later**](https://docs.microsoftcommunitytraining.com/docs/setup-custom-domain-url).
+    * ***Website Name*** - The name of your learning portal. For example, if you enter “Contoso”, your learning portal’s website URL will be of the form "https://contoso.azurefd.net". You can map the learning portal to a [**custom domain later**](../../infrastructure-management/configure-your-platform-infrastructure/2_setup-custom-domain-url).
     * ***Contact email addresses*** - The email addresses you want to be contacted on for all information regarding getting started, updates to the platform, latest news etc. 
 
 ![image.png](../../media/image%28357%29.png)
 
 9. The next section is **Setup your login type** . Select Login type for your training portal.  Based on your selection, enter the following values:
     * Select **Mobile** if you want your learners to login using their mobile number. Enter org admin’s mobile number in the input field . You’ll use it to login for the first time.
-    * Select **Social Account** if you want your learners to login using their Facebook, Microsoft or Google account. Refer to the instructions from [**social account configuration guide**](https://docs.microsoftcommunitytraining.com/docs/configure-login-social-work-school-account#social-account-or-email-based-authentication) to enter the values requested.
-    * Select **Work or School Account** if you want your learners to login using their work or school account. Refer to the instructions from [**work or school account configuration guide**](https://docs.microsoftcommunitytraining.com/docs/configure-login-social-work-school-account#work-or-school-account-based-authentication) to enter the values requested.
+    * Select **Social Account** if you want your learners to login using their Facebook, Microsoft or Google account. Refer to the instructions from [**social account configuration guide**](../../infrastructure-management/install-your-platform-instance/4_configure-login-social-work-school-account#social-account-or-email-based-authentication) to enter the values requested.
+    * Select **Work or School Account** if you want your learners to login using their work or school account. Refer to the instructions from [**work or school account configuration guide**](../../infrastructure-management/install-your-platform-instance/4_configure-login-social-work-school-account#work-or-school-account-based-authentication) to enter the values requested.
 ![image.png](../../media/image%2899%29.png)
 
 10. Verify the values entered are correct and click **Review + Create**.
@@ -68,8 +71,8 @@ Get the ownership access to your pay-as-you-go Azure subscription. To learn more
 
 @(Info)(Note)(Deployment takes about 20 minutes. Click on the **Notification** icon on the top-right of toolbar to monitor the deployment process.)
 
-14. Once the deployment is complete and the website is up, refer to the [**getting started guide**](https://docs.microsoftcommunitytraining.com/docs/step-by-step-configuration-guide) to start configuring your learning portal. 
+14. Once the deployment is complete and the website is up, refer to the [**getting started guide**](../../get-started/4_step-by-step-configuration-guide) to start configuring your learning portal. 
 
-16. To setup a mobile app for your instance, follow the instructions given in the [**create and publish your Mobile App**](https://docs.microsoftcommunitytraining.com/docs/create-publish-mobile-app) article. 
+16. To setup a mobile app for your instance, follow the instructions given in the [**create and publish your Mobile App**](../../infrastructure-management/install-your-platform-instance/5_create-publish-mobile-app) article. 
 
-17. To setup Teams for your instance , follow the instructions given in the [**setup Microsoft Teams as learner's endpoint**](https://docs.microsoftcommunitytraining.com/docs/create-teams-app-for-your-training-portal) for the platform article. 
+17. To setup Teams for your instance , follow the instructions given in the [**setup Microsoft Teams as learner's endpoint**](../../infrastructure-management/install-your-platform-instance/7_create-teams-app-for-your-training-portal) for the platform article. 

@@ -15,6 +15,10 @@ Analytics on the management portal is accessible to Global Admins, Organization 
 
 For example, the Global admin can access all the learner analytics on the portal; the Organization Admin can access all analytics for a given organization; the Category admin can access learner analytics for complete category and its courses; the Course admin can access learner analytics for the course and the Group admin can access learner analytics only for the users in the group.
 
+Here is the high-level comparison of analytics information available to different admins:
+
+* [Analytics Topics](../media/Analytics%20Topics.pdf)
+
 ##  In-built analytics report available to administrators
 
 To provide a rich out of the box experience to an admin, Microsoft Community Training platform provides different views, designed to facilitate tracking learner progress and program monitoring at various levels:

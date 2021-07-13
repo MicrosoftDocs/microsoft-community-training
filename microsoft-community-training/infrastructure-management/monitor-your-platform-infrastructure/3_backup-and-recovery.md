@@ -5,7 +5,7 @@ original-url: https://docs.microsoftcommunitytraining.com/docs/backup-and-recove
 
 # Backup and recovery of your platform instance
 
-As a Microsoft Community Training customer, we can ensure that in case of unforeseen failures and disasters, your data – which includes all your content, user data and other branding assets - is safe and secure. By default, Backup and Recovery is built-in. Refer [**this article**](https://docs.microsoft.com/en-us/azure/backup/backup-overview) to learn more.
+As a Microsoft Community Training customer, we can ensure that in case of unforeseen failures and disasters, your data – which includes all your content, user data and other branding assets - is safe and secure. By default, Backup and Recovery is built-in. Refer [**this article**](https://docs.microsoft.com/azure/backup/backup-overview) to learn more.
 
 
 ## Azure Key Vault
@@ -14,9 +14,9 @@ By default, Azure Key Vault has multiple layers of redundancy within the region 
 ## Azure Storage
 The data in your Microsoft Azure storage account is always replicated to ensure durability and high availability. Azure Storage replication copies your data so that it is protected from planned and unplanned events ranging from transient hardware failures, network or power outages, massive natural disasters, and so on. You can choose to replicate your data within the same data center, across zonal data centers within the same region, and even across regions. 
 
-Refer [**this article**](https://docs.microsoft.com/en-us/azure/storage/common/storage-redundancy) to learn more about replication and how to enable it for your instance. 
+Refer [**this article**](https://docs.microsoft.com/azure/storage/common/storage-redundancy) to learn more about replication and how to enable it for your instance. 
 
 ## Azure SQL server
-SQL Database automatically creates the database backups that are kept between 7 and 35 days, and uses [**Azure read-access geo-redundant storage \(RA-GRS\)**](https://docs.microsoft.com/en-us/azure/storage/common/storage-redundancy-grs#read-access-geo-redundant-storage) to ensure that they are preserved even if the data center is unavailable. These backups are created automatically.
+SQL Database automatically creates the database backups that are kept between 7 and 35 days, and uses [**Azure read-access geo-redundant storage \(RA-GRS\)**](https://docs.microsoft.com/azure/storage/common/storage-redundancy-grs#read-access-geo-redundant-storage) to ensure that they are preserved even if the data center is unavailable. These backups are created automatically.
 
-Refer [**this article**](https://docs.microsoft.com/en-us/azure/sql-database/sql-database-automated-backups) to learn more.
+Refer [**this article**](https://docs.microsoft.com/azure/sql-database/sql-database-automated-backups) to learn more.

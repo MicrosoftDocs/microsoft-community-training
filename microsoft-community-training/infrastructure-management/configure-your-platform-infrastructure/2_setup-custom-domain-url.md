@@ -18,12 +18,12 @@ If you’re looking to host your Microsoft Community Training instance on a cust
 
 ## Steps to configure your custom domain URL
 
-1. [**Map the custom DNS name**](https://docs.microsoft.com/en-us/azure/frontdoor/front-door-custom-domain#create-a-cname-dns-record) to point to your Microsoft Community Training instance, using a CNAME DNS record.
+1. [**Map the custom DNS name**](https://docs.microsoft.com/azure/frontdoor/front-door-custom-domain#create-a-cname-dns-record) to point to your Microsoft Community Training instance, using a CNAME DNS record.
 
-2. [**Associate the mapped custom domain**](https://docs.microsoft.com/en-us/azure/frontdoor/front-door-custom-domain#associate-the-custom-domain-with-your-front-door), with your Microsoft Community Training instance's Front Door resource.
+2. [**Associate the mapped custom domain**](https://docs.microsoft.com/azure/frontdoor/front-door-custom-domain#associate-the-custom-domain-with-your-front-door), with your Microsoft Community Training instance's Front Door resource.
 
-3. [**Configure the SSL certificate**](https://docs.microsoft.com/en-us/azure/frontdoor/front-door-custom-domain-https) for your Microsoft Community Training instance.  
-Use an [**AFD managed certificate**](https://docs.microsoft.com/en-us/azure/frontdoor/front-door-custom-domain-https#option-1-default-use-a-certificate-managed-by-front-door) for seamless certificate management, including procurement and renewal.
+3. [**Configure the SSL certificate**](https://docs.microsoft.com/azure/frontdoor/front-door-custom-domain-https) for your Microsoft Community Training instance.  
+Use an [**AFD managed certificate**](https://docs.microsoft.com/azure/frontdoor/front-door-custom-domain-https#option-1-default-use-a-certificate-managed-by-front-door) for seamless certificate management, including procurement and renewal.
 
 4. Enable Web Application Firewall on your new domain.  
 (the setting is available just below the Custom Domain HTTPS configuration)  
@@ -147,7 +147,7 @@ There can be 2 cases:
 
 **Steps to mitigate**
 
-Update dns record in corresponding DNS provider. In the above case, the domain was purchased from Microsoft 365, so you will need to follow this [documentation](https://docs.microsoft.com/en-us/microsoft-365/admin/dns/update-dns-records-to-retain-current-hosting-provider?view=o365-worldwide).
+Update dns record in corresponding DNS provider. In the above case, the domain was purchased from Microsoft 365, so you will need to follow this [documentation](https://docs.microsoft.com/microsoft-365/admin/dns/update-dns-records-to-retain-current-hosting-provider?view=o365-worldwide).
 
 Every dns provider will have similar documentations. This is one more example from [Godaddy](https://in.godaddy.com/help/change-an-a-record-19239)  
  

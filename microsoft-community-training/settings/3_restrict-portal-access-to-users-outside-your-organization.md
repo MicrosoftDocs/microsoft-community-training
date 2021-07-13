@@ -20,7 +20,8 @@ When this setting is enabled, only users that are added or imported to the porta
 
 2. Select the **Settings** module on the left-navigation panel  
 
-@(Info)(Important)(This option is available at the **Global Administrator Level** only.)
+> [!IMPORTANT]
+> This option is available at the **Global Administrator Level** only.
 
 3. Select the **General** option from the settings list
 

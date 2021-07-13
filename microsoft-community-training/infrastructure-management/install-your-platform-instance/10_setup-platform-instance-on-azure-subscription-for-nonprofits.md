@@ -20,7 +20,7 @@ For more details on nonprofit organization eligibility requirements, [**visit th
 In case, you are already registered for Microsoft grant for non-profit then skip this step.
 
 1. Visit the [**Microsoft for Nonprofits registration**](https://nonprofit.microsoft.com/register) portal and click on the **Register button** .
-![image.png](../../media/image%28121%29.png){height="" width="600"}
+![image.png](../../media/image%28121%29.png)
 
 2. On the next page, click on **Continue** and start filling up your organization details for verification purpose.
 ![image.png](../../media/image%28122%29.png)
@@ -85,7 +85,7 @@ For deploying the Microsoft Community Training platform, you will need to add pa
 2. Sign in to the portal using  **\<username>.\<yourcompany>.onmicrosoft.com** created earlier during the registration process (in Step 4)
 
 3. Complete the About you and Payment information asked in the next page
-![image.png](../../media/image%28131%29.png){height="" width="600"}
+![image.png](../../media/image%28131%29.png)
 
 4. Once the subscription is created, you can start deploying the Microsoft Commnuity Trainng platform on this subscription. See [**detailed steps here**](../../infrastructure-management/install-your-platform-instance/3_installation-guide-detailed-steps). 
 

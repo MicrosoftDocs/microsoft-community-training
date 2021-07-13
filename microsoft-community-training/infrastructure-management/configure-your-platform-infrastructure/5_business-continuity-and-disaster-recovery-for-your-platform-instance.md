@@ -29,10 +29,9 @@ To set up for Business Continuity and Disaster Recovery, following are the step 
   
    Once these steps are completed, you should be able to see the same data in the primary (Active) and the secondary (Passive) portal. 
   
-   | Active | Passive |
-   | --- | --- |
-   | ![image.png](../../media/image%28295%29.png) |  ![image.png](../../media/image%28297%29.png) |
-   | ![image.png](../../media/image%28298%29.png)   | ![image.png](../../media/image%28299%29.png)   |
+   **Active - Passive**
+   ![image.png](../../media/image%28295%29.png) - ![image.png](../../media/image%28297%29.png)
+   ![image.png](../../media/image%28298%29.png) - ![image.png](../../media/image%28299%29.png)
   
 4. Enable Geo replication for storage account. Here, the secondary region is predetermined and cannot be changed. 
 
@@ -60,6 +59,5 @@ To set up for Business Continuity and Disaster Recovery, following are the step 
 
    **Old**: `https://demoenveusamsaichrqukbby-usea.streaming.media.azure.net/b81f3e36-2347-4e4e-a08a-e5ece1c0b372/Nature` Beautiful short video 720.ism/manifest 
  
-   | Active | Passive |
-   | --- | --- |
-   | ![image.png](../../media/image%28306%29.png) | ![image.png](../../media/image%28305%29.png) |
+   **Active - Passive**
+   ![image.png](../../media/image%28306%29.png) - ![image.png](../../media/image%28305%29.png)

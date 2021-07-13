@@ -29,6 +29,6 @@ You can now upload files with greater size on the platform. We have increased th
 All static assets (including uploaded content files) now support browser caching with appropriate Cache-Control headers. Further, all server responses are now compressed, resulting in significantly faster page load times across the application.
 
 ## Simplified identity creation for Microsoft work or school account
-Configuring your login identity with [Microsoft Work or School account](../../v1/docs/configure-login-social-work-school-account) has been made much simpler with automation of steps using a easy to use script
+Configuring your login identity with [Microsoft Work or School account](../../infrastructure-management/install-your-platform-instance/4_configure-login-social-work-school-account) has been made much simpler with automation of steps using a easy to use script
 
 Want to learn more? Visit our [product documentation](../../whats-new-in-microsoft-community-training/2020/5_whats-new-in-august-2020) site or [contact us via helpdesk.](https://go.microsoft.com/fwlink/?linkid=2104630)

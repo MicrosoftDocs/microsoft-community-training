@@ -18,28 +18,28 @@ If you haven't, please follow the Installation steps first and then refer this a
 
 ### Step 1 - Delegate permissions on your Azure AD application setup for Microsoft Communtiy Training 
 
-1) Login to the [Azure Portal](https://portal.azure.com/) with admin credentials
+1. Login to the [Azure Portal](https://portal.azure.com/) with admin credentials
 
-2) Click on the **Directory + Subscription** icon in the portal toolbar and  select the directory that contains your Azure AD tenant or **search for and select Azure Active Directory**.
+2. Click on the **Directory + Subscription** icon in the portal toolbar and  select the directory that contains your Azure AD tenant or **search for and select Azure Active Directory**.
 
-3) Click on the **App Registration** option from the left panel 
+3. Click on the **App Registration** option from the left panel 
 ![image.png](../../media/image%28194%29.png)
 
-4) On the App registrations page, search for and select the Azure AD application created for the Microsoft Community Training instance during the installation process
+4. On the App registrations page, search for and select the Azure AD application created for the Microsoft Community Training instance during the installation process
 ![image.png](../../media/image%28195%29.png)
 
-5) On the application details, select the **API permissions** option on the left panel
+5. On the application details, select the **API permissions** option on the left panel
 
-6) Next, **click on Add Permission** and **select Microsoft Graph option** from the right panel
-![image.png](../../media/image%28196%29.png){height="" width="600"}
+6. Next, **click on Add Permission** and **select Microsoft Graph option** from the right panel
+![image.png](../../media/image%28196%29.png)
 
-7) Next, in Delegated permissions and Application permissions check the following options:
+7. Next, in Delegated permissions and Application permissions check the following options:
     * Under Delegated permissions - **Directory.Read.All, Group.Read.All, User.Read.All**
     * Under Application permissions - **Directory.Read.All, Group.Read.All, User.Read.All**
-![image.png](../../media/image%28197%29.png){height="" width="600"}
+![image.png](../../media/image%28197%29.png)
 
 8. Next, **click on Grant admin consent**. Confirm Yes.
-![image.png](../../media/image%28198%29.png){height="" width="600"}
+![image.png](../../media/image%28198%29.png)
 
 > [!NOTE]
 > Please sure all the values marked in red rectangle are correctly set.
@@ -62,7 +62,7 @@ If you haven't, please follow the Installation steps first and then refer this a
 1. Open the Microsoft Teams client application and sign in using your global or teams service admin credentials.
 
 2.	Upload the manifest file (.zip file) provided by the customer support team as a custom app for organization in Teams 
-![image.png](../../media/image%28199%29.png){height="" width="600"}
+![image.png](../../media/image%28199%29.png)
 
 > [!NOTE]
 > For more details on how to publish apps in the Microsoft Teams Tenant Apps Catalog, [**see this article**](https://docs.microsoft.com/microsoftteams/tenant-apps-catalog-teams#publish-an-app-in-the-tenant-apps-catalog-from-the-teams-client).
@@ -80,19 +80,23 @@ If you haven't, please follow the Installation steps first and then refer this a
 
 ### Step 5 - Allow portal embedding in MS Teams
 
-1.	Login to [Azure portal](http://www.portal.azure.com/).
-2.	Go to App Services from the left-menu.
+1. Login to [Azure portal](http://www.portal.azure.com/).
+
+2. Go to App Services from the left-menu.
+
 ![Select App Service.png](../../media/Select%20App%20Service%281%29.png)
 
-3.	Click on the app service belonging to your Microsoft Community Training instance.
-4.	Select Configuration under settings from the left-menu.
+3. Click on the app service belonging to your Microsoft Community Training instance.
+
+4. Select Configuration under settings from the left-menu.
 ![Select Configurations.png](../../media/Select%20Configurations%281%29.png)
 
-5.	Go under Applications Settings tab
+5. Go under Applications Settings tab
 ![Select Application Settings.png](../../media/Select%20Application%20Settings.png)
 
 6. Select the setting **Features:AllowSiteEmbedding** and update it with value **“true”**. Click on OK.
+
 ![image.png](../../media/image%28436%29.png)
 
-7.	Click on save.
+7. Click on save.
 ![Save Application Settings.png](../../media/Save%20Application%20Settings%281%29.png)

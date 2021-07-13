@@ -25,7 +25,7 @@ When this setting is enabled, only users that are added or imported to the porta
 3. Select the **General** option from the settings list
 
 4. Toggle the **Restricted User Access** settings flag. The default value for this setting is set to **Disabled** state 
-![Test Picture](../media/Test%20Picture.png){height="" width="600"}
+![Test Picture](../media/Test%20Picture.png)
 
 5. Click on the **Apply Changes** button to commit the changes  
 

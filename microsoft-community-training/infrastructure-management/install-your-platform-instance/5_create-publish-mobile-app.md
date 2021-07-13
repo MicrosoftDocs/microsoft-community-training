@@ -14,17 +14,17 @@ For setting up the mobile app for your training portal, you will need to request
 ## Steps to create Mobile App for the training portal
 
 1. Visit [**Microsoft Community Traininig Helpdesk**](https://go.microsoft.com/fwlink/?linkid=2104630).
-![image.png](../../media/image%2876%29.png){height="" width="600"}
+![image.png](../../media/image%2876%29.png)
 
 2. Click on **Sign in** on the top-left corner of the homepage. Use your Azure AD or Social accounts to register and sign in.
 
 3. Click on **Create Support Ticket** and enter the following values:
-    | Field	| Description |
-    |---|---|
-    | Title |	Enter "Request a Mobile App" |
-    |Type |	Select "Request” |
-    |Subject | Select "Mobile App" |
-    |Description |Check Step 4 |
+    | Field  	  | Description                  |
+    | ----------- | ---------------------------- |
+    | Title       |	Enter "Request a Mobile App" |
+    | Type        |	Select "Request”             |
+    | Subject     | Select "Mobile App"          |
+    | Description | Check Step 4                 |
 4. Provide the following information in the **Description** section of the **Support Ticket** -
     * Application Color Code (HEX format) - This color will be used in the mobile app as shown in the image at the start of the article. For eg, Orange 
     * Portal URL - This is the instance of the platform for which the mobile app will be generated 

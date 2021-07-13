@@ -19,22 +19,24 @@ For setting up the mobile app for your training portal, you will need to request
 2. Click on **Sign in** on the top-left corner of the homepage. Use your Azure AD or Social accounts to register and sign in.
 
 3. Click on **Create Support Ticket** and enter the following values:
+
     | Field  	  | Description                  |
     | ----------- | ---------------------------- |
     | Title       |	Enter "Request a Mobile App" |
     | Type        |	Select "Request”             |
     | Subject     | Select "Mobile App"          |
     | Description | Check Step 4                 |
+    
 4. Provide the following information in the **Description** section of the **Support Ticket** -
     * Application Color Code (HEX format) - This color will be used in the mobile app as shown in the image at the start of the article. For eg, Orange 
     * Portal URL - This is the instance of the platform for which the mobile app will be generated 
     * Application Name - This is the name of the mobile app when published on playstore
     * Supported Languages - This is the list of languages supported in the mobile app
 
-  1. Application Color Code - #FFA500
-  2. Portal URL - https://contoso.azurefd.net/ 
-  3.  Application Name - Contoso Learning Center  
-  4.  Language - English, Spanish, Telugu
+    1. Application Color Code - #FFA500
+    2. Portal URL - https://contoso.azurefd.net/ 
+    3.  Application Name - Contoso Learning Center  
+    4.  Language - English, Spanish, Telugu
 
 5. Create a zip file with the following assets and attach it to the form. 
     - App icon with the following dimensions (in pixels): 24x24, 36x36, 48x48, 72x72, 96x96, 144x144. The icon on the phone screen used to launch the app is the app icon. **App icon must have transparent background**.

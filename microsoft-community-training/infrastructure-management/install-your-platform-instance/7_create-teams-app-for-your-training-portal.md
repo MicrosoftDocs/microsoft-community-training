@@ -23,10 +23,10 @@ If you haven't, please follow the Installation steps first and then refer this a
 2) Click on the **Directory + Subscription** icon in the portal toolbar and  select the directory that contains your Azure AD tenant or **search for and select Azure Active Directory**.
 
 3) Click on the **App Registration** option from the left panel 
-![image.png](../../media/image%28194%29.png){height="" width="150"}
+![image.png](../../media/image%28194%29.png)
 
 4) On the App registrations page, search for and select the Azure AD application created for the Microsoft Community Training instance during the installation process
-![image.png](../../media/image%28195%29.png){height="" width="600"}
+![image.png](../../media/image%28195%29.png)
 
 5) On the application details, select the **API permissions** option on the left panel
 
@@ -41,7 +41,8 @@ If you haven't, please follow the Installation steps first and then refer this a
 8. Next, **click on Grant admin consent**. Confirm Yes.
 ![image.png](../../media/image%28198%29.png){height="" width="600"}
 
-@(Info)(Note)(Please sure all the values marked in red rectangle are correctly set.)
+> [!NOTE]
+> Please sure all the values marked in red rectangle are correctly set.
 
 ### Step 2 - Raise a support ticket to get the Microsoft Teams app for your Microsoft Community Training instance
 
@@ -63,7 +64,8 @@ If you haven't, please follow the Installation steps first and then refer this a
 2.	Upload the manifest file (.zip file) provided by the customer support team as a custom app for organization in Teams 
 ![image.png](../../media/image%28199%29.png){height="" width="600"}
 
-@(Info)(Note)(For more details on how to publish apps in the Microsoft Teams Tenant Apps Catalog, [**see this article**](https://docs.microsoft.com/microsoftteams/tenant-apps-catalog-teams#publish-an-app-in-the-tenant-apps-catalog-from-the-teams-client). )
+> [!NOTE]
+> For more details on how to publish apps in the Microsoft Teams Tenant Apps Catalog, [**see this article**](https://docs.microsoft.com/microsoftteams/tenant-apps-catalog-teams#publish-an-app-in-the-tenant-apps-catalog-from-the-teams-client).
 
 ### Step 4 - Setup app policies to pin the training application from the Microsoft Team admin center
 

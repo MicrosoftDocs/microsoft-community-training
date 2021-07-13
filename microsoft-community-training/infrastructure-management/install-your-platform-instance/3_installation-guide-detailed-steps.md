@@ -14,7 +14,8 @@ Create a pay-as-you-go Azure subscription. To learn more about how to create it,
 
 If you have a free trial Azure subscription, please upgrade to a Pay-as-you-go Azure subscription. See the [**detailed steps here**](https://docs.microsoft.com/azure/billing/billing-upgrade-azure-subscription#upgrade-your-azure-free-account). **We currently do not support Microsoft Community Training on free trial Azure subscriptions.**
 
-@(Warning)(Tips)(If you’re a nonprofit organization who wants to use Microsoft Community Training platform, you can apply and avail the Azure grant subject to eligibility. See the [**detailed steps here**](../../infrastructure-management/install-your-platform-instance/10_setup-platform-instance-on-azure-subscription-for-nonprofits).)
+> [!WARNING]
+> If you’re a nonprofit organization who wants to use Microsoft Community Training platform, you can apply and avail the Azure grant subject to eligibility. See the [**detailed steps here**](../../infrastructure-management/install-your-platform-instance/10_setup-platform-instance-on-azure-subscription-for-nonprofits).
 
 ### 2.	Get the right ownership access 
 Get the ownership access to your pay-as-you-go Azure subscription. To learn more about how to get access, refer [**this article**](https://docs.microsoft.com/azure/role-based-access-control/overview) on Azure documentation. 
@@ -22,7 +23,8 @@ Get the ownership access to your pay-as-you-go Azure subscription. To learn more
 ### 3.	Create a Google Play Account 
 [**Sign up on Google Play console**](https://play.google.com/apps/publish/signup/)  in order to publish your app on the Google Play Store.  This is required only if you require mobile app for Microsoft Community Training instance. 
 
-@(Info)(Note)(This step may be done later after installation. )
+> [!NOTE]
+> This step may be done later after installation.
 
 ## Steps to deploy platform from Azure Marketplace  
 
@@ -69,7 +71,8 @@ Get the ownership access to your pay-as-you-go Azure subscription. To learn more
 
 13. Click **Create** to deploy Microsoft Community Training. 
 
-@(Info)(Note)(Deployment takes about 20 minutes. Click on the **Notification** icon on the top-right of toolbar to monitor the deployment process.)
+  > [!NOTE]
+  > Deployment takes about 20 minutes. Click on the **Notification** icon on the top-right of toolbar to monitor the deployment process.
 
 14. Once the deployment is complete and the website is up, refer to the [**getting started guide**](../../get-started/4_step-by-step-configuration-guide) to start configuring your learning portal. 
 

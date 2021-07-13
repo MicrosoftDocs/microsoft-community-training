@@ -23,16 +23,18 @@ In case, you are already registered for Microsoft grant for non-profit then skip
 ![image.png](../../media/image%28121%29.png){height="" width="600"}
 
 2. On the next page, click on **Continue** and start filling up your organization details for verification purpose.
-![image.png](../../media/image%28122%29.png){height="500" width=""}
+![image.png](../../media/image%28122%29.png)
 
 3. Next, provide your organization details to create your account with Microsoft as shown in the screenshot below.
-![image.png](../../media/image%28123%29.png){height="" width="400"}
+![image.png](../../media/image%28123%29.png)
 
-@(Info)(Important)(In case, your organization is awarded Microsoft nonprofit grant then the activation email is sent to the business email account mentioned in this step.)
+> [!IMPORTANT]
+> In case, your organization is awarded Microsoft nonprofit grant then the activation email is sent to the business email account mentioned in this step.)
 
 4. Next, create username and password to sign in to your account for activation purpose. You will be also be asked to provide a organization (aka tenant) name for the your organization.***For e.g. johnp@contoso.onmicrosoft.com***
-![image.png](../../media/image%28124%29.png){height="600" width=""}
-@(Info)(Important)(Going forward, this account credentials will be used to sign in to the Microsoft nonprofit portal and access the grants and discounts information.)
+    ![image.png](../../media/image%28124%29.png)
+    > [!IMPORTANT]
+    > Going forward, this account credentials will be used to sign in to the Microsoft nonprofit portal and access the grants and discounts information.
 
 5. Finish the registration process by selecting **Create my account** button
 
@@ -41,9 +43,10 @@ For more information on nonprofit grant and registration, pleae visit the [**Mic
 ## Step 2  - Activate the Microsoft nonprofit grant
 
 1. After submition, you will receive an activation email on your business email account entered at step 3 during the registration process as shown below. 
-![image.png](../../media/image%28126%29.png)
+    ![image.png](../../media/image%28126%29.png)
 
-@(Info)(Note)(If grant is approved , the email will include a link to the Microsoft Nonprofit portal to access discounts and offers.)
+    > [!NOTE]
+    > If grant is approved , the email will include a link to the Microsoft Nonprofit portal to access discounts and offers.
 
 2. Click on the [**Nonprofit Portal**](https://nonprofit.microsoft.com/signin)  link or Activate button to initiate the activation process
 ![image.png](../../media/image%28127%29.png)
@@ -59,16 +62,18 @@ For more information on nonprofit grant and registration, pleae visit the [**Mic
 6. To confirm Azure credits redemtion for your organization, please visit [**Microsoft Azure Sponsorship**](https://www.microsoftazuresponsorships.com/) site to check your balance. 
 ![image.png](../../media/image%28130%29.png)
 
-**Note** > In case you don't receive an activation email then follow the below steps:
+> [!NOTE]
+> In case you don't receive an activation email then follow the below steps:
+
 1. Go to  [**Microsoft for Nonprofits**](https://nonprofit.microsoft.com) portal.
 
-2.	Sign in to the portal using **\<username>.\<yourcompany>.onmicrosoft.com** 
+2. Sign in to the portal using **\<username>.\<yourcompany>.onmicrosoft.com** 
 
-3.	Select Azure credits option from the eligibility offers
+3. Select Azure credits option from the eligibility offers
 
-4.	Select Activate button that is available
+4. Select Activate button that is available
 
-5.	‘Claimed’ confirmation must be displayed with start and end dates 
+5. ‘Claimed’ confirmation must be displayed with start and end dates 
 
 
 ## Step 3  - Add payment information for your Azure subscription
@@ -84,19 +89,20 @@ For deploying the Microsoft Community Training platform, you will need to add pa
 
 4. Once the subscription is created, you can start deploying the Microsoft Commnuity Trainng platform on this subscription. See [**detailed steps here**](../../infrastructure-management/install-your-platform-instance/3_installation-guide-detailed-steps). 
 
-@(Info)(Note)(Adding payment details for your Azure subscription is mandatory to setup and install Microsoft Community Training platform. Once the Azure Sponsorship grant is consumed (i.e. $3500 of Azure service are billed), payment will be processed from the Credit or Debit card details provided.)
+> [!NOTE]
+> Adding payment details for your Azure subscription is mandatory to setup and install Microsoft Community Training platform. Once the Azure Sponsorship grant is consumed (i.e. $3500 of Azure service are billed), payment will be processed from the Credit or Debit card details provided.
 
 ## Step 4 - Confirm platform is deployed on Microsoft sponsored Azure subscription 
 
-1.	Go to  [**Microsoft Azure Sponsorship**](https://www.microsoftazuresponsorships.com/) site and Sign in to the portal using  **\<username>.\<yourcompany>.onmicrosoft.com** 
+1. Go to  [**Microsoft Azure Sponsorship**](https://www.microsoftazuresponsorships.com/) site and Sign in to the portal using  **\<username>.\<yourcompany>.onmicrosoft.com** 
 
-2.	Note the Subscription ID displayed on the right top of the web page 
+2. Note the Subscription ID displayed on the right top of the web page 
 
-3.	Next, go to [**Azure portal**](http://portal.zure.com/) and select **Subscriptions** where Microsoft Community Training platform is deployed 
+3. Next, go to [**Azure portal**](http://portal.zure.com/) and select **Subscriptions** where Microsoft Community Training platform is deployed 
 
-4.	Ensure subscription ID at the sponsorship site (i.e. step 2) and Azure portal are same
+4. Ensure subscription ID at the sponsorship site (i.e. step 2) and Azure portal are same
 
 5. In case, subscription IDs are different then raise a support ticket to convert the existing subscription into Azure sponsored subscription as shown below:
-    * Click on the Help + Support option at the bottom-left on the navigation panel  
-    * Raise a ticket and provide details of both the subscriptions
+  - Click on the Help + Support option at the bottom-left on the navigation panel  
+  - Raise a ticket and provide details of both the subscriptions
 ![image.png](../../media/image%28132%29.png){height="600" width=""}

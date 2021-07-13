@@ -28,16 +28,16 @@ You can create a new Azure AD B2C tenant or create an existing one based on your
 
 1.	Login to [**Azure portal**](https://portal.azure.com/).
 
-2.	Create a new [**Azure Active Directory B2C**](https://docs.microsoft.com/en-us/azure/active-directory-b2c/tutorial-create-tenant)  tenant.
+2.	Create a new [**Azure Active Directory B2C**](https://docs.microsoft.com/azure/active-directory-b2c/tutorial-create-tenant)  tenant.
 
 3.	Link the Azure Active Directory B2C tenant just created to your Azure subscription.  
 
 #### Step 2 - Configure your Identity provider
 Here are the steps to create policies based on the Identity Provider: 
 
-1.	Configure the identity provider – based on your chosen provider such as [**Microsoft**](https://docs.microsoft.com/en-us/azure/active-directory-b2c/active-directory-b2c-setup-msa-app), [**Google**](https://docs.microsoft.com/en-us/azure/active-directory-b2c/active-directory-b2c-setup-goog-app) and [**Facebook**](https://docs.microsoft.com/en-us/azure/active-directory-b2c/active-directory-b2c-setup-fb-app)
+1.	Configure the identity provider – based on your chosen provider such as [**Microsoft**](https://docs.microsoft.com/azure/active-directory-b2c/active-directory-b2c-setup-msa-app), [**Google**](https://docs.microsoft.com/azure/active-directory-b2c/active-directory-b2c-setup-goog-app) and [**Facebook**](https://docs.microsoft.com/azure/active-directory-b2c/active-directory-b2c-setup-fb-app)
 
-2.	After configuring the identity providers, refer [**this article**](https://docs.microsoft.com/en-us/azure/active-directory-b2c/tutorial-create-user-flows) article to create a **signing flow** (a sign-up and sign-in user flow) and a **password reset flow** (for local account)
+2.	After configuring the identity providers, refer [**this article**](https://docs.microsoft.com/azure/active-directory-b2c/tutorial-create-user-flows) article to create a **signing flow** (a sign-up and sign-in user flow) and a **password reset flow** (for local account)
     * Select Email Addresses, Given Name, Identity Provider and Surname in Application claims
     * Don’t select any Sign-up attributes
     * Copy the user-flow(s) name to be required later (These will be required during MCT platform installation)
@@ -62,7 +62,7 @@ If you are setting up the **Password reset flow** on an existing deployment with
 
 Here are the steps an create on Azure AD B2C tenant and link the same with your training portal instance: 
 
-1. Create a new Azure AD B2C application by following [**this article**](https://docs.microsoft.com/en-us/azure/active-directory-b2c/tutorial-register-applications). Please ensure application properties are set as following:
+1. Create a new Azure AD B2C application by following [**this article**](https://docs.microsoft.com/azure/active-directory-b2c/tutorial-register-applications). Please ensure application properties are set as following:
 :::(Info) (Application Properties)
 1.  Web app / Web API - set to "Yes"
 
@@ -96,11 +96,12 @@ Here are the steps an create on Azure AD B2C tenant and link the same with your 
 ### 2. Configure you Local Account
 You can configure local account for your training portal by following the instructions below:
 
-@(Info)(Note)(If you have already configured your Social Account, skip Step 1 and proceed with Step 2)
+> [!NOTE]
+> If you have already configured your Social Account, skip Step 1 and proceed with Step 2
 
 #### Step 1 - Setup your Azure AD B2C
 1.	Login to [Azure portal](https://portal.azure.com/).
-2.	Create a new [Azure Active Directory B2C](https://docs.microsoft.com/en-us/azure/active-directory-b2c/tutorial-create-tenant) tenant.
+2.	Create a new [Azure Active Directory B2C](https://docs.microsoft.com/azure/active-directory-b2c/tutorial-create-tenant) tenant.
 3.	Link the Azure Active Directory B2C tenant just created to your Azure Subscription.
 
 #### Step 2 - Configure your local account

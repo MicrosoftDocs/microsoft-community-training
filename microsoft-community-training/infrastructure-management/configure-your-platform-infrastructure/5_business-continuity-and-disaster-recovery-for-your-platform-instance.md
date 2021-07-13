@@ -10,7 +10,7 @@ Business Continuity and Disaster Recovery covers the aspect of service resilienc
 By default, MCT does not configure for data recovery or availability of a service if underlying Azure services or region in which MCT is deployed goes down. However, customers can follow certain steps to store data in an Azure paired region and use Active-Passive approach to enable disaster recovery for MCT service. 
 
 To set up for Business Continuity and Disaster Recovery, following are the step - 
-1. Create a replica deployment in a [paired region](https://docs.microsoft.com/en-us/azure/best-practices-availability-paired-regions), for example “US EAST” and “US EAST2”  
+1. Create a replica deployment in a [paired region](https://docs.microsoft.com/azure/best-practices-availability-paired-regions), for example “US EAST” and “US EAST2”  
    Active - US EAST [https://demoenv-eus.azurewebsites.net/](https://demoenv-eus.azurewebsites.net/)   
    Passive - US EAST2 [https://demoenv-eus2.azurewebsites.net/](https://demoenv-eus2.azurewebsites.net/)  
    It will create exact same set of azure resources and both the instances will be up and running 
@@ -52,7 +52,7 @@ To set up for Business Continuity and Disaster Recovery, following are the step 
 
    ![image.png](../../media/image%28304%29.png)
  
-8. Azure media service does not support reading from Geo Redundant Storage, so the media assets from primary storage account must be copied to the new secondary storage account as per this [document](https://docs.microsoft.com/en-us/azure/media-services/previous/media-services-implement-failover). And then same origin locator ID must be set for every asset.
+8. Azure media service does not support reading from Geo Redundant Storage, so the media assets from primary storage account must be copied to the new secondary storage account as per this [document](https://docs.microsoft.com/azure/media-services/previous/media-services-implement-failover). And then same origin locator ID must be set for every asset.
 
    For Example,
 

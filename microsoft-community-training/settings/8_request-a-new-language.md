@@ -2,6 +2,9 @@
 title: Request a new Language
 original-url: https://docs.microsoftcommunitytraining.com/docs/request-a-new-language
 ---
+
+# Request a new Language
+
 Microsoft Community Training currently supports 28 languages on the platform:  Albanian, Arabic, Bengali, Chinese (Simplified), Chinese (Traditional, Dutch, English, Finnish, French, Hindi, Kinyarwanda, Kurdish, Lao, Lithuanian, Malay, Oriya, Portuguese, Serbian (Cyrillic), Somali, Spanish, Swedish, Swedish, Tajik, Telugu, Tetum, Thai, Ukrainian, Vietnamese. 
 
 You can raise a request ticket via our Helpdesk to request another language for your platform instance.
@@ -26,4 +29,3 @@ In this article, you'll learn how request for new languages for your platform in
 4. Submit the form.
 
 5. Our support team will get in touch with you to learn more about your requirements in 2-3 business days. 
-

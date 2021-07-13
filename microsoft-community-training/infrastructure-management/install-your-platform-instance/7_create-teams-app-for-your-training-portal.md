@@ -63,7 +63,7 @@ If you haven't, please follow the Installation steps first and then refer this a
 2.	Upload the manifest file (.zip file) provided by the customer support team as a custom app for organization in Teams 
 ![image.png](../../media/image%28199%29.png){height="" width="600"}
 
-@(Info)(Note)(For more details on how to publish apps in the Microsoft Teams Tenant Apps Catalog, [**see this article**](https://docs.microsoft.com/en-us/microsoftteams/tenant-apps-catalog-teams#publish-an-app-in-the-tenant-apps-catalog-from-the-teams-client). )
+@(Info)(Note)(For more details on how to publish apps in the Microsoft Teams Tenant Apps Catalog, [**see this article**](https://docs.microsoft.com/microsoftteams/tenant-apps-catalog-teams#publish-an-app-in-the-tenant-apps-catalog-from-the-teams-client). )
 
 ### Step 4 - Setup app policies to pin the training application from the Microsoft Team admin center
 

@@ -36,7 +36,7 @@ In case, you are already registered for Microsoft grant for non-profit then skip
 
 5. Finish the registration process by selecting **Create my account** button
 
-For more information on nonprofit grant and registration, pleae visit the [**Microsoft Nonprofits FAQs**](https://www.microsoft.com/en-us/nonprofits/faq).
+For more information on nonprofit grant and registration, pleae visit the [**Microsoft Nonprofits FAQs**](https://www.microsoft.com/nonprofits/faq).
 
 ## Step 2  - Activate the Microsoft nonprofit grant
 

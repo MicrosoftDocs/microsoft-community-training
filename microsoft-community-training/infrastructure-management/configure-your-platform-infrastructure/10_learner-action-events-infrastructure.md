@@ -13,16 +13,16 @@ Azure Service Bus is a cloud messaging as a service which enables you to subscri
 
 ### Steps to add Azure Service Bus to your Subscription
 
-1. Create a Service Bus Instance from Azure Portal following [this documentation](https://docs.microsoft.com/en-us/azure/service-bus-messaging/service-bus-quickstart-topics-subscriptions-portal), with Topic Name : MCTEvents 
+1. Create a Service Bus Instance from Azure Portal following [this documentation](https://docs.microsoft.com/azure/service-bus-messaging/service-bus-quickstart-topics-subscriptions-portal), with Topic Name : MCTEvents 
 
-2. Assign the user (for running locally), AppService (for running in App service) Azure Service Bus Data Owner role in "Access control (IAM) -> Role assignments" tab of the service bus instance; here is a [Reference Document](https://docs.microsoft.com/en-us/azure/service-bus-messaging/service-bus-managed-service-identity#to-assign-azure-roles-using-the-azure-portal).
+2. Assign the user (for running locally), AppService (for running in App service) Azure Service Bus Data Owner role in "Access control (IAM) -> Role assignments" tab of the service bus instance; here is a [Reference Document](https://docs.microsoft.com/azure/service-bus-messaging/service-bus-managed-service-identity#to-assign-azure-roles-using-the-azure-portal).
 
 3. Copy the Host name from the overview tab and update ServiceBusNamespaceFQDN in appsetting.json
 
 ### Sample code to consume MCT Events
-[Refer this document](https://docs.microsoft.com/en-us/azure/service-bus-messaging/service-bus-dotnet-how-to-use-topics-subscriptions) to access sample code for setting Azure Service Bus Integration to consume the events raised by the Microsoft Community Training platform. 
+[Refer this document](https://docs.microsoft.com/azure/service-bus-messaging/service-bus-dotnet-how-to-use-topics-subscriptions) to access sample code for setting Azure Service Bus Integration to consume the events raised by the Microsoft Community Training platform. 
 
-[Refer this document](https://docs.microsoft.com/en-us/azure/service-bus-messaging/private-link-service) to implement Azure Service Bus using private link. 
+[Refer this document](https://docs.microsoft.com/azure/service-bus-messaging/private-link-service) to implement Azure Service Bus using private link. 
 
 #### Sample event from MCT 
 ```

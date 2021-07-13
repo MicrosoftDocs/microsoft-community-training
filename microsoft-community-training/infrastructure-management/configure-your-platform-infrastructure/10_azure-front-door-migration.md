@@ -37,13 +37,13 @@ Please follow the following steps to update mapping in your DNS provider and add
 
 **New MCT instance**: https://*websitename*.azurefd.net/
 
-1. [**Map the custom DNS name**](https://docs.microsoft.com/en-us/azure/frontdoor/front-door-custom-domain#create-a-cname-dns-record) to point to your new MCT instance, using a CNAME DNS record.
+1. [**Map the custom DNS name**](https://docs.microsoft.com/azure/frontdoor/front-door-custom-domain#create-a-cname-dns-record) to point to your new MCT instance, using a CNAME DNS record.
 
-2. [**Associate the mapped custom domain**](https://docs.microsoft.com/en-us/azure/frontdoor/front-door-custom-domain#associate-the-custom-domain-with-your-front-door), with your new MCT instance's Front Door resource.
+2. [**Associate the mapped custom domain**](https://docs.microsoft.com/azure/frontdoor/front-door-custom-domain#associate-the-custom-domain-with-your-front-door), with your new MCT instance's Front Door resource.
 
-3. [**Configure the SSL certificate**](https://docs.microsoft.com/en-us/azure/frontdoor/front-door-custom-domain-https) for your Microsoft Community Training instance.
+3. [**Configure the SSL certificate**](https://docs.microsoft.com/azure/frontdoor/front-door-custom-domain-https) for your Microsoft Community Training instance.
 
-   Use an [**AFD managed certificate**](https://docs.microsoft.com/en-us/azure/frontdoor/front-door-custom-domain-https#option-1-default-use-a-certificate-managed-by-front-door) for seamless certificate management, including procurement and renewal.
+   Use an [**AFD managed certificate**](https://docs.microsoft.com/azure/frontdoor/front-door-custom-domain-https#option-1-default-use-a-certificate-managed-by-front-door) for seamless certificate management, including procurement and renewal.
 
 4. Enable Web Application Firewall on your new domain.
 

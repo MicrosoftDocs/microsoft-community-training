@@ -31,15 +31,15 @@ Get the ownership access to your pay-as-you-go Azure subscription. To learn more
 2.	Login to [**Azure portal**](https://portal.azure.com/) using your credentials.
 
 3.	In the upper-left corner of the Azure portal, select **Create a resource.**  
-![image.png](../../media/image%2813%29.png)
+![image13.png](../../media/image%2813%29.png)
     
 4.	In the **Search the Marketplace** box, enter **Microsoft Community Training**.
-![image.png](../../media/image%2896%29.png)
+![image96.png](../../media/image%2896%29.png)
     
 5.	From the Results, select **Microsoft Community Training**. 
 
 6.	Select a software plan of your choice from the dropdown: **Basic** or **Standard**. Click the **Create** button that appears next to it.
-![image.png](../../media/image%2898%29.png)
+![image98.png](../../media/image%2898%29.png)
     
 7.	On the **Create Microsoft Community Training** page, the first section is **Basics**. Enter the values as per the instructions below and click **OK**.
     * ***Subscription*** - Select the subscription that you created when you signed up for a pay-as-you-go account.
@@ -47,19 +47,19 @@ Get the ownership access to your pay-as-you-go Azure subscription. To learn more
     * ***Location*** - Location for the resources of your learning portal. 
     * ***Application Name*** - Name of your learning portal.
     * ***Managed Resource Group*** - Name of resource group for your managed instance.
-![image.png](../../media/image%2897%29.png)
+![image97.png](../../media/image%2897%29.png)
 
 8. The next section is **Setup your portal details**. Enter values as per the instructions below and click **OK**.
-    * ***Website Name*** - The name of your learning portal. For example, if you enter “Contoso”, your learning portal’s website URL will be of the form "https://contoso.azurefd.net". You can map the learning portal to a [**custom domain later**](../../infrastructure-management/configure-your-platform-infrastructure/2_setup-custom-domain-url).
+    * ***Website Name*** - The name of your learning portal. For example, if you enter “Contoso”, your learning portal’s website URL will be of the form "https://contoso.azurefd.net". You can map the learning portal to a [**custom domain later**](../../infrastructure-management/configure-your-platform-infrastructure/2_setup-custom-domain-url.md).
     * ***Contact email addresses*** - The email addresses you want to be contacted on for all information regarding getting started, updates to the platform, latest news etc. 
 
-![image.png](../../media/image%28357%29.png)
+![image357.png](../../media/image%28357%29.png)
 
 9. The next section is **Setup your login type** . Select Login type for your training portal.  Based on your selection, enter the following values:
     * Select **Mobile** if you want your learners to login using their mobile number. Enter org admin’s mobile number in the input field . You’ll use it to login for the first time.
-    * Select **Social Account** if you want your learners to login using their Facebook, Microsoft or Google account. Refer to the instructions from [**social account configuration guide**](../../infrastructure-management/install-your-platform-instance/4_configure-login-social-work-school-account#social-account-or-email-based-authentication) to enter the values requested.
-    * Select **Work or School Account** if you want your learners to login using their work or school account. Refer to the instructions from [**work or school account configuration guide**](../../infrastructure-management/install-your-platform-instance/4_configure-login-social-work-school-account#work-or-school-account-based-authentication) to enter the values requested.
-![image.png](../../media/image%2899%29.png)
+    * Select **Social Account** if you want your learners to login using their Facebook, Microsoft or Google account. Refer to the instructions from [**social account configuration guide**](../../infrastructure-management/install-your-platform-instance/4_configure-login-social-work-school-account.md#social-account-or-email-based-authentication) to enter the values requested.
+    * Select **Work or School Account** if you want your learners to login using their work or school account. Refer to the instructions from [**work or school account configuration guide**](../../infrastructure-management/install-your-platform-instance/4_configure-login-social-work-school-account.md#work-or-school-account-based-authentication) to enter the values requested.
+![image99.png](../../media/image%2899%29.png)
 
 10. Verify the values entered are correct and click **Review + Create**.
 
@@ -71,8 +71,8 @@ Get the ownership access to your pay-as-you-go Azure subscription. To learn more
 
 @(Info)(Note)(Deployment takes about 20 minutes. Click on the **Notification** icon on the top-right of toolbar to monitor the deployment process.)
 
-14. Once the deployment is complete and the website is up, refer to the [**getting started guide**](../../get-started/4_step-by-step-configuration-guide) to start configuring your learning portal. 
+14. Once the deployment is complete and the website is up, refer to the [**getting started guide**](../../get-started/4_step-by-step-configuration-guide.md) to start configuring your learning portal. 
 
-16. To setup a mobile app for your instance, follow the instructions given in the [**create and publish your Mobile App**](../../infrastructure-management/install-your-platform-instance/5_create-publish-mobile-app) article. 
+16. To setup a mobile app for your instance, follow the instructions given in the [**create and publish your Mobile App**](../../infrastructure-management/install-your-platform-instance/5_create-publish-mobile-app.md) article. 
 
-17. To setup Teams for your instance , follow the instructions given in the [**setup Microsoft Teams as learner's endpoint**](../../infrastructure-management/install-your-platform-instance/7_create-teams-app-for-your-training-portal) for the platform article. 
+17. To setup Teams for your instance , follow the instructions given in the [**setup Microsoft Teams as learner's endpoint**](../../infrastructure-management/install-your-platform-instance/7_create-teams-app-for-your-training-portal.md) for the platform article. 

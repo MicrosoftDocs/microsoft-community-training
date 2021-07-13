@@ -106,7 +106,7 @@ To add HTML content as a lesson,
 2. There must be an index.html or home.html file at the top level (root directory) within the ZIP file
 3. All resources referenced in the HTML pages must be relative and point to files included in the ZIP file
 
-    ![image.png](../media/image%28315%29.png)
+    ![image315.png](../media/image%28315%29.png)
 
 
 #### Does Microsoft Community Training support HTML content?
@@ -233,7 +233,7 @@ In case, content on the external website is not owned by the organization or can
 
 2. All the other content will open in a new browser window (except in mobile application, where the content will still open inline). The learners will see the following message on opening the lesson. When they click on **View Lesson**, the content will open in a new browser window. This is the behavior for content from external sources such as [**Microsoft Learn**](https://docs.microsoft.com/en-us/learn/) and [**Khan Academy**](https://www.khanacademy.org/test-prep/iit-jee-subject/iit-jee/v/iit-jee-perpendicular-planes-part-1).
 
-    ![image.png](../media/image%28255%29.png)
+    ![image255.png](../media/image%28255%29.png)
 
 #### What is the different between upload videos to the platform v/s embedding video links from other sites?
 If the video is hosted on external platforms like YouTube then below features will be compromised:
@@ -360,4 +360,4 @@ In the meantime, as a workaround, admins can name courses under a category such 
 #### How to delete a course on the platform? 
 Organization administrators and category administrators can delete a course from the Course Tab on the management portal.  Refer below the image for clarity. For more details, check out [**this article**](https://docs.microsoftcommunitytraining.com/docs/delete-a-course).
 
-![image.png](../media/image%28314%29.png)
+![image314.png](../media/image%28314%29.png)

@@ -65,7 +65,7 @@ We have the below-mentioned functions which are available on our inbuilt video p
 5. Setting Video Quality based on the data bandwidth 
 6. Viewing video on full screen.
 
-   ![image.png](../media/image%28310%29.png)
+   ![image310.png](../media/image%28310%29.png)
 
 
 #### Can learners switch the audio language just like how they can select the subtitle language on the web and mobile app?
@@ -107,12 +107,12 @@ Learners accessing the platform using our native android app will be able to dow
 
 The below chart illustrates the download possibilities based on the content type and platform the learner is accessing through:
 
-![image.png](../media/image%28308%29.png)
+![image308.png](../media/image%28308%29.png)
 
 #### How can learners download course content on the mobile app? 
 Learners can download content on their mobile app by clicking on the download icon within their course page, refer the below image for clarification. Course progressions are monitored and tracked even when courses are downloaded and consumed offline.
 
-![image.png](../media/image%28309%29.png)
+![image309.png](../media/image%28309%29.png)
 
 
 ## Mobile app
@@ -157,7 +157,7 @@ Forum is open to all learners enrolled on the course where real-time Q & A can t
 #### How to access discussion forums on the platform? 
 Discussion Forums can be accessed from the course details page. By tapping the add a comment button from the top right corner of the course details page, discussion forum panel can be opened. See the  below screenshot:
 
-![image.png](../media/image%28321%29.png)
+![image321.png](../media/image%28321%29.png)
 
 
 #### Who all can post questions or respond to queries in the discussion forum?

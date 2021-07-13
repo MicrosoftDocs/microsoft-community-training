@@ -17,40 +17,40 @@ To set up for Business Continuity and Disaster Recovery, following are the step 
  
 2. Enable Geo replication for Azure SQL primary, and create the replica database for the secondary SQL server
 
-   ![image.png](../../media/image%28291%29.png)
+   ![image291.png](../../media/image%28291%29.png)
 
-   ![image.png](../../media/image%28292%29.png)
+   ![image292.png](../../media/image%28292%29.png)
   
 3. Update the connection string (in secondary) to point to the new database 
 
-   ![image.png](../../media/image%28293%29.png)
+   ![image293.png](../../media/image%28293%29.png)
 
-   ![image.png](../../media/image%28294%29.png) 
+   ![image294.png](../../media/image%28294%29.png) 
   
    Once these steps are completed, you should be able to see the same data in the primary (Active) and the secondary (Passive) portal. 
   
    | Active | Passive |
    | --- | --- |
-   | ![image.png](../../media/image%28295%29.png) |  ![image.png](../../media/image%28297%29.png) |
-   | ![image.png](../../media/image%28298%29.png)   | ![image.png](../../media/image%28299%29.png)   |
+   | ![image295.png](../../media/image%28295%29.png) |  ![image297.png](../../media/image%28297%29.png) |
+   | ![image298.png](../../media/image%28298%29.png)   | ![image299.png](../../media/image%28299%29.png)   |
   
 4. Enable Geo replication for storage account. Here, the secondary region is predetermined and cannot be changed. 
 
-   ![image.png](../../media/image%28300%29.png)
+   ![image300.png](../../media/image%28300%29.png)
  
 5. Store the storage connection string inside secondary’s keyvault and then set it to app settings (secondary) 
 
-   ![image.png](../../media/image%28301%29.png)
+   ![image301.png](../../media/image%28301%29.png)
 
-   ![image.png](../../media/image%28302%29.png)
+   ![image302.png](../../media/image%28302%29.png)
  
 6. Allow secondary’s URL as allowed origin in CORS setting 
 
-   ![image.png](../../media/image%28303%29.png)
+   ![image303.png](../../media/image%28303%29.png)
 
 7. Now the learners and admins can consume the blob data 
 
-   ![image.png](../../media/image%28304%29.png)
+   ![image304.png](../../media/image%28304%29.png)
  
 8. Azure media service does not support reading from Geo Redundant Storage, so the media assets from primary storage account must be copied to the new secondary storage account as per this [document](https://docs.microsoft.com/en-us/azure/media-services/previous/media-services-implement-failover). And then same origin locator ID must be set for every asset.
 
@@ -62,4 +62,4 @@ To set up for Business Continuity and Disaster Recovery, following are the step 
  
    | Active | Passive |
    | --- | --- |
-   | ![image.png](../../media/image%28306%29.png) | ![image.png](../../media/image%28305%29.png) |
+   | ![image306.png](../../media/image%28306%29.png) | ![image305.png](../../media/image%28305%29.png) |

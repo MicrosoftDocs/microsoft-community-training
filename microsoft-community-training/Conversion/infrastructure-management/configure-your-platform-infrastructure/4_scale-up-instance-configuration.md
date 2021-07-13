@@ -17,25 +17,25 @@ Get more CPU, memory, disk space, and extra features like dedicated virtual mach
 ### Steps to upgrade your Azure App Service
 1. Login to your [**Azure portal**](https://portal.azure.com), go to Resource Groups from the left-menu.
 
-   ![image.png](../../media/image%28118%29.png)
+   ![image118.png](../../media/image%28118%29.png)
 
 2. Click on the resource group belonging to your Microsoft Community Training instance.
 
 3. Click on the Managed application instance.
 
-   ![image.png](../../media/image%28107%29.png)
+   ![image107.png](../../media/image%28107%29.png)
 
 4. Click on Managed resource group link.
 
-   ![image.png](../../media/image%28108%29.png)
+   ![image108.png](../../media/image%28108%29.png)
 
 5. Select the resource for your App Service (has -asp- in its name).
 
-   ![image.png](../../media/image%28109%29.png)
+   ![image109.png](../../media/image%28109%29.png)
 
 6. Click **Scale up** from the left-menu.
 
-   ![image.png](../../media/image%28110%29.png)
+   ![image110.png](../../media/image%28110%29.png)
 
 7. Select new tier of your choice and click on **Apply**.
 
@@ -46,24 +46,24 @@ Mitigate performance issues by dynamically add more resources to your database w
 ### Steps to upgrade your Azure SQL Database plan
 1. Login to your [**Azure portal**](https://portal.azure.com), go to Resource Groups from the left-menu.
 
-   ![image.png](../../media/image%28118%29.png)
+   ![image118.png](../../media/image%28118%29.png)
 
 2. Click on the resource group belonging to your Microsoft Community Training instance.
 
 3. Click on the Managed application instance.
 
-   ![image.png](../../media/image%28107%29.png)
+   ![image107.png](../../media/image%28107%29.png)
 
 4. Click on Managed resource group link.
 
-   ![image.png](../../media/image%28108%29.png)
+   ![image108.png](../../media/image%28108%29.png)
 
 5. Select the resource for your App database (has -db- in its name)
 
-   ![image.png](../../media/image%28111%29.png)
+   ![image111.png](../../media/image%28111%29.png)
 
 6. Click **Configure** from the left-menu.
 
-   ![image.png](../../media/image%28112%29.png)
+   ![image112.png](../../media/image%28112%29.png)
 
 7. Use the DTUs slider to change tier and click on **Apply**.

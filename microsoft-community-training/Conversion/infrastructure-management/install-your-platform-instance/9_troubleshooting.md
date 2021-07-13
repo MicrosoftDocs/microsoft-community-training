@@ -32,14 +32,14 @@ If your deployment fails, you’ll receive a **Deployment failed** notification 
 
 #### Solution 
 1.	Click on the **Deployment failed** text as marked in the screenshot below.
-![image.png](../../media/image%2825%29.png)
+![image25.png](../../media/image%2825%29.png)
 2.	You’ll be directed to the failed resource group. Click on **Click here for details** as marked in the screenshot below.
-![image.png](../../media/image%2826%29.png)
+![image26.png](../../media/image%2826%29.png)
 3.	You’ll be provided with a summary of error details. Check the **Error message** value under **ERROR DETAILS**.
 4.	If the **Error message** says “*At least one resource deployment operation failed. Please list deployment operations for details. Please see https://aka.ms/arm-debug for usage details.*”, it is possible that 
     a.	You are using a free trial subscription. Be default, free trial subscriptions do not have all regions enabled. [Convert your subscription to Pay-As-You-Go](https://azure.microsoft.com/en-in/pricing/purchase-options/pay-as-you-go/) and try again. 
     b.	The said resource is not yet enabled for the region. Click on the **Copy to Clipboard** icon on the top-right of the **Errors** blade.
-![image.png](../../media/image%2827%29.png)
+![image27.png](../../media/image%2827%29.png)
 
 5. Visit our [**Helpdesk**](https://go.microsoft.com/fwlink/?linkid=2104630) and create a support ticket by following the steps below. 
 a) Sign in using your Azure AD or Social accounts.

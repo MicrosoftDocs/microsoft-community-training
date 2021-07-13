@@ -30,10 +30,10 @@ Microsoft Community Training provides real-time course progress for both adminis
 **For the Learners**  
 Learners can view their overall course progress on the home page as shown in Fig 1. Also, in the course details page, a Green tick as seen in Fig 2 represents lesson completion. The grey colored lesson number indications that the lesson is yet to be taken or completed. 
 
-![image.png](../media/image%28318%29.png)
+![image318.png](../media/image%28318%29.png)
 
 **For the Administrator**  
-Administrator can view overall learner progress and course completion from the management portal. Check out [**this article**](../analytics/2_analytics-overview) for more details. 
+Administrator can view overall learner progress and course completion from the management portal. Check out [**this article**](../analytics/2_analytics-overview.md) for more details. 
 
 
 #### How is the course completion verified on the Microsoft Community Training? 
@@ -131,7 +131,7 @@ Please use [this link](https://www.nextofwindows.com/how-to-display-csv-files-wi
 #### How to view and export users from Microsoft Community Training platform? 
 You can view and export all users on the portal from the administrator view, click on the user's tab, and select all users. By clicking on the download list, you will be able to export all the users on the portal. Refer below the image for clarity:
 
-![image.png](../media/image%28319%29.png)
+![image319.png](../media/image%28319%29.png)
 
 #### How can I create custom report relevant to my organization?
 You can create reports and dashboards using visualization tool such as Power BI. All you have to do is connect to Azure SQL database and pull relevant data from the tables required for your reports. 

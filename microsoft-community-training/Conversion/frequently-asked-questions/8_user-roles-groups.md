@@ -149,7 +149,7 @@ You can export all the users registered on the platform from the administrator v
 
 Refer the below image for clarity 
 
-![image.png](../media/image%28313%29.png)
+![image313.png](../media/image%28313%29.png)
 
 #### How to send mass announcements to all the users of my platform?
 In order to send mass announcements, all users on the platform must be added to a single group. Once the above condition is met you will be able to send announcements straight from the group. 
@@ -165,11 +165,11 @@ You can assign courses to a specific set of users in two ways
 
 * **Adding users from Courses Tab**:  Organization administrators can manually add users to respective courses as required 
 
-   ![image.png](../media/image%28311%29.png)
+   ![image311.png](../media/image%28311%29.png)
 
 * **Assigning courses to a user group**: Group administrators can select the list of courses that should be available for users of a specific group. 
 
-   ![image.png](../media/image%28312%29.png)
+   ![image312.png](../media/image%28312%29.png)
 
 #### How skill matrix and competencies can be mapped to assign courses to the learners?
 You can leverage auto enroll users to groups feature to  add and enroll users to specific group and courses as their interest and skills gaps. 
@@ -177,8 +177,8 @@ You can leverage auto enroll users to groups feature to  add and enroll users to
 For Example: you can add **Skills Required** as one of the profile field in the platform and create rules to enroll users to specific groups with courses preassigned to auto enroll learners to required courses based on their interest areas, skill gaps identified, etc. 
 
 For more information, refer to the following articles:
-1. [**Create additional profile fields**](../settings/4_add-additional-profile-fields-for-user-information) on the portal
-2. [**Create a group**](../user-management/organize-users/2_create-a-new-group) and [**setup rule for auto enrollment**](../user-management/organize-users/5_setup-automatic-user-enrollment-for-a-group-1) 
+1. [**Create additional profile fields**](../settings/4_add-additional-profile-fields-for-user-information.md) on the portal
+2. [**Create a group**](../user-management/organize-users/2_create-a-new-group.md) and [**setup rule for auto enrollment**](../user-management/organize-users/5_setup-automatic-user-enrollment-for-a-group-1.md) 
 3. [**Assign course to the group**](https://docs.microsoftcommunitytraining.com/docs/assign-course-to-group-users)
 
 #### How can I remove or unregister user from a course?

@@ -14,11 +14,11 @@ Learners can login in any of these endpoints in three different ways: Phone numb
 ## Platform Architecture
 Once you install Microsoft Community Training in your subscription, you don't have to maintain, update, or service it. All updates to the application will be delivered automatically by Microsoft without the need for you to worry about troubleshooting and diagnosing issues.
 
-![Highlevel_Architecture](../../media/Highlevel_Architecture.JPG){height="" width="700"}
+![Highlevel_Architecture](../../media/Highlevel_Architecture.JPG)
 
 The resources for Microsoft Community Training reside in two resource groups. You as a customer have access to one resource group called the Application resource group and the other resource group called the Managed resource group is managed by Microsoft.
 
-![image.png](../../media/image%2812%29.png){height="" width="400"}
+![image12.png](../../media/image%2812%29.png)
     
 You have full access to the **Application resource group**. You can use it to manage the lifecycle of your instance, which includes restarting it or deleting it.
     
@@ -31,8 +31,8 @@ Once you have decided your preferred endpoint and login type, follow the steps b
 
 **Step 1:** [**Get an Azure subscription**](https://azure.microsoft.com/en-in/pricing/purchase-options/pay-as-you-go/) 
 
-**Step 2:** [**Install from Azure Marketplace**](../../infrastructure-management/install-your-platform-instance/3_installation-guide-detailed-steps)
+**Step 2:** [**Install from Azure Marketplace**](../../infrastructure-management/install-your-platform-instance/3_installation-guide-detailed-steps.md)
 
-**Step 3:** [**Create the Mobile App and Publish**](../../infrastructure-management/install-your-platform-instance/5_create-publish-mobile-app)
+**Step 3:** [**Create the Mobile App and Publish**](../../infrastructure-management/install-your-platform-instance/5_create-publish-mobile-app.md)
 
-**Step 4:** [**Get started on the portal**](../../get-started/4_step-by-step-configuration-guide)
+**Step 4:** [**Get started on the portal**](../../get-started/4_step-by-step-configuration-guide.md)

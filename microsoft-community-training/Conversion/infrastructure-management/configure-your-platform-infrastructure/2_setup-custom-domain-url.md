@@ -33,17 +33,17 @@ Select the WAF policy instance that is deployed in the same resource group.
 
 6. Click on the Managed application instance.
 
-   ![image.png](../../media/image%2890%29.png)
+   ![image90.png](../../media/image%2890%29.png)
 
 7. Click on **Managed resource group** link.
 
-   ![image.png](../../media/image%2889%29.png)
+   ![image89.png](../../media/image%2889%29.png)
 
 8. Select the resource for your App Service.
 
 9. From the left-menu, under Settings, click on **Configuration**.
 
-   ![image.png](../../media/image%2894%29.png)
+   ![image94.png](../../media/image%2894%29.png)
 
 10. Update the setting **ContentEndpoint** with your custom domain name, followed by the path "/storage". *For example - `https://contosolearning.contoso.com/storage`*.
 
@@ -135,7 +135,7 @@ Select the WAF policy instance that is deployed in the same resource group.
 ## Troubleshoot for Custom Domain URL Setup
 Following are some troubleshooting steps for the scenario when your website is not reachable even after following all of the above mentioned steps, 
 
-![image.png](../../media/image%28341%29.png)
+![image341.png](../../media/image%28341%29.png)
 
 Check the DNS entry is propagated by any online tool available. [Example](https://mxtoolbox.com/DNSLookup.aspx).
 
@@ -143,7 +143,7 @@ There can be 2 cases:
 
 (a). No entry is present 
 
-![image.png](../../media/image%28342%29.png)
+![image342.png](../../media/image%28342%29.png)
 
 **Steps to mitigate**
 
@@ -153,10 +153,10 @@ Every dns provider will have similar documentations. This is one more example fr
  
  (b). DNS entry is wrong
 
-![image.png](../../media/image%28343%29.png)
+![image343.png](../../media/image%28343%29.png)
 
 **Steps to mitigate**
 
 The domain record should point to the correct AzureFD url (***\<name>.azurefd.net*** ). For example,
 
-![image.png](../../media/image%28344%29.png)
+![image344.png](../../media/image%28344%29.png)

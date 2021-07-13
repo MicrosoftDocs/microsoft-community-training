@@ -19,25 +19,25 @@ In this article, you will learn more about connecting Power BI with the Azure SQ
 1. From your MCT’s SQL Database click on connection strings. 
 2. On the top bar select the option PHP. 
 3. You will be able to view your SQL Databases server name and username (As highlighted in the below screen shoot)
-![image.png](../../media/image%28361%29.png)
+![image361.png](../../media/image%28361%29.png)
 
 ## Step 2 – Connecting Power BI with MCT SQL Database 
 1.	Open Power BI → click on the get data icon and select more. 
-![image.png](../../media/image%28362%29.png)
+![image362.png](../../media/image%28362%29.png)
 
 2. Search and select Azure SQL database and click on the connect button.
-![image.png](../../media/image%28363%29.png)
+![image363.png](../../media/image%28363%29.png)
 
 3.	Enter your SQL DB server details and click on ok button.
-![image.png](../../media/image%28364%29.png)
+![image364.png](../../media/image%28364%29.png)
 
 4. Enter your database user name, password and click on the connect button 
-![image.png](../../media/image%28365%29.png)
+![image365.png](../../media/image%28365%29.png)
 
 5. Select the tables that you wanted to be imported and click on the load button. You may refer to our [Database schema](./3_database-schema) for the entity relationship. 
-![image.png](../../media/image%28366%29.png)
+![image366.png](../../media/image%28366%29.png)
 
 6. Once you hit on load all your selected tables will be imported into Power Bi right pane and available under fields. 
-![image.png](../../media/image%28367%29.png)
+![image367.png](../../media/image%28367%29.png)
 
-7. Use the database schema from [this document](./3_database-schema) to build relations required for your custom reporting requirements
+7. Use the database schema from [this document](./3_database-schema.md) to build relations required for your custom reporting requirements

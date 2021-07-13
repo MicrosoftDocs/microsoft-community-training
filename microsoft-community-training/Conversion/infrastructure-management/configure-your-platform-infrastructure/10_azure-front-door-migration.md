@@ -55,17 +55,17 @@ Please follow the following steps to update mapping in your DNS provider and add
 
 6. Click on the Managed application instance.
 
-   ![image.png](../../media/image%2890%29.png)
+   ![image90.png](../../media/image%2890%29.png)
 
 7. Click on **Managed resource group** link.
 
-   ![image.png](../../media/image%2889%29.png)
+   ![image89.png](../../media/image%2889%29.png)
 
 8. Select the resource for your App Service.
 
 9. From the left-menu, under Settings, click on **Configuration**.
 
-   ![image.png](../../media/image%2894%29.png)
+   ![image94.png](../../media/image%2894%29.png)
 
 10. Update the setting **ContentEndpoint** with your custom domain name, followed by the path "/storage". *For example - `https://contosolearning.contoso.com/storage`*.
 

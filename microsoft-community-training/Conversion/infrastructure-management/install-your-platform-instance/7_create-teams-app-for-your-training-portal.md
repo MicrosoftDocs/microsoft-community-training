@@ -23,23 +23,23 @@ If you haven't, please follow the Installation steps first and then refer this a
 2) Click on the **Directory + Subscription** icon in the portal toolbar and  select the directory that contains your Azure AD tenant or **search for and select Azure Active Directory**.
 
 3) Click on the **App Registration** option from the left panel 
-![image.png](../../media/image%28194%29.png){height="" width="150"}
+![image194.png](../../media/image%28194%29.png)
 
 4) On the App registrations page, search for and select the Azure AD application created for the Microsoft Community Training instance during the installation process
-![image.png](../../media/image%28195%29.png){height="" width="600"}
+![image195.png](../../media/image%28195%29.png)
 
 5) On the application details, select the **API permissions** option on the left panel
 
 6) Next, **click on Add Permission** and **select Microsoft Graph option** from the right panel
-![image.png](../../media/image%28196%29.png){height="" width="600"}
+![image196.png](../../media/image%28196%29.png)
 
 7) Next, in Delegated permissions and Application permissions check the following options:
     * Under Delegated permissions - **Directory.Read.All, Group.Read.All, User.Read.All**
     * Under Application permissions - **Directory.Read.All, Group.Read.All, User.Read.All**
-![image.png](../../media/image%28197%29.png){height="" width="600"}
+![image197.png](../../media/image%28197%29.png)
 
 8. Next, **click on Grant admin consent**. Confirm Yes.
-![image.png](../../media/image%28198%29.png){height="" width="600"}
+![image198.png](../../media/image%28198%29.png)
 
 @(Info)(Note)(Please sure all the values marked in red rectangle are correctly set.)
 
@@ -61,14 +61,14 @@ If you haven't, please follow the Installation steps first and then refer this a
 1. Open the Microsoft Teams client application and sign in using your global or teams service admin credentials.
 
 2.	Upload the manifest file (.zip file) provided by the customer support team as a custom app for organization in Teams 
-![image.png](../../media/image%28199%29.png){height="" width="600"}
+![image199.png](../../media/image%28199%29.png)
 
 @(Info)(Note)(For more details on how to publish apps in the Microsoft Teams Tenant Apps Catalog, [**see this article**](https://docs.microsoft.com/en-us/microsoftteams/tenant-apps-catalog-teams#publish-an-app-in-the-tenant-apps-catalog-from-the-teams-client). )
 
 ### Step 4 - Setup app policies to pin the training application from the Microsoft Team admin center
 
 1. Visit [**Teams Admin portal**](https://admin.teams.microsoft.com/) and **select Setup policies** option under Teams apps in the left navigation panel
-![image.png](../../media/image%28200%29.png)
+![image200.png](../../media/image%28200%29.png)
 
 2. Next click on the **Add Apps** button and search for the training application uploaded in the previous Step #3 
 
@@ -90,7 +90,7 @@ If you haven't, please follow the Installation steps first and then refer this a
 ![Select Application Settings.png](../../media/Select%20Application%20Settings.png)
 
 6. Select the setting **Features:AllowSiteEmbedding** and update it with value **“true”**. Click on OK.
-![image.png](../../media/image%28436%29.png)
+![image436.png](../../media/image%28436%29.png)
 
 7.	Click on save.
 ![Save Application Settings.png](../../media/Save%20Application%20Settings%281%29.png)

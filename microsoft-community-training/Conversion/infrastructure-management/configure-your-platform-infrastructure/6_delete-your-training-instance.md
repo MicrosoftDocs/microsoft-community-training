@@ -9,13 +9,13 @@ When you no longer need your training portal, you can delete it by deleting the 
 
 1. In the Azure portal, navigate to Resource groups in the left navigation pane.
 
-   ![image.png](../../media/image%2823%29.png)	
+   ![image23.png](../../media/image%2823%29.png)	
 
 2. From the list of resource groups, click on the resource group belonging to your Microsoft Community Training instance
 
 3. Select **Delete resource group**. Verify deletion by entering the resource group name and select Delete.
 
-   ![image.png](../../media/image%2887%29.png)
+   ![image87.png](../../media/image%2887%29.png)
 
 
 > [!WARNING]  

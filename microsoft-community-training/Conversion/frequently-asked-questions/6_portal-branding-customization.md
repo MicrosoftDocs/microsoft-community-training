@@ -83,7 +83,7 @@ It is possible that your logo file is incorrect. Please refer [**this article**]
 #### What is the banner image?
 Banner image will appear on the landing page and will form the first impression of your learning portal.
 
-![image.png](../media/image%28154%29.png)
+![image154.png](../media/image%28154%29.png)
 
 #### What is the size for the banner image?
 Recommended banner file size is 960 * 540 px in JPG or PNG format.
@@ -98,7 +98,7 @@ The logo can have either a transparent or a solid background.
 
 Microsoft Community Training platform uses a basic template to issue certificates to learners who have completed a course or passed an exam as shown below. 
 
-![image.png](../media/image%2829%29.png)
+![image29.png](../media/image%2829%29.png)
 
 Organizations can customize the certificate template and put their own branding as required. You can create and assign multiple certificates appropriate to the course.. Also, note learners can only receive one Certificate of Completion per course. 
 

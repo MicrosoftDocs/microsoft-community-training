@@ -55,7 +55,7 @@ If you are setting up the **Password reset flow** on an existing deployment with
 3. Open **App Service** and add the following configurations both with value as **B2C_1_pwd_reset**, 
     a. AzureADB2CPasswordResetPolicy 
     b. idp:AzureADB2CPasswordResetPolicy
-![image.png](../../media/image%28355%29.png)
+![image355.png](../../media/image%28355%29.png)
 :::
 
 #### Step 3 - Create Azure AD B2C application
@@ -81,7 +81,7 @@ Here are the steps an create on Azure AD B2C tenant and link the same with your 
     where "name" corresponds to your website name. 
 :::
     
-![image.png](../../media/image%28113%29.png)
+![image113.png](../../media/image%28113%29.png)
 
 2.	Copy the Application ID value to be required later for **Client ID**.
 
@@ -108,7 +108,7 @@ You can configure local account for your training portal by following the instru
 2.	Under Policies select User Flow and click on the required User Flow from the populated list.
 3.	Under Settings, select Identity Providers and check whether the configuration matches exactly as below.
 
-![image.png](../../media/image%28360%29.png)
+![image360.png](../../media/image%28360%29.png)
 
 4.	In the same window, select Application Claims and check whether the configuration matches exactly as below.
 
@@ -148,5 +148,5 @@ The script asks for the following two inputs:
 The AAD script takes ~2 minutes to run and outputs 4 values on screen (Client ID, Client Secret, Tenant Id, Tenant name). Make a note of the output values as they will be needed in next step. If someone else ran the script, ask them to share this output.
 A new app is created. If an app already exists with the same name, the script will delete the existing app and create a new app. 
 
-### Step 3 - Next continue from **Step 9** in  the [**installation article**](../../infrastructure-management/install-your-platform-instance/3_installation-guide-detailed-steps).
+### Step 3 - Next continue from **Step 9** in  the [**installation article**](../../infrastructure-management/install-your-platform-instance/3_installation-guide-detailed-steps.md).
 Provide the output values from the script executed in step 2

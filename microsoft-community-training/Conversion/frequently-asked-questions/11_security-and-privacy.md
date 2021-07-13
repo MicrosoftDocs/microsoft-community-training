@@ -63,7 +63,7 @@ Microsoft Community Training program uses the state of art CDN services powered 
 
 Here is the high-level architecture diagram of the Microsoft Community Training platform:
  
-![image.png](../media/image%28307%29.png)
+![image307.png](../media/image%28307%29.png)
 
 a.	**Azure Web App** - The endpoint and the underlying service which hosts all application logic and provides a frontend for the website. This is designed using standard Model-View-Controller (MVC) architecture and built on the .NET framework. 
 
@@ -108,7 +108,7 @@ d.	DDOS attacks are prevented using configuration settings in the Azure Web App 
 
 
 #### How are feature and security updates applied to the platform? What is the update frequency?
-We release monthly updates to the platform. Since the Microsoft Community Training platform will be deployed as a managed app, all the platform updates will be pushed directly by Microsoft without any intervention required by the customer. For more details, please visit [**this article**](../infrastructure-management/install-your-platform-instance/2_installation-overview).
+We release monthly updates to the platform. Since the Microsoft Community Training platform will be deployed as a managed app, all the platform updates will be pushed directly by Microsoft without any intervention required by the customer. For more details, please visit [**this article**](../infrastructure-management/install-your-platform-instance/2_installation-overview.md).
 
 
 #### How to view my Azure portals Secret Key vault?

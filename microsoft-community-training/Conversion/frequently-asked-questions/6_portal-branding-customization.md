@@ -8,13 +8,13 @@ original-url: https://docs.microsoftcommunitytraining.com/docs/portal-branding-c
 ## Platform customization
 
 #### How do I customize languages for the platform?	
-Currently, we support 28 languages on the platform. You can enable languages for your training instance and set a default language, refer **[this article](../settings/7_customize-languages-for-the-learners-on-the-platform)** for the steps to add new languages on the platform.
+Currently, we support 28 languages on the platform. You can enable languages for your training instance and set a default language, refer **[this article](../settings/7_customize-languages-for-the-learners-on-the-platform.md)** for the steps to add new languages on the platform.
 
 #### How do I change the look and feel of the portal?	
-You can change the look and feel according to your brand. Refer **[this article](../settings/2_configure-the-look-and-feel-of-your-portal)** to customize the look and feel of your portal.
+You can change the look and feel according to your brand. Refer **[this article](../settings/2_configure-the-look-and-feel-of-your-portal.md)** to customize the look and feel of your portal.
 
 #### How do I customize the name and icon of training tab in MS Team?	
-You can customize the name and icon of training tab in MS Teams as per your requirements. Refer to [this article](../infrastructure-management/configure-your-platform-infrastructure/10_customize-the-name-and-icon-of-the-training-tab-in-ms-teams) to follow the steps for customization.
+You can customize the name and icon of training tab in MS Teams as per your requirements. Refer to [this article](../infrastructure-management/configure-your-platform-infrastructure/10_customize-the-name-and-icon-of-the-training-tab-in-ms-teams.md) to follow the steps for customization.
 
 
 #### We run programs for different centers in various locations, and often need a different front end to match the branding of the specific program. Is this possible?
@@ -24,7 +24,7 @@ Microsoft Community Training doesn't support multiple homepages out of the box. 
 For more information and support on how to enable this, please contact us via [**Helpdesk**](https://go.microsoft.com/fwlink/?linkid=2104630).
 
 #### Can the landing page or homepage have a different design?
-You can customize the landing page with a custom theme color, banner image and welcome text. Refer [**this article**](../settings/2_configure-the-look-and-feel-of-your-portal) to learn more.
+You can customize the landing page with a custom theme color, banner image and welcome text. Refer [**this article**](../settings/2_configure-the-look-and-feel-of-your-portal.md) to learn more.
 
 Alternatively, you can create your own landing page and direct users to the training instance from the landing page.
 
@@ -45,7 +45,7 @@ You can upload your own privacy statement by logging in as an administrator to t
 2. Enable the Show Privacy Terms toggle button 
 3. Add a link to your organization's privacy terms and conditions. 
 
-For detailed steps,  [**refer here**](../settings/4_add-additional-profile-fields-for-user-information#add-privacy-terms-and-conditions).
+For detailed steps,  [**refer here**](../settings/4_add-additional-profile-fields-for-user-information#add-privacy-terms-and-conditions.md).
 
 #### How many profile fields can I configure as an administrator to capture learner details ?
 Microsoft Community Training allows adding upto 15 additional profile fields to capture learners information. The value of these fields can be changed both by learners and administrator. 
@@ -56,7 +56,7 @@ By default, learners will be asked for their first name, last name, and profile 
 
 Examples of additional information can be location, job role, language, topics of interest etc. 
 
-For more information, checkout [**this article**](../settings/4_add-additional-profile-fields-for-user-information).
+For more information, checkout [**this article**](../settings/4_add-additional-profile-fields-for-user-information.md).
 
 
 
@@ -66,7 +66,7 @@ For more information, checkout [**this article**](../settings/4_add-additional-p
 #### What are the supported logo sizes for the mobile application?
 The required sizes for the logo in mobile app are the following dimensions (in pixels): 150x150, 225x225, 300x300, 450x450. 
 
-Learn more in [**this article**](../infrastructure-management/install-your-platform-instance/5_create-publish-mobile-app).
+Learn more in [**this article**](../infrastructure-management/install-your-platform-instance/5_create-publish-mobile-app.md).
 
 #### What is the format required for the logo?
 No, the recommended logo file size is 150*50 px in PNG with transparent or solid background.
@@ -78,7 +78,7 @@ No, The recommended logo file size is 150*50 px in PNG with transparent or solid
 No. The recommended logo file size is 150*50 px in PNG with transparent or solid background.
 
 #### Why is the logo not uploading?
-It is possible that your logo file is incorrect. Please refer [**this article**](../infrastructure-management/install-your-platform-instance/5_create-publish-mobile-app) to learn the correct logo size and format.
+It is possible that your logo file is incorrect. Please refer [**this article**](../infrastructure-management/install-your-platform-instance/5_create-publish-mobile-app.md) to learn the correct logo size and format.
 
 #### What is the banner image?
 Banner image will appear on the landing page and will form the first impression of your learning portal.
@@ -102,27 +102,27 @@ Microsoft Community Training platform uses a basic template to issue certificate
 
 Organizations can customize the certificate template and put their own branding as required. You can create and assign multiple certificates appropriate to the course.. Also, note learners can only receive one Certificate of Completion per course. 
 
-For more details, [**refer here**](../settings/5_customize-the-certificate-template).
+For more details, [**refer here**](../settings/5_customize-the-certificate-template.md).
 
 
 #### How do I customize certificate template for the portal?	
 We provide you a way to use a custom certificate template of your choice. The certificate can be customized to include logo, background, signatures as per your requirements. It is on the product roadmap to include unique certification number to facilitate better tracking.
 
-Refer **[this article](../settings/5_customize-the-certificate-template)** to learn how to customize the certificate template.
+Refer **[this article](../settings/5_customize-the-certificate-template.md)** to learn how to customize the certificate template.
 
 #### Can i have different certificates created and assigned to courses? 
-Microsoft community training enables you to create and assign multiple certificates with its preferred type of language and other customizations. For more details [refer here](../settings/6_enable-course-level-certificate)
+Microsoft community training enables you to create and assign multiple certificates with its preferred type of language and other customizations. For more details [refer here](../settings/6_enable-course-level-certificate.md)
 
 #### Is there any restriction on the branding that can be used for the certificate?
-Branding on the certificate can be defined by the organization using the platform and they customized as per their requirements. For more details, refer to [**this article**](../settings/5_customize-the-certificate-template).
+Branding on the certificate can be defined by the organization using the platform and they customized as per their requirements. For more details, refer to [**this article**](../settings/5_customize-the-certificate-template.md).
 
 #### What is the size of the certificate?
-The size of the certificate is defined in the sample certificate file provided in [**this article**](../settings/5_customize-the-certificate-template).
+The size of the certificate is defined in the sample certificate file provided in [**this article**](../settings/5_customize-the-certificate-template.md).
 
 ## Custom domain URL
 
 #### How do I change the domain of my training portal?	
-You can change the domain of your portal and use a custom domain that reflects your organization's name or brand. Refer **[this article](../infrastructure-management/configure-your-platform-infrastructure/2_setup-custom-domain-url)** to change the domain of your portal.
+You can change the domain of your portal and use a custom domain that reflects your organization's name or brand. Refer **[this article](../infrastructure-management/configure-your-platform-infrastructure/2_setup-custom-domain-url.md)** to change the domain of your portal.
 
 
 ## Feedback & survey

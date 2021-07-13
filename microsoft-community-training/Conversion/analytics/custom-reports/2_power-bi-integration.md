@@ -11,7 +11,7 @@ In this article, you will learn more about connecting Power BI with the Azure SQ
 
 ## Prerequisites  
 1. Administrator access to the Azure Portal where the Microsoft Community Training platform is hosted
-2. Azure SQL server User ID & Password. To view / retrieve your SQL Servers User ID & Password refer to [this document](./3_database-schema).  
+2. Azure SQL server User ID & Password. To view / retrieve your SQL Servers User ID & Password refer to [this document](./3_database-schema.md).  
 3. Storing Client IP to Firewall (If you are using a dynamic IP, make sure to add the same on the fire wall every time when it changes) 
 4. Access to Power BI Application in your organization
 
@@ -34,7 +34,7 @@ In this article, you will learn more about connecting Power BI with the Azure SQ
 4. Enter your database user name, password and click on the connect button 
 ![image365.png](../../media/image%28365%29.png)
 
-5. Select the tables that you wanted to be imported and click on the load button. You may refer to our [Database schema](./3_database-schema) for the entity relationship. 
+5. Select the tables that you wanted to be imported and click on the load button. You may refer to our [Database schema](./3_database-schema.md) for the entity relationship. 
 ![image366.png](../../media/image%28366%29.png)
 
 6. Once you hit on load all your selected tables will be imported into Power Bi right pane and available under fields. 

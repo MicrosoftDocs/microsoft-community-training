@@ -41,13 +41,13 @@ The platform supports the following types of formats:
 For more information, check the article on [**how to manage course content**](https://docs.microsoftcommunitytraining.com/v1/docs/course-management-overview) on Microsoft Community Training platform.  
 
 #### How to download contents from my training portal?
-Microsoft Community Training allows administrators to download/export courses and categories as ZIP files. These zip files can be uploaded on the same instance to copy content or to another instance to transfer the content. Refer to[ this article ](../content-management/manage-content/manage-course-category/6_move-course-content-across-training-instance)to learn more. 
+Microsoft Community Training allows administrators to download/export courses and categories as ZIP files. These zip files can be uploaded on the same instance to copy content or to another instance to transfer the content. Refer to[ this article ](../content-management/manage-content/manage-course-category/6_move-course-content-across-training-instance.md)to learn more. 
 
 #### How to create new course category? 
 You can create, edit or delete a category from the administrator portal. Please refer to[ this article](https://docs.microsoftcommunitytraining.com/docs/create-a-course-category) for the detailed steps.  
 
 #### How to bulk upload lessons? 
-Microsoft Community Training provides bulk upload lesson feature to add more than one lesson at a time within a course. [Refer to this article](../content-management/create-content/create-course-category/4_upload-content-to-a-course) for the detailed steps.  
+Microsoft Community Training provides bulk upload lesson feature to add more than one lesson at a time within a course. [Refer to this article](../content-management/create-content/create-course-category/4_upload-content-to-a-course.md) for the detailed steps.  
 
 #### What is the size of the files I can upload on the MCT platform?
 The platform can accept files size depending on the upload size limit as specified below.
@@ -81,9 +81,9 @@ Yes, customers can embed videos from any external platforms such as YouTube, MS 
 
 6.	Select the setting **AllowEmbedDomains** and update it with value of domain you wish to add, as shown in the image below. (For Example: dailymotion.com)
 
-    ![AllowEmbedDomains.png](../media/AllowEmbedDomains.png)
+    ![AllowEmbedDomains1.png](../media/AllowEmbedDomains.png)
 
-    ![AllowEmbedDomainsEditing.png](../media/AllowEmbedDomainsEditing.png)
+    ![AllowEmbedDomainsEditing1.png](../media/AllowEmbedDomainsEditing.png)
 
     > [!NOTE]  
     > You can add as many domains you want separated by comma.
@@ -160,7 +160,7 @@ No, SWF file is not supported on the platform. You will need to convert SWF file
 Yes, you can use audio files for lessons. To learn what other types of content is supported, refer the [**Course Management Overview**](https://docs.microsoftcommunitytraining.com/docs/course-management-overview) article.
 
 #### Can I add multiple language subtitles to a video file? 
-Microsoft community training allows administrators to add subtitles to videos more than 180 languages. This additional feature is great for multilingual organizations. [**For adding subtitles**](../content-management/create-content/create-course-category/5_add-subtitles-or-captions-to-video-content) to your video, select the language from the drop-down menu and upload the VTT file that includes the subtitles you want to add. Subtitles must be in the VTT format. 
+Microsoft community training allows administrators to add subtitles to videos more than 180 languages. This additional feature is great for multilingual organizations. [**For adding subtitles**](../content-management/create-content/create-course-category/5_add-subtitles-or-captions-to-video-content.md) to your video, select the language from the drop-down menu and upload the VTT file that includes the subtitles you want to add. Subtitles must be in the VTT format. 
 
 To learn more about the VTT standard, please read it [**here**](https://en.wikipedia.org/wiki/WebVTT).
 
@@ -183,7 +183,7 @@ The platform provides two types of assessments in the form of Practice Quiz and 
 
 **Exam** - An Exam is used to evaluate learners on their proficiency and knowledge in a particular course to measure learning outcome. Unlike practice quiz, an exam has limited number of attempts and a passing percentage as specified by the trainer.
 
-Learn more [**here**](../content-management/create-content/create-course-category/6_add-practice-course-and-exam).
+Learn more [**here**](../content-management/create-content/create-course-category/6_add-practice-course-and-exam.md).
 
 
 #### How many practice quizzes can be there for a course? 
@@ -195,7 +195,7 @@ Unlike practice quizzes, exams are limited to one per course.
 #### Can we set a passing criteria and limit # of attempts for assessments?
 You can define the passing percentage and number of attempts a learner can take the exam at the time of creating the exam. 
 
-For detailed steps, **[refer here](../content-management/create-content/create-course-category/6_add-practice-course-and-exam)**.
+For detailed steps, **[refer here](../content-management/create-content/create-course-category/6_add-practice-course-and-exam.md)**.
 
 
 
@@ -208,7 +208,7 @@ Yes, learners will be able to download office 365 documents such as word and Pow
 Please note that video, audio and other formats can only be downloaded from the mobile app. 
 
 #### Where can I find the format of Bulk Upload courses?	
-To use the Bulk Upload course feature, you need to adhere to a specific content structure. Refer **[this article](../content-management/create-content/create-course-category/4_upload-content-to-a-course#option-2--bulk-upload-lessons)** to learn about the format required for Bulk Upload courses.
+To use the Bulk Upload course feature, you need to adhere to a specific content structure. Refer **[this article](../content-management/create-content/create-course-category/4_upload-content-to-a-course.md#option-2--bulk-upload-lessons)** to learn about the format required for Bulk Upload courses.
 
 #### What is the maximum video size that one can upload? 	
 The maximum video size you can upload for a particular lesson is 2 GB.
@@ -222,7 +222,7 @@ Uploading video content includes the process of encoding the content and convert
 #### How to import my existing course content to Microsoft community training?
 A: You can bulk upload your existing course contents to Microsoft community training. 
 
-For more information, [**refer here**](../content-management/create-content/create-course-category/3_create-a-new-course).
+For more information, [**refer here**](../content-management/create-content/create-course-category/3_create-a-new-course.md).
 
 #### How can bring content from external websites into Microsoft Community Training platform?
 The recommend approach is to download the content from the external websites and upload the same to the Microsoft Community Training instance. 
@@ -254,9 +254,9 @@ For scenarios when you have the same course available in multiple languages, you
 
 1) Create multiple version of the same course each containing content in different language.
   
-2) Add a custom field as part learner's profile information to capture a learner's preferred language. Learn how to do it from **[this article](../settings/4_add-additional-profile-fields-for-user-information)**.
+2) Add a custom field as part learner's profile information to capture a learner's preferred language. Learn how to do it from **[this article](../settings/4_add-additional-profile-fields-for-user-information.md)**.
 
-3) Next, create a group of users corresponding to each language of your content. You can do so by adding a rule while creating the group. Refer **[this article](../user-management/organize-users/5_setup-automatic-user-enrollment-for-a-group-1)** to learn how.
+3) Next, create a group of users corresponding to each language of your content. You can do so by adding a rule while creating the group. Refer **[this article](../user-management/organize-users/5_setup-automatic-user-enrollment-for-a-group-1.md)** to learn how.
 
 4) Finally, assign the language specific course to each group based on that group's preferred language. Refer **[this article](https://docs.microsoftcommunitytraining.com/docs/assign-course-to-group-users#")** to learn how.
 
@@ -268,12 +268,12 @@ Contact us via **[Helpdesk](https://go.microsoft.com/fwlink/?linkid=2104630)** a
 #### I am not able to bulk upload content on the training portal or Bulk upload content is failing 	
 Depending upon your network connectivity and size of the ZIP file, it can take some time to complete the upload operation.  Additionally, if there are issues with the content format or structure of the ZIP file then the system will throw an error message. 
 
-Follow the instructions given in **[this article](../content-management/create-content/create-course-category/4_upload-content-to-a-course#option-2--bulk-upload-lessons)** to learn how to properly bulk upload content.
+Follow the instructions given in **[this article](../content-management/create-content/create-course-category/4_upload-content-to-a-course.md#option-2--bulk-upload-lessons)** to learn how to properly bulk upload content.
 
 #### Bulk upload courses feature is extremely slow and often getting timed out	
 Depending upon your network connectivity and size of the ZIP file, it can take some time to complete the upload operation.  Additionally, if there are issues with the content format or structure of the ZIP file then the system will throw an error message. 
 
-Follow the instructions given in **[this](../content-management/create-content/create-course-category/4_upload-content-to-a-course#option-2--bulk-upload-lessons)** article to learn how to properly upload content in bulk.
+Follow the instructions given in **[this](../content-management/create-content/create-course-category/4_upload-content-to-a-course.md#option-2--bulk-upload-lessons)** article to learn how to properly upload content in bulk.
 
 
 
@@ -301,7 +301,7 @@ No. There is no limit to the no. of categories and courses that administrator ca
 
 #### How can I track and view learner progress on the platform? 
 
-You will be able to track and view user’s progress from our analytics tab on the admin dashboard.  For further information please visit [**this article**](../analytics/2_analytics-overview).
+You will be able to track and view user’s progress from our analytics tab on the admin dashboard.  For further information please visit [**this article**](../analytics/2_analytics-overview.md).
 
 #### How can I add additional resources or exercises as part of a course?
 Currently,  Microsoft Community Training platform doesn't support attaching additional content or  exercises  as part of courses out of the box. Howover, customers can achieve this by using third-party tools such as Microsoft Forms or attaching exercise files in word and embed them as a lesson in a course. 
@@ -317,7 +317,7 @@ Course administrators can have the downloadable links copied to the word file  a
 * Upload the word file to our platform as a lesson and title it as Downloadable resources or Exercise file. 
 
 #### Can we unpublish a course?
-Once the course in published on the platform, you can't unpublish it but you can hide the same from the course library by changing its Learner Enrollment type to "Only admin can enroll learners". This will ensure that the course is not available or listed in the course library. For more details, see step 6 in [**this article**](../content-management/create-content/create-course-category/3_create-a-new-course#option-1--create-a-single-course-in-a-category).  
+Once the course in published on the platform, you can't unpublish it but you can hide the same from the course library by changing its Learner Enrollment type to "Only admin can enroll learners". This will ensure that the course is not available or listed in the course library. For more details, see step 6 in [**this article**](../content-management/create-content/create-course-category/3_create-a-new-course.md#option-1--create-a-single-course-in-a-category).  
 
 > [!IMPORTANT]  
 > In case there are users who are already enrolled for the course, they will continue to see the coure in My Course Page.
@@ -337,7 +337,7 @@ There are multiple scenarios which could alter the learner’s progress
 Example: Cathy enrollees a course, completes the assessment, and obtains a certificate. After a few days when new lessons and assessments are added to the course, Cathy's certificate is automatically blocked and in order to reobtain the certificate, Cathy is required to complete the newly added assessment criteria. 
 
 #### Can I change the order of lessons in a course?
-Yes, you can change the order of the lessons by using drag and drop functionality on the course details page. For more details, refer to [**this article**](../content-management/create-content/create-course-category/8_publishing-course). 
+Yes, you can change the order of the lessons by using drag and drop functionality on the course details page. For more details, refer to [**this article**](../content-management/create-content/create-course-category/8_publishing-course.md). 
 
 
 #### Can I add content in multiple language for the same course on the platform?	
@@ -355,7 +355,7 @@ Yes, you can enable Lesson Sequencing while creating or editing a course. This w
 #### Can we restrict user to move from one course to another unless if he/she has finished the current course?
 Currently there is no restriction on the sequence for the courses a learner has to go through. A learner can go through the enrolled courses in their preference order. We have plans to add a functionality in the future to restrict learners to go through courses in a particular sequence as defined by the administrator i.e. learners will not be allowed to go to Course #2 unless Course #1 is completed.  
 
-In the meantime, as a workaround, admins can name courses under a category such that learners can logically follow the sequence (for e.g. 01 – Work with computers, 02 – Access online, etc.) or they can mark courses as admin only to ensure learners will be enrolled to a new course only when existing courses are complete. For more details, see step 6 in [**this article**](../content-management/create-content/create-course-category/3_create-a-new-course#option-1--create-a-single-course-in-a-category). 
+In the meantime, as a workaround, admins can name courses under a category such that learners can logically follow the sequence (for e.g. 01 – Work with computers, 02 – Access online, etc.) or they can mark courses as admin only to ensure learners will be enrolled to a new course only when existing courses are complete. For more details, see step 6 in [**this article**](../content-management/create-content/create-course-category/3_create-a-new-course.md#option-1--create-a-single-course-in-a-category). 
 
 #### How to delete a course on the platform? 
 Organization administrators and category administrators can delete a course from the Course Tab on the management portal.  Refer below the image for clarity. For more details, check out [**this article**](https://docs.microsoftcommunitytraining.com/docs/delete-a-course).

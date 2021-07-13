@@ -57,11 +57,11 @@ Go the key vault. By default, user does not have access permission to view the k
 ![firewal select](../../media/firewal%20select.png)
 
 To add client IP, click on add client IP and select the save icon
-![FIREWAL](../../media/FIREWAL.png)
+![FIREWAL.png](../../media/FIREWAL.png)
 
 ## Executing SQL Queries 
 1. To run a SQL query go to your Azure portal and click on **Query editor**
 ![image353.png](../../media/image%28353%29.png)
 
-2. The admin to login to the above portal can be obtained from **Key vault**. See [accessing Key vaults](./3_database-schema#accessing-key-vault.md) section for more details. 
+2. The admin to login to the above portal can be obtained from **Key vault**. See [accessing Key vaults](./3_database-schema.md#accessing-key-vault.md) section for more details. 
 ![image354.png](../../media/image%28354%29.png)

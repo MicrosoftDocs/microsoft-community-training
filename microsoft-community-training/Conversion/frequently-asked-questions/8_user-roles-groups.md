@@ -18,13 +18,13 @@ The platform follows a role-based administration hierarchy. There are four admin
 
 4. **Group Administrator** - This role is assigned by organization administrator to a grassroot-level facilitator, trainer, supervisor or manager who is responsible to drive learner engagement and adoption of the training program on the ground. The group administrator takes care of onboarding users, assigning courses and driving course completion via announcements/discussions forum.
 
-For more information, please visit **[this article](../get-started/3_user-role-and-management-portal-overview)**.
+For more information, please visit **[this article](../get-started/3_user-role-and-management-portal-overview.md)**.
 
 
 #### How many administrators can the Microsoft Community Training portal have? 
 There are no such limitations, the portal can have any number of administrators. Microsoft Community Training management portal provides four types of administrative roles to a user on the portal - Organization Administrator, Category Administrator, Course Administrator and Group Administrator. 
 
-For more information, please visit **[this article](../get-started/3_user-role-and-management-portal-overview)**.
+For more information, please visit **[this article](../get-started/3_user-role-and-management-portal-overview.md)**.
 
 
 #### How can I add administrator to specific group and restrict access to any other groups and courses? 
@@ -34,7 +34,7 @@ Group administrators are allowed to manage users in the group, assign courses, a
 #### How to switch between administrator and learner view?
 Once you login to the portal, by default, you will be shown the learner view. Click the round user icon on the top right of the screen and choose the View as an administrator option from the drop-down menu to open the management portal.
 
-For more information, [**refer here**](../get-started/4_step-by-step-configuration-guide#step-2--switch-to-administrator-view-of-the-portal).
+For more information, [**refer here**](../get-started/4_step-by-step-configuration-guide.md#step-2--switch-to-administrator-view-of-the-portal).
 
 #### Can a group administrator also be a learner on the platform?
 Yes, group administrators can be enrolled to courses on the platform and consumed training content as a learner.
@@ -65,17 +65,17 @@ Every user added to the platform will be marked as either Registed or Unregister
 #### How can I onboard users to the Microsoft Community Training platform? 
 There are 3 ways to onboard users to Microsoft Community Training platform:
 
-1. **Add a single user manually** - You can add users individually (one by one) on the management portal. Refer **[this article](../user-management/organize-users/3_add-a-single-user-to-the-group)** to learn how.
+1. **Add a single user manually** - You can add users individually (one by one) on the management portal. Refer **[this article](../user-management/organize-users/3_add-a-single-user-to-the-group.md)** to learn how.
 
-2.	**Add multiple users manually** - You can add multiple users at once by using the bulk upload feature via the CSV file. Refer **[this article](../user-management/organize-users/4_add-multiple-users-to-the-group)** to learn how.
+2.	**Add multiple users manually** - You can add multiple users at once by using the bulk upload feature via the CSV file. Refer **[this article](../user-management/organize-users/4_add-multiple-users-to-the-group.md)** to learn how.
 
-3.	**Add users via API** - Microsoft Community Training platform provides APIs to push users to the platform from your existing system. To learn how to leverage APIs, refer **[this article](../infrastructure-management/install-your-platform-instance/6_apis)**.
+3.	**Add users via API** - Microsoft Community Training platform provides APIs to push users to the platform from your existing system. To learn how to leverage APIs, refer **[this article](../infrastructure-management/install-your-platform-instance/6_apis.md)**.
 
 
 #### I have a list of users in an excel file. How can I add them to the portal?
 You can import users using csv data to our platform. However, there are certain prerequisites involved. 
 
-[**Refer here**](../user-management/organize-users/4_add-multiple-users-to-the-group) for the detailed steps. 
+[**Refer here**](../user-management/organize-users/4_add-multiple-users-to-the-group.md) for the detailed steps. 
 
 
 #### Will I be able to bulk import users from my existing database?
@@ -85,7 +85,7 @@ Yes, you can bulk import existing users to Microsoft community training using ou
 #### Bulk upload users feature doesn't seem to be working?	
 Bulk upload is a resource intensive operation and might take time until the process is completed. Please wait until the operation is complete. 
 
-If you see errors while uploading users in bulk, it is possible that your CSV file is corrupt or has some errors. To make sure your file is correct, follow the instructions given **[here](../user-management/organize-users/4_add-multiple-users-to-the-group)**.
+If you see errors while uploading users in bulk, it is possible that your CSV file is corrupt or has some errors. To make sure your file is correct, follow the instructions given **[here](../user-management/organize-users/4_add-multiple-users-to-the-group.md)**.
 
 
 
@@ -100,20 +100,20 @@ For example, let's say there is an organization in South Africa that has employe
 
 * Another way to manage and organize the workforce would be based on the roles and departments such as Sales, Marketing, Human Resources, Operations, etc.
 
-Organizations can use groups to manage different types of learners on the portal and automate user enrolment to the groups based on the skills required, user location, functional domains, role etc. For example, you can [**create groups**](../user-management/organize-users/2_create-a-new-group) and [**set rules to automatically add users**](../user-management/organize-users/5_setup-automatic-user-enrollment-for-a-group-1) to the group whenever they sign up on the platform.
+Organizations can use groups to manage different types of learners on the portal and automate user enrolment to the groups based on the skills required, user location, functional domains, role etc. For example, you can [**create groups**](../user-management/organize-users/2_create-a-new-group.md) and [**set rules to automatically add users**](../user-management/organize-users/5_setup-automatic-user-enrollment-for-a-group-1.md) to the group whenever they sign up on the platform.
 
-Alternatively, the organization can also [**manually add users**](../user-management/organize-users/4_add-multiple-users-to-the-group) to the group at once.
+Alternatively, the organization can also [**manually add users**](../user-management/organize-users/4_add-multiple-users-to-the-group.md) to the group at once.
 
 
 #### How to create user groups and add users to a group? 
 You can create user groups by login and switch to administrator view ➔ Select Users tab ➔ Click on New group on the bottom left of the page. 
 
-For a detailed step by step guide on creating new user groups [**refer here**](../user-management/organize-users/2_create-a-new-group). 
+For a detailed step by step guide on creating new user groups [**refer here**](../user-management/organize-users/2_create-a-new-group.md). 
 
 Users can be added in groups by two ways:
 
-1. [**Manually add users to a group**](../user-management/organize-users/2_create-a-new-group#manually-add-users-to-group-during-creation-time) – You will be able to upload single or bulk users.
-2. [**Automatic user enrollment**](../user-management/organize-users/2_create-a-new-group#automatically-add-users-to-group-during-creation) – Automatic groups allow you to set specific rules which will auto add users to the group based on specified rules. 
+1. [**Manually add users to a group**](../user-management/organize-users/2_create-a-new-group#manually-add-users-to-group-during-creation-time.md) – You will be able to upload single or bulk users.
+2. [**Automatic user enrollment**](../user-management/organize-users/2_create-a-new-group#automatically-add-users-to-group-during-creation.md) – Automatic groups allow you to set specific rules which will auto add users to the group based on specified rules. 
 
 
 #### How many users can be in a group?
@@ -125,12 +125,12 @@ Microsoft Community Training platform  allows you to automatically add users to 
 
 When a user registers on the portal and completes the profile information, the values entered are compared against the rule applied by administrators for different groups and users are added to all the groups where criteria match.
 
-You can [**refer here**](../user-management/organize-users/5_setup-automatic-user-enrollment-for-a-group-1) for the steps involved in setting up rule based groups.
+You can [**refer here**](../user-management/organize-users/5_setup-automatic-user-enrollment-for-a-group-1.md) for the steps involved in setting up rule based groups.
 
 #### How can I classify users into multiple groups based on Region, Country, Role or Department? 
 You can setup rule based group to auto enroll users based on their role, department, geography etc. However, there is prerequisite in achieving this. 
 
-You can [**refer here**](../user-management/organize-users/5_setup-automatic-user-enrollment-for-a-group-1) for the steps involved.
+You can [**refer here**](../user-management/organize-users/5_setup-automatic-user-enrollment-for-a-group-1.md) for the steps involved.
 
 #### How are users initially invited to the platform to create an account? By an email link? 
 You can invite users by sending mass emails, SMS, announcements on your existing website etc. along with the access links to the portal and mobile app.
@@ -154,7 +154,7 @@ Refer the below image for clarity
 #### How to send mass announcements to all the users of my platform?
 In order to send mass announcements, all users on the platform must be added to a single group. Once the above condition is met you will be able to send announcements straight from the group. 
 
-For more information on announcements [**refer here**](../user-management/manage-users/3_send-announcement-to-the-users).
+For more information on announcements [**refer here**](../user-management/manage-users/3_send-announcement-to-the-users.md).
 
 
 ## Course assignment and tracking

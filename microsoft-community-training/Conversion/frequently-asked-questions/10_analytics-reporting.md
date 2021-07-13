@@ -10,7 +10,7 @@ original-url: https://docs.microsoftcommunitytraining.com/docs/analytics-reporti
 #### How to track learner’s progress on the Microsoft Community Training platform?
 Microsoft Community Training allows organizations to track and stay updated on learner's progress and performance scores through quizzes and exams. Customers can use the inbuilt analytics to track learners' engagements and progress. Also, individual learner’s progress can be tracked and downloaded. 
 
-For more information, [**refer here**](../analytics/in-built-reports/2_overall-summary).
+For more information, [**refer here**](../analytics/in-built-reports/2_overall-summary.md).
 
 #### Do learners have to watch the whole video for the lesson to be considered complete? 
 Video lessons are marked complete only after the learners have watched the video for the entire duration. However, if videos are coming from external links such as YouTube, it is marked complete the moment learners play it. 
@@ -84,15 +84,15 @@ For more information, contact us [**via the helpdesk**](https://go.microsoft.com
 
 To provide a rich out of the box experience to an admin, Microsoft Community Training platform provides different views, designed to facilitate tracking learner progress and program monitoring at various levels:
 
-1.	[**Overall Summary**](../analytics/in-built-reports/2_overall-summary) - Provides a high-level picture of learner enrolments and course completion 
+1.	[**Overall Summary**](../analytics/in-built-reports/2_overall-summary.md) - Provides a high-level picture of learner enrolments and course completion 
 
-2.	[**Category Analytics**](../analytics/in-built-reports/3_category-view-report) - Allows an admin to track the progress of various courses in a category
+2.	[**Category Analytics**](../analytics/in-built-reports/3_category-view-report.md) - Allows an admin to track the progress of various courses in a category
 
-3.	[**Course Analytics**](../analytics/in-built-reports/4_course-view-report) - Allows an admin to track the course progress
+3.	[**Course Analytics**](../analytics/in-built-reports/4_course-view-report.md) - Allows an admin to track the course progress
 
-4.	[**Group Analytics**](../analytics/in-built-reports/5_group-view-report) - Allows an admin to view the progress of a group of users
+4.	[**Group Analytics**](../analytics/in-built-reports/5_group-view-report.md) - Allows an admin to view the progress of a group of users
 
-5.	[**Individual Learner’s Report Card**](../analytics/in-built-reports/6_learner-report-card-view) - Allows an admin to view the progress of a learner in all the different courses
+5.	[**Individual Learner’s Report Card**](../analytics/in-built-reports/6_learner-report-card-view.md) - Allows an admin to view the progress of a learner in all the different courses
 
 
 #### How to check the number of learners enrolled in a course and course completion percentage?
@@ -100,11 +100,11 @@ Category/Course Analytics provides admin a glance at the learner enrolments, lea
 
 To access the course and category analytics, you can either select the View Analytics option from (…) More menu for a Category / Course under the Courses tab or select a specific row from the Category grid in the overall summary view page. 
 
-For more information, please [**refer here**](../analytics/2_analytics-overview).
+For more information, please [**refer here**](../analytics/2_analytics-overview.md).
 
 
 #### How to view individual learners average quiz scores, courses enrolled, and completed? 
-From the group view grid you will be able to see user’s progress and quiz scores. Please [**refer here**](../analytics/in-built-reports/5_group-view-report) for more information.
+From the group view grid you will be able to see user’s progress and quiz scores. Please [**refer here**](../analytics/in-built-reports/5_group-view-report.md) for more information.
 
 #### How is the course completion  percentage computed for a learner? 
 Course completion percentage is computed based on the course items (including lesson, quizzes and exams) completed for a given course by the learners. For e.g. if we have 5 lessons in a course then post completion of each lesson course progress will be increased by 20%.
@@ -116,7 +116,7 @@ Course completion percentage is computed based on the course items (including le
 
 Learner Report Card View provides administrators to monitor and track each learner’s progress and performance across all the enrolled courses. This information helps administrators (especially group admins) track course completion and follow up with learners to drive adoption of the training program.
 
-To access the Learner Report Card View, you need to select a user from the group details page or All users list page. For more information, [**refer here**](../analytics/in-built-reports/6_learner-report-card-view).
+To access the Learner Report Card View, you need to select a user from the group details page or All users list page. For more information, [**refer here**](../analytics/in-built-reports/6_learner-report-card-view.md).
 
 
 #### What is the available file format to download the analytics? 
@@ -141,7 +141,7 @@ For more information, reach out to us [**via helpdesk**](https://go.microsoft.co
 ## Usage report and metrics
 
 #### Can I view the data on number of  unique visitors, active users, average time spent by learners  on the Microsoft Community Training platform? 
-Microsoft Community Training platform leverages [**Azure Application Insights**](https://docs.microsoft.com/en-us/azure/azure-monitor/app/app-insights-overview) to capture telemetry and track aggregate traffic / usage data across all the learners on web and mobile app.  To access these data points:
+Microsoft Community Training platform leverages [**Azure Application Insights**](/azure/azure-monitor/app/app-insights-overview) to capture telemetry and track aggregate traffic / usage data across all the learners on web and mobile app.  To access these data points:
 
 1. You can login to the [**Azure Portal**](https://portal.azure.com/) can go the Azure Application Insight service created under the resource group where Microsoft Community Training  platform is deployed. 
 
@@ -151,7 +151,7 @@ For more information, reach out to us [**via helpdesk**](https://go.microsoft.co
 
 
 #### Is there a possibility to get statistics to see the “Popular” hours on which the learners frequently access the training portal? I want to know average browsing time and unique users account  every week. 
-Microsoft Community Training platform leverages [**Azure Application Insights**](https://docs.microsoft.com/en-us/azure/azure-monitor/app/app-insights-overview) to capture telemetry and track aggregate traffic / usage data across all the learners on web and mobile app.  To access these data points:
+Microsoft Community Training platform leverages [**Azure Application Insights**](/azure/azure-monitor/app/app-insights-overview) to capture telemetry and track aggregate traffic / usage data across all the learners on web and mobile app.  To access these data points:
 
 1. You can login to the [**Azure Portal**](https://portal.azure.com/) can go the Azure Application Insight service created under the resource group where Microsoft Community Trainig platform is deployed. 
 

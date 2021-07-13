@@ -63,7 +63,7 @@ Every time when a user logs in using their mobile number he or she will receive 
 #### What makes Microsoft Community Training secure if anyone with a valid phone number or email address can access the platform? How can I prevent access to course content in such scenarios? 
 There are often scenarios when an organization wants to restrict portal access only to their internal workforces, identified communities or an existing list of learners.  In such scenarios, admins can use the Restricted User Access setting in the management portal to prevent users outside of the organization from logging into the portal. 
 
-When this setting is enabled, only users that are added or imported to the portal by the organization will be allowed to access the portal. Please refer [**this article**](../settings/3_restrict-portal-access-to-users-outside-your-organization) to learn how to restrict access to your learning portal.
+When this setting is enabled, only users that are added or imported to the portal by the organization will be allowed to access the portal. Please refer [**this article**](../settings/3_restrict-portal-access-to-users-outside-your-organization.md) to learn how to restrict access to your learning portal.
 
 
 #### For phone based login, my learners are unable to receive One Time Password (OTP)? What should I do? 
@@ -83,7 +83,7 @@ Post which, admins can us [**via helpdesk**](https://go.microsoft.com/fwlink/?li
 ## Email address login
 
 #### How  to configure social account or email-based login on the Microsoft Community Training platform?
-Refer to [**this article**](../infrastructure-management/install-your-platform-instance/4_configure-login-social-work-school-account), to understand how  to configure social account and email-based login for the Microsoft Community Training  platform.
+Refer to [**this article**](../infrastructure-management/install-your-platform-instance/4_configure-login-social-work-school-account.md), to understand how  to configure social account and email-based login for the Microsoft Community Training  platform.
 
 
 #### Can I allow my users to login via social media accounts such as Google & Facebook?

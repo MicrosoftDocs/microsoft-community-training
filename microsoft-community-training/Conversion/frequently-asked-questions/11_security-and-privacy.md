@@ -26,10 +26,10 @@ Microsoft community training can ensure that in case of unforeseen failures and 
 
 Since Microsoft Community Training is a managed application, back up and replication is not enabled by default. Customers can enable backup/replication of the data to the data center region of their choice
 
-Refer to [**this article**](../infrastructure-management/configure-your-platform-infrastructure/5_business-continuity-and-disaster-recovery-for-your-platform-instance) to learn more. 
+Refer to [**this article**](../infrastructure-management/configure-your-platform-infrastructure/5_business-continuity-and-disaster-recovery-for-your-platform-instance.md) to learn more. 
 
 #### What is the backup policy?
-Customers can configure the **[backup frequency and policy](https://docs.microsoft.com/en-us/azure/backup/backup-azure-manage-vms#manage-backup-policy-for-a-vm)**. From the product team perspective, we recommend customers to do daily a backup.  
+Customers can configure the **[backup frequency and policy](/azure/backup/backup-azure-manage-vms#manage-backup-policy-for-a-vm)**. From the product team perspective, we recommend customers to do daily a backup.  
 
 #### What is the committed Recovery Time Objective (RTO) and Recovery Point Objective (RPO)?
 Customers can configure the geo-replication, automatic failover, etc. for business continuity scenarios as their business requirements. For e.g. for Azure SQL database, geo-restore from geo-replicated backups is RTO - 12 hours and RPO – 6 hours.
@@ -40,12 +40,12 @@ Customers can configure the geo-replication, automatic failover, etc. for busine
 #### What methodology is used for encrypting user and course data in transit and at rest?
 When data is in transit, it is encrypted using TLS 1.2. When data is at rest, it is encrypted using Transparent Data Encryption (i.e. TDE).
 
-For more details on Transfer Data Encryption, please visit [**this article**](https://docs.microsoft.com/en-us/sql/relational-databases/security/encryption/transparent-data-encryption?view=sql-server-ver15).
+For more details on Transfer Data Encryption, please visit [**this article**](/sql/relational-databases/security/encryption/transparent-data-encryption?view=sql-server-ver15).
 
 #### Can the customer use their own encryption keys for data encryption?
 
 Currently, we use the default encryption key (256-bit AES encryption) provided by the Azure Services such as Azure SQL, Azure Blob Storage, etc.  
-Customer can use their own encryption key features by the underlying Azure services if required. For more details, please check out [**Azure SQL TDE with customer-managed key**](https://docs.microsoft.com/en-us/azure/sql-database/transparent-data-encryption-byok-azure-sql), [**Azure Storage encryption for data at rest**](https://docs.microsoft.com/en-us/azure/storage/common/storage-service-encryption) and [**configure customer-managed keys**](https://docs.microsoft.com/en-us/azure/storage/common/storage-encryption-keys-portal). 
+Customer can use their own encryption key features by the underlying Azure services if required. For more details, please check out [**Azure SQL TDE with customer-managed key**](/azure/sql-database/transparent-data-encryption-byok-azure-sql), [**Azure Storage encryption for data at rest**](/azure/storage/common/storage-service-encryption) and [**configure customer-managed keys**](/azure/storage/common/storage-encryption-keys-portal). 
 
 
 

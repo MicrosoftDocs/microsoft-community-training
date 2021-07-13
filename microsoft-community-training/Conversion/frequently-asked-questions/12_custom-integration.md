@@ -41,7 +41,7 @@ Microsoft Community Training doesn't come with any out of box integrations with 
 Yes, Customers can integrate Microsoft Community Training platform to their existing mobile application.  
 For example, you can add a 'Training' button on the home screen and clicking on the button will launch the Microsoft Community Training platform inside the existing app as a web view.
 
-Alternatively, you can also use [**REST APIs**](../infrastructure-management/install-your-platform-instance/6_apis) to create your own learning experience within your existing app/service. 
+Alternatively, you can also use [**REST APIs**](../infrastructure-management/install-your-platform-instance/6_apis.md) to create your own learning experience within your existing app/service. 
 
 Please  contact us [**via Helpdesk**](https://go.microsoft.com/fwlink/?linkid=2104630) to get help on the integration.
 

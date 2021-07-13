@@ -8,13 +8,13 @@ original-url: https://docs.microsoftcommunitytraining.com/docs/web-mobile-app
 ## Learner experience
 
 #### It takes too much time to open the website on my browser / portal is responding very slowly 	
-It is possible that your infrastructure is unable to handle the high traffic load. Refer **[this article](../infrastructure-management/configure-your-platform-infrastructure/4_scale-up-instance-configuration)** to upscale your platform and meet your growing needs.
+It is possible that your infrastructure is unable to handle the high traffic load. Refer **[this article](../infrastructure-management/configure-your-platform-infrastructure/4_scale-up-instance-configuration.md)** to upscale your platform and meet your growing needs.
 
 #### I can't open external links embedded inside the PDF document in the platform. 
 For security reasons, we have disabled clicking on external links for the PDF document on the platform. Hence, you should not add any  link in PDF lesson file. 
 
 #### Can learners change/update user profile fields ?
-Learners can change/update profile fields via profile section in the learners portal. Administrator can change these values via the bulk upload functionality. Refer [**this article**](../user-management/organize-users/4_add-multiple-users-to-the-group#steps-to-bulk-upload-users-to-specific-group) for more information. 
+Learners can change/update profile fields via profile section in the learners portal. Administrator can change these values via the bulk upload functionality. Refer [**this article**](../user-management/organize-users/4_add-multiple-users-to-the-group#steps-to-bulk-upload-users-to-specific-group.md) for more information. 
 
 
 
@@ -33,7 +33,7 @@ After successful login, learners can see all the courses to which he or she has 
 
 Users can also browse the course library and register for more courses as required. 
  
-For further information [**refer here**](../learner-experience/3_mobile)
+For further information [**refer here**](../learner-experience/3_mobile.md)
  
 
 
@@ -120,7 +120,7 @@ Learners can download content on their mobile app by clicking on the download ic
 #### What is the name of the Mobile application available on android?
 Just like a web app, a mobile app can also be customized and branded according to the organization's norms. You can provide the preferred app title while publishing the APK on your google play store account. 
 
-For more information [**refer here**](../infrastructure-management/install-your-platform-instance/5_create-publish-mobile-app).
+For more information [**refer here**](../infrastructure-management/install-your-platform-instance/5_create-publish-mobile-app.md).
 
 
 #### How can I test mobile app before uploading the same to the Google Play Store?
@@ -146,7 +146,7 @@ Yes, you can disable the comment functionality from the lessons. Once disabled, 
 
 Microsoft Community Training platform has  a functionality called discussion forum which learners can use to ask questions to other participants, trainers or administrator. Anyone who is registered for the course (or admins) can respond to these questions. 
  
-Refer this [**article**](../learner-experience/2_web-app#step-6-discuss-and-share-information-with-peers) for more information. 
+Refer this [**article**](../learner-experience/2_web-app#step-6-discuss-and-share-information-with-peers.md) for more information. 
 
 
 #### What is the Discussion Forum feature? 

@@ -1,6 +1,7 @@
 ---
-title: Analytics - Overview
 original-url: https://docs.microsoftcommunitytraining.com/docs/analytics-overview
+author: nikotha
+ms.author: nikotha
 ---
 
 # Analytics overview
@@ -19,11 +20,11 @@ Here is the high-level comparison of analytics information available to differen
 
 * [Analytics Topics](../media/Analytics%20Topics.pdf)
 
-##  In-built analytics report available to administrators
+## In-built analytics report available to administrators
 
 To provide a rich out of the box experience to an admin, Microsoft Community Training platform provides different views, designed to facilitate tracking learner progress and program monitoring at various levels:
 
-1. [**Overall Summary**](./in-built-reports/2_overall-summary) - Provides a high-level picture of learner enrolments and course completion
+1. [**Overall Summary**](./in-built-reports/2_overall-summary) - Provides a high-level picture of learner enrollments and course completion
 
 2. [**Category Analytics**](./in-built-reports/3_category-view-report) - Allows an admin to track the progress of various courses in a category
 

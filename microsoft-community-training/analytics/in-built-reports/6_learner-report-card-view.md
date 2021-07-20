@@ -1,4 +1,5 @@
 ---
+title: Learner Report Card View
 original-url: https://docs.microsoftcommunitytraining.com/docs/learner-report-card-view
 author: nikotha
 ms.author: nikotha

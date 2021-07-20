@@ -1,4 +1,5 @@
 ---
+title: Power BI Integration
 original-url: https://docs.microsoftcommunitytraining.com/docs/power-bi-integration
 author: nikotha
 ms.author: nikotha

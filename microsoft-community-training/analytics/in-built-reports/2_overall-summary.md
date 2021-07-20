@@ -1,4 +1,5 @@
 ---
+title: Overall summary view
 original-url: https://docs.microsoftcommunitytraining.com/docs/overall-summary
 author: nikotha
 ms.author: nikotha

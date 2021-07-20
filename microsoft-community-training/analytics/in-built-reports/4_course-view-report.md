@@ -1,4 +1,5 @@
 ---
+title: Course view
 original-url: https://docs.microsoftcommunitytraining.com/docs/course-view-report
 author: nikotha
 ms.author: nikotha

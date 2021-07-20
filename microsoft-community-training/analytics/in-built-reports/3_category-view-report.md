@@ -1,4 +1,5 @@
 ---
+title: Category view
 original-url: https://docs.microsoftcommunitytraining.com/docs/category-view-report
 author: nikotha
 ms.author: nikotha

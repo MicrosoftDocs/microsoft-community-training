@@ -1,4 +1,5 @@
 ---
+title: Analytics overview
 original-url: https://docs.microsoftcommunitytraining.com/docs/analytics-overview
 author: nikotha
 ms.author: nikotha

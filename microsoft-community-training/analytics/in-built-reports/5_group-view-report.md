@@ -1,4 +1,5 @@
 --- 
+title: Group view
 original-url: https://docs.microsoftcommunitytraining.com/docs/group-view-report
 author: nikotha
 ms.author: nikotha

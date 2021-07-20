@@ -1,4 +1,5 @@
 ---
+title: Database Schema
 original-url: https://docs.microsoftcommunitytraining.com/docs/database-schema
 author: nikotha
 ms.author: nikotha

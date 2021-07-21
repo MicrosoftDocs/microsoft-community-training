@@ -25,15 +25,15 @@ Here is the high-level comparison of analytics information available to differen
 
 To provide a rich out of the box experience to an admin, Microsoft Community Training platform provides different views, designed to facilitate tracking learner progress and program monitoring at various levels:
 
-1. [**Overall Summary**](../in-built-reports/2_overall-summary.md) - Provides a high-level picture of learner enrollments and course completion
+1. [**Overall Summary**](./in-built-reports/2_overall-summary.md) - Provides a high-level picture of learner enrollments and course completion
 
-2. [**Category Analytics**](../in-built-reports/3_category-view-report.md) - Allows an admin to track the progress of various courses in a category
+2. [**Category Analytics**](./in-built-reports/3_category-view-report.md) - Allows an admin to track the progress of various courses in a category
 
-3. [**Course Analytics**](../in-built-reports/4_course-view-report.md) - Allows an admin to track the course progress
+3. [**Course Analytics**](./in-built-reports/4_course-view-report.md) - Allows an admin to track the course progress
 
-4. [**Group Analytics**](../in-built-reports/5_group-view-report.md) - Allows an admin to view the progress of a group of users
+4. [**Group Analytics**](./in-built-reports/5_group-view-report.md) - Allows an admin to view the progress of a group of users
 
-5. [**Individual Learner’s Report Card**](../in-built-reports/6_learner-report-card-view.md) - Allows an admin to view the progress of a learner in all the different courses
+5. [**Individual Learner’s Report Card**](./in-built-reports/6_learner-report-card-view.md) - Allows an admin to view the progress of a learner in all the different courses
 
 <!-- ## Advanced Search in Analytics
 

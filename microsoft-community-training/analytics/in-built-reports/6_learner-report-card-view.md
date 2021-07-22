@@ -3,6 +3,7 @@ title: Learner Report Card View
 original-url: https://docs.microsoftcommunitytraining.com/docs/learner-report-card-view
 author: nikotha
 ms.author: nikotha
+description: Learner Report Card View provide administrators to monitor and track each individual learner’s progress and performance across all the enrolled courses.
 ---
 
 # Learner Report Card View
@@ -36,7 +37,7 @@ This section of the Learner Report Card View enables admin to get a quick summar
 
 3. **Average Quiz Score**: Show the average quiz score across all the courses where learners has attempted the Practice Quiz and Exam
 
-    ![image.png](../../media/image%2846%29.png)
+    ![image_46](../../media/image%2846%29.png)
 
 ## Detailed progress and performance on the Enrolled courses
 
@@ -55,6 +56,6 @@ This section of the Learner Report Card View provides details on the learning pr
 6. **Enrolled On** – Date on which learner was enrolled for the course
 
 7. **Priority** - Priority of the course for the learner: Required, Recommended, Optional or Default. If the learner has been assigned the same course from multiple groups, highest priority is shown here.
-    ![image.png](../../media/image%2847%29.png)
+    ![image_47](../../media/image%2847%29.png)
 
 > [!TIP] You can **download the report card** in a CSV format for further analysis.

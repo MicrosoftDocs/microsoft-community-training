@@ -58,4 +58,5 @@ This section of the Learner Report Card View provides details on the learning pr
 7. **Priority** - Priority of the course for the learner: Required, Recommended, Optional or Default. If the learner has been assigned the same course from multiple groups, highest priority is shown here.
     ![Priority of the course](../../media/image%2847%29.png)
 
-> [!TIP] You can **download the report card** in a CSV format for further analysis.
+> [!TIP]  
+> You can **download the report card** in a CSV format for further analysis.

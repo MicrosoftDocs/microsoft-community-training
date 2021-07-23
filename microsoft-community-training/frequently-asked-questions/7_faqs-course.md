@@ -81,9 +81,9 @@ Yes, customers can embed videos from any external platforms such as YouTube, MS 
 
 6.	Select the setting **AllowEmbedDomains** and update it with value of domain you wish to add, as shown in the image below. (For Example: dailymotion.com)
 
-    ![AllowEmbedDomains](../media/AllowEmbedDomains.png)
+    ![Allow Embed Domains](../media/AllowEmbedDomains.png)
 
-    ![AllowEmbedDomainsEditing](../media/AllowEmbedDomainsEditing.png)
+    ![Allow Embed Domains Editing](../media/AllowEmbedDomainsEditing.png)
 
     > [!NOTE]  
     > You can add as many domains you want separated by comma.
@@ -206,7 +206,7 @@ Yes, learners will be able to download office 365 documents such as word and Pow
 Please note that video, audio and other formats can only be downloaded from the mobile app. 
 
 ### Where can I find the format of Bulk Upload courses?	
-To use the Bulk Upload course feature, you need to adhere to a specific content structure. Refer **[this article](../content-management/create-content/create-course-category/4_upload-content-to-a-course.md#option-2--bulk-upload-lessons)** to learn about the format required for Bulk Upload courses.
+To use the Bulk Upload course feature, you need to adhere to a specific content structure. Refer **[this article](../content-management/create-content/create-course-category/4_upload-content-to-a-course.md#option-2---bulk-upload-lessons)** to learn about the format required for Bulk Upload courses.
 
 ### What is the maximum video size that one can upload? 	
 The maximum video size you can upload for a particular lesson is 2 GB.
@@ -265,12 +265,12 @@ Contact us via **[Helpdesk](https://go.microsoft.com/fwlink/?linkid=2104630)** a
 ### I am not able to bulk upload content on the training portal or Bulk upload content is failing 	
 Depending upon your network connectivity and size of the ZIP file, it can take some time to complete the upload operation.  Additionally, if there are issues with the content format or structure of the ZIP file then the system will throw an error message. 
 
-Follow the instructions given in **[this article](../content-management/create-content/create-course-category/4_upload-content-to-a-course.md#option-2--bulk-upload-lessons)** to learn how to properly bulk upload content.
+Follow the instructions given in **[this article](../content-management/create-content/create-course-category/4_upload-content-to-a-course.md#option-2---bulk-upload-lessons)** to learn how to properly bulk upload content.
 
 ### Bulk upload courses feature is extremely slow and often getting timed out	
 Depending upon your network connectivity and size of the ZIP file, it can take some time to complete the upload operation.  Additionally, if there are issues with the content format or structure of the ZIP file then the system will throw an error message. 
 
-Follow the instructions given in **[this](../content-management/create-content/create-course-category/4_upload-content-to-a-course.md#option-2--bulk-upload-lessons)** article to learn how to properly upload content in bulk.
+Follow the instructions given in **[this](../content-management/create-content/create-course-category/4_upload-content-to-a-course.md#option-2---bulk-upload-lessons)** article to learn how to properly upload content in bulk.
 
 ## Edit/Update Courses
 
@@ -307,7 +307,7 @@ Course administrators can have the downloadable links copied to the word file  a
 * Upload the word file to our platform as a lesson and title it as Downloadable resources or Exercise file. 
 
 ### Can we unpublish a course?
-Once the course in published on the platform, you can't unpublish it but you can hide the same from the course library by changing its Learner Enrollment type to "Only admin can enroll learners". This will ensure that the course is not available or listed in the course library. For more details, see step 6 in [**this article**](../content-management/create-content/create-course-category/3_create-a-new-course.md#option-1--create-a-single-course-in-a-category).  
+Once the course in published on the platform, you can't unpublish it but you can hide the same from the course library by changing its Learner Enrollment type to "Only admin can enroll learners". This will ensure that the course is not available or listed in the course library. For more details, see step 6 in [**this article**](../content-management/create-content/create-course-category/3_create-a-new-course.md#option-1---create-a-single-course-in-a-category).  
 
 > [!IMPORTANT]  
 > In case there are users who are already enrolled for the course, they will continue to see the coure in My Course Page.
@@ -345,7 +345,7 @@ Yes, you can enable Lesson Sequencing while creating or editing a course. This w
 ### Can we restrict user to move from one course to another unless if he/she has finished the current course?
 Currently there is no restriction on the sequence for the courses a learner has to go through. A learner can go through the enrolled courses in their preference order. We have plans to add a functionality in the future to restrict learners to go through courses in a particular sequence as defined by the administrator i.e. learners will not be allowed to go to Course #2 unless Course #1 is completed.  
 
-In the meantime, as a workaround, admins can name courses under a category such that learners can logically follow the sequence (for e.g. 01 – Work with computers, 02 – Access online, etc.) or they can mark courses as admin only to ensure learners will be enrolled to a new course only when existing courses are complete. For more details, see step 6 in [**this article**](../content-management/create-content/create-course-category/3_create-a-new-course.md#option-1--create-a-single-course-in-a-category). 
+In the meantime, as a workaround, admins can name courses under a category such that learners can logically follow the sequence (for e.g. 01 – Work with computers, 02 – Access online, etc.) or they can mark courses as admin only to ensure learners will be enrolled to a new course only when existing courses are complete. For more details, see step 6 in [**this article**](../content-management/create-content/create-course-category/3_create-a-new-course.md#option-1---create-a-single-course-in-a-category). 
 
 ### How to delete a course on the platform? 
 Organization administrators and category administrators can delete a course from the Course Tab on the management portal.  Refer below the image for clarity.

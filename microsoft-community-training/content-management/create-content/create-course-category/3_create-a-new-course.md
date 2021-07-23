@@ -142,7 +142,7 @@ Before you start doing the bulk upload of courses under a category, you need to 
 **Next>** Once the course is uploaded, you can [**add assessments**](https://microsoftindia.document360.io/docs/create-practice-course-and-exam)  or [**publish the course**](https://microsoftindia.document360.io/docs/publishing-course) for learners to consume the content via the web portal or mobile application.
 
 > [!TIP]
-> When performing bulk upload course operations,  [**scale up your platorm configuration**](../../infrastructure-management/configure-your-platform-infrastructure/4_scale-up-instance-configuration.md) to reduce the upload and processing time for the content.)
+> When performing bulk upload course operations,  [**scale up your platorm configuration**](../../manage-content/infrastructure-management/configure-your-platform-infrastructure/4_scale-up-instance-configuration.md) to reduce the upload and processing time for the content.)
 
 <!---
 Alternatively, you can check the step by step video tutorial for bulk upload content:

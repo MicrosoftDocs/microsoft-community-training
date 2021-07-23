@@ -90,7 +90,7 @@ b. **For embedding external web link** - Paste the URL of the web page in the te
 **Next>**  [**Add practice quiz and exams**](https://microsoftindia.document360.io/docs/create-practice-course-and-exam) to the course or  [**publish the course**](https://microsoftindia.document360.io/docs/publishing-course) for the learners
 
 > [!TIP]
->  Whenever you are performing content upload, [**scale up your platform configuration**](../../infrastructure-management/configure-your-platform-infrastructure/4_scale-up-instance-configuration.md) to reduce the upload and processing time for the content)
+>  Whenever you are performing content upload, [**scale up your platform configuration**](../../../infrastructure-management/configure-your-platform-infrastructure/4_scale-up-instance-configuration.md) to reduce the upload and processing time for the content)
 
 ## Option 2 - Bulk Upload lessons
 Similar to the [**Bulk Upload Courses**](https://microsoftindia.document360.io/docs/create-a-course#steps-for-bulk-upload-courses-to-the-portal) , administrator can use the Bulk Upload Lessons feature to save time and add multiple lessons and upload content for a course at once. 

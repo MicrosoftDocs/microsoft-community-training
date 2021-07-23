@@ -175,7 +175,7 @@ Only organization administrators have the right to unregister or remove the user
 For detailed steps **[refer here](../content-management/manage-content/manage-course-category/3_manage-users-for-a-course.md)**.
 
 ### How can I unassign courses to the learners in the platform?	
-Courses can be unassigned to learners from Courses tab. To unassign courses for the learners in the platform, refer to [**this article**](../content-management/manage-content/manage-course-category/3_manage-users-for-a-course?.md#remove-user-enrollment-for-a-course).
+Courses can be unassigned to learners from Courses tab. To unassign courses for the learners in the platform, refer to [**this article**](../content-management/manage-content/manage-course-category/3_manage-users-for-a-course.md#remove-user-enrollment-for-a-course).
 
 ### How can administrator access completion certificate of the learners on the portal?
 There is no UI available for administrators to view and download learners certificates. Currently, only learners can view and download completion certificate on the platform.

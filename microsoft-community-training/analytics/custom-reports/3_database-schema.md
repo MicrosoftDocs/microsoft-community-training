@@ -73,7 +73,7 @@ Go the key vault. By default, user does not have access permission to view the k
 
 To add client IP, click on add client IP and select the save icon
 
-![Firewal](../../media/FIREWAL.png)
+![Save](../../media/FIREWAL.png)
 
 ## Executing SQL Queries
 

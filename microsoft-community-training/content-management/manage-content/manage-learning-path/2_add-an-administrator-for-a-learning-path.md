@@ -33,7 +33,7 @@ The Microsoft Community Training management portal provides role-based administr
 
 4. Click or tap on **More** (…) icon to the right of Learning Path name and select **Manage administrators** option
 
-![Manage administrators from More](../../../media/image%28429%29.png)
+![Click Manage administrators from More](../../../media/image%28429%29.png)
 
 5. Click on **Add Administrators**
 

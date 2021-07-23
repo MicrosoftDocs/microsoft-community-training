@@ -3,6 +3,7 @@ title: Analytics overview
 original-url: https://docs.microsoftcommunitytraining.com/docs/analytics-overview
 author: nikotha
 ms.author: nikotha
+description: Microsoft Community Training platform provides out of the box rich analytics for tracking progress in learning, course completion and engagement and performance of learners.
 ---
 
 # Analytics overview

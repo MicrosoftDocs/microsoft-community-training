@@ -52,7 +52,7 @@ In this topic, you will learn the steps on how to remove user enrollment from a 
 
 2.	Click or tap the **Manage Users** icon on top-right of the course details page.
 
-![Manage Users](../../../media/image%2851%29.png)
+![CLick Manage Users](../../../media/image%2851%29.png)
 
 3.	Click or tap  ![Remove icon](../../../media/Remove%20icon.png) to remove user enrollment for the course. The remove icon is shown  only when you place your mouse over it.
 

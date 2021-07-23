@@ -36,7 +36,7 @@ The Microsoft Community Training management portal provides role-based administr
 
 3.	Select **New Learning Path**, on the bottom-left of the page.
 
-![New Learning Path](../../../media/image%28390%29.png)
+![Select New Learning Path](../../../media/image%28390%29.png)
 
 4.	Enter **Learning Path name**. The Learning Path name is the title that learners would see on the web portal and mobile app. For example: Microsoft Office.
 

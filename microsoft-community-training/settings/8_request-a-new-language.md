@@ -1,6 +1,10 @@
 ---
 title: Request a new Language
 original-url: https://docs.microsoftcommunitytraining.com/docs/request-a-new-language
+author: nikotha
+ms.author: nikotha
+description: Microsoft Community Training currently supports 28 languages.
+ms.prod: azure
 ---
 
 # Request a new Language

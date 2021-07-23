@@ -1,6 +1,10 @@
 ---
 title: Setup platform instance on Azure subscription for Nonprofits
 original-url: https://docs.microsoftcommunitytraining.com/docs/setup-platform-instance-on-azure-subscription-for-nonprofits
+author: nikotha
+ms.author: nikotha
+description: If you are a non-profit organization, you can apply for Azure credit grant of $3500 per year which can be used to setup and run an instance of Microsoft Community Training platform for your organization.
+ms.prod: azure
 ---
 
 # Setup platform instance on Azure subscription for Nonprofits
@@ -20,19 +24,19 @@ For more details on nonprofit organization eligibility requirements, [**visit th
 In case, you are already registered for Microsoft grant for non-profit then skip this step.
 
 1. Visit the [**Microsoft for Nonprofits registration**](https://nonprofit.microsoft.com/register) portal and click on the **Register button** .
-![image.png](../../media/image%28121%29.png)
+![Register button](../../media/image%28121%29.png)
 
 2. On the next page, click on **Continue** and start filling up your organization details for verification purpose.
-![image.png](../../media/image%28122%29.png)
+![Continue](../../media/image%28122%29.png)
 
 3. Next, provide your organization details to create your account with Microsoft as shown in the screenshot below.
-![image.png](../../media/image%28123%29.png)
+![Account with Microsoft](../../media/image%28123%29.png)
 
 > [!IMPORTANT]
 > In case, your organization is awarded Microsoft nonprofit grant then the activation email is sent to the business email account mentioned in this step.)
 
 4. Next, create username and password to sign in to your account for activation purpose. You will be also be asked to provide a organization (aka tenant) name for the your organization.***For e.g. johnp@contoso.onmicrosoft.com***
-    ![image.png](../../media/image%28124%29.png)
+    ![organization name](../../media/image%28124%29.png)
     > [!IMPORTANT]
     > Going forward, this account credentials will be used to sign in to the Microsoft nonprofit portal and access the grants and discounts information.
 
@@ -43,24 +47,24 @@ For more information on nonprofit grant and registration, pleae visit the [**Mic
 ## Step 2  - Activate the Microsoft nonprofit grant
 
 1. After submition, you will receive an activation email on your business email account entered at step 3 during the registration process as shown below. 
-    ![image.png](../../media/image%28126%29.png)
+    ![step 3](../../media/image%28126%29.png)
 
     > [!NOTE]
     > If grant is approved , the email will include a link to the Microsoft Nonprofit portal to access discounts and offers.
 
 2. Click on the [**Nonprofit Portal**](https://nonprofit.microsoft.com/signin)  link or Activate button to initiate the activation process
-![image.png](../../media/image%28127%29.png)
+![Activate button](../../media/image%28127%29.png)
 
 3. Sign in to the portal using **\<username>.\<yourcompany>.onmicrosoft.com** created earlier during the registration process (in Step 4)
 
 4. After login, you will see all the eligible offers for your organization 
-![image.png](../../media/image%28128%29.png)
+![Eligible offers](../../media/image%28128%29.png)
 
 5. Select **Azure credits** from the list of offers to claim the $3500 azure credits for your organization
-![image.png](../../media/image%28129%29.png)
+![Azure credits](../../media/image%28129%29.png)
 
 6. To confirm Azure credits redemtion for your organization, please visit [**Microsoft Azure Sponsorship**](https://www.microsoftazuresponsorships.com/) site to check your balance. 
-![image.png](../../media/image%28130%29.png)
+![Microsoft Azure Sponsorship](../../media/image%28130%29.png)
 
 > [!NOTE]
 > In case you don't receive an activation email then follow the below steps:
@@ -85,9 +89,9 @@ For deploying the Microsoft Community Training platform, you will need to add pa
 2. Sign in to the portal using  **\<username>.\<yourcompany>.onmicrosoft.com** created earlier during the registration process (in Step 4)
 
 3. Complete the About you and Payment information asked in the next page
-![image.png](../../media/image%28131%29.png)
+![Payment information](../../media/image%28131%29.png)
 
-4. Once the subscription is created, you can start deploying the Microsoft Commnuity Trainng platform on this subscription. See [**detailed steps here**](../../infrastructure-management/install-your-platform-instance/3_installation-guide-detailed-steps). 
+4. Once the subscription is created, you can start deploying the Microsoft Commnuity Trainng platform on this subscription. See [**detailed steps here**](../../infrastructure-management/install-your-platform-instance/3_installation-guide-detailed-steps.md). 
 
 > [!NOTE]
 > Adding payment details for your Azure subscription is mandatory to setup and install Microsoft Community Training platform. Once the Azure Sponsorship grant is consumed (i.e. $3500 of Azure service are billed), payment will be processed from the Credit or Debit card details provided.
@@ -105,4 +109,4 @@ For deploying the Microsoft Community Training platform, you will need to add pa
 5. In case, subscription IDs are different then raise a support ticket to convert the existing subscription into Azure sponsored subscription as shown below:
   - Click on the Help + Support option at the bottom-left on the navigation panel  
   - Raise a ticket and provide details of both the subscriptions
-![image.png](../../media/image%28132%29.png){height="600" width=""}
+![Subscriptions](../../media/image%28132%29.png){height="600" width=""}

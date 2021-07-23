@@ -1,6 +1,10 @@
 ---
 title: Create a Learning path
 original-url: https://docs.microsoftcommunitytraining.com/docs/create-a-learning-path
+author: nikotha
+ms.author: nikotha
+description: A Learning Path is a defined sequence of courses on the training platform to administer guided training paths to the learners.
+ms.prod: azure
 ---
 
 # Create a Learning path
@@ -29,15 +33,15 @@ The Microsoft Community Training management portal provides role-based administr
 
 2.	Select the **Content** menu on the left bar and click on Learning Path tab
 
-![image.png](../../../media/image%28388%29.png)
+![Content on left bar](../../../media/image%28388%29.png)
 
 3.	Select **New Learning Path**, on the bottom-left of the page.
 
-![image.png](../../../media/image%28390%29.png)
+![Select New Learning Path](../../../media/image%28390%29.png)
 
 4.	Enter **Learning Path name**. The Learning Path name is the title that learners would see on the web portal and mobile app. For example: Microsoft Office.
 
-![image.png](../../../media/image%28391%29.png)
+![New Learning Path](../../../media/image%28391%29.png)
 
 5.	 Enter the **Learning Path Description**. The Learning Path description is a short summary which informs a learner about course content at the time of registration.
 
@@ -49,4 +53,4 @@ The Microsoft Community Training management portal provides role-based administr
 
 9.	 Click or tap **Create** button to create the Learning Path.
 
-**Next>** Once a Learning Path is created, the administrator can start  [adding content to the Learning Path.](3_add-course-to-a-learning-path)
+**Next>** Once a Learning Path is created, the administrator can start  [adding content to the Learning Path.](3_add-course-to-a-learning-path.md)

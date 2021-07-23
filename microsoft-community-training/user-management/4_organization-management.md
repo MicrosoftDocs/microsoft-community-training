@@ -1,6 +1,10 @@
 ---
 title: Organization Management
 original-url: https://docs.microsoftcommunitytraining.com/docs/organization-management
+author: nikotha
+ms.author: nikotha
+description: Microsoft Community Training supports multiple organizations to be created on the training platform where content and users can be mutually exclusive to each other.
+ms.prod: azure
 ---
 # Organization Management
 
@@ -25,13 +29,13 @@ The Microsoft Community Training management portal provides role-based administr
 
 ## Enabling Organizations on the Platform
 
-The support for Organizations can be enabled on the platform by [enabling the application configuration for **Features:IsMultiOrgDeployment**](../settings/11_configurations-on-the-training-platform#enabling-organizations-on-the-platform).
+The support for Organizations can be enabled on the platform by [enabling the application configuration for **Features:IsMultiOrgDeployment**](../settings/11_configurations-on-the-training-platform.md#enabling-organizations-on-the-platform).
 
 ## Create a New Organization
 
-1. On the  Microsoft Community Training portal, after login [**switch to administrator view**](../get-started/4_step-by-step-configuration-guide#step-2--switch-to-administrator-view-of-the-portal).
+1. On the  Microsoft Community Training portal, after login [**switch to administrator view**](../get-started/4_step-by-step-configuration-guide.md#step-2--switch-to-administrator-view-of-the-portal).
 
-    ![image.png](../media/image%28421%29.png)
+    ![Create a New Organization](../media/image%28421%29.png)
 
 2. Select **Organization Administrators** option under **Users tab** on the top-left of the page.
 
@@ -56,9 +60,9 @@ The support for Organizations can be enabled on the platform by [enabling the ap
 
 ## Edit an Existing Organization
 
-1. On the  Microsoft Community Training portal, after login [**switch to administrator view**](../get-started/4_step-by-step-configuration-guide#step-2--switch-to-administrator-view-of-the-portal).
+1. On the  Microsoft Community Training portal, after login [**switch to administrator view**](../get-started/4_step-by-step-configuration-guide.md#step-2--switch-to-administrator-view-of-the-portal).
 
-    ![image.png](../media/image%28421%29.png)
+    ![Edit an Existing Organization](../media/image%28421%29.png)
 
 2. Select **Organization Administrators** option under Users tab on the top-left of the page.
 
@@ -90,9 +94,9 @@ Click on the **Delete** icon from the Manage Organizations panel to Delete an Or
 
 ## Create a New Organization Administrator
 
-1. On the  Microsoft Community Training portal, after login [**switch to administrator view**](../get-started/4_step-by-step-configuration-guide#step-2--switch-to-administrator-view-of-the-portal).
+1. On the  Microsoft Community Training portal, after login [**switch to administrator view**](../get-started/4_step-by-step-configuration-guide.md#step-2--switch-to-administrator-view-of-the-portal).
 
-    ![image.png](../media/image%28421%29.png)
+    ![Create a New Organization Administrator](../media/image%28421%29.png)
 
 2. Select **Organization Administrators** option under Users tab on the top-left of the page.
 
@@ -118,7 +122,7 @@ Click on the **Delete** icon from the Manage Organizations panel to Delete an Or
 
 ## Edit an Existing Organization Administrator
 
-1. On the  Microsoft Community Training portal, after login [**switch to administrator view**](../get-started/4_step-by-step-configuration-guide#step-2--switch-to-administrator-view-of-the-portal).
+1. On the  Microsoft Community Training portal, after login [**switch to administrator view**](../get-started/4_step-by-step-configuration-guide.md#step-2--switch-to-administrator-view-of-the-portal).
 
 2. Select **Organization Administrators** option under Users tab on the top-left of the page.
 
@@ -144,7 +148,7 @@ Click on the **Delete** icon against an Organization Administrator to delete.
 
 ## Assign learners to Organizations
 
-Learners can be assigned to Organizations on the portal using API call. You can refer to [REST API documentation](../rest-api-management/2_api-documentation) to learn more about accessing API Signatures.
+Learners can be assigned to Organizations on the portal using API call. You can refer to [REST API documentation](../rest-api-management/2_api-documentation.md) to learn more about accessing API Signatures.
 
 The API signature that assigns learners to Organizations is given below.
 **Request URL:** PUT /api/v1/user/organization.

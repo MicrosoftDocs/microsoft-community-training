@@ -5,7 +5,6 @@ author: nikotha
 ms.author: nikotha
 description: Overall summary view is designed to give the admin a quick glance at the learner enrollments, learner engagement and course completion.
 ms.prod: azure
-ms.service: azure
 ---
 
 # Overall summary view

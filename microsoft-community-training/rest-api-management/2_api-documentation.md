@@ -5,7 +5,6 @@ author: nikotha
 ms.author: nikotha
 description: Microsoft Community Training platform exposes its APIs for integration with another service or application.
 ms.prod: azure
-ms.service: azure
 ---
 
 # Rest API Documentation

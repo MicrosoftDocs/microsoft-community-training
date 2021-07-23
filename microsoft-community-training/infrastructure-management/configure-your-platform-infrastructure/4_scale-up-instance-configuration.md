@@ -5,7 +5,6 @@ author: nikotha
 ms.author: nikotha
 description: In this article, we'll walk you through upscaling your platform resources to meet your scale requirements.
 ms.prod: azure
-ms.service: azure
 ---
 
 # Scale up your platform instance configuration

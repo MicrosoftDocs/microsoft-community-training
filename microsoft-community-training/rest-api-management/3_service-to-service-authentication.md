@@ -5,7 +5,6 @@ author: nikotha
 ms.author: nikotha
 description: Microsoft Community Training APIs support Service to Service (S2S) authentication to allow any external service to call the APIs without requiring a user to explicitly login to any MCT instance. 
 ms.prod: azure
-ms.service: azure
 ---
 
 # Service to Service Authentication

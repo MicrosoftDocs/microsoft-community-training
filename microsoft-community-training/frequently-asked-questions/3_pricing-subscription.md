@@ -5,7 +5,6 @@ author: nikotha
 ms.author: nikotha
 description: Microsoft Community Training is built on top of Azure platform and available only on the Azure Marketplace.
 ms.prod: azure
-ms.service: azure
 ---
 
 # Pricing & Subscription

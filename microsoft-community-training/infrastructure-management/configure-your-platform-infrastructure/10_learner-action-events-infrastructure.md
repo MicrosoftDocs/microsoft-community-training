@@ -5,7 +5,6 @@ author: nikotha
 ms.author: nikotha
 description: Microsoft Community Training enables events infrastructure via the Azure Service Bus to enable you to track dynamic learner actions on the training platform.
 ms.prod: azure
-ms.service: azure
 ---
 
 # Learner Action Events Infrastructure

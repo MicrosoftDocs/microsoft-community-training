@@ -5,7 +5,6 @@ author: nikotha
 ms.author: nikotha
 description: Deleting or removing  user from group will only remove user from the selected group.
 ms.prod: azure
-ms.service: azure
 ---
 
 # Delete a user from the group

@@ -5,7 +5,6 @@ author: nikotha
 ms.author: nikotha
 description: The platform follows a role-based administration hierarchy.
 ms.prod: azure
-ms.service: azure
 ---
 
 # User Roles & Groups

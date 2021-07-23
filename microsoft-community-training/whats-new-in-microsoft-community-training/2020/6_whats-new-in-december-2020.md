@@ -5,7 +5,6 @@ author: nikotha
 ms.author: nikotha
 description: 'As the COVID-19 pandemic has impacted our day-to-day activities and led to months of “Stay at Home”, the world has committed itself into finding ways to fight the situation and grow at the same time. '
 ms.prod: azure
-ms.service: azure
 ---
 
 # What's new in December 2020

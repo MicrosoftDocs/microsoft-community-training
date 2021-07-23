@@ -5,7 +5,6 @@ author: nikotha
 ms.author: nikotha
 description: Microsoft Community Training platform provides out of the box rich analytics for tracking progress in learning, course completion and engagement and performance of learners.
 ms.prod: azure
-ms.service: azure
 ---
 
 # Analytics overview

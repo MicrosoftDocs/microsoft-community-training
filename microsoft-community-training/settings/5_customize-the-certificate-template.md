@@ -5,7 +5,6 @@ author: nikotha
 ms.author: nikotha
 description: By default, Microsoft Community Training platform uses a basic template to issue certificates to learners who have completed a course or passed an exam as shown below.
 ms.prod: azure
-ms.service: azure
 ---
 
 # Customize the certificate template for the platform

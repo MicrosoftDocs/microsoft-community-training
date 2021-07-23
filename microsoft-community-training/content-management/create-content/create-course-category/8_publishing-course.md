@@ -5,7 +5,6 @@ author: nikotha
 ms.author: nikotha
 description: Any new course created on the Microsoft Community Training management portal will not be accessible to the learners unless and until it is published.
 ms.prod: azure
-ms.service: azure
 ---
 
 # Publish a course on the training portal

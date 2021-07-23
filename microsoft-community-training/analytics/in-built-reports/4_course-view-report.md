@@ -5,7 +5,6 @@ author: nikotha
 ms.author: nikotha
 description: Similar to the Category View, Course view provides admin a quick glance at the learner enrollments, learner engagement and course completion for a particular course.
 ms.prod: azure
-ms.service: azure
 ---
 
 # Course view

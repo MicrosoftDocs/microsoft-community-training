@@ -5,7 +5,6 @@ author: nikotha
 ms.author: nikotha
 description: As your learners continue learning and improving, your training platform also continues to grow and become better.
 ms.prod: azure
-ms.service: azure
 ---
 
 # Azure Front Door Migration

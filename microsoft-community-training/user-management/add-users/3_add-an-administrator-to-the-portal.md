@@ -5,7 +5,6 @@ author: nikotha
 ms.author: nikotha
 description: "Microsoft Community Training management portal provides six types of administrative role to a user on the portal."
 ms.prod: azure
-ms.service: azure
 ---
 
 # Add administrators to the platform

@@ -5,7 +5,6 @@ author: nikotha
 ms.author: nikotha
 description: Microsoft Community Training platform provides three types of login.
 ms.prod: azure
-ms.service: azure
 ---
 
 # Configure login identity for the platform

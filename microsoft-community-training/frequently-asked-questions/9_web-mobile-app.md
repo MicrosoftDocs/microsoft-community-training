@@ -5,7 +5,6 @@ author: nikotha
 ms.author: nikotha
 description: It is possible that your infrastructure is unable to handle the high traffic load.
 ms.prod: azure
-ms.service: azure
 ---
 
 # Web & Mobile App

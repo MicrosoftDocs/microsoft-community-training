@@ -5,7 +5,6 @@ author: nikotha
 ms.author: nikotha
 description: Your training portal is composed of various resources such as Azure SQL, Azure Media Service, Azure App Service etc.
 ms.prod: azure
-ms.service: azure
 ---
 
 # Monitor your platform Infrastructure

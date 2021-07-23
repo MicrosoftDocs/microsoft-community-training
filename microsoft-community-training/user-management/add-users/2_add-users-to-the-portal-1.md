@@ -5,7 +5,6 @@ author: nikotha
 ms.author: nikotha
 description: Microsoft Community Training management portal provides two ways to add learners to the portal.
 ms.prod: azure
-ms.service: azure
 ---
 
 # Add learners to the platform

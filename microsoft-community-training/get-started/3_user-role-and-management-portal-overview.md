@@ -5,7 +5,6 @@ author: nikotha
 ms.author: nikotha
 description: Microsoft Community Training management portal is a one-stop-shop for all administrative functions like content management, user management, tracking and monitoring the training with analytics, portal settings etc.
 ms.prod: azure
-ms.service: azure
 ---
 
 # User roles and Management portal overview

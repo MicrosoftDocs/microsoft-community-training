@@ -5,7 +5,6 @@ author: nikotha
 ms.author: nikotha
 description: "Microsoft Community Training Management portal allows administrators an easy way to delegate/automate administrative tasks like user onboarding, course enrollment, etc. and empower the ground level facilitators/trainers to drive engagement and adoption of the learning program across your training audience."
 ms.prod: azure
-ms.service: azure
 ---
 
 # User Management - Overview

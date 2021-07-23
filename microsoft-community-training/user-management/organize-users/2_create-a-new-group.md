@@ -5,7 +5,6 @@ author: nikotha
 ms.author: nikotha
 description: Group is a key feature in the Microsoft Community Training platform. It enables you to delegate user management and drive learner engagement to the grassroots-level.
 ms.prod: azure
-ms.service: azure
 ---
 
 # Create new group

@@ -5,7 +5,6 @@ author: nikotha
 ms.author: nikotha
 description: A Course is a collection of lessons and assessments.
 ms.prod: azure
-ms.service: azure
 ---
 
 # Create a new course

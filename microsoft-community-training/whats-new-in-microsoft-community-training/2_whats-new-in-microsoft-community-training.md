@@ -5,7 +5,6 @@ author: nikotha
 ms.author: nikotha
 description: Microsoft Community Training releases new updates to the platform regularly. For a detailed review of the enhancements please check the What's New articles.
 ms.prod: azure
-ms.service: azure
 ---
 # What's new in Microsoft Community Training
 

@@ -5,7 +5,6 @@ author: nikotha
 ms.author: nikotha
 description: Lesson is a single unit of learning content in the form of Video, PDF, Word or PPT file for a course.
 ms.prod: azure
-ms.service: azure
 ---
 
 # Upload content to a course

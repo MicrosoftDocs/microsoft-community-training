@@ -11,7 +11,7 @@ ms.prod: azure
 As the world fights with the COVID-19 pandemic, we hope that you are safe and are continuing your online training programs with Microsoft Community Training platform. In the midst of this crisis, we’re excited to share the new product update with you! These updates will go live on your training platform instance by end of the week. There are some great features in this release designed to help you manage and deliver online learning in a seamless manner to your communities. 
 
 ## Customize certificate template from the admin portal   
-In this release, we have [enhanced the process to customize the certificates](../../settings/5_customize-the-certificate-template) issued to the learners’ post course completion. Organization administrators can now upload customized certificate designs with organization specific branding directly on the admin portal of the platform and preview the certificate sample before approving it to be issued to the learners.
+In this release, we have [enhanced the process to customize the certificates](../../settings/5_customize-the-certificate-template.md) issued to the learners’ post course completion. Organization administrators can now upload customized certificate designs with organization specific branding directly on the admin portal of the platform and preview the certificate sample before approving it to be issued to the learners.
 
 ![Customize certificate template from the admin portal](../../media/image%28285%29.png)
 
@@ -21,12 +21,12 @@ In this update, we have added a new feature to the phone-based authentication pr
 ![Default country code based on learner’s location](../../media/image%28284%29.png)
 
 ## Upload EPUB content for lessons in a course   
-Like other content types such as HTML, pdf and video, in this update we have added support to [upload and manage EPUB files](../../content-management/create-content/create-course-category/3_create-a-new-course) as lesson content within a course. Content admins can now add e-books in EPUB format as lessons for the learners. 
+Like other content types such as HTML, pdf and video, in this update we have added support to [upload and manage EPUB files](../../content-management/create-content/create-course-category/3_create-a-new-course.md) as lesson content within a course. Content admins can now add e-books in EPUB format as lessons for the learners. 
 
 ## Improvement in language support on the platform 
 
 1. Customize the default language on the platform 
-   In this update, we have released a new setting which allows you to enable languages directly from the management portal and mark any of enabled languages as the default language. This will ensure that the learners view the platform in their native language with no additional setting. For more details, check [this article](../../settings/7_customize-languages-for-the-learners-on-the-platform).
+   In this update, we have released a new setting which allows you to enable languages directly from the management portal and mark any of enabled languages as the default language. This will ensure that the learners view the platform in their native language with no additional setting. For more details, check [this article](../../settings/7_customize-languages-for-the-learners-on-the-platform.md).
 
 ![Improvement in language support on the platform](../../media/image%28283%29.png)
 

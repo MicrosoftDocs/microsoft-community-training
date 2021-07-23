@@ -9,10 +9,10 @@ ms.prod: azure
 
 # Using REST APIs to integrate with existing system
 
-Microsoft Community Training platform provides [REST APIs](../../rest-api-management/2_api-documentation) to help you integrate the platform with existing system and consume training via custom endpoints such as your own mobile app or website.
+Microsoft Community Training platform provides [REST APIs](../../rest-api-management/2_api-documentation.md) to help you integrate the platform with existing system and consume training via custom endpoints such as your own mobile app or website.
 
 ## Steps to how on get started with REST APIs 
-Refer to our [API Documentation](../../rest-api-management/2_api-documentation) to get started on using REST APIs to integrate Microsoft Community Training platform with the exisitng systems in your organization. 
+Refer to our [API Documentation](../../rest-api-management/2_api-documentation.md) to get started on using REST APIs to integrate Microsoft Community Training platform with the exisitng systems in your organization. 
 
 For any questions, follow the steps below to reach out to us. 
 1.	Visit [**Microsoft Community Training Helpdesk**](https://go.microsoft.com/fwlink/?linkid=2104630).

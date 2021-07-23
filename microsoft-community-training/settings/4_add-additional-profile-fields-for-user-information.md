@@ -14,8 +14,8 @@ By default, learners will be asked for their first name, last name and profile p
 For example, a healthcare organization has different course content for different job roles: staff, admins, nurses and doctors. They would like to assign a respective course to every learner depending on their job role. To achieve this, they would create an additional profile field called Role and provide four values as options: staff, admin, nurse and doctor. When a learner signs up on the portal for the first time, she will be asked to fill her profile by populating the role field.
 
 Learn how to auto-enroll users to a specific course based on their profile information via the below articles:
-* [**Setup automatic user enrollment for a group**](../user-management/organize-users/5_setup-automatic-user-enrollment-for-a-group-1)
-* [**Assign courses to users in the group**](../user-management/manage-users/2_assign-content-to-group-users)
+* [**Setup automatic user enrollment for a group**](../user-management/organize-users/5_setup-automatic-user-enrollment-for-a-group-1.md)
+* [**Assign courses to users in the group**](../user-management/manage-users/2_assign-content-to-group-users.md)
 
 In this article, you'll learn how to customize profile information by creating additional profile fields and adding privacy terms and conditions on the management portal.
 
@@ -33,7 +33,7 @@ The Microsoft Community Training management portal provides role-based administr
 
 ## Steps to create additional profile fields
 
-1. Login to the Microsoft Community Training portal and [**switch to administrator view**](../get-started/4_step-by-step-configuration-guide#step-2--switch-to-administrator-view-of-the-portal)
+1. Login to the Microsoft Community Training portal and [**switch to administrator view**](../get-started/4_step-by-step-configuration-guide.md#step-2--switch-to-administrator-view-of-the-portal)
 
 2. Click on **Settings tab** from the left navigation panel and select  Additional Profile fields options from the list
 
@@ -64,7 +64,7 @@ The Microsoft Community Training management portal provides role-based administr
 ## Add Privacy Terms and Conditions 
 You can include a link to privacy terms that will be shown to users on the portal when they view their profile information post login.
 
-1. Login to the Microsoft Community Training portal and [**switch to administrator view**](../get-started/4_step-by-step-configuration-guide#step-2--switch-to-administrator-view-of-the-portal)
+1. Login to the Microsoft Community Training portal and [**switch to administrator view**](../get-started/4_step-by-step-configuration-guide.md#step-2--switch-to-administrator-view-of-the-portal)
 
 2. Click on **Settings tab** from the left navigation panel and select **General** from the list
 

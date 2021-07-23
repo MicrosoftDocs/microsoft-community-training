@@ -5,7 +5,6 @@ author: nikotha
 ms.author: nikotha
 description: Microsoft Community Training currently supports 28 languages.
 ms.prod: azure
-ms.service: azure
 ---
 
 # Request a new Language

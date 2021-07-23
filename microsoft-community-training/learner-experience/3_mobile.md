@@ -24,12 +24,12 @@ This article explains how learners can access the training content using the And
 ## Step 2: Login and create your profile
 1. On app launch, user will be asked to login in order to proceed with the application. 
 
-2. Depending upon the [**login identity setup**](../infrastructure-management/install-your-platform-instance/4_configure-login-social-work-school-account) for the platform instance, user will be asked to sign in using  their 10-digit Mobile Number, Email address/Social account or Azure Active Directory account.
+2. Depending upon the [**login identity setup**](../infrastructure-management/install-your-platform-instance/4_configure-login-social-work-school-account.md) for the platform instance, user will be asked to sign in using  their 10-digit Mobile Number, Email address/Social account or Azure Active Directory account.
 ![login identity setup](../media/image%28189%29.png)
 
 3. After login, user will be asked to complete their profile information like first name, last name, profile picture, etc.  
 
-4. The fields displayed on the profile page  are configured by the administrator. For more details, see [**this article**](../settings/4_add-additional-profile-fields-for-user-information). 
+4. The fields displayed on the profile page  are configured by the administrator. For more details, see [**this article**](../settings/4_add-additional-profile-fields-for-user-information.md). 
 ![this article](../media/image%28190%29.png)
 
 ## Step 3: Browse and register for courses

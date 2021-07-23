@@ -26,7 +26,7 @@ The Microsoft Community Training management portal provides role-based administr
 |Group Administrator	|No|
 
 ## Before you begin
-After login to your Microsoft Community Training portal, [**switch to administrator view**](../get-started/4_step-by-step-configuration-guide#step-2--switch-to-administrator-view-of-the-portal) and click on **Settings option** from the left navigation panel.
+After login to your Microsoft Community Training portal, [**switch to administrator view**](../get-started/4_step-by-step-configuration-guide.md#step-2--switch-to-administrator-view-of-the-portal) and click on **Settings option** from the left navigation panel.
 
 ![Settings option](../media/image%28379%29.png)
 
@@ -35,16 +35,16 @@ Click General and enter the name under the Portal name field. Your portal name w
 ![Set your portal name](../media/image%28263%29.png)
 
 ## Set your privacy terms
-Refer the [**privacy terms and conditions**](../settings/4_add-additional-profile-fields-for-user-information#add-privacy-terms-and-conditions) article to learn more about this functionality and how to enable it. 
+Refer the [**privacy terms and conditions**](../settings/4_add-additional-profile-fields-for-user-information.md#add-privacy-terms-and-conditions) article to learn more about this functionality and how to enable it. 
 
 ## Enable languages on the portal
-Refer the [**customize language on the platform article**](../settings/7_customize-languages-for-the-learners-on-the-platform) to learn more about this functionality and how to enable it.
+Refer the [**customize language on the platform article**](../settings/7_customize-languages-for-the-learners-on-the-platform.md) to learn more about this functionality and how to enable it.
 
 ## Restrict user access to the portal
-Refer the [**restrict user access article**](../settings/3_restrict-portal-access-to-users-outside-your-organization) to learn more about this functionality and how to enable it.
+Refer the [**restrict user access article**](../settings/3_restrict-portal-access-to-users-outside-your-organization.md) to learn more about this functionality and how to enable it.
 
 ## Restrict course assignment access to the portal
-Refer the [restrict course assignment article](../settings/11_restrict-content-access-to-group-administrators) to learn more about this functionality and how to enable it.
+Refer the [restrict course assignment article](../settings/11_restrict-content-access-to-group-administrators.md) to learn more about this functionality and how to enable it.
 
 ## Set the logo
 Logo represents your training program and forms the most important component of your branding. Your logo will appear on all the pages on the top-left corner of your learning portal. 
@@ -53,7 +53,7 @@ Logo represents your training program and forms the most important component of 
 ![Set the logo](../media/image%28265%29.png)
 
 > [!NOTE]
-> This logo is only for the website and is different from your mobile app logo. To learn more about configuring logo for your mobile app, please refer to [**create and publish mobile app article**](../infrastructure-management/install-your-platform-instance/5_create-publish-mobile-app).
+> This logo is only for the website and is different from your mobile app logo. To learn more about configuring logo for your mobile app, please refer to [**create and publish mobile app article**](../infrastructure-management/install-your-platform-instance/5_create-publish-mobile-app.md).
 
 ## Set the banner image
 Your banner image will appear on the landing page and will form the first impression of your learning portal.

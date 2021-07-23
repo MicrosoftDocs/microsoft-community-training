@@ -9,7 +9,7 @@ ms.prod: azure
 
 # Add administrators to the platform
 
-Microsoft Community Training management portal provides six types of administrative role to a user on the portal - Global Administrator, Organization Administrator, Learning Path Administrator, Category Administrator, Course Administrator and Group Administrator. For more details, see this article on [**roles and responsibilities of different administrators**](../../get-started/3_user-role-and-management-portal-overview).
+Microsoft Community Training management portal provides six types of administrative role to a user on the portal - Global Administrator, Organization Administrator, Learning Path Administrator, Category Administrator, Course Administrator and Group Administrator. For more details, see this article on [**roles and responsibilities of different administrators**](../../get-started/3_user-role-and-management-portal-overview.md).
 
 > [!NOTE]
 > In case of Microsoft Teams integration, you won't be able to create Group administrator on the platform.  Group admin privileges are automatically assigned to owners of the Teams imported on the Microsoft Community Training platform.
@@ -34,7 +34,7 @@ The Microsoft Community Training management portal provides role-based administr
 
 In this topic, you will learn simple steps to add Global Administrator to the portal.
 
-1. On the  Microsoft Community Training portal, after login [**switch to administrator view**](../../get-started/4_step-by-step-configuration-guide#step-2--switch-to-administrator-view-of-the-portal).
+1. On the  Microsoft Community Training portal, after login [**switch to administrator view**](../../get-started/4_step-by-step-configuration-guide.md#step-2--switch-to-administrator-view-of-the-portal).
 
 2. Select **Global Administrators** option under Users tab on the top-left of the page.
 
@@ -53,18 +53,18 @@ In this topic, you will learn simple steps to add Global Administrator to the po
 
 ## Add an organization administrator to the platform
 
-Here are the detailed steps on how to [**add an organization administrator to the platform**](./../4_organization-management#create-a-new-organization-administrator).
+Here are the detailed steps on how to [**add an organization administrator to the platform**](./../4_organization-management.md#create-a-new-organization-administrator).
 
 ## Add a learning path administrator to the platform
-Here are the detailed steps on how to [**add a learning path administrator to the platform**](../../content-management/manage-content/manage-learning-path/2_add-an-administrator-for-a-learning-path).
+Here are the detailed steps on how to [**add a learning path administrator to the platform**](../../content-management/manage-content/manage-learning-path/2_add-an-administrator-for-a-learning-path.md).
 
 ## Add a category administrator to the platform
 
-Here are the detailed steps on how to [**add category administrator to the platform**](../../content-management/manage-content/manage-course-category/2_add-an-administrator-for-a-course#add-a-category-administrator).
+Here are the detailed steps on how to [**add category administrator to the platform**](../../content-management/manage-content/manage-course-category/2_add-an-administrator-for-a-course.md#add-a-category-administrator).
 
 ## Add a course administrator to the platform
 
-Here are the detailed steps on how to [**add course administrator to the platform**](../../content-management/manage-content/manage-course-category/2_add-an-administrator-for-a-course#add-a-course-administrator).
+Here are the detailed steps on how to [**add course administrator to the platform**](../../content-management/manage-content/manage-course-category/2_add-an-administrator-for-a-course.md#add-a-course-administrator).
 
 ## Add a group administrator to the platform
 
@@ -72,7 +72,7 @@ Groups are managed by group administrators, who can be users in the portal but a
 
 In this topic, you will learn simple steps to add Group Administrator to the portal 
 
-1. On the  Microsoft Community Training portal, after login [**switch to administrator view**](../../get-started/4_step-by-step-configuration-guide#step-2--switch-to-administrator-view-of-the-portal) and **select a Group** under the Users tab
+1. On the  Microsoft Community Training portal, after login [**switch to administrator view**](../../get-started/4_step-by-step-configuration-guide.md#step-2--switch-to-administrator-view-of-the-portal) and **select a Group** under the Users tab
 
 2. Click or tap **More (...)** icon next to the group name  
 

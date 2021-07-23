@@ -40,4 +40,4 @@ The Microsoft Community Training management portal provides role-based administr
     ![Delet user from group](../../media/Delet%20user%20from%20group.png)
 
 > [!IMPORTANT]
-> Deleting user from group only removes a user from the selected group. To delete a user from the platform, please see the [**detailed steps here**](../manage-users/5_remove-user-from-the-portal).
+> Deleting user from group only removes a user from the selected group. To delete a user from the platform, please see the [**detailed steps here**](../manage-users/5_remove-user-from-the-portal.md).

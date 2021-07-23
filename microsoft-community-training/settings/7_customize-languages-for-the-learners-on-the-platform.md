@@ -29,7 +29,7 @@ The Microsoft Community Training management portal provides role-based administr
 |Group Administrator	|No|
 
 ## Steps to add languages on the platform 
-1. Login to the Microsoft Community Training portal and [**switch to administrator view**](../get-started/4_step-by-step-configuration-guide#step-2--switch-to-administrator-view-of-the-portal)
+1. Login to the Microsoft Community Training portal and [**switch to administrator view**](../get-started/4_step-by-step-configuration-guide.md#step-2--switch-to-administrator-view-of-the-portal)
 
 2. Click on **Settings tab** from the left navigation panel and select **General** option from the list
 
@@ -38,7 +38,7 @@ The Microsoft Community Training management portal provides role-based administr
 3. From the **Languages**, select the languages you want to enable on the platform 
 
   > [!NOTE]
-  > This will enable languages only for the Web Application. To enable languages on the MobileApp, follow the steps in this [**article**](../infrastructure-management/install-your-platform-instance/5_create-publish-mobile-app).
+  > This will enable languages only for the Web Application. To enable languages on the MobileApp, follow the steps in this [**article**](../infrastructure-management/install-your-platform-instance/5_create-publish-mobile-app.md).
 
 4. Hover over the language, and click on '**Mark as Default**' to make either of the selected languages as the default language on the platform
 
@@ -52,4 +52,4 @@ The Microsoft Community Training management portal provides role-based administr
 6. The selected languages will be available for the learners to select before Sign In. The "**Default**" language will be the first language in the list and the portal will be viewable to the learner first in that language 
 ![Default](../media/image%28275%29.png)
 
-7. If the language of your choice is not available on the platform follow the steps in [**this article**](../settings/8_request-a-new-language) to add new languages for your platform instance
+7. If the language of your choice is not available on the platform follow the steps in [**this article**](../settings/8_request-a-new-language.md) to add new languages for your platform instance

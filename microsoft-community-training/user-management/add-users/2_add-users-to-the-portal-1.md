@@ -30,7 +30,7 @@ The Microsoft Community Training management portal provides role-based administr
 
 ### Steps to add learners via All Users list
 
-1. On the Microsoft Community Training portal, after login [**switch to administrator view**](../../get-started/4_step-by-step-configuration-guide#step-2--switch-to-administrator-view-of-the-portal)
+1. On the Microsoft Community Training portal, after login [**switch to administrator view**](../../get-started/4_step-by-step-configuration-guide.md#step-2--switch-to-administrator-view-of-the-portal)
 
 2. Select **All Users** tab in the left-navigation page from users module
 
@@ -44,7 +44,7 @@ The Microsoft Community Training management portal provides role-based administr
 
         ![Add single user one](../../media/Add%20single%20user%20one.png)
 
-    - **Bulk upload users** – This option is used to add multiple users at once. For detailed steps, see how to [**structure the csv file and bulk upload users**](../organize-users/4_add-multiple-users-to-the-group) on the portal
+    - **Bulk upload users** – This option is used to add multiple users at once. For detailed steps, see how to [**structure the csv file and bulk upload users**](../organize-users/4_add-multiple-users-to-the-group.md) on the portal
 
 > [!IMPORTANT]
 > In case, platform is setup with **Social Account** or **Azure Active Directory** as login identity then you will need to enter email address in the above step.
@@ -71,9 +71,9 @@ The Microsoft Community Training management portal provides role-based administr
 
 ### Steps to add learners via Group
 
-Before you begin, please create a group using the steps mentioned [**in this article**](./../organize-users/2_create-a-new-group).
+Before you begin, please create a group using the steps mentioned [**in this article**](./../organize-users/2_create-a-new-group.md).
 
-1. On the Microsoft Community Training portal, after login [**switch to administrator view**](../../get-started/4_step-by-step-configuration-guide#step-2--switch-to-administrator-view-of-the-portal) and select a specific group under Users tab
+1. On the Microsoft Community Training portal, after login [**switch to administrator view**](../../get-started/4_step-by-step-configuration-guide.md#step-2--switch-to-administrator-view-of-the-portal) and select a specific group under Users tab
 
     ![Steps to add learners via Group](../../media/image%2856%29.png)
 
@@ -84,7 +84,7 @@ Before you begin, please create a group using the steps mentioned [**in this art
 
         ![Add single user one](../../media/Add%20single%20user%20one.png)
 
-    - **Bulk upload users** – This option is used to add multiple users at once. For detailed steps, see how to [**structure the csv file and bulk upload users**](../organize-users/4_add-multiple-users-to-the-group) on the portal
+    - **Bulk upload users** – This option is used to add multiple users at once. For detailed steps, see how to [**structure the csv file and bulk upload users**](../organize-users/4_add-multiple-users-to-the-group.md) on the portal
 
 > [!IMPORTANT]
 > In case, platform is setup with **Social Account** or **Azure Active Directory** as login identity then you will need to enter email address in the above step.

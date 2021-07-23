@@ -14,7 +14,7 @@ Microsoft Community Training allows organization to enable online learning insid
 In this article, we will walk you through the steps required to configure your instance with Microsoft Teams.
 
 ## Before you begin
-This article assumes you have followed the steps outlined in the [**installation article**](../../infrastructure-management/install-your-platform-instance/3_installation-guide-detailed-steps) and enabled Microsoft Teams as an endpoint during deployment from the marketplace. 
+This article assumes you have followed the steps outlined in the [**installation article**](../../infrastructure-management/install-your-platform-instance/3_installation-guide-detailed-steps.md) and enabled Microsoft Teams as an endpoint during deployment from the marketplace. 
 
 If you haven't, please follow the Installation steps first and then refer this article to configure Microsoft Teams for your instance. Make sure you have the teams app package.
 
@@ -69,7 +69,7 @@ If you haven't, please follow the Installation steps first and then refer this a
 ![Upload the manifest](../../media/image%28199%29.png)
 
 > [!NOTE]
-> For more details on how to publish apps in the Microsoft Teams Tenant Apps Catalog, [**see this article**](https://docs.microsoft.com/microsoftteams/tenant-apps-catalog-teams#publish-an-app-in-the-tenant-apps-catalog-from-the-teams-client).
+> For more details on how to publish apps in the Microsoft Teams Tenant Apps Catalog, [**see this article**](/microsoftteams/tenant-apps-catalog-teams#publish-an-app-in-the-tenant-apps-catalog-from-the-teams-client).
 
 ### Step 4 - Setup app policies to pin the training application from the Microsoft Team admin center
 
@@ -84,7 +84,7 @@ If you haven't, please follow the Installation steps first and then refer this a
 
 ### Step 5 - Allow portal embedding in MS Teams
 
-1. Login to [Azure portal](http://www.portal.azure.com/).
+1. Login to [Azure portal](https://www.portal.azure.com/).
 
 2. Go to App Services from the left-menu.
 

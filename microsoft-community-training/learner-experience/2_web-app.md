@@ -17,12 +17,12 @@ This article explains how learners can access the training content using the web
 
 2. On the home page, click on the **Sign In**  or  **Get Started** button.
 
-3. Depending upon the [**login identity setup**](../infrastructure-management/install-your-platform-instance/4_configure-login-social-work-school-account) for the platform, user will be asked to sign in using  their 10-digit Mobile Number, Email address/Social account or Azure Active Directory account.
+3. Depending upon the [**login identity setup**](../infrastructure-management/install-your-platform-instance/4_configure-login-social-work-school-account.md) for the platform, user will be asked to sign in using  their 10-digit Mobile Number, Email address/Social account or Azure Active Directory account.
 
 ## Step 2: Create your profile
 1. When user is logging into the platform for the first time, he or she will be asked to complete the profile information (at least the mandatory fields). 
 
-2. The fields displayed on the profile page  are configured by the administrator. For more details, see [**this article**](../settings/4_add-additional-profile-fields-for-user-information). 
+2. The fields displayed on the profile page  are configured by the administrator. For more details, see [**this article**](../settings/4_add-additional-profile-fields-for-user-information.md). 
 ![this article](../media/image%28175%29.png)
 
 3. Complete the profile information and click  on **Get Started**. 

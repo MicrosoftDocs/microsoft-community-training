@@ -31,7 +31,7 @@ Value: true**
 ![popup-swager.png](../media/popup.png)
 
 4.Click on the save Icon to save the changes. 
-![save.png](../media/save.png)
+![save icon](../media/save.png)
 
 5. Once the above changes are implemented portal administrators will be able to retrieve the API signature by typing in your website URL followed by /swagger on the web browser. **(https://website-url/swagger)**
 
@@ -46,7 +46,7 @@ Value: true**
 A user can authenticate for using the Microsoft Community Training APIs by either of the following methods. 
 
 ### Method 1 : Service to Service Authentication
-To obtain the access token **programmatically**, follow [this document](../rest-api-management/3_service-to-service-authentication) for **service to service authentication**. 
+To obtain the access token **programmatically**, follow [this document](../rest-api-management/3_service-to-service-authentication.md) for **service to service authentication**. 
 
 ### Method 2 : Authentication via Tokens
 To obtain the access token **manually** (for testing purposes), follow these steps,
@@ -62,7 +62,7 @@ To obtain the access token **manually** (for testing purposes), follow these ste
 6.	In Inspect window, under Network tab, click on Callback option.
 7.	Under headers, you would see a category ‘location’ which contains the Access Token and Refresh Token. 
 
-    ![Token_inspect.jpg](../media/Token_inspect.jpg)
+    ![Token inspect](../media/Token_inspect.jpg)
 
 8. Use the **AccessToken** to call the Rest APIs (Ex. bearer *AccessToken*)
     > [!NOTE]
@@ -88,9 +88,9 @@ To obtain the access token **manually** (for testing purposes), follow these ste
 > [!WARNING]
 > Refresh Token" can be used to increase the validity of the **AccessToken**.  The expiration date of **RefreshToken** will depend on the authentication type of the platform instance. 
 > 
-> Once the **RefreshToken** expires, user will need to login to the instance explicitly to get new **AccessToken** and **RefreshToken** (unless you are using [S2S authentication](../rest-api-management/3_service-to-service-authentication). 
+> Once the **RefreshToken** expires, user will need to login to the instance explicitly to get new **AccessToken** and **RefreshToken** (unless you are using [S2S authentication](../rest-api-management/3_service-to-service-authentication.md). 
 
 Typically, **AccessToken** is valid for 24 hours and **RefreshToken** is valid for 90 days.
 
 ## Database Schema
-Refer [this document](../analytics/custom-reports/3_database-schema) to get details on the Database Schema. 
+Refer [this document](../analytics/custom-reports/3_database-schema.md) to get details on the Database Schema. 

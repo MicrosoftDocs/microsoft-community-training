@@ -11,7 +11,7 @@ ms.prod: azure
 
 Microsoft community training enables you to create multiple certificates and assign them to the relevant courses. 
 
-1.	Follow the instructions to[ create, customize and add the certificates along with its appropriate language. ](../settings/5_customize-the-certificate-template)
+1.	Follow the instructions to[ create, customize and add the certificates along with its appropriate language. ](../settings/5_customize-the-certificate-template.md)
 2.	In the administrator view select courses and click on the **More (...)** icon on the category list pane and click on edit course details 
 
 ![Create, customize and add the certificates](../media/image%28382%29.png)

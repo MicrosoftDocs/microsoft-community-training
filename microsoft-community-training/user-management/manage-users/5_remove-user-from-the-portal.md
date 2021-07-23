@@ -26,7 +26,7 @@ The Microsoft Community Training management portal provides role-based administr
 
 ## Steps to delete a user from the platform
 
-1. On the Microsoft Community Training portal, after login [**switch to administrator view**](../../get-started/4_step-by-step-configuration-guide#step-2-switch-to-administrator-view-of-the-portal).
+1. On the Microsoft Community Training portal, after login [**switch to administrator view**](../../get-started/4_step-by-step-configuration-guide.md#step-2-switch-to-administrator-view-of-the-portal).
 
 2. Select **All Users** tab in the Users tab on the left-navigation page
 

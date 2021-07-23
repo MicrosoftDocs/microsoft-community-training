@@ -15,7 +15,7 @@ Microsoft Community Training platform provides three types of login:
 3. Microsoft Work or School account
 
 > [!NOTE]
-> Please note this article is in continuation of the [**installation article**](../../infrastructure-management/install-your-platform-instance/3_installation-guide-detailed-steps).
+> Please note this article is in continuation of the [**installation article**](../../infrastructure-management/install-your-platform-instance/3_installation-guide-detailed-steps.md).
 
 In this article, we will walk you through on how to configure login identity for the platform.
  
@@ -33,16 +33,16 @@ You can create a new Azure AD B2C tenant or create an existing one based on your
 
 1.	Login to [**Azure portal**](https://portal.azure.com/).
 
-2.	Create a new [**Azure Active Directory B2C**](https://docs.microsoft.com/azure/active-directory-b2c/tutorial-create-tenant)  tenant.
+2.	Create a new [**Azure Active Directory B2C**](/azure/active-directory-b2c/tutorial-create-tenant)  tenant.
 
 3.	Link the Azure Active Directory B2C tenant just created to your Azure subscription.  
 
 #### Step 2 - Configure your Identity provider
 Here are the steps to create policies based on the Identity Provider: 
 
-1.	Configure the identity provider – based on your chosen provider such as [**Microsoft**](https://docs.microsoft.com/azure/active-directory-b2c/active-directory-b2c-setup-msa-app), [**Google**](https://docs.microsoft.com/azure/active-directory-b2c/active-directory-b2c-setup-goog-app) and [**Facebook**](https://docs.microsoft.com/azure/active-directory-b2c/active-directory-b2c-setup-fb-app)
+1.	Configure the identity provider – based on your chosen provider such as [**Microsoft**](/azure/active-directory-b2c/active-directory-b2c-setup-msa-app), [**Google**](/azure/active-directory-b2c/active-directory-b2c-setup-goog-app) and [**Facebook**](/azure/active-directory-b2c/active-directory-b2c-setup-fb-app)
 
-2.	After configuring the identity providers, refer [**this article**](https://docs.microsoft.com/azure/active-directory-b2c/tutorial-create-user-flows) article to create a **signing flow** (a sign-up and sign-in user flow) and a **password reset flow** (for local account)
+2.	After configuring the identity providers, refer [**this article**](/azure/active-directory-b2c/tutorial-create-user-flows) article to create a **signing flow** (a sign-up and sign-in user flow) and a **password reset flow** (for local account)
     * Select Email Addresses, Given Name, Identity Provider and Surname in Application claims
     * Don’t select any Sign-up attributes
     * Copy the user-flow(s) name to be required later (These will be required during MCT platform installation)
@@ -51,7 +51,7 @@ Here are the steps to create policies based on the Identity Provider:
 > Setting Password Reset Flow for an Existing Deployment)
 If you are setting up the **Password reset flow** on an existing deployment with Azure AD B2C authentication
 
-1. Set Userflow Name as **pwd_reset** (Step #1 in Create Flow using steps in [**this article**](https://docs.microsoft.com/en-us/azure/active-directory-b2c/tutorial-create-user-flows)
+1. Set Userflow Name as **pwd_reset** (Step #1 in Create Flow using steps in [**this article**](/en-us/azure/active-directory-b2c/tutorial-create-user-flows)
 
 2. Add the following URLs in the **Reply URL** section, 
      a.  "https://*name*.azurefd.net/signin-b2c-pwd"
@@ -68,7 +68,7 @@ If you are setting up the **Password reset flow** on an existing deployment with
 
 Here are the steps an create on Azure AD B2C tenant and link the same with your training portal instance: 
 
-1. Create a new Azure AD B2C application by following [**this article**](https://docs.microsoft.com/azure/active-directory-b2c/tutorial-register-applications). Please ensure application properties are set as following:
+1. Create a new Azure AD B2C application by following [**this article**](/azure/active-directory-b2c/tutorial-register-applications). Please ensure application properties are set as following:
   1. Web app / Web API - set to "Yes"
 
   2. Allow implicit flow - set to "No"
@@ -95,7 +95,7 @@ Here are the steps an create on Azure AD B2C tenant and link the same with your 
 
 5. Go to Azure Active Directory from the left menu of your Azure portal, click on Domain Names and copy the tenant name under Name to be required later for **Tenant Name**. For example, if the default domain for your Azure AD tenant is **contoso.onmicrosoft.com**, then enter **contoso**. 
 
-6. Next continue from **Step 9** in  the [**installation article**](../../infrastructure-management/install-your-platform-instance/3_installation-guide-detailed-steps).
+6. Next continue from **Step 9** in  the [**installation article**](../../infrastructure-management/install-your-platform-instance/3_installation-guide-detailed-steps.md).
 
 ### 2. Configure you Local Account
 You can configure local account for your training portal by following the instructions below:
@@ -105,7 +105,7 @@ You can configure local account for your training portal by following the instru
 
 #### Step 1 - Setup your Azure AD B2C
 1.	Login to [Azure portal](https://portal.azure.com/).
-2.	Create a new [Azure Active Directory B2C](https://docs.microsoft.com/azure/active-directory-b2c/tutorial-create-tenant) tenant.
+2.	Create a new [Azure Active Directory B2C](/azure/active-directory-b2c/tutorial-create-tenant) tenant.
 3.	Link the Azure Active Directory B2C tenant just created to your Azure Subscription.
 
 #### Step 2 - Configure your local account
@@ -117,7 +117,7 @@ You can configure local account for your training portal by following the instru
 
 4.	In the same window, select Application Claims and check whether the configuration matches exactly as below.
 
-![4.jpg](../../media/4.jpg)
+![Application Claims](../../media/4.jpg)
 
 5.	Select User Attributes and ensure no options are selected.
 6.	Restart the training portal App service.
@@ -152,5 +152,5 @@ The script asks for the following two inputs:
 The AAD script takes ~2 minutes to run and outputs 4 values on screen (Client ID, Client Secret, Tenant Id, Tenant name). Make a note of the output values as they will be needed in next step. If someone else ran the script, ask them to share this output.
 A new app is created. If an app already exists with the same name, the script will delete the existing app and create a new app. 
 
-### Step 3 - Next continue from **Step 9** in  the [**installation article**](../../infrastructure-management/install-your-platform-instance/3_installation-guide-detailed-steps).
+### Step 3 - Next continue from **Step 9** in  the [**installation article**](../../infrastructure-management/install-your-platform-instance/3_installation-guide-detailed-steps.md).
 Provide the output values from the script executed in step 2

@@ -18,7 +18,7 @@ In this article, you will learn more about how to customize the certificate temp
 ## Steps to customize your certificate template
 Here are the simple steps to customize the certificate template on the platform:
 
-1.	Login to the Microsoft Community Training portal and [**switch to administrator view**](../get-started/4_step-by-step-configuration-guide#step-2--switch-to-administrator-view-of-the-portal)
+1.	Login to the Microsoft Community Training portal and [**switch to administrator view**](../get-started/4_step-by-step-configuration-guide.md#step-2--switch-to-administrator-view-of-the-portal)
 
 2. Click on **Settings tab** from the left navigation panel → select  **Certificate Templates** and click on  **New Template** to toggle the customization process. 
 
@@ -42,6 +42,6 @@ Here are the simple steps to customize the certificate template on the platform:
   > [!CAUTION]
   > Ensure you click on the **Save button**. Otherwise, the changes you made will be lost.
 
-9. You can add multiple number of certificates as required and assign them to the specific courses. [Click here](../settings/6_enable-course-level-certificate) to learn more on enabling course level certificate. 
+9. You can add multiple number of certificates as required and assign them to the specific courses. [Click here](../settings/6_enable-course-level-certificate.md) to learn more on enabling course level certificate. 
 
 10. Please visit [**Microsoft Community Training Helpdesk**](https://go.microsoft.com/fwlink/?linkid=2104630) to log a support ticket if you wish to edit the templates of previously issued certificates. 

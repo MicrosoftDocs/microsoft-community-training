@@ -1,6 +1,9 @@
 ---
 title: Backup, Security & Privacy
 original-url: https://docs.microsoftcommunitytraining.com/docs/security-and-privacy
+author: nikotha
+ms.author: nikotha
+description: Microsoft Community Training can only be hosted and run on Microsoft Azure Cloud.  It cannot be deployed on other public cloud providers or on-premise data center.
 ---
 
 # Backup, Security & Privacy
@@ -25,10 +28,10 @@ Microsoft community training can ensure that in case of unforeseen failures and 
 
 Since Microsoft Community Training is a managed application, back up and replication is not enabled by default. Customers can enable backup/replication of the data to the data center region of their choice
 
-Refer to [**this article**](../infrastructure-management/configure-your-platform-infrastructure/5_business-continuity-and-disaster-recovery-for-your-platform-instance) to learn more. 
+Refer to [**this article**](../infrastructure-management/configure-your-platform-infrastructure/5_business-continuity-and-disaster-recovery-for-your-platform-instance.md) to learn more. 
 
 ### What is the backup policy?
-Customers can configure the **[backup frequency and policy](https://docs.microsoft.com/azure/backup/backup-azure-manage-vms#manage-backup-policy-for-a-vm)**. From the product team perspective, we recommend customers to do daily a backup.  
+Customers can configure the **[backup frequency and policy](/azure/backup/backup-azure-manage-vms#manage-backup-policy-for-a-vm)**. From the product team perspective, we recommend customers to do daily a backup.  
 
 ### What is the committed Recovery Time Objective (RTO) and Recovery Point Objective (RPO)?
 Customers can configure the geo-replication, automatic failover, etc. for business continuity scenarios as their business requirements. For e.g. for Azure SQL database, geo-restore from geo-replicated backups is RTO - 12 hours and RPO – 6 hours.
@@ -38,12 +41,12 @@ Customers can configure the geo-replication, automatic failover, etc. for busine
 ### What methodology is used for encrypting user and course data in transit and at rest?
 When data is in transit, it is encrypted using TLS 1.2. When data is at rest, it is encrypted using Transparent Data Encryption (i.e. TDE).
 
-For more details on Transfer Data Encryption, please visit [**this article**](https://docs.microsoft.com/sql/relational-databases/security/encryption/transparent-data-encryption?view=sql-server-ver15).
+For more details on Transfer Data Encryption, please visit [**this article**](/sql/relational-databases/security/encryption/transparent-data-encryption?view=sql-server-ver15&preserve-view=true).
 
 ### Can the customer use their own encryption keys for data encryption?
 
 Currently, we use the default encryption key (256-bit AES encryption) provided by the Azure Services such as Azure SQL, Azure Blob Storage, etc.  
-Customer can use their own encryption key features by the underlying Azure services if required. For more details, please check out [**Azure SQL TDE with customer-managed key**](https://docs.microsoft.com/azure/sql-database/transparent-data-encryption-byok-azure-sql), [**Azure Storage encryption for data at rest**](https://docs.microsoft.com/azure/storage/common/storage-service-encryption) and [**configure customer-managed keys**](https://docs.microsoft.com/azure/storage/common/storage-encryption-keys-portal). 
+Customer can use their own encryption key features by the underlying Azure services if required. For more details, please check out [**Azure SQL TDE with customer-managed key**](/azure/sql-database/transparent-data-encryption-byok-azure-sql), [**Azure Storage encryption for data at rest**](/azure/storage/common/storage-service-encryption) and [**configure customer-managed keys**](/azure/storage/common/storage-encryption-keys-portal). 
 
 
 ### Where is the download content on the mobile app stored?
@@ -59,7 +62,7 @@ Microsoft Community Training program uses the state of art CDN services powered 
 
 Here is the high-level architecture diagram of the Microsoft Community Training platform:
  
-![image.png](../media/image%28307%29.png)
+![architecture diagram](../media/image%28307%29.png)
 
 1. **Azure Web App** - The endpoint and the underlying service which hosts all application logic and provides a frontend for the website. This is designed using standard Model-View-Controller (MVC) architecture and built on the .NET framework. 
 
@@ -98,10 +101,10 @@ Here are some of the key things we do to secure the platform:
 
 4. DDOS attacks are prevented using configuration settings in the Azure Web App service. For more details, please visit the following documents:  
     i. [**Azure DDOS protection service preview**](https://azure.microsoft.com/en-in/services/ddos-protection/)  
-    ii. [**Dynamic IP Security**](https://docs.microsoft.com/iis/configuration/system.webserver/security/dynamicipsecurity/)
+    ii. [**Dynamic IP Security**](/iis/configuration/system.webserver/security/dynamicipsecurity/)
 
 ### How are feature and security updates applied to the platform? What is the update frequency?
-We release monthly updates to the platform. Since the Microsoft Community Training platform will be deployed as a managed app, all the platform updates will be pushed directly by Microsoft without any intervention required by the customer. For more details, please visit [**this article**](../infrastructure-management/install-your-platform-instance/2_installation-overview).
+We release monthly updates to the platform. Since the Microsoft Community Training platform will be deployed as a managed app, all the platform updates will be pushed directly by Microsoft without any intervention required by the customer. For more details, please visit [**this article**](../infrastructure-management/install-your-platform-instance/2_installation-overview.md).
 
 ### How to view my Azure portals Secret Key vault?
 Please follow the below steps to view / access your Azure key vault

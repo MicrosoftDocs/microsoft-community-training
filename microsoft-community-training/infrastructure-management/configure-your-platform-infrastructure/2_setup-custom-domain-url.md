@@ -1,6 +1,9 @@
 ---
 title: Setup custom domain URL
 original-url: https://docs.microsoftcommunitytraining.com/docs/setup-custom-domain-url
+author: nikotha
+ms.author: nikotha
+description: "By default, your training portal is hosted on <name>.azurefd.net   where <name>* is the website name entered by administrator at the time of platform deployment and installation."
 ---
 
 # Setup custom domain URL
@@ -18,12 +21,12 @@ If you’re looking to host your Microsoft Community Training instance on a cust
 
 ## Steps to configure your custom domain URL
 
-1. [**Map the custom DNS name**](https://docs.microsoft.com/azure/frontdoor/front-door-custom-domain#create-a-cname-dns-record) to point to your Microsoft Community Training instance, using a CNAME DNS record.
+1. [**Map the custom DNS name**](/azure/frontdoor/front-door-custom-domain#create-a-cname-dns-record) to point to your Microsoft Community Training instance, using a CNAME DNS record.
 
-2. [**Associate the mapped custom domain**](https://docs.microsoft.com/azure/frontdoor/front-door-custom-domain#associate-the-custom-domain-with-your-front-door), with your Microsoft Community Training instance's Front Door resource.
+2. [**Associate the mapped custom domain**](/azure/frontdoor/front-door-custom-domain#associate-the-custom-domain-with-your-front-door), with your Microsoft Community Training instance's Front Door resource.
 
-3. [**Configure the SSL certificate**](https://docs.microsoft.com/azure/frontdoor/front-door-custom-domain-https) for your Microsoft Community Training instance.  
-Use an [**AFD managed certificate**](https://docs.microsoft.com/azure/frontdoor/front-door-custom-domain-https#option-1-default-use-a-certificate-managed-by-front-door) for seamless certificate management, including procurement and renewal.
+3. [**Configure the SSL certificate**](/azure/frontdoor/front-door-custom-domain-https) for your Microsoft Community Training instance.  
+Use an [**AFD managed certificate**](/azure/frontdoor/front-door-custom-domain-https#option-1-default-use-a-certificate-managed-by-front-door) for seamless certificate management, including procurement and renewal.
 
 4. Enable Web Application Firewall on your new domain.  
 (the setting is available just below the Custom Domain HTTPS configuration)  
@@ -33,23 +36,23 @@ Select the WAF policy instance that is deployed in the same resource group.
 
 6. Click on the Managed application instance.
 
-   ![image.png](../../media/image%2890%29.png)
+   ![Managed application](../../media/image%2890%29.png)
 
 7. Click on **Managed resource group** link.
 
-   ![image.png](../../media/image%2889%29.png)
+   ![Managed resource group](../../media/image%2889%29.png)
 
 8. Select the resource for your App Service.
 
 9. From the left-menu, under Settings, click on **Configuration**.
 
-   ![image.png](../../media/image%2894%29.png)
+   ![Configuration](../../media/image%2894%29.png)
 
 10. Update the setting **ContentEndpoint** with your custom domain name, followed by the path "/storage". *For example - `https://contosolearning.contoso.com/storage`*.
 
 11. Next based on your chosen identity type, follow the steps below: 
-    * **For Social Accounts or email based authentication** like Google, Microsoft and Facebook [follow these steps](../../infrastructure-management/configure-your-platform-infrastructure/2_setup-custom-domain-url#for-social-accounts-like-google-microsoft-and-facebook)
-    * **For Azure Active Directory** (aka Work or School account) [follow these steps](../../infrastructure-management/configure-your-platform-infrastructure/2_setup-custom-domain-url#for-azure-active-directory-work-or-school-account)
+    * **For Social Accounts or email based authentication** like Google, Microsoft and Facebook [follow these steps](../../infrastructure-management/configure-your-platform-infrastructure/2_setup-custom-domain-url.md#for-social-accounts-like-google-microsoft-and-facebook)
+    * **For Azure Active Directory** (aka Work or School account) [follow these steps](../../infrastructure-management/configure-your-platform-infrastructure/2_setup-custom-domain-url.md#for-azure-active-directory-work-or-school-account)
     * **For phone number authentication**, create a support ticket from [Microsoft Community Training Helpdesk](https://go.microsoft.com/fwlink/?linkid=2104630) using the following values. Our support team will activate your custom URL in 2-3 business days and notify you of the change.
 
 |Field	|Description|
@@ -135,7 +138,7 @@ Select the WAF policy instance that is deployed in the same resource group.
 ## Troubleshoot for Custom Domain URL Setup
 Following are some troubleshooting steps for the scenario when your website is not reachable even after following all of the above mentioned steps, 
 
-![image.png](../../media/image%28341%29.png)
+![Troubleshoot for Custom Domain URL Setup](../../media/image%28341%29.png)
 
 Check the DNS entry is propagated by any online tool available. [Example](https://mxtoolbox.com/DNSLookup.aspx).
 
@@ -143,20 +146,20 @@ There can be 2 cases:
 
 (a). No entry is present 
 
-![image.png](../../media/image%28342%29.png)
+![No entry is present](../../media/image%28342%29.png)
 
 **Steps to mitigate**
 
-Update dns record in corresponding DNS provider. In the above case, the domain was purchased from Microsoft 365, so you will need to follow this [documentation](https://docs.microsoft.com/microsoft-365/admin/dns/update-dns-records-to-retain-current-hosting-provider?view=o365-worldwide).
+Update dns record in corresponding DNS provider. In the above case, the domain was purchased from Microsoft 365, so you will need to follow this [documentation](/microsoft-365/admin/dns/update-dns-records-to-retain-current-hosting-provider?view=o365-worldwide&preserve-view=true).
 
 Every dns provider will have similar documentations. This is one more example from [Godaddy](https://in.godaddy.com/help/change-an-a-record-19239)  
  
  (b). DNS entry is wrong
 
-![image.png](../../media/image%28343%29.png)
+![DNS entry is wrong](../../media/image%28343%29.png)
 
 **Steps to mitigate**
 
 The domain record should point to the correct AzureFD url (***\<name>.azurefd.net*** ). For example,
 
-![image.png](../../media/image%28344%29.png)
+![AzureFD url](../../media/image%28344%29.png)

@@ -1,6 +1,9 @@
 ---
 title: Welcome to Microsoft Community Training
 original-url: https://docs.microsoftcommunitytraining.com/docs/microsoft-community-training-overview
+author: nikotha
+ms.author: nikotha
+description: Microsoft Community Training is an Azure-powered online learning platform to enable organizations of all sizes and types to run large scale training programs for their internal and external communities such as first line workers, extended workforces, partner ecosystem, volunteer network, program beneficiaries, etc.
 ---
 
 # Welcome to Microsoft Community Training
@@ -37,9 +40,9 @@ The user experiences on the platform are optimized for mobile-first and mobile-o
 
 ## Management Portal
 
-The management portal is a one-stop-shop for all administrative functions like upload and manage courses, add and organize users, assign courses and track completion, platform settings, etc. It is designed on the role-based access and functionalities are available to the users as per granted management permissions. For more details, please visit [**this article**](../get-started/3_user-role-and-management-portal-overview). 
+The management portal is a one-stop-shop for all administrative functions like upload and manage courses, add and organize users, assign courses and track completion, platform settings, etc. It is designed on the role-based access and functionalities are available to the users as per granted management permissions. For more details, please visit [**this article**](../get-started/3_user-role-and-management-portal-overview.md). 
 
-![admin-content-upload](../media/admin-content-upload.png)
+![admin content upload](../media/admin-content-upload.png)
 
 ## Learner Experience 
 
@@ -49,4 +52,4 @@ Lastly, learners can also use the platform to track activities and stay updated 
 
 ![overview article - learners](../media/overview%20article%20-%20learners.png)
 
-**Next>** Learn about different [**user personas and their roles and responsbilities**](../get-started/3_user-role-and-management-portal-overview).
+**Next>** Learn about different [**user personas and their roles and responsbilities**](../get-started/3_user-role-and-management-portal-overview.md).

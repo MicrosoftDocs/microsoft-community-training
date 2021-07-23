@@ -1,6 +1,9 @@
 ---
 title: Web & Mobile App
 original-url: https://docs.microsoftcommunitytraining.com/docs/web-mobile-app
+author: nikotha
+ms.author: nikotha
+description: It is possible that your infrastructure is unable to handle the high traffic load.
 ---
 
 # Web & Mobile App
@@ -8,13 +11,13 @@ original-url: https://docs.microsoftcommunitytraining.com/docs/web-mobile-app
 ## Learner experience
 
 ### It takes too much time to open the website on my browser / portal is responding very slowly 	
-It is possible that your infrastructure is unable to handle the high traffic load. Refer **[this article](../infrastructure-management/configure-your-platform-infrastructure/4_scale-up-instance-configuration)** to upscale your platform and meet your growing needs.
+It is possible that your infrastructure is unable to handle the high traffic load. Refer **[this article](../infrastructure-management/configure-your-platform-infrastructure/4_scale-up-instance-configuration.md)** to upscale your platform and meet your growing needs.
 
 ### I can't open external links embedded inside the PDF document in the platform. 
 For security reasons, we have disabled clicking on external links for the PDF document on the platform. Hence, you should not add any  link in PDF lesson file. 
 
 ### Can learners change/update user profile fields ?
-Learners can change/update profile fields via profile section in the learners portal. Administrator can change these values via the bulk upload functionality. Refer [**this article**](../user-management/organize-users/4_add-multiple-users-to-the-group#steps-to-bulk-upload-users-to-specific-group) for more information. 
+Learners can change/update profile fields via profile section in the learners portal. Administrator can change these values via the bulk upload functionality. Refer [**this article**](../user-management/organize-users/4_add-multiple-users-to-the-group.md#steps-to-bulk-upload-users-to-specific-group) for more information. 
 
 ### Can Microsoft Community Training platform be used in low bandwidth  and no internet connectivity scenarios?
 Microsoft Community Training platform is designed to be lightweight and supports adaptive streaming for seamless content consumption for low network connectivity scenaios:
@@ -30,7 +33,7 @@ After successful login, learners can see all the courses to which he or she has 
 
 Users can also browse the course library and register for more courses as required. 
  
-For further information [**refer here**](../learner-experience/3_mobile)
+For further information [**refer here**](../learner-experience/3_mobile.md)
  
 ## Course consumption
 
@@ -59,7 +62,7 @@ We have the below-mentioned functions which are available on our inbuilt video p
 5. Setting Video Quality based on the data bandwidth 
 6. Viewing video on full screen.
 
-   ![image.png](../media/image%28310%29.png)
+   ![Video on fuull screen](../media/image%28310%29.png)
 
 ### Can learners switch the audio language just like how they can select the subtitle language on the web and mobile app?
 We currently don’t support adding multiple audio for a lesson content. However, we recommend customers to create multiple courses for different languages  and upload respective files to achieve the use cases with existing features.
@@ -96,19 +99,19 @@ Learners accessing the platform using our native android app will be able to dow
 
 The below chart illustrates the download possibilities based on the content type and platform the learner is accessing through:
 
-![image.png](../media/image%28308%29.png)
+![Download possibilities](../media/image%28308%29.png)
 
 ### How can learners download course content on the mobile app? 
 Learners can download content on their mobile app by clicking on the download icon within their course page, refer the below image for clarification. Course progressions are monitored and tracked even when courses are downloaded and consumed offline.
 
-![image.png](../media/image%28309%29.png)
+![download course content](../media/image%28309%29.png)
 
 ## Mobile app
 
 ### What is the name of the Mobile application available on android?
 Just like a web app, a mobile app can also be customized and branded according to the organization's norms. You can provide the preferred app title while publishing the APK on your google play store account. 
 
-For more information [**refer here**](../infrastructure-management/install-your-platform-instance/5_create-publish-mobile-app).
+For more information [**refer here**](../infrastructure-management/install-your-platform-instance/5_create-publish-mobile-app.md).
 
 ### How can I test mobile app before uploading the same to the Google Play Store?
 The mobile app can be installed locally on your android phone and tested. Alternatively, you can also try using android sandbox tools to install and test. 
@@ -126,13 +129,13 @@ Download functionality on the mobile app is turned on by default and cannot be d
 There is an inbuilt comment session available for every lesson. While accessing the training content, learners can use a discussion forum to add/share comments and questions with others and stay informed on replies and feedbacks.
 
 ### Can I disable the comment functionality?
-Yes, you can disable the comment functionality from the lessons. Once disabled, learners will not be allowed to post comment. By default, commenting for leaners remains enabled. For more understanding, refer [this article](../settings/11_configurations-on-the-training-platform).
+Yes, you can disable the comment functionality from the lessons. Once disabled, learners will not be allowed to post comment. By default, commenting for leaners remains enabled. For more understanding, refer [this article](../settings/11_configurations-on-the-training-platform.md).
 
 ### Can learners communicate or ask questions with peers and trainers on the platform?
 
 Microsoft Community Training platform has  a functionality called discussion forum which learners can use to ask questions to other participants, trainers or administrator. Anyone who is registered for the course (or admins) can respond to these questions. 
  
-Refer this [**article**](../learner-experience/2_web-app#step-6-discuss-and-share-information-with-peers) for more information. 
+Refer this [**article**](../learner-experience/2_web-app.md#step-6-discuss-and-share-information-with-peers) for more information. 
 
 ### What is the Discussion Forum feature? 
 Discussion Forums enable learners to ask their queries on a specific lesson which can be answered by administrators or interact with peers woh are enrolled for the course.  
@@ -142,7 +145,7 @@ Forum is open to all learners enrolled on the course where real-time Q & A can t
 ### How to access discussion forums on the platform? 
 Discussion Forums can be accessed from the course details page. By tapping the add a comment button from the top right corner of the course details page, discussion forum panel can be opened. See the  below screenshot:
 
-![image.png](../media/image%28321%29.png)
+![Access discussion forums](../media/image%28321%29.png)
 
 ### Who all can post questions or respond to queries in the discussion forum?
 All the enrolled learners for the course and course administrators will be able to post and responds to queries on the discussion forum.

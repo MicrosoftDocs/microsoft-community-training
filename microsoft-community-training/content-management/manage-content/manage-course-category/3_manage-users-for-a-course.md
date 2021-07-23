@@ -1,6 +1,9 @@
 ---
 title: Manage Users for a Course
 original-url: https://docs.microsoftcommunitytraining.com/docs/manage-users-for-a-course
+author: nikotha
+ms.author: nikotha
+description: On the Microsoft Community Training management portal, you can view, add and remove users for a particular course directly from the course module.
 ---
 
 # Manage Users for a Course
@@ -29,11 +32,11 @@ In this topic, you will learn the steps on how to enroll users directly to a cou
 
 2.	Click or tap the **Manage Users** icon on top-right of the course details page.
 
-![image.png](../../../media/image%2851%29.png)
+![Manage user](../../../media/image%2851%29.png)
 
 3.	You can choose between the following two methods to enroll users for the course.
     * **Add users** – This option is used to add one user to the course at a time. Click or tap Add User, enter the phone number and then click or tap add user.
-    * **Bulk upload users** – This option is used to add multiple users to the course at once. Click or tap on the Bulk upload users option and select the CSV file containing the list of users and then click or tap on Upload button. To structure the CSV file in the correct format - [**Click here to see detailed steps**](../../../user-management/organize-users/2_create-a-new-group#add-multiple-users-to-a-group).
+    * **Bulk upload users** – This option is used to add multiple users to the course at once. Click or tap on the Bulk upload users option and select the CSV file containing the list of users and then click or tap on Upload button. To structure the CSV file in the correct format - [**Click here to see detailed steps**](../../../user-management/organize-users/2_create-a-new-group.md#add-multiple-users-to-a-group).
 
 ![Manage users](../../../media/Manage%20users.png)
 
@@ -49,7 +52,7 @@ In this topic, you will learn the steps on how to remove user enrollment from a 
 
 2.	Click or tap the **Manage Users** icon on top-right of the course details page.
 
-![image.png](../../../media/image%2851%29.png)
+![Manage Users](../../../media/image%2851%29.png)
 
 3.	Click or tap  ![Remove icon](../../../media/Remove%20icon.png) to remove user enrollment for the course. The remove icon is shown  only when you place your mouse over it.
 

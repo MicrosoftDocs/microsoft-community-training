@@ -1,6 +1,9 @@
 ---
 title: Change Category details
 original-url: https://docs.microsoftcommunitytraining.com/docs/change-category-details
+author: nikotha
+ms.author: nikotha
+description: Microsoft Community Training platform allows you to edit and delete categories created on the portal.
 ---
 
 # Change Category details
@@ -24,11 +27,11 @@ In this topic, you will learn simple steps to edit an existing category in the p
 
 1. Click or tap **More (...)** icon to the right of the category name and select **Edit Category details** option from the overflow menu.
 
-![image.png](../../../media/image%28386%29.png)
+![Edit Category details fro More](../../../media/image%28386%29.png)
 
 2.	Tap **Edit Category** details to edit a category.
 
-![image.png](../../../media/image%28387%29.png)
+![Edit Category](../../../media/image%28387%29.png)
 
 3.	Enter **Category name** you want to change. For example, category name is *Course on Microsoft Excel*.
 

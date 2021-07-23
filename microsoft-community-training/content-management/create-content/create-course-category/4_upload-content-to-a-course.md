@@ -1,6 +1,9 @@
 ---
 title: Upload content to a course
 original-url: https://docs.microsoftcommunitytraining.com/docs/upload-content-to-a-course
+author: nikotha
+ms.author: nikotha
+description: Lesson is a single unit of learning content in the form of Video, PDF, Word or PPT file for a course.
 ---
 
 # Upload content to a course
@@ -77,7 +80,7 @@ b. **For embedding external web link** - Paste the URL of the web page in the te
 > Click or tap the **Save** button to complete the add lesson operation. If you perform any other activity before clicking on the Save button, then all your progress will be lost.
 
 7.	For video content, after upload is completed, the system will start the encoding process to create multiple copies to optimize streaming on different devices and network quality. You can check the encoding status on the course page as shown below.
-![image.png](../../../media/image%2849%29.png)
+![Encoding status on the course page](../../../media/image%2849%29.png)
 
 > [!NOTE]
 > Depending upon the video size, it can take upto 20 minutes to complete the encoding process.
@@ -87,7 +90,7 @@ b. **For embedding external web link** - Paste the URL of the web page in the te
 **Next>**  [**Add practice quiz and exams**](https://microsoftindia.document360.io/docs/create-practice-course-and-exam) to the course or  [**publish the course**](https://microsoftindia.document360.io/docs/publishing-course) for the learners
 
 > [!TIP]
->  Whenever you are performing content upload, [**scale up your platform configuration**](../../infrastructure-management/configure-your-platform-infrastructure/4_scale-up-instance-configuration) to reduce the upload and processing time for the content)
+>  Whenever you are performing content upload, [**scale up your platform configuration**](../../infrastructure-management/configure-your-platform-infrastructure/4_scale-up-instance-configuration.md) to reduce the upload and processing time for the content)
 
 ## Option 2 - Bulk Upload lessons
 Similar to the [**Bulk Upload Courses**](https://microsoftindia.document360.io/docs/create-a-course#steps-for-bulk-upload-courses-to-the-portal) , administrator can use the Bulk Upload Lessons feature to save time and add multiple lessons and upload content for a course at once. 
@@ -105,9 +108,9 @@ Before you start doing the bulk upload of lessons for a course, you need to make
 3.	Ensure there are no folders and unsupported content files inside the ZIP file 
 
 > [!NOTE]
-> Practice quizzes and exams cannot be added to the course via bulk upload functionality unless [**you are exporting courses from one instance to another**](../../../content-management/manage-content/manage-course-category/6_move-course-content-across-training-instance).
+> Practice quizzes and exams cannot be added to the course via bulk upload functionality unless [**you are exporting courses from one instance to another**](../../../content-management/manage-content/manage-course-category/6_move-course-content-across-training-instance.md).
 > 
-> The admins have to add them via [**add quiz and exam workflow**](../../../content-management/create-content/create-course-category/6_add-practice-course-and-exam).
+> The admins have to add them via [**add quiz and exam workflow**](../../../content-management/create-content/create-course-category/6_add-practice-course-and-exam.md).
 
 ### Steps for bulk upload lessons for a course
 

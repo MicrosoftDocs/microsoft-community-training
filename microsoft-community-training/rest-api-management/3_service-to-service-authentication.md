@@ -13,7 +13,7 @@ Please follow the following steps to enable any external service to call Microso
 Follow the steps mentioned below to Register the Service app.
 Register the service app:
 1.	Sign in to the Azure portal.
-2.	If you have access to multiple tenants, use the **Directory + subscription filter** ![image.png](../media/image%28368%29.png) in the top menu to select the tenant in which you want to register an application.
+2.	If you have access to multiple tenants, use the **Directory + subscription filter** ![Directory, subscription filter](../media/image%28368%29.png) in the top menu to select the tenant in which you want to register an application.
 
     > [!NOTE]
     > The Service Application to be registered must be created in the same Azure tenant as that of concerned MCT instance.
@@ -89,7 +89,7 @@ Steps mentioned below are for Azure function, similar steps can be followed for 
     1. Switch the status to “on”. Click on “Save” 
     2. Copy the value of “Object Id” shown on the screen thereafter. It will be required later.
 
-        ![image.png](../media/image%28329%29.png)
+        ![Object Id](../media/image%28329%29.png)
        
     3. Follow the steps mentioned in [this document](https://docs.microsoft.com/azure/app-service/overview-managed-identity?tabs=dotnet#obtain-tokens-for-azure-resources) to generate a token to call the APIs. A resource parameter is required to generate the token. For this parameter, provide the value of the Application ID URI as created in “Register Service application” step. (e.g. api://{*Id*}) 
 
@@ -99,7 +99,7 @@ Steps mentioned below are for Azure function, similar steps can be followed for 
 ### Approach 2: Alternatively, creating a client by using [Client Credentials Flow ](https://docs.microsoft.com/azure/active-directory/develop/v2-oauth2-client-creds-grant-flow)
 Follow the steps mentioned below to Register the Client app.
 1.	Sign in to the Azure portal.
-2.	If you have access to multiple tenants, use the **Directory + subscription filter**  ![image.png](../media/image%28368%29.png) in the top menu to select the tenant in which you want to register an application.
+2.	If you have access to multiple tenants, use the **Directory + subscription filter**  ![Directory & subscription filter](../media/image%28368%29.png) in the top menu to select the tenant in which you want to register an application.
 3.	Search for and select **Azure Active Directory.**
 4.	Under **Manage**, select **App registrations > New registration.**
     - In the **Name** section, enter a meaningful application name that will be displayed to users of the app, for example S2S-client.
@@ -132,7 +132,7 @@ Follow the steps mentioned below to Register the Client app.
 3. After going to the App Service resource, Click on the “Configuration” section on the left. 
 4. Click on “New application setting” 
 5. Under “Name”, add **ServiceAuthEnabled**, and under “Value”, add **true**. Click “OK”. 
-    ![image.png](../media/image%28330%29.png)
+    ![ServiceAuthEnabled](../media/image%28330%29.png)
 6. Similarly add the following values in the Configuration. Click on “Save” after adding all these values and restart the App Service. 
    1. **ServiceAuthAudience**: Application ID URI created in “Register Service application” step
    2. **ServiceAuthTenantName**: Tenant name retrieved in “Register Service application” step

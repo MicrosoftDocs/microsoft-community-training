@@ -18,7 +18,7 @@ Once you install Microsoft Community Training in your subscription, you don't ha
 
 The resources for Microsoft Community Training reside in two resource groups. You as a customer have access to one resource group called the Application resource group and the other resource group called the Managed resource group is managed by Microsoft.
 
-![image.png](../../media/image%2812%29.png)
+![Managed resource group](../../media/image%2812%29.png)
     
 You have full access to the **Application resource group**. You can use it to manage the lifecycle of your instance, which includes restarting it or deleting it.
     

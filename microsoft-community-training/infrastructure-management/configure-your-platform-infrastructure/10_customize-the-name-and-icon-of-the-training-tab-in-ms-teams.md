@@ -1,6 +1,9 @@
 ---
 title: Customize the name and icon of the training tab in MS Teams
 original-url: https://docs.microsoftcommunitytraining.com/docs/customize-the-name-and-icon-of-the-training-tab-in-ms-teams
+author: nikotha
+ms.author: nikotha
+description: This article assumes you have followed the steps outlined in the MS Teams installation (upto Step 2) and received the Team Manifest file from the Customer Support Team.
 ---
 
 # Customize the name and icon of the training tab in MS Teams
@@ -14,7 +17,7 @@ This article assumes you have followed the steps outlined in the [MS Teams insta
 
 1. Unzip the manifest file (.zip file) provided by the customer support team earlier for this instance. There should be following 3 files once you unzip
 
-   ![image.png](../../media/image%28358%29.png)
+   ![3 files](../../media/image%28358%29.png)
  
 2. Replace the 2 files (color.png & outline.png) with your customized icon.
  
@@ -25,7 +28,7 @@ This article assumes you have followed the steps outlined in the [MS Teams insta
 
 1. Open the manifest.json file in any editor (here NotePad ++) and edit the highlighted details in the file to represent your AzureFD (***\<name>.azurefd.net*** ) instance and the required name of the Tab.
 
-   ![image.png](../../media/image%28359%29.png)
+   ![Represent your AzureFD](../../media/image%28359%29.png)
  
 2. Save the manifest.json file after changes. 
 

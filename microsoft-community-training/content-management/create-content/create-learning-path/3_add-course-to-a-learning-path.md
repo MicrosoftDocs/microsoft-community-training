@@ -1,13 +1,16 @@
 ---
 title: Add course to a Learning path
 original-url: https://docs.microsoftcommunitytraining.com/docs/add-course-to-a-learning-path
+author: nikotha
+ms.author: nikotha
+description: A Learning Path is a defined sequence of courses on the training platform to administrator guided training paths to the learners.
 ---
 
 # Add course to a Learning path
 
 A **Learning Path** is a defined sequence of courses on the training platform to administrator guided training paths to the learners.
 
-A Learning Path references courses from different Categories on the training platform which learners can be optionally enforced to complete in an order. [Once a Learning Path is created,](2_create-a-learning-path) administrators can select one or more published courses from the same category or across categories to the Learning Path.
+A Learning Path references courses from different Categories on the training platform which learners can be optionally enforced to complete in an order. [Once a Learning Path is created,](2_create-a-learning-path.md) administrators can select one or more published courses from the same category or across categories to the Learning Path.
 
 In this article, you will learn more about how to add courses to a Learning Path on the management portal.
 
@@ -28,18 +31,18 @@ The Microsoft Community Training management portal provides role-based administr
 
 2. Select the **Content** tile on the left bar and click on Learning Path tab.
 
-![image.png](../../../media/image%28388%29.png)
+![Select Content](../../../media/image%28388%29.png)
 
 3. From the **Learning Path** tab, select the Learning Path in the list to which you want to add courses.
 
 4. Select **Add Categories** to view all published Courses in the Categories
 
-![image.png](../../../media/image%28392%29.png)
+![Add Categories](../../../media/image%28392%29.png)
 
 5. From the right panel, select the **Courses** which you want to add to the Learning Path.
 
-![image.png](../../../media/image%28393%29.png)
+![Courses from right panel](../../../media/image%28393%29.png)
 
 6. Click on **Done**.
  
- **Next>** Once the Courses are added to the Learning Path, you can [assign the Learning Path to user groups](../../../user-management/manage-users/2_assign-content-to-group-users). 
+ **Next>** Once the Courses are added to the Learning Path, you can [assign the Learning Path to user groups](../../../user-management/manage-users/2_assign-content-to-group-users.md). 

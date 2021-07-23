@@ -34,7 +34,7 @@ The Microsoft Community Training management portal provides role-based administr
 
 5. On the confirmation dialog, click or tap **Ok** to remove or delete the selected users from the platform.
 
-    ![image.png](../../media/image%2863%29.png)
+    ![Confirmation dialog](../../media/image%2863%29.png)
 
 > [!WARNING]
 > When you remove the user from the platform, all the information around course enrollment, learner progress and group participation is also deleted from the portal. **User information cannot be recovered once deleted**.

@@ -7,14 +7,14 @@ original-url: https://docs.microsoftcommunitytraining.com/docs/create-publish-mo
 
 In this article, we will learn about how to create and publish the Mobile App (available only for Android platform) for your training portal.  
 
-![image.png](../../media/image%2877%29.png)
+![Create and Publish your Mobile App](../../media/image%2877%29.png)
     
 For setting up the mobile app for your training portal, you will need to request for a mobile APP (APK) from Microsoft and setup your Google Playstore account.  You’ll also be required to share release manager access with Microsoft to enable automatic updates to the mobile app. 
 
 ## Steps to create Mobile App for the training portal
 
 1. Visit [**Microsoft Community Traininig Helpdesk**](https://go.microsoft.com/fwlink/?linkid=2104630).
-![image.png](../../media/image%2876%29.png)
+![Steps to create Mobile App for the training portal](../../media/image%2876%29.png)
 
 2. Click on **Sign in** on the top-left corner of the homepage. Use your Azure AD or Social accounts to register and sign in.
 
@@ -41,7 +41,7 @@ For setting up the mobile app for your training portal, you will need to request
 5. Create a zip file with the following assets and attach it to the form. 
     - App icon with the following dimensions (in pixels): 24x24, 36x36, 48x48, 72x72, 96x96, 144x144. The icon on the phone screen used to launch the app is the app icon. **App icon must have transparent background**.
     - Splash screen logo with the following dimensions (in pixels): 150x150, 225x225, 300x300, 450x450. The screen that appears when the app opens is the splash screen, shown below. 
-    ![image.png](../../media/image%2821%29.png)
+    ![Create a zip file](../../media/image%2821%29.png)
     - Here is sample zip file for reference.
 
 6. That's all! You’ll receive a link on your contact email address to download the mobile AAB & APK files from our support team (in 4-5 business days).
@@ -66,13 +66,13 @@ For setting up the mobile app for your training portal, you will need to request
 > The steps to publish AAB files are similar to the steps used in publishing an APK file.
 
 3. Once you have uploaded and published your AAB file, navigate to **Settings -> Users & Permissions**. 
-![image.png](../../media/image%2878%29.png)
+![Users & Permissions](../../media/image%2878%29.png)
 
 4. Click on “**Invite New User**”. 
-![image.png](../../media/image%2885%29.png)
+![Invite New User](../../media/image%2885%29.png)
 
 5. Enter the email address as **sangamdeployments@gmail.com**.
-![image.png](../../media/image%2886%29.png)
+![Email address](../../media/image%2886%29.png)
 
 6. Leave Access Expiry date as **Never**.
 

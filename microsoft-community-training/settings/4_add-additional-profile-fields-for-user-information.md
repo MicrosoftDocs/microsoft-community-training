@@ -33,7 +33,7 @@ The Microsoft Community Training management portal provides role-based administr
 
 2. Click on **Settings tab** from the left navigation panel and select  Additional Profile fields options from the list
 
-![image.png](../media/image%28380%29.png)
+![Settings tab](../media/image%28380%29.png)
 
 3. Select the type of profile field to add. Profile fields can be of three types:
    1. **Text field** - Use this type of field to capture information which are unique to every learners such as Email address, phone number,  employee/student ID, etc.  
@@ -48,7 +48,7 @@ The Microsoft Community Training management portal provides role-based administr
    1. **Mandatory**: Learners are compulsorily required to fill in mandatory fields after logging in.
    2. **Hidden**: Learners will not be able to view this field, such fields can be used by administrators for internal management.
    3. **Read-only**: Learners will be able to view the profile field but not edit it. 
-   ![image.png](../media/image%28327%29.png)
+   ![Read-only](../media/image%28327%29.png)
    > [!NOTE]
    > Any change in a new or existing profile field will be applicable to new and existing leaners on the platform.
  
@@ -66,7 +66,7 @@ You can include a link to privacy terms that will be shown to users on the porta
 
 3. Enable the **Show Privacy Terms** toggle button and add a link to your organizations privacy terms and conditions. An example of Microsoft Corporation’s privacy terms is [**here**](https://privacy.microsoft.com/privacystatement).
 
-  ![image.png](../media/image%28381%29.png)
+  ![Show Privacy Terms](../media/image%28381%29.png)
 
 4. Once you have made the changes, click on **Publish**. You’ll be asked to confirm by typing Publish again.
 
@@ -74,4 +74,4 @@ You can include a link to privacy terms that will be shown to users on the porta
   > Ensure you click on Publish. Otherwise, the changes you made will be lost.
 
 5. The privacy terms along with the profile fields will be accessible by the learner by clicking on the User Image on top right corner and selecting **My Profile** 
-  ![image.png](../media/image%28271%29.png)
+  ![My Profile](../media/image%28271%29.png)

@@ -1,6 +1,9 @@
 ---
 title: Platform Extensibility & Integration
 original-url: https://docs.microsoftcommunitytraining.com/docs/custom-integration
+author: nikotha
+ms.author: nikotha
+description: Microsoft Community Training do not inbuilt support for live training sessions.
 ---
 
 # Platform Extensibility & Integration
@@ -12,7 +15,7 @@ Microsoft Community Training do not inbuilt support for live training sessions. 
 
 Post session, to mark the completion, you can give learners quizzes which they can attempt in order to validate their training progress and achieve certificate. 
 
-![image.png](../media/image%28323%29.png)
+![Achieve certificate](../media/image%28323%29.png)
 
 Also, you can replace the live training link with the actual recording of the training session on the platform for people to view and consume the content later.
 
@@ -38,7 +41,7 @@ Microsoft Community Training doesn't come with any out of box integrations with 
 Yes, Customers can integrate Microsoft Community Training platform to their existing mobile application.  
 For example, you can add a 'Training' button on the home screen and clicking on the button will launch the Microsoft Community Training platform inside the existing app as a web view.
 
-Alternatively, you can also use [**REST APIs**](../infrastructure-management/install-your-platform-instance/6_apis) to create your own learning experience within your existing app/service. 
+Alternatively, you can also use [**REST APIs**](../infrastructure-management/install-your-platform-instance/6_apis.md) to create your own learning experience within your existing app/service. 
 
 Please  contact us [**via Helpdesk**](https://go.microsoft.com/fwlink/?linkid=2104630) to get help on the integration.
 
@@ -75,7 +78,7 @@ For more details, reach out to us [**via helpdesk**](https://go.microsoft.com/fw
 ### Are there any Rest APIs available for integration with existing systems or applications?
 Microsoft Community Training platform provides REST APIs to help organization integrate the platform with the existing system and consume training via custom endpoints such as your own mobile app or website. 
 
-For more information, [**refer here**](../infrastructure-management/install-your-platform-instance/6_apis).
+For more information, [**refer here**](../infrastructure-management/install-your-platform-instance/6_apis.md).
 
 ### How can I sync / import users data from my existing system to Microsoft Community Training?	
 Contact us via **[Helpdesk](https://go.microsoft.com/fwlink/?linkid=2104630)** and leave your requirements in the ticket description. Our support team will reach out to you in 2-3 business days and help you with your syncing/importing users data from your existing system to your portal.

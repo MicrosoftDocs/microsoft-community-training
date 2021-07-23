@@ -17,7 +17,7 @@ Features:CertificatesEarnedMetricsEnabled
 ```
 
 The portal allows you to customize the **Cerificate received** metric of the learner dashboard available in the learner's view. You can enable/ disable the metric that shows the total certificates received by the learner.
-![image.png](../media/image%28418%29.png)
+![Total certificates received by the learner](../media/image%28418%29.png)
 
 By default, this metric is kept enabled with value as **True**.
 
@@ -29,7 +29,7 @@ Features:CourseCompletionsTodayMetricsEnabled
 ```
 
 The portal allows you to customize the **Course completed today** metric of the learner dashboard available in the learner's view. You can enable/ disable the metric that shows the total number of courses the learner completed on that day (as per UTC time zone). 
-![image.png](../media/image%28419%29.png)
+![Course completed today](../media/image%28419%29.png)
 
 By default, this metric is kept disabled with value as **False**.
 
@@ -109,7 +109,7 @@ The portal allows you to embed the Microsoft Community Training platform in anot
 
 By default, this feature is disabled with value as **False**.
 
-![image.png](../media/image%28432%29.png)
+![False value](../media/image%28432%29.png)
 
 ## Allow platform embedding
 
@@ -133,7 +133,7 @@ The portal allows external website's content to play inside Microsoft Community 
 
 By deault, it remains empty. You can add domain names into the **value** field to allow embedding (For Example: dailymotion.com).
 
-![image.png](../media/image%28433%29.png)
+![Allow embedding](../media/image%28433%29.png)
 
 ## Steps to set the Configurations on the Platform
 

@@ -58,7 +58,7 @@ If you are setting up the **Password reset flow** on an existing deployment with
 3. Open **App Service** and add the following configurations both with value as **B2C_1_pwd_reset**, 
     a. AzureADB2CPasswordResetPolicy 
     b. idp:AzureADB2CPasswordResetPolicy
-![image.png](../../media/image%28355%29.png)
+![App Service](../../media/image%28355%29.png)
 
 #### Step 3 - Create Azure AD B2C application
 
@@ -81,7 +81,7 @@ Here are the steps an create on Azure AD B2C tenant and link the same with your 
      3.  "https://*name*-staging.azurewebsites.net/signin-b2c-pwd"  
     where "name" corresponds to your website name. 
    
-  ![image.png](../../media/image%28113%29.png)
+  ![Password reset flow](../../media/image%28113%29.png)
 
 2. Copy the Application ID value to be required later for **Client ID**.
 
@@ -109,7 +109,7 @@ You can configure local account for your training portal by following the instru
 2.	Under Policies select User Flow and click on the required User Flow from the populated list.
 3.	Under Settings, select Identity Providers and check whether the configuration matches exactly as below.
 
-![image.png](../../media/image%28360%29.png)
+![Configure your local account](../../media/image%28360%29.png)
 
 4.	In the same window, select Application Claims and check whether the configuration matches exactly as below.
 

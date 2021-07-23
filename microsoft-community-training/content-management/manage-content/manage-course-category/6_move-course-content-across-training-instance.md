@@ -1,11 +1,14 @@
 ---
 title: Move Course content across training instance
 original-url: https://docs.microsoftcommunitytraining.com/docs/move-course-content-across-training-instance
+author: nikotha
+ms.author: nikotha
+description: If you are managing multiple instances of Microsoft Community Training platform each catering to different target audiences but with overlapping course content -  there is an easy way for administrator to move content across instances in few simple clicks.
 ---
 
 # Move Course content across training instance
 
-If you are managing multiple instances of Microsoft Community Training platform each catering to different target audiences but with overlapping course content -  there is an easy way for administrator to move content across instances in few simple clicks.  
+If you are managing multiple instances of Microsoft Community Training platform each catering to different target audiences but with overlapping course content -  there is an easy way for administrator to move content across instances in few simple clicks.
 
 Microsoft Community Training allows you to download single or multiple courses within a category from one platform instance in a ready to use zip file that can be uploaded on another instance.
 
@@ -16,13 +19,13 @@ In this article, you will learn more about how to export course content from one
 
 2. Under **Courses** tab, select the Category or Course that you want to download.
 
-![image.png](../../../media/image%28219%29.png)
+![Under courses tab](../../../media/image%28219%29.png)
 
 3. Click or tap on the **(...) More** option and choose **Download category/course content** from the pop-up menu.
 
 4. On the file explorer, rename the zip file and click on the Save button to start the download progress. Depending upon the size of the content and internet speed, download time will wary.
 
-![image.png](../../../media/image%28220%29.png)
+![Save](../../../media/image%28220%29.png)
 
 > [!WARNING]
 > Best Practices
@@ -33,18 +36,18 @@ In this article, you will learn more about how to export course content from one
 > [!WARNING]
 > Please do not edit the downloaded file to inadvertently corrupt the course content. Here is sample format of the zip file:
 >
-> ![image.png](../../../media/image%28221%29.png)
+> ![Sample zip](../../../media/image%28221%29.png)
 ## Step 2 - Import the course content to another training portal instance 
 
 1. On the Microsoft Community Training portal instance where you want to upload the course content, after login [**switch to administrator view**](https://microsoftindia.document360.io/docs/configure-platform#step-2--switch-to-administrator-view-of-the-portal).
 
-2. Under Courses tab, [**create a new category**](../../create-content/create-course-category/2_create-a-category) or select an existing category where you want to upload the content
+2. Under Courses tab, [**create a new category**](../../create-content/create-course-category/2_create-a-category.md) or select an existing category where you want to upload the content
 
 3. Click or tap on the **(...) More** option and choose **Bulk Upload courses** from the pop-up menu.
 
-![image.png](../../../media/image%28222%29.png)
+![Bulk Upload courses](../../../media/image%28222%29.png)
 
-4. Next, choose the previously downloaded zip file as part of the bulk upload course workflow. See detailed steps [**here**](../../create-content/create-course-category/3_create-a-new-course#option-2--create-multiple-courses-in-a-category).
+4. Next, choose the previously downloaded zip file as part of the bulk upload course workflow. See detailed steps [**here**](../../create-content/create-course-category/3_create-a-new-course.md#option-2--create-multiple-courses-in-a-category).
 
 > [!IMPORTANT]
 > For step 4, skip the prerequisite part and directly jump to the actual steps of bulk uploading courses to the platform.

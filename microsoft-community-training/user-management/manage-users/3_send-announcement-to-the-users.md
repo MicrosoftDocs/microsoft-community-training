@@ -37,7 +37,7 @@ The Microsoft Community Training management portal provides role-based administr
     - **Send announcement to all users in the group** - To send announcement to everyone in the group, just click on the **Send announcent** button in the group details page
     - **Send announcement to selected users in the group** – To send announcement to specific users in the group, select the list of users to whom you want to send the announcements and click on **Send announcement** as shown below.
 
-    ![image.png](../../media/image%2862%29.png)
+    ![Send announcement](../../media/image%2862%29.png)
 
 4. Type the body of the message under **Message** section, which you want to send.
 

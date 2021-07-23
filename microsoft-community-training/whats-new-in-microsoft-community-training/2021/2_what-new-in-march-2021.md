@@ -25,7 +25,7 @@ Based on these priorities, the learner would be able to focus first on critical 
 
 ## View your holistic progress from new Learner's Dashboard*
 
-![image\(415\)](../../media/image%28415%29.png)
+![View your holistic progress from new Learner's Dashboard](../../media/image%28415%29.png)
 
 The learners on the platform would now be able to gauge their learning progress by [viewing the personalized dashboard](../../learner-experience/2_web-app#step-5-view-progress) available on the platform. Dasboard will have a birds-eye view of the total courses completed, total certificates received etc.
 

@@ -1,6 +1,9 @@
 ---
 title: Create a new course
 original-url: https://docs.microsoftcommunitytraining.com/docs/create-a-new-course
+author: nikotha
+ms.author: nikotha
+description: A Course is a collection of lessons and assessments.
 ---
 
 # Create a new course
@@ -32,7 +35,7 @@ In this topic, you will learn  simple steps to create a single course in the Mic
 1.	Click  on ![Plus icon](../../../media/Plus%20icon.png) or  **More (...)** icon on the category list pane to create course under a category.
 ![New course drop down menu\(1\)](../../../media/New%20course%20drop%20down%20menu%281%29.png)
 2.	Click or tap **New Course**. Skip this step if you choose ![Plus icon](../../../media/Plus%20icon.png) option in step1.
-![image.png](../../../media/image%28253%29.png)
+![Choose Plus icon](../../../media/image%28253%29.png)
 
 3.	Enter the **Course Name**. The course name is the course title that learners would see on the web portal and mobile app.  For example: *AI for Agriculture.*
 
@@ -63,7 +66,7 @@ For example, trainers can pre-assess a learner's existing knowledge of the topic
 
 9. Click or tap **Create** button to create the course.
 
-**Next>** Once a course is created, the administrator can start [**uploading the content for the course**](../create-course-category/4_upload-content-to-a-course)
+**Next>** Once a course is created, the administrator can start [**uploading the content for the course**](../create-course-category/4_upload-content-to-a-course.md)
 
 > [!WARNING]
 > Best Practices
@@ -94,7 +97,7 @@ Before you start doing the bulk upload of courses under a category, you need to 
 6.	Once the ZIP file is created, your content is ready for bulk upload. You can rename the ZIP file if required. 
 
 > [!IMPORTANT]
-> Course Details (like thumbnail, description, enrollment type, etc.), Practice quizzes and exams cannot be added to the courses via bulk upload functionality unless [**you are exporting courses from one instance to another**](../../manage-content/manage-course-category/6_move-course-content-across-training-instance). The admins have to add them manually later.
+> Course Details (like thumbnail, description, enrollment type, etc.), Practice quizzes and exams cannot be added to the courses via bulk upload functionality unless [**you are exporting courses from one instance to another**](../../manage-content/manage-course-category/6_move-course-content-across-training-instance.md). The admins have to add them manually later.
 ### Steps for bulk upload courses to the portal
 
 1.	Click or tap **More (...)** icon on the category list pane to bulk upload the courses under a category.
@@ -139,7 +142,7 @@ Before you start doing the bulk upload of courses under a category, you need to 
 **Next>** Once the course is uploaded, you can [**add assessments**](https://microsoftindia.document360.io/docs/create-practice-course-and-exam)  or [**publish the course**](https://microsoftindia.document360.io/docs/publishing-course) for learners to consume the content via the web portal or mobile application.
 
 > [!TIP]
-> When performing bulk upload course operations,  [**scale up your platorm configuration**](../../infrastructure-management/configure-your-platform-infrastructure/4_scale-up-instance-configuration) to reduce the upload and processing time for the content.)
+> When performing bulk upload course operations,  [**scale up your platorm configuration**](../../infrastructure-management/configure-your-platform-infrastructure/4_scale-up-instance-configuration.md) to reduce the upload and processing time for the content.)
 
 <!---
 Alternatively, you can check the step by step video tutorial for bulk upload content:

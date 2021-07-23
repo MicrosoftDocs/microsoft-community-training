@@ -71,7 +71,7 @@ Before you begin, please create a group using the steps mentioned [**in this art
 
 1. On the Microsoft Community Training portal, after login [**switch to administrator view**](../../get-started/4_step-by-step-configuration-guide#step-2--switch-to-administrator-view-of-the-portal) and select a specific group under Users tab
 
-    ![image.png](../../media/image%2856%29.png)
+    ![Steps to add learners via Group](../../media/image%2856%29.png)
 
 2. Click or tap **Add user** on the group details page to add a user to the group
 

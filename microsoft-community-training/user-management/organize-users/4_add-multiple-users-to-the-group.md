@@ -48,7 +48,7 @@ Before you start doing the bulk upload of users for a specific group, you need t
     - Phone Number – Type phone number of the user. For e.g. 9876XXXXXX
     - First Name – Type First name of the user
     - Last Name – Type last name of the user
-    ![image.png](../../media/image%2857%29.png)
+    ![user details](../../media/image%2857%29.png)
 
 > [!NOTE]
 > In case portal is setup with **Social Account** or **Azure Active Directory** as login identity then you will need to enter email address in the above step.
@@ -82,19 +82,19 @@ Before you start doing the bulk upload of users for a specific group, you need t
 
 4. In case you find any issues with the file, edit and correct the structure as described in the previous steps. Given below is a screenshot of how a correct CSV file will look in Notepad
 
-    ![image.png](../../media/image%2864%29.png)
+    ![How a correct CSV](../../media/image%2864%29.png)
 
 ## Steps to bulk upload users to specific group
 
 1. From the group details page, select **Bulk Upload Users** from **Add User** drop-down menu.
 
-    ![image.png](../../media/image%2858%29.png)
+    ![Steps to bulk upload users to specific group](../../media/image%2858%29.png)
 
 2. Alternatively, click or tap on the **More (...)** icon to the right of group name and select **Bulk upload users** options from the drop-down menu.
 
 3. Click or tap **Browse** and select the CSV file containing the users list from your local machine.
 
-    ![image.png](../../media/image%2859%29.png)
+    ![Users list from your local machine](../../media/image%2859%29.png)
 
 > [!NOTE]
 > Before you begin this step, please ensure that user list is in correct format. See detailed steps on [**how to a create user list**](#prerequisite-for-using-bulk-upload-users-feature).

@@ -9,7 +9,7 @@ ms.author: nikotha
 
 Microsoft Community Training platform provides out of the box rich analytics for tracking progress in learning, course completion and engagement and performance of learners. These insights enable the administrators to monitor progress and improvise training programs. Analytics empower the organization to make improved decisions about their training program which is always supported by data and behavior of users, thus enabling smart program administration.
 
-![image.png](../media/image%28430%29.png)
+![smart program administration](../media/image%28430%29.png)
 
 ## Role-based admin access to analytics
 

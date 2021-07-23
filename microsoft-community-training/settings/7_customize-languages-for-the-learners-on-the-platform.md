@@ -29,7 +29,7 @@ The Microsoft Community Training management portal provides role-based administr
 
 2. Click on **Settings tab** from the left navigation panel and select **General** option from the list
 
-![image.png](../media/image%28383%29.png)
+![General from Settings tab](../media/image%28383%29.png)
 
 3. From the **Languages**, select the languages you want to enable on the platform 
 
@@ -38,7 +38,7 @@ The Microsoft Community Training management portal provides role-based administr
 
 4. Hover over the language, and click on '**Mark as Default**' to make either of the selected languages as the default language on the platform
 
-![image.png](../media/image%28287%29.png)
+![Mark as Default](../media/image%28287%29.png)
 
 5. Click on **Apply Changes** to publish your changes
 
@@ -46,6 +46,6 @@ The Microsoft Community Training management portal provides role-based administr
   > Ensure you click on Apply Changes. Otherwise, the changes you made will be lost.
 
 6. The selected languages will be available for the learners to select before Sign In. The "**Default**" language will be the first language in the list and the portal will be viewable to the learner first in that language 
-![image.png](../media/image%28275%29.png)
+![Default](../media/image%28275%29.png)
 
 7. If the language of your choice is not available on the platform follow the steps in [**this article**](../settings/8_request-a-new-language) to add new languages for your platform instance

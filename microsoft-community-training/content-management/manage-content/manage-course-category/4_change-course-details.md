@@ -1,6 +1,9 @@
 ---
 title: Change Course details
 original-url: https://docs.microsoftcommunitytraining.com/docs/change-course-details
+author: nikotha
+ms.author: nikotha
+description: Once the course is created on the portal, you can change the course details like name, description, enrollment type, certification and thumbnail or delete the course as per your requirements.
 ---
 
 # Change Course details
@@ -33,12 +36,12 @@ The Microsoft Community Training management portal provides role-based administr
 
 4.	Edit course name, course description and thumbnail for the course
 
-![image.png](../../../media/image%28254%29.png)
+![Edit course](../../../media/image%28254%29.png)
 
 > [!IMPORTANT]
 > Recommended size for the thumbnail image is 320 * 180 px.
 
-5.	Edit the **[Enable certificate](../../../settings/6_enable-course-level-certificate)** option if required. For an existing course, if you uncheck certificate option, learners who have previously completed the course will no longer see the certificate in the course outline.
+5.	Edit the **[Enable certificate](../../../settings/6_enable-course-level-certificate.md)** option if required. For an existing course, if you uncheck certificate option, learners who have previously completed the course will no longer see the certificate in the course outline.
 
 6. Edit the **Restrict lesson ordering** option if required. For an existing course, if you check the restrict lesson ordering option, it will only impact the lessons that are yet to be completed by a learner.
 

@@ -1,6 +1,9 @@
 ---
 title: Change Learning Path details
 original-url: https://docs.microsoftcommunitytraining.com/docs/change-learning-path-details
+author: nikotha
+ms.author: nikotha
+description: Editing the details or deleting a Learning Path can be done by selecting a Learning Path which you have created and folowing the steps given in this article.
 ---
 # Change Learning Path details
 
@@ -25,17 +28,17 @@ The Microsoft Community Training management portal provides role-based administr
 
 2. Select the **Content** tile on the left bar and click on **Learning Path** tab.
 
-![image.png](../../../media/image%28388%29.png)
+![Click Learning Path from Content](../../../media/image%28388%29.png)
 
 3. Under Learning Path tab, select the **Learning Path** in the list to which you want to edit.
 
 4. Click or tap on **More (…)** icon to the right of Learning Path name and select **Edit Learning Path** option
 
-![image.png](../../../media/image%28409%29.png)
+![Edit Learning Path](../../../media/image%28409%29.png)
 
 5. Enter the new **Learning Path Name**
 
-![image.png](../../../media/image%28410%29.png)
+![Learning Path Name](../../../media/image%28410%29.png)
 
 6. Enter the new **Learning Path Description**.
 
@@ -49,14 +52,14 @@ The Microsoft Community Training management portal provides role-based administr
 
 2. Select the **Content** tile on the left bar and click on **Learning Path** tab.
 
-![image.png](../../../media/image%28388%29.png)
+![Click Learning Path](../../../media/image%28388%29.png)
 
 3. Under **Learning Path** tab, select the Learning Path in the list to which you want to edit.
 
 4. Click or tap on **More (…)** icon to the right of Learning Path name and select **Delete** Learning Path option
 
-![image.png](../../../media/image%28411%29.png)
+![Delete Learning Path](../../../media/image%28411%29.png)
 
 5. Click on **Ok**.
 
-![image.png](../../../media/image%28412%29.png)
+![Click OK](../../../media/image%28412%29.png)

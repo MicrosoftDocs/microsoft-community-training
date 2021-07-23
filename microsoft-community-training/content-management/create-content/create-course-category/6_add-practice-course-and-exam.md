@@ -1,6 +1,9 @@
 ---
 title: Add practice quiz and exam for a course
 original-url: https://docs.microsoftcommunitytraining.com/docs/add-practice-course-and-exam
+author: nikotha
+ms.author: nikotha
+description: Microsoft Community Training platform allows trainers to add assessments as a way to evaluate learners on their knowledge and proficiency.
 ---
 
 # Add practice quiz and exam for a course
@@ -38,7 +41,7 @@ In this article, you will learn about how to add practice quiz to a course:
 2. Under Course tab, select the course under a category in the list to which you want to add a practice quiz. 
 
 3.	Click or tap on the **New Assesment** button and select the **Practice Quiz** option from the drop-down menu. 
-![image.png](../../../media/image%28245%29.png)
+![New Assesment](../../../media/image%28245%29.png)
 
 4.	Enter details for the **Question 1** on the portal as below:
     * Question Title – add your question in this field. Check [**sample questions**](#question-types-for-a-practice-quiz-or-exam) to know more about the types of questions you can create on the portal. 
@@ -68,13 +71,13 @@ In this article, you will learn about how to add an exam to a course:
 2. Under Course tab, select the course under a category in the list to which you want to add an Exam. 
 
 3.	Click or tap on the **New Quiz** button and select the **Exam** option from the drop-down menu.
-![image.png](../../../media/image%28246%29.png)
+![New Quiz & Exam](../../../media/image%28246%29.png)
 
 4. Enter details for the **Exams** on the portal as below:
     * Enter **Quiz Title**. The quiz title is the name for the exam displayed to the learners on the web portal and mobile application. For example: *Final Exam* 
     * Define the **passing percentage** and **number of attempts** a learner can take the exam based on the degree of difficulty.
     * Enable the **shuffle mode** for the exam questions if required. This will ensure that learners will always be offered a different version of the quiz so you can be sure that answers cannot be memorized for subsequent attempts or copied from others 
-![image.png](../../../media/image%28210%29.png)
+![Details for Exams](../../../media/image%28210%29.png)
 
 > [!NOTE]
 > All the questions in the exam carry equal weightage. And **Exam** is always the last segment of the course.
@@ -153,7 +156,7 @@ Before you start doing the bulk upload of questions for a practice quiz or exam,
 ![Import CSV icon](../../../media/Import%20CSV%20icon.png)
 
 2.	In the bulk upload panel, choose the Upload option and select the csv file containing the question list.  
-![image.png](../../../media/image%2850%29.png)
+![Upload option & select CSV](../../../media/image%2850%29.png)
 
 3.	Click or tap on the **Done** button to begin bulk upload questions operation.
 
@@ -174,7 +177,7 @@ Following are the question types that can be created on the portal,
 > [!NOTE]
 > The question and answer options support **rich text** to enable text formatting (bold, italics, underline, bullets, numbering etc.), images and external web links.
 ### Single Choice Question
-![image.png](../../../media/image%28225%29.png)
+![Single Choice Question](../../../media/image%28225%29.png)
 
 For this type of question, learners can choose a single answer among the available answer choices because there is only one correct answer. 
 
@@ -183,10 +186,10 @@ To create a single choice question,
 2. Select the correct answer by checking the radio button to the left of the answer option
 
 This question will appear like this for the learners -  
-![image.png](../../../media/image%28227%29.png)
+![Question sample](../../../media/image%28227%29.png)
 
 ### Multi Choice Question
-![image.png](../../../media/image%28235%29.png)
+![Multi Choice Question](../../../media/image%28235%29.png)
 
 For this type of question, learners can choose more than one answer among the available options because there is more than one correct answer. 
 
@@ -197,9 +200,9 @@ To create a multiple-choice question,
 
 This question will appear like this for the learners -
 
-![image.png](../../../media/image%28230%29.png)
+![Multi Choice Question Sample](../../../media/image%28230%29.png)
 ### True/False Question  
-![image.png](../../../media/image%28234%29.png)
+![True/False Question](../../../media/image%28234%29.png)
 
 For this type of question, learners can choose only one amongst the two available options of true and false. 
 
@@ -210,10 +213,10 @@ To create a True/False question,
 
 The question will appear like this for the learners –
 
-![image.png](../../../media/image%28232%29.png)
+![True/False Question sample](../../../media/image%28232%29.png)
 
 ### Fill in the Blank Question 
-![image.png](../../../media/image%28233%29.png)
+![Fill in the Blank Question](../../../media/image%28233%29.png)
 
 For this type of question, learners can choose only one answer among the available options which fills the blank in the question to complete the phrase. 
 
@@ -224,10 +227,10 @@ To create a Fill in the Blank question,
 
 The question will appear like this for the learners –
 
-![image.png](../../../media/image%28236%29.png)
+![Fill in the Blank Question sample](../../../media/image%28236%29.png)
 
 ### Chronological Question 
-![image.png](../../../media/image%28237%29.png)
+![Chronological Question](../../../media/image%28237%29.png)
 
 For this type of question, learners need to decide on the correct chronological order for the objects in the question.
 
@@ -238,10 +241,10 @@ To create a chronological question,
 
 The question will appear like this for the learners -
 
-![image.png](../../../media/image%28238%29.png)
+![Chronological Question sample](../../../media/image%28238%29.png)
 
 ### Numerical Question   
-![image.png](../../../media/image%28239%29.png)
+![Numerical Question](../../../media/image%28239%29.png)
 
 For this type of question, learners can answer to the nearest possible numerical answer option based on their mathematical computation. 
 
@@ -252,10 +255,10 @@ To create a numerical question,
 
 The question will appear like this for the learners –
 
-![image.png](../../../media/image%28240%29.png)
+![Numerical Question sample](../../../media/image%28240%29.png)
 
 ### Association Question
-![image.png](../../../media/image%28241%29.png)
+![Association Question](../../../media/image%28241%29.png)
 
 For this type of question, learners can define associations between the elements of two lists.
 
@@ -266,4 +269,4 @@ To create an association or matching question,
 
 The question will appear like this for the learners –
 
-![image.png](../../../media/image%28243%29.png)
+![Association Question sample](../../../media/image%28243%29.png)

@@ -31,7 +31,7 @@ The support for Organizations can be enabled on the platform by [enabling the ap
 
 1. On the  Microsoft Community Training portal, after login [**switch to administrator view**](../get-started/4_step-by-step-configuration-guide#step-2--switch-to-administrator-view-of-the-portal).
 
-    ![image.png](../media/image%28421%29.png)
+    ![Create a New Organization](../media/image%28421%29.png)
 
 2. Select **Organization Administrators** option under **Users tab** on the top-left of the page.
 
@@ -58,7 +58,7 @@ The support for Organizations can be enabled on the platform by [enabling the ap
 
 1. On the  Microsoft Community Training portal, after login [**switch to administrator view**](../get-started/4_step-by-step-configuration-guide#step-2--switch-to-administrator-view-of-the-portal).
 
-    ![image.png](../media/image%28421%29.png)
+    ![Edit an Existing Organization](../media/image%28421%29.png)
 
 2. Select **Organization Administrators** option under Users tab on the top-left of the page.
 
@@ -92,7 +92,7 @@ Click on the **Delete** icon from the Manage Organizations panel to Delete an Or
 
 1. On the  Microsoft Community Training portal, after login [**switch to administrator view**](../get-started/4_step-by-step-configuration-guide#step-2--switch-to-administrator-view-of-the-portal).
 
-    ![image.png](../media/image%28421%29.png)
+    ![Create a New Organization Administrator](../media/image%28421%29.png)
 
 2. Select **Organization Administrators** option under Users tab on the top-left of the page.
 

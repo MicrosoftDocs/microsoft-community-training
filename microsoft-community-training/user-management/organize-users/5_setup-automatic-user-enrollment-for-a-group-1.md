@@ -20,7 +20,7 @@ In this article, you will learn more about how to setup rule for a group to  aut
 
 2. On the group details page, Click or tap on the **Add User** button and select **Add Rule** option from the drop-down menu.
 
-    ![image.png](../../media/image%2860%29.png)
+    ![Group details page](../../media/image%2860%29.png)
 
 3. From automatically add users pop-up, select **If** custom field and choose the [**additional profile fields**](../../settings/4_add-additional-profile-fields-for-user-information) from the drop-down to create the rule.
 
@@ -37,7 +37,7 @@ In this article, you will learn more about how to setup rule for a group to  aut
 
 5. Click or tap on the **Done** button to save the rule and users who matches the criteria will get added to the group.
 
-6. Groups which have rule applied will be prefixed with both sign ![image.png](../../media/image%2861%29.png)
+6. Groups which have rule applied will be prefixed with both sign ![Groups which have rule](../../media/image%2861%29.png)
 
 > [!IMPORTANT]
 > Once user gets added to group and later changes the profile information, he or she won't be removed previously added group. Administrator will have to remove such users from the group if required.

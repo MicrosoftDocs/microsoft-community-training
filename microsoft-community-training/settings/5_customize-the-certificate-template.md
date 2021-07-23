@@ -7,7 +7,7 @@ original-url: https://docs.microsoftcommunitytraining.com/docs/customize-the-cer
 
 By default, Microsoft Community Training platform uses a basic template to issue certificates to learners who have completed a course or passed an exam as shown below. Organization can customize the certificate template and put their own branding as required. You can create and assign multiple certificates appropriate to the course.
 
-![image.png](../media/image%28324%29.png)
+![Multiple certificates](../media/image%28324%29.png)
 
 In this article, you will learn more about how to customize the certificate template on the platform:
 

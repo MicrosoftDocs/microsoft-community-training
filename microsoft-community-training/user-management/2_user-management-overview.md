@@ -9,7 +9,7 @@ Microsoft Community Training Management portal allows administrators an easy way
 
 All the user management functionalities are stacked together in a single panel **under the Users Tab** – a one-stop-shop for administrators to manage users and course enrollments on the management portal. From the users tab, administrators can [add users](./add-users/2_add-users-to-the-portal-1) and assign administrative roles, [create groups](./organize-users/2_create-a-new-group), assign courses, track progress and much more.
 
-![image.png](../media/image%28421%29.png)
+![User Management - Overview](../media/image%28421%29.png)
 
 In this article, you will learn how to use the management portal capabilities to create and manage your users and facilitate effective training administration.
 

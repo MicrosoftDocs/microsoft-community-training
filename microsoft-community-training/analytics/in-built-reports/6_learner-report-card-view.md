@@ -37,7 +37,7 @@ This section of the Learner Report Card View enables admin to get a quick summar
 
 3. **Average Quiz Score**: Show the average quiz score across all the courses where learners has attempted the Practice Quiz and Exam
 
-    ![image_46](../../media/image%2846%29.png)
+    ![Average Quiz Score](../../media/image%2846%29.png)
 
 ## Detailed progress and performance on the Enrolled courses
 
@@ -56,6 +56,6 @@ This section of the Learner Report Card View provides details on the learning pr
 6. **Enrolled On** – Date on which learner was enrolled for the course
 
 7. **Priority** - Priority of the course for the learner: Required, Recommended, Optional or Default. If the learner has been assigned the same course from multiple groups, highest priority is shown here.
-    ![image_47](../../media/image%2847%29.png)
+    ![Priority of the course](../../media/image%2847%29.png)
 
 > [!TIP] You can **download the report card** in a CSV format for further analysis.

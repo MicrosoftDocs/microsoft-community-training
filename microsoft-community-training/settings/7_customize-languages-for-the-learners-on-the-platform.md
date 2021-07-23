@@ -1,6 +1,11 @@
 ---
 title: Customize languages on the platform
 original-url: https://docs.microsoftcommunitytraining.com/docs/customize-languages-for-the-learners-on-the-platform
+author: nikotha
+ms.author: nikotha
+description: By default, the Microsoft Community Training platform is available in English language to the learners.
+ms.prod: azure
+ms.service: azure
 ---
 
 # Customize languages on the platform

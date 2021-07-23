@@ -4,6 +4,8 @@ original-url: https://docs.microsoftcommunitytraining.com/docs/manage-users-for-
 author: nikotha
 ms.author: nikotha
 description: On the Microsoft Community Training management portal, you can view, add and remove users for a particular course directly from the course module.
+ms.prod: azure
+ms.service: azure
 ---
 
 # Manage Users for a Course

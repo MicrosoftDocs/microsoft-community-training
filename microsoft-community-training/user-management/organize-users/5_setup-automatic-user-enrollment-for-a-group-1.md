@@ -1,6 +1,11 @@
 ---
 title: Setup automatic user enrollment for a group
 original-url: https://docs.microsoftcommunitytraining.com/docs/setup-automatic-user-enrollment-for-a-group-1
+author: nikotha
+ms.author: nikotha
+description: Group administrator can setup rule for a group to automatically add users to the specific group whenever the user's profile information matches the criteria of the rules.
+ms.prod: azure
+ms.service: azure
 ---
 
 # Setup automatic user enrollment for a group

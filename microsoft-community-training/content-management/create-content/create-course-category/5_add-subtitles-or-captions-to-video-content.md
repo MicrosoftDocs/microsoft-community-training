@@ -4,6 +4,8 @@ original-url: https://docs.microsoftcommunitytraining.com/docs/add-subtitles-or-
 author: nikotha
 ms.author: nikotha
 description: On the Microsoft Community Training platform, you can add subtitles or captions to the video lessons  for a course to make your course content more accessible and create an inclusive learning environments.
+ms.prod: azure
+ms.service: azure
 ---
 
 # Add subtitles or captions to video content

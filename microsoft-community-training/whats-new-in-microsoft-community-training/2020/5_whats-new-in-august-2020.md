@@ -1,6 +1,11 @@
 ---
 title: What's new in August 2020
 original-url: https://docs.microsoftcommunitytraining.com/docs/whats-new-in-august-2020
+author: nikotha
+ms.author: nikotha
+description: The ongoing COVID-19 pandemic though has disrupted the world in a way never imagined before, has only increased the need for community skilling.
+ms.prod: azure
+ms.service: azure
 ---
 
 # What's new in August 2020

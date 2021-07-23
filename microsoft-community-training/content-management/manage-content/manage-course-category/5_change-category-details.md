@@ -4,6 +4,8 @@ original-url: https://docs.microsoftcommunitytraining.com/docs/change-category-d
 author: nikotha
 ms.author: nikotha
 description: Microsoft Community Training platform allows you to edit and delete categories created on the portal.
+ms.prod: azure
+ms.service: azure
 ---
 
 # Change Category details

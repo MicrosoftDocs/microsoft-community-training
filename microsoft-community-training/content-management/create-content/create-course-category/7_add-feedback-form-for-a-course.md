@@ -4,6 +4,8 @@ original-url: https://docs.microsoftcommunitytraining.com/docs/add-feedback-form
 author: nikotha
 ms.author: nikotha
 description: Add feedback form for a course
+ms.prod: azure
+ms.service: azure
 ---
 
 

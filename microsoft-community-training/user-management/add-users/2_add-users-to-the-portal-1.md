@@ -1,6 +1,11 @@
 ---
 title: Add learners to the platform
 original-url: https://docs.microsoftcommunitytraining.com/docs/add-users-to-the-portal-1
+author: nikotha
+ms.author: nikotha
+description: Microsoft Community Training management portal provides two ways to add learners to the portal.
+ms.prod: azure
+ms.service: azure
 ---
 
 # Add learners to the platform

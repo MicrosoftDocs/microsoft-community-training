@@ -4,6 +4,8 @@ original-url: https://docs.microsoftcommunitytraining.com/docs/publish-a-learnin
 author: nikotha
 ms.author: nikotha
 description: Any new Learning Path created on the Microsoft Community Training management portal will not be accessible to the leaners unless and until it is published.
+ms.prod: azure
+ms.service: azure
 ---
 
 # Publish a Learning Path on the Portal

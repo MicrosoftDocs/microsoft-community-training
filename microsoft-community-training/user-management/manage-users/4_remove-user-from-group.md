@@ -1,6 +1,11 @@
 ---
 title: Delete a user from the group
 original-url: https://docs.microsoftcommunitytraining.com/docs/remove-user-from-group
+author: nikotha
+ms.author: nikotha
+description: Deleting or removing  user from group will only remove user from the selected group.
+ms.prod: azure
+ms.service: azure
 ---
 
 # Delete a user from the group

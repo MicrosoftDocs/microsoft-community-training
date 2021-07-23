@@ -1,6 +1,11 @@
 ---
 title: Organization Management
 original-url: https://docs.microsoftcommunitytraining.com/docs/organization-management
+author: nikotha
+ms.author: nikotha
+description: Microsoft Community Training supports multiple organizations to be created on the training platform where content and users can be mutually exclusive to each other.
+ms.prod: azure
+ms.service: azure
 ---
 # Organization Management
 

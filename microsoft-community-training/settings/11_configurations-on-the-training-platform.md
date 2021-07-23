@@ -1,6 +1,11 @@
 ---
 title: Configurations on the Training Platform
 original-url: https://docs.microsoftcommunitytraining.com/docs/configurations-on-the-training-platform
+author: nikotha
+ms.author: nikotha
+description: You can customize the learner and administrator experience on the Microsoft Community Training platform to fit the needs of your specific training program.
+ms.prod: azure
+ms.service: azure
 ---
 
 # Configurations on the Training Platform

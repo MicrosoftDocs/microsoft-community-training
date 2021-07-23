@@ -1,6 +1,11 @@
 ---
 title: Customize profile information for the learners on the platform
 original-url: https://docs.microsoftcommunitytraining.com/docs/add-additional-profile-fields-for-user-information
+author: nikotha
+ms.author: nikotha
+description: By default, learners will be asked for their first name, last name and profile photo on sign up. As an organization, you can capture additional information at the time of login and display privacy terms and conditions for the learners.
+ms.prod: azure
+ms.service: azure
 ---
 
 # Customize profile information for the learners on the platform

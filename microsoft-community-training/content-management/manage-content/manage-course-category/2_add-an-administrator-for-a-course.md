@@ -4,6 +4,8 @@ original-url: https://docs.microsoftcommunitytraining.com/docs/add-an-administra
 author: nikotha
 ms.author: nikotha
 description: There are two types of content admin in the Microsoft Community Training  platform – Category administrator and Course administrator.
+ms.prod: azure
+ms.service: azure
 ---
 
 # Add an administrator for a course

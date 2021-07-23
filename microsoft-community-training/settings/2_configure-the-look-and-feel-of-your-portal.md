@@ -1,6 +1,11 @@
 ---
 title: Customize the look and feel of your portal
 original-url: https://docs.microsoftcommunitytraining.com/docs/configure-the-look-and-feel-of-your-portal
+author: nikotha
+ms.author: nikotha
+description: You can customize the look and feel of your learner experience of the Microsoft Community Training platform to suit your organization's branding needs.
+ms.prod: azure
+ms.service: azure
 ---
 
 # Customize the look and feel of your portal

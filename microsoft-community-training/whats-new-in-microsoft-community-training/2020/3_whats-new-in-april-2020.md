@@ -1,6 +1,11 @@
 ---
 title: What's new in April 2020
 original-url: https://docs.microsoftcommunitytraining.com/docs/whats-new-in-april-2020
+author: nikotha
+ms.author: nikotha
+description: We’re excited to share the new product update of Microsoft Community Training with you! These updates will go live on your training platform instance by end of the week.
+ms.prod: azure
+ms.service: azure
 ---
 
 # What's new in April 2020

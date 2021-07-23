@@ -4,6 +4,8 @@ original-url: https://docs.microsoftcommunitytraining.com/docs/installation-over
 author: nikotha
 ms.author: nikotha
 description: Microsoft Community Training platform is available as a Managed Application on the Azure Marketplace.
+ms.prod: azure
+ms.service: azure
 ---
 
 # Installation Overview

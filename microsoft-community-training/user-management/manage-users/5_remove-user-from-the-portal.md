@@ -1,6 +1,11 @@
 ---
 title: Delete a user from the platform
 original-url: https://docs.microsoftcommunitytraining.com/docs/remove-user-from-the-portal
+author: nikotha
+ms.author: nikotha
+description: "In this topic, you will learn more about how to delete or remove an existing user from the platform."
+ms.prod: azure
+ms.service: azure
 ---
 
 # Delete a user from the platform

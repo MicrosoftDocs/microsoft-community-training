@@ -1,6 +1,11 @@
 ---
 title: Add administrators to the platform
 original-url: https://docs.microsoftcommunitytraining.com/docs/add-an-administrator-to-the-portal
+author: nikotha
+ms.author: nikotha
+description: "Microsoft Community Training management portal provides six types of administrative role to a user on the portal."
+ms.prod: azure
+ms.service: azure
 ---
 
 # Add administrators to the platform

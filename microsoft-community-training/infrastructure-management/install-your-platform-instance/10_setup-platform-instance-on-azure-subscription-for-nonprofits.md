@@ -4,6 +4,8 @@ original-url: https://docs.microsoftcommunitytraining.com/docs/setup-platform-in
 author: nikotha
 ms.author: nikotha
 description: If you are a non-profit organization, you can apply for Azure credit grant of $3500 per year which can be used to setup and run an instance of Microsoft Community Training platform for your organization.
+ms.prod: azure
+ms.service: azure
 ---
 
 # Setup platform instance on Azure subscription for Nonprofits

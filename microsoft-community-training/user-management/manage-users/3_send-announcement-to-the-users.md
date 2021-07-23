@@ -1,6 +1,11 @@
 ---
 title: Send announcement to the users
 original-url: https://docs.microsoftcommunitytraining.com/docs/send-announcement-to-the-users
+author: nikotha
+ms.author: nikotha
+description: Microsoft Community Training platform allows administrators to send customize messages, alerts or broadcast information to different group of users via the announcement feature.
+ms.prod: azure
+ms.service: azure
 ---
 
 # Send announcement to the users

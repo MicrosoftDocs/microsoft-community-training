@@ -4,6 +4,8 @@ original-url: https://docs.microsoftcommunitytraining.com/docs/group-view-report
 author: nikotha
 ms.author: nikotha
 description: Group admin are responsible to drive engagement and monitor course completion for learners on the ground.
+ms.prod: azure
+ms.service: azure
 ---
 
 # Group view

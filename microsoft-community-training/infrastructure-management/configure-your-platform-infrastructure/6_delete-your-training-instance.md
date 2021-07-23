@@ -4,6 +4,8 @@ original-url: https://docs.microsoftcommunitytraining.com/docs/delete-your-train
 author: nikotha
 ms.author: nikotha
 description: When you no longer need your training portal, you can delete it by deleting the resource group from the Azure portal.
+ms.prod: azure
+ms.service: azure
 ---
 
 # Delete your training platform instance

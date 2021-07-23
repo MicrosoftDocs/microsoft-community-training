@@ -4,6 +4,8 @@ original-url: https://docs.microsoftcommunitytraining.com/docs/learner-report-ca
 author: nikotha
 ms.author: nikotha
 description: Learner Report Card View provide administrators to monitor and track each individual learner’s progress and performance across all the enrolled courses.
+ms.prod: azure
+ms.service: azure
 ---
 
 # Learner Report Card View

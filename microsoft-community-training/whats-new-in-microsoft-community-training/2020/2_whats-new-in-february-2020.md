@@ -1,6 +1,11 @@
 ---
 title: What's new in February 2020
 original-url: https://docs.microsoftcommunitytraining.com/docs/whats-new-in-february-2020
+author: nikotha
+ms.author: nikotha
+description: "We’re excited to share the new product update of Microsoft Community Training (formerly Project Sangam) with you!"
+ms.prod: azure
+ms.service: azure
 ---
 
 # What's new in February 2020

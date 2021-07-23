@@ -4,6 +4,8 @@ original-url: https://docs.microsoftcommunitytraining.com/docs/category-view-rep
 author: nikotha
 ms.author: nikotha
 description: Similar to the overall summary view, category view provides admin a quick glance at the learner enrollments, learner engagement and course completion for a particular category.
+ms.prod: azure
+ms.service: azure
 ---
 
 # Category view

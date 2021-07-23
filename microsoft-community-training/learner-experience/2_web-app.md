@@ -1,6 +1,11 @@
 ---
 title: Learner Experience on the web portal
 original-url: https://docs.microsoftcommunitytraining.com/docs/web-app
+author: nikotha
+ms.author: nikotha
+description: This article explains how learners can access the training content using the web portal for the Microsoft Community Training platform instance setup for your organization.
+ms.prod: azure
+ms.service: azure
 ---
 
 # Learner Experience on the web portal

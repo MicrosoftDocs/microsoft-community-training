@@ -4,6 +4,8 @@ original-url: https://docs.microsoftcommunitytraining.com/docs/add-practice-cour
 author: nikotha
 ms.author: nikotha
 description: Microsoft Community Training platform allows trainers to add assessments as a way to evaluate learners on their knowledge and proficiency.
+ms.prod: azure
+ms.service: azure
 ---
 
 # Add practice quiz and exam for a course

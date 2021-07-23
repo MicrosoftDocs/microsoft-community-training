@@ -4,6 +4,8 @@ original-url: https://docs.microsoftcommunitytraining.com/docs/create-a-learning
 author: nikotha
 ms.author: nikotha
 description: A Learning Path is a defined sequence of courses on the training platform to administer guided training paths to the learners.
+ms.prod: azure
+ms.service: azure
 ---
 
 # Create a Learning path

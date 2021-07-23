@@ -141,7 +141,7 @@ By deault, it remains empty. You can add domain names into the **value** field t
 
 ## Steps to set the Configurations on the Platform
 
-1.	Login to [Azure portal](http://www.portal.azure.com/).
+1.	Login to [Azure portal](https://www.portal.azure.com/).
 2.	Go to App Services from the left-menu.
 
   ![Select App Service.png](../media/Select%20App%20Service%281%29.png)

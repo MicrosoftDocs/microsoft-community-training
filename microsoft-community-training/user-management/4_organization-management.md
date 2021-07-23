@@ -122,7 +122,7 @@ Click on the **Delete** icon from the Manage Organizations panel to Delete an Or
 
 ## Edit an Existing Organization Administrator
 
-1. On the  Microsoft Community Training portal, after login [**switch to administrator view**](../get-started/4_step-by-step-configuration-guide.m#step-2--switch-to-administrator-view-of-the-portal).
+1. On the  Microsoft Community Training portal, after login [**switch to administrator view**](../get-started/4_step-by-step-configuration-guide.md#step-2--switch-to-administrator-view-of-the-portal).
 
 2. Select **Organization Administrators** option under Users tab on the top-left of the page.
 

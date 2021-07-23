@@ -33,7 +33,7 @@ The Microsoft Community Training management portal provides role-based administr
 
 ## Steps to create a new group
 
-1. On the Microsoft Community Training portal, after login [**swtich to administrator view**](../../get-started/4_step-by-step-configuration-guide.md#step-2-switch-to-administrator-view-of-the-portal) and select Users tab from the left navigation panel.
+1. On the Microsoft Community Training portal, after login [**swtich to administrator view**](../../get-started/4_step-by-step-configuration-guide.md#step-2--switch-to-administrator-view-of-the-portal) and select Users tab from the left navigation panel.
 
 2. To add a new group, click or tap **New Group** on the bottom-left of the page.
 

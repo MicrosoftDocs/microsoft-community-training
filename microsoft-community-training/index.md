@@ -1,11 +1,10 @@
-### YamlMime:Landing
-title: Microsoft Community Training documentation
-summary: Microsoft Community Training is an Azure solution that enables delivery of large-scale, far-spread training programs with high quality and efficiency.
-metadata:
-  ms.author: nikotha
-  ms.date: 23/7/2021
-  ms.service: azure
-  ms.topic: landing-page
+---
+title: Welcome to microsoft-community-training!
+author: nikotha
+ms.author: nikotha
+description: Welcome to microsoft-community-training!
+ms.prod: azure
+---
 
 # Welcome to Microsoft Community Training
 

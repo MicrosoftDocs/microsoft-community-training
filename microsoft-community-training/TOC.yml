@@ -117,7 +117,7 @@
       - name: Custom Reports
         items:
          - name: Power BI Integration
-           href: analytics/custom-reports/2_power-bi-integration.md
+           href: analytics/custom-reports/power-bi-integration.md
          - name: Database Schema
            href: analytics/custom-reports/3_database-schema.md
    - name: Settings

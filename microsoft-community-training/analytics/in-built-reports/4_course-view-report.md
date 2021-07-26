@@ -70,7 +70,7 @@ From the learner performance grid, you can:
 1. Click on the respective column headings to sort the rows by any column.
 2. Click **Download List** to download the data into an Excel sheet.
 3. Select a row to view detailed information about individual lesson progress and quiz performance for the course.  
-![Quizes](../../media/image%2854%29.png)  
+![Quizzes](../../media/image%2854%29.png)  
 ![Lessons](../../media/image%2855%29.png)
 
 ## Lesson grid

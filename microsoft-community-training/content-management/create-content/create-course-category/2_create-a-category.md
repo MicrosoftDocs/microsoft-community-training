@@ -1,6 +1,10 @@
 ---
 title: Create a category
 original-url: https://docs.microsoftcommunitytraining.com/docs/create-a-category
+author: nikotha
+ms.author: nikotha
+description: A category is a collection of courses on a specific topic. Categories help you organize your learning content for different learners.
+ms.prod: azure
 ---
 
 # Create a category
@@ -33,7 +37,7 @@ In this topic, you will learn the simple steps to **Create Category** in the pla
 
 4.	Enter **Category name**. For example: the category name is *AI for agriculture.*
 
-![image.png](../../../media/image%28385%29.png)
+![AI for agriculture](../../../media/image%28385%29.png)
 
 5.	Choose **Upload** option to open file picker and select an image file as **Category Thumbnail.**
 

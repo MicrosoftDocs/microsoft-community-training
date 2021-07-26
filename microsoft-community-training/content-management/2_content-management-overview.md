@@ -1,14 +1,19 @@
 ---
 title: Content Management - Overview
 original-url: https://docs.microsoftcommunitytraining.com/docs/content-management-overview
+author: nikotha
+ms.author: nikotha
+description: Microsoft Community Training platform allows you to create and manage  content, as well as  it quickly and easily.
+ms.prod: azure
 ---
+
 # Content Management - Overview
 
 Microsoft Community Training platform allows you to create and manage  content, as well as  it quickly and easily. Organizations can add rich multi-media content, quizzes and exams as content and create a structured learning experience for the learners. 
 
 All the management functionalities of courses are stacked together in a single panel under the **Content Tab**  – a one-stop-shop for administrators to manage content on the portal. From the content tab, administrators can create Categories, Courses and Learning paths, upload and manage course materials, configure course settings, and much more. 
 
-![image.png](../media/image%28427%29.png)
+![managing course and learning path](../media/image%28427%29.png)
 
 In this section, you will learn how to leverage the content management capabilities on the management portal to create and manage your online learning content. 
  
@@ -107,18 +112,18 @@ Content creation is one of the core activities of any online learning program. T
  Here are the detailed steps on [**how to publish a course**](https://microsoftindia.document360.io/docs/publishing-course) for the learners on the portal.
 
 ### Step 6 – Create a new Learning path
-Here are the detailed steps on [**how to create a new Learning path** ](../content-management/create-content/create-learning-path/2_create-a-learning-path) for the learners on the portal.
+Here are the detailed steps on [**how to create a new Learning path** ](../content-management/create-content/create-learning-path/2_create-a-learning-path.md) for the learners on the portal.
 
 #### Step 7 – Add courses to the Learning path
-Here are the detailed steps to [**add courses to the Learning path**](../content-management/create-content/create-learning-path/3_add-course-to-a-learning-path) for the learners on the portal.
+Here are the detailed steps to [**add courses to the Learning path**](../content-management/create-content/create-learning-path/3_add-course-to-a-learning-path.md) for the learners on the portal.
 
 ### Step 8 – Publish the Learning path  
-Here are the detailed steps on [**how to publish a Learning path**](../content-management/create-content/create-learning-path/4_publish-a-learning-path-on-the-portal).  
+Here are the detailed steps on [**how to publish a Learning path**](../content-management/create-content/create-learning-path/4_publish-a-learning-path-on-the-portal.md).  
 
 ## View content analytics to track and measure effectiveness
 
 Microsoft Community Training platform provides out of the box rich analytics for organizations to track overall learner’s enrollment and completion for different courses, measure learner’s performance and ensure quality of content in satisfactory and meets the success criteria set by the organization.
-The management portal has content and user related in-built reports at [**category level**](../analytics/in-built-reports/3_category-view-report)  to help administrators track and measure effectiveness of the learning content.
+The management portal has content and user related in-built reports at [**category level**](../analytics/in-built-reports/3_category-view-report.md) to help administrators track and measure effectiveness of the learning content.
 
 ![Track analytics](../media/Track%20analytics.png)
 

@@ -1,6 +1,10 @@
 ---
 title: Publish a course on the training portal
 original-url: https://docs.microsoftcommunitytraining.com/docs/publishing-course
+author: nikotha
+ms.author: nikotha
+description: Any new course created on the Microsoft Community Training management portal will not be accessible to the learners unless and until it is published.
+ms.prod: azure
 ---
 
 # Publish a course on the training portal
@@ -26,7 +30,7 @@ The Microsoft Community Training  management portal provides role-based administ
 
 We recommend administrators to go through the following checklist before publishing a course on the management portal:
 
-1.	Click or tap ![View](../../../media/View.png)  **View as Learner** icon on top right of the course details page to get a preview and experience how the learners woud see and consume the course content whenever they login.  
+1.	Click or tap ![click view](../../../media/View.png)  **View as Learner** icon on top right of the course details page to get a preview and experience how the learners woud see and consume the course content whenever they login.  
 
 2.	Rearrange the structure of the course and lesson sequence using simple drag and drop operation.
 ![move courses final](../../../media/move-courses-final.gif)

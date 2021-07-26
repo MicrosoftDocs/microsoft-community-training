@@ -1,6 +1,10 @@
 ---
 title: Azure Front Door Migration
 original-url: https://docs.microsoftcommunitytraining.com/docs/azure-front-door-migration
+author: nikotha
+ms.author: nikotha
+description: As your learners continue learning and improving, your training platform also continues to grow and become better.
+ms.prod: azure
 ---
 
 # Azure Front Door Migration
@@ -17,7 +21,7 @@ Starting January, 2021 your Microsoft Community Training instance will utilize t
  
 ## What changes for you? 
 > [!IMPORTANT]  
-> If you are a new customer deploying the Microsoft Community Training platform in January 2021, you can follow the instructions in the [deployment guide](../../infrastructure-management/install-your-platform-instance/3_installation-guide-detailed-steps). Your new instance will be deployed with all the benefits of Azure Front Door.
+> If you are a new customer deploying the Microsoft Community Training platform in January 2021, you can follow the instructions in the [deployment guide](../../infrastructure-management/install-your-platform-instance/3_installation-guide-detailed-steps.md). Your new instance will be deployed with all the benefits of Azure Front Door.
 
 
 If you are an existing customer of the Microsoft Community Training platform, following are the changes you will observe,  
@@ -37,13 +41,13 @@ Please follow the following steps to update mapping in your DNS provider and add
 
 **New MCT instance**: https://*websitename*.azurefd.net/
 
-1. [**Map the custom DNS name**](https://docs.microsoft.com/azure/frontdoor/front-door-custom-domain#create-a-cname-dns-record) to point to your new MCT instance, using a CNAME DNS record.
+1. [**Map the custom DNS name**](/azure/frontdoor/front-door-custom-domain#create-a-cname-dns-record) to point to your new MCT instance, using a CNAME DNS record.
 
-2. [**Associate the mapped custom domain**](https://docs.microsoft.com/azure/frontdoor/front-door-custom-domain#associate-the-custom-domain-with-your-front-door), with your new MCT instance's Front Door resource.
+2. [**Associate the mapped custom domain**](/azure/frontdoor/front-door-custom-domain#associate-the-custom-domain-with-your-front-door), with your new MCT instance's Front Door resource.
 
-3. [**Configure the SSL certificate**](https://docs.microsoft.com/azure/frontdoor/front-door-custom-domain-https) for your Microsoft Community Training instance.
+3. [**Configure the SSL certificate**](/azure/frontdoor/front-door-custom-domain-https) for your Microsoft Community Training instance.
 
-   Use an [**AFD managed certificate**](https://docs.microsoft.com/azure/frontdoor/front-door-custom-domain-https#option-1-default-use-a-certificate-managed-by-front-door) for seamless certificate management, including procurement and renewal.
+   Use an [**AFD managed certificate**](/azure/frontdoor/front-door-custom-domain-https#option-1-default-use-a-certificate-managed-by-front-door) for seamless certificate management, including procurement and renewal.
 
 4. Enable Web Application Firewall on your new domain.
 
@@ -55,17 +59,17 @@ Please follow the following steps to update mapping in your DNS provider and add
 
 6. Click on the Managed application instance.
 
-   ![image.png](../../media/image%2890%29.png)
+   ![Managed application instance](../../media/image%2890%29.png)
 
 7. Click on **Managed resource group** link.
 
-   ![image.png](../../media/image%2889%29.png)
+   ![Managed resource group](../../media/image%2889%29.png)
 
 8. Select the resource for your App Service.
 
 9. From the left-menu, under Settings, click on **Configuration**.
 
-   ![image.png](../../media/image%2894%29.png)
+   ![Configuration under Settings](../../media/image%2894%29.png)
 
 10. Update the setting **ContentEndpoint** with your custom domain name, followed by the path "/storage". *For example - `https://contosolearning.contoso.com/storage`*.
 

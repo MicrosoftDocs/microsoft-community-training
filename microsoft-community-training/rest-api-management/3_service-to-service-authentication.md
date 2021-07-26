@@ -1,6 +1,10 @@
 ---
 title: Service to Service Authentication
 original-url: https://docs.microsoftcommunitytraining.com/docs/service-to-service-authentication
+author: nikotha
+ms.author: nikotha
+description: Microsoft Community Training APIs support Service to Service (S2S) authentication to allow any external service to call the APIs without requiring a user to explicitly login to any MCT instance. 
+ms.prod: azure
 ---
 
 # Service to Service Authentication
@@ -13,7 +17,7 @@ Please follow the following steps to enable any external service to call Microso
 Follow the steps mentioned below to Register the Service app.
 Register the service app:
 1.	Sign in to the Azure portal.
-2.	If you have access to multiple tenants, use the **Directory + subscription filter** ![image.png](../media/image%28368%29.png) in the top menu to select the tenant in which you want to register an application.
+2.	If you have access to multiple tenants, use the **Directory + subscription filter** ![Directory, subscription filter](../media/image%28368%29.png) in the top menu to select the tenant in which you want to register an application.
 
     > [!NOTE]
     > The Service Application to be registered must be created in the same Azure tenant as that of concerned MCT instance.
@@ -81,25 +85,25 @@ The overview page of registered application looks like:
 ## Step 2: Register Client Application(s)
 For each of the applications which would call the Microsoft Community Training API’s, follow the steps under **Approach 1** or **Approach 2** below based on the type of application which would call the APIs. 
 
-### Approach 1:  If the API calling service is hosted in Azure ([List of the services](https://docs.microsoft.com/azure/active-directory/managed-identities-azure-resources/services-support-managed-identities))
+### Approach 1:  If the API calling service is hosted in Azure ([List of the services](/azure/active-directory/managed-identities-azure-resources/services-support-managed-identities))
 
 Steps mentioned below are for Azure function, similar steps can be followed for other services. 
-1. Follow the steps mentioned in [this document](https://docs.microsoft.com/azure/azure-functions/functions-create-function-app-portal) to Create a new Azure Function App.  
+1. Follow the steps mentioned in [this document](/azure/azure-functions/functions-create-function-app-portal) to Create a new Azure Function App.  
 2. Go the function app created above and click on the “Identity” section on the left.  
     1. Switch the status to “on”. Click on “Save” 
     2. Copy the value of “Object Id” shown on the screen thereafter. It will be required later.
 
-        ![image.png](../media/image%28329%29.png)
+        ![Object Id](../media/image%28329%29.png)
        
-    3. Follow the steps mentioned in [this document](https://docs.microsoft.com/azure/app-service/overview-managed-identity?tabs=dotnet#obtain-tokens-for-azure-resources) to generate a token to call the APIs. A resource parameter is required to generate the token. For this parameter, provide the value of the Application ID URI as created in “Register Service application” step. (e.g. api://{*Id*}) 
+    3. Follow the steps mentioned in [this document](/azure/app-service/overview-managed-identity?tabs=dotnet#obtain-tokens-for-azure-resources) to generate a token to call the APIs. A resource parameter is required to generate the token. For this parameter, provide the value of the Application ID URI as created in “Register Service application” step. (e.g. api://{*Id*}) 
 
 > [!NOTE]
 > Any coding language can be used based on the runtime stack selected while creating the Function App.
 
-### Approach 2: Alternatively, creating a client by using [Client Credentials Flow ](https://docs.microsoft.com/azure/active-directory/develop/v2-oauth2-client-creds-grant-flow)
+### Approach 2: Alternatively, creating a client by using [Client Credentials Flow ](/azure/active-directory/develop/v2-oauth2-client-creds-grant-flow)
 Follow the steps mentioned below to Register the Client app.
 1.	Sign in to the Azure portal.
-2.	If you have access to multiple tenants, use the **Directory + subscription filter**  ![image.png](../media/image%28368%29.png) in the top menu to select the tenant in which you want to register an application.
+2.	If you have access to multiple tenants, use the **Directory + subscription filter**  ![Directory & subscription filter](../media/image%28368%29.png) in the top menu to select the tenant in which you want to register an application.
 3.	Search for and select **Azure Active Directory.**
 4.	Under **Manage**, select **App registrations > New registration.**
     - In the **Name** section, enter a meaningful application name that will be displayed to users of the app, for example S2S-client.
@@ -120,7 +124,7 @@ Follow the steps mentioned below to Register the Client app.
 8.	At this stage permissions are assigned correctly but the client app does not allow interaction. Therefore, no consent can be presented via a UI and accepted to use the service app. Click the **Grant/revoke admin consent for {tenant}** button, and then select **Yes** when you are asked if you want to grant consent for the requested permissions for all account in the tenant. You need to be an Azure AD tenant admin to do this.
 
 > [!NOTE]
-> -	[This link](https://docs.microsoft.com/azure/active-directory/develop/v2-oauth2-client-creds-grant-flow#get-a-token) can be referred for generating tokens to call APIs.
+> -	[This link](/azure/active-directory/develop/v2-oauth2-client-creds-grant-flow#get-a-token) can be referred for generating tokens to call APIs.
 > -	The value passed for the “scope” parameter in the request should be the resource identifier (application ID URI) of the resource you want, affixed with the “/.default” suffix. e.g. api://webapi-clientid/.default. 
  
 ## Step 3: Configure the Azure App Service
@@ -132,7 +136,7 @@ Follow the steps mentioned below to Register the Client app.
 3. After going to the App Service resource, Click on the “Configuration” section on the left. 
 4. Click on “New application setting” 
 5. Under “Name”, add **ServiceAuthEnabled**, and under “Value”, add **true**. Click “OK”. 
-    ![image.png](../media/image%28330%29.png)
+    ![ServiceAuthEnabled](../media/image%28330%29.png)
 6. Similarly add the following values in the Configuration. Click on “Save” after adding all these values and restart the App Service. 
    1. **ServiceAuthAudience**: Application ID URI created in “Register Service application” step
    2. **ServiceAuthTenantName**: Tenant name retrieved in “Register Service application” step
@@ -145,4 +149,4 @@ Follow the steps mentioned below to Register the Client app.
 > [!WARNING]
 > While making Service auth calls, add a new header with key: ClientType and value: Service.
 
-The client(s) created above should now be able to call the Microsoft Community Training APIs. Add the token(s) generated above to the [**Rest APIs**](../rest-api-management/2_api-documentation) exposed by the platform.
+The client(s) created above should now be able to call the Microsoft Community Training APIs. Add the token(s) generated above to the [**Rest APIs**](../rest-api-management/2_api-documentation.md) exposed by the platform.

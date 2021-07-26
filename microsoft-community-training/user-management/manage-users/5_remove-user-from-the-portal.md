@@ -1,6 +1,10 @@
 ---
 title: Delete a user from the platform
 original-url: https://docs.microsoftcommunitytraining.com/docs/remove-user-from-the-portal
+author: nikotha
+ms.author: nikotha
+description: "In this topic, you will learn more about how to delete or remove an existing user from the platform."
+ms.prod: azure
 ---
 
 # Delete a user from the platform
@@ -22,7 +26,7 @@ The Microsoft Community Training management portal provides role-based administr
 
 ## Steps to delete a user from the platform
 
-1. On the Microsoft Community Training portal, after login [**switch to administrator view**](../../get-started/4_step-by-step-configuration-guide#step-2-switch-to-administrator-view-of-the-portal).
+1. On the Microsoft Community Training portal, after login [**switch to administrator view**](../../get-started/4_step-by-step-configuration-guide.md#step-2--switch-to-administrator-view-of-the-portal).
 
 2. Select **All Users** tab in the Users tab on the left-navigation page
 
@@ -34,7 +38,7 @@ The Microsoft Community Training management portal provides role-based administr
 
 5. On the confirmation dialog, click or tap **Ok** to remove or delete the selected users from the platform.
 
-    ![image.png](../../media/image%2863%29.png)
+    ![Confirmation dialog](../../media/image%2863%29.png)
 
 > [!WARNING]
 > When you remove the user from the platform, all the information around course enrollment, learner progress and group participation is also deleted from the portal. **User information cannot be recovered once deleted**.

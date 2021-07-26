@@ -1,6 +1,10 @@
 ---
 title: Restrict portal access to learners outside your training program
 original-url: https://docs.microsoftcommunitytraining.com/docs/restrict-portal-access-to-users-outside-your-organization
+author: nikotha
+ms.author: nikotha
+description: When the platform is setup with Phone Number or Email Address (aka Social Account) as login identity, by default, anyone with a valid phone number or email address can login to the portal and access the learning content.
+ms.prod: azure
 ---
 
 # Restrict portal access to learners outside your training program
@@ -16,7 +20,7 @@ When this setting is enabled, only users that are added or imported to the porta
 
 ## Change Restricted User Access settings  
 
-1. On the Microsoft Community Training portal, after login [**switch to administrator view**](../get-started/4_step-by-step-configuration-guide#step-2--switch-to-administrator-view-of-the-portal). 
+1. On the Microsoft Community Training portal, after login [**switch to administrator view**](../get-started/4_step-by-step-configuration-guide.md#step-2--switch-to-administrator-view-of-the-portal). 
 
 2. Select the **Settings** module on the left-navigation panel  
 

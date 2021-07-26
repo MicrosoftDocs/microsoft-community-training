@@ -1,6 +1,10 @@
 ---
 title: Setup Microsoft Teams as learner's endpoint for the platform
 original-url: https://docs.microsoftcommunitytraining.com/docs/create-teams-app-for-your-training-portal
+author: nikotha
+ms.author: nikotha
+description: Microsoft Community Training allows organization to enable online learning inside Microsoft Teams across web, mobile and desktop app.
+ms.prod: azure
 ---
 
 # Setup Microsoft Teams as learner's endpoint for the platform
@@ -10,7 +14,7 @@ Microsoft Community Training allows organization to enable online learning insid
 In this article, we will walk you through the steps required to configure your instance with Microsoft Teams.
 
 ## Before you begin
-This article assumes you have followed the steps outlined in the [**installation article**](../../infrastructure-management/install-your-platform-instance/3_installation-guide-detailed-steps) and enabled Microsoft Teams as an endpoint during deployment from the marketplace. 
+This article assumes you have followed the steps outlined in the [**installation article**](../../infrastructure-management/install-your-platform-instance/3_installation-guide-detailed-steps.md) and enabled Microsoft Teams as an endpoint during deployment from the marketplace. 
 
 If you haven't, please follow the Installation steps first and then refer this article to configure Microsoft Teams for your instance. Make sure you have the teams app package.
 
@@ -23,23 +27,23 @@ If you haven't, please follow the Installation steps first and then refer this a
 2. Click on the **Directory + Subscription** icon in the portal toolbar and  select the directory that contains your Azure AD tenant or **search for and select Azure Active Directory**.
 
 3. Click on the **App Registration** option from the left panel 
-![image.png](../../media/image%28194%29.png)
+![Click App Registration](../../media/image%28194%29.png)
 
 4. On the App registrations page, search for and select the Azure AD application created for the Microsoft Community Training instance during the installation process
-![image.png](../../media/image%28195%29.png)
+![Azure AD application](../../media/image%28195%29.png)
 
 5. On the application details, select the **API permissions** option on the left panel
 
 6. Next, **click on Add Permission** and **select Microsoft Graph option** from the right panel
-![image.png](../../media/image%28196%29.png)
+![select Microsoft Graph option](../../media/image%28196%29.png)
 
 7. Next, in Delegated permissions and Application permissions check the following options:
     * Under Delegated permissions - **Directory.Read.All, Group.Read.All, User.Read.All**
     * Under Application permissions - **Directory.Read.All, Group.Read.All, User.Read.All**
-![image.png](../../media/image%28197%29.png)
+![Delegated and Application permissions](../../media/image%28197%29.png)
 
 8. Next, **click on Grant admin consent**. Confirm Yes.
-![image.png](../../media/image%28198%29.png)
+![Click on Grant admin consent](../../media/image%28198%29.png)
 
 > [!NOTE]
 > Please sure all the values marked in red rectangle are correctly set.
@@ -62,15 +66,15 @@ If you haven't, please follow the Installation steps first and then refer this a
 1. Open the Microsoft Teams client application and sign in using your global or teams service admin credentials.
 
 2.	Upload the manifest file (.zip file) provided by the customer support team as a custom app for organization in Teams 
-![image.png](../../media/image%28199%29.png)
+![Upload the manifest](../../media/image%28199%29.png)
 
 > [!NOTE]
-> For more details on how to publish apps in the Microsoft Teams Tenant Apps Catalog, [**see this article**](https://docs.microsoft.com/microsoftteams/tenant-apps-catalog-teams#publish-an-app-in-the-tenant-apps-catalog-from-the-teams-client).
+> For more details on how to publish apps in the Microsoft Teams Tenant Apps Catalog, [**see this article**](/microsoftteams/tenant-apps-catalog-teams#publish-an-app-in-the-tenant-apps-catalog-from-the-teams-client).
 
 ### Step 4 - Setup app policies to pin the training application from the Microsoft Team admin center
 
 1. Visit [**Teams Admin portal**](https://admin.teams.microsoft.com/) and **select Setup policies** option under Teams apps in the left navigation panel
-![image.png](../../media/image%28200%29.png)
+![Select Setup policies](../../media/image%28200%29.png)
 
 2. Next click on the **Add Apps** button and search for the training application uploaded in the previous Step #3 
 
@@ -80,7 +84,7 @@ If you haven't, please follow the Installation steps first and then refer this a
 
 ### Step 5 - Allow portal embedding in MS Teams
 
-1. Login to [Azure portal](http://www.portal.azure.com/).
+1. Login to [Azure portal](https://www.portal.azure.com/).
 
 2. Go to App Services from the left-menu.
 
@@ -96,7 +100,7 @@ If you haven't, please follow the Installation steps first and then refer this a
 
 6. Select the setting **Features:AllowSiteEmbedding** and update it with value **“true”**. Click on OK.
 
-![image.png](../../media/image%28436%29.png)
+![Features:AllowSiteEmbedding](../../media/image%28436%29.png)
 
 7. Click on save.
 ![Save Application Settings.png](../../media/Save%20Application%20Settings%281%29.png)

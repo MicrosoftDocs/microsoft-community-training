@@ -1,6 +1,10 @@
 ---
 title: General FAQs
 original-url: https://docs.microsoftcommunitytraining.com/docs/faqs-general
+author: nikotha
+ms.author: nikotha
+description: Microsoft Community Training is an Azure-powered online learning platform to enable organizations of all sizes.
+ms.prod: azure
 ---
 
 # General FAQs
@@ -10,7 +14,7 @@ Microsoft Community Training is an Azure-powered online learning platform to ena
 
 It is available as a [**Managed PaaS offering via Azure Marketplace**](https://azuremarketplace.microsoft.com/en-us/marketplace/apps/project-sangam.microsoft-community-training?tab=Overview) that customers can easily deploy in their subscriptions. The platform is available for free and an organization only bears platform hosting and consumption charges on Azure. 
 
-[**Click here**](../get-started/2_microsoft-community-training-overview) to learn more about the platform. 
+[**Click here**](../get-started/2_microsoft-community-training-overview.md) to learn more about the platform. 
 
 ### When was Microsoft Community Training launched? 
 Microsoft community training was publicly announced on 22nd February 2017. It is currently in Public Preview and planning to become Generally Available by 2021. 
@@ -46,7 +50,7 @@ Here is [**our free content library**](https://sangampartners.azurewebsites.net/
 For more details on how to leverage the import these content on your platform instance, reach out to us [**via Helpdesk**](https://go.microsoft.com/fwlink/?linkid=2104630).
 
 ### How to create / add a new course on Microsoft community training? 
-Courses can be created from the administrator dashboard, for the detailed steps on course creation [refer to this article. ](../content-management/create-content/create-course-category/3_create-a-new-course)
+Courses can be created from the administrator dashboard, for the detailed steps on course creation [refer to this article. ](../content-management/create-content/create-course-category/3_create-a-new-course.md)
 
 ### I already have an Learning Management System (LMS) implemented for my organization. Will Microsoft Community Training replace my existing LMS with or is it going to complement my existing system?
 Traditionally LMS softwares are focused on knowledge workers and workforces managed by the organization. But every organization often has huge number of frontline workers (contractors, vendors, external staff, etc.) or extended partner network (distributors, suppliers, retailers, etc.) who are not managed by the organization i.e. there is no organization email address provided. These audiences are typically mobile-first users with low technology capability and usually require an online learning solution that is designed and optimized for shared low bandwidth mobile device usage. 
@@ -88,7 +92,7 @@ Microsoft community training supports a wide range of formats as listed below:
 * **Other formats**: PDF, PPT, PPTX, DOCX, HTML, EPUB
 * **Hyperlinks**: Paste link in the upload lesson dialogue box ((Example: Contents added via external platforms such as YouTube or MS Learn using their URL)
 
-For more information, check the article on [**how to manage course content**](../content-management/2_content-management-overview) on Microsofot Community Training platform.  
+For more information, check the article on [**how to manage course content**](../content-management/2_content-management-overview.md) on Microsofot Community Training platform.  
 
 ### Does the Microsoft Community Training platform come with some out of the box content?
 
@@ -102,17 +106,17 @@ Please note - all content hosted in the content library is free of charge and pr
 
 1. Create a support ticket on[ Microsoft Community Training Helpdesk](https://sangamhelpdesk.microsoftcrmportals.com/SignIn?ReturnUrl=%2Fsupport%2Fcreate-case%2F) for a Microsoft Teams app manifest for your training platform instance in the following format,
 
-   ![manifest](../media/manifest.JPG)
+   ![Teams manifest](../media/manifest.JPG)
 
 2. Our team will provide you the Teams app manifest within 2-3 business days.
 
 ### In what languages is the Microsoft Community Training platform available?
 Microsoft Community Training currently supports 28 languages on the platform: Albanian, Arabic, Bengali, Chinese (Simplified), Chinese (Traditional, Dutch, English, Finnish, French, Hindi, Kinyarwanda, Kurdish, Lao, Lithuanian, Malay, Oriya, Portuguese, Serbian (Cyrillic), Somali, Spanish, Swedish, Swedish, Tajik, Telugu, Tetum, Thai, Ukranian, Vietnamese.
 
-For more information, [**refer here**](../settings/7_customize-languages-for-the-learners-on-the-platform).
+For more information, [**refer here**](../settings/7_customize-languages-for-the-learners-on-the-platform.md).
 
 ### How can i raise a new language request? 
-You can raise a request ticket via our [Helpdesk](https://sangamhelpdesk.microsoftcrmportals.com/) to request another language for your platform instance. Please refer to [this article](../settings/8_request-a-new-language) for more details.
+You can raise a request ticket via our [Helpdesk](https://sangamhelpdesk.microsoftcrmportals.com/) to request another language for your platform instance. Please refer to [this article](../settings/8_request-a-new-language.md) for more details.
 
 ### Is there support for live classroom training in Microsoft Community Training?
 
@@ -129,10 +133,10 @@ Yes, Microsoft Community Training platform comes with exhaustive instrumentation
 
 Apart from the inbuilt reports, customers can create dashboard and custom reports using third-party visualization tools such as Power BI. 
 
-For more information on analytics, check out [**this article**](../analytics/2_analytics-overview).
+For more information on analytics, check out [**this article**](../analytics/2_analytics-overview.md).
 
 ####  How to delete my training portal? 
-When you no longer need your training portal, you can delete it by deleting the resource group from the Azure portal. [Refer to this article](../infrastructure-management/configure-your-platform-infrastructure/6_delete-your-training-instance) for more details.  
+When you no longer need your training portal, you can delete it by deleting the resource group from the Azure portal. [Refer to this article](../infrastructure-management/configure-your-platform-infrastructure/6_delete-your-training-instance.md) for more details.  
 
 ### What kind of support is provided by Microsoft to the customers during implementation?
 There are two channels available to the customers to seek help during platform setup and configuration: 

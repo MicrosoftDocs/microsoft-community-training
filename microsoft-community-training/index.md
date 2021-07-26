@@ -1,12 +1,12 @@
 ---
-title: Welcome to microsoft-community-training!
+title: Microsoft-community-training
 author: nikotha
 ms.author: nikotha
 description: Welcome to microsoft-community-training!
 ms.prod: azure
 ---
 
-# Welcome to Microsoft Community Training
+# Microsoft Community Training
 
 - title: Get Started
     linkLists:

@@ -95,7 +95,7 @@ Group administrator can leverage the group functionality on the platform to auto
 
 Groups can be used on the training platform to not only delegate and automate administrative tasks like user onboarding and course enrollment but also tracking learners progress and send reminders to drive engagement and course completion.
 
-Group administrator on the portal can leverage [**group analytics**](../analytics/in-built-reports/5_group-view-report.md) to monitor progress of the group participants and [**send announcements**](./manage-users/3_send-announcement-to-the-users.md) and reminders to drive course completion. In the following sections, you will learn more about these features:
+Group administrator on the portal can leverage [**group analytics**](../analytics/in-built-reports/group-view-report.md) to monitor progress of the group participants and [**send announcements**](./manage-users/3_send-announcement-to-the-users.md) and reminders to drive course completion. In the following sections, you will learn more about these features:
 
 ### Send announcement
 
@@ -105,7 +105,7 @@ For example, let's say there are set of learners in a group who have not finishe
 
 ### Tracking learning progress
 
-Management portal provides real-time analytics and reports to track learners progress and course completion of the assigned courses for the group participants. Groups administrators can view and download learners report card to monitor progress and measure performance for the assigned courses. For more details, [**see this article**](../analytics/in-built-reports/5_group-view-report.md).
+Management portal provides real-time analytics and reports to track learners progress and course completion of the assigned courses for the group participants. Groups administrators can view and download learners report card to monitor progress and measure performance for the assigned courses. For more details, [**see this article**](../analytics/in-built-reports/group-view-report.md).
 
 ## Steps to add users and assign content on the portal
 

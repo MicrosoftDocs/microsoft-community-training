@@ -101,19 +101,19 @@
    - name: Analytics
      items:
       - name: Analytics - Overview
-        href: analytics/2_analytics-overview.md
+        href: analytics/analytics-overview.md
       - name: In-built Reports
         items:
          - name: Overall Summary View
-           href: analytics/in-built-reports/2_overall-summary.md
+           href: analytics/in-built-reports/overall-summary.md
          - name: Category View
-           href: analytics/in-built-reports/3_category-view-report.md
+           href: analytics/in-built-reports/category-view-report.md
          - name: Course View
-           href: analytics/in-built-reports/4_course-view-report.md
+           href: analytics/in-built-reports/course-view-report.md
          - name: Group View
-           href: analytics/in-built-reports/5_group-view-report.md
+           href: analytics/in-built-reports/group-view-report.md
          - name: Learner Report Card View
-           href: analytics/in-built-reports/6_learner-report-card-view.md
+           href: analytics/in-built-reports/learner-report-card-view.md
       - name: Custom Reports
         items:
          - name: Power BI Integration

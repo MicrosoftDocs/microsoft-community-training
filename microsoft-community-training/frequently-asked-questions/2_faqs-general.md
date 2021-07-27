@@ -133,7 +133,7 @@ Yes, Microsoft Community Training platform comes with exhaustive instrumentation
 
 Apart from the inbuilt reports, customers can create dashboard and custom reports using third-party visualization tools such as Power BI. 
 
-For more information on analytics, check out [**this article**](../analytics/2_analytics-overview.md).
+For more information on analytics, check out [**this article**](../analytics/analytics-overview.md).
 
 ####  How to delete my training portal? 
 When you no longer need your training portal, you can delete it by deleting the resource group from the Azure portal. [Refer to this article](../infrastructure-management/configure-your-platform-infrastructure/6_delete-your-training-instance.md) for more details.  

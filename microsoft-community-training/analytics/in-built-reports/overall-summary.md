@@ -84,4 +84,4 @@ From the category grid, you can:
 
 1. Click on the respective **column headings to sort** the rows by any column.
 2. Click **Download List** to download the data into an Excel sheet.
-3. Select a row to [**view detailed information**](./3_category-view-report.md) about course enrollments and course completion for the specific category.
+3. Select a row to [**view detailed information**](./category-view-report.md) about course enrollments and course completion for the specific category.

@@ -74,7 +74,7 @@ For example, an organization who wants to certify their technician on Washing Ma
 
 #### Difference between a Practice Quiz and an Exam
 
-|  | Practice Quiz  | Exam |
+| Area | Practice Quiz  | Exam |
 | --- | --- | --- |
 | Purpose | Allows the learner to revise the concept of the previous lessons.  Use it as a confidence-building reiteration of the key points in the previous lessons before moving further | Means of Assessment where the learner is evaluated for the questions. Based on the performance in the Exam, the learner is awarded a Certificate of Completion. |
 | Functionalities | There is no restriction on the number of attempts for a Practice Quiz. There can be one or more practice quizzes in a course | There is passing percentage, a limit on the number of attempts and shuffle mode for an Exam. There can be only one Exam at the end of the course |

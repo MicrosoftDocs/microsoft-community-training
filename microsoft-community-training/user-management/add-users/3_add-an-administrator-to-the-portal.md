@@ -60,11 +60,11 @@ Here are the detailed steps on how to [**add a learning path administrator to th
 
 ## Add a category administrator to the platform
 
-Here are the detailed steps on how to [**add category administrator to the platform**](../../content-management/manage-content/manage-course-category/2_add-an-administrator-for-a-course.md#add-a-category-administrator).
+Here are the detailed steps on how to [**add category administrator to the platform**](../../content-management/manage-content/manage-course-category/add-an-administrator-for-a-course.md#add-a-category-administrator).
 
 ## Add a course administrator to the platform
 
-Here are the detailed steps on how to [**add course administrator to the platform**](../../content-management/manage-content/manage-course-category/2_add-an-administrator-for-a-course.md#add-a-course-administrator).
+Here are the detailed steps on how to [**add course administrator to the platform**](../../content-management/manage-content/manage-course-category/add-an-administrator-for-a-course.md#add-a-course-administrator).
 
 ## Add a group administrator to the platform
 

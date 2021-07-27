@@ -75,7 +75,7 @@
          - name: Manage Course / Category
            items: 
             - name: Add an administrator for a course
-              href: content-management/manage-content/manage-course-category/2_add-an-administrator-for-a-course.md
+              href: content-management/manage-content/manage-course-category/add-an-administrator-for-a-course.md
             - name: Manage Users for a Course
               href: content-management/manage-content/manage-course-category/manage-users-for-a-course.md
             - name: Change Course details

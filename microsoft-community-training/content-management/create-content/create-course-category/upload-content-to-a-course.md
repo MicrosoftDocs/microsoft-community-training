@@ -109,9 +109,9 @@ Before you start doing the bulk upload of lessons for a course, you need to make
 3.	Ensure there are no folders and unsupported content files inside the ZIP file 
 
 > [!NOTE]
-> Practice quizzes and exams cannot be added to the course via bulk upload functionality unless [**you are exporting courses from one instance to another**](../../../content-management/manage-content/manage-course-category/6_move-course-content-across-training-instance.md).
+> Practice quizzes and exams cannot be added to the course via bulk upload functionality unless [**you are exporting courses from one instance to another**](../../../content-management/manage-content/manage-course-category/move-course-content-across-training-instance.md).
 > 
-> The admins have to add them via [**add quiz and exam workflow**](../../../content-management/create-content/create-course-category/6_add-practice-course-and-exam.md).
+> The admins have to add them via [**add quiz and exam workflow**](../../../content-management/create-content/create-course-category/add-practice-course-and-exam.md).
 
 ### Steps for bulk upload lessons for a course
 

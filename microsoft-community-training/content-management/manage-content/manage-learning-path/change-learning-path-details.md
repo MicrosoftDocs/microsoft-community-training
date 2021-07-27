@@ -9,7 +9,7 @@ ms.prod: azure
 
 # Change Learning Path details
 
-Editing the details or deleting a Learning Path can be done by selecting a Learning Path which you have created and folowing the steps given in this article.
+Editing the details or deleting a Learning Path can be done by selecting a Learning Path which you have created and following the steps given in this article.
 Here, you will learn more about how to edit/ delete Learning Path on the management portal:
 ### Permissions Level 
 

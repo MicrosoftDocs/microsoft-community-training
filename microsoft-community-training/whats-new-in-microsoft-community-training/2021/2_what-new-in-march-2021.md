@@ -12,7 +12,7 @@ ms.prod: azure
 With the world gradually recovering from the effects of the COVID-19 pandemic and adopting the new normal as the way forward, Microsoft Community Training has also worked its way to add more capabilities for customized skilling and better platform management. Numerous features have been introduced to ensure improved learner experience and more control on content and user management. We hope you enjoy using the platform!!!
 
 ## Learning Path of courses for learners*
-This release introduces the [concept of **Learning Path**](../../content-management/create-content/create-learning-path/2_create-a-learning-path.md) which is a defined sequence of courses on the platform to administer guided training paths for the learners. It provides instructors the ability to control the way courses are assigned to learners and offers clear-cut roadmap for learners regarding what they are supposed to achieve.
+This release introduces the [concept of **Learning Path**](../../content-management/create-content/create-learning-path/create-a-learning-path.md) which is a defined sequence of courses on the platform to administer guided training paths for the learners. It provides instructors the ability to control the way courses are assigned to learners and offers clear-cut roadmap for learners regarding what they are supposed to achieve.
 
 ![Course Management - Learning path](../../media/Course%20Management%20-%20Learning%20path.png)
 

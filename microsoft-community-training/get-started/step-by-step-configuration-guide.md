@@ -56,7 +56,7 @@ All the courses in the platform are created under a category. These catego
 
 ![Upload content to portal](../media/Upload%20content%20to%20portal.png)
 
-To add learning material into your training portal, first you need to [**define a category**](../content-management/create-content/create-course-category/2_create-a-category.md)  and [**create courses under the category**](https://microsoftindia.document360.io/docs/create-a-course-category). This can be done from the **Content Tab** in the management portal. When you create a new course, remember the following: 
+To add learning material into your training portal, first you need to [**define a category**](../content-management/create-content/create-course-category/create-a-category.md)  and [**create courses under the category**](https://microsoftindia.document360.io/docs/create-a-course-category). This can be done from the **Content Tab** in the management portal. When you create a new course, remember the following: 
 
 1. The course name should simple and clear. Users should instantly understand the topic of the course upon reading the title. 
 
@@ -64,7 +64,7 @@ To add learning material into your training portal, first you need to [**define 
 
 3. Upload a customized image relating to the course topic to provide visual cue to the learners. Try to create different thumbnails for each course, as to avoid redundancy by using the same image. 
 
- Once you have created the courses, [**add learning materials**](../content-management/create-content/create-course-category/4_upload-content-to-a-course.md) like Video, PDFs, PowerPoint, YouTube Links, etc. and [**manage the course options**](../content-management/manage-content/manage-course-category/3_manage-users-for-a-course.md) according to your needs. Lastly, [**add practice quiz and exams**](https://microsoftindia.document360.io/docs/create-practice-course-and-exam) before [**publishing the course**](https://microsoftindia.document360.io/docs/publishing-course) for the learners. 
+ Once you have created the courses, [**add learning materials**](../content-management/create-content/create-course-category/upload-content-to-a-course.md) like Video, PDFs, PowerPoint, YouTube Links, etc. and [**manage the course options**](../content-management/manage-content/manage-course-category/manage-users-for-a-course.md) according to your needs. Lastly, [**add practice quiz and exams**](https://microsoftindia.document360.io/docs/create-practice-course-and-exam) before [**publishing the course**](https://microsoftindia.document360.io/docs/publishing-course) for the learners. 
  
  ![create course gif](../media/create-course-gif.gif)
  

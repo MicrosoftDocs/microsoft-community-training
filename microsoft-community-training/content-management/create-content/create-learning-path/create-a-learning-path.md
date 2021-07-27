@@ -53,4 +53,4 @@ The Microsoft Community Training management portal provides role-based administr
 
 9.	 Click or tap **Create** button to create the Learning Path.
 
-**Next>** Once a Learning Path is created, the administrator can start  [adding content to the Learning Path.](3_add-course-to-a-learning-path.md)
+**Next>** Once a Learning Path is created, the administrator can start  [adding content to the Learning Path.](add-course-to-a-learning-path.md)

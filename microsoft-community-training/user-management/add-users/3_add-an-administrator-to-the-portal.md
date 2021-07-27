@@ -56,7 +56,7 @@ In this topic, you will learn simple steps to add Global Administrator to the po
 Here are the detailed steps on how to [**add an organization administrator to the platform**](./../4_organization-management.md#create-a-new-organization-administrator).
 
 ## Add a learning path administrator to the platform
-Here are the detailed steps on how to [**add a learning path administrator to the platform**](../../content-management/manage-content/manage-learning-path/2_add-an-administrator-for-a-learning-path.md).
+Here are the detailed steps on how to [**add a learning path administrator to the platform**](../../content-management/manage-content/manage-learning-path/add-an-administrator-for-a-learning-path.md).
 
 ## Add a category administrator to the platform
 

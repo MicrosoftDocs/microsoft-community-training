@@ -43,7 +43,7 @@ The Microsoft Community Training management portal provides role-based administr
 3. Select **Assign Content** button to see the list of courses which can be assigned to the group users.  
 
     > [!NOTE]
-    > Only [**published content**](../../content-management/create-content/create-course-category/8_publishing-course.md) is displayed in the list.
+    > Only [**published content**](../../content-management/create-content/create-course-category/publishing-course.md) is displayed in the list.
 
 4. From the left panel, click on **Learning Paths** and select the Learning Paths you want to assign to the group. You can then click on **Courses** and select the courses you want to assign to the group.  
 

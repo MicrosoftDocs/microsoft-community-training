@@ -41,7 +41,7 @@ The user experiences on the platform are optimized for mobile-first and mobile-o
 
 ## Management Portal
 
-The management portal is a one-stop-shop for all administrative functions like upload and manage courses, add and organize users, assign courses and track completion, platform settings, etc. It is designed on the role-based access and functionalities are available to the users as per granted management permissions. For more details, please visit [**this article**](../get-started/3_user-role-and-management-portal-overview.md). 
+The management portal is a one-stop-shop for all administrative functions like upload and manage courses, add and organize users, assign courses and track completion, platform settings, etc. It is designed on the role-based access and functionalities are available to the users as per granted management permissions. For more details, please visit [**this article**](../get-started/user-role-and-management-portal-overview.md). 
 
 ![admin content upload](../media/admin-content-upload.png)
 
@@ -53,4 +53,4 @@ Lastly, learners can also use the platform to track activities and stay updated 
 
 ![overview article - learners](../media/overview%20article%20-%20learners.png)
 
-**Next>** Learn about different [**user personas and their roles and responsbilities**](../get-started/3_user-role-and-management-portal-overview.md).
+**Next>** Learn about different [**user personas and their roles and responsbilities**](../get-started/user-role-and-management-portal-overview.md).

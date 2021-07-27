@@ -21,7 +21,7 @@ In this update, we have added a new feature to the phone-based authentication pr
 ![Default country code based on learner’s location](../../media/image%28284%29.png)
 
 ## Upload EPUB content for lessons in a course   
-Like other content types such as HTML, pdf and video, in this update we have added support to [upload and manage EPUB files](../../content-management/create-content/create-course-category/3_create-a-new-course.md) as lesson content within a course. Content admins can now add e-books in EPUB format as lessons for the learners. 
+Like other content types such as HTML, pdf and video, in this update we have added support to [upload and manage EPUB files](../../content-management/create-content/create-course-category/create-a-new-course.md) as lesson content within a course. Content admins can now add e-books in EPUB format as lessons for the learners. 
 
 ## Improvement in language support on the platform 
 

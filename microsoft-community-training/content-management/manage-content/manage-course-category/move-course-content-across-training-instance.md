@@ -42,13 +42,13 @@ In this article, you will learn more about how to export course content from one
 
 1. On the Microsoft Community Training portal instance where you want to upload the course content, after login [**switch to administrator view**](https://microsoftindia.document360.io/docs/configure-platform#step-2--switch-to-administrator-view-of-the-portal).
 
-2. Under Courses tab, [**create a new category**](../../create-content/create-course-category/2_create-a-category.md) or select an existing category where you want to upload the content
+2. Under Courses tab, [**create a new category**](../../create-content/create-course-category/create-a-category.md) or select an existing category where you want to upload the content
 
 3. Click or tap on the **(...) More** option and choose **Bulk Upload courses** from the pop-up menu.
 
 ![Bulk Upload courses](../../../media/image%28222%29.png)
 
-4. Next, choose the previously downloaded zip file as part of the bulk upload course workflow. See detailed steps [**here**](../../create-content/create-course-category/3_create-a-new-course.md#option-2---create-multiple-courses-in-a-category).
+4. Next, choose the previously downloaded zip file as part of the bulk upload course workflow. See detailed steps [**here**](../../create-content/create-course-category/create-a-new-course.md#option-2---create-multiple-courses-in-a-category).
 
 > [!IMPORTANT]
 > For step 4, skip the prerequisite part and directly jump to the actual steps of bulk uploading courses to the platform.

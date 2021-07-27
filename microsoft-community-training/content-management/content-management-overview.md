@@ -74,7 +74,7 @@ For example, an organization who wants to certify their technician on Washing Ma
 
 #### Difference between a Practice Quiz and an Exam
 
-|  | Practice Quiz  | Exam |
+| Area | Practice Quiz  | Exam |
 | --- | --- | --- |
 | Purpose | Allows the learner to revise the concept of the previous lessons.  Use it as a confidence-building reiteration of the key points in the previous lessons before moving further | Means of Assessment where the learner is evaluated for the questions. Based on the performance in the Exam, the learner is awarded a Certificate of Completion. |
 | Functionalities | There is no restriction on the number of attempts for a Practice Quiz. There can be one or more practice quizzes in a course | There is passing percentage, a limit on the number of attempts and shuffle mode for an Exam. There can be only one Exam at the end of the course |
@@ -112,18 +112,18 @@ Content creation is one of the core activities of any online learning program. T
  Here are the detailed steps on [**how to publish a course**](https://microsoftindia.document360.io/docs/publishing-course) for the learners on the portal.
 
 ### Step 6 – Create a new Learning path
-Here are the detailed steps on [**how to create a new Learning path** ](../content-management/create-content/create-learning-path/2_create-a-learning-path.md) for the learners on the portal.
+Here are the detailed steps on [**how to create a new Learning path** ](../content-management/create-content/create-learning-path/create-a-learning-path.md) for the learners on the portal.
 
 #### Step 7 – Add courses to the Learning path
-Here are the detailed steps to [**add courses to the Learning path**](../content-management/create-content/create-learning-path/3_add-course-to-a-learning-path.md) for the learners on the portal.
+Here are the detailed steps to [**add courses to the Learning path**](../content-management/create-content/create-learning-path/add-course-to-a-learning-path.md) for the learners on the portal.
 
 ### Step 8 – Publish the Learning path  
-Here are the detailed steps on [**how to publish a Learning path**](../content-management/create-content/create-learning-path/4_publish-a-learning-path-on-the-portal.md).  
+Here are the detailed steps on [**how to publish a Learning path**](../content-management/create-content/create-learning-path/publish-a-learning-path-on-the-portal.md).  
 
 ## View content analytics to track and measure effectiveness
 
 Microsoft Community Training platform provides out of the box rich analytics for organizations to track overall learner’s enrollment and completion for different courses, measure learner’s performance and ensure quality of content in satisfactory and meets the success criteria set by the organization.
-The management portal has content and user related in-built reports at [**category level**](../analytics/in-built-reports/3_category-view-report.md) to help administrators track and measure effectiveness of the learning content.
+The management portal has content and user related in-built reports at [**category level**](../analytics/in-built-reports/category-view-report.md) to help administrators track and measure effectiveness of the learning content.
 
 ![Track analytics](../media/Track%20analytics.png)
 

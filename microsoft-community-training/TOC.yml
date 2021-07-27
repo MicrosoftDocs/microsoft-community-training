@@ -3,11 +3,11 @@
    - name: Get Started
      items:
       - name: Welcome to Microsoft Community Training
-        href: get-started/2_microsoft-community-training-overview.md
+        href: get-started/microsoft-community-training-overview.md
       - name: User roles and Management portal overview
-        href: get-started/3_user-role-and-management-portal-overview.md
+        href: get-started/user-role-and-management-portal-overview.md
       - name: Step by step configuration guide for platform setup
-        href: get-started/4_step-by-step-configuration-guide.md
+        href: get-started/step-by-step-configuration-guide.md
    - name: User Management
      items:
       - name: User Management - Overview
@@ -43,55 +43,55 @@
    - name: Content Management
      items:
       - name: Content Management - Overview
-        href: content-management/2_content-management-overview.md
+        href: content-management/content-management-overview.md
       - name: Create Content
         items: 
          - name: Create Course / Category
            items: 
             - name: Create a category
-              href: content-management/create-content/create-course-category/2_create-a-category.md
+              href: content-management/create-content/create-course-category/create-a-category.md
             - name: Create a new course
-              href: content-management/create-content/create-course-category/3_create-a-new-course.md
+              href: content-management/create-content/create-course-category/create-a-new-course.md
             - name: Upload content to a course
-              href: content-management/create-content/create-course-category/4_upload-content-to-a-course.md
+              href: content-management/create-content/create-course-category/upload-content-to-a-course.md
             - name: Add subtitles or captions to video content
-              href: content-management/create-content/create-course-category/5_add-subtitles-or-captions-to-video-content.md
+              href: content-management/create-content/create-course-category/add-subtitles-or-captions-to-video-content.md
             - name: Add practice quiz and exam for a course
-              href: content-management/create-content/create-course-category/6_add-practice-course-and-exam.md
+              href: content-management/create-content/create-course-category/add-practice-course-and-exam.md
             - name: Add feedback form for a course
-              href: content-management/create-content/create-course-category/7_add-feedback-form-for-a-course.md
+              href: content-management/create-content/create-course-category/add-feedback-form-for-a-course.md
             - name: Publish a course on the training portal
-              href: content-management/create-content/create-course-category/8_publishing-course.md 
+              href: content-management/create-content/create-course-category/publishing-course.md 
          - name: Create Learning Path
            items: 
             - name: Create a Learning path
-              href: content-management/create-content/create-learning-path/2_create-a-learning-path.md
+              href: content-management/create-content/create-learning-path/create-a-learning-path.md
             - name: Add course to a Learning path
-              href: content-management/create-content/create-learning-path/3_add-course-to-a-learning-path.md
+              href: content-management/create-content/create-learning-path/add-course-to-a-learning-path.md
             - name: Publish a Learning Path on the Portal
-              href: content-management/create-content/create-learning-path/4_publish-a-learning-path-on-the-portal.md
+              href: content-management/create-content/create-learning-path/publish-a-learning-path-on-the-portal.md
       - name: Manage Content
         items: 
          - name: Manage Course / Category
            items: 
             - name: Add an administrator for a course
-              href: content-management/manage-content/manage-course-category/2_add-an-administrator-for-a-course.md
+              href: content-management/manage-content/manage-course-category/add-an-administrator-for-a-course.md
             - name: Manage Users for a Course
-              href: content-management/manage-content/manage-course-category/3_manage-users-for-a-course.md
+              href: content-management/manage-content/manage-course-category/manage-users-for-a-course.md
             - name: Change Course details
-              href: content-management/manage-content/manage-course-category/4_change-course-details.md
+              href: content-management/manage-content/manage-course-category/change-course-details.md
             - name: Change Category details
-              href: content-management/manage-content/manage-course-category/5_change-category-details.md
+              href: content-management/manage-content/manage-course-category/change-category-details.md
             - name: Move Course content across training instance
-              href: content-management/manage-content/manage-course-category/6_move-course-content-across-training-instance.md 
+              href: content-management/manage-content/manage-course-category/move-course-content-across-training-instance.md 
          - name: Manage Learning Path
            items: 
             - name: Add an Administrator for a Learning Path
-              href: content-management/manage-content/manage-learning-path/2_add-an-administrator-for-a-learning-path.md
+              href: content-management/manage-content/manage-learning-path/add-an-administrator-for-a-learning-path.md
             - name: Manage Users for a Learning Path
-              href: content-management/manage-content/manage-learning-path/3_manage-user-for-a-learning-path.md
+              href: content-management/manage-content/manage-learning-path/manage-user-for-a-learning-path.md
             - name: Change Learning Path details
-              href: content-management/manage-content/manage-learning-path/4_change-learning-path-details.md
+              href: content-management/manage-content/manage-learning-path/change-learning-path-details.md
    - name: Learner Experience
      items:
       - name: Learner Experience on the web portal
@@ -101,25 +101,25 @@
    - name: Analytics
      items:
       - name: Analytics - Overview
-        href: analytics/2_analytics-overview.md
+        href: analytics/analytics-overview.md
       - name: In-built Reports
         items:
          - name: Overall Summary View
-           href: analytics/in-built-reports/2_overall-summary.md
+           href: analytics/in-built-reports/overall-summary.md
          - name: Category View
-           href: analytics/in-built-reports/3_category-view-report.md
+           href: analytics/in-built-reports/category-view-report.md
          - name: Course View
-           href: analytics/in-built-reports/4_course-view-report.md
+           href: analytics/in-built-reports/course-view-report.md
          - name: Group View
-           href: analytics/in-built-reports/5_group-view-report.md
+           href: analytics/in-built-reports/group-view-report.md
          - name: Learner Report Card View
-           href: analytics/in-built-reports/6_learner-report-card-view.md
+           href: analytics/in-built-reports/learner-report-card-view.md
       - name: Custom Reports
         items:
          - name: Power BI Integration
-           href: analytics/custom-reports/2_power-bi-integration.md
+           href: analytics/custom-reports/power-bi-integration.md
          - name: Database Schema
-           href: analytics/custom-reports/3_database-schema.md
+           href: analytics/custom-reports/database-schema.md
    - name: Settings
      items:
       - name: Customize the look and feel of your portal

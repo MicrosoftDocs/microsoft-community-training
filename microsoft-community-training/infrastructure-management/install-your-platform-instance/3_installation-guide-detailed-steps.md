@@ -78,7 +78,7 @@ Get the ownership access to your pay-as-you-go Azure subscription. To learn more
   > [!NOTE]
   > Deployment takes about 20 minutes. Click on the **Notification** icon on the top-right of toolbar to monitor the deployment process.
 
-14. Once the deployment is complete and the website is up, refer to the [**getting started guide**](../../get-started/4_step-by-step-configuration-guide.md) to start configuring your learning portal. 
+14. Once the deployment is complete and the website is up, refer to the [**getting started guide**](../../get-started/step-by-step-configuration-guide.md) to start configuring your learning portal. 
 
 16. To setup a mobile app for your instance, follow the instructions given in the [**create and publish your Mobile App**](../../infrastructure-management/install-your-platform-instance/5_create-publish-mobile-app.md) article. 
 

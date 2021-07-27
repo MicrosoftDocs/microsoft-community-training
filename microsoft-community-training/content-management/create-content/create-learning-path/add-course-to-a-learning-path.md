@@ -11,7 +11,7 @@ ms.prod: azure
 
 A **Learning Path** is a defined sequence of courses on the training platform to administrator guided training paths to the learners.
 
-A Learning Path references courses from different Categories on the training platform which learners can be optionally enforced to complete in an order. [Once a Learning Path is created,](2_create-a-learning-path.md) administrators can select one or more published courses from the same category or across categories to the Learning Path.
+A Learning Path references courses from different Categories on the training platform which learners can be optionally enforced to complete in an order. [Once a Learning Path is created,](create-a-learning-path.md) administrators can select one or more published courses from the same category or across categories to the Learning Path.
 
 In this article, you will learn more about how to add courses to a Learning Path on the management portal.
 

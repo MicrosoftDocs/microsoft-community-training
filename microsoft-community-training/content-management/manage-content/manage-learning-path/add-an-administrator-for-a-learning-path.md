@@ -12,10 +12,12 @@ ms.prod: azure
 Managing Administrator to a Learning Path can be done by selecting a Learning Path which you have created and using the Manage Administrator option provided.
 
 In this article, you will learn more about how to add an Administrator to a Learning Path on the management portal: 
-### Permissions Level 
-The Microsoft Community Training management portal provides role-based administration and depending upon the type of access level admins can perform an action on the portal. Table below shows administrative role which are allowed to manage administrators to a Learning Path in the portal: 
 
-| Access Level  | Add Adminsitrator for Learning path |
+### Permissions Level 
+
+The Microsoft Community Training management portal provides role-based administration and depending upon the type of access level admins can perform an action on the portal. Table below shows administrative role which are allowed to manage administrators to a Learning Path in the portal:
+
+| Access Level  | Add Administrator for Learning path |
 | --- | --- |
 | Global Administrator | Yes |
 | Organization Administrator | Yes |
@@ -23,7 +25,8 @@ The Microsoft Community Training management portal provides role-based administr
 | Category Administrator | Yes|
 | Course Administrator | No |
 | Group Administrator | No |
- ## Steps to add an Administrator to the Learning Path
+
+## Steps to add an Administrator to the Learning Path
 
 1.	On the Microsoft Community Training portal, login and [**switch to administrator view**](https://microsoftindia.document360.io/docs/configure-platform#step-2--switch-to-administrator-view-of-the-portal).
 

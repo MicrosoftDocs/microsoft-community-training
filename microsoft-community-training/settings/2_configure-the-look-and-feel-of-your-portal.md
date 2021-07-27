@@ -26,7 +26,7 @@ The Microsoft Community Training management portal provides role-based administr
 |Group Administrator	|No|
 
 ## Before you begin
-After login to your Microsoft Community Training portal, [**switch to administrator view**](../get-started/4_step-by-step-configuration-guide.md#step-2--switch-to-administrator-view-of-the-portal) and click on **Settings option** from the left navigation panel.
+After login to your Microsoft Community Training portal, [**switch to administrator view**](../get-started/step-by-step-configuration-guide.md#step-2--switch-to-administrator-view-of-the-portal) and click on **Settings option** from the left navigation panel.
 
 ![Settings option](../media/image%28379%29.png)
 

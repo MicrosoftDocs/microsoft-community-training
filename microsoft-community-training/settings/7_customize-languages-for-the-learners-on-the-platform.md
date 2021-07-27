@@ -29,7 +29,7 @@ The Microsoft Community Training management portal provides role-based administr
 |Group Administrator	|No|
 
 ## Steps to add languages on the platform 
-1. Login to the Microsoft Community Training portal and [**switch to administrator view**](../get-started/4_step-by-step-configuration-guide.md#step-2--switch-to-administrator-view-of-the-portal)
+1. Login to the Microsoft Community Training portal and [**switch to administrator view**](../get-started/step-by-step-configuration-guide.md#step-2--switch-to-administrator-view-of-the-portal)
 
 2. Click on **Settings tab** from the left navigation panel and select **General** option from the list
 

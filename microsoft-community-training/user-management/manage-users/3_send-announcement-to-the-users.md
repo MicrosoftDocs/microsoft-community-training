@@ -33,7 +33,7 @@ The Microsoft Community Training management portal provides role-based administr
 > [!TIP]
 > Administrators can send the announcement either to the whole group or to a specific set of users in the group as required.
 
-1. On the Microsoft Community Training portal, after login [**switch to administrator view**](../../get-started/4_step-by-step-configuration-guide.md#step-2--switch-to-administrator-view-of-the-portal).
+1. On the Microsoft Community Training portal, after login [**switch to administrator view**](../../get-started/step-by-step-configuration-guide.md#step-2--switch-to-administrator-view-of-the-portal).
 
 2. Select a **User Group** under Users tab to whom you want to send announcement
 

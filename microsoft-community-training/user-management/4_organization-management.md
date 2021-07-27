@@ -33,7 +33,7 @@ The support for Organizations can be enabled on the platform by [enabling the ap
 
 ## Create a New Organization
 
-1. On the  Microsoft Community Training portal, after login [**switch to administrator view**](../get-started/4_step-by-step-configuration-guide.md#step-2--switch-to-administrator-view-of-the-portal).
+1. On the  Microsoft Community Training portal, after login [**switch to administrator view**](../get-started/step-by-step-configuration-guide.md#step-2--switch-to-administrator-view-of-the-portal).
 
     ![Create a New Organization](../media/image%28421%29.png)
 
@@ -60,7 +60,7 @@ The support for Organizations can be enabled on the platform by [enabling the ap
 
 ## Edit an Existing Organization
 
-1. On the  Microsoft Community Training portal, after login [**switch to administrator view**](../get-started/4_step-by-step-configuration-guide.md#step-2--switch-to-administrator-view-of-the-portal).
+1. On the  Microsoft Community Training portal, after login [**switch to administrator view**](../get-started/step-by-step-configuration-guide.md#step-2--switch-to-administrator-view-of-the-portal).
 
     ![Edit an Existing Organization](../media/image%28421%29.png)
 
@@ -94,7 +94,7 @@ Click on the **Delete** icon from the Manage Organizations panel to Delete an Or
 
 ## Create a New Organization Administrator
 
-1. On the  Microsoft Community Training portal, after login [**switch to administrator view**](../get-started/4_step-by-step-configuration-guide.md#step-2--switch-to-administrator-view-of-the-portal).
+1. On the  Microsoft Community Training portal, after login [**switch to administrator view**](../get-started/step-by-step-configuration-guide.md#step-2--switch-to-administrator-view-of-the-portal).
 
     ![Create a New Organization Administrator](../media/image%28421%29.png)
 
@@ -122,7 +122,7 @@ Click on the **Delete** icon from the Manage Organizations panel to Delete an Or
 
 ## Edit an Existing Organization Administrator
 
-1. On the  Microsoft Community Training portal, after login [**switch to administrator view**](../get-started/4_step-by-step-configuration-guide.md#step-2--switch-to-administrator-view-of-the-portal).
+1. On the  Microsoft Community Training portal, after login [**switch to administrator view**](../get-started/step-by-step-configuration-guide.md#step-2--switch-to-administrator-view-of-the-portal).
 
 2. Select **Organization Administrators** option under Users tab on the top-left of the page.
 

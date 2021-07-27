@@ -86,4 +86,4 @@ From the courses grid, you can:
 
 1. Click on the respective column headings to sort the rows by any column.
 2. Click **Download List** to download the data into an Excel sheet.
-3. Select a row to [**view detailed information**](./4_course-view-report.md) about course completion and learner performance for all the learners enrolled for the specific course.
+3. Select a row to [**view detailed information**](./course-view-report.md) about course completion and learner performance for all the learners enrolled for the specific course.

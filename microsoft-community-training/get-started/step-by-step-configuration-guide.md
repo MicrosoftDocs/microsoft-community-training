@@ -29,7 +29,7 @@ Once you login to the portal, by default, you will be shown the learner view. Cl
 
 ![View as admin](../media/View%20as%20admin.png)
 
-The management portal provides all the administrative functions like course management, user management, tracking and monitoring the training with analytics, portal settings, etc. as highlight below. It is designed on [**role-based access**](../get-started/3_user-role-and-management-portal-overview.md) and functionalities are available to the users as per granted management permissions.
+The management portal provides all the administrative functions like course management, user management, tracking and monitoring the training with analytics, portal settings, etc. as highlight below. It is designed on [**role-based access**](../get-started/user-role-and-management-portal-overview.md) and functionalities are available to the users as per granted management permissions.
 
 ![Role-based access](../media/image%28426%29.png)
 
@@ -56,7 +56,7 @@ All the courses in the platform are created under a category. These catego
 
 ![Upload content to portal](../media/Upload%20content%20to%20portal.png)
 
-To add learning material into your training portal, first you need to [**define a category**](../content-management/create-content/create-course-category/2_create-a-category.md)  and [**create courses under the category**](https://microsoftindia.document360.io/docs/create-a-course-category). This can be done from the **Content Tab** in the management portal. When you create a new course, remember the following: 
+To add learning material into your training portal, first you need to [**define a category**](../content-management/create-content/create-course-category/create-a-category.md)  and [**create courses under the category**](https://microsoftindia.document360.io/docs/create-a-course-category). This can be done from the **Content Tab** in the management portal. When you create a new course, remember the following: 
 
 1. The course name should simple and clear. Users should instantly understand the topic of the course upon reading the title. 
 
@@ -64,7 +64,7 @@ To add learning material into your training portal, first you need to [**define 
 
 3. Upload a customized image relating to the course topic to provide visual cue to the learners. Try to create different thumbnails for each course, as to avoid redundancy by using the same image. 
 
- Once you have created the courses, [**add learning materials**](../content-management/create-content/create-course-category/4_upload-content-to-a-course.md) like Video, PDFs, PowerPoint, YouTube Links, etc. and [**manage the course options**](../content-management/manage-content/manage-course-category/3_manage-users-for-a-course.md) according to your needs. Lastly, [**add practice quiz and exams**](https://microsoftindia.document360.io/docs/create-practice-course-and-exam) before [**publishing the course**](https://microsoftindia.document360.io/docs/publishing-course) for the learners. 
+ Once you have created the courses, [**add learning materials**](../content-management/create-content/create-course-category/upload-content-to-a-course.md) like Video, PDFs, PowerPoint, YouTube Links, etc. and [**manage the course options**](../content-management/manage-content/manage-course-category/manage-users-for-a-course.md) according to your needs. Lastly, [**add practice quiz and exams**](https://microsoftindia.document360.io/docs/create-practice-course-and-exam) before [**publishing the course**](https://microsoftindia.document360.io/docs/publishing-course) for the learners. 
  
  ![create course gif](../media/create-course-gif.gif)
  
@@ -119,7 +119,7 @@ The list mentioned above is just indicative. You can use any other method as dee
  
 Once the portal has been rolled out to the learners and they have started consuming the course content, you can  use the inbuilt analytics available in the management portal to track course enrollment/completion and monitor all learner activities on the portal.  
  
-To view these analytics, go to the **Analytics** tab in the management view of the portal. In this section, you will [**find reports**](../analytics/2_analytics-overview.md) providing information on course enrollment across categories and courses, learners performance, content quality and much more. You can also create custom reports to analyze specific information using Power BI. 
+To view these analytics, go to the **Analytics** tab in the management view of the portal. In this section, you will [**find reports**](../analytics/analytics-overview.md) providing information on course enrollment across categories and courses, learners performance, content quality and much more. You can also create custom reports to analyze specific information using Power BI. 
  
 ![analytics overview](../media/analytics-overview.gif)
 

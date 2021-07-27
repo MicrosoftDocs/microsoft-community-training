@@ -82,6 +82,6 @@ To add client IP, click on add client IP and select the save icon
 
     ![Query editor](../../media/image%28353%29.png)
 
-2. The admin to login to the above portal can be obtained from **Key vault**. See [accessing Key vaults](./3_database-schema.md#accessing-key-vault) section for more details.
+2. The admin to login to the above portal can be obtained from **Key vault**. See [accessing Key vaults](./database-schema.md#accessing-key-vault) section for more details.
 
     ![See accessing Key vaults](../../media/image%28354%29.png)

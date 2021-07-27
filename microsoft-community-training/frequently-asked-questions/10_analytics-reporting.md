@@ -14,7 +14,7 @@ ms.prod: azure
 ### How to track learner’s progress on the Microsoft Community Training platform?
 Microsoft Community Training allows organizations to track and stay updated on learner's progress and performance scores through quizzes and exams. Customers can use the inbuilt analytics to track learners' engagements and progress. Also, individual learner’s progress can be tracked and downloaded. 
 
-For more information, [**refer here**](../analytics/in-built-reports/2_overall-summary.md).
+For more information, [**refer here**](../analytics/in-built-reports/overall-summary.md).
 
 ### Do learners have to watch the whole video for the lesson to be considered complete? 
 Video lessons are marked complete only after the learners have watched the video for the entire duration. However, if videos are coming from external links such as YouTube, it is marked complete the moment learners play it. 
@@ -36,7 +36,7 @@ Learners can view their overall course progress on the home page as shown in Fig
 ![Lesson to be taken or completed](../media/image%28318%29.png)
 
 **For the Administrator**  
-Administrator can view overall learner progress and course completion from the management portal. Check out [**this article**](../analytics/2_analytics-overview.md) for more details. 
+Administrator can view overall learner progress and course completion from the management portal. Check out [**this article**](../analytics/analytics-overview.md) for more details. 
 
 ### How is the course completion verified on the Microsoft Community Training? 
 Microsoft Community Training can track when any content is played/consumed and real-time analytics are provided on individual user's engagement and course completion. However, we recommend organizations to have quizzes and final exams to ensure and validate the learner’s understanding and issue certificates based on the assessment passing criteria. 
@@ -81,25 +81,25 @@ For more information, contact us [**via the helpdesk**](https://go.microsoft.com
 
 To provide a rich out of the box experience to an admin, Microsoft Community Training platform provides different views, designed to facilitate tracking learner progress and program monitoring at various levels:
 
-1.	[**Overall Summary**](../analytics/in-built-reports/2_overall-summary.md) - Provides a high-level picture of learner enrolments and course completion 
+1.	[**Overall Summary**](../analytics/in-built-reports/overall-summary.md) - Provides a high-level picture of learner enrolments and course completion 
 
-2.	[**Category Analytics**](../analytics/in-built-reports/3_category-view-report.md) - Allows an admin to track the progress of various courses in a category
+2.	[**Category Analytics**](../analytics/in-built-reports/category-view-report.md) - Allows an admin to track the progress of various courses in a category
 
-3.	[**Course Analytics**](../analytics/in-built-reports/4_course-view-report.md) - Allows an admin to track the course progress
+3.	[**Course Analytics**](../analytics/in-built-reports/course-view-report.md) - Allows an admin to track the course progress
 
-4.	[**Group Analytics**](../analytics/in-built-reports/5_group-view-report.md) - Allows an admin to view the progress of a group of users
+4.	[**Group Analytics**](../analytics/in-built-reports/group-view-report.md) - Allows an admin to view the progress of a group of users
 
-5.	[**Individual Learner’s Report Card**](../analytics/in-built-reports/6_learner-report-card-view.md) - Allows an admin to view the progress of a learner in all the different courses
+5.	[**Individual Learner’s Report Card**](../analytics/in-built-reports/learner-report-card-view.md) - Allows an admin to view the progress of a learner in all the different courses
 
 ### How to check the number of learners enrolled in a course and course completion percentage?
 Category/Course Analytics provides admin a glance at the learner enrolments, learner engagement, and course completion for the courses. It provides insights on content quality, facilitates comparative analytics across courses, and brings to admins notice things that require attention.
 
 To access the course and category analytics, you can either select the View Analytics option from (…) More menu for a Category / Course under the Courses tab or select a specific row from the Category grid in the overall summary view page. 
 
-For more information, please [**refer here**](../analytics/2_analytics-overview.md).
+For more information, please [**refer here**](../analytics/analytics-overview.md).
 
 ### How to view individual learners average quiz scores, courses enrolled, and completed? 
-From the group view grid you will be able to see user’s progress and quiz scores. Please [**refer here**](../analytics/in-built-reports/5_group-view-report.md) for more information.
+From the group view grid you will be able to see user’s progress and quiz scores. Please [**refer here**](../analytics/in-built-reports/group-view-report.md) for more information.
 
 ### How is the course completion  percentage computed for a learner? 
 Course completion percentage is computed based on the course items (including lesson, quizzes and exams) completed for a given course by the learners. For e.g. if we have 5 lessons in a course then post completion of each lesson course progress will be increased by 20%.
@@ -111,7 +111,7 @@ Course completion percentage is computed based on the course items (including le
 
 Learner Report Card View provides administrators to monitor and track each learner’s progress and performance across all the enrolled courses. This information helps administrators (especially group admins) track course completion and follow up with learners to drive adoption of the training program.
 
-To access the Learner Report Card View, you need to select a user from the group details page or All users list page. For more information, [**refer here**](../analytics/in-built-reports/6_learner-report-card-view.md).
+To access the Learner Report Card View, you need to select a user from the group details page or All users list page. For more information, [**refer here**](../analytics/in-built-reports/learner-report-card-view.md).
 
 ### What is the available file format to download the analytics? 
 Currently, administrators can download analytics in CSV format, Admins can also make use of Power BI integration to manipulate data as per their requirement.

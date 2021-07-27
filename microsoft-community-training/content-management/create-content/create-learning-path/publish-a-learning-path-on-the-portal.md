@@ -9,7 +9,7 @@ ms.prod: azure
 
 # Publish a Learning Path on the Portal
 
-Any new Learning Path created on the Microsoft Community Training management portal will not be accessible to the leaners unless and until it is published. In other words, any changes made to the Learning Path (i.e. adding a new courses) will come into effect only when changes are published.
+Any new Learning Path created on the Microsoft Community Training management portal will not be accessible to the learners unless and until it is published. In other words, any changes made to the Learning Path (i.e. adding a new courses) will come into effect only when changes are published.
 
 In this article, you will learn about steps admin needs to perform before publishing a Learning Path on the management portal.
 ### Permissions Level 

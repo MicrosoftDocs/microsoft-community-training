@@ -22,12 +22,12 @@ The platform follows a role-based administration hierarchy. There are four admin
 
 4. **Group Administrator** - This role is assigned by organization administrator to a grassroot-level facilitator, trainer, supervisor or manager who is responsible to drive learner engagement and adoption of the training program on the ground. The group administrator takes care of onboarding users, assigning courses and driving course completion via announcements/discussions forum.
 
-For more information, please visit **[this article](../get-started/3_user-role-and-management-portal-overview.md)**.
+For more information, please visit **[this article](../get-started/user-role-and-management-portal-overview.md)**.
 
 ### How many administrators can the Microsoft Community Training portal have? 
 There are no such limitations, the portal can have any number of administrators. Microsoft Community Training management portal provides four types of administrative roles to a user on the portal - Organization Administrator, Category Administrator, Course Administrator and Group Administrator. 
 
-For more information, please visit **[this article](../get-started/3_user-role-and-management-portal-overview.md)**.
+For more information, please visit **[this article](../get-started/user-role-and-management-portal-overview.md)**.
 
 ### How can I add administrator to specific group and restrict access to any other groups and courses? 
 Group administrators are allowed to manage users in the group, assign courses, and track their completion. By default, they don't have course management access. Refer this [**article**](../user-management/add-users/3_add-an-administrator-to-the-portal.md) for more information. 
@@ -35,7 +35,7 @@ Group administrators are allowed to manage users in the group, assign courses, a
 ### How to switch between administrator and learner view?
 Once you login to the portal, by default, you will be shown the learner view. Click the round user icon on the top right of the screen and choose the View as an administrator option from the drop-down menu to open the management portal.
 
-For more information, [**refer here**](../get-started/4_step-by-step-configuration-guide.md#step-2--switch-to-administrator-view-of-the-portal).
+For more information, [**refer here**](../get-started/step-by-step-configuration-guide.md#step-2--switch-to-administrator-view-of-the-portal).
 
 ### Can a group administrator also be a learner on the platform?
 Yes, group administrators can be enrolled to courses on the platform and consumed training content as a learner.

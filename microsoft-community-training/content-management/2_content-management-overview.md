@@ -74,7 +74,7 @@ For example, an organization who wants to certify their technician on Washing Ma
 
 #### Difference between a Practice Quiz and an Exam
 
-|  | Practice Quiz  | Exam |
+| Area | Practice Quiz  | Exam |
 | --- | --- | --- |
 | Purpose | Allows the learner to revise the concept of the previous lessons.  Use it as a confidence-building reiteration of the key points in the previous lessons before moving further | Means of Assessment where the learner is evaluated for the questions. Based on the performance in the Exam, the learner is awarded a Certificate of Completion. |
 | Functionalities | There is no restriction on the number of attempts for a Practice Quiz. There can be one or more practice quizzes in a course | There is passing percentage, a limit on the number of attempts and shuffle mode for an Exam. There can be only one Exam at the end of the course |
@@ -123,7 +123,7 @@ Here are the detailed steps on [**how to publish a Learning path**](../content-m
 ## View content analytics to track and measure effectiveness
 
 Microsoft Community Training platform provides out of the box rich analytics for organizations to track overall learner’s enrollment and completion for different courses, measure learner’s performance and ensure quality of content in satisfactory and meets the success criteria set by the organization.
-The management portal has content and user related in-built reports at [**category level**](../analytics/in-built-reports/3_category-view-report.md) to help administrators track and measure effectiveness of the learning content.
+The management portal has content and user related in-built reports at [**category level**](../analytics/in-built-reports/category-view-report.md) to help administrators track and measure effectiveness of the learning content.
 
 ![Track analytics](../media/Track%20analytics.png)
 

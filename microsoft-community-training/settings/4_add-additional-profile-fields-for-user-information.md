@@ -33,7 +33,7 @@ The Microsoft Community Training management portal provides role-based administr
 
 ## Steps to create additional profile fields
 
-1. Login to the Microsoft Community Training portal and [**switch to administrator view**](../get-started/4_step-by-step-configuration-guide.md#step-2--switch-to-administrator-view-of-the-portal)
+1. Login to the Microsoft Community Training portal and [**switch to administrator view**](../get-started/step-by-step-configuration-guide.md#step-2--switch-to-administrator-view-of-the-portal)
 
 2. Click on **Settings tab** from the left navigation panel and select  Additional Profile fields options from the list
 
@@ -64,7 +64,7 @@ The Microsoft Community Training management portal provides role-based administr
 ## Add Privacy Terms and Conditions 
 You can include a link to privacy terms that will be shown to users on the portal when they view their profile information post login.
 
-1. Login to the Microsoft Community Training portal and [**switch to administrator view**](../get-started/4_step-by-step-configuration-guide.md#step-2--switch-to-administrator-view-of-the-portal)
+1. Login to the Microsoft Community Training portal and [**switch to administrator view**](../get-started/step-by-step-configuration-guide.md#step-2--switch-to-administrator-view-of-the-portal)
 
 2. Click on **Settings tab** from the left navigation panel and select **General** from the list
 

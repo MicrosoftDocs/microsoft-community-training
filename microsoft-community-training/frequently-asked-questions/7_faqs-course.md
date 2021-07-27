@@ -293,7 +293,7 @@ No. There is no limit to the no. of categories and courses that administrator ca
 
 #### How can I track and view learner progress on the platform? 
 
-You will be able to track and view user’s progress from our analytics tab on the admin dashboard.  For further information please visit [**this article**](../analytics/2_analytics-overview.md).
+You will be able to track and view user’s progress from our analytics tab on the admin dashboard.  For further information please visit [**this article**](../analytics/analytics-overview.md).
 
 ### How can I add additional resources or exercises as part of a course?
 Currently,  Microsoft Community Training platform doesn't support attaching additional content or  exercises  as part of courses out of the box. Howover, customers can achieve this by using third-party tools such as Microsoft Forms or attaching exercise files in word and embed them as a lesson in a course. 

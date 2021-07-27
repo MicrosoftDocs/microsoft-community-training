@@ -14,7 +14,7 @@ Microsoft Community Training is an Azure-powered online learning platform to ena
 
 It is available as a [**Managed PaaS offering via Azure Marketplace**](https://azuremarketplace.microsoft.com/en-us/marketplace/apps/project-sangam.microsoft-community-training?tab=Overview) that customers can easily deploy in their subscriptions. The platform is available for free and an organization only bears platform hosting and consumption charges on Azure. 
 
-[**Click here**](../get-started/2_microsoft-community-training-overview.md) to learn more about the platform. 
+[**Click here**](../get-started/microsoft-community-training-overview.md) to learn more about the platform. 
 
 ### When was Microsoft Community Training launched? 
 Microsoft community training was publicly announced on 22nd February 2017. It is currently in Public Preview and planning to become Generally Available by 2021. 
@@ -133,7 +133,7 @@ Yes, Microsoft Community Training platform comes with exhaustive instrumentation
 
 Apart from the inbuilt reports, customers can create dashboard and custom reports using third-party visualization tools such as Power BI. 
 
-For more information on analytics, check out [**this article**](../analytics/2_analytics-overview.md).
+For more information on analytics, check out [**this article**](../analytics/analytics-overview.md).
 
 ####  How to delete my training portal? 
 When you no longer need your training portal, you can delete it by deleting the resource group from the Azure portal. [Refer to this article](../infrastructure-management/configure-your-platform-infrastructure/6_delete-your-training-instance.md) for more details.  

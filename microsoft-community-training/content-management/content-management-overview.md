@@ -112,13 +112,13 @@ Content creation is one of the core activities of any online learning program. T
  Here are the detailed steps on [**how to publish a course**](https://microsoftindia.document360.io/docs/publishing-course) for the learners on the portal.
 
 ### Step 6 – Create a new Learning path
-Here are the detailed steps on [**how to create a new Learning path** ](../content-management/create-content/create-learning-path/2_create-a-learning-path.md) for the learners on the portal.
+Here are the detailed steps on [**how to create a new Learning path** ](../content-management/create-content/create-learning-path/create-a-learning-path.md) for the learners on the portal.
 
 #### Step 7 – Add courses to the Learning path
-Here are the detailed steps to [**add courses to the Learning path**](../content-management/create-content/create-learning-path/3_add-course-to-a-learning-path.md) for the learners on the portal.
+Here are the detailed steps to [**add courses to the Learning path**](../content-management/create-content/create-learning-path/add-course-to-a-learning-path.md) for the learners on the portal.
 
 ### Step 8 – Publish the Learning path  
-Here are the detailed steps on [**how to publish a Learning path**](../content-management/create-content/create-learning-path/4_publish-a-learning-path-on-the-portal.md).  
+Here are the detailed steps on [**how to publish a Learning path**](../content-management/create-content/create-learning-path/publish-a-learning-path-on-the-portal.md).  
 
 ## View content analytics to track and measure effectiveness
 

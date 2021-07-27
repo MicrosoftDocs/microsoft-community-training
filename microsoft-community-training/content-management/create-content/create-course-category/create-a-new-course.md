@@ -67,7 +67,7 @@ For example, trainers can pre-assess a learner's existing knowledge of the topic
 
 9. Click or tap **Create** button to create the course.
 
-**Next>** Once a course is created, the administrator can start [**uploading the content for the course**](../create-course-category/4_upload-content-to-a-course.md)
+**Next>** Once a course is created, the administrator can start [**uploading the content for the course**](../create-course-category/upload-content-to-a-course.md)
 
 > [!WARNING]
 > Best Practices
@@ -98,7 +98,7 @@ Before you start doing the bulk upload of courses under a category, you need to 
 6.	Once the ZIP file is created, your content is ready for bulk upload. You can rename the ZIP file if required. 
 
 > [!IMPORTANT]
-> Course Details (like thumbnail, description, enrollment type, etc.), Practice quizzes and exams cannot be added to the courses via bulk upload functionality unless [**you are exporting courses from one instance to another**](../../manage-content/manage-course-category/6_move-course-content-across-training-instance.md). The admins have to add them manually later.
+> Course Details (like thumbnail, description, enrollment type, etc.), Practice quizzes and exams cannot be added to the courses via bulk upload functionality unless [**you are exporting courses from one instance to another**](../../manage-content/manage-course-category/move-course-content-across-training-instance.md). The admins have to add them manually later.
 ### Steps for bulk upload courses to the portal
 
 1.	Click or tap **More (...)** icon on the category list pane to bulk upload the courses under a category.

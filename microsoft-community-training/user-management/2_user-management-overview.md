@@ -27,11 +27,11 @@ Learner is the default role assigned to any user added to the platform. Learners
 
 **Administrator**
 
-Administrators are the users who can access the [**management portal**](../get-started/4_step-by-step-configuration-guide.md) on the platform and are responsible responsible for managing and delivering the training program.
+Administrators are the users who can access the [**management portal**](../get-started/step-by-step-configuration-guide.md) on the platform and are responsible responsible for managing and delivering the training program.
 
 There are six types of administrator on the platform (i.e. Global Administrator, Organization Administrator, Learning Path Administrator, Category Administrator, Course Administrator and Group Administrator) each responsible for performing specific activities on the management portal. Administrators can create organizations, groups and courses, add users and assign content, track progress and drive content completion via announcements to users and make other users as administrators on the platform.
 
-For more details, please visit the [**user personas and management portal overview article**](../get-started/3_user-role-and-management-portal-overview.md).
+For more details, please visit the [**user personas and management portal overview article**](../get-started/user-role-and-management-portal-overview.md).
 
 ## Create Organizations and Groups
 

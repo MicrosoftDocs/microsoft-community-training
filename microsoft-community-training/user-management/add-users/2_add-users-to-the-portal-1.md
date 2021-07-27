@@ -30,7 +30,7 @@ The Microsoft Community Training management portal provides role-based administr
 
 ### Steps to add learners via All Users list
 
-1. On the Microsoft Community Training portal, after login [**switch to administrator view**](../../get-started/4_step-by-step-configuration-guide.md#step-2--switch-to-administrator-view-of-the-portal)
+1. On the Microsoft Community Training portal, after login [**switch to administrator view**](../../get-started/step-by-step-configuration-guide.md#step-2--switch-to-administrator-view-of-the-portal)
 
 2. Select **All Users** tab in the left-navigation page from users module
 
@@ -73,7 +73,7 @@ The Microsoft Community Training management portal provides role-based administr
 
 Before you begin, please create a group using the steps mentioned [**in this article**](./../organize-users/2_create-a-new-group.md).
 
-1. On the Microsoft Community Training portal, after login [**switch to administrator view**](../../get-started/4_step-by-step-configuration-guide.md#step-2--switch-to-administrator-view-of-the-portal) and select a specific group under Users tab
+1. On the Microsoft Community Training portal, after login [**switch to administrator view**](../../get-started/step-by-step-configuration-guide.md#step-2--switch-to-administrator-view-of-the-portal) and select a specific group under Users tab
 
     ![Steps to add learners via Group](../../media/image%2856%29.png)
 

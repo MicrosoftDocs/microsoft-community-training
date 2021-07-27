@@ -14,7 +14,7 @@ Microsoft Community Training is an Azure-powered online learning platform to ena
 
 It is available as a [**Managed PaaS offering via Azure Marketplace**](https://azuremarketplace.microsoft.com/en-us/marketplace/apps/project-sangam.microsoft-community-training?tab=Overview) that customers can easily deploy in their subscriptions. The platform is available for free and an organization only bears platform hosting and consumption charges on Azure. 
 
-[**Click here**](../get-started/2_microsoft-community-training-overview.md) to learn more about the platform. 
+[**Click here**](../get-started/microsoft-community-training-overview.md) to learn more about the platform. 
 
 ### When was Microsoft Community Training launched? 
 Microsoft community training was publicly announced on 22nd February 2017. It is currently in Public Preview and planning to become Generally Available by 2021. 

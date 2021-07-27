@@ -29,7 +29,7 @@ Once you login to the portal, by default, you will be shown the learner view. Cl
 
 ![View as admin](../media/View%20as%20admin.png)
 
-The management portal provides all the administrative functions like course management, user management, tracking and monitoring the training with analytics, portal settings, etc. as highlight below. It is designed on [**role-based access**](../get-started/3_user-role-and-management-portal-overview.md) and functionalities are available to the users as per granted management permissions.
+The management portal provides all the administrative functions like course management, user management, tracking and monitoring the training with analytics, portal settings, etc. as highlight below. It is designed on [**role-based access**](../get-started/user-role-and-management-portal-overview.md) and functionalities are available to the users as per granted management permissions.
 
 ![Role-based access](../media/image%28426%29.png)
 

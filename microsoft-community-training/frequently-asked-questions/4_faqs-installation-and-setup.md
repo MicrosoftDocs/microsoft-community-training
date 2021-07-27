@@ -69,7 +69,7 @@ For more details, please the [**installation overview article**](../infrastructu
 ### What kind of technical capability is required to deploy and setup Microsoft Community Training Platform? Do I need a implementation partner to help with the platform configuration and setup implementation?
 Microsoft community training is designed to be easily deployed and managed by the customers with minimal IT overhead. Customers can [**set up the platform**](../infrastructure-management/install-your-platform-instance/3_installation-guide-detailed-steps.md) on their Azure subscription on their own in a few simple clicks. 
 
-Your IT admin or cloud administrator responsible for managing the [**Azure Portal**](https://portal.azure.com/) can deploy the platform on your Azure subscription. Once the platform is deployed, the training manager can [**start configuring the platform and upload training content**](../get-started/4_step-by-step-configuration-guide.md). No coding required. 
+Your IT admin or cloud administrator responsible for managing the [**Azure Portal**](https://portal.azure.com/) can deploy the platform on your Azure subscription. Once the platform is deployed, the training manager can [**start configuring the platform and upload training content**](../get-started/step-by-step-configuration-guide.md). No coding required. 
 
 You do not need a technical team or a developer  to implement the platform unless you want to extend platform capabilities using our APIs or integrate the platform with your existing system.
 

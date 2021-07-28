@@ -36,6 +36,8 @@
            href: user-management/manage-users/2_assign-content-to-group-users.md
          - name: Send announcement to the users
            href: user-management/manage-users/3_send-announcement-to-the-users.md
+         - name: Edit user profile on the platform
+           href: user-management/manage-users/edit-user-profile-on-the-platform.md
          - name: Delete a user from the group
            href: user-management/manage-users/4_remove-user-from-group.md
          - name: Delete a user from the platform
@@ -140,6 +142,8 @@
         href: settings/11_restrict-content-access-to-group-administrators.md
       - name: Configurations on the Training Platform
         href: settings/11_configurations-on-the-training-platform.md
+      - name: Link to External Website on Learner Home page
+        href: settings/link-to-external-website-on-learner-Homepage.md
    - name: Infrastructure Management
      items:
       - name: Install your platform instance
@@ -176,6 +180,8 @@
            href: infrastructure-management/configure-your-platform-infrastructure/10_azure-front-door-migration.md
          - name: Learner Action Events Infrastructure
            href: infrastructure-management/configure-your-platform-infrastructure/10_learner-action-events-infrastructure.md
+         - name: Set up Custom Home Page for your MCT Instance
+           href: infrastructure-management/configure-your-platform-infrastructure/set-up-custom-homepage-for-your-mct-instance.md
       - name: Monitor your platform Infrastructure
         items:
          - name: Monitor your platform Infrastructure
@@ -232,3 +238,5 @@
         items:
          - name: What's new in March 2021
            href: whats-new-in-microsoft-community-training/2021/2_what-new-in-march-2021.md
+         - name: What's new in July 2021
+           href: whats-new-in-microsoft-community-training/2021/what-new-in-july-2021.md

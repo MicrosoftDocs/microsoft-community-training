@@ -136,7 +136,7 @@ Yes, you can disable the comment functionality from the lessons. Once disabled, 
 
 Microsoft Community Training platform has  a functionality called discussion forum which learners can use to ask questions to other participants, trainers or administrator. Anyone who is registered for the course (or admins) can respond to these questions. 
  
-Refer this [**article**](../learner-experience/2_web-app.md#step-6-discuss-and-share-information-with-peers) for more information. 
+Refer this [**article**](../learner-experience/2_web-app.md#step-7-discuss-and-share-information-with-peers) for more information. 
 
 ### What is the Discussion Forum feature? 
 Discussion Forums enable learners to ask their queries on a specific lesson which can be answered by administrators or interact with peers woh are enrolled for the course.  

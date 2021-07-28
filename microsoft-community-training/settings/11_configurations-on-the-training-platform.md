@@ -61,7 +61,7 @@ By default, this feature is kept disabled with value as **False** and therefore 
 Features:NotificationDisabled
 ```
 
-In the learner's view, the portal provides a [Notification icon](../learner-experience/2_web-app.md#step-7-view-notifications) which notifies the learner of any new course being assigned to the learner. The administrators have the flexibility to disable this features depending upon the scenario.
+In the learner's view, the portal provides a [Notification icon](../learner-experience/2_web-app.md#step-8-view-notifications) which notifies the learner of any new course being assigned to the learner. The administrators have the flexibility to disable this features depending upon the scenario.
 
 By default, this feature is **Disabled** with value as **False** so that learners gets notifications in real-time.
 

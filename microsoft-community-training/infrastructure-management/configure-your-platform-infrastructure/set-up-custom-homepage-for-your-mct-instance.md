@@ -63,12 +63,12 @@ Here are some pre-requisites before you follow the steps are to be incorporated 
 **You've successfully deployed a static webpage (Custom Home Page) to Azure subscription where MCT is deployed. Launch the website to view.**
 
 >[!Note]
->For more details please refer [https://docs.microsoft.com/azure/storage/blobs/storage-blob-static-website-host](https://docs.microsoft.com/azure/storage/blobs/storage-blob-static-website-host)
+>For more details please refer [https://docs.microsoft.com/en-us/azure/storage/blobs/storage-blob-static-website-host](/azure/storage/blobs/storage-blob-static-website-host)
 
 ## Tracking users signing in through Custom Homepage
 
 Track number of users signing is to MCT through custom home page can be achieved through AppInsights tracking:
-[Azure Application Insights for JavaScript web apps - Azure Monitor | Microsoft Docs](https://docs.microsoft.com/azure/azure-monitor/app/javascript).
+[Azure Application Insights for JavaScript web apps](/azure/azure-monitor/app/javascript)
 
 You need to update Instrumentation key as shown below for your Azure subscription having MCT and custom home page deployed. Instrumentation Key can be found in AppInsights section in Azure portal:
 

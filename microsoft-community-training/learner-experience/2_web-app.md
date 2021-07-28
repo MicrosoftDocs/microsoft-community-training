@@ -25,7 +25,7 @@ This article explains how learners can access the training content using the web
 1. When user is logging into the platform for the first time, he or she will be asked to complete the profile information (at least the mandatory fields).
 
 2. The fields displayed on the profile page  are configured by the administrator. For more details, see [**this article**](../settings/4_add-additional-profile-fields-for-user-information.md).
-:::image type="content" source="../media/MCT Complete your profile.png" alt-text="MCT Complete your profile":::
+:::image type="content" source="../media/MCT Complete your profile.png" alt-text="MCT Profile Completion":::
 
 3. Complete the profile information and click  on **Get Started**.
 

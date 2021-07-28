@@ -12,7 +12,7 @@ Microsoft community training enables you to provide a link to an external websit
 
 ## Steps to configure external website link and name
 
-1. Login to [Azure portal](http://www.portal.azure.com/) using your credentials.
+1. Login to [Azure portal](https://www.portal.azure.com/) using your credentials.
 
 2. Select the **App Services** icon from the left side menu.
 

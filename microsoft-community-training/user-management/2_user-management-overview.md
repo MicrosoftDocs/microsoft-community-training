@@ -23,7 +23,7 @@ In Microsoft Community Training platform, there are two types of users - a Learn
 
 **Learner**
 
-Learner is the default role assigned to any user added to the platform. Learners will be able to view and consume courses uploaded by the administrators on the training portal. While accessing the training content, learners can use discussion forum to [add/share comments](../learner-experience/3_mobile.md) with others and stay informed on the important updates sent by the trainers.
+Learner is the default role assigned to any user added to the platform. Learners will be able to view and consume courses uploaded by the administrators on the training portal. While accessing the training content, learners can use discussion forum to [add/share comments](../learner-experience/mobile.md) with others and stay informed on the important updates sent by the trainers.
 
 **Administrator**
 

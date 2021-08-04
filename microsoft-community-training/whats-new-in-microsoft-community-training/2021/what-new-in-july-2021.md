@@ -44,7 +44,7 @@ In this release we have enabled you to [provide a link to an external website on
 
 ## Learner language change post login
 
-Learners can now [switch the language of the portal](../../learner-experience/2_web-app.md#step-3-choose-the-language) even after logging in into the platform. The available languages would be now present as a drop down in the platform for the learner to easily switch between languages.
+Learners can now [switch the language of the portal](../../learner-experience/web-app.md#step-3-choose-the-language) even after logging in into the platform. The available languages would be now present as a drop down in the platform for the learner to easily switch between languages.
 :::image type="content" source="../../media/image(491).png" alt-text="Learner language change New Feature":::
 
 ## New application configurations

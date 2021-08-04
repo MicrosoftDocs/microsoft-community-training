@@ -22,7 +22,7 @@ You can create a new Azure subscription by visiting [**this link**](https://azur
 ### Which devices or platforms is Microsoft Community Training available on? 
 Microsoft Community Training is an end-point agnostic solution which allows learners to consume learning content hosted on the platform in the following manner: 
 
-1.	Standalone web and mobile application. [**Click here**](../learner-experience/2_web-app.md) for more details.
+1.	Standalone web and mobile application. [**Click here**](../learner-experience/web-app.md) for more details.
 
     | Device Platform | How to access the portal? |
     | --- | --- |

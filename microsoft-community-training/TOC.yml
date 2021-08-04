@@ -97,9 +97,9 @@
    - name: Learner Experience
      items:
       - name: Learner Experience on the web portal
-        href: learner-experience/2_web-app.md
+        href: learner-experience/web-app.md
       - name: Learner Experience on the mobile app
-        href: learner-experience/3_mobile.md
+        href: learner-experience/mobile.md
    - name: Analytics
      items:
       - name: Analytics - Overview

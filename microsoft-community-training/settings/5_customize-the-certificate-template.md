@@ -32,6 +32,7 @@ Here are the simple steps to customize the certificate template on the platform:
 5. Follow the instructions on the first slide of the PowerPoint template to edit the certificate.
 
 6. Some samples of customized certificate templates are provided.
+[sample-certificate-template (6).pptx](https://github.com/MicrosoftDocs/microsoft-community-training/files/6938903/sample-certificate-template.6.pptx)
 
 7. Create a PDF format of the certificate template and upload it by clicking on 'Upload Custom PDF Template' or clicking on the File Name if you have already uploaded a template before.
 

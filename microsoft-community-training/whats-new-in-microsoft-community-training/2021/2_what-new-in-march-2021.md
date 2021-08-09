@@ -25,7 +25,7 @@ The platform has introduced a [new administrative hierarchy](../../get-started/u
 
 ## Prioritize courses while assigning them to learners*
 
-Administrators would now be able to [assign priorities to the courses](../../user-management/manage-users/2_assign-content-to-group-users.md) being assigned to the learners.
+Administrators would now be able to [assign priorities to the courses](../../user-management/manage-users/assign-content-to-group-users.md) being assigned to the learners.
 
 Based on these priorities, the learner would be able to focus first on critical things and plan their learnings in better way.
 

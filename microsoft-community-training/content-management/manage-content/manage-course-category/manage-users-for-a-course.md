@@ -37,7 +37,7 @@ In this topic, you will learn the steps on how to enroll users directly to a cou
 
 3.	You can choose between the following two methods to enroll users for the course.
     * **Add users** – This option is used to add one user to the course at a time. Click or tap Add User, enter the phone number and then click or tap add user.
-    * **Bulk upload users** – This option is used to add multiple users to the course at once. Click or tap on the Bulk upload users option and select the CSV file containing the list of users and then click or tap on Upload button. To structure the CSV file in the correct format - [**Click here to see detailed steps**](../../../user-management/organize-users/2_create-a-new-group.md).
+    * **Bulk upload users** – This option is used to add multiple users to the course at once. Click or tap on the Bulk upload users option and select the CSV file containing the list of users and then click or tap on Upload button. To structure the CSV file in the correct format - [**Click here to see detailed steps**](../../../user-management/organize-users/create-a-new-group.md).
 
 ![Manage users](../../../media/Manage%20users.png)
 

@@ -16,7 +16,7 @@ To get started with content assignment for learners, administrator needs to firs
 For any course that an administrator assigns (as part of a Learning Path or directly), they can **assign priority** (Required, Recommended, Optional, Default) to the content which will be applicable to
 In this article, you will learn more about how to assign Learning Paths and Courses to group users on the management portal:
 
-### Permissions Level
+## Permissions Level
 
 The Microsoft Community Training management portal provides role-based administration and depending upon the type of access level administrator can perform an action on the portal. Table below shows administrative role which are allowed to assign content to the users in the group on the portal:
 
@@ -60,11 +60,13 @@ The Microsoft Community Training management portal provides role-based administr
     > **Priority** can be used to communicate the urgency of a content to the learners. Priority defined from the management portal will be shown to learners on the home page.
 
     > [!NOTE]
+    >
     > 1. You can also disable this feature of having priotities on the portal. For more information view [this](../../settings/11_configurations-on-the-training-platform.md#content-priority-for-learners).
     > 2. Optionally, administrators can also enable the setting to NOT show any other content to learners if any of the **Required** (highest priority) courses are yet NOT complete.
 
 6. Click on **Done** to complete the content assignment.
 
     > [!NOTE]
-    > Administrator can change the list of assigned courses for the group at any point of time but it will impact the course enrollment only for the new users added to the group after the change. <br>
-    For example, let's say administrator has removed **Presentation skills** from list of assigned courses for the **Marketing group** shown above. This will mean that any new user added to the group will not be auto-enroll to the Presentation skills course but existing users who got enrolled to the course previously will continue to see the course in the **My Courses** section of the learner experience.
+    > Administrator can change the list of assigned courses for the group at any point of time but it will impact the course enrollment only for the new users added to the group after the change.
+    >
+    >For example, let's say administrator has removed **Presentation skills** from list of assigned courses for the **Marketing group** shown above. This will mean that any new user added to the group will not be auto-enroll to the Presentation skills course but existing users who got enrolled to the course previously will continue to see the course in the **My Courses** section of the learner experience.

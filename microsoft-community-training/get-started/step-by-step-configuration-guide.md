@@ -34,7 +34,7 @@ The management portal provides all the administrative functions like course mana
 ![Role-based access](../media/image%28426%29.png)
 
 > [!Tip]
-> After logging into the management portal, it is recommended to [**add administrators**](../user-management/add-users/3_add-an-administrator-to-the-portal.md) and delegate portal management and configuration to other users in the organization.
+> After logging into the management portal, it is recommended to [**add administrators**](../user-management/add-users/add-an-administrator-to-the-portal.md) and delegate portal management and configuration to other users in the organization.
 
 ## Step 3 - Customize the training portal
 
@@ -73,19 +73,19 @@ To add learning material into your training portal, first you need to [**define 
 
 ## Step 5 – Create group and onboard learners to the portal  
 
-Go to the **Users** tab in the management portal to start onboarding learners to the platform. To quickly add learners to the platform, create a CSV file containing the user’s data and [**bulk upload users**](../user-management/organize-users/4_add-multiple-users-to-the-group.md) to the portal. By adding users in bulk, the process is simplified.  
+Go to the **Users** tab in the management portal to start onboarding learners to the platform. To quickly add learners to the platform, create a CSV file containing the user’s data and [**bulk upload users**](../user-management/organize-users/add-multiple-users-to-the-group.md) to the portal. By adding users in bulk, the process is simplified.  
 
-In case you have to onboard and manage a large user base, [**create groups**](../user-management/organize-users/2_create-a-new-group.md) to organize your users based on job profile, location, designation, etc. and [**add users**](../user-management/organize-users/2_create-a-new-group.md#manually-add-users-to-group-during-creation-time) manually into these groups. Once you have added users to the group, you can [**assign courses**](../user-management/manage-users/2_assign-content-to-group-users.md).
+In case you have to onboard and manage a large user base, [**create groups**](../user-management/organize-users/create-a-new-group.md) to organize your users based on job profile, location, designation, etc. and [**add users**](../user-management/organize-users/create-a-new-group.md#manually-add-users-to-group-during-creation-time) manually into these groups. Once you have added users to the group, you can [**assign courses**](../user-management/manage-users/assign-content-to-group-users.md).
 
 ![user group bulk upload](../media/user-group-bulkupload.gif)
 
 Here are some best practices to follow to ease user management on the portal:
 
-1. [**Assign administrators**](../user-management/add-users/3_add-an-administrator-to-the-portal.md) to delegate administrative tasks like user onboarding and course enrollment to the ground level facilitator or supervisors. Facilitators/Supervisors can track and monitor course activities of all the learners in their group and [**send reminders**](../user-management/manage-users/3_send-announcement-to-the-users.md) to drive completion.  
+1. [**Assign administrators**](../user-management/add-users/add-an-administrator-to-the-portal.md) to delegate administrative tasks like user onboarding and course enrollment to the ground level facilitator or supervisors. Facilitators/Supervisors can track and monitor course activities of all the learners in their group and [**send reminders**](../user-management/manage-users/send-announcement-to-the-users.md) to drive completion.  
 
-2. Leverage user profile information to [**create rules and automatically add users**](../user-management/organize-users/5_setup-automatic-user-enrollment-for-a-group-1.md) to different groups at the time of sign up and assign courses  
+2. Leverage user profile information to [**create rules and automatically add users**](../user-management/organize-users/setup-automatic-user-enrollment-for-a-group-1.md) to different groups at the time of sign up and assign courses  
 
-To learn more about how to manage users on the Microsoft Community Training management portal, please refer to the [**User Management**](../user-management/2_user-management-overview.md) section of our product documentation.
+To learn more about how to manage users on the Microsoft Community Training management portal, please refer to the [**User Management**](../user-management/user-management-overview.md) section of our product documentation.
 
 ## Step 6 – Launch and publicize the portal  
 

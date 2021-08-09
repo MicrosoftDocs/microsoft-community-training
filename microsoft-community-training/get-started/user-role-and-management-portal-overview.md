@@ -27,7 +27,7 @@ To execute these functions, the platform provides a role-based hierarchy of admi
 
 This role is assigned to decision makers or program owners who are responsible for the overall execution, monitoring and success of the training program. The global administrator can use the management portal to create content, manage users, enroll learners to courses, use reports & analytics, and customize the portal for branding purposes.
 
-Here are the steps on [**how to assign global administrator permission to a user**](../user-management/add-users/3_add-an-administrator-to-the-portal.md)
+Here are the steps on [**how to assign global administrator permission to a user**](../user-management/add-users/add-an-administrator-to-the-portal.md)
 
 > [!IMPORTANT]
 > Except for portal branding and profile page customization, global administrator can delegate all the other activities like content management and user management to other administrators on the portal.
@@ -36,7 +36,7 @@ Here are the steps on [**how to assign global administrator permission to a user
 
 This role is assigned to owners of a specific organization. An **Organization** on the Microsoft Community Platform is a set of learners and administrators who have a particular purpose or belong to a specific criteria viz. location, job function, interest etc. The organization administrator can use the management portal to manage content and users for its organization.
 
-Here are the steps on [**how to assign organization administrator permission to a user**](../user-management/add-users/3_add-an-administrator-to-the-portal.md).
+Here are the steps on [**how to assign organization administrator permission to a user**](../user-management/add-users/add-an-administrator-to-the-portal.md).
 
 ### 3. Content Administrator
 
@@ -46,13 +46,13 @@ This role is assigned to a content expert who is responsible for creating, m
 
 Learning Path administrators can create new learning path using the courses they have been assigned access. A user can be a Learning Path administrator for one or more Learning Paths on the management portal.
 
-Here are the steps on [**how to assign Learning Path administrator permission to a user**](../user-management/add-users/3_add-an-administrator-to-the-portal.md).
+Here are the steps on [**how to assign Learning Path administrator permission to a user**](../user-management/add-users/add-an-administrator-to-the-portal.md).
 
 #### Category Administrator
 
 Category administrators can create a new course and manage all the existing courses for a given category they are assigned as administrator. They can also create new categories and manage all the courses within the new category. A user can be a category administrator for one or more categories on the management portal.
 
-Here are the steps on [**how to assign category administrator permission to a user**](../user-management/add-users/3_add-an-administrator-to-the-portal.md).
+Here are the steps on [**how to assign category administrator permission to a user**](../user-management/add-users/add-an-administrator-to-the-portal.md).
 
 > [!NOTE]
 > Global and Organization administrator have the privilege to other users as category and course administrators on the portal.
@@ -61,7 +61,7 @@ Here are the steps on [**how to assign category administrator permission to a us
 
 Course administrators can manage and update content only for the courses they are assigned as administrator.  They can also create new courses and manage all the lessons and assessments within the new course. A user can be a course administrator for one or more courses on the portal.
 
-Here are the steps on [**how to assign course administrator permission to a user**](../user-management/add-users/3_add-an-administrator-to-the-portal.md).
+Here are the steps on [**how to assign course administrator permission to a user**](../user-management/add-users/add-an-administrator-to-the-portal.md).
 
 > [!NOTE]
 > A category administrator can also be added as a course administrator for a course under a different category on the portal.)
@@ -70,7 +70,7 @@ Here are the steps on [**how to assign course administrator permission to a user
 
 This role is assigned by global administrator to a grassroots-level facilitator, trainer, supervisor or manager who is responsible to drive learner engagement and adoption of the training program on the ground. The group administrator takes care of onboarding users, assigning courses and driving course completion via announcements/discussions forum.
 
-Here are the steps on [**how to assign group administrator permission to a user**](../user-management/add-users/3_add-an-administrator-to-the-portal.md).
+Here are the steps on [**how to assign group administrator permission to a user**](../user-management/add-users/add-an-administrator-to-the-portal.md).
 
 > [!NOTE]
 > A user can have more than a administrative role on the portal. For e.g. a user can be both course administrator and group administrator.

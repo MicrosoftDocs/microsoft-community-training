@@ -13,7 +13,8 @@ Deleting or removing  user from group will only remove user from the selected gr
 
 In this topic, you will learn the simple steps to remove an existing user from a group in the portal.
 
-### Permissions Level
+## Permissions Level
+
 The Microsoft Community Training management portal provides role-based administration and depending upon the type of access level administrator can perform an action on the portal. Table below shows administrative role which are allowed to delete users from a group on the portal:
 
 | Access Level    | Delete a user from a Group |
@@ -37,7 +38,7 @@ The Microsoft Community Training management portal provides role-based administr
 
 4. Click or tap **Ok** to delete the user from the group.
 
-    ![Delet user from group](../../media/Delet%20user%20from%20group.png)
+    ![Delete user from group](../../media/Delet%20user%20from%20group.png)
 
 > [!IMPORTANT]
-> Deleting user from group only removes a user from the selected group. To delete a user from the platform, please see the [**detailed steps here**](../manage-users/5_remove-user-from-the-portal.md).
+> Deleting user from group only removes a user from the selected group. To delete a user from the platform, please see the [**detailed steps here**](../manage-users/remove-user-from-the-portal.md).

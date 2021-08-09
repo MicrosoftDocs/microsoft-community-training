@@ -1,18 +1,3 @@
-- name: Microsoft Community Training Documentation
-  tocHref: /microsoft-community-training/
-  topicHref: /microsoft-community-training/
-  items:
-  no-loc:
-  - name: Get Started
-    tocHref: /microsoft-community-training/get-started/
-    topicHref: /microsoft-community-training/get-started/
-    items:
-      - name: Welcome to Microsoft Community Training
-        tocHref: /microsoft-community-training/get-started/microsoft-community-training-overview/
-        topicHref: /microsoft-community-training/get-started/microsoft-community-training-overview/
-      - name: User roles and Management portal overview
-        tocHref: /microsoft-community-training/get-started/user-role-and-management-portal-overview/
-        topicHref: /microsoft-community-training/get-started/user-role-and-management-portal-overview/
-      - name: Step by step configuration guide for platform setup
-        tocHref: /microsoft-community-training/get-started/step-by-step-configuration-guide/
-        topicHref: /microsoft-community-training/get-started/step-by-step-configuration-guide/
+- name: Docs
+  tocHref: /
+  topicHref: /

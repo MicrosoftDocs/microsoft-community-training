@@ -7,7 +7,7 @@ description: Microsoft community training enables you to create multiple certifi
 ms.prod: azure
 ---
 
-## Enable course level certificate
+# Enable course level certificate
 
 Microsoft community training enables you to create multiple certificates and assign them to the relevant courses.
 

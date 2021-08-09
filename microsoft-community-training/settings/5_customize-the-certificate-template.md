@@ -27,7 +27,7 @@ Here are the simple steps to customize the certificate template on the platform:
 
 3. Click on the "Select Language" dropdown to select the language of the certificate, the content printed by the platform will be made available in the selected language (default certificate language is "English").
 
-4. Download the certificate template by clicking on **Download PowerPoint Template** button under Certificate Template and open the template in PowerPoint.
+4. Download the certificate template by clicking on **Download PowerPoint Template** button under Certificate Template and open the template in PowerPoint. [sample-certificate-template (6).pptx](https://github.com/MicrosoftDocs/microsoft-community-training/files/6938903/sample-certificate-template.6.pptx)
 
 5. Follow the instructions on the first slide of the PowerPoint template to edit the certificate.
 
@@ -38,14 +38,16 @@ Here are the simple steps to customize the certificate template on the platform:
     > [!WARNING]
     > The certificate template PDF file can be of maximum 1 MB size.
 
-8. Click on the **Preview** button to view a certificate sample with the uploaded template and click on **Save Button** to save the template
+8. Click on Customize Certificate Text to add custom text on the certificate. The [certificate text can be customized](#customize-certificate-text) to include standard and custom profile fields, course completion details and platform details.
+
+9. Click on the **Preview** button to view a certificate sample with the uploaded template and click on **Save Button** to save the template
 
     > [!CAUTION]
     > Ensure you click on the **Save button**. Otherwise, the changes you made will be lost.
 
-9. You can add multiple number of certificates as required and assign them to the specific courses. [Click here](../settings/6_enable-course-level-certificate.md) to learn more on enabling course level certificate.
+10. You can add multiple number of certificates as required and assign them to the specific courses. [Click here](../settings/6_enable-course-level-certificate.md) to learn more on enabling course level certificate.
 
-10. Please visit [**Microsoft Community Training Help desk**](https://go.microsoft.com/fwlink/?linkid=2104630) to log a support ticket if you wish to edit the templates of previously issued certificates.
+11. Please visit [**Microsoft Community Training Help desk**](https://go.microsoft.com/fwlink/?linkid=2104630) to log a support ticket if you wish to edit the templates of previously issued certificates.
 
 ## Customize Certificate Text
 

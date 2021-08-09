@@ -1,7 +1,8 @@
-- name: Microsoft Community Training Documentation
+- name: Microsoft Community Training
   tocHref: /microsoft-community-training/
-  topicHref: /microsoft-community-training/index
+  topicHref: /microsoft-community-training/
   items:
+  no-loc:
   - name: Get Started
     tocHref: /microsoft-community-training/get-started/
     topicHref: /microsoft-community-training/get-started/

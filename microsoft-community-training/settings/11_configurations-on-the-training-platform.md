@@ -90,7 +90,7 @@ By default, this feature remains in **disabled** state.
 Features:IsMultiOrgDeployment
 ```
 
-Microsoft Community Training portal allows you to [manage the portal with multiple organization](../user-management/4_organization-management.md). An organization comprises of a group of learners and administrators on your training platform who have a particular purpose or belong to a specific criteria. You can enable/disable this feature depending upon your requirements.
+Microsoft Community Training portal allows you to [manage the portal with multiple organization](../user-management/organization-management.md). An organization comprises of a group of learners and administrators on your training platform who have a particular purpose or belong to a specific criteria. You can enable/disable this feature depending upon your requirements.
 
 By default, this feature remains disabled with value **False**, therefore not allowing administrators to create multiple organizations.
 

@@ -20,7 +20,6 @@ In this article, you will learn more about how to assign different administrativ
 
 The Microsoft Community Training management portal provides role-based administration and depending upon the type of access level admins can perform an action on the portal. Table below shows administrative role which are allowed add different types of administrators on the portal:
 
-
 | Access Level   | Add Global Administrator | Add Organization Administrator | Add Learning Path Administrator | Add Category Administrator | Add Course Administrator | Add Group Administrator  |
 | --- | --- | --- | --- | --- | --- | --- |
 | Global Administrator | Yes | Yes | Yes | Yes | Yes | Yes |
@@ -53,9 +52,10 @@ In this topic, you will learn simple steps to add Global Administrator to the po
 
 ## Add an organization administrator to the platform
 
-Here are the detailed steps on how to [**add an organization administrator to the platform**](./../4_organization-management.md#create-a-new-organization-administrator).
+Here are the detailed steps on how to [**add an organization administrator to the platform**](./../organization-management.md#create-a-new-organization-administrator).
 
 ## Add a learning path administrator to the platform
+
 Here are the detailed steps on how to [**add a learning path administrator to the platform**](../../content-management/manage-content/manage-learning-path/add-an-administrator-for-a-learning-path.md).
 
 ## Add a category administrator to the platform
@@ -70,7 +70,7 @@ Here are the detailed steps on how to [**add course administrator to the platfor
 
 Groups are managed by group administrators, who can be users in the portal but are also able to manage users in  the group, assign courses, and much more.
 
-In this topic, you will learn simple steps to add Group Administrator to the portal 
+In this topic, you will learn simple steps to add Group Administrator to the portal
 
 1. On the  Microsoft Community Training portal, after login [**switch to administrator view**](../../get-started/step-by-step-configuration-guide.md#step-2--switch-to-administrator-view-of-the-portal) and **select a Group** under the Users tab
 
@@ -80,7 +80,7 @@ In this topic, you will learn simple steps to add Group Administrator to the por
 
 3. Click or tap **Add Administrator** from the drop-down menu
 
-4. Enter phone number to add user as an admininstrator for the group.
+4. Enter phone number to add user as an administrator for the group.
 
     ![Add administrator](../../media/Add%20administrator.png)
 

@@ -13,7 +13,7 @@ Group Administrators can use bulk upload users feature to save time and add mult
 
 In this topic, you  will learn how to bulk upload users to specific group on the management portal:  
 
-### Permissions Level
+## Permissions Level
 
 The Microsoft Community Training management portal provides role-based administration and depending upon the type of access level administrator can perform an action on the portal. Table below shows administrative role which are allowed to add users to a group on the portal:
 
@@ -26,7 +26,7 @@ The Microsoft Community Training management portal provides role-based administr
 | Course Administrator | No |
 | Group Administrator | Yes |
 
-## Prerequisite for using Bulk Upload users feature
+### Prerequisite for using Bulk Upload users feature
 
 Before you start doing the bulk upload of users for a specific group, you need to make sure the users list is structured in the right format on your local machine. The steps below provide information on how to create and verify that the users list is in the correct format:
 
@@ -52,14 +52,15 @@ Before you start doing the bulk upload of users for a specific group, you need t
     - Phone Number – Type phone number of the user. For e.g. 9876XXXXXX
     - First Name – Type First name of the user
     - Last Name – Type last name of the user
-    ![user details](../../media/image%2857%29.png)
+
+        ![user details](../../media/image%2857%29.png)
 
 > [!NOTE]
 > In case portal is setup with **Social Account** or **Azure Active Directory** as login identity then you will need to enter email address in the above step.
 
 #### Step 3 – Add User Profile Data (optional)
 
-1. Start adding additional column headers and values to the sample comma separated values (CSV) file. 
+1. Start adding additional column headers and values to the sample comma separated values (CSV) file.
 
 2. The column headers and values for these columns should match with the [**additional profile fields**](../../settings/4_add-additional-profile-fields-for-user-information.md) created by the organization. For example: as shown in the image below:
     - Country and Department are added as two additional column headers to the CSV file. These column headers matches with the field names added in the additional profile fields.
@@ -100,13 +101,13 @@ Before you start doing the bulk upload of users for a specific group, you need t
 
     ![Users list from your local machine](../../media/image%2859%29.png)
 
-> [!NOTE]
-> Before you begin this step, please ensure that user list is in correct format. See detailed steps on [**how to a create user list**](#prerequisite-for-using-bulk-upload-users-feature).
+    > [!NOTE]
+    > Before you begin this step, please ensure that user list is in correct format. See detailed steps on [**how to a create user list**](#prerequisite-for-using-bulk-upload-users-feature).
 
 4. Click or tap **Upload** to upload the CSV file.
 
 > [!IMPORTANT]
 > There is a limit of 10000 users for each bulk upload operation. To upload more users, create multiple csv files.
 
-> [!WARNING]
+> [!Tip]
 > Bulk upload is a resource intensive operation and might take time until the process is completed. If it is taking too long to import users, please [**scale up your platform instance**](../../infrastructure-management/configure-your-platform-infrastructure/4_scale-up-instance-configuration.md).

@@ -14,7 +14,7 @@ An **Organization** on the Microsoft Community Platform is a set of learners and
 
 Global administrators can define the organizations on the training platform based on their specific training requirements. In this topic, you will learn simple steps to create and manage Organizations and Organization Administrators on the training portal.
 
-### Permissions Level
+## Permissions Level
 
 The Microsoft Community Training management portal provides role-based administration and depending upon the type of access level administrator can perform an action on the portal. Table below shows administrative role which are allowed to create and edit Organizations and Organization Administrators on the platform:
 
@@ -41,7 +41,7 @@ The support for Organizations can be enabled on the platform by [enabling the ap
 
     ![User Management - Organization Administrator](../media/User%20Management%20-%20Organization%20Administrator.png)
 
-    > [!WARNING]
+    > [!Note]
     > This access is available only to Global Administrators on the platform.
 
 3. To add new organization click on **Manage Organizations**
@@ -68,7 +68,7 @@ The support for Organizations can be enabled on the platform by [enabling the ap
 
     ![User Management - Organization Administrator](../media/User%20Management%20-%20Organization%20Administrator.png)
 
-    > [!WARNING]
+    > [!Note]
     > This access is available only to Global Administrators on the platform.
 
 3. To edit an existing organization click on **Manage Organizations**
@@ -102,7 +102,7 @@ Click on the **Delete** icon from the Manage Organizations panel to Delete an Or
 
     ![User Management - Organization Administrator](../media/User%20Management%20-%20Organization%20Administrator.png)
 
-    > [!WARNING]
+    > [!Note]
     > This access is available only to Global Administrators on the platform.
 
 3. To **create a new** Organization Administrator, click on **Add Administrator**
@@ -115,6 +115,7 @@ Click on the **Delete** icon from the Manage Organizations panel to Delete an Or
 
     > [!NOTE]
     > The Organization Administrator will have all the rights as that of a Global Administrator in the context of its assigned Organizations.
+    >
     > 1. One Organization Administrator can have access to more than one Organizations, and
     > 2. One Organization can be managed by more than one Organization Administrators.
 
@@ -128,7 +129,7 @@ Click on the **Delete** icon from the Manage Organizations panel to Delete an Or
 
     ![User Management - Organization Administrator](../media/User%20Management%20-%20Organization%20Administrator.png)
 
-    > [!WARNING]
+    > [!Note]
     > This access is available only to Global Administrators on the platform.
 
 3. To **edit an existing** Organization Administrator, click on the **pencil icon** next to the **Organization Administrator**. In the **Edit Organization Administrator* popup,
@@ -148,14 +149,14 @@ Click on the **Delete** icon against an Organization Administrator to delete.
 
 ## Assign learners to Organizations
 
-Learners can be assigned to Organizations on the portal using API call. You can refer to [REST API documentation](../rest-api-management/2_api-documentation.md) to learn more about accessing API Signatures.
+Learners can be assigned to Organizations on the portal using API call. You can refer to [**REST API documentation**](../rest-api-management/2_api-documentation.md) to learn more about accessing API Signatures.
 
 The API signature that assigns learners to Organizations is given below.
 **Request URL:** PUT /api/v1/user/organization.
 
 **Body:**
 
-```
+```json
 {
   "UserContact": "string",
   "OrganizationName": "string"

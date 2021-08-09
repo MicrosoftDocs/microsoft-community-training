@@ -11,37 +11,37 @@
    - name: User Management
      items:
       - name: User Management - Overview
-        href: user-management/2_user-management-overview.md
+        href: user-management/user-management-overview.md
       - name: Organization Management
-        href: user-management/4_organization-management.md
+        href: user-management/organization-management.md
       - name: Add users
         items:
          - name: Add learners to the platform
-           href: user-management/add-users/2_add-users-to-the-portal-1.md
+           href: user-management/add-users/add-users-to-the-portal-1.md
          - name: Add administrators to the platform
-           href: user-management/add-users/3_add-an-administrator-to-the-portal.md
+           href: user-management/add-users/add-an-administrator-to-the-portal.md
       - name: Organize users
         items:
          - name: Create new group
-           href: user-management/organize-users/2_create-a-new-group.md
+           href: user-management/organize-users/create-a-new-group.md
          - name: Add a single user to the group
-           href: user-management/organize-users/3_add-a-single-user-to-the-group.md
+           href: user-management/organize-users/add-a-single-user-to-the-group.md
          - name: Add multiple users to the group
-           href: user-management/organize-users/4_add-multiple-users-to-the-group.md
+           href: user-management/organize-users/add-multiple-users-to-the-group.md
          - name: Setup automatic user enrollment for a group
-           href: user-management/organize-users/5_setup-automatic-user-enrollment-for-a-group-1.md
+           href: user-management/organize-users/setup-automatic-user-enrollment-for-a-group-1.md
       - name: Manage users
         items:
          - name: Assign content to users in the group
-           href: user-management/manage-users/2_assign-content-to-group-users.md
+           href: user-management/manage-users/assign-content-to-group-users.md
          - name: Send announcement to the users
-           href: user-management/manage-users/3_send-announcement-to-the-users.md
+           href: user-management/manage-users/send-announcement-to-the-users.md
          - name: Edit user profile on the platform
            href: user-management/manage-users/edit-user-profile-on-the-platform.md
          - name: Delete a user from the group
-           href: user-management/manage-users/4_remove-user-from-group.md
+           href: user-management/manage-users/remove-user-from-group.md
          - name: Delete a user from the platform
-           href: user-management/manage-users/5_remove-user-from-the-portal.md
+           href: user-management/manage-users/remove-user-from-the-portal.md
    - name: Content Management
      items:
       - name: Content Management - Overview

@@ -46,4 +46,4 @@ The Microsoft Community Training management portal provides role-based administr
 
 6. Click on **Done**.
  
- **Next>** Once the Courses are added to the Learning Path, you can [assign the Learning Path to user groups](../../../user-management/manage-users/2_assign-content-to-group-users.md). 
+ **Next>** Once the Courses are added to the Learning Path, you can [assign the Learning Path to user groups](../../../user-management/manage-users/assign-content-to-group-users.md). 

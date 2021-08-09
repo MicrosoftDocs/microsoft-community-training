@@ -18,7 +18,7 @@ It is possible that your infrastructure is unable to handle the high traffic loa
 For security reasons, we have disabled clicking on external links for the PDF document on the platform. Hence, you should not add any  link in PDF lesson file. 
 
 ### Can learners change/update user profile fields ?
-Learners can change/update profile fields via profile section in the learners portal. Administrator can change these values via the bulk upload functionality. Refer [**this article**](../user-management/organize-users/4_add-multiple-users-to-the-group.md#steps-to-bulk-upload-users-to-specific-group) for more information. 
+Learners can change/update profile fields via profile section in the learners portal. Administrator can change these values via the bulk upload functionality. Refer [**this article**](../user-management/organize-users/add-multiple-users-to-the-group.md#steps-to-bulk-upload-users-to-specific-group) for more information. 
 
 ### Can Microsoft Community Training platform be used in low bandwidth  and no internet connectivity scenarios?
 Microsoft Community Training platform is designed to be lightweight and supports adaptive streaming for seamless content consumption for low network connectivity scenaios:

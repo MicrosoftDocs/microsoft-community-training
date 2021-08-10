@@ -21,7 +21,7 @@ Organization Administrator can now [**create additional profile fields** ](../..
 ![Support for multiple selection field for learner profile information](../../media/image%28257%29.png)
 
 ## Support for rich text and images in the assessment module
-With the new release, we have enhanced our assessment module to allow content administrator to add rich text and images for questions in the Practice Quiz and Exams for a course. This enables content administrator to create variety of question types such as Multiple Choice, Fill in the Blank, Image based question/answer, Chronological Question, etc. on the platform. For more details, check out [**this article**](../../content-management/create-content/create-course-category/add-practice-course-and-exam.md#question-types-for-a-practice-quiz-or-exam).
+With the new release, we have enhanced our assessment module to allow content administrator to add rich text and images for questions in the Practice Quiz and Exams for a course. This enables content administrator to create variety of question types such as Multiple Choice, Fill in the Blank, Image based question/answer, Chronological Question, etc. on the platform. For more details, check out [**this article**](../../content-management/create-content/create-course-category/add-practice-quizzes-and-exam.md#question-types-for-a-practice-quiz-or-exam).
 
 ![Support for rich text and images in the assessment module](../../media/image%28258%29.png)
 

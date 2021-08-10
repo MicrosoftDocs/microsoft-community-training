@@ -59,7 +59,7 @@
             - name: Add subtitles or captions to video content
               href: content-management/create-content/create-course-category/add-subtitles-or-captions-to-video-content.md
             - name: Add practice quiz and exam for a course
-              href: content-management/create-content/create-course-category/add-practice-course-and-exam.md
+              href: content-management/create-content/create-course-category/add-practice-quizzes-and-exam.md
             - name: Add feedback form for a course
               href: content-management/create-content/create-course-category/add-feedback-form-for-a-course.md
             - name: Publish a course on the training portal

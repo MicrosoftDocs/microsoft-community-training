@@ -48,7 +48,8 @@ In this article, you will learn about how to add practice quiz to a course:
 4. Enter details for the **Question 1** on the portal as below:
     * Question Title – add your question in this field. Check [**sample questions**](#question-types-for-a-practice-quiz-or-exam) to know more about the types of questions you can create on the portal.
     * Options – add one or more options as possible answers for the question. Check the **radio button** to the left of the text field to select the correct answer.
-    ![Quiz title](../../../media/Quiz%20title.png)
+
+        ![Quiz title](../../../media/Quiz%20title.png)
 
     > [!NOTE]
     > If only two possible options are needed use **Delete** button  next to the option field to remove the options.To add more options use **Add Option** button to increase choices for the question.)
@@ -203,8 +204,8 @@ To create a single choice question,
 1. Add the question with required images/links and a set of answer option
 2. Select the correct answer by checking the radio button to the left of the answer option
 
-This question will appear like this for the learners -
-    ![Question sample](../../../media/image%28227%29.png)
+    This question will appear like this for the learners
+        :::image type="content" source="../../../media/image(227).png" alt-text="Question Sample":::
 
 ### Multi Choice Question
 

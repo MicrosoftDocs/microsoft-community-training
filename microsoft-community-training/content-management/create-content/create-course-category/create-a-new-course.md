@@ -35,10 +35,12 @@ The table below shows administrative role which are allowed to create courses in
 In this topic, you will learn  simple steps to create a single course in the Microsoft Community Training  platform. Before executing the below steps, [**switch to administrator view**](../../../get-started/step-by-step-configuration-guide.md#step-2--switch-to-administrator-view-of-the-portal) on the training portal:
 
 1. Click  on ![Plus icon](../../../media/Plus%20icon.png) or **More (...)** icon on the category list pane to create course under a category.
-![New course drop down menu\(1\)](../../../media/New%20course%20drop%20down%20menu%281%29.png)
+
+    ![New course drop down menu\(1\)](../../../media/New%20course%20drop%20down%20menu%281%29.png)
 
 2. Click or tap **New Course**. Skip this step if you choose ![Plus icon](../../../media/Plus%20icon.png) option in step1.
-![Choose Plus icon](../../../media/image%28253%29.png)
+
+    ![Choose Plus icon](../../../media/image%28253%29.png)
 
 3. Enter the **Course Name**. The course name is the course title that learners would see on the web portal and mobile app.  For example: *AI for Agriculture.*
 
@@ -93,7 +95,8 @@ Before you start doing the bulk upload of courses under a category, you need to 
 3. If required, repeat #1 and #2 above to create and upload multiple courses together .
 
 4. Ensure that there are no sub-folders inside any folder with course names. Folders with course names should only contain lessons file as shown in the image below:
-![Course format](../../../media/Course%20format.png)
+
+    ![Course format](../../../media/Course%20format.png)
 
 5. Select all the folders you want to upload and compress them into a ZIP file. **Right click > Send to > Compressed (zipped) folder**.
 
@@ -105,7 +108,8 @@ Before you start doing the bulk upload of courses under a category, you need to 
 ### Steps for bulk upload courses to the portal
 
 1. Click or tap **More (...)** icon on the category list pane to bulk upload the courses under a category.
-![Bulk upload courses drop down](../../../media/Bulk%20uplod%20courses%20drop%20down.png)
+
+    ![Bulk upload courses drop down](../../../media/Bulk%20uplod%20courses%20drop%20down.png)
 
 2. Click or tap **Bulk Upload Course (Preview)** from the drop-down menu.
 
@@ -190,7 +194,8 @@ Next, let us understand how to create course translations once a default course 
 In this topic, you will learn simple steps to create translations of a course in the Microsoft Community Training Platform. Before executing the below steps, [**switch to administrator view**](../../../get-started/step-by-step-configuration-guide.md#step-2--switch-to-administrator-view-of-the-portal) on the learning portal:
 
 1. To create a translation for a course, click on **+ Add course in a different language**.
-![Add course in a different language](../../../media/image%28472%29.png)
+
+    ![Add course in a different language](../../../media/image%28472%29.png)
 
     > [!WARNING]
     > Courses with enrollment type **Automatically enroll all learners** can NOT be translated.
@@ -208,7 +213,7 @@ In this topic, you will learn simple steps to create translations of a course in
 
 5. Choose **Course Language**. This is the language in which the course will be translated.
 
-![Course language for translation](../../../media/image%28474%29.png)
+    ![Course language for translation](../../../media/image%28474%29.png)
 
 >[!IMPORTANT]
 >The following details will be used as that of the default version of the course,

@@ -170,7 +170,8 @@ Before you start doing the bulk upload of questions for a practice quiz or exam,
     ![Import CSV icon](../../../media/Import%20CSV%20icon.png)
 
 2. In the bulk upload panel, choose the Upload option and select the csv file containing the question list.  
-![Upload option & select CSV](../../../media/image%2850%29.png)
+
+    ![Upload option & select CSV](../../../media/image%2850%29.png)
 
 3. Click or tap on the **Done** button to begin bulk upload questions operation.
 
@@ -205,7 +206,8 @@ To create a single choice question,
 2. Select the correct answer by checking the radio button to the left of the answer option
 
     This question will appear like this for the learners
-        :::image type="content" source="../../../media/image(227).png" alt-text="Question Sample":::
+
+    :::image type="content" source="../../../media/image(227).png" alt-text="Question Sample":::
 
 ### Multi Choice Question
 

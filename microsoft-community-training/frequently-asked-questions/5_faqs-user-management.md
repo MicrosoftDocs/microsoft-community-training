@@ -129,7 +129,7 @@ Microsoft Community Training platforms allow two ways of setting up user registr
 For more details, checkout **[this article](../settings/3_restrict-portal-access-to-users-outside-your-organization.md)**. 
 
 ### How do we prevent access to the platform once the user leaves the organization? 
-You can delete a user from the platform once he or she leaves the organization. Refer [**this article**](../user-management/manage-users/5_remove-user-from-the-portal.md) to learn how.
+You can delete a user from the platform once he or she leaves the organization. Refer [**this article**](../user-management/manage-users/remove-user-from-the-portal.md) to learn how.
 
 ### Can a non-logged in user view my course content? 
 No, Microsoft Community Training platform requires users to be logged in to the portal before they are allowed to view the course content. 

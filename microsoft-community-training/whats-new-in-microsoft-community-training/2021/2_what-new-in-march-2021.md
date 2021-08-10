@@ -25,7 +25,7 @@ The platform has introduced a [new administrative hierarchy](../../get-started/u
 
 ## Prioritize courses while assigning them to learners*
 
-Administrators would now be able to [assign priorities to the courses](../../user-management/manage-users/2_assign-content-to-group-users.md) being assigned to the learners.
+Administrators would now be able to [assign priorities to the courses](../../user-management/manage-users/assign-content-to-group-users.md) being assigned to the learners.
 
 Based on these priorities, the learner would be able to focus first on critical things and plan their learnings in better way.
 
@@ -35,7 +35,7 @@ Based on these priorities, the learner would be able to focus first on critical 
 
 ![View your holistic progress from new Learner's Dashboard](../../media/image%28415%29.png)
 
-The learners on the platform would now be able to gauge their learning progress by [viewing the personalized dashboard](../../learner-experience/2_web-app.md#step-6-view-progress) available on the platform. Dashboard will have a birds-eye view of the total courses completed, total certificates received etc.
+The learners on the platform would now be able to gauge their learning progress by [viewing the personalized dashboard](../../learner-experience/web-app.md#step-6-view-progress) available on the platform. Dashboard will have a birds-eye view of the total courses completed, total certificates received etc.
 
 > [!WARNING]
 > The new features mentioned above with '*' are available only on the web version of the portal and not on mobile application.

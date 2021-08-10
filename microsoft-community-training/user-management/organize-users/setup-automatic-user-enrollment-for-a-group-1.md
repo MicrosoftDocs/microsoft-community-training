@@ -31,7 +31,7 @@ In this article, you will learn more about how to setup rule for a group to  aut
     ![Auto Rule](../../media/AutoRule1.JPG)
 
 4. Enter corresponding field value in **Is** field. The values entered must be a subset of the options specified for the additional profile field selected in the **If** field. For example, as shown in the example below:
-    - **Country** and **Role** are selected as **If** field for which **South Africa** and **Marketing** are entered as values respectively. 
+    - **Country** and **Role** are selected as **If** field for which **South Africa** and **Marketing** are entered as values respectively.
     - This means all the existing and new users who has country as **South Africa** and role as **Marketing** will automatically get added to the group.
 
     ![Two Rules](../../media/TwoRules.JPG)
@@ -50,24 +50,25 @@ In this article, you will learn more about how to setup rule for a group to  aut
 
 Here are the some examples of different ways in which administrator can add rule for a roup with one or more than one condition.
 
-#### Scenario 1: Only one IF condition and one value in the IS field
+### Scenario 1: Only one IF condition and one value in the IS field
 
 As shown in the image below,  there is only one IF field **‘Country’** which is set to **'South Africa’**. A group with this rule would imply that any user who has marked Country field as South Africa will get added to the group.
 
 ![Scenario 1](../../media/S1.JPG)
 
-#### Scenario 2: Only one IF condition but multiple values in the IS field
+### Scenario 2: Only one IF condition but multiple values in the IS field
 
 As shown in the image below,  there is only one IF field **‘Country’** which is set to **'South Africa’** or **'India’**. A group with this rule would imply that any user who has marked Country field as South Africa or India will get added to the group.
 
 ![Scenario 2](../../media/S2.JPG)
 
-#### Scenario 3: More than one IF condition but for each IF one value in the IS field 
+### Scenario 3: More than one IF condition but for each IF one value in the IS field
+
 As shown in the image below,  there are two IF fields **‘Country’** and **‘City’** which are set to **'South Africa’** and **'Cape Town’** respectively. A group with this rule would imply that any user who has marked Country field as South Africa and City field as Cape Town will get added to the group.
 
 ![Scenario 3](../../media/S3.JPG)
 
-#### Scenario 3: More than one IF condition and for each IF multiple values in the IS field
+### Scenario 4: More than one IF condition and for each IF multiple values in the IS field
 
 As shown in the image below,  there are two IF fields.  **‘Country’** field is set to **'South Africa’** or **'India’** whereas **‘Department’** field is set to **'Sales’** or **'Marketing’**. A group with this rule would imply that any user who has marked Country field as South Africa or India and Department field as Sales or Marketing will get added to the group.
 

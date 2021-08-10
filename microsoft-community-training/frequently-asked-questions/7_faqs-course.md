@@ -254,7 +254,7 @@ For scenarios when you have the same course available in multiple languages, you
   
 2) Add a custom field as part learner's profile information to capture a learner's preferred language. Learn how to do it from **[this article](../settings/4_add-additional-profile-fields-for-user-information.md)**.
 
-3) Next, create a group of users corresponding to each language of your content. You can do so by adding a rule while creating the group. Refer **[this article](../user-management/organize-users/5_setup-automatic-user-enrollment-for-a-group-1.md)** to learn how.
+3) Next, create a group of users corresponding to each language of your content. You can do so by adding a rule while creating the group. Refer **[this article](../user-management/organize-users/setup-automatic-user-enrollment-for-a-group-1.md)** to learn how.
 
 4) Finally, assign the language specific course to each group based on that group's preferred language. Refer **[this article](https://docs.microsoftcommunitytraining.com/docs/assign-course-to-group-users#")** to learn how.
 

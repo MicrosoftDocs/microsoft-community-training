@@ -18,7 +18,7 @@ Groups make user management easy via automatic enrollment, bulk user onboarding,
 
 In this article, you will learn more about how to create a new group on the management portal:  
 
-### Permissions Level
+## Permissions Level
 
 The Microsoft Community Training management portal provides role-based administration and depending upon the type of access level administrator can perform an action on the portal. Table below shows administrative role which are allowed to create a new group on the portal:
 
@@ -49,7 +49,7 @@ The Microsoft Community Training management portal provides role-based administr
     >[!NOTE]
     > If Organizations are NOT defined on the training platform, the Organization field in Group creation will be disabled. However, if the Organizations are defined, the Organization field in Group creation will be mandatory.
 
-4. From **Add Users** pop-up, you can choose [**Manually add users**](../organize-users/2_create-a-new-group.md) or [**Automatically add users**](#automatically-add-users-to-group-during-creation) to add users at the time group creation and follow the instructions.
+4. From **Add Users** pop-up, you can choose [**Manually add users**](#manually-add-users-to-group-during-creation-time) or [**Automatically add users**](#automatically-add-users-to-group-during-creation) to add users at the time group creation and follow the instructions.
 
     ![User Management - Organize Users - New Group Options](../../media/User%20Management%20-%20Organize%20Users%20-%20New%20Group%20Options.png)
 
@@ -65,7 +65,7 @@ The Microsoft Community Training management portal provides role-based administr
 2. Choose between the following two methods to add users
 
     - **Add Single User** – Use this option to add one user at a time. Click or tap **Add Single User**, enter the phone number and then click or tap **Add** button.  
-    - **Bulk Upload Users** – This option is used to add multiple users at once. For detailed steps, see how to [**structure the csv file and bulk upload users**](../organize-users/4_add-multiple-users-to-the-group.md) on the portal
+    - **Bulk Upload Users** – This option is used to add multiple users at once. For detailed steps, see how to [**structure the csv file and bulk upload users**](../organize-users/add-multiple-users-to-the-group.md) on the portal
 
     ![User Management - Organize Users - New Manual Group](../../media/User%20Management%20-%20Organize%20Users%20-%20New%20Manual%20Group.png)
 
@@ -78,4 +78,4 @@ The Microsoft Community Training management portal provides role-based administr
 
 1. Click or tap **Automatically add users** button
 
-2. To add users automatically, you need to setup rules. See the [**detailed steps here**](../organize-users/5_setup-automatic-user-enrollment-for-a-group-1.md).
+2. To add users automatically, you need to setup rules. See the [**detailed steps here**](../organize-users/setup-automatic-user-enrollment-for-a-group-1.md).

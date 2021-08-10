@@ -184,7 +184,7 @@ The platform provides two types of assessments in the form of Practice Quiz and 
 
 **Exam** - An Exam is used to evaluate learners on their proficiency and knowledge in a particular course to measure learning outcome. Unlike practice quiz, an exam has limited number of attempts and a passing percentage as specified by the trainer.
 
-Learn more [**here**](../content-management/create-content/create-course-category/add-practice-course-and-exam.md).
+Learn more [**here**](../content-management/create-content/create-course-category/add-practice-quizzes-and-exam.md).
 
 
 ### How many practice quizzes can be there for a course? 
@@ -196,7 +196,7 @@ Unlike practice quizzes, exams are limited to one per course.
 ### Can we set a passing criteria and limit # of attempts for assessments?
 You can define the passing percentage and number of attempts a learner can take the exam at the time of creating the exam. 
 
-For detailed steps, **[refer here](../content-management/create-content/create-course-category/add-practice-course-and-exam.md)**.
+For detailed steps, **[refer here](../content-management/create-content/create-course-category/add-practice-quizzes-and-exam.md)**.
 
 
 ## Content Download / Upload

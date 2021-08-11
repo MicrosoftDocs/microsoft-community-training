@@ -32,9 +32,9 @@ The Microsoft Community Training management portal provides role-based administr
 
 ## Track overall learners progress and performance in a group
 
-On the group details page, admin can view the list of all learners in the group each with course completion , average quiz score, courses enrolled by group admin, certificates received is displayed. For example, image shows the group analytics details for the employees in Mumbai region
+On the group details page, admin can view the list of all learners in the group each with course completion , average quiz score, courses enrolled by group admin, certificates received is displayed. For example, image shows the group analytics details for the employees in Mumbai region.
 
- :::image type="content" source="../../media/image(45).png" alt-text="Group Analytics":::
+   :::image type="content" source="../../media/image(45).png" alt-text="Group Analytics":::
 
 In the grid view, for each learner, group admin can see the following information. You can hover over the column header to view the column definition.
 

@@ -57,6 +57,7 @@ In this article, you will learn more about connecting Power BI with the Azure SQ
     :::image type="content" source="../../media/image%28366%29.png" alt-text="Select the tables to import and click on load button":::
 
 6. Once you hit on load all your selected tables will be imported into Power Bi right pane and available under fields.
+
     :::image type="content" source="../../media/image%28367%29.png" alt-text="Loaded tables will be imported to PowerBI":::
 
 7. Use the database schema from [this document](database-schema.md) to build relations required for your custom reporting requirements

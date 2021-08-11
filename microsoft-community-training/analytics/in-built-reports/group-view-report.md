@@ -36,7 +36,8 @@ On the group details page, admin can view the list of all learners in the group 
 
 * For example, image shows the group analytics details for the employees in Mumbai region.
 
-    :::image type="content" source="../../media/image(45).png" alt-text="Group Analytics":::
+ ![image(45)](https://user-images.githubusercontent.com/88087980/128993964-24b2a245-eed6-49d1-96fb-caa59e5ba049.png)
+
 
 In the grid view, for each learner, group admin can see the following information. You can hover over the column header to view the column definition.
 

@@ -50,8 +50,7 @@ For setting up the mobile app for your training portal, you will need to request
     * Splash screen logo with the following dimensions (in pixels): 150x150, 225x225, 300x300, 450x450. The screen that appears when the app opens is the splash screen, shown below.
 
         ![Create a zip file](../../media/image%2821%29.png)
-    * Here is sample zip file for reference.
-    * [MobileApp_Assets.zip](https://github.com/MicrosoftDocs/microsoft-community-training/files/6968287/MobileApp_Assets.zip)
+    * Here is sample zip file for reference: [MobileApp_Assets.zip](https://github.com/MicrosoftDocs/microsoft-community-training/files/6968287/MobileApp_Assets.zip)
 
 6. That's all! You’ll receive a link on your contact email address to download the mobile AAB & APK files from our support team (in 4-5 business days).
 

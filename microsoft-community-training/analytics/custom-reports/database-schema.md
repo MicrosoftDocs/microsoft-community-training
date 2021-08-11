@@ -70,7 +70,7 @@ Go the key vault. By default, user does not have access permission to view the k
 
 **Note**: You may need to add your IP address in Firewall.
 
-![firewal select](../../media/firewal%20select.png)
+![firewall select](../../media/firewal%20select.png)
 
 To add client IP, click on add client IP and select the save icon
 

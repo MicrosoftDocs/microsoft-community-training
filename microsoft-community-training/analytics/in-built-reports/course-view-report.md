@@ -15,7 +15,7 @@ To access the category view, you can either select the **View Analytics option f
 
 In this article, you will learn more about different metrics and reports available to the administrator as part of learner analytics for a specific course:
 
-### Permissions Level
+## Permissions Level
 
 The Microsoft Community Training management portal provides role-based administration and depending upon the type of access level administrator can perform an action on the portal.  Table below shows administrative role which can access the course view:  
 

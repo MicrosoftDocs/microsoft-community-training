@@ -22,10 +22,10 @@ For example, the Global admin can access all the learner analytics on the portal
 Here is the high-level comparison of analytics information available to different admins:
 
 [comment]: <* [Analytics Topics](../media/Analytics%20Topics.pdf) >
-[Analytics Admin Permission](https://github.com/MicrosoftDocs/microsoft-community-training/files/6915937/Analytics.Admin.Permission.pdf) 
+
+[**Analytics Admin Permission**](https://github.com/MicrosoftDocs/microsoft-community-training/files/6915937/Analytics.Admin.Permission.pdf)
 
 ![Analytics Admin Permission](https://user-images.githubusercontent.com/88087980/127873799-0f25e9a7-bed3-4064-9018-6e470126a334.jpg)
-
 
 ## In-built analytics report available to administrators
 

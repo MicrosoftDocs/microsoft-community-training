@@ -61,7 +61,7 @@ By default, this feature is kept disabled with value as **False** and therefore 
 Features:NotificationDisabled
 ```
 
-In the learner's view, the portal provides a [Notification icon](../learner-experience/2_web-app.md#step-8-view-notifications) which notifies the learner of any new course being assigned to the learner. The administrators have the flexibility to disable this features depending upon the scenario.
+In the learner's view, the portal provides a [Notification icon](../learner-experience/web-app.md#step-8-view-notifications) which notifies the learner of any new course being assigned to the learner. The administrators have the flexibility to disable this features depending upon the scenario.
 
 By default, this feature is **Disabled** with value as **False** so that learners gets notifications in real-time.
 
@@ -71,7 +71,7 @@ By default, this feature is **Disabled** with value as **False** so that learner
 Features:CommentDisabled
 ```
 
-The Platform comes with a functionality where [learners can comment](../learner-experience/3_mobile.md) on different lessons and initiate a discussion.
+The Platform comes with a functionality where [learners can comment](../learner-experience/mobile.md) on different lessons and initiate a discussion.
 By default, this feature remains enabled. But, the administrators have the flexibility to disable this function to avoid peer-to-peer interaction over platform. Once disabled, learners will not be allowed to post comment.
 
 ## Learner Action Events
@@ -90,7 +90,7 @@ By default, this feature remains in **disabled** state.
 Features:IsMultiOrgDeployment
 ```
 
-Microsoft Community Training portal allows you to [manage the portal with multiple organization](../user-management/4_organization-management.md). An organization comprises of a group of learners and administrators on your training platform who have a particular purpose or belong to a specific criteria. You can enable/disable this feature depending upon your requirements.
+Microsoft Community Training portal allows you to [manage the portal with multiple organization](../user-management/organization-management.md). An organization comprises of a group of learners and administrators on your training platform who have a particular purpose or belong to a specific criteria. You can enable/disable this feature depending upon your requirements.
 
 By default, this feature remains disabled with value **False**, therefore not allowing administrators to create multiple organizations.
 

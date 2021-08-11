@@ -35,6 +35,7 @@ Here are some pre-requisites before you follow the steps are to be incorporated 
         :::image type="content" source="../../media/image(460).png" alt-text="Static website endpoint":::
 
 3. Deploy the custom home page in the storage account configured above.
+
     1. Create an empty folder named "mywebsite" on your local file system.
     2. Launch Visual Studio Code and open the folder that you just created from the **Explorer** panel.
         :::image type="content" source="../../media/image(461).png" alt-text="Visual studio code":::
@@ -64,6 +65,9 @@ Here are some pre-requisites before you follow the steps are to be incorporated 
 
 >[!Note]
 >For more details please refer [https://docs.microsoft.com/en-us/azure/storage/blobs/storage-blob-static-website-host](/azure/storage/blobs/storage-blob-static-website-host)
+>
+>Here are some sample templates of the Custom Homepage which can be used to deploy on your MCT instance: 
+[MCT_CustomHomePage_Templates.zip](https://github.com/MicrosoftDocs/microsoft-community-training/files/6968259/MCT_CustomHomePage_Templates.zip)
 
 ## Tracking users signing in through Custom Homepage
 

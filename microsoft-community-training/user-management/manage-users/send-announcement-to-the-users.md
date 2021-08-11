@@ -15,7 +15,7 @@ For example, if there are any courses that administrators would like to remind o
 
 In this article, you will learn more about how an administrator can send an announcement to the group of users from the management portal:
 
-### Permissions Level
+## Permissions Level
 
 The Microsoft Community Training management portal provides role-based administration and depending upon the type of access level administrator can perform an action on the portal. Table below shows administrative role which are allowed to send announcement to group users on the portal:
 
@@ -37,8 +37,8 @@ The Microsoft Community Training management portal provides role-based administr
 
 2. Select a **User Group** under Users tab to whom you want to send announcement
 
-3. You can use one of the following ways to choose the auidence for sending the  announcements.
-    - **Send announcement to all users in the group** - To send announcement to everyone in the group, just click on the **Send announcent** button in the group details page
+3. You can use one of the following ways to choose the audience for sending the  announcements.
+    - **Send announcement to all users in the group** - To send announcement to everyone in the group, just click on the **Send announcement** button in the group details page
     - **Send announcement to selected users in the group** – To send announcement to specific users in the group, select the list of users to whom you want to send the announcements and click on **Send announcement** as shown below.
 
     ![Send announcement](../../media/image%2862%29.png)

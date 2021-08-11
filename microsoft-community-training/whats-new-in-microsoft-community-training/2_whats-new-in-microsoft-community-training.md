@@ -26,3 +26,4 @@ Microsoft Community Training releases new updates to the platform regularly. For
 
 [**What's new in March 2021**](../whats-new-in-microsoft-community-training/2021/2_what-new-in-march-2021.md)
 
+[**What's new in July 2021**](2021/what-new-in-july-2021.md)

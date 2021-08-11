@@ -43,7 +43,7 @@ To set up for Business Continuity and Disaster Recovery, following are the step 
 
    ![secondary region](../../media/image%28300%29.png)
 
-5. Store the storage connection string inside secondary’s keyvault and then set it to app settings (secondary)
+5. Store the storage connection string inside secondary’s KeyVault and then set it to app settings (secondary)
 
    ![Mix storage](../../media/image%28301%29.png)
 

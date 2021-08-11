@@ -37,7 +37,7 @@ Register the service app:
 
 8. Select the Manifest section, and:
 
-    - Edit the manifest by locating the “appRoles”. 
+    - Edit the manifest by locating the “appRoles”.
     - The role definition is provided in the JSON code snippet below.
     - Enter “allowedMemberTypes” to “Application”.
     - Enter your appRoles “displayName” (e.g. "S2SAppRole" used as displayName for the below code snippet)

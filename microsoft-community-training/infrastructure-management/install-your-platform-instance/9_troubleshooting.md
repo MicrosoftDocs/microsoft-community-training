@@ -51,7 +51,7 @@ If your deployment fails, you’ll receive a **Deployment failed** notification 
    - The said resource is not yet enabled for the region. Click on the **Copy to Clipboard** icon on the top-right of the **Errors** blade.
    ![Copy to Clipboard](../../media/image%2827%29.png)
 
-5. Visit our [**Helpdesk**](<https://go.microsoft.com/fwlink/?linkid=2104630>) and create a support ticket by following the steps below.
+5. Visit our [**HelpDesk**](<https://go.microsoft.com/fwlink/?linkid=2104630>) and create a support ticket by following the steps below.
 
     - Sign in using your Azure AD or Social accounts.
     - Click on **Create Support Ticket** and enter the following values:
@@ -67,7 +67,7 @@ If your deployment fails, you’ll receive a **Deployment failed** notification 
     - Our support team will investigate the issue in 2-3 business days and respond.
 
 > [!NOTE]
-> If you received a different error message, report the same on our Helpdesk and we'll get back with a resolution.)
+> If you received a different error message, report the same on our HelpDesk and we'll get back with a resolution.)
 
 ## Issue 4: Deployment failed with error message "Location X is not accepting creation of new Windows Azure SQL Database servers at this time."
 

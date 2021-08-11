@@ -15,13 +15,13 @@ ms.prod: azure
 
 Microsoft provides course content around Digital Literacy, Office 365, etc. which organization can upload and use in their Microsoft Community Training platform instance. You can browser our content catalogue **[here](https://sangampartners.azurewebsites.net/)**.
 
-Please contact us  via **[Helpdesk](https://go.microsoft.com/fwlink/?linkid=2104630)** if you’d like to make any courses from the catalogue available in your training portal instance.
+Please contact us  via **[HelpDesk](https://go.microsoft.com/fwlink/?linkid=2104630)** if you’d like to make any courses from the catalogue available in your training portal instance.
 
 #### Can we use any of the content from the catalogue?
 
 Yes, all the content hosted in [**our course catalog**](https://sangampartners.azurewebsites.net/) is available for customer to use in their own training platform instance.
 
-You need to contact us  via **[Helpdesk](https://go.microsoft.com/fwlink/?linkid=2104630)** if you’d like to make any courses from the catalogue available in your training portal instance.
+You need to contact us  via **[HelpDesk](https://go.microsoft.com/fwlink/?linkid=2104630)** if you’d like to make any courses from the catalogue available in your training portal instance.
 
 Please note - all content hosted in the content library is free of charge and provided under Creative Common license. So, you can tweak and change the content as per your requirements.
 
@@ -29,7 +29,7 @@ Please note - all content hosted in the content library is free of charge and pr
 
 Our [**content library**](https://sangampartners.azurewebsites.net/) has content on topics like Digital Literacy, Office 365, etc. which customers can use for free.
 
-If you’d like to avail any of the courses, contact us via **[Helpdesk](https://go.microsoft.com/fwlink/?linkid=2104630)** .
+If you’d like to avail any of the courses, contact us via **[HelpDesk](https://go.microsoft.com/fwlink/?linkid=2104630)** .
 
 ## Content Format
 
@@ -39,9 +39,9 @@ Organization can upload & host unlimited contents and courses on the Microsoft C
 
 The platform supports the following types of formats:
 
-* **Video formats**: MP4, 3GP, 3G2, 3GP2, AVI, MEPG, MPG, WMV, VOB, MKV, FLV, DV, TS, ASF, M4V, MOV
+* **Video formats**: MP4, 3GP, 3G2, 3GP2, AVI, MPEG, MPG, WMV, VOB, MKV, FLV, DV, TS, ASF, M4V, MOV
 * **Audio formats**: MP3 & OGG
-* **Other formats**: PDF, PPT, PPTX, DOCX, HTML, EPUB
+* **Other formats**: PDF, PPT, PPTX, DOCX, HTML, ePUB
 * **Hyperlinks**: Paste link in the upload lesson dialogue box (Example: Video URLs from YouTube, MS Learn etc.)
 
 For more information, check the article on [**how to manage course content**](../content-management/content-management-overview.md) on Microsoft Community Training platform.  
@@ -64,9 +64,9 @@ The platform can accept files size depending on the upload size limit as specifi
 
 | Format | Upload size limit |
 | --- | --- |
-| Video lessons: MP4, 3GP, 3G2, 3GP2, AVI, MEPG, MPG, WMV, VOB, MKV, FLV, DV, TS, ASF, M4V, MOV | No limit |
+| Video lessons: MP4, 3GP, 3G2, 3GP2, AVI, MPEG, MPG, WMV, VOB, MKV, FLV, DV, TS, ASF, M4V, MOV | No limit |
 | Audio Lessons: MP3 & OGG | No limit |
-| PDF, HTML, External Links, EPUB | No limit |
+| PDF, HTML, External Links, ePUB | No limit |
 | PPT, PPTX, DOCX | 10 MB |
 | Excel | 5 MB |
 
@@ -161,7 +161,7 @@ Yes, you can use Power point files for lessons. To learn what other types of con
 
 ### Can I use eBook as a lesson content?
 
-Yes, you can use eBooks in EPUB file format for lessons. To learn what other types of content is supported, refer the [**Course Management Overview**](../content-management/content-management-overview.md) article.
+Yes, you can use eBooks in ePUB file format for lessons. To learn what other types of content is supported, refer the [**Course Management Overview**](../content-management/content-management-overview.md) article.
 
 ### Can I upload PDF file as a lesson content?
 
@@ -189,7 +189,7 @@ To learn more about the VTT standard, please read it [**here**](https://en.wikip
 
 Microsoft Community Training supports following file formats for the video content:
 
-MP4, 3GP, 3G2, 3GP2, AVI, MEPG, MPG, WMV, VOB, MKV, FLV, DV, TS, ASF, M4V, MOV
+MP4, 3GP, 3G2, 3GP2, AVI, MPEG, MPG, WMV, VOB, MKV, FLV, DV, TS, ASF, M4V, MOV
 
 ### What are the different support file formats for audio content on the platform
 
@@ -296,7 +296,7 @@ For scenarios when you have the same course available in multiple languages, you
 
 You can create content as per the needs of your training program, using any tool of your choice. Microsoft can help you with your content creation by advising you on best practices and tips to create engaging content for your audience.
 
-Contact us via **[Helpdesk](https://go.microsoft.com/fwlink/?linkid=2104630)** and leave your requirements in the ticket description.  
+Contact us via **[HelpDesk](https://go.microsoft.com/fwlink/?linkid=2104630)** and leave your requirements in the ticket description.  
 
 ### I am not able to bulk upload content on the training portal or Bulk upload content is failing
 

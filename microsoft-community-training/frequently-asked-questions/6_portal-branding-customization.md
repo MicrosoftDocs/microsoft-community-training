@@ -27,7 +27,7 @@ You can customize the name and icon of training tab in MS Teams as per your requ
 
 Microsoft Community Training doesn't support multiple homepages out of the box. However, you can customize and develop multiple standalone HTML pages (one for each program) with a link to login to the Learner view. Course assignment can be controlled by prompting the user to choose the employment center / program during the one-time sign up process.
 
-For more information and support on how to enable this, please contact us via [**Helpdesk**](https://go.microsoft.com/fwlink/?linkid=2104630).
+For more information and support on how to enable this, please contact us via [**HelpDesk**](https://go.microsoft.com/fwlink/?linkid=2104630).
 
 ### Can the landing page or homepage have a different design?
 
@@ -35,7 +35,7 @@ You can customize the landing page with a custom theme color, banner image and w
 
 Alternatively, you can create your own landing page and direct users to the training instance from the landing page.
 
-For more information and support on how to enable this, please contact us via [**Helpdesk**](https://go.microsoft.com/fwlink/?linkid=2104630).
+For more information and support on how to enable this, please contact us via [**HelpDesk**](https://go.microsoft.com/fwlink/?linkid=2104630).
 
 ### Is it possible to hide courses shown on the home page when web portal is opened?
 
@@ -45,7 +45,7 @@ Yes, it is possible and  can be achieved in two ways.
 
 * **Method 2** : You can have your own custom homepage and simply set redirection triggers to the sign-in page, which allows the customers to bypass our default homepage.
 
-For more information and support on how to enable this, please contact us via [**Helpdesk**](https://go.microsoft.com/fwlink/?linkid=2104630).
+For more information and support on how to enable this, please contact us via [**HelpDesk**](https://go.microsoft.com/fwlink/?linkid=2104630).
 
 ### How to upload Privacy Statement & Terms and Conditions for users to read at the time of sign up?
 

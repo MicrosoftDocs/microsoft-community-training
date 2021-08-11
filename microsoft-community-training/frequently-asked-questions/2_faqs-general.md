@@ -39,7 +39,7 @@ The platform is already being used by number of large enterprises, small and med
 
 ### What kind of training scenarios I can use the Microsoft community training platform for?
 
-Microsoft community training can be leveraged in a wide range of training use cases such as Employee Onboarding, Employee Upskilling, Mobile workforce training, Partner Training, Customer Training, Community Training, Online Learning Academy and many others.
+Microsoft community training can be leveraged in a wide range of training use cases such as Employee Onboarding, Employee Up-skilling, Mobile workforce training, Partner Training, Customer Training, Community Training, Online Learning Academy and many others.
 
 These training use cases are cutting across multiple  verticals such as Banking & Financial Services, Retail, Healthcare, Manufacturing, Government Organizations & Nonprofit.
 
@@ -53,7 +53,7 @@ Organization can use the Microsoft Community Training platform to host and train
 
 Here is [**our free content library**](https://sangampartners.azurewebsites.net/) for your reference. Also, you can host content from [**Microsoft Learn**](/learn/) into the platform to provide one stop shop for all training courses to your target audience.
 
-For more details on how to leverage the import these content on your platform instance, reach out to us [**via Helpdesk**](https://go.microsoft.com/fwlink/?linkid=2104630).
+For more details on how to leverage the import these content on your platform instance, reach out to us [**via HelpDesk**](https://go.microsoft.com/fwlink/?linkid=2104630).
 
 ### How to create / add a new course on Microsoft community training?
 
@@ -73,7 +73,7 @@ Microsoft Community Training platform supports personalized learning for a large
 
 So, depending upon use cases, organization can use Microsoft Community Training in either of the following manner:
 
-* **If an organization already has an LMS in place** – Organizations can use this platform for unmanaged audiences like first line workers, extended workforces, partner ecosystem, volunteer network, program beneficiaries, etc. who needs to access content via mobile number or personal email address.
+* **If an organization already has an LMS in place** – Organizations can use this platform for un-managed audiences like first line workers, extended workforces, partner ecosystem, volunteer network, program beneficiaries, etc. who needs to access content via mobile number or personal email address.
 
 * **If an organization has no LMS** - Organizations can use this platform for both internal as well as external audiences.
 
@@ -93,22 +93,22 @@ We have a guided tour available for you to play around and get familiar with the
 
 Alternatively, you can also deploy and setup a platform instance on your Azure subscription from the [**Azure Marketplace**](https://azuremarketplace.microsoft.com/en-us/marketplace/apps/project-sangam.microsoft-community-training?tab=Overview).  
 
-If you want access to demo instance, please reach out to us [**via our helpdesk**](https://go.microsoft.com/fwlink/?linkid=2104630).
+If you want access to demo instance, please reach out to us [**via our helpDesk**](https://go.microsoft.com/fwlink/?linkid=2104630).
 
 ### What type of content format is supported on the platform?
 
 Microsoft community training supports a wide range of formats as listed below:
 
-* **Video formats**: MP4, 3GP, 3G2, 3GP2, AVI, MEPG, MPG, WMV, VOB, MKV, FLV, DV, TS, ASF, M4V, MOV
+* **Video formats**: MP4, 3GP, 3G2, 3GP2, AVI, MPEG, MPG, WMV, VOB, MKV, FLV, DV, TS, ASF, M4V, MOV
 * **Audio formats**: MP3 & OGG
-* **Other formats**: PDF, PPT, PPTX, DOCX, HTML, EPUB
+* **Other formats**: PDF, PPT, PPTX, DOCX, HTML, ePUB
 * **Hyperlinks**: Paste link in the upload lesson dialogue box ((Example: Contents added via external platforms such as YouTube or MS Learn using their URL)
 
-For more information, check the article on [**how to manage course content**](../content-management/content-management-overview.md) on Microsofot Community Training platform.  
+For more information, check the article on [**how to manage course content**](../content-management/content-management-overview.md) on Microsoft Community Training platform.  
 
 ### Does the Microsoft Community Training platform come with some out of the box content?
 
-Microsoft Community Training offers wide range of out of box video content such as MS Learn, Office products, Computer basics & Security etc. All these contents are free of cost and  can obtain the video contents by [**contacting our helpdesk**](https://go.microsoft.com/fwlink/?linkid=2104630) post your platform deployment.
+Microsoft Community Training offers wide range of out of box video content such as MS Learn, Office products, Computer basics & Security etc. All these contents are free of cost and  can obtain the video contents by [**contacting our helpDesk**](https://go.microsoft.com/fwlink/?linkid=2104630) post your platform deployment.
 
 You can check [**our sample content library**](http://sangampartners.azurewebsites.net/) for reference. We constantly keep updating our content library.  
 
@@ -116,7 +116,7 @@ Please note - all content hosted in the content library is free of charge and pr
 
 ### How to request for teams manifest file?
 
-1. Create a support ticket on [Microsoft Community Training Helpdesk](https://sangamhelpdesk.microsoftcrmportals.com/SignIn?ReturnUrl=%2Fsupport%2Fcreate-case%2F) for a Microsoft Teams app manifest for your training platform instance in the following format,
+1. Create a support ticket on [Microsoft Community Training HelpDesk](https://sangamhelpdesk.microsoftcrmportals.com/SignIn?ReturnUrl=%2Fsupport%2Fcreate-case%2F) for a Microsoft Teams app manifest for your training platform instance in the following format,
 
    ![Teams manifest](../media/manifest.JPG)
 
@@ -130,7 +130,7 @@ For more information, [**refer here**](../settings/7_customize-languages-for-the
 
 ### How can i raise a new language request?
 
-You can raise a request ticket via our [Helpdesk](https://sangamhelpdesk.microsoftcrmportals.com/) to request another language for your platform instance. Please refer to [this article](../settings/8_request-a-new-language.md) for more details.
+You can raise a request ticket via our [HelpDesk](https://sangamhelpdesk.microsoftcrmportals.com/) to request another language for your platform instance. Please refer to [this article](../settings/8_request-a-new-language.md) for more details.
 
 ### Is there support for live classroom training in Microsoft Community Training?
 
@@ -140,7 +140,7 @@ However, we recommend customers to use third-party applications such as Microsof
 
 Also, you can replace the live training URL with the actual recording of the training session on the platform for people to view and consume the content later.
 
-For more details, please reach out to us [**via helpdesk**](https://go.microsoft.com/fwlink/?linkid=2104630).
+For more details, please reach out to us [**via HelpDesk**](https://go.microsoft.com/fwlink/?linkid=2104630).
 
 ### Does Microsoft Community Training platform has any learner tracking capability?
 
@@ -167,7 +167,7 @@ Yes, Microsoft Partners can setup the platform in their own subscription or on c
 
 For e.g. Microsoft Partners can leverage the platform to drive Office 365 training for existing or new customers. For this, they can use the [**existing content**](http://sangampartners.azurewebsites.net/) available in the catalogue for free.
 
-For more information and support, please contact us via  **[Helpdesk](https://go.microsoft.com/fwlink/?linkid=2104630)** and leave your requirements in the ticket description.
+For more information and support, please contact us via  **[HelpDesk](https://go.microsoft.com/fwlink/?linkid=2104630)** and leave your requirements in the ticket description.
 
 ### How to invite learners to the training portal instance?
 
@@ -179,7 +179,7 @@ There are various ways to invite users and create awareness about the platforms.
 
 #### How can I provide feedback on the Microsoft Community Training platform and request for new features?
 
-Customers can contact us via [**Helpdesk**](https://go.microsoft.com/fwlink/?linkid=2104630) for any issues or new feature request. Whenever we receive any feedback, we actively work to address the issue or prioritize the feature ask on the product roadmap.
+Customers can contact us via [**HelpDesk**](https://go.microsoft.com/fwlink/?linkid=2104630) for any issues or new feature request. Whenever we receive any feedback, we actively work to address the issue or prioritize the feature ask on the product roadmap.
 
 ### Does platform provides gamification capabilities to incentive learners complete course content?
 

@@ -43,11 +43,14 @@ Get more CPU, memory, disk space, and extra features like dedicated virtual mach
 
 7. Select new tier of your choice and click on **Apply**.
 
-## Azure SQL Database 
+## Azure SQL Database
+
 ### Introduction
+
 Mitigate performance issues by dynamically add more resources to your database with minimal downtime; however, there will be a switch over period where connectivity is lost to the database for a short amount of time, which can be mitigated using retry logic. Learn more [here](/azure/sql-database/sql-database-scale-resources).
 
 ### Steps to upgrade your Azure SQL Database plan
+
 1. Login to your [**Azure portal**](https://portal.azure.com), go to Resource Groups from the left-menu.
 
    ![Azure portal](../../media/image%28118%29.png)

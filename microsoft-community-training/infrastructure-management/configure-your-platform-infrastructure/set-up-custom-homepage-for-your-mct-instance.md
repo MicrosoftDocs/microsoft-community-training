@@ -66,7 +66,7 @@ Here are some pre-requisites before you follow the steps are to be incorporated 
 >[!Note]
 >For more details please refer [https://docs.microsoft.com/en-us/azure/storage/blobs/storage-blob-static-website-host](/azure/storage/blobs/storage-blob-static-website-host)
 >
->Here are some sample templates of the Custom Homepage which can be used to deploy on your MCT instance: 
+>Here are some sample templates of the Custom Homepage which can be used to deploy on your MCT instance:
 [MCT_CustomHomePage_Templates.zip](https://github.com/MicrosoftDocs/microsoft-community-training/files/6968259/MCT_CustomHomePage_Templates.zip)
 
 ## Tracking users signing in through Custom Homepage

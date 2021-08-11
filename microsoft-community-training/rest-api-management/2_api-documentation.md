@@ -61,7 +61,7 @@ To obtain the access token **manually** (for testing purposes), follow these ste
 1. Open the browser.
 2. Open the inspect window. (Shortcut: Press Ctrl + Shift + I or Right-click and select Inspect)
 3. In Inspect window, go to Network Tab
-4. Now in the browser, call the URL :<https://{your-MCT-portal-domain}/ExternalAuthentication/Login>.
+4. Now in the browser, call the URL :"https:// {your-MCT-portal-domain} /ExternalAuthentication/Login".
 
     **For example**: To get token for <https://mctdemo2.azurefd.net> instance, we can call mctdemo2.azurefd.net/ExternalAuthentication/Login
 

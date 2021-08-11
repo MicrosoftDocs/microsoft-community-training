@@ -78,7 +78,7 @@ Select the WAF policy instance that is deployed in the same resource group.
 
 3. Select Applications under Manage and select the application
 
-4. Under reply URL, please add your new custom domain URL in the below format <https://{customdomain}/signin-b2c>.  (e.g.: <https://contosolearning.contoso.com/signin-b2c> )
+4. Under reply URL, please add your new custom domain URL in the format, "https:// {custom domain} /signin-b2c". For example, "https://contosolearning.contoso.com/signin-b2c".
 
    > [!NOTE]  
    > Please ensure the case for "/signin-b2c" is exactly as mentioned since the URL is case sensitive.  
@@ -117,7 +117,7 @@ Select the WAF policy instance that is deployed in the same resource group.
 
 4. Select Authentication.
 
-5. Now add the redirect URL in following format, <https://{customdomain}/signin-azureAD>  (e.g.: <https://contosolearning.contoso.com/signin-azureAD>)
+5. Now add the redirect URL in following format,"https:// {customdomain} /signin-azureAD"  (e.g.: "https://contosolearning.contoso.com/signin-azureAD")
    > [!NOTE]  
    > Please ensure the case for "/azureAD" is exactly as mentioned since the URL is case sensitive.  
 
@@ -133,7 +133,7 @@ Select the WAF policy instance that is deployed in the same resource group.
 
 4. Enter Name of the application, select Application type “Web app/API”
 
-5. Now add the redirect URL in following format, <https://{websitename}-staging/signin-azureAD> (e.g  <https://contosolearning-staging.azurewebsites.net/signin-azureAD>)
+5. Now add the redirect URL in following format, "https:// {websitename}-staging /signin-azureAD" (e.g  "https://contosolearning-staging.azurewebsites.net/signin-azureAD")
    > [!NOTE]  
    > Please ensure the case for "/azureAD" is exactly as mentioned since the URL is case sensitive.  
 

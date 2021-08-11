@@ -15,7 +15,7 @@ To access the group view, you need to select a Group from the list of groups und
 
 In this article, you will learn more about different metrics and reports available to the group administrators for all the participants in the group:
 
-### Permissions Level
+## Permissions Level
 
 The Microsoft Community Training management portal provides role-based administration and depending upon the type of access level administrator can perform an action on the portal. Table below shows administrative role which can access the group view:  
 
@@ -32,8 +32,11 @@ The Microsoft Community Training management portal provides role-based administr
 
 ## Track overall learners progress and performance in a group
 
-On the group details page, admin can view the list of all learners in the group each with course completion , average quiz score, courses enrolled by group admin, certificates received is displayed. For example, image shows the group analytics details for the employees in Mumbai region
-![Group analytics](../../media/image%2845%29.png)
+On the group details page, admin can view the list of all learners in the group each with course completion , average quiz score, courses enrolled by group admin, certificates received is displayed.
+
+* For example, image shows the group analytics details for the employees in Mumbai region
+
+    ![Group analytics](../../media/image%2845%29.png)
 
 In the grid view, for each learner, group admin can see the following information. You can hover over the column header to view the column definition.
 

@@ -71,4 +71,4 @@ From the group view grid, you can:
 
 Learner Report Card View provide administrators to monitor and track each individual learner’s progress and performance across all the enrolled courses. This information helps administrators (specially group admins) track course completion and follow up with learners to drive adoption of the training program.
 
-To access the [**Learner Report Card View**](./learner-report-card-view.md), you need to select a user from the group details page or All users list page.
+To access the [**Learner Report Card View**](./learner-report-card-view.md), you need to select an user from the group details page or All users list page.

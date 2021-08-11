@@ -64,13 +64,15 @@ In this article, you will learn more about connecting Power BI with the Azure SQ
 
 7. Use the database schema from [this document](database-schema.md) to build relations required for your custom reporting requirements
 
-## Using custom Power BI dashboard
+## Sample PowerBI Reports
 
-To get started, MCT provides customers with a custom made PowerBI dashboard with interactive visualizations to effectively track learner’s progress across courses.
+To help you get started on creating your own PowerBI reports here are some samples. These sample reports with their interactive visualizations can be used to create further customized reports for your specific requirements.
+
+The pbix files for the sample reports can be downloaded from here -
 
 >[**MCT PowerBI custom Dashboard.zip**](https://github.com/MicrosoftDocs/microsoft-community-training/files/6967550/MCT.PowerBI.custom.Dashboard.zip)
 
-To be able to start using this dashboard we need to replace the existing data source and connect the .Pbix file with your own [**Database**](database-schema.md).
+To be able to start using this dashboard you will need to replace the existing data source and connect the .pbix file with your own [**Database**](database-schema.md).
 
 ### Steps to replace data source in PowerBI dashboard
 
@@ -82,7 +84,7 @@ If you already have your credentials for connecting to DB then proceed to step3.
 
 3. Once you have credentials, server name, and database name we can go ahead to replace the data source in the dashboard provided. To do this we need to have [**Power BI**](/power-bi/fundamentals/desktop-getting-started) installed.
 
-4. Open the .pbix file from the "MCT PowerBI custom Dashboard.zip" that you downloaded and open it from your Power BI Desktop and go to ‘File’ from menu bar.
+4. Open the .pbix file from the [**MCT PowerBI custom Dashboard.zip**](https://github.com/MicrosoftDocs/microsoft-community-training/files/6967550/MCT.PowerBI.custom.Dashboard.zip) that you downloaded and open it from your Power BI Desktop and go to ‘File’ from menu bar.
 
     :::image type="content" source="../../media/BI_file.jpg" alt-text="file":::
 

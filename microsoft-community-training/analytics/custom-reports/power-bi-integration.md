@@ -60,3 +60,6 @@ In this article, you will learn more about connecting Power BI with the Azure SQ
     :::image type="content" source="../../media/image%28367%29.png" alt-text="Loaded tables will be imported to PowerBI":::
 
 7. Use the database schema from [this document](database-schema.md) to build relations required for your custom reporting requirements
+
+>[!Tip]
+>To get started, MCT provides customers with out of the box custom visualizations through Power BI Dashboard to effectively track learner’s progress across courses.

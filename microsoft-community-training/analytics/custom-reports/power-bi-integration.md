@@ -64,6 +64,6 @@ In this article, you will learn more about connecting Power BI with the Azure SQ
 
 > [!Tip]
 > To get started, MCT provides customers with out of the box custom visualizations through Power BI Dashboard to effectively track learner’s progress across courses.
-> [MCT PowerBI custom Dashboard.zip](https://github.com/MicrosoftDocs/microsoft-community-training/files/6966837/MCT.PowerBI.custom.Dashboard.zip) this folder has custom PowerBI > dashboard and a step by step procedure to replace the data source to connect it with your database to start getting out of the box insights from vizualizations. 
-> 
+> [MCT PowerBI custom Dashboard.zip](https://github.com/MicrosoftDocs/microsoft-community-training/files/6966837/MCT.PowerBI.custom.Dashboard.zip) this folder has custom PowerBI dashboard and a step by step procedure to replace the data source to connect it with your database to start getting out of the box insights from vizualizations. 
+
 

@@ -31,7 +31,7 @@ Apply the following steps to access the Rest API signatures exposed by the Micro
 
     **Value: true**
 
-    ![popup-swager.png](../media/popup.png)
+    ![popup-swagger.png](../media/popup.png)
 
 4. Click on the save Icon to save the changes.
 
@@ -41,7 +41,7 @@ Apply the following steps to access the Rest API signatures exposed by the Micro
 
 > [!NOTE]
 > If your website portal URL is `https://mcttraining.azurewebsites.net`
-> Then, URL Strcture for API Signature: `https://mcttraining.azurewebsites.net/swagger`
+> Then, URL Structure for API Signature: `https://mcttraining.azurewebsites.net/swagger`
 
 > [!WARNING]
 > You must be signed in as an administrator on your training portal to obtain the API Signature.

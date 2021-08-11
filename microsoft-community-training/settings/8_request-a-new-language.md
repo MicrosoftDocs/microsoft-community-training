@@ -9,7 +9,7 @@ ms.prod: azure
 
 # Request a new Language
 
-Microsoft Community Training currently supports 28 languages on the platform:  Albanian, Arabic, Bengali, Chinese (Simplified), Chinese (Traditional, Dutch, English, Finnish, French, Hindi, Kinyarwanda, Kurdish, Lao, Lithuanian, Malay, Oriya, Portuguese, Serbian (Cyrillic), Somali, Spanish, Swedish, Swedish, Tajik, Telugu, Tetum, Thai, Ukrainian, Vietnamese. 
+Microsoft Community Training currently supports 28 languages on the platform:  Albanian, Arabic, Bengali, Chinese (Simplified), Chinese (Traditional, Dutch, English, Finnish, French, Hindi, Kinyarwanda, Kurdish, Lao, Lithuanian, Malay, Oriya, Portuguese, Serbian (Cyrillic), Somali, Spanish, Swedish, Swedish, Tajik, Telugu, Tetum, Thai, Ukrainian, Vietnamese.
 
 You can raise a request ticket via our Helpdesk to request another language for your platform instance.
 
@@ -21,15 +21,15 @@ In this article, you'll learn how request for new languages for your platform in
 
 2. Sign in using your Azure AD or Social accounts.
 
-3. Click on **Create Support Ticket** and enter the following values: 
+3. Click on **Create Support Ticket** and enter the following values:
 
-|Field	|Description|
-|---|---|
-|Title|	Enter "Request a language"|
-|Type|	Select "Request"|
-|Subject |Under Portal Settings, select "Request a language for your portal"|
-|Description|	Enter the languages you need. |
+    |Field|Description|
+    |---|---|
+    |Title|Enter "Request a language"|
+    |Type|Select "Request"|
+    |Subject |Under Portal Settings, select "Request a language for your portal"|
+    |Description|Enter the languages you need. |
 
 4. Submit the form.
 
-5. Our support team will get in touch with you to learn more about your requirements in 2-3 business days. 
+5. Our support team will get in touch with you to learn more about your requirements in 2-3 business days.

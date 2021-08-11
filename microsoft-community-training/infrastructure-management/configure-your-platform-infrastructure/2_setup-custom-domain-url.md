@@ -56,7 +56,7 @@ Select the WAF policy instance that is deployed in the same resource group.
 11. Next based on your chosen identity type, follow the steps below:
     * **For Social Accounts or email based authentication** like Google, Microsoft and Facebook [follow these steps](../../infrastructure-management/configure-your-platform-infrastructure/2_setup-custom-domain-url.md#for-social-accounts-like-google-microsoft-and-facebook)
     * **For Azure Active Directory** (aka Work or School account) [follow these steps](../../infrastructure-management/configure-your-platform-infrastructure/2_setup-custom-domain-url.md#for-azure-active-directory-work-or-school-account)
-    * **For phone number authentication**, create a support ticket from [Microsoft Community Training Helpdesk](https://go.microsoft.com/fwlink/?linkid=2104630) using the following values. Our support team will activate your custom URL in 2-3 business days and notify you of the change.
+    * **For phone number authentication**, create a support ticket from [Microsoft Community Training HelpDesk](https://go.microsoft.com/fwlink/?linkid=2104630) using the following values. Our support team will activate your custom URL in 2-3 business days and notify you of the change.
 
         |Field|Description|
         |---|---|

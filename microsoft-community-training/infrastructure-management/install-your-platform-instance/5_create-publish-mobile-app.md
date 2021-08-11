@@ -13,7 +13,7 @@ In this article, we will learn about how to create and publish the Mobile App (a
 
 ![Create and Publish your Mobile App](../../media/image%2877%29.png)
 
-For setting up the mobile app for your training portal, you will need to request for a mobile APP (APK) from Microsoft and setup your Google Playstore account.  You’ll also be required to share release manager access with Microsoft to enable automatic updates to the mobile app.
+For setting up the mobile app for your training portal, you will need to request for a mobile APP (APK) from Microsoft and setup your Google PlayStore account.  You’ll also be required to share release manager access with Microsoft to enable automatic updates to the mobile app.
 
 ## Steps to create Mobile App for the training portal
 
@@ -34,7 +34,7 @@ For setting up the mobile app for your training portal, you will need to request
 4. Provide the following information in the **Description** section of the **Support Ticket** -
     * Application Color Code (HEX format) - This color will be used in the mobile app as shown in the image at the start of the article. For eg, Orange
     * Portal URL - This is the instance of the platform for which the mobile app will be generated
-    * Application Name - This is the name of the mobile app when published on playstore
+    * Application Name - This is the name of the mobile app when published on playStore
     * Supported Languages - This is the list of languages supported in the mobile app
 
         >**Sample Description Content**
@@ -54,7 +54,7 @@ For setting up the mobile app for your training portal, you will need to request
 
 6. That's all! You’ll receive a link on your contact email address to download the mobile AAB & APK files from our support team (in 4-5 business days).
 
-## Steps to publish your mobile app to the playstore
+## Steps to publish your mobile app to the playStore
 
 ### Before you begin
 
@@ -62,7 +62,7 @@ For setting up the mobile app for your training portal, you will need to request
 
 2. We provide two files i.e., the APK & AAB file, you can use the APK file to test your app before publishing and to publish you may use the AAB bundle which contains support to multiple android versions and supports 32 & 64 bit.
 
-3. [**Sign up on Google Play**](https://play.google.com/apps/publish/signup/) console in order to publish your app on  Google Playstore.  
+3. [**Sign up on Google Play**](https://play.google.com/apps/publish/signup/) console in order to publish your app on  Google PlayStore.  
 
 ### Steps to publish your mobile app
 

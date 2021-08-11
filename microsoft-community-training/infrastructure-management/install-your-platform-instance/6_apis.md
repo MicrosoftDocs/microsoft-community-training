@@ -17,7 +17,7 @@ Refer to our [API Documentation](../../rest-api-management/2_api-documentation.m
 
 For any questions, follow the steps below to reach out to us.
 
-1. Visit [**Microsoft Community Training Helpdesk**](https://go.microsoft.com/fwlink/?linkid=2104630).
+1. Visit [**Microsoft Community Training HelpDesk**](https://go.microsoft.com/fwlink/?linkid=2104630).
 
 2. Sign in using your Azure AD or Social accounts.
 

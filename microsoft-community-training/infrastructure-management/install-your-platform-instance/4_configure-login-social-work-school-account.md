@@ -58,11 +58,11 @@ Here are the steps to create policies based on the Identity Provider:
 > 1. Set Userflow Name as **pwd_reset** (Step #1 in Create Flow using steps in [**this article**](/en-us/azure/active-directory-b2c/tutorial-create-user-flows)
 >
 > 2. Add the following URLs in the **Reply URL** section,
->
->> * "https://*name*.azurefd.net/signin-b2c-pwd"
->> * "https://*name*.azurewebsites.net/signin-b2c-pwd"
->> * "https://*name*-staging.azurewebsites.net/signin-b2c-pwd" where "name" corresponds to your website name.
->
+    >
+    >> * "https://*name*.azurefd.net/signin-b2c-pwd"
+    >> * "https://*name*.azurewebsites.net/signin-b2c-pwd"
+    >> * "https://*name*-staging.azurewebsites.net/signin-b2c-pwd" where "name" corresponds to your website name.
+    >
 > 3. Open **App Service** and add the following configurations both with value as **B2C_1_pwd_reset**,
 >
 >> * AzureADB2CPasswordResetPolicy 
@@ -87,7 +87,7 @@ Here are the steps an create on Azure AD B2C tenant and link the same with your 
         1. "https://*name*.azurefd.net/signin-b2c-pwd"
         2. "https://*name*.azurewebsites.net/signin-b2c-pwd"
         3. "https://*name*-staging.azurewebsites.net/signin-b2c-pwd"  
-    where "name" corresponds to your website name. 
+    where "name" corresponds to your website name.
 
             ![Password reset flow](../../media/image%28113%29.png)
 2. Copy the Application ID value to be required later for **Client ID**.
@@ -148,7 +148,7 @@ MCT requires Azure Active Directory application creation and registration. To su
 1. Open Cloud Shell in azure portal
 
 2. Run the following steps in a Cloud Shell instance using the PowerShell environment.
-    1. Download the AAD app creation script using following command: **wget -q https://sangamapps2.blob.core.windows.net/aad-aap-creation/AADAapCreation.ps1 -O ./aad_aap_creation.ps1**
+    1. Download the AAD app creation script using following command: `**wget -q https://sangamapps2.blob.core.windows.net/aad-aap-creation/AADAapCreation.ps1 -O ./aad_aap_creation.ps1**`
 
     2. By default, the file is downloaded to your home directory. Navigate to the home directory with following command: **cd**
 

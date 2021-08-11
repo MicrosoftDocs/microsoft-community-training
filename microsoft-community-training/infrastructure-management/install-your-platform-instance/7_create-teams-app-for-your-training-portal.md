@@ -21,7 +21,7 @@ If you haven't, please follow the Installation steps first and then refer this a
 
 ## Steps to enable learning inside Microsoft Teams
 
-### Step 1 - Delegate permissions on your Azure AD application setup for Microsoft Communtiy Training
+### Step 1 - Delegate permissions on your Azure AD application setup for Microsoft Community Training
 
 1. Login to the [Azure Portal](https://portal.azure.com/) with admin credentials
 
@@ -51,7 +51,7 @@ If you haven't, please follow the Installation steps first and then refer this a
 
 ### Step 2 - Raise a support ticket to get the Microsoft Teams app for your Microsoft Community Training instance
 
-1. Create a support ticket on [**Microsoft Community Training Helpdesk**](https://go.microsoft.com/fwlink/?linkid=2104630) for a Microsoft Teams app manifest for your training platform instance in the following format,
+1. Create a support ticket on [**Microsoft Community Training HelpDesk**](https://go.microsoft.com/fwlink/?linkid=2104630) for a Microsoft Teams app manifest for your training platform instance in the following format,
 
     | Field | Description |
     | --- | --- |

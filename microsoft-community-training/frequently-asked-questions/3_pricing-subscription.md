@@ -82,7 +82,7 @@ Microsoft Community Training platform is in public preview right now. Currently,
 
 When a user downloaded content for offline consumption there are no charges applicable to the organization’s end. However, mobile data charges are applicable for the learners while downloading the content based on their ISP.
 
-Example: Let's assume an organization named Contoso is using  Microsoft Community Training to upskill their employees. Cathy an employee of Contoso uses the mobile app for consuming training content and download videos for offline consumption. During this process, Contoso is not charged any video streaming cost when Cathy is viewing  video content downloaded on the mobile app.
+Example: Let's assume an organization named Contoso is using  Microsoft Community Training to up-skill their employees. Cathy an employee of Contoso uses the mobile app for consuming training content and download videos for offline consumption. During this process, Contoso is not charged any video streaming cost when Cathy is viewing  video content downloaded on the mobile app.
 
 ### Microsoft Community Training charges based on Azure usage which is dependent upon consumption of courses on the platform. Right?
 

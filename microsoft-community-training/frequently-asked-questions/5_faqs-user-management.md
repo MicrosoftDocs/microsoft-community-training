@@ -21,7 +21,7 @@ Currently, there are 3 forms of login identity supported in the platform out of 
 
 3. **Azure Active Directory** -  Learners use their Azure Active Directory (aka Azure AD) credentials to login to the portal.
 
-Apart from the out-of-box identities, platform can integrate with any existing OAuth 2.0, OpenID Connect or SAML based authenticate service for login. For more information, reach out us [**via helpdesk**](https://go.microsoft.com/fwlink/?linkid=2104630).
+Apart from the out-of-box identities, platform can integrate with any existing OAuth 2.0, OpenID Connect or SAML based authenticate service for login. For more information, reach out us [**via HelpDesk**](https://go.microsoft.com/fwlink/?linkid=2104630).
 
 > [!NOTE]  
 > Organization can use only 1 of the identity type for login purpose.
@@ -58,7 +58,7 @@ In the future, we do plan to enable support multiple login identities for the sa
 
 You can create Azure AD B2C tenant with local account setup  and let learners generate their own username and password at the time of registration.
 
-For more information, please contact us [**via Helpdesk**](https://go.microsoft.com/fwlink/?linkid=2104630) and leave your requirements in the ticket description.
+For more information, please contact us [**via HelpDesk**](https://go.microsoft.com/fwlink/?linkid=2104630) and leave your requirements in the ticket description.
 
 ## Mobile number login
 
@@ -77,13 +77,13 @@ When this setting is enabled, only users that are added or imported to the porta
 Depending upon the network operator, it can take up to a minute to receive One Time Password, learners can request to resend OTP via the resend dialog and try again.  
 ![Phone base login](../media/image%28317%29.png)
 
-If the problem persists, you can reach out us [**via Helpdesk**](https://go.microsoft.com/fwlink/?linkid=2104630).
+If the problem persists, you can reach out us [**via HelpDesk**](https://go.microsoft.com/fwlink/?linkid=2104630).
 
 ### For mobile based login, what will happen if learner has changed his or her number?
 
 Currently, there is no user facing interface available for learners to change their phone number. In case, learner has changed his mobile number and wants the same to be updated in the portal then he or she needs to contact the organization admin.
 
-Post which, admins can us [**via helpdesk**](https://go.microsoft.com/fwlink/?linkid=2104630) and we will help them with updating the details.
+Post which, admins can us [**via HelpDesk**](https://go.microsoft.com/fwlink/?linkid=2104630) and we will help them with updating the details.
 
 ## Email address login
 
@@ -104,7 +104,7 @@ To enable Google and Facebook login for Microsoft Community Training instance, y
 
 Yes, you can deploy Microsoft Community Training instance with Azure AD B2C setup and enable Azure AD as IDP provider for learners to use their existing work account for login purpose.
 
-For more information, please contact us [**via Helpdesk**](https://go.microsoft.com/fwlink/?linkid=2104630) and leave your requirements in the ticket description.
+For more information, please contact us [**via HelpDesk**](https://go.microsoft.com/fwlink/?linkid=2104630) and leave your requirements in the ticket description.
 
 ## SSO & Integration with external IDP
 
@@ -114,7 +114,7 @@ Microsoft Community Training (Microsoft community training) platform supports al
 
 In case of the existing identity system is not OAuth2.0 / OpenID connect based then enabling Single Sign On between Microsoft community training and the existing system will require custom work as highlighted flow diagram below. Please raise a support ticket for more information and kick start the SSO discussion.
 
-For all queries regarding SSO and/or custom login, contact us via  **[Helpdesk](https://sangamhelpdesk.microsoftcrmportals.com/SignIn?ReturnUrl=%2Fsupport%2Fcreate-case%2F)** and leave your requirements in the ticket description.
+For all queries regarding SSO and/or custom login, contact us via  **[HelpDesk](https://sangamhelpdesk.microsoftcrmportals.com/SignIn?ReturnUrl=%2Fsupport%2Fcreate-case%2F)** and leave your requirements in the ticket description.
 
 ### I am already using OKTA for managing my workforces. How can I enable SSO with Microsoft Community Training?
 
@@ -127,7 +127,7 @@ Microsoft Community Training supports single sign on with OKTA. To enable this, 
 
 Microsoft Community Training can be integrated with any existing OAuth 2.0, OpenID Connect or SAML based authenticate service for login using Azure AD B2C.
 
-To enable OAuth 2.0 or SAML, please contact us [**via Helpdesk**](https://go.microsoft.com/fwlink/?linkid=2104630) and leave your requirements in the ticket description.
+To enable OAuth 2.0 or SAML, please contact us [**via HelpDesk**](https://go.microsoft.com/fwlink/?linkid=2104630) and leave your requirements in the ticket description.
 
 ## Restrict user access
 

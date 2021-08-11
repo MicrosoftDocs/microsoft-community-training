@@ -35,6 +35,7 @@ Here are some pre-requisites before you follow the steps are to be incorporated 
         :::image type="content" source="../../media/image(460).png" alt-text="Static website endpoint":::
 
 3. Deploy the custom home page in the storage account configured above.
+
     1. Create an empty folder named "mywebsite" on your local file system.
     2. Launch Visual Studio Code and open the folder that you just created from the **Explorer** panel.
         :::image type="content" source="../../media/image(461).png" alt-text="Visual studio code":::

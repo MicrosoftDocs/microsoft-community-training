@@ -40,12 +40,12 @@ With this new release, Global Administrators will now be able to [edit these pro
 ## Link to external website on learner homepage
 
 In this release we have enabled you to [provide a link to an external website on the learner’s homepage](../../settings/link-to-external-website-on-learner-Homepage.md) for allowing the learners quick access to a preferred website. This can be used for additional resources or branding purposes as required.
-:::image type="content" source="../../media/image(490).png" alt-text="External website link New Feature":::
+    :::image type="content" source="../../media/image(490).png" alt-text="External website link New Feature":::
 
 ## Learner language change post login
 
 Learners can now [switch the language of the portal](../../learner-experience/web-app.md#step-3-choose-the-language) even after logging in into the platform. The available languages would be now present as a drop down in the platform for the learner to easily switch between languages.
-:::image type="content" source="../../media/image(491).png" alt-text="Learner language change New Feature":::
+    :::image type="content" source="../../media/image(491).png" alt-text="Learner language change New Feature":::
 
 ## New application configurations
 

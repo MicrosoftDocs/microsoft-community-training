@@ -15,7 +15,7 @@ To access the overall summary view, you need to select the **Analytics option** 
 
 In this article, you will learn more about different metrics and reports available to the administrator to monitor overall health and success of the training program:
 
-### Permissions Level
+## Permissions Level
 
 The Microsoft Community Training management portal provides role-based administration and depending upon the type of access level administrator can perform an action on the portal. Table below shows administrative role which are allowed to access the overall summary report on the portal:
 
@@ -45,7 +45,7 @@ As shown in the image below, there are 142 unique learners enrolled on the porta
 
 ### Top Courses by Enrollments / Courses with No Enrollments
 
-This section provides information on the popular courses across categories. This comparative insight helps the Admins to take further action to improve the course content or to engage learners effectively. As shown in the image below, Simple diagnostics has the most # of users enrolled and there are 11 courses which no user enrolments.  
+This section provides information on the popular courses across categories. This comparative insight helps the Admins to take further action to improve the course content or to engage learners effectively. As shown in the image below, Simple diagnostics has the most # of users enrolled and there are 11 courses which no user enrollments.  
 ![All Courses](../../media/image%2834%29.png)
 
 ## Insights on learner’s engagement and course completion
@@ -72,7 +72,7 @@ This section provides break up of the popular courses by completions across cate
 
 ## Comparative insights on course enrollment and completion across categories
 
-This section in the summary view enables an admin to compare learner’s enrollment and course completion across all the categories. 
+This section in the summary view enables an admin to compare learner’s enrollment and course completion across all the categories.
 
 In the table below, for each category, you can see the number of courses, unique no of learners enrolled and the number of course completions with course completion percentage.  
 ![Categories](../../media/image%2838%29.png)

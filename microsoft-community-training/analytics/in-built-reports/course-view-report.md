@@ -15,7 +15,7 @@ To access the category view, you can either select the **View Analytics option f
 
 In this article, you will learn more about different metrics and reports available to the administrator as part of learner analytics for a specific course:
 
-### Permissions Level
+## Permissions Level
 
 The Microsoft Community Training management portal provides role-based administration and depending upon the type of access level administrator can perform an action on the portal.  Table below shows administrative role which can access the course view:  
 
@@ -55,7 +55,7 @@ The graph provide information about total course enrollment and course completio
 As shown in the image below, there is 1 unique user who has completed the course on the portal.  
 ![1 unique user](../../media/image%2872%29.png)
 
-This view gives a graphical representation on the growth in the number of course enrolments and course completions for all courses for a given category over a period. The data presented can help take corrective measures if the course completion curve falls below the course enrolment curve by a wide margin.
+This view gives a graphical representation on the growth in the number of course enrollments and course completions for all courses for a given category over a period. The data presented can help take corrective measures if the course completion curve falls below the course enrolment curve by a wide margin.
 
 ## Learner Performance
 

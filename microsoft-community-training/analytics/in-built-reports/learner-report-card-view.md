@@ -15,7 +15,7 @@ To access the Learner Report Card View, you need to select a user from the group
 
 In this article, you will learn more about different metrics and reports available to the administrator for individual leaner analytics for all the enrolled courses.
 
-### Permissions Level
+## Permissions Level
 
 The Microsoft Community Training management portal provides role-based administration and depending upon the type of access level administrator can perform an action on the portal. Table below shows administrative role which can access the group view:  
 
@@ -34,7 +34,7 @@ This section of the Learner Report Card View enables admin to get a quick summar
 
 1. **Modules Enrolled**: Show the total number of courses a learner has been enrolled or registered for
 
-2. **Module Completion**:  Show the total number of courses a learner has completed 
+2. **Module Completion**:  Show the total number of courses a learner has completed
 
 3. **Average Quiz Score**: Show the average quiz score across all the courses where learners has attempted the Practice Quiz and Exam
 
@@ -44,11 +44,11 @@ This section of the Learner Report Card View enables admin to get a quick summar
 
 This section of the Learner Report Card View provides details on the learning progress and performance for each individual course in a grid view. As shown in the image below, for each course, you will see the following metrics:
 
-1. **Learner Access Restricted to Course** - This lock icon defines if the course is restricted for the learner at that stage because they have not completed other courses. This can happen when course ordering is restricted in a Learning Path. 
+1. **Learner Access Restricted to Course** - This lock icon defines if the course is restricted for the learner at that stage because they have not completed other courses. This can happen when course ordering is restricted in a Learning Path.
 
 2. **Module Name** – Name of the course user has been enrolled
 
-3. **Average Quiz Score %** - Show the average quiz score across all the Practice Quiz and Exam attempted by the leaners. If there are no quizzes/exams in the course, then this column will set to Not Applicable
+3. **Average Quiz Score %** - Show the average quiz score across all the Practice Quiz and Exam attempted by the learners. If there are no quizzes/exams in the course, then this column will set to Not Applicable
 
 4. **% Course Progress** – Number of lessons completed by learners for a course
 
@@ -57,6 +57,7 @@ This section of the Learner Report Card View provides details on the learning pr
 6. **Enrolled On** – Date on which learner was enrolled for the course
 
 7. **Priority** - Priority of the course for the learner: Required, Recommended, Optional or Default. If the learner has been assigned the same course from multiple groups, highest priority is shown here.
+
     ![Priority of the course](../../media/image%2847%29.png)
 
 > [!TIP]  

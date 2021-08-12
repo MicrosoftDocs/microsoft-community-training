@@ -290,7 +290,7 @@ For scenarios when you have the same course available in multiple languages, you
 
 3) Next, create a group of users corresponding to each language of your content. You can do so by adding a rule while creating the group. Refer **[this article](../user-management/organize-users/setup-automatic-user-enrollment-for-a-group-1.md)** to learn how.
 
-4) Finally, assign the language specific course to each group based on that group's preferred language. Refer **[this article](https://docs.microsoftcommunitytraining.com/docs/assign-course-to-group-users#")** to learn how.
+4) Finally, assign the language specific course to each group based on that group's preferred language. Refer **[this article](../user-management/manage-users/assign-content-to-group-users.md)** to learn how.
 
 ### How can organization create content for the Microsoft Community Training platform?
 

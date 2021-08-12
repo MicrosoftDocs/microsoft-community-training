@@ -104,7 +104,7 @@ It is possible that accessing portal gives an error message as "Error 403- This 
 3. Click or select 'Start' button from menu on the top
 4. Access Microsoft community training portal from the browser
 
-### Issue 6: Deployed failed with error “Azure subscription is not registered with CDN Provider”
+## Issue 6: Deployed failed with error “Azure subscription is not registered with CDN Provider”
 
 There are often times when CDN profile is not enabled by default for a subscription due to which deployment might fail. In order to resolve this, you are required to add the CDN service manually to your Azure resource group. Post that you required to delete your previous resource group and recreate.
 
@@ -118,5 +118,23 @@ Please follow the steps mentioned below to manually register the CDN resource pr
 - Select the subscription from the subscription list where you want to deploy the platform instance
 - Select **Resource providers** and view the list of available resource providers.
 - Registering a resource provider configures your subscription to work with the resource provider. The scope for registration is always the subscription. To **register a resource provider (Microsoft.Cdn)**, select Register.
+
+## Issue 7: Azure Active Directory Configuration issue
+
+While trying to deploy MCT with Azure AD configuration there might be some cases where you end up having an issue when overlooked a step in [**setup**](4_configure-login-social-work-school-account.md#work-or-school-account-based-authentication). In such cases it is suggested to run a Console application and provide us the token and claim information via [**support request**](https://sangamhelpdesk.microsoftcrmportals.com/SignIn?ReturnUrl=%2Fsupport%2Fcreate-case%2F) which will help us to debug your configuration and resolve the issue.
+
+Please follow the steps below to download and run the console app:
+
+1. Download the required console app from [**here**](https://sangamapps2.blob.core.windows.net/console-app-debuging/LoginTokens.deps.zip)
+
+2. Before running the console application, add a new reply URL ```https://login.live.com/oauth20_desktop.srf``` to the Azure Active Directory application by following this path in your Azure portal ActiveDirectory>App Registrations>Click on the Application Registered for AD authentication>Authentication>Add URI (Under Redirect URIs)
+
+3. Double click the '.exe' file for the project. Initially the application asks for 3 parameters: ClientId, ClientSecret (The actual client secret, not the key-vault reference added to the web app config) and TenantId.
+
+4. Thereafter a URL is generated. Run the URL in the browser, follow the login process, and a URL of the format ```https://login.live.com/oauth20_desktop.srf?code=CODE_VALUE&session_state=SESSION_STATE``` would be visible in the browser.
+
+5. Copy the value for the 'code' query parameter and paste it in the console application. Press enter.
+
+6. Tokens along with their claims would be visible on the screen. Copy all the output claims under the headers “Access Token claims” and “ID Token claims”, share these values with us in [**support request**](https://sangamhelpdesk.microsoftcrmportals.com/SignIn?ReturnUrl=%2Fsupport%2Fcreate-case%2F)
 
 Next > [**Delete the Resource Group**](../../infrastructure-management/configure-your-platform-infrastructure/6_delete-your-training-instance.md) created for failed deployment and restart the [**installation process**](../../infrastructure-management/install-your-platform-instance/3_installation-guide-detailed-steps.md) from the beginning.

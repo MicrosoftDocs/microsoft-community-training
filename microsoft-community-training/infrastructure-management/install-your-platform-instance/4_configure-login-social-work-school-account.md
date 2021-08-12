@@ -161,7 +161,7 @@ MCT requires Azure Active Directory application creation and registration. To su
       * Azure AD’s Tenant Domain Name: Azure AD’s tenant domain name. For example: contoso.onmicrosoft.com
 
 The AAD script takes ~2 minutes to run and outputs 4 values on screen (Client ID, Client Secret, Tenant Id, Tenant name). Make a note of the output values as they will be needed in next step. If someone else ran the script, ask them to share this output.
-A new app is created. If an app already exists with the same name, the script will delete the existing app and create a new app.
+A new app is created. If an app already exists with the same name, the script will delete the existing app and create a new app. In case of facing any issues after deployment please refer this [**guide**](9_troubleshooting.md#issue-7-azure-active-directory-configuration-issue).
 
 ### Step 3 - Next continue from **Step 9** in  the [**installation article**](../../infrastructure-management/install-your-platform-instance/3_installation-guide-detailed-steps.md)
 

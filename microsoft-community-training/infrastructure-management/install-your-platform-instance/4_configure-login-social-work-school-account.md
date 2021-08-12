@@ -173,11 +173,11 @@ A new app is created. If an app already exists with the same name, the script wi
 >>
 >>1. Set to type "Web"
 >>2. Add following to Redirect URIs,
-    >>
-    >>* "https://name.azurewebsites.net"
-    >>* "https://name.azurewebsites.net/signin-azureAD"
-    >>* "https://name-staging.azurewebsites.net/signin-azureAD"
+    >>>* "https://name.azurewebsites.net"
+    >>>* "https://name.azurewebsites.net/signin-azureAD"
+    >>>* "https://name-staging.azurewebsites.net/signin-azureAD"
     where "name" corresponds to your website name.
+>>
 >>![ManualAADSetup1](../../media/ManualAADSetup1.png)
 >
 >2. Click on Expose an API from the left menu of your application.

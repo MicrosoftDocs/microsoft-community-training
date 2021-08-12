@@ -165,7 +165,7 @@ A new app is created. If an app already exists with the same name, the script wi
 
 >[!Note]
 >
->Instead of running AAD creation script, you may follow the manual steps to create the AAD application. Below steps are required to be followed:
+>Instead of running AAD creation script, you may follow the **manual steps to create the AAD application**. Below steps are required to be followed:
 >
 >1. Create a new Azure AD application by following this article. You only need to follow the section titled Create an Azure Active Directory application. Please ensure to set the Redirect URIs as per below:
 >
@@ -173,9 +173,9 @@ A new app is created. If an app already exists with the same name, the script wi
 >>
 >>1. Set to type "Web"
 >>2. Add following to Redirect URIs,
-    >>>* "https://name.azurewebsites.net"
-    >>>* "https://name.azurewebsites.net/signin-azureAD"
-    >>>* "https://name-staging.azurewebsites.net/signin-azureAD"
+    `"https://name.azurewebsites.net"`, 
+    `"https://name.azurewebsites.net/signin-azureAD"` and 
+    ` "https://name-staging.azurewebsites.net/signin-azureAD"`
     where "name" corresponds to your website name.
 >>
 >>![ManualAADSetup1](../../media/ManualAADSetup1.png)

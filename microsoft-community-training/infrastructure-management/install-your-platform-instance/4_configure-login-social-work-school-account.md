@@ -178,13 +178,13 @@ A new app is created. If an app already exists with the same name, the script wi
     >>* "https://name.azurewebsites.net/signin-azureAD"
     >>* "https://name-staging.azurewebsites.net/signin-azureAD"
     where "name" corresponds to your website name.
->>:::image type="content" source="../../media/ManualAADSetup1.png" alt-text="":::
+>>![ManualAADSetup1](../../media/ManualAADSetup1.png)
 >
 >2. Click on Expose an API from the left menu of your application.
->:::image type="content" source="../../media/ManualAADSetup2.png" alt-text="":::
+>![ManualAADSetup2](../../media/ManualAADSetup2.png)
 >
 >3.	Click on "Add a scope". Ensure that the auto-populated value of Application ID URI is of the form "api://{ClientID}"
->:::image type="content" source="../../media/ManualAADSetup3.png" alt-text="":::
+>![ManualAADSetup3](../../media/ManualAADSetup3.png)
 >
 >4.	Click on Save and continue.
 >5.	Enter the value "access_as_user" under Scope name.
@@ -196,7 +196,7 @@ A new app is created. If an app already exists with the same name, the script wi
     >>* Click on Certificates & Secrets from the left menu.
     >>* Click on New client secret.
     >>* Enter the description and expiry time of the secret (recommended to select Never for expiry time) and click on Save button. A value would be shown. Save this value. Would be required later as the ClientSecret.
-    >>:::image type="content" source="../../media/ManualAADSetup4.png" alt-text="":::
+    >![ManualAADSetup4](../../media/ManualAADSetup4.png)
 >
 
 ### Step 3 - Next continue from **Step 9** in  the [**installation article**](../../infrastructure-management/install-your-platform-instance/3_installation-guide-detailed-steps.md)

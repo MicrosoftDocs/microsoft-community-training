@@ -163,6 +163,42 @@ MCT requires Azure Active Directory application creation and registration. To su
 The AAD script takes ~2 minutes to run and outputs 4 values on screen (Client ID, Client Secret, Tenant Id, Tenant name). Make a note of the output values as they will be needed in next step. If someone else ran the script, ask them to share this output.
 A new app is created. If an app already exists with the same name, the script will delete the existing app and create a new app. In case of facing any issues after deployment please refer this [**guide**](9_troubleshooting.md#issue-7-azure-active-directory-configuration-issue).
 
+>[!Note]
+>
+>Instead of running AAD creation script, you may follow the manual steps to create the AAD application. Below steps are required to be followed:
+>
+>1. Create a new Azure AD application by following this article. You only need to follow the section titled Create an Azure Active Directory application. Please ensure to set the Redirect URIs as per below:
+>
+>>**Redirect URIs**
+>>
+>>1. Set to type "Web"
+>>2. Add following to Redirect URIs,
+    >>
+    >>* "https://name.azurewebsites.net"
+    >>* "https://name.azurewebsites.net/signin-azureAD"
+    >>* "https://name-staging.azurewebsites.net/signin-azureAD"
+    where "name" corresponds to your website name.
+>>:::image type="content" source="../../media/ManualAADSetup1.png" alt-text="":::
+>
+>2. Click on Expose an API from the left menu of your application.
+>:::image type="content" source="../../media/ManualAADSetup2.png" alt-text="":::
+>
+>3.	Click on "Add a scope". Ensure that the auto-populated value of Application ID URI is of the form "api://{ClientID}"
+>:::image type="content" source="../../media/ManualAADSetup3.png" alt-text="":::
+>
+>4.	Click on Save and continue.
+>5.	Enter the value "access_as_user" under Scope name.
+>6.	Select Admins and users under Who can consent?
+>7.	Populate the remaining values. These values appear on the login screen (unless global consent is granted by admin)
+>8.	Obtain Client ID and Client Secret:
+>
+    >>* Copy the value of Application ID required later as Client ID
+    >>* Click on Certificates & Secrets from the left menu.
+    >>* Click on New client secret.
+    >>* Enter the description and expiry time of the secret (recommended to select Never for expiry time) and click on Save button. A value would be shown. Save this value. Would be required later as the ClientSecret.
+    >>:::image type="content" source="../../media/ManualAADSetup4.png" alt-text="":::
+>
+
 ### Step 3 - Next continue from **Step 9** in  the [**installation article**](../../infrastructure-management/install-your-platform-instance/3_installation-guide-detailed-steps.md)
 
 Provide the output values from the script executed in step 2.

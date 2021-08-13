@@ -62,7 +62,7 @@ In this article, you will learn about how to add practice quiz to a course:
 6. Once you are done adding questions, click or tap **Save** icon to the right-end of the quiz title to upload the practice quiz to the portal.
 
     > [!TIP]
-    > Use the [**bulk upload questions feature**](https://microsoftindia.document360.io/docs/create-practice-course-and-exam#bulk-upload-questions-for-a-practice-quiz-or-exam) to seamlessly import your existing questions list for a practice quiz.
+    > Use the [**bulk upload questions feature**](#bulk-upload-questions-for-a-practice-quiz-or-exam) to seamlessly import your existing questions list for a practice quiz.
 
 ## Add final exam for a course
 

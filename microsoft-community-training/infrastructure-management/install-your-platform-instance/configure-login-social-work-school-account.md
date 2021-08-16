@@ -203,4 +203,5 @@ A new app is created. If an app already exists with the same name, the script wi
 
 Provide the output values from the script executed in step 2.
 
-> [!Note] In case you have followed manual steps to create AAD application, you may use the values obtained from "Step 8" above.
+> [!Note]
+>In case you have followed manual steps to create AAD application, you may use the values obtained from "Step 8" above.

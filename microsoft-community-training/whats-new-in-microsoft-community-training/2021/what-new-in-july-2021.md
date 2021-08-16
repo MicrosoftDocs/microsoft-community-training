@@ -20,7 +20,7 @@ Course translations is an important tool for administrators when the same conten
 
 ## Certificate custom text
 
-Until now the platform allowed you to customize the look and feel of the certificate while the text was pre-defined. In this release, we have added the capability to allow  [customization of the certificate text](../../settings/5_customize-the-certificate-template.md#customize-certificate-text) and optionally also include additional profile field values in the text.
+Until now the platform allowed you to customize the look and feel of the certificate while the text was pre-defined. In this release, we have added the capability to allow  [customization of the certificate text](../../settings/customize-the-certificate-template.md#customize-certificate-text) and optionally also include additional profile field values in the text.
 
 ## Support for custom homepage template
 
@@ -51,4 +51,4 @@ Learners can now [switch the language of the portal](../../learner-experience/we
 
 ## New application configurations
 
-Administrators can now customize the learner experience to some more extent with features like [skipping uploaded videos](../../settings/11_configurations-on-the-training-platform.md#allow-learners-to-skip-videos), [hiding course library section](../../settings/11_configurations-on-the-training-platform.md#hide-course-library) etc. To get more information about all the application configuration, you may refer to the documentation [Configurations on the Training Platform - Settings](../../settings/11_configurations-on-the-training-platform.md).
+Administrators can now customize the learner experience to some more extent with features like [skipping uploaded videos](../../settings/configurations-on-the-training-platform.md#allow-learners-to-skip-videos), [hiding course library section](../../settings/configurations-on-the-training-platform.md#hide-course-library) etc. To get more information about all the application configuration, you may refer to the documentation [Configurations on the Training Platform - Settings](../../settings/configurations-on-the-training-platform.md).

@@ -83,7 +83,7 @@ For example, an organization who wants to certify their technician on Washing Ma
 
 ### 5. Certification
 
-Organization can enable certification and [**offer customized certificates**](../settings/5_customize-the-certificate-template.md) to the learners on successful completion of the courses.
+Organization can enable certification and [**offer customized certificates**](../settings/customize-the-certificate-template.md) to the learners on successful completion of the courses.
 
 ### 6. Learning Paths
 

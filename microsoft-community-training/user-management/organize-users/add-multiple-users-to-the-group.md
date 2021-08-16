@@ -62,7 +62,7 @@ Before you start doing the bulk upload of users for a specific group, you need t
 
 1. Start adding additional column headers and values to the sample comma separated values (CSV) file.
 
-2. The column headers and values for these columns should match with the [**additional profile fields**](../../settings/4_add-additional-profile-fields-for-user-information.md) created by the organization. For example: as shown in the image below:
+2. The column headers and values for these columns should match with the [**additional profile fields**](../../settings/add-additional-profile-fields-for-user-information.md) created by the organization. For example: as shown in the image below:
     - Country and Department are added as two additional column headers to the CSV file. These column headers matches with the field names added in the additional profile fields.
     - For country column you can see **Sri Lanka** and **Bangladesh** as row values whereas for department column you can see Sales and Marketing as row values. These values matches with the options specified for Country and Department fields in the additional profile fields section.
     - In case additional profile field allows multiple selection (i.e. Multiple choice field) then use **Semicolon aka (;)** as a delimiter for adding multiple values via CSV file. For e.g. let's say there is additional profile field named *Topics of Interest* with allow learners to select multiple options such Organic Farming, Smart Farming, Increasing Yield, etc.  Now, at the time uploading CSV file, administrator can add multiple values for each user by adding text such as *Organic Farming;Smart Farming* ,  *Smart Farming;Increasing Yield*, etc. in each row against the Topics of Interest column.
@@ -110,4 +110,4 @@ Before you start doing the bulk upload of users for a specific group, you need t
 > There is a limit of 10000 users for each bulk upload operation. To upload more users, create multiple csv files.
 
 > [!Tip]
-> Bulk upload is a resource intensive operation and might take time until the process is completed. If it is taking too long to import users, please [**scale up your platform instance**](../../infrastructure-management/configure-your-platform-infrastructure/4_scale-up-instance-configuration.md).
+> Bulk upload is a resource intensive operation and might take time until the process is completed. If it is taking too long to import users, please [**scale up your platform instance**](../../infrastructure-management/configure-your-platform-infrastructure/scale-up-instance-configuration.md).

@@ -65,7 +65,7 @@ Here are the steps to create policies based on the Identity Provider:
     >
 > 3. Open **App Service** and add the following configurations both with value as **B2C_1_pwd_reset**,
 >
->> * AzureADB2CPasswordResetPolicy 
+>> * AzureADB2CPasswordResetPolicy
 >> * idp:AzureADB2CPasswordResetPolicy
 >
 >![App Service](../../media/image%28355%29.png)
@@ -169,16 +169,16 @@ A new app is created. If an app already exists with the same name, the script wi
 >
 >1. Create a new Azure AD application by following this article. You only need to follow the section titled Create an Azure Active Directory application. Please ensure to set the Redirect URIs as per below:
 >
->>**Redirect URIs**
->>
->>1. Set to type "Web"
->>2. Add following to Redirect URIs,
-    `"https://name.azurewebsites.net"`,
-    `"https://name.azurewebsites.net/signin-azureAD"` and
-    ` "https://name-staging.azurewebsites.net/signin-azureAD" `
-    where "name" corresponds to your website name.
->>
->>![ManualAADSetup1](../../media/ManualAADSetup1.png)
+    >>**Redirect URIs**
+    >>
+    >>* Set to type "Web"
+    >>* Add following to Redirect URIs,
+        '"https://name.azurewebsites.net"',
+        `"https://name.azurewebsites.net/signin-azureAD"` and
+        ` "https://name-staging.azurewebsites.net/signin-azureAD" `
+        where "name" corresponds to your website name.
+    >>
+    >>![ManualAADSetup1](../../media/ManualAADSetup1.png)
 >
 >2. Click on Expose an API from the left menu of your application.
 >![ManualAADSetup2](../../media/ManualAADSetup2.png)
@@ -191,14 +191,16 @@ A new app is created. If an app already exists with the same name, the script wi
 >6.	Select Admins and users under Who can consent?
 >7.	Populate the remaining values. These values appear on the login screen (unless global consent is granted by admin)
 >8.	Obtain Client ID and Client Secret:
->
+>>
     >>* Copy the value of Application ID required later as Client ID
     >>* Click on Certificates & Secrets from the left menu.
     >>* Click on New client secret.
     >>* Enter the description and expiry time of the secret (recommended to select Never for expiry time) and click on Save button. A value would be shown. Save this value. Would be required later as the ClientSecret.
     >![ManualAADSetup4](../../media/ManualAADSetup4.png)
->
+>>
 
 ### Step 3 - Next continue from **Step 9** in  the [**installation article**](../../infrastructure-management/install-your-platform-instance/installation-guide-detailed-steps.md)
 
 Provide the output values from the script executed in step 2.
+
+> [!Note] In case you have followed manual steps to create AAD application, you may use the values obtained from "Step 8" above.

@@ -19,7 +19,7 @@ To know the list of all the prerequisites **[see this article](../infrastructure
 
 ### How to create an Microsoft Azure subscription?
 
-You can create a new Azure subscription by visiting [**this link**](https://azure.microsoft.com/en-in/pricing/purchase-options/pay-as-you-go/).
+You can create a new Azure subscription by visiting [**this link**](https://azure.microsoft.com/pricing/purchase-options/pay-as-you-go/).
 
 ### Which devices or platforms is Microsoft Community Training available on?
 

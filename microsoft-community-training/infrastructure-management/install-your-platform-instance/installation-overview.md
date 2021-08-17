@@ -9,7 +9,7 @@ ms.prod: azure
 
 # Installation Overview
 
-**Microsoft Community Training** platform is available as a [**Managed Application**](/azure/managed-applications/overview) on the [**Azure Marketplace**](https://azuremarketplace.microsoft.com/en-us). If you’re new to Azure, learn more about what it is from [**here**](https://azure.microsoft.com/en-in/overview/what-is-azure/).
+**Microsoft Community Training** platform is available as a [**Managed Application**](/azure/managed-applications/overview) on the [**Azure Marketplace**](https://azuremarketplace.microsoft.com/en-us). If you’re new to Azure, learn more about what it is from [**here**](https://azure.microsoft.com/overview/what-is-azure/).
 
 Microsoft Community Training is available with multiple endpoints for the learners. For example - a standalone white-labelled web application, an Android mobile app, within Microsoft Teams or via API integration into your own custom app.
 
@@ -35,7 +35,7 @@ For more details, please refer to [**Azure managed applications**](/azure/manage
 
 Once you have decided your preferred endpoint and login type, follow the steps below to setup and install Microsoft Community Training for your organization:
 
-**Step 1:** [**Get an Azure subscription**](https://azure.microsoft.com/en-in/pricing/purchase-options/pay-as-you-go/) 
+**Step 1:** [**Get an Azure subscription**](https://azure.microsoft.com/pricing/purchase-options/pay-as-you-go/) 
 
 **Step 2:** [**Install from Azure Marketplace**](../../infrastructure-management/install-your-platform-instance/installation-guide-detailed-steps.md)
 

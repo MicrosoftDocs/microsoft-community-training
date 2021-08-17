@@ -15,7 +15,7 @@ Microsoft Community Training enables events infrastructure via the Azure Service
 
 ### What is Azure Service Bus?
 
-Azure Service Bus is a cloud messaging as a service which enables you to subscribe and capture the learner action events raised by the Microsoft Community Training platform. To read more about the Azure Service Bus infrastructure, check [this document](https://azure.microsoft.com/en-in/services/service-bus/).
+Azure Service Bus is a cloud messaging as a service which enables you to subscribe and capture the learner action events raised by the Microsoft Community Training platform. To read more about the Azure Service Bus infrastructure, check [this document](https://azure.microsoft.com/services/service-bus/).
 
 ### Steps to add Azure Service Bus to your Subscription
 

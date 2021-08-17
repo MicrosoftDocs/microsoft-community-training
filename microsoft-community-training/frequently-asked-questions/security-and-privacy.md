@@ -112,7 +112,7 @@ Here are some of the key things we do to secure the platform:
 
 4. DDOS attacks are prevented using configuration settings in the Azure Web App service. For more details, please visit the following documents:  
 
-    i. [**Azure DDOS protection service preview**](https://azure.microsoft.com/en-in/services/ddos-protection/)  
+    i. [**Azure DDOS protection service preview**](https://azure.microsoft.com/services/ddos-protection/)  
     ii. [**Dynamic IP Security**](/iis/configuration/system.webserver/security/dynamicipsecurity/)
 
 ### How are feature and security updates applied to the platform? What is the update frequency?

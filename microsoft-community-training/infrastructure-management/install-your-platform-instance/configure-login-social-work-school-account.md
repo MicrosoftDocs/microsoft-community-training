@@ -55,7 +55,7 @@ Here are the steps to create policies based on the Identity Provider:
 > Setting Password Reset Flow for an Existing Deployment:
 > If you are setting up the **Password reset flow** on an existing deployment with Azure AD B2C authentication:
 >
-> 1. Set Userflow Name as **pwd_reset** (Step #1 in Create Flow using steps in [**this article**](/en-us/azure/active-directory-b2c/tutorial-create-user-flows)
+> 1. Set Userflow Name as **pwd_reset** (Step #1 in Create Flow using steps in [**this article**](/azure/active-directory-b2c/tutorial-create-user-flows)
 >
 > 2. Add the following URLs in the **Reply URL** section,
     >

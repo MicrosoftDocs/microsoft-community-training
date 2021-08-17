@@ -129,13 +129,13 @@ You can configure local account for your training portal by following the instru
 
 ## Work or School Account based authentication
 
-Configure Work or School account for your training portal by following the instructions below:  
+### **Option 1** - Run AAD script to Configure Work or School account for your training portal by following the instructions below
 
-### Step 1 - Login to Azure portal
+#### Step 1 - Login to Azure portal
 
 Use an existing subscription for login to portal
 
-### Step 2 - Create Azure AD application
+#### Step 2 - Create Azure AD application
 
 **Pre-requisite:**
 MCT requires Azure Active Directory application creation and registration. To successfully run the AAD creation script, the following permissions are needed:
@@ -163,42 +163,47 @@ MCT requires Azure Active Directory application creation and registration. To su
 The AAD script takes ~2 minutes to run and outputs 4 values on screen (Client ID, Client Secret, Tenant Id, Tenant name). Make a note of the output values as they will be needed in next step. If someone else ran the script, ask them to share this output.
 A new app is created. If an app already exists with the same name, the script will delete the existing app and create a new app. In case of facing any issues after deployment please refer this [**guide**](troubleshooting.md#issue-7-azure-active-directory-configuration-issue).
 
->[!Note]
->
->Instead of running AAD creation script, you may follow the **manual steps to create the AAD application**. Below steps are required to be followed:
->
->1. Create a new Azure AD application by following this article. You only need to follow the section titled Create an Azure Active Directory application. Please ensure to set the Redirect URIs as per below:
->
-    >>**Redirect URIs**
-    >>
-    >>* Set to type "Web"
-    >>* Add following to Redirect URIs,
-        '"https://name.azurewebsites.net"',
-        `"https://name.azurewebsites.net/signin-azureAD"` and
-        ` "https://name-staging.azurewebsites.net/signin-azureAD" `
-        where "name" corresponds to your website name.
-    >>
-    >>![ManualAADSetup1](../../media/ManualAADSetup1.png)
->
->2. Click on Expose an API from the left menu of your application.
->![ManualAADSetup2](../../media/ManualAADSetup2.png)
->
->3.	Click on "Add a scope". Ensure that the auto-populated value of Application ID URI is of the form "api://{ClientID}"
->![ManualAADSetup3](../../media/ManualAADSetup3.png)
->
->4.	Click on Save and continue.
->5.	Enter the value "access_as_user" under Scope name.
->6.	Select Admins and users under Who can consent?
->7.	Populate the remaining values. These values appear on the login screen (unless global consent is granted by admin)
->8.	Obtain Client ID and Client Secret:
->>
-    >>* Copy the value of Application ID required later as Client ID
-    >>* Click on Certificates & Secrets from the left menu.
-    >>* Click on New client secret.
-    >>* Enter the description and expiry time of the secret (recommended to select Never for expiry time) and click on Save button. A value would be shown. Save this value. Would be required later as the ClientSecret.
-    >![ManualAADSetup4](../../media/ManualAADSetup4.png)
->>
->9. Make a note of the obtained values as they will be needed in next step.
+### **Option 2** - Follow the Manual steps to Configure Work or School account for your training portal by following the instructions below
+
+#### Step 1 - Setup your Azure AD
+
+You can create a new Azure Active Directory tenant or use an existing one based on your organization requirement.
+
+1. Create a new Azure Active Directory tenant and copy the tenant name required later as **Tenant Name**. If you already have an existing Azure AD, use the same and copy the tenant name required later as **Tenant Name**. For example, if the default domain for your Azure AD tenant is **contoso.onmicrosoft.com**, then enter **contoso**.
+2. Go to the **Show diagnostics** section on the right and copy the tenant ID required later as **Tenant ID**.
+
+#### Step 2 - Create an Azure AD application
+
+1. Create a new Azure AD application by following this article. You only need to follow the section titled **Create an Azure Active Directory application**. Please ensure to set the Redirect URIs as per below:
+
+    **Redirect URIs**
+
+    * Set to type "Web"
+    * Add following to Redirect URIs:
+        * **<https://name.azurewebsites.net>**,
+        * **<https://name.azurewebsites.net/signin-azureAD>** and
+        * **<https://name-staging.azurewebsites.net/signin-azureAD>** where **"name"** corresponds to your website name.
+    ![ManualAADSetup1](../../media/ManualAADSetup1.png)
+
+2. Click on Expose an API from the left menu of your application.
+![ManualAADSetup2](../../media/ManualAADSetup2.png)
+
+3. Click on "Add a scope". Ensure that the auto-populated value of Application ID URI is of the form "api://{ClientID}"
+![ManualAADSetup3](../../media/ManualAADSetup3.png)
+
+4. Click on Save and continue.
+5. Enter the value "access_as_user" under Scope name.
+6. Select Admins and users under Who can consent?
+7. Populate the remaining values. These values appear on the login screen (unless global consent is granted by admin)
+8. Obtain Client ID and Client Secret:
+
+    * Copy the value of Application ID required later as Client ID
+    * Click on Certificates & Secrets from the left menu.
+    * Click on New client secret.
+    * Enter the description and expiry time of the secret (recommended to select Never for expiry time) and click on Save button. A value would be shown. Save this value. Would be required later as the ClientSecret.
+    ![ManualAADSetup4](../../media/ManualAADSetup4.png)
+
+9. Make a note of the obtained values as they will be needed in next step.
 
 ### Step 3 - Next continue from **Step 9** in  the [**installation article**](../../infrastructure-management/install-your-platform-instance/installation-guide-detailed-steps.md)
 

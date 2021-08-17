@@ -31,7 +31,7 @@ You are using a free trial subscription. Microsoft Community Training is not ava
 
 ### Solution
 
- [Convert your subscription to Pay-As-You-Go](https://azure.microsoft.com/en-in/pricing/purchase-options/pay-as-you-go/) and try again.
+ [Convert your subscription to Pay-As-You-Go](https://azure.microsoft.com/pricing/purchase-options/pay-as-you-go/) and try again.
 
 ## Issue 3: Deployment failed with error message "At least one resource deployment operation failed."
 
@@ -47,7 +47,7 @@ If your deployment fails, you’ll receive a **Deployment failed** notification 
 ![Click here for details](../../media/image%2826%29.png)
 3. You’ll be provided with a summary of error details. Check the **Error message** value under **ERROR DETAILS**.
 4. If the **Error message** says “*At least one resource deployment operation failed. Please list deployment operations for details. Please see <https://aka.ms/arm-debug> for usage details.*”, it is possible that
-   - You are using a free trial subscription. Be default, free trial subscriptions do not have all regions enabled. [Convert your subscription to Pay-As-You-Go](<https://azure.microsoft.com/en-in/pricing/purchase-options/pay-as-you-go/>) and try again.
+   - You are using a free trial subscription. Be default, free trial subscriptions do not have all regions enabled. [Convert your subscription to Pay-As-You-Go](<https://azure.microsoft.com/pricing/purchase-options/pay-as-you-go/>) and try again.
    - The said resource is not yet enabled for the region. Click on the **Copy to Clipboard** icon on the top-right of the **Errors** blade.
    ![Copy to Clipboard](../../media/image%2827%29.png)
 

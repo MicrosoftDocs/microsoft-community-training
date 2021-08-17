@@ -13,7 +13,7 @@ ms.prod: azure
 
 Microsoft Community Training is an Azure-powered online learning platform to enable organizations of all sizes and types to run large scale training programs for their internal and external communities such as first line workers, extended workforces, partner ecosystem, volunteer network, program beneficiaries, etc.
 
-It is available as a [**Managed PaaS offering via Azure Marketplace**](https://azuremarketplace.microsoft.com/en-us/marketplace/apps/project-sangam.microsoft-community-training?tab=Overview) that customers can easily deploy in their subscriptions. The platform is available for free and an organization only bears platform hosting and consumption charges on Azure.
+It is available as a [**Managed PaaS offering via Azure Marketplace**](https://azuremarketplace.microsoft.com/marketplace/apps/project-sangam.microsoft-community-training?tab=Overview) that customers can easily deploy in their subscriptions. The platform is available for free and an organization only bears platform hosting and consumption charges on Azure.
 
 [**Click here**](../get-started/microsoft-community-training-overview.md) to learn more about the platform.
 
@@ -79,7 +79,7 @@ So, depending upon use cases, organization can use Microsoft Community Training 
 
 ### How many organizations are already using Microsoft Community Training platform?
 
-Currently, Microsoft Community Training is being used by hundreds of customers across India, Africa, South East Asia, and Latin America for skilling their workforces or training communities at scale.  For e.g. Here are some press release on our partnership with existing customers: [African Development Bank](https://news.microsoft.com/en-xm/2019/12/10/african-development-bank-launches-digital-tool-to-help-african-youth-learn-to-code/), [Gauteng Provincial Govt - South Africa](https://customers.microsoft.com/en-us/story/thintimillion), [UNICEF](https://www.unicef.org/press-releases/unicef-and-microsoft-launch-global-learning-platform-help-address-covid-19-education) ,[ Ministry of Housing and Urban Affairs - Govt. of India](https://news.microsoft.com/en-in/microsoft-project-sangam-swacch-bharat-mission/).
+Currently, Microsoft Community Training is being used by hundreds of customers across India, Africa, South East Asia, and Latin America for skilling their workforces or training communities at scale.  For e.g. Here are some press release on our partnership with existing customers: [African Development Bank](https://news.microsoft.com/2019/12/10/african-development-bank-launches-digital-tool-to-help-african-youth-learn-to-code/), [Gauteng Provincial Govt - South Africa](https://customers.microsoft.com/story/thintimillion), [UNICEF](https://www.unicef.org/press-releases/unicef-and-microsoft-launch-global-learning-platform-help-address-covid-19-education) ,[Ministry of Housing and Urban Affairs - Govt. of India](https://news.microsoft.com/microsoft-project-sangam-swacch-bharat-mission/).
 
 ### Is there any licensing fee for Microsoft Community Training platform?
 
@@ -91,7 +91,7 @@ Refer to this [**pricing calculator**](https://communitytraining.microsoft.com/p
 
 We have a guided tour available for you to play around and get familiar with the platform capabilities. Please navigate to the [**interactive demo**](https://communitytraining.microsoft.com/demo/ ) on the [**product website**](https://communitytraining.microsoft.com/).
 
-Alternatively, you can also deploy and setup a platform instance on your Azure subscription from the [**Azure Marketplace**](https://azuremarketplace.microsoft.com/en-us/marketplace/apps/project-sangam.microsoft-community-training?tab=Overview).  
+Alternatively, you can also deploy and setup a platform instance on your Azure subscription from the [**Azure Marketplace**](https://azuremarketplace.microsoft.com/marketplace/apps/project-sangam.microsoft-community-training?tab=Overview).  
 
 If you want access to demo instance, please reach out to us [**via our helpDesk**](https://go.microsoft.com/fwlink/?linkid=2104630).
 
@@ -158,7 +158,7 @@ When you no longer need your training portal, you can delete it by deleting the 
 
 There are two channels available to the customers to seek help during platform setup and configuration:
 
-1. [**Self-serve documentation website**](https://docs.microsoft.com/en-us/azure/industry/training-services/microsoft-community-training/) which helps customers provide how to guide and explain different capabilities of the platform in detail.
+1. [**Self-serve documentation website**](https://docs.microsoft.com/azure/industry/training-services/microsoft-community-training/) which helps customers provide how to guide and explain different capabilities of the platform in detail.
 2. [**24*7 support desk**](https://go.microsoft.com/fwlink/?linkid=2104630) in case customers are not able to find answers to their queries via documentation site.
 
 ### Can we (Microsoft Partner) host this in our Azure subscription tenant and package it as training platform to existing Office 365 customers? Does the license allow us to do that?

@@ -13,15 +13,15 @@ ms.prod: azure
 
 ### My organization is not using Microsoft Azure. Can I still use Microsoft Community Training?
 
-Microsoft Community Training is built on top of Azure platform and [**available only on the Azure Marketplace**](https://azuremarketplace.microsoft.com/en-us/marketplace/apps/project-sangam.microsoft-community-training?tab=Overview). Our platform is accessible in all the countries or regions where Microsoft Azure Marketplace is commercially available. See the [Azure Marketplace documentation](/azure/marketplace/marketplace-geo-availability-currencies) for more details. 
+Microsoft Community Training is built on top of Azure platform and [**available only on the Azure Marketplace**](https://azuremarketplace.microsoft.com/marketplace/apps/project-sangam.microsoft-community-training?tab=Overview). Our platform is accessible in all the countries or regions where Microsoft Azure Marketplace is commercially available. See the [Azure Marketplace documentation](/azure/marketplace/marketplace-geo-availability-currencies) for more details. 
 
-If your organization is not using Microsoft Azure, then you can [**create an Microsoft Azure account**](https://azure.microsoft.com/en-us/) on your own  or [**reach out to a Microsoft Cloud Solution Partner**](https://partner.microsoft.com/membership/cloud-solution-provider/find-a-provider) to procure Microsoft Azure for your organization.
+If your organization is not using Microsoft Azure, then you can [**create an Microsoft Azure account**](https://azure.microsoft.com/) on your own  or [**reach out to a Microsoft Cloud Solution Partner**](https://partner.microsoft.com/membership/cloud-solution-provider/find-a-provider) to procure Microsoft Azure for your organization.
 
 ### Can I use the free Microsoft Azure subscription for deploying the platform?
 
 Currently, Microsoft Community Training uses Azure services which are not available on free or trial subscriptions. If you have a free trial Azure subscription, please upgrade to a Pay-as-you-go Azure subscription.
 
-To learn more about how to create a pay-as-you-go subscription, [**refer this article**](https://azure.microsoft.com/en-in/pricing/purchase-options/pay-as-you-go/) on Azure documentation.
+To learn more about how to create a pay-as-you-go subscription, [**refer this article**](https://azure.microsoft.com/pricing/purchase-options/pay-as-you-go/) on Azure documentation.
 
 ### I'm a non-profit organization. Can I avail any grant or sponsorship for using the training portal?
 

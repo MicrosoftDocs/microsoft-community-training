@@ -64,7 +64,7 @@ Here are some pre-requisites before you follow the steps are to be incorporated 
 **You've successfully deployed a static webpage (Custom Home Page) to Azure subscription where MCT is deployed. Launch the website to view.**
 
 >[!Note]
->1. For more details please refer [https://docs.microsoft.com/en-us/azure/storage/blobs/storage-blob-static-website-host](/azure/storage/blobs/storage-blob-static-website-host)
+>1. For more details please refer [https://docs.microsoft.com/azure/storage/blobs/storage-blob-static-website-host](/azure/storage/blobs/storage-blob-static-website-host)
 >
 >2. Here are some sample templates of the Custom Homepage which can be used to deploy on your MCT instance:
 >

@@ -198,6 +198,7 @@ A new app is created. If an app already exists with the same name, the script wi
     >>* Enter the description and expiry time of the secret (recommended to select Never for expiry time) and click on Save button. A value would be shown. Save this value. Would be required later as the ClientSecret.
     >![ManualAADSetup4](../../media/ManualAADSetup4.png)
 >>
+>9. Make a note of the obtained values as they will be needed in next step.
 
 ### Step 3 - Next continue from **Step 9** in  the [**installation article**](../../infrastructure-management/install-your-platform-instance/installation-guide-detailed-steps.md)
 

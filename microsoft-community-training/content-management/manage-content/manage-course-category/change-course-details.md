@@ -43,7 +43,7 @@ The Microsoft Community Training management portal provides role-based administr
     > [!IMPORTANT]
     > Recommended size for the thumbnail image is 320 * 180 px.
 
-5. Edit the **[Enable certificate](../../../settings/6_enable-course-level-certificate.md)** option if required. For an existing course, if you uncheck certificate option, learners who have previously completed the course will no longer see the certificate in the course outline.
+5. Edit the **[Enable certificate](../../../settings/enable-course-level-certificate.md)** option if required. For an existing course, if you uncheck certificate option, learners who have previously completed the course will no longer see the certificate in the course outline.
 
 6. Edit the **Restrict lesson ordering** option if required. For an existing course, if you check the restrict lesson ordering option, it will only impact the lessons that are yet to be completed by a learner.
 

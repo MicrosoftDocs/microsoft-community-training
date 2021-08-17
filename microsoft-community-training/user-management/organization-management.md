@@ -29,7 +29,7 @@ The Microsoft Community Training management portal provides role-based administr
 
 ## Enabling Organizations on the Platform
 
-The support for Organizations can be enabled on the platform by [enabling the application configuration for **Features:IsMultiOrgDeployment**](../settings/11_configurations-on-the-training-platform.md#enabling-organizations-on-the-platform).
+The support for Organizations can be enabled on the platform by [enabling the application configuration for **Features:IsMultiOrgDeployment**](../settings/configurations-on-the-training-platform.md#enabling-organizations-on-the-platform).
 
 ## Create a New Organization
 
@@ -149,7 +149,7 @@ Click on the **Delete** icon against an Organization Administrator to delete.
 
 ## Assign learners to Organizations
 
-Learners can be assigned to Organizations on the portal using API call. You can refer to [**REST API documentation**](../rest-api-management/2_api-documentation.md) to learn more about accessing API Signatures.
+Learners can be assigned to Organizations on the portal using API call. You can refer to [**REST API documentation**](../rest-api-management/api-documentation.md) to learn more about accessing API Signatures.
 
 The API signature that assigns learners to Organizations is given below.
 **Request URL:** PUT /api/v1/user/organization.

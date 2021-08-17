@@ -64,10 +64,12 @@ Here are some pre-requisites before you follow the steps are to be incorporated 
 **You've successfully deployed a static webpage (Custom Home Page) to Azure subscription where MCT is deployed. Launch the website to view.**
 
 >[!Note]
->For more details please refer [https://docs.microsoft.com/en-us/azure/storage/blobs/storage-blob-static-website-host](/azure/storage/blobs/storage-blob-static-website-host)
+>1. For more details please refer [https://docs.microsoft.com/en-us/azure/storage/blobs/storage-blob-static-website-host](/azure/storage/blobs/storage-blob-static-website-host)
 >
->Here are some sample templates of the Custom Homepage which can be used to deploy on your MCT instance:
-[MCT_CustomHomePage_Templates.zip](https://github.com/MicrosoftDocs/microsoft-community-training/files/6968259/MCT_CustomHomePage_Templates.zip)
+>2. Here are some sample templates of the Custom Homepage which can be used to deploy on your MCT instance:
+>
+>    * [MCT_CustomHomePage_Templates.zip](https://github.com/MicrosoftDocs/microsoft-community-training/files/6968259/MCT_CustomHomePage_Templates.zip)
+>    * For supporting multiple AD logins, please refer to this template __. You may add the other AD logins in this template from *ILDigiTechLoginPage >> Assets >> DomainAndUrl.json*
 
 ## Tracking users signing in through Custom Homepage
 

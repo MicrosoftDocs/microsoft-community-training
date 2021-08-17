@@ -15,7 +15,7 @@ To make it simple for new users to get started with Microsoft Community Training
 
 ## Step 1 – Login to the portal
 
-Click **Get Started** or **Sign In** button to create an account or login. You can Login with your mobile number, social account (aka email address) or Azure Active Directory account as defined at the [**time of deploying the platform**](../infrastructure-management/install-your-platform-instance/3_installation-guide-detailed-steps.md) from Azure marketplace.  
+Click **Get Started** or **Sign In** button to create an account or login. You can Login with your mobile number, social account (aka email address) or Azure Active Directory account as defined at the [**time of deploying the platform**](../infrastructure-management/install-your-platform-instance/installation-guide-detailed-steps.md) from Azure marketplace.  
 
 ![sign in](../media/sign-in.png)
 
@@ -40,11 +40,11 @@ The management portal provides all the administrative functions like course mana
 
 You can personalize the training portal by configuring various elements of the interface and user settings. To do so, access the **Settings** tab on the management portal.
 
-* You can customize the [**look and feel of the portal**](../settings/2_configure-the-look-and-feel-of-your-portal.md)  to reflect organization’s branding such as portal name, logos, color themes, banners and messaging.
+* You can customize the [**look and feel of the portal**](../settings/configure-the-look-and-feel-of-your-portal.md)  to reflect organization’s branding such as portal name, logos, color themes, banners and messaging.
 
-* You can also [**create additional profile fields**](../settings/4_add-additional-profile-fields-for-user-information.md) to capture user information at the time sign up.
+* You can also [**create additional profile fields**](../settings/add-additional-profile-fields-for-user-information.md) to capture user information at the time sign up.
 
-* Lastly, you can [**restrict portal access**](../settings/3_restrict-portal-access-to-users-outside-your-organization.md) to  unauthorized users and protect your training content
+* Lastly, you can [**restrict portal access**](../settings/restrict-portal-access-to-users-outside-your-organization.md) to  unauthorized users and protect your training content
 
 ![settings overview](../media/settings-overview.gif)
 
@@ -93,11 +93,11 @@ Once you are done with customizing, uploading content and adding users to the po
 
 Here are some checklists for you to complete before you proceed with the rollout:
 
-1. [**Customize the certificate template**](../settings/5_customize-the-certificate-template.md) awarded to the learners on the course completion  
+1. [**Customize the certificate template**](../settings/customize-the-certificate-template.md) awarded to the learners on the course completion  
 
-2. [**Create and publish the mobile app**](../infrastructure-management/install-your-platform-instance/5_create-publish-mobile-app.md) for the learning portal on the Google Play Store  
+2. [**Create and publish the mobile app**](../infrastructure-management/install-your-platform-instance/create-publish-mobile-app.md) for the learning portal on the Google Play Store  
 
-3. For delivering learning inside Microsoft Teams, [**create a Teams app**](../infrastructure-management/install-your-platform-instance/7_create-teams-app-for-your-training-portal.md) and pin as Training tab in Microsoft Teams via Office 365 admin portal.
+3. For delivering learning inside Microsoft Teams, [**create a Teams app**](../infrastructure-management/install-your-platform-instance/create-teams-app-for-your-training-portal.md) and pin as Training tab in Microsoft Teams via Office 365 admin portal.
 
 4. Train the supervisors/facilitators (aka group administrators) on different aspect of the management portal and their roles and responsibilities.
 

@@ -125,23 +125,23 @@
    - name: Settings
      items:
       - name: Customize the look and feel of your portal
-        href: settings/2_configure-the-look-and-feel-of-your-portal.md
+        href: settings/configure-the-look-and-feel-of-your-portal.md
       - name: Restrict portal access to learners outside your training program
-        href: settings/3_restrict-portal-access-to-users-outside-your-organization.md
+        href: settings/restrict-portal-access-to-users-outside-your-organization.md
       - name: Customize profile information for the learners on the platform
-        href: settings/4_add-additional-profile-fields-for-user-information.md
+        href: settings/add-additional-profile-fields-for-user-information.md
       - name: Customize the certificate template for the platform
-        href: settings/5_customize-the-certificate-template.md
+        href: settings/customize-the-certificate-template.md
       - name: Enable course level certificate
-        href: settings/6_enable-course-level-certificate.md
+        href: settings/enable-course-level-certificate.md
       - name: Customize languages on the platform
-        href: settings/7_customize-languages-for-the-learners-on-the-platform.md
+        href: settings/customize-languages-for-the-learners-on-the-platform.md
       - name: Request a new Language
-        href: settings/8_request-a-new-language.md
+        href: settings/request-a-new-language.md
       - name: Restrict content access to Group Administrators
-        href: settings/11_restrict-content-access-to-group-administrators.md
+        href: settings/restrict-content-access-to-group-administrators.md
       - name: Configurations on the Training Platform
-        href: settings/11_configurations-on-the-training-platform.md
+        href: settings/configurations-on-the-training-platform.md
       - name: Link to External Website on Learner Home page
         href: settings/link-to-external-website-on-learner-Homepage.md
    - name: Infrastructure Management
@@ -149,94 +149,94 @@
       - name: Install your platform instance
         items:
          - name: Installation Overview
-           href: infrastructure-management/install-your-platform-instance/2_installation-overview.md
+           href: infrastructure-management/install-your-platform-instance/installation-overview.md
          - name: Detailed step by step installation guide
-           href: infrastructure-management/install-your-platform-instance/3_installation-guide-detailed-steps.md
+           href: infrastructure-management/install-your-platform-instance/installation-guide-detailed-steps.md
          - name: Configure login identity for the platform
-           href: infrastructure-management/install-your-platform-instance/4_configure-login-social-work-school-account.md
+           href: infrastructure-management/install-your-platform-instance/configure-login-social-work-school-account.md
          - name: Create and Publish your Mobile App
-           href: infrastructure-management/install-your-platform-instance/5_create-publish-mobile-app.md
+           href: infrastructure-management/install-your-platform-instance/create-publish-mobile-app.md
          - name: Using REST APIs to integrate with existing system
-           href: infrastructure-management/install-your-platform-instance/6_apis.md
+           href: infrastructure-management/install-your-platform-instance/apis.md
          - name: Setup Microsoft Teams as learner endpoint for the platform
-           href: infrastructure-management/install-your-platform-instance/7_create-teams-app-for-your-training-portal.md
+           href: infrastructure-management/install-your-platform-instance/create-teams-app-for-your-training-portal.md
          - name: Troubleshooting Guide
-           href: infrastructure-management/install-your-platform-instance/9_troubleshooting.md
+           href: infrastructure-management/install-your-platform-instance/troubleshooting.md
          - name: Setup platform instance on Azure subscription for Nonprofits
-           href: infrastructure-management/install-your-platform-instance/10_setup-platform-instance-on-azure-subscription-for-nonprofits.md
+           href: infrastructure-management/install-your-platform-instance/setup-platform-instance-on-azure-subscription-for-nonprofits.md
       - name: Configure your platform infrastructure
         items:
          - name: Setup custom domain URL
-           href: infrastructure-management/configure-your-platform-infrastructure/2_setup-custom-domain-url.md
+           href: infrastructure-management/configure-your-platform-infrastructure/setup-custom-domain-url.md
          - name: Scale up your platform instance configuration
-           href: infrastructure-management/configure-your-platform-infrastructure/4_scale-up-instance-configuration.md
+           href: infrastructure-management/configure-your-platform-infrastructure/scale-up-instance-configuration.md
          - name: Business Continuity and Disaster Recovery for your Platform Instance
-           href: infrastructure-management/configure-your-platform-infrastructure/5_business-continuity-and-disaster-recovery-for-your-platform-instance.md
+           href: infrastructure-management/configure-your-platform-infrastructure/business-continuity-and-disaster-recovery-for-your-platform-instance.md
          - name: Delete your training platform instance
-           href: infrastructure-management/configure-your-platform-infrastructure/6_delete-your-training-instance.md
+           href: infrastructure-management/configure-your-platform-infrastructure/delete-your-training-instance.md
          - name: Customize the name and icon of the training tab in MS Teams
-           href: infrastructure-management/configure-your-platform-infrastructure/10_customize-the-name-and-icon-of-the-training-tab-in-ms-teams.md
+           href: infrastructure-management/configure-your-platform-infrastructure/customize-the-name-and-icon-of-the-training-tab-in-ms-teams.md
          - name: Azure Front Door Migration
-           href: infrastructure-management/configure-your-platform-infrastructure/10_azure-front-door-migration.md
+           href: infrastructure-management/configure-your-platform-infrastructure/azure-front-door-migration.md
          - name: Learner Action Events Infrastructure
-           href: infrastructure-management/configure-your-platform-infrastructure/10_learner-action-events-infrastructure.md
+           href: infrastructure-management/configure-your-platform-infrastructure/learner-action-events-infrastructure.md
          - name: Set up Custom Home Page for your MCT Instance
            href: infrastructure-management/configure-your-platform-infrastructure/set-up-custom-homepage-for-your-mct-instance.md
       - name: Monitor your platform Infrastructure
         items:
          - name: Monitor your platform Infrastructure
-           href: infrastructure-management/monitor-your-platform-infrastructure/2_monitor-your-infrastructure.md
+           href: infrastructure-management/monitor-your-platform-infrastructure/monitor-your-infrastructure.md
          - name: Backup and recovery of your platform instance
-           href: infrastructure-management/monitor-your-platform-infrastructure/3_backup-and-recovery.md
+           href: infrastructure-management/monitor-your-platform-infrastructure/backup-and-recovery.md
    - name: Rest API Management
      items:
      - name: Rest API Management
-       href: rest-api-management/2_api-documentation.md
+       href: rest-api-management/api-documentation.md
      - name: Service to Service Authentication
-       href: rest-api-management/3_service-to-service-authentication.md
+       href: rest-api-management/service-to-service-authentication.md
    - name: Frequently Asked Questions
      items:
       - name: General FAQs
-        href: frequently-asked-questions/2_faqs-general.md
+        href: frequently-asked-questions/faqs-general.md
       - name: Pricing & Subscription
-        href: frequently-asked-questions/3_pricing-subscription.md
+        href: frequently-asked-questions/pricing-subscription.md
       - name: Platform Setup and Installation
-        href: frequently-asked-questions/4_faqs-installation-and-setup.md
+        href: frequently-asked-questions/faqs-installation-and-setup.md
       - name: Login Types and User Identity
-        href: frequently-asked-questions/5_faqs-user-management.md
+        href: frequently-asked-questions/faqs-user-management.md
       - name: Portal Branding & Customization
-        href: frequently-asked-questions/6_portal-branding-customization.md
+        href: frequently-asked-questions/portal-branding-customization.md
       - name: Content and Course management
-        href: frequently-asked-questions/7_faqs-course.md
+        href: frequently-asked-questions/faqs-course.md
       - name: User Roles & Groups
-        href: frequently-asked-questions/8_user-roles-groups.md
+        href: frequently-asked-questions/user-roles-groups.md
       - name: Web & Mobile App
-        href: frequently-asked-questions/9_web-mobile-app.md
+        href: frequently-asked-questions/web-mobile-app.md
       - name: Analytics & Reporting
-        href: frequently-asked-questions/10_analytics-reporting.md
+        href: frequently-asked-questions/analytics-reporting.md
       - name: Backup, Security & Privacy
-        href: frequently-asked-questions/11_security-and-privacy.md
+        href: frequently-asked-questions/security-and-privacy.md
       - name: Platform Extensibility & Integration
-        href: frequently-asked-questions/12_custom-integration.md
+        href: frequently-asked-questions/custom-integration.md
    - name: What's new in Microsoft Community Training
      items:
       - name: What's new in Microsoft Community Training
-        href: whats-new-in-microsoft-community-training/2_whats-new-in-microsoft-community-training.md
+        href: whats-new-in-microsoft-community-training/whats-new-in-microsoft-community-training.md
       - name: 2020
         items:
          - name: What's new in February 2020
-           href: whats-new-in-microsoft-community-training/2020/2_whats-new-in-february-2020.md
+           href: whats-new-in-microsoft-community-training/2020/whats-new-in-february-2020.md
          - name: What's new in April 2020
-           href: whats-new-in-microsoft-community-training/2020/3_whats-new-in-april-2020.md
+           href: whats-new-in-microsoft-community-training/2020/whats-new-in-april-2020.md
          - name: What's new in June 2020
-           href: whats-new-in-microsoft-community-training/2020/4_whats-new-in-june-2020.md
+           href: whats-new-in-microsoft-community-training/2020/whats-new-in-june-2020.md
          - name: What's new in August 2020
-           href: whats-new-in-microsoft-community-training/2020/5_whats-new-in-august-2020.md
+           href: whats-new-in-microsoft-community-training/2020/whats-new-in-august-2020.md
          - name: What's new in December 2020
-           href: whats-new-in-microsoft-community-training/2020/6_whats-new-in-december-2020.md
+           href: whats-new-in-microsoft-community-training/2020/whats-new-in-december-2020.md
       - name: 2021
         items:
          - name: What's new in March 2021
-           href: whats-new-in-microsoft-community-training/2021/2_what-new-in-march-2021.md
+           href: whats-new-in-microsoft-community-training/2021/what-new-in-march-2021.md
          - name: What's new in July 2021
            href: whats-new-in-microsoft-community-training/2021/what-new-in-july-2021.md

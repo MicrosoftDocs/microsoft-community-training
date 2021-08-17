@@ -97,7 +97,7 @@ You can manually upload the required content to a course using New Lesson option
 **Next>** [**Add practice quiz and exams**](add-practice-quizzes-and-exam.md) to the course or [**publish the course**](publishing-course.md) for the learners
 
 > [!TIP]
-> Whenever you are performing content upload, [**scale up your platform configuration**](../../../infrastructure-management/configure-your-platform-infrastructure/4_scale-up-instance-configuration.md) to reduce the upload and processing time for the content)
+> Whenever you are performing content upload, [**scale up your platform configuration**](../../../infrastructure-management/configure-your-platform-infrastructure/scale-up-instance-configuration.md) to reduce the upload and processing time for the content)
 
 ## Option 2 - Bulk Upload lessons
 

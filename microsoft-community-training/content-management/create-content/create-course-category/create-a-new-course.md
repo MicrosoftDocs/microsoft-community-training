@@ -49,7 +49,7 @@ In this topic, you will learn  simple steps to create a single course in the Mic
 5. Choose **Enable certificate**. This option enables the administrator to award certificate to learners after the course completion.
 
     > [!NOTE]
-    > Organizations can [**customize the certificate template**](../../../settings/5_customize-the-certificate-template.md) awarded to the learners at the time of course completion.
+    > Organizations can [**customize the certificate template**](../../../settings/customize-the-certificate-template.md) awarded to the learners at the time of course completion.
 
 6. Choose **Restrict lesson ordering**. This option enables the administrator to restrict the learners to consume the lessons in sequence. Learners will NOT be allowed to skip lessons within a course if this option is enabled.
 
@@ -151,7 +151,7 @@ Before you start doing the bulk upload of courses under a category, you need to 
 **Next>** Once the course is uploaded, you can [**add assessments**](add-practice-quizzes-and-exam.md) or [**publish the course**](publishing-course.md) for learners to consume the content via the web portal or mobile application.
 
 > [!TIP]
-> When performing bulk upload course operations,  [**scale up your platform configuration**](../../../infrastructure-management/configure-your-platform-infrastructure/4_scale-up-instance-configuration.md) to reduce the upload and processing time for the content.)
+> When performing bulk upload course operations,  [**scale up your platform configuration**](../../../infrastructure-management/configure-your-platform-infrastructure/scale-up-instance-configuration.md) to reduce the upload and processing time for the content.)
 
 <!---
 Alternatively, you can check the step by step video tutorial for bulk upload content:
@@ -185,7 +185,7 @@ Let us assume that a course by default is created in the language *English* and 
 2. If the learner enables another language, such as *French* - the default version (here, *English* of the course will be available to the learner in My Courses and Course Library.
 
 > [!NOTE]
-> Course translations can be created only in the languages that are enabled on the platform. Administrators can [enable multiple languages on the platform](../../../settings/7_customize-languages-for-the-learners-on-the-platform.md).
+> Course translations can be created only in the languages that are enabled on the platform. Administrators can [enable multiple languages on the platform](../../../settings/customize-languages-for-the-learners-on-the-platform.md).
 
 Next, let us understand how to create course translations once a default course is created via either [**Option 1 - Create a single course in a category**](create-a-new-course.md#option-1---create-a-single-course-in-a-category) or [**Option 2 - Create multiple courses in a category**](create-a-new-course.md#option-2---create-multiple-courses-in-a-category).
 

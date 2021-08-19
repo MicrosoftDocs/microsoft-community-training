@@ -72,7 +72,6 @@ The pbix files for the sample reports can be downloaded from here -
 
 >[**MCT PowerBI custom Dashboard.zip**](https://github.com/MicrosoftDocs/microsoft-community-training/files/7013084/MCT_Sample.Reports.PowerBI.zip)
 
-
 To be able to start using this dashboard you will need to replace the existing data source and connect the .pbix file with your own [**Database**](database-schema.md).
 
 ### Steps to replace data source in PowerBI dashboard
@@ -108,11 +107,11 @@ If you already have your credentials for connecting to DB then proceed to step3.
 9. Once connected, we need to Apply pending changes and click refresh for dashboard to reflect with newly connected data source.
 
     :::image type="content" source="../../media/BI_Refresh.jpg" alt-text="refresh":::
-    
+
 >[!Note]
->If in case you receive a firewall error while replacing datasource, you may need to add your IP address in Firewall.
+>If in case you receive a firewall error while replacing data source, you may need to add your IP address in Firewall.
 >
->![firewal select](../../media/firewal%20select.png)
+>![firewall select](../../media/firewal%20select.png)
 >
 >To add client IP, click on add client IP and select the save icon
 >

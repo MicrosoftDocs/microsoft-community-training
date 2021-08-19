@@ -70,7 +70,8 @@ To help you get started on creating your own PowerBI reports here are some sampl
 
 The pbix files for the sample reports can be downloaded from here -
 
->[**MCT PowerBI custom Dashboard.zip**](https://github.com/MicrosoftDocs/microsoft-community-training/files/6967550/MCT.PowerBI.custom.Dashboard.zip)
+>[**MCT PowerBI custom Dashboard.zip**](https://github.com/MicrosoftDocs/microsoft-community-training/files/7013084/MCT_Sample.Reports.PowerBI.zip)
+
 
 To be able to start using this dashboard you will need to replace the existing data source and connect the .pbix file with your own [**Database**](database-schema.md).
 
@@ -84,7 +85,7 @@ If you already have your credentials for connecting to DB then proceed to step3.
 
 3. Once you have credentials, server name, and database name we can go ahead to replace the data source in the dashboard provided. To do this we need to have [**Power BI**](/power-bi/fundamentals/desktop-getting-started) installed.
 
-4. Open the .pbix file from the [**MCT PowerBI custom Dashboard.zip**](https://github.com/MicrosoftDocs/microsoft-community-training/files/6967550/MCT.PowerBI.custom.Dashboard.zip) that you downloaded and open it from your Power BI Desktop and go to ‘File’ from menu bar.
+4. Open the .pbix file from the [**MCT PowerBI custom Dashboard.zip**](https://github.com/MicrosoftDocs/microsoft-community-training/files/7013084/MCT_Sample.Reports.PowerBI.zip) that you downloaded and open it from your Power BI Desktop and go to ‘File’ from menu bar.
 
     :::image type="content" source="../../media/BI_file.jpg" alt-text="file":::
 
@@ -107,3 +108,12 @@ If you already have your credentials for connecting to DB then proceed to step3.
 9. Once connected, we need to Apply pending changes and click refresh for dashboard to reflect with newly connected data source.
 
     :::image type="content" source="../../media/BI_Refresh.jpg" alt-text="refresh":::
+    
+>[!Note]
+>If in case you receive a firewall error while replacing datasource, you may need to add your IP address in Firewall.
+>
+>![firewal select](../../media/firewal%20select.png)
+>
+>To add client IP, click on add client IP and select the save icon
+>
+>![Save](../../media/FIREWAL.png)

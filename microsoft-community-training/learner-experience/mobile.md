@@ -26,13 +26,13 @@ This article explains how learners can access the training content using the And
 
 1. On app launch, user will be asked to login in order to proceed with the application.
 
-2. Depending upon the [**login identity setup**](../infrastructure-management/install-your-platform-instance/4_configure-login-social-work-school-account.md) for the platform instance, user will be asked to sign in using  their 10-digit Mobile Number, Email address/Social account or Azure Active Directory account.
+2. Depending upon the [**login identity setup**](../infrastructure-management/install-your-platform-instance/configure-login-social-work-school-account.md) for the platform instance, user will be asked to sign in using  their 10-digit Mobile Number, Email address/Social account or Azure Active Directory account.
 
     :::image type="content" source="../media/image(189).png" alt-text="Login-identity":::
 
 3. After login, user will be asked to complete their profile information like first name, last name, profile picture, etc.  
 
-4. The fields displayed on the profile page  are configured by the administrator. For more details, see [**this article**](../settings/4_add-additional-profile-fields-for-user-information.md).
+4. The fields displayed on the profile page  are configured by the administrator. For more details, see [**this article**](../settings/add-additional-profile-fields-for-user-information.md).
 
     :::image type="content" source="../media/image(190).png" alt-text="profile-page":::
 

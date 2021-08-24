@@ -26,7 +26,7 @@ In this article, you will learn more about how to setup rule for a group to  aut
 
     ![Group details page](../../media/image%2860%29.png)
 
-3. From automatically add users pop-up, select **If** custom field and choose the [**additional profile fields**](../../settings/4_add-additional-profile-fields-for-user-information.md) from the drop-down to create the rule.
+3. From automatically add users pop-up, select **If** custom field and choose the [**additional profile fields**](../../settings/add-additional-profile-fields-for-user-information.md) from the drop-down to create the rule.
 
     ![Auto Rule](../../media/AutoRule1.JPG)
 

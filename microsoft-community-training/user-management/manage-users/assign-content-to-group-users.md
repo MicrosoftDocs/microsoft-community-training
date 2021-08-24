@@ -61,7 +61,7 @@ The Microsoft Community Training management portal provides role-based administr
 
     > [!NOTE]
     >
-    > 1. You can also disable this feature of having priotities on the portal. For more information view [this](../../settings/11_configurations-on-the-training-platform.md#content-priority-for-learners).
+    > 1. You can also disable this feature of having priotities on the portal. For more information view [this](../../settings/configurations-on-the-training-platform.md#content-priority-for-learners).
     > 2. Optionally, administrators can also enable the setting to NOT show any other content to learners if any of the **Required** (highest priority) courses are yet NOT complete.
 
 6. Click on **Done** to complete the content assignment.

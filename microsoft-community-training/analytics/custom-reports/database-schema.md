@@ -13,6 +13,10 @@ Microsoft Community Training platform stores all customer data in the Azure SQL 
 
 In this article, you will learn more about the platform's database schema and its components and usage.
 
+## Database Schema Overview
+
+[**Microsoft Community Training - DB Schema Overview.pdf**](https://github.com/MicrosoftDocs/microsoft-community-training/files/6997345/Microsoft.Community.Training.-.DB.Schema.Overview.1.pdf)
+
 ## Accessing Database
 
 Following are the two ways to access the MCT Database,
@@ -20,8 +24,9 @@ Following are the two ways to access the MCT Database,
 ### Method 1: Using Connection string
 
 Go to the MCT portal's SQL database from the Managed resource group (Find the dapclp-db-xxxxxxxxx SQL database).
-Click on Setting -> Connection strings to get the connection strings for the SQL database, as in the below image,
-    ![click on Setting](../../media/image%28346%29.png)
+Click on Setting > Connection strings to get the connection strings for the SQL database, as in the below image,
+
+   ![click on Setting](../../media/image%28346%29.png)
 
 ### Method 2: Use Username and Password (Online Azure query editor)
 

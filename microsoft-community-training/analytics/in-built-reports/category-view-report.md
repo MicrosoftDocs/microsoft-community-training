@@ -15,7 +15,7 @@ To access the category view, you can either select the **View Analytics option f
 
 In this article, you will learn more about different metrics and reports available to the administrator as part of learner analytics for a specific category:
 
-### Permissions Level
+## Permissions Level
 
 The Microsoft Community Training management portal provides role-based administration and depending upon the type of access level administrator can perform an action on the portal. Table below shows administrative role which can access the category view:  
 
@@ -35,7 +35,7 @@ This section in the category view enables an admin to view learner enrollment ov
 
 ### Learners enrollment over time
 
-The graph provide information about all the learners enrolled for all the courses under a specific category over time. Hover over the title to view the description of this graph. 
+The graph provide information about all the learners enrolled for all the courses under a specific category over time. Hover over the title to view the description of this graph.
 
 The values that are measured are:  
 
@@ -74,7 +74,7 @@ This section provides information on the popular courses by completions for a gi
 
 ## Comparative insights on course enrollment and completion for a given category
 
-This section in the category view enables an admin to compare learner’s enrollment and course completion across all the course in a category. 
+This section in the category view enables an admin to compare learner’s enrollment and course completion across all the course in a category.
 
 In the table below, for each course, you can see the number of lessons, no of quizzes (including exams),  unique no of learners enrolled and the number of course completions with course completion percentage.  
 ![Courses](../../media/image%2840%29.png)

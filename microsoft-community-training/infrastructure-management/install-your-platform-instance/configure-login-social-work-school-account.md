@@ -183,13 +183,13 @@ You can create a new Azure Active Directory tenant or use an existing one based 
         * **<https://name.azurewebsites.net>**,
         * **<https://name.azurewebsites.net/signin-azureAD>** and
         * **<https://name-staging.azurewebsites.net/signin-azureAD>** where **"name"** corresponds to your website name.
-    ![ManualAADSetup1](../../media/ManualAADSetup1.png)
+    ![Manual AAD Setup Step 1](../../media/ManualAADSetup1.png)
 
 2. Click on Expose an API from the left menu of your application.
-![ManualAADSetup2](../../media/ManualAADSetup2.png)
+![Manual AAD Setup Step 2](../../media/ManualAADSetup2.png)
 
 3. Click on "Add a scope". Ensure that the auto-populated value of Application ID URI is of the form "api://{ClientID}"
-![ManualAADSetup3](../../media/ManualAADSetup3.png)
+![Manual AAD Setup Step 3](../../media/ManualAADSetup3.png)
 
 4. Click on Save and continue.
 5. Enter the value "access_as_user" under Scope name.
@@ -201,7 +201,7 @@ You can create a new Azure Active Directory tenant or use an existing one based 
     * Click on Certificates & Secrets from the left menu.
     * Click on New client secret.
     * Enter the description and expiry time of the secret (recommended to select Never for expiry time) and click on Save button. A value would be shown. Save this value. Would be required later as the ClientSecret.
-    ![ManualAADSetup4](../../media/ManualAADSetup4.png)
+    ![Manual AAD Setup Step 8](../../media/ManualAADSetup4.png)
 
 9. Make a note of the obtained values as they will be needed in next step.
 

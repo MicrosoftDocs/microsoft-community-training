@@ -1,5 +1,5 @@
 ---
-title: Learner Experience on the mobile app
+title: Azure IOT Edge Device Setup
 original-url: https://docs.microsoftcommunitytraining.com/docs/learning-in-offline-mode
 author: sambati
 ms.author: sambati

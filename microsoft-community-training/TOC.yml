@@ -240,3 +240,11 @@
            href: whats-new-in-microsoft-community-training/2021/what-new-in-march-2021.md
          - name: What's new in July 2021
            href: whats-new-in-microsoft-community-training/2021/what-new-in-july-2021.md
+   - name: Learning in Offline Mode
+     items:
+     - name: Offline Learning with Microsoft Community Training
+       href: learning-in-offline-mode/offline-learning-with-microsoft-community-training.md
+     - name: Azure IOT Hub Initial Setup
+       href: learning-in-offline-mode/azure-IOT-hub-initial-setup.md
+     - name: Azure IOT Edge Device Setup
+       href: learning-in-offline-mode/azure-IOT-edge-device-setup.md

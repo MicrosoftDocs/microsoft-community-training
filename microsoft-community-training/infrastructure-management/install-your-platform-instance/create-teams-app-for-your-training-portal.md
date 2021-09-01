@@ -28,23 +28,28 @@ If you haven't, please follow the Installation steps first and then refer this a
 2. Click on the **Directory + Subscription** icon in the portal toolbar and  select the directory that contains your Azure AD tenant or **search for and select Azure Active Directory**.
 
 3. Click on the **App Registration** option from the left panel
-![Click App Registration](../../media/image%28194%29.png)
+
+    ![Click App Registration](../../media/image%28194%29.png)
 
 4. On the App registrations page, search for and select the Azure AD application created for the Microsoft Community Training instance during the installation process
-![Azure AD application](../../media/image%28195%29.png)
+
+    ![Azure AD application](../../media/image%28195%29.png)
 
 5. On the application details, select the **API permissions** option on the left panel
 
 6. Next, **click on Add Permission** and **select Microsoft Graph option** from the right panel
-![select Microsoft Graph option](../../media/image%28196%29.png)
+
+    ![select Microsoft Graph option](../../media/image%28196%29.png)
 
 7. Next, in Delegated permissions and Application permissions check the following options:
-    * Under Delegated permissions - **Directory.Read.All, Group.Read.All, User.Read.All**
-    * Under Application permissions - **Directory.Read.All, Group.Read.All, User.Read.All**
-![Delegated and Application permissions](../../media/image%28197%29.png)
+    * Under Delegated permissions - **Directory.Read.All, Group.Read.All, User.Read.All, Member.Read.Hidden**
+    * Under Application permissions - **Directory.Read.All, Group.Read.All, User.Read.All, Member.Read.Hidden**
+
+    ![Delegated and Application permissions](../../media/image%28197%29.png)
 
 8. Next, **click on Grant admin consent**. Confirm Yes.
-![Click on Grant admin consent](../../media/image%28198%29.png)
+
+    :::image type="content" source="../../media/teamsapipermissions.png" alt-text="teamspermissions":::
 
 > [!NOTE]
 > Please sure all the values marked in red rectangle are correctly set.
@@ -67,6 +72,7 @@ If you haven't, please follow the Installation steps first and then refer this a
 1. Open the Microsoft Teams client application and sign in using your global or teams service admin credentials.
 
 2. Upload the manifest file (.zip file) provided by the customer support team as a custom app for organization in Teams
+
     ![Upload the manifest](../../media/image%28199%29.png)
 
 > [!NOTE]
@@ -75,7 +81,8 @@ If you haven't, please follow the Installation steps first and then refer this a
 ### Step 4 - Setup app policies to pin the training application from the Microsoft Team admin center
 
 1. Visit [**Teams Admin portal**](https://admin.teams.microsoft.com/) and **select Setup policies** option under Teams apps in the left navigation panel
-![Select Setup policies](../../media/image%28200%29.png)
+
+    ![Select Setup policies](../../media/image%28200%29.png)
 
 2. Next click on the **Add Apps** button and search for the training application uploaded in the previous Step #3
 
@@ -94,14 +101,17 @@ If you haven't, please follow the Installation steps first and then refer this a
 3. Click on the app service belonging to your Microsoft Community Training instance.
 
 4. Select Configuration under settings from the left-menu.
-![Select Configurations.png](../../media/Select%20Configurations%281%29.png)
+
+    ![Select Configurations.png](../../media/Select%20Configurations%281%29.png)
 
 5. Go under Applications Settings tab
-![Select Application Settings.png](../../media/Select%20Application%20Settings.png)
+
+    ![Select Application Settings.png](../../media/Select%20Application%20Settings.png)
 
 6. Select the setting **Features:AllowSiteEmbedding** and update it with value **“true”**. Click on OK.
 
     ![Features:AllowSiteEmbedding](../../media/image%28436%29.png)
 
 7. Click on save.
-![Save Application Settings.png](../../media/Save%20Application%20Settings%281%29.png)
+
+    ![Save Application Settings.png](../../media/Save%20Application%20Settings%281%29.png)

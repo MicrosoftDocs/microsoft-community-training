@@ -13,7 +13,7 @@ This article shows you how to enable sign-in for users from a specific Azure AD 
 
 ## Step:1 Register an Azure AD app
 
-To enable sign-in for users with an Azure AD account from a specific Azure AD organization, in Azure Active Directory B2C (Azure AD B2C), you need to create an application in Azure portal. For more information, see Register an application with the Microsoft identity platform.
+To enable sign-in for users with an Azure AD account from a specific Azure AD organization, in Azure Active Directory B2C (Azure AD B2C), you need to create an application in [**Azure portal**](https://portal.azure.com/). For more information, see [Register an application with the Microsoft identity platform](https://docs.microsoft.com/azure/active-directory/develop/quickstart-register-app).
 
 1. Sign in to the [**Azure portal**](https://portal.azure.com/).
 2. Make sure you're using the directory that contains your organizational Azure AD tenant (for example, contoso.com). Select the **Directory + subscription filter** in the top menu, and then choose the directory that contains your Azure AD tenant.
@@ -45,7 +45,7 @@ To enable sign-in for users with an Azure AD account from a specific Azure AD or
 
 6. For **Client ID**, enter the application ID that you previously recorded.
 7. For **Client secret**, enter the client secret that you previously recorded.
-8. For **Scope**, enter *openid profile*.
+8. For **Scope**, enter *openid* profile.
 9. Leave the default values for **Response type**, and **Response mode**.
 10. (Optional) For the **Domain hint**, enter contoso.com. For more information, see [Set up direct sign-in using Azure Active Directory B2C](https://docs.microsoft.com/azure/active-directory-b2c/direct-signin?pivots=b2c-user-flow#redirect-sign-in-to-a-social-provider).
 11. Under **Identity provider claims mapping**, select the following claims(refer the below screenshot):
@@ -56,6 +56,7 @@ To enable sign-in for users with an Azure AD account from a specific Azure AD or
     - **Email**: *preferred_username*
 
     ![Configure custom IDP](../../media/MultipleAAD1.png)
+12. Select **Save**.
 
 ## Step 3: Add Azure AD identity provider to a user flow
 

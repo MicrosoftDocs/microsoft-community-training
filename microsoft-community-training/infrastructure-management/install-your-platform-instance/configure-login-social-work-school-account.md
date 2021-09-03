@@ -31,11 +31,11 @@ Microsoft Community Training platform provides three types of login:
 
 In this article, we will walk you through on how to configure login identity for the platform.
 
-### Phone based authentication
+## Phone based authentication
 
 There is no additional configuration needed for phone-based login.
 
-### Work or School Account based authentication
+## Work or School Account based authentication
 
 ### **Option 1** - Run AAD script to Configure Work or School account for your training portal by following the instructions below
 

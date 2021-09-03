@@ -14,7 +14,7 @@ zone_pivot_groups: "AD-Deployments-Methods"
 
 Please follow [**installation article**](../../infrastructure-management/install-your-platform-instance/installation-guide-detailed-steps.md) to Deploy your MCT instance. In the step “**Set up your Login type**”, select the suitable identity type.
 
-ImageImageImage
+![Login Identity types](../../media/LoginIdentity1.png)
 
 and follow the below documentation to configure login identity.
 
@@ -113,7 +113,7 @@ You can create a new Azure Active Directory tenant or use an existing one based 
 
 9. Make a note of the values and follow [**installation article**](../../infrastructure-management/install-your-platform-instance/installation-guide-detailed-steps.md) to complete the Deployment by configuring obtained values as below.
 
-Imageimageimage
+    ![Enter clientid, secret,tenantId,Name](../../media/LoginIdentity6.png)
 
 > [!Note]
 >If you are facing any issues while Deploying your AD instance, please follow the header "Azure Active Directory Configuration issue" under [**troubleshooting document**](troubleshooting.md) and send us the required output.
@@ -164,9 +164,9 @@ Here are the steps an create on Azure AD B2C tenant and link the same with your 
 6. Refer [**this article**](/azure/active-directory-b2c/tutorial-create-user-flows) article to create a **signing flow** (a sign-up and sign-in user flow) and a **password reset flow** (for local account)
     * Select Email Addresses, Given Name, Identity Provider and Surname in Application claims
     * Application claims should be same as following screenshot
-    IMageimageimage
+    ![Application Claims](../../media/LoginIdentity8.png)
     * Don’t select any Sign-up attributes
-    Imageimageimage
+    ![User Attributes](../../media/LoginIdentity9.png)
     * Copy the user-flow(s) name to be required later (These will be required during MCT platform installation)
     >
     > [!NOTE]
@@ -191,7 +191,7 @@ Here are the steps an create on Azure AD B2C tenant and link the same with your 
 
 7. Follow the [**installation article**](../../infrastructure-management/install-your-platform-instance/installation-guide-detailed-steps.md) to complete the Deployment by configuring obtained values as per the below screenshot
 
-Imageimageimage
+    ![Create MCT redirect](../../media/LoginIdentity11.png)
 
 #### Step 3 - Configure your Identity provider
 
@@ -213,6 +213,6 @@ Here are the steps to create policies based on the Identity Provider:
 
     5. Select User Attributes and ensure no options are selected.
     6. Restart the training portal App service.
-        ![Restart App Service.png](../../media/    Restart%20App%20Service.png)
+        ![Restart App Service.png](../../media/LoginIdentity14.png)
 
     7. Once the app successfully restarts, verify if user can login using local account.

@@ -54,8 +54,8 @@ To enable sign-in for users with an Azure AD account from a specific Azure AD or
     - **Given name**: *given_name*
     - **Surname**: *family_name*
     - **Email**: *preferred_username*
-    <img width="218" alt="MultipleAAD1" src="https://user-images.githubusercontent.com/87796184/131975786-9f7b16e6-bfca-4124-807f-3f98af5dba3f.png">
-12. Select **Save**.
+
+    ![Configure custom IDP](../../media/MultipleAAD1.png)
 
 ## Step 3: Add Azure AD identity provider to a user flow
 
@@ -64,11 +64,10 @@ At this point, the Azure AD identity provider has been set up, but it's not yet 
 1. In your Azure AD B2C tenant, select **User flows**.
 2. Click the user flow that you want to add the Azure AD identity provider.
 3. Under the **Social identity providers**, for example select **firstAD**, refer the below screenshot.
-    <img width="389" alt="MultipleAAD2" src="https://user-images.githubusercontent.com/87796184/131975913-59b4e403-a501-40d0-bcdc-d7c277d8615b.png">
-
+    ![Social Identity Providers](../../media/MultipleAAD2.png)
 4. Select **Save**.
 5. To test your policy, select **Run user flow**.
-6. For **Application**, select a web application that you previously registered. 
+6. For **Application**, select a web application that you previously registered.
 7. Select the **Run user flow** button.
 8. From the sign-up or sign-in page, select Contoso Azure AD to sign in with Azure AD Contoso account.
 

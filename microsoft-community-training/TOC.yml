@@ -182,6 +182,11 @@
            href: infrastructure-management/configure-your-platform-infrastructure/learner-action-events-infrastructure.md
          - name: Set up Custom Home Page for your MCT Instance
            href: infrastructure-management/configure-your-platform-infrastructure/set-up-custom-homepage-for-your-mct-instance.md
+         - name: Add multiple Azure AD in your instance
+           href: infrastructure-management/configure-your-platform-infrastructure/Add-multiple-AAD-to-B2C-as-a-social-account.md
+    
+
+
       - name: Monitor your platform Infrastructure
         items:
          - name: Monitor your platform Infrastructure

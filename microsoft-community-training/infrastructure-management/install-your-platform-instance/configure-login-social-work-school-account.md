@@ -118,9 +118,6 @@ You can create a new Azure Active Directory tenant or use an existing one based 
 > [!Note]
 >If you are facing any issues while Deploying your AD instance, please follow the header "Azure Active Directory Configuration issue" under [**troubleshooting document**](troubleshooting.md) and send us the required output.
 
-> [!Note]
->In case you have followed manual steps to create AAD application, you may use the values obtained from "Step 8" above.
-
 ## Social account or email based authentication
 
 ### 1. Configure your Social Account

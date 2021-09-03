@@ -37,22 +37,6 @@ There is no additional configuration needed for phone-based login.
 
 ### Work or School Account based authentication
 
-::: zone pivot="AD Deployments Methods"
->Manual
-::: zone-end
-::: zone-end::: zone-end
-
->::: zone pivot="AD Deployments Methods"
->Manual
->::: zone-end
-
-:::zone target="docs" pivot="Manual"
-    Manual
-:::zone-end
-
-# [C#](#tab/csharp)
-# [Java](#tab/csharp)
-
 ### **Option 1** - Run AAD script to Configure Work or School account for your training portal by following the instructions below
 
 #### Step 1 - Login to Azure portal
@@ -180,29 +164,30 @@ Here are the steps an create on Azure AD B2C tenant and link the same with your 
 6. Refer [**this article**](/azure/active-directory-b2c/tutorial-create-user-flows) article to create a **signing flow** (a sign-up and sign-in user flow) and a **password reset flow** (for local account)
     * Select Email Addresses, Given Name, Identity Provider and Surname in Application claims
     * Application claims should be same as following screenshot
-IMageimageimage
+    IMageimageimage
     * Don’t select any Sign-up attributes
-Imageimageimage
+    Imageimageimage
     * Copy the user-flow(s) name to be required later (These will be required during MCT platform installation)
-
-> [!NOTE]
-> Setting Password Reset Flow for an Existing Deployment:
-> If you are setting up the **Password reset flow** on an existing deployment with Azure AD B2C authentication:
->
-> 1. Set Userflow Name as **pwd_reset** (Step #1 in Create Flow using steps in [**this article**](/azure/active-directory-b2c/tutorial-create-user-flows)
->
-> 2. Add the following URLs in the **Reply URL** section,
     >
-    >> * "https://*name*.azurefd.net/signin-b2c-pwd"
-    >> * "https://*name*.azurewebsites.net/signin-b2c-pwd"
-    >> * "https://*name*-staging.azurewebsites.net/signin-b2c-pwd" where "name" corresponds to your website name.
+    > [!NOTE]
+    > Setting Password Reset Flow for an Existing Deployment:
+    > If you are setting up the **Password reset flow** on an existing deployment with Azure AD B2C authentication:
     >
-> 3. Open **App Service** and add the following configurations both with value as **B2C_1_pwd_reset**,
->
->> * AzureADB2CPasswordResetPolicy
->> * idp:AzureADB2CPasswordResetPolicy
->
->![App Service](../../media/image%28355%29.png) 
+    > 1. Set Userflow Name as **pwd_reset** (Step #1 in Create Flow using steps in [**this article**](/azure/active-directory-b2c/tutorial-create-user-flows)
+    >
+    > 2. Add the following URLs in the **Reply URL** section,
+            >
+            >> * "https://*name*.azurefd.net/signin-b2c-pwd"
+            >> * "https://*name*.azurewebsites.net/signin-b2c-pwd"
+            >> * "https://*name*-staging.azurewebsites.net/signin-b2c-pwd" where "name" corresponds to your website name.
+            >
+    >
+    > 3. Open **App Service** and add the following configurations both with value as **B2C_1_pwd_reset**,
+        >
+        >> * AzureADB2CPasswordResetPolicy
+        >> * idp:AzureADB2CPasswordResetPolicy
+        >
+        >![App Service](../../media/image%28355%29.png)
 
 7. Follow the [**installation article**](../../infrastructure-management/install-your-platform-instance/installation-guide-detailed-steps.md) to complete the Deployment by configuring obtained values as per the below screenshot
 

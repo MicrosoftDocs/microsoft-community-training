@@ -11,16 +11,23 @@ ms.prod: azure
 
 If you are interested to replace Microsoft Community Training (MCT) home page with any other custom home page that you have built, you can easily achieve that with a simple set of steps.
 
-Here are some pre-requisites before you follow the steps are to be incorporated in the homepage you are developing:
+To get started, you need to have a custom home page designed for it to be linked to MCT instance. Here is a sample design for [**MCT Custom Homepage**](https://github.com/MicrosoftDocs/microsoft-community-training/files/6968259/MCT_CustomHomePage_Templates.zip)
+
+<!---
+## Pre-requisites
 
 1. You need to add a Call to Action (CTA) button like ‘Registration’ in the page that should link to MCT sign-in page.
 2. This custom home page needs to be hosted in same azure subscription where MCT is deployed.
 3. You need to have the Storage Account of the type "General-purpose v2" to get the static website.
+--->
 
 ## Steps to add your custom homepage
 
 >[!NOTE]
->Azure subscription should be same subscription where MCT is deployed. These steps would need ‘Contributor’ access for the Azure subscription.
+>
+>* Azure subscription should be same subscription where MCT is deployed. These steps would need ‘Contributor’ access for the Azure subscription.
+>* This custom home page needs to be hosted in same azure subscription where MCT is deployed.
+>* You need to have the Storage Account of the type "General-purpose v2" to get the static website
 
 1. Sign in to the [Azure portal](https://portal.azure.com/)  
 
@@ -38,12 +45,15 @@ Here are some pre-requisites before you follow the steps are to be incorporated 
 
     1. Create an empty folder named "mywebsite" on your local file system.
     2. Launch Visual Studio Code and open the folder that you just created from the **Explorer** panel.
+
         :::image type="content" source="../../media/image(461).png" alt-text="Visual studio code":::
     3. Create the default index file in the "mywebsite" folder and name it index.html.
+
         :::image type="content" source="../../media/image(462).png" alt-text="Default index file":::
     4. Copy all the files for the Custom home page.
     5. Home page should be named as ‘index.html’.
     6. Edit ‘index.html’ and replace all CTA links (e.g. ‘Registration’) with MCT sign in Link. You can get MCT sign link by hovering over ‘SignIn’ in MCT website. Please refer below screenshot. The MCT login URL must be in the following format: https://<**AzurewebistesORfdBaseURL**>/home/defaultsignin?whr=uri%3aPhoneAuth&referrer=basedomain.
+
         :::image type="content" source="../../media/image(463).png" alt-text="MCT Sign in Link":::
 
     7. Create the default error file and name it 404.html (or any other name as needed).
@@ -64,12 +74,13 @@ Here are some pre-requisites before you follow the steps are to be incorporated 
 **You've successfully deployed a static webpage (Custom Home Page) to Azure subscription where MCT is deployed. Launch the website to view.**
 
 >[!Note]
+>
 >1. For more details please refer [https://docs.microsoft.com/azure/storage/blobs/storage-blob-static-website-host](/azure/storage/blobs/storage-blob-static-website-host)
 >
 >2. Here are some sample templates of the Custom Homepage which can be used to deploy on your MCT instance:
+>    * [**MCT_CustomHomePage_Templates.zip**](https://github.com/MicrosoftDocs/microsoft-community-training/files/6968259/MCT_CustomHomePage_Templates.zip)
+>    * For supporting multiple AD logins, please refer to this [**template**](https://microsoft.sharepoint.com/:u:/t/BuildingSangam/EVgejvuLYYxNhDixVHDX5kwBbcvhRS9bZSLcAv54fVGPOQ?e=bDbHXa). You may add the other AD logins in this template from *ILDigiTechLoginPage >> Assets >> DomainAndUrl.json*
 >
->    * [MCT_CustomHomePage_Templates.zip](https://github.com/MicrosoftDocs/microsoft-community-training/files/6968259/MCT_CustomHomePage_Templates.zip)
->    * For supporting multiple AD logins, please refer to this template __. You may add the other AD logins in this template from *ILDigiTechLoginPage >> Assets >> DomainAndUrl.json*
 
 ## Tracking users signing in through Custom Homepage
 
@@ -90,3 +101,6 @@ You need to update Instrumentation key as shown below for your Azure subscriptio
         window[aiName] = aisdk, aisdk.queue && 0 === aisdk.queue.length && aisdk.trackPageView({});
     </script>
 ```
+
+>[!Note]
+>You can have multiple custom home pages for your instance, each of those home pages should have a button which links to instance's login page.

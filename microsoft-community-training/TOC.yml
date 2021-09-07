@@ -142,8 +142,6 @@
         href: settings/restrict-content-access-to-group-administrators.md
       - name: Configurations on the Training Platform
         href: settings/configurations-on-the-training-platform.md
-      - name: Link to External Website on Learner Home page
-        href: settings/link-to-external-website-on-learner-Homepage.md
    - name: Infrastructure Management
      items:
       - name: Install your platform instance

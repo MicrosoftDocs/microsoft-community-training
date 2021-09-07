@@ -160,6 +160,36 @@ The portal allows learners to skip through any video lesson while viewing it on 
 
 By default, this feature is kept disabled with value as **False**, ensuring that the learners DO NOT skip video lessons when they are completing the lesson for the first time. The learners can skip through in subsequent views even when this setting is set as False.
 
+## Link External Website on Learner Homepage
+
+MCT portal allows you to provide a link to an external website on the learner’s homepage for allowing the learners quick access to a preferred website.
+
+``` Website-Name
+Features:ExternalWebsite:Name
+```
+
+Value: Name you want display (Example – Microsoft Community Training)
+
+:::image type="content" source="../media/EL5.png" alt-text="External link 5":::
+
+Click or tab on **Ok** icon to proceed.
+
+Again, click on the **New application setting** and provide the following values in the corresponding boxes:
+
+``` Website-URL
+Features:ExternalWebsite:URL
+```
+
+Value: Provide the link to which it will be redirected (Example – [https://communitytraining.microsoft.com/](https://communitytraining.microsoft.com/))
+
+Click or tap on **Save** icon to complete this process.
+
+:::image type="content" source="../media/EL6.png" alt-text="External link 6":::
+
+Switch to the learner’s view on your instance and click on profile picture. Now you would be able to see the external link available on the panel, as shown in image below (**visit Microsoft Community Training**):
+
+:::image type="content" source="../media/el7.png" alt-text="External link 7":::
+
 ## Steps to set the Configurations on the Platform
 
 1. Login to [Azure portal](https://www.portal.azure.com/).

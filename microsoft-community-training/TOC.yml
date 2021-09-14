@@ -182,15 +182,14 @@
            href: infrastructure-management/configure-your-platform-infrastructure/set-up-custom-homepage-for-your-mct-instance.md
          - name: Add multiple Azure AD in your instance
            href: infrastructure-management/configure-your-platform-infrastructure/Add-multiple-AAD-to-B2C-as-a-social-account.md
-    
-
-
       - name: Monitor your platform Infrastructure
         items:
          - name: Monitor your platform Infrastructure
            href: infrastructure-management/monitor-your-platform-infrastructure/monitor-your-infrastructure.md
          - name: Backup and recovery of your platform instance
            href: infrastructure-management/monitor-your-platform-infrastructure/backup-and-recovery.md
+         - name: Troubleshoot Guide for Azure Support
+           href: infrastructure-management/monitor-your-platform-infrastructure/troubleshoot-guide-for-azure-support.md
    - name: Rest API Management
      items:
      - name: Rest API Management

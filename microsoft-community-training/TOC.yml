@@ -142,8 +142,6 @@
         href: settings/restrict-content-access-to-group-administrators.md
       - name: Configurations on the Training Platform
         href: settings/configurations-on-the-training-platform.md
-      - name: Link to External Website on Learner Home page
-        href: settings/link-to-external-website-on-learner-Homepage.md
    - name: Infrastructure Management
      items:
       - name: Install your platform instance
@@ -182,12 +180,16 @@
            href: infrastructure-management/configure-your-platform-infrastructure/learner-action-events-infrastructure.md
          - name: Set up Custom Home Page for your MCT Instance
            href: infrastructure-management/configure-your-platform-infrastructure/set-up-custom-homepage-for-your-mct-instance.md
+         - name: Add multiple Azure AD in your instance
+           href: infrastructure-management/configure-your-platform-infrastructure/Add-multiple-AAD-to-B2C-as-a-social-account.md
       - name: Monitor your platform Infrastructure
         items:
          - name: Monitor your platform Infrastructure
            href: infrastructure-management/monitor-your-platform-infrastructure/monitor-your-infrastructure.md
          - name: Backup and recovery of your platform instance
            href: infrastructure-management/monitor-your-platform-infrastructure/backup-and-recovery.md
+         - name: Troubleshoot Guide for Azure Support
+           href: infrastructure-management/monitor-your-platform-infrastructure/troubleshoot-guide-for-azure-support.md
    - name: Rest API Management
      items:
      - name: Rest API Management
@@ -240,3 +242,11 @@
            href: whats-new-in-microsoft-community-training/2021/what-new-in-march-2021.md
          - name: What's new in July 2021
            href: whats-new-in-microsoft-community-training/2021/what-new-in-july-2021.md
+   - name: Learning in Offline Mode
+     items:
+     - name: Offline Learning with Microsoft Community Training
+       href: learning-in-offline-mode/offline-learning-with-microsoft-community-training.md
+     - name: Azure IOT Hub Initial Setup
+       href: learning-in-offline-mode/azure-IOT-hub-initial-setup.md
+     - name: Azure IOT Edge Device Setup
+       href: learning-in-offline-mode/azure-IOT-edge-device-setup.md

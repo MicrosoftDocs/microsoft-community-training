@@ -2,7 +2,7 @@
 title: Troubleshoot Guide for Azure Support
 author: nikotha
 ms.author: nikotha
-description: Your training portal is composed of various resources such as Azure SQL, Azure Media Service, Azure App Service etc.
+description: This is a troubleshoot guide for the customers of Microsoft Community Training platform. 
 ms.prod: azure
 ---
 
@@ -10,7 +10,7 @@ ms.prod: azure
 
 ## Introduction
 
-[Microsoft Community Training](http://communitytraining.microsoft.com/) (MCT) is an Azure based solution that enables delivery of large-scale, far-spread training programs with high quality and efficiency.
+[Microsoft Community Training](https://communitytraining.microsoft.com/) (MCT) is an Azure based solution that enables delivery of large-scale, far-spread training programs with high quality and efficiency.
 
 The platform within Microsoft is managed by the Azure Global Emerging Markets IDC team. The ICM credentials to log a ticket on the MCT team are –
 
@@ -22,7 +22,7 @@ This document walks through root cause and resolution steps for some of the majo
 
 ## Brief on MCT Architecture
 
-Microsoft Community Training (MCT) platform is available as a [Managed Application](https://docs.microsoft.com/azure/managed-applications/overview) on the [Azure Marketplace](https://azuremarketplace.microsoft.com/marketplace/apps/project-sangam.microsoft-community-training) for customers. The MCT instance is deployed on customer’s Azure subscriptions and utilizes the following Azure services –
+Microsoft Community Training (MCT) platform is available as a [Managed Application](https://docs.microsoft.com/azure/azure-resource-manager/managed-applications/) on the [Azure Marketplace](https://azuremarketplace.microsoft.com/marketplace/apps/project-sangam.microsoft-community-training) for customers. The MCT instance is deployed on customer’s Azure subscriptions and utilizes the following Azure services –
 
 1. Azure App Service
 2. Azure Blob Storage

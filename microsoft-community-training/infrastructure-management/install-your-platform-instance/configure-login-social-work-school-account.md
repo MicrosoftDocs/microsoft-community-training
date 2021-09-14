@@ -120,11 +120,9 @@ You can create a new Azure Active Directory tenant or use an existing one based 
 
 ## Social account or email based authentication
 
-### 1. Configure your Social Account
-
 You can configure social account for your training portal by following the instructions below:  
 
-#### Step 1 - Setup your Azure AD B2C
+### Step 1 - Setup your Azure AD B2C
 
 You can create a new Azure AD B2C tenant or create an existing one based on your organization requirement.
 
@@ -134,7 +132,7 @@ You can create a new Azure AD B2C tenant or create an existing one based on your
 
 3. Link the Azure Active Directory B2C tenant just created to your Azure subscription.  
 
-#### Step 2 - Create Azure AD B2C application
+### Step 2 - Create Azure AD B2C application
 
 Here are the steps an create on Azure AD B2C tenant and link the same with your training portal instance:
 
@@ -161,7 +159,7 @@ Here are the steps an create on Azure AD B2C tenant and link the same with your 
 6. Refer [**this article**](/azure/active-directory-b2c/tutorial-create-user-flows) article to create a **signing flow** (a sign-up and sign-in user flow) and a **password reset flow** (for local account)
     * Select Email Addresses, Given Name, Identity Provider and Surname in Application claims
     * Application claims should be same as following screenshot
-    ![Application Claims](../../media/LoginIdentity8.png)
+    ![Application Claims Login Identity1](../../media/LoginIdentity8.png)
     * Don’t select any Sign-up attributes
     ![User Attributes](../../media/LoginIdentity9.png)
     * Copy the user-flow(s) name to be required later (These will be required during MCT platform installation)
@@ -190,7 +188,7 @@ Here are the steps an create on Azure AD B2C tenant and link the same with your 
 
     ![Create MCT redirect](../../media/LoginIdentity11.png)
 
-#### Step 3 - Configure your Identity provider
+### Step 3 - Configure your Identity provider
 
 Here are the steps to create policies based on the Identity Provider:
 
@@ -206,7 +204,7 @@ Here are the steps to create policies based on the Identity Provider:
 
     4. In the same window, select Application Claims and check whether the configuration matches exactly as below.
 
-        ![Application Claims](../../media/4.jpg)
+        ![Application Claims Local Account1](../../media/4.jpg)
 
     5. Select User Attributes and ensure no options are selected.
     6. Restart the training portal App service.

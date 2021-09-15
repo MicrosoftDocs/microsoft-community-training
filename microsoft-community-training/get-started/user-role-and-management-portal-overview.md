@@ -87,3 +87,5 @@ Here are steps on [how to navigate the portal as a Learner](../learner-experienc
 ## Role based access to Management Portal features
 
 Organization can assign specific administrative roles to the user and provide access to relevant features on the management portal to help the user execute administrative functions required for the role.
+[**Role-based Admin Functionalities.pdf**](https://github.com/MicrosoftDocs/microsoft-community-training/files/7167101/Role-based.Admin.Functionalities.pdf)
+

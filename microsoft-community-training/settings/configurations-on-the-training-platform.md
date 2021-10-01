@@ -190,6 +190,18 @@ Switch to the learner’s view on your instance and click on profile picture. No
 
 :::image type="content" source="../media/el7.png" alt-text="External link 7":::
 
+## Steps to set Default Country for Phone based login
+
+If your instance has phone based authentication and if you want to set a default country flag in login page for all the learners, you need to provide [**Alpha-2 ISO code**](https://en.wikipedia.org/wiki/List_of_ISO_3166_country_codes) for the country you want to be as default flag as value to **DefaultCountry** application setting.
+
+```Default Flag
+DefaultCountry
+```
+
+In Value tab, provide the two letter Alpha-2 country code. Example - For setting default country as **India**, provide the value as **IN**.
+
+:::image type="content" source="../media/Default country.PNG" alt-text="Def_country":::
+
 ## Steps to set the Configurations on the Platform
 
 1. Login to [Azure portal](https://www.portal.azure.com/).

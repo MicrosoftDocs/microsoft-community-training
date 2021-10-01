@@ -60,6 +60,10 @@ Get the ownership access to your pay-as-you-go Azure subscription. To learn more
 
 8. The next section is **Setup your portal details**. Enter values as per the instructions below and click **OK**.
     * ***Website Name*** - The name of your learning portal. For example, if you enter “Contoso”, your learning portal’s website URL will be of the form "https://contoso.azurefd.net". You can map the learning portal to a [**custom domain later**](../../infrastructure-management/configure-your-platform-infrastructure/setup-custom-domain-url.md).
+
+        >[!Note]
+        >Please make sure to have your website name to be minimum of 5 characters in length to meet Azure FD requirement.
+
     * ***Contact email addresses*** - The email addresses you want to be contacted on for all information regarding getting started, updates to the platform, latest news etc.
 
         ![Setup your portal details](../../media/image%28357%29.png)

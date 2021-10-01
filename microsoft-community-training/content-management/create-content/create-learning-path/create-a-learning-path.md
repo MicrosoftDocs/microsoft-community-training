@@ -42,7 +42,7 @@ The Microsoft Community Training management portal provides role-based administr
 
 4. Enter **Learning Path name**. The Learning Path name is the title that learners would see on the web portal and mobile app. For example: Microsoft Office.
 
-    :::image type="content" source="../../../media/LP_cert.PNG" alt-text="LP_cert":::
+    :::image type="content" source="../../../media/LP_cert.PNG" alt-text="LearningPathCertificate":::
 
 5. Enter the **Learning Path Description**. The Learning Path description is a short summary which informs a learner about course content at the time of registration.
 

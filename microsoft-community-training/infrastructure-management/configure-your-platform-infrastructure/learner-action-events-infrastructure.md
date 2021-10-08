@@ -21,9 +21,38 @@ Azure Service Bus is a cloud messaging as a service which enables you to subscri
 
 1. Create a Service Bus Instance from Azure Portal following [this documentation](/azure/service-bus-messaging/service-bus-quickstart-topics-subscriptions-portal), with Topic Name : MCTEvents
 
-2. Assign the user (for running locally), AppService (for running in App service) Azure Service Bus Data Owner role in "Access control (IAM) -> Role assignments" tab of the service bus instance; here is a [Reference Document](/azure/service-bus-messaging/service-bus-managed-service-identity#to-assign-azure-roles-using-the-azure-portal).
+2. Once the Topic is created, go to the topic -> Subscriptions (Under Entities on left panel) and click on **+ Subscription**
+    :::image type="content" source="../../media/Service Bus - Add Subscription.PNG" alt-text="Add subscription":::
 
-3. Copy the Host name from the overview tab and update ServiceBusNamespaceFQDN in appsetting.json
+3. Add the details in the **Create Subscription** page as per your requirement.
+
+4. Go to the same **Service Bus** instance, and click on **Access Control (IAM)** from the left pane and go to **Role assignments**.
+    :::image type="content" source="../../media/Service Bus - Access Control.PNG" alt-text="Access Control":::
+
+5. Assign the user (for running locally), AppService (for running in App service) Azure Service Bus Data Owner role in "Access control (IAM) -> Role assignments" tab of the service bus instance; here is a [Reference Document](/azure/service-bus-messaging/service-bus-managed-service-identity#to-assign-azure-roles-using-the-azure-portal).
+
+6. Go to the **Overview** section of the same **Service Bus** instance and copy the **Host name**.
+:::image type="content" source="../../media/Service Bus - Host Name.PNG" alt-text="Get Host Name":::
+
+7. Go to your App Service for which events infrastructure has to be configured and follow the steps on [this document](../../settings/configurations-on-the-training-platform.md#steps-to-set-the-configurations-on-the-platform) to add application settings.
+
+8. Add the following application setting:
+    - **Name:** *ServiceBusNamespaceFQDN*
+    - **Value:** Value of the Host Name as copied from Step 6
+:::image type="content" source="../../media/Service Bus - App setting1.PNG" alt-text="App Setting 1":::
+
+9. You may also add the following application settings basis your requirement:
+    1. **Features:Events:Login** : Application Settings for subscribing to login event
+    2. **Features:Events:CourseStart** : Application Settings for subscribing to course start event
+    3. **Features:Events:ModuleCompletion** : Application Settings for subscribing to module completion event
+    4. **Features:Events:CourseCompletion** : Application Settings for subscribing to course completion event
+
+    The **Value** to these would be ***True*** if you want these events to be logged in and tracked.
+
+    For more information on the above app settings, please refer to the details below under the topic **Events Infrastructure**.
+
+10. Click on save.
+    :::image type="content" source="../../media/Save Application Settings(1).png" alt-text="Save app setting":::
 
 ### Sample code to consume MCT Events
 
@@ -60,15 +89,6 @@ Microsoft Community Training has enabled 4 types of events for customers to trac
 2. **Course Start Event**: This will be called when a learner starts a course, this is same as lesson starting since Grab only has 1 video lesson in the system (at least with the current migration)
 3. **Module Completion**: This will be the completion of either the lesson or the exam in the course
 4. **Course Completion**: This will be the Course Completion event sent once the Exam is passed
-
-### Application Configurations
-
-To enable these configurations, following Application Settings must be enabled. Refer [this document](../../settings/configurations-on-the-training-platform.md#steps-to-set-the-configurations-on-the-platform) to check the steps to enable these configurations from your Azure portal.
-
-1. **Features:Events:Login** : Application Settings for subscribing to login event
-2. **Features:Events:CourseStart** : Application Settings for subscribing to course start event
-3. **Features:Events:ModuleCompletion** : Application Settings for subscribing to module completion event
-4. **Features:Events:CourseCompletion** : Application Settings for subscribing to course completion event
 
 ### Sample Sequence of Events
 

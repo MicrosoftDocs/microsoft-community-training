@@ -34,6 +34,8 @@
         items:
          - name: Assign content to users in the group
            href: user-management/manage-users/assign-content-to-group-users.md
+         - name: De-assign content from users
+           href: user-management/manage-users/De-assigning-content-from-user.md
          - name: Send announcement to the users
            href: user-management/manage-users/send-announcement-to-the-users.md
          - name: Edit user profile on the platform
@@ -242,6 +244,8 @@
            href: whats-new-in-microsoft-community-training/2021/what-new-in-march-2021.md
          - name: What's new in July 2021
            href: whats-new-in-microsoft-community-training/2021/what-new-in-july-2021.md
+         - name: What's new in October 2021
+           href: whats-new-in-microsoft-community-training/2021/whats-new-in-october-2021.md
    - name: Learning in Offline Mode
      items:
      - name: Offline Learning with Microsoft Community Training

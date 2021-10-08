@@ -190,6 +190,23 @@ Switch to the learner’s view on your instance and click on profile picture. No
 
 :::image type="content" source="../media/el7.png" alt-text="External link 7":::
 
+## Disable MS Teams integration with MCT
+
+```disable MS Teams integration  
+deploymentType
+```
+
+When setting up the MCT instance, if you had opted for MS Teams integration with MCT by selecting "Yes" under **Enable Microsoft Teams?** and would now like to proceed without MS Teams integration, MCT allows you to disable this deeper teams integration using this Application Configuration.
+
+To disable this MS Teams integration, update this app setting with **value “0”**
+
+>[!Warning]
+>
+>- MS Teams integration comes with MCT instances with authentication type as "Work or School Account".
+>- Once you disable the MS Teams integration, you would be able to add users to the platform via MCT Admin UI.
+
+:::image type="content" source="../media/Disable MS Teams integration.PNG" alt-text="Disable teams integration":::
+
 ## Steps to set the Configurations on the Platform
 
 1. Login to [Azure portal](https://www.portal.azure.com/).

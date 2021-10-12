@@ -154,6 +154,8 @@
            href: infrastructure-management/install-your-platform-instance/configure-login-social-work-school-account.md
          - name: Create and Publish your Mobile App
            href: infrastructure-management/install-your-platform-instance/create-publish-mobile-app.md
+         - name: Enable Progressive Web App
+           href: infrastructure-management/install-your-platform-instance/create-progressive-web-app.md  
          - name: Using REST APIs to integrate with existing system
            href: infrastructure-management/install-your-platform-instance/apis.md
          - name: Setup Microsoft Teams as learner endpoint for the platform

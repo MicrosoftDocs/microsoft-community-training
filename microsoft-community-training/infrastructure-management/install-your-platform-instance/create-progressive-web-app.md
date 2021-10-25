@@ -100,7 +100,7 @@ As you enabled the PWA, in the backend there will be a service worker and a web 
 
 ## Digital Asset Linking
 
-The Digital Asset Links protocol and API enable an app or website to make public, verifiable statements about other apps or websites. For example, a website can declare that it is associated with a specific Android app, or it can declare that it wants to share user credentials with another website. [**Learn More**](https://developers.google.com/digital-asset-links/v1/getting-started)
+The Digital Asset Links protocol and API enable an app or website to make public, verifiable statements about other apps or websites. For example, a website can declare that it is associated with a specific Android app, or it can declare that it wants to share user credentials with another website. [**Learn More about Digital Asset Linking**](https://developers.google.com/digital-asset-links/v1/getting-started)
 
 1. Navigate to `<your-website-name>.scm.azurewebsites.net` 
 (If your instance url is contosolearning.azurewebsites.net then ‘contosolearning’ is your website name) and enter credentials which you used for azure portal when deploying MCT.
@@ -114,6 +114,6 @@ The Digital Asset Links protocol and API enable an app or website to make public
 
     :::image type="content" source="../../media/Digitalassetlinkssite.png" alt-text="DLASite":::
 
-4. Drag and drop the `assetlinks.json` file (from the app bundle that you downloaded from PWAbuilder) in the .well-known folder.
+4. Drag and drop the `assetlinks.json` file (present in app bundle that you downloaded from PWAbuilder) in `site/wwwroot/.well-known` path.
 
     :::image type="content" source="../../media/Digitalassetlinksfinal.png" alt-text="DLAFinal":::

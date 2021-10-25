@@ -152,6 +152,8 @@
            href: infrastructure-management/install-your-platform-instance/installation-guide-detailed-steps.md
          - name: Configure login identity for the platform
            href: infrastructure-management/install-your-platform-instance/configure-login-social-work-school-account.md
+         - name: Configure multi mode authentication for an instance
+           href: infrastructure-management/install-your-platform-instance/configure-multi-mode-authentication-for-same-deployment.md   
          - name: Create and Publish your Mobile App
            href: infrastructure-management/install-your-platform-instance/create-publish-mobile-app.md
          - name: Enable Progressive Web App

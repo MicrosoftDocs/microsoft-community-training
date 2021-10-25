@@ -64,6 +64,9 @@ In this topic, you will learn  simple steps to create a single course in the Mic
 
     * **Self-enroll (Allow users to enroll on their own)**: This option allows the administrator to create courses that allow the learners to search and self-register to the course.
 
+        >[!Note]
+        > If Organization feature is enabled, then Self-enroll courses of an Organization will be visible to learners of that organization only. Users can register from Course library
+
     * **Only admin can enroll learners**: This option allows the administrator to keep the content private while the content is still being prepared. Administrators reserve the right to register learners and to make the courses available for a wider audience. Admin only courses are not shown in the course library.
 
     > [!TIP]

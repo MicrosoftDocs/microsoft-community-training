@@ -118,6 +118,42 @@ You can create a new Azure Active Directory tenant or use an existing one based 
 > [!Note]
 >If you are facing any issues while Deploying your AD instance, please follow the header "Azure Active Directory Configuration issue" under [**troubleshooting document**](troubleshooting.md) and send us the required output.
 
+### Multi-Tenant support for Azure Active Directory based Authentication
+
+MCT supports login via multiple tenants for AAD authentication. This can be done with few configurations while following steps during AAD set up ([**Configurations on the Training Platform**](../../settings/configurations-on-the-training-platform.md#steps-to-set-the-configurations-on-the-platform)). Follow this documentation to reach App configuration section from your [**Azure portal**](https://www.portal.azure.com/).
+
+#### Steps to enable multi-tenant login for an AAD based instance
+
+1. Login to your [**Azure portal**](https://www.portal.azure.com/)
+2. Navigate to [**Configurations on the Training Platform**](../../settings/configurations-on-the-training-platform.md#steps-to-set-the-configurations-on-the-platform)
+3. For adding multiple tenants:
+
+    * For New Deployments:
+        * If you are running AAD script while       [**Configuring login identity for the platform**](#work-or-school-account-based-authentication) to create new deployment then give the Tenant Id as ‘**common**’ at the time of deployment in place of original Tenant ID that you received after running the script.
+        * If you are following manual steps while [**Configuring login identity for the platform**](#option-2---follow-the-manual-steps-to-configure-work-or-school-account-for-your-training-portal-by-following-the-instructions-below) to create new deployment then provide the Tenant ID as ‘common’ in the “Set up your login type” window instead of the Tenant ID from your Azure AD.
+
+    * For Existing deployments:
+        * In [**Configurations on the Training Platform**](../../settings/configurations-on-the-training-platform.md#steps-to-set-the-configurations-on-the-platform) , search for **idp:AzureADExternalAuthTenantId**. Set the value as ‘**common**’ replacing the existing tenant id (we suggest you keep a copy of your original Tenant ID value as a reference). Click ‘Ok’.
+
+            :::image type="content" source="../../media/MultitenantAAD1.png" alt-text="multi tenant app setting":::
+
+4. Now while in Configurations section, search for **idp:AzureADExternalAuthTenant** and note the Tenant name.
+5. Search for **idp:AzureADExternalAuthClientId** and note Client ID.
+6. Navigate to your tenant (tenant name from step 4) where your AAD exists, click on App registrations and search for application which corresponds to client id from step 5.
+
+    :::image type="content" source="../../media/MultitenantAAD2.png" alt-text="multipletenantappreg":::
+
+7. Click on the application and navigate to ‘Authentication’ and select ‘Accounts in any organizational directory (Any Azure AD directory - Multitenant)’ under Supported account types and click ‘Save’
+
+    :::image type="content" source="../../media/MultitenantAAD3.png" alt-text="multitenantauthentication":::
+
+8. For first time login using multiple tenants, admin of those tenants needs to approve the client ID of the MCT application by using URL, in below url replace the placeholder with clientID from step 5.
+
+    ```URL
+    https://login.microsoftonline.com/common/adminconsent?client_id=<client_ID_of_your_application >
+
+    ```
+
 ## Social account or email based authentication
 
 You can configure social account for your training portal by following the instructions below:  
@@ -168,19 +204,18 @@ Here are the steps an create on Azure AD B2C tenant and link the same with your 
     > Setting Password Reset Flow for an Existing Deployment:
     > If you are setting up the **Password reset flow** on an existing deployment with Azure AD B2C authentication:
     >
-    > 1. Set Userflow Name as **pwd_reset** (Step #1 in Create Flow using steps in [**this article**](/azure/active-directory-b2c/tutorial-create-user-flows)
+    > a. Set Userflow Name as **pwd_reset** (Step #1 in Create Flow using steps in [**this article**](/azure/active-directory-b2c/tutorial-create-user-flows)
     >
-    > 2. Add the following URLs in the **Reply URL** section,
-            >
-            >> * "https://*name*.azurefd.net/signin-b2c-pwd"
-            >> * "https://*name*.azurewebsites.net/signin-b2c-pwd"
-            >> * "https://*name*-staging.azurewebsites.net/signin-b2c-pwd" where "name" corresponds to your website name.
-            >
-    >
-    > 3. Open **App Service** and add the following configurations both with value as **B2C_1_pwd_reset**,
+    > b. Add the following URLs in the **Reply URL** section,
+                >
+                > * "https://*name*.azurefd.net/signin-b2c-pwd"
+                > * "https://*name*.azurewebsites.net/signin-b2c-pwd"
+                > * "https://*name*-staging.azurewebsites.net/signin-b2c-pwd" where "name" corresponds to your website name.
+                >
+    > c. Open **App Service** and add the following configurations both with value as **B2C_1_pwd_reset**,
         >
-        >> * AzureADB2CPasswordResetPolicy
-        >> * idp:AzureADB2CPasswordResetPolicy
+        > * AzureADB2CPasswordResetPolicy
+        > * idp:AzureADB2CPasswordResetPolicy
         >
         >![App Service](../../media/image%28355%29.png)
 

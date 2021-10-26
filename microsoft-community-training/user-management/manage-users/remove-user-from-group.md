@@ -9,7 +9,9 @@ ms.prod: azure
 
 # Delete a user from the group
 
-Deleting or removing  user from group will only remove user from the selected group. It will neither impact user participation in other groups  nor remove any course that were already assigned to the users as a part of their involvement in the existing group.
+Deleting or removing  user from group will only remove user from the selected group. It will neither impact user participation in other groups nor remove any course that were already assigned to the users before being a part of this group.
+
+If the admin removes learner(s) from a specific group, all the association that exists between the learner and Course through that group would be lost and hence the user would be de-assigned only from those courses (unless some other association via some other group still exists). For more information refer [here](De-assigning-content-from-user.md).
 
 In this topic, you will learn the simple steps to remove an existing user from a group in the portal.
 

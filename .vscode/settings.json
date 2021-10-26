@@ -1,5 +1,14 @@
 {
     "cSpell.ignoreWords": [
         "flyout"
-    ]
+    ],
+    "cSpell.words": [
+        "sambati"
+    ],
+    "markdownlint.config": {
+        "MD028": false,
+        "MD025": {
+            "front_matter_title": ""
+        }
+    }
 }

@@ -34,6 +34,8 @@
         items:
          - name: Assign content to users in the group
            href: user-management/manage-users/assign-content-to-group-users.md
+         - name: De-assign content from users
+           href: user-management/manage-users/De-assigning-content-from-user.md
          - name: Send announcement to the users
            href: user-management/manage-users/send-announcement-to-the-users.md
          - name: Edit user profile on the platform
@@ -152,8 +154,10 @@
            href: infrastructure-management/install-your-platform-instance/installation-guide-detailed-steps.md
          - name: Configure login identity for the platform
            href: infrastructure-management/install-your-platform-instance/configure-login-social-work-school-account.md
+         - name: Configure multiple authentications in a single instance
+           href: infrastructure-management/install-your-platform-instance/configure-multiple-authentications-in-a-single-instance.md   
          - name: Create and Publish your Mobile App
-           href: infrastructure-management/install-your-platform-instance/create-publish-mobile-app.md
+           href: infrastructure-management/install-your-platform-instance/create-publish-mobile-app.md  
          - name: Using REST APIs to integrate with existing system
            href: infrastructure-management/install-your-platform-instance/apis.md
          - name: Setup Microsoft Teams as learner endpoint for the platform
@@ -242,6 +246,8 @@
            href: whats-new-in-microsoft-community-training/2021/what-new-in-march-2021.md
          - name: What's new in July 2021
            href: whats-new-in-microsoft-community-training/2021/what-new-in-july-2021.md
+         - name: What's new in October 2021
+           href: whats-new-in-microsoft-community-training/2021/whats-new-in-october-2021.md
    - name: Learning in Offline Mode
      items:
      - name: Offline Learning with Microsoft Community Training

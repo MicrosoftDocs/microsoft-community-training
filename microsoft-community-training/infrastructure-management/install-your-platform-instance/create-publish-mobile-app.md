@@ -13,9 +13,11 @@ In this article, we will learn about how to create and publish the Mobile App (a
 
 ![Create and Publish your Mobile App](../../media/image%2877%29.png)
 
-For setting up the mobile app for your training portal, you will need to request for a mobile APP (APK) from Microsoft and setup your Google PlayStore account.  You’ll also be required to share release manager access with Microsoft to enable automatic updates to the mobile app.
+For setting up the mobile app for your training portal, you will need to either [request](#option-1-request-apkaab-files-via-mct-helpdesk) for a mobile APP (APK) from Microsoft or [generate](#option-2-enable-progressive-web-application-pwa-and-generate-apkaab-files) a APK bundle from your PWA enabled instance and setup your Google PlayStore account.  You’ll also be required to share release manager access with Microsoft to enable automatic updates to the mobile app.
 
 ## Steps to create Mobile App for the training portal
+
+## Option 1: Request APK/AAB files via MCT Helpdesk
 
 1. Visit [**Microsoft Community Training Helpdesk**](https://go.microsoft.com/fwlink/?linkid=2104630).
 ![Steps to create Mobile App for the training portal](../../media/image%2876%29.png)
@@ -53,6 +55,139 @@ For setting up the mobile app for your training portal, you will need to request
     * Here is sample zip file for reference: [MobileApp_Assets.zip](https://github.com/MicrosoftDocs/microsoft-community-training/files/6968287/MobileApp_Assets.zip)
 
 6. That's all! You’ll receive a link on your contact email address to download the mobile AAB & APK files from our support team (in 4-5 business days).
+
+## Option 2: Enable Progressive Web Application (PWA) and generate APK/AAB files
+
+### What are Progressive Web Applications?
+
+[Progressive Web Apps](https://developer.mozilla.org/Apps/Progressive) (PWAs) provide access to open web technologies for cross-platform interoperability and provide your users with an app-like experience customized for their devices.
+
+PWAs are websites that are [progressively enhanced](https://alistapart.com/article/understandingprogressiveenhancement) to function like installed apps on supporting platforms, and like regular web sites on other browsers.
+
+The qualities of a PWA combine the best of the web and compiled apps. PWAs run in browsers, like websites, but have access to app features like the ability to work offline, be installed on the operating system, support push notifications and periodic updates, access hardware features, and more.
+
+When installed, PWAs are just like other apps on Windows or Android. They can be added to the Start Menu, pinned to the Taskbar, handle files, run on user login on Desktop and in Android PWA will added as native application in app tray.
+
+Since a progressive web app is a type of webpage/website known as a web application, they do not require separate bundling or distribution. By following simple [**Installability Requirements**](#installability-requirements-for-adding-pwa-to-your-instance) as mentioned below, admin can enable PWA to be available for learners to install on their devices. With [**PWA Builder**](#generate-android-app-bundle-using-pwa-builder), customers can now build android app for their PWA enabled instance.
+
+### Installability Requirements for adding PWA to your instance
+
+#### Step 1: Update the Configuration on the platform
+
+1. Login to [**Azure portal**](https://www.portal.azure.com/).
+
+2. Navigate to [**Application Settings**](../../settings/configurations-on-the-training-platform.md#steps-to-set-the-configurations-on-the-platform) from your instance's app service.
+
+3. Under Application settings tab, filter for **Features:EnableWebAppInstall** and set the Value as ‘**true**’
+    * If this setting was not found then click on ‘New application setting’, provide **Features:EnableWebAppInstall** under Name and Value as ‘**true**’ as shown below.
+
+        :::image type="content" source="../../media/PWAAppsetting.png" alt-text="Appsetting_PWA":::
+    * Click OK and then Save the changes.
+
+#### Step 2: Update Settings in Admin View for Mobile Application
+
+1. Login to your Microsoft Community Training portal and [**switch to administrator view**](../../get-started/step-by-step-configuration-guide.md#step-2--switch-to-administrator-view-of-the-portal)
+
+2. Click on **Settings** option from the left navigation panel and navigate to **Mobile Application** section.
+
+    :::image type="content" source="../../media/MobApplication_setting.png" alt-text="Mobileapp settings":::
+
+3. Under Mobile Application setting you need to specify following information:
+
+    | Setting | Description |
+    | --- | --- |
+    | Mobile Application Name | You can specify your Instance name, this name will be used for rendering splash screen (Android), Start menu item (Windows) |
+    | Mobile Application Short Name | This will be used to generate the App icon name on the device app tray. You can mention a shorter acronym of your instance name. |
+    | Application Background Color | This setting will be used for rendering Splash screen (Android) |
+    | Application Logo (512 px by 512 px) | The logo must be 512x512 pixels, MCT uses this image to render Splash screen, Start menu, App Launcher item for your PWA.  |
+
+### Installing PWA on your Desktop and Mobile Device
+
+1. Once the [Installability Requirements](#installability-requirements-for-adding-pwa-to-your-instance) for PWA are satisfied, as you login to your MCT instance you will be seeing an icon on the search bar of your browser indicating PWA app is available for installation.
+
+    :::image type="content" source="../../media/InstallPWA.png" alt-text="installPWAforwebapp":::
+
+2. Users can now install the PWA which renders your MCT webapp as a native application.
+
+3. After successful installation, you can check options to allow the app to pin to taskbar, pin to start, create a Desktop shortcut as per your requirement.
+
+    :::image type="content" source="../../media/PWA_installoptions.png" alt-text="installoptionspwa":::
+
+4. For mobile devices (Android), users can install PWA by clicking on the prompt (add to home screen banner) that they receive while browsing your MCT instance or clicking on ‘install app’ from browser options.
+
+    :::image type="content" source="../../media/Screenshot_20210930-161736_Chrome (3).jpg" alt-text="installpwaonphone":::
+
+> [!Note]
+> **Devices & Browser Compatibility:**
+>
+> * The PWA flow works as expected when using chromium-based browsers such as Microsoft Edge, Google Chrome.
+>
+> * For Firefox browser in desktop, the PWA install icon will not be seen on the URL bar, however the [service workers](https://developers.google.com/web/fundamentals/primers/service-workers) will be installed. In Mobile Firefox browser, you will have Add to home screen option that can install PWA.
+>
+> * Safari on IOS doesn’t support add to home screen banner, however the option is visible in the browser menu. You might notice some inconsistencies with PWA on IOS.
+
+### Generate Android App Bundle using PWA Builder
+
+As you enabled the PWA, in the backend there will be a [service worker](https://developers.google.com/web/fundamentals/primers/service-workers) and a [web manifest](https://web.dev/add-manifest/) added, through which you can build a native Android application that can be bundled to be uploaded to your play store. We recommend using [**PWABuilder**](https://www.pwabuilder.com/) an online GUI tool that can generate APK & AAB files for your instance.
+
+#### Part 1: Steps to Generate Android App Bundle
+
+1. Open [**PWABuilder**](https://www.pwabuilder.com/)
+
+2. In the text box on homepage of PWA builder, enter your instance URL (eg: contosolearning.azurewebsites.net) and click ‘Start’. In the backend PWABuilder will verify if you have a service worker and manifest available for your PWA.
+
+    :::image type="content" source="../../media/PWA_android.png" alt-text="PWAAndroidinsert":::
+
+3. Click Next on the PWA’s report card page, score 130 and above suggests that you have met requirements by PWABuilder.
+
+    :::image type="content" source="../../media/PWA_android2.png" alt-text="PWAScore":::
+
+4. You will be redirected to page where you can generate Android App bundle, to the right in Android section, click on "Store package".
+
+    :::image type="content" source="../../media/PWA_android3.png" alt-text="PWABuildpackage":::
+
+5. If you are creating an Android App for your instance for the first time (if you have an existing app and wanted it updated instead of creating new application, then proceed to step 6)
+
+    * Provide App name and Launcher name for your application and click Generate.
+
+        :::image type="content" source="../../media/PWA_android4.png" alt-text="PWAnewgenerate":::
+
+6. If you have an existing android application published to play store and need to update it:
+
+    * Log a [**help desk**](https://sangamhelpdesk.microsoftcrmportals.com/SignIn?ReturnUrl=%2Fsupport%2Fcreate-case%2F) ticket requesting a key store file for your previous android application.
+    * In the “Google Play store Options” mention [**Package ID**](https://developers.google.com/android/management/apps#install_apps) of your previously published android application.
+    * Click on “All Settings” and increment your App version and App Version Code by 1 from your existing app version.
+    * Scroll to “Signing Key”, choose ‘Use Mine’ and upload the key store file that you received from MCT support team.
+
+        :::image type="content" source="../../media/PWA_Existingapp.png" alt-text="PWAexixtingapp":::
+
+7. Download your Application Bundle.
+
+#### Part 2: Digital Asset Linking
+
+Through Digital Asset Linking a website can declare that it is associated with a specific Android app, or it can declare that it wants to share user credentials with another website.
+
+This links protocol & API and enable an app or website to make public, verifiable statements about other apps or websites. [**Learn More about Digital Asset Linking**](https://developers.google.com/digital-asset-links/v1/getting-started)
+
+##### Steps to Digital Asset Linking
+
+1. Navigate to `<your-website-name>.scm.azurewebsites.net` 
+(If your instance url is contosolearning.azurewebsites.net then ‘contosolearning’ is your website name) and enter credentials which you used for azure portal when deploying MCT.
+
+2. From Navigation bar on top, click on 'DebugConsole' and from dropdown click 'CMD'.
+
+    :::image type="content" source="../../media/Digitalassetlinkscmd.png" alt-text="DALCMD":::
+
+3. From the table of contents, navigate to `site/wwwroot/.well-known`
+(create folder “.well-known” if it is not present )
+
+    :::image type="content" source="../../media/Digitalassetlinkssite.png" alt-text="DLASite":::
+
+4. Drag and drop the `assetlinks.json` file (present in app bundle that you downloaded from PWAbuilder) in `site/wwwroot/.well-known` path.
+
+    :::image type="content" source="../../media/Digitalassetlinksfinal.png" alt-text="DLAFinal":::
+
+5. you can now [upload](https://support.google.com/googleplay/android-developer/answer/9859152?hl=en&ref_topic=7072031&visit_id=637708323322373803-2268564924&rd=1) your AAB to your Play Store.
 
 ## Steps to publish your mobile app to the playStore
 

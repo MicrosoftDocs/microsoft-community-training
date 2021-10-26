@@ -15,7 +15,7 @@ In this topic, you will learn the simple steps to edit single and multiple user 
 >[!Warning]
 >Once the administrator edits the profile field of any learner (via UI or json/csv API), the smart groups associated with that profile field value would be de-assigned and the new groups (if applicable) that are associated with the new value of that profile field would be assigned to the user.
 
-This will therefore change the content assigned to the learner accordingly. For more information refer [here](De-assigning-content-from-user.md).
+This will therefore change the content assigned to the learner as defined in [this document](De-assigning-content-from-user.md).
 
 ## Permissions Level
 

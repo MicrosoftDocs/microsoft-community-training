@@ -1,5 +1,5 @@
 ---
-title: What's new in July 2021
+title: What's new in October 2021
 author: nikotha
 ms.author: nikotha
 description: This document details the new features and capabilities launched on the Microsoft Community Training platform in October 2021. 
@@ -31,14 +31,14 @@ Microsoft Community Training platform allows the Administrators to set-up and sc
 
 ## Edit Smart Group Rules
 
-With this new release, Microsoft Community Training allows administrators to [edit the rules of existing smart groups](../../user-management/organize-users/setup-automatic-user-enrollment-for-a-group-1.md#case-group-already-has-rules-applied-edit-smart-group-rules) on the platform. The users who satisfy the new rule definitions will automatically get added to the smart group and content will be assigned to them basis the assignment in the Group.
+With this new release, Microsoft Community Training allows administrators to [edit the rules of existing smart groups](../../user-management/organize-users/setup-automatic-user-enrollment-for-a-group-1.md#case-2-group-already-has-rules-applied-edit-smart-group-rules) on the platform. The users who satisfy the new rule definitions will automatically get added to the smart group and content will be assigned to them basis the assignment in the Group.
 
 :::image type="content" source="../../media/Add rules to Smart Group5.png" alt-text="edit smart group and Save rules":::
 
 ## Localization of administrator portal
 
 In our efforts to make the platform more inclusive, we now also support the localization of the administrator portal by allowing the administrators to choose one of the languages enabled the Global administrator after switching to the administrator portal.
-:::image type="content" source="../../media/admin ui localization.png" alt-text="admin ui localization":::
+:::image type="content" source="../../media/admin ui localization.png" alt-text="admin ui localization image":::
 
 ## MCT now supports Progressive Web App
 

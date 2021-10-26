@@ -136,7 +136,7 @@ Depending upon the login identity used on your instance, you need to follow the 
 
 **Prerequisite:**
 
-* For your MCT instance, [setup the Work or School Account based authentication](https://docs.microsoft.com/azure/industry/training-services/microsoft-community-training/infrastructure-management/install-your-platform-instance/configure-login-social-work-school-account#work-or-school-account-based-authentication).
+* For your MCT instance, [setup the Work or School Account based authentication](configure-login-social-work-school-account.md#work-or-school-account-based-authentication).
 
 **Next steps:**
 
@@ -154,11 +154,11 @@ Once you are done with the AD App registration for MCT, follow the below steps:
 
 ##### Step 1
 
-MCT app must be registered in the same Azure Active Directory which has MS Teams enabled in it. The steps for the app registration are outlined in [this documentation](https://docs.microsoft.com/azure/industry/training-services/microsoft-community-training/infrastructure-management/install-your-platform-instance/configure-login-social-work-school-account#work-or-school-account-based-authentication).
+MCT app must be registered in the same Azure Active Directory which has MS Teams enabled in it. The steps for the app registration are outlined in [this documentation](configure-login-social-work-school-account.md#work-or-school-account-based-authentication).
 
 ##### Step 2
 
-Follow only **Step 1** on [this link](https://docs.microsoft.com/azure/industry/training-services/microsoft-community-training/infrastructure-management/install-your-platform-instance/create-teams-app-for-your-training-portal#step-1---delegate-permissions-on-your-azure-ad-application-setup-for-microsoft-community-training) for setting up Teams for MCT.
+Follow only **Step 1** on [this link](#step-1---delegate-permissions-on-your-azure-ad-application-setup-for-microsoft-community-training) for setting up Teams for MCT.
 
 ##### Step 3
 

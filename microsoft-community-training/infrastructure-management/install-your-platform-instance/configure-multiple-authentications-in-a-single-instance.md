@@ -33,7 +33,7 @@ Create a [**MCT support ticket**](https://sangamhelpdesk.microsoftcrmportals.com
 
 5. Navigate back to your ADB2C resource, under Manage section, in ‘Identity Providers’ click on ‘New Open ID Connect Provider’ and provide following values in Configure custom IDP window and click save.
 
-    | | |
+    |Value |Description |
     | --- | --- |
     | Name | This name will appear in login page, provide user friendly name, example: Phone Auth |
     | Metadata URL | `https://phoneverification.azurefd.net/.well-known/openid-configuration` |
@@ -78,7 +78,7 @@ You can add Azure Active Directory/Work email based authentication along side so
 
 5. Now switch to your AD B2C tenant, under Manage section, in ‘Identity Providers’ click on ‘New Open ID Connect Provider’ and provide following values in Configure custom IDP window and click save.
 
-    | | |
+    |Value|Description|
     | --- | --- |
     | Name | This name will appear in UI on login page, provide user friendly name example: Active Directory Login |
     | Metadata URL | `https://login.microsoftonline.com/<tenant_id>/v2.0/.well-known/openid-configuration` Replace <tenant_id> with Tenant ID of AAD from Step3 (for AAD application) |
@@ -133,9 +133,8 @@ To be able to support multi mode authentication you should create AD B2C tenant 
 
 4. Navigate to [Configurations on the Training Platform](../../settings/configurations-on-the-training-platform.md#steps-to-set-the-configurations-on-the-platform), search and update the following app settings (create new application settings if not already present)
 
-    | | |
+    |Application Setting|Value |
     |---|---|
-    | **Application Setting** | **Value** |
     | idp:AzureADB2CExternalAuthClientId | ClientID for ADB2C application |
     | idp:AzureADB2CExternalAuthClientSecret | Paste the Secret Identifier from Key vault |
     | idp:AzureADB2CExternalAuthTenant | ADB2C Tenant Name |

@@ -202,7 +202,7 @@ DefaultCountry
 In Value tab, provide the two letter Alpha-2 country code. Example - For setting default country as **India**, provide the value as **IN**.
 
 :::image type="content" source="../media/Default country.PNG" alt-text="Def_country":::
-=======
+
 ## Disable MS Teams integration with MCT
 
 ```disable MS Teams integration  

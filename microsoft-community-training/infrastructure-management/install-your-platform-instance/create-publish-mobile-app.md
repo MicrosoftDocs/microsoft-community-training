@@ -71,7 +71,7 @@ Since a progressive web app is a type of webpage/website known as a web applicat
 
 ### Installing PWA on your Desktop and Mobile Device
 
-1. Once the [Installation Requirements](##installation-requirements-for-pwa-mobile-application) for PWA are satisfied, as you login to your MCT instance you will be seeing an icon on the search bar of your browser indicating PWA app is available for installation.
+1. Once the [Installation Requirements](#installation-requirements-for-pwa-mobile-application) for PWA are satisfied, as you login to your MCT instance you will be seeing an icon on the search bar of your browser indicating PWA app is available for installation.
 
     :::image type="content" source="../../media/InstallPWA.png" alt-text="installPWAforwebapp":::
 

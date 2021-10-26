@@ -2,9 +2,9 @@
     "cSpell.ignoreWords": [
         "flyout"
     ],
-
-=======
->>>>>>> 1718275c9153fc48945d1996d16358837ddbbc14
+    "cSpell.words": [
+        "sambati"
+    ],
     "markdownlint.config": {
         "MD028": false,
         "MD025": {

@@ -94,7 +94,7 @@ You can add Azure Active Directory/Work email based authentication along side so
     | Surname | Enter `family_name` |
     | Email | Enter `email` |
 
-    :::image type="content" source="../../media/AADidpedit.png" alt-text="AADIDPedit":::
+    :::image type="content" source="../../media/AADidpedit.png" alt-text="AAD_Identityprovider_edit":::
 
 6. Navigate back to your ADB2C resource, under Policies, click on User Flows and click on your instance's “Sign up and Sign in” User flow.
 
@@ -131,7 +131,6 @@ To be able to support multi mode authentication you should create AD B2C tenant 
 
         :::image type="content" source="../../media/Multiauth_adb2csecret5.png" alt-text="secretadb2cfinal":::
 
-
 4. Navigate to [Configurations on the Training Platform](../../settings/configurations-on-the-training-platform.md#steps-to-set-the-configurations-on-the-platform), search and update the following app settings (create new application settings if not already present)
 
     | | |
@@ -157,4 +156,5 @@ To be able to support multi mode authentication you should create AD B2C tenant 
 
 3. [Add Work email based Authentication to existing Social Account login instance](#add-work-email-based-authentication-to-existing-social-account-login-instance)
 
->[!Note] Please note that learner should use only one mode of authentication (phone, social email, work email) for registering. If a learner uses multiple modes of authentication for registration, the accounts will be treated as different users.
+>[!Note]
+> Please note that learner should use only one mode of authentication (phone, social email, work email) for registering. If a learner uses multiple modes of authentication for registration, the accounts will be treated as different users.

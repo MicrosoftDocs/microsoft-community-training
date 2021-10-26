@@ -50,7 +50,10 @@ The Microsoft Community Training management portal provides role-based administr
     ![User Management - Manage User - Add LP](../../media/User%20Management%20-%20Manage%20User%20-%20Add%20LP.png)
 
     > [!NOTE]
-    > Switching between Learning Paths and Courses tab will require you to save your content assignment.
+    >
+    >* Switching between Learning Paths and Courses tab will require you to save your content assignment.
+    >
+    >* You can also unselect Courses/ Learning Paths which will **de-assign that content** from the learners of that group. Hence, learners will not be able to view those contents anymore. For more information, refer [here](De-assigning-content-from-user.md).  
 
 5. Optionally, you can also define **Priority** for each assigned course. The highest priority for any course is Required, followed by Recommended, Optional and Default. The defined priority will be applicable to all the existing and future learners of the group and **can be edited at any stage by the administrators**.
 
@@ -61,7 +64,7 @@ The Microsoft Community Training management portal provides role-based administr
 
     > [!NOTE]
     >
-    > 1. You can also disable this feature of having priotities on the portal. For more information view [this](../../settings/configurations-on-the-training-platform.md#content-priority-for-learners).
+    > 1. You can also disable this feature of having priorities on the portal. For more information view [this](../../settings/configurations-on-the-training-platform.md#content-priority-for-learners).
     > 2. Optionally, administrators can also enable the setting to NOT show any other content to learners if any of the **Required** (highest priority) courses are yet NOT complete.
 
 6. Click on **Done** to complete the content assignment.

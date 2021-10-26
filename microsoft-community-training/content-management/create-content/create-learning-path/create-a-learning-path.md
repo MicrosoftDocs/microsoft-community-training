@@ -42,16 +42,21 @@ The Microsoft Community Training management portal provides role-based administr
 
 4. Enter **Learning Path name**. The Learning Path name is the title that learners would see on the web portal and mobile app. For example: Microsoft Office.
 
-    ![New Learning Path](../../../media/image%28391%29.png)
+    :::image type="content" source="../../../media/LP_cert.PNG" alt-text="LearningPathCertificate":::
 
 5. Enter the **Learning Path Description**. The Learning Path description is a short summary which informs a learner about course content at the time of registration.
 
-6. Choose  **Upload**  option to open file picker and select an image file as Learning Path Thumbnail
+6. Choose  **Upload**  option to open file picker and select an image file as Learning Path Thumbnail.
 
-7. Choose **Restrict Ordering**. This option enables the administrator to restrict the learners to consume the courses in Learning Path in a sequence. Learners will NOT be allowed to skip courses within a Learning Path if this option is enabled.
+7. Choose **Enable certificate**. This option enables the administrator to award certificate to learners after the learning path completion.
 
-8. Select the **Organization** for the Learning Path. By default, it is assigned to a default organization.
+    >[!Note]
+    >Administrator can [**customize the certificate template**](../../../settings/customize-the-certificate-template.md#customize-the-certificate-template-for-the-platform) awarded to the learners at the time of learning path completion.
 
-9. Click or tap **Create** button to create the Learning Path.
+8. Choose **Restrict Ordering**. This option enables the administrator to restrict the learners to consume the courses in Learning Path in a sequence. Learners will NOT be allowed to skip courses within a Learning Path if this option is enabled.
+
+9. Select the **Organization** for the Learning Path. By default, it is assigned to a default organization.
+
+10. Click or tap **Create** button to create the Learning Path.
 
 **Next>** Once a Learning Path is created, the administrator can start  [**adding content to the Learning Path.**](add-course-to-a-learning-path.md)

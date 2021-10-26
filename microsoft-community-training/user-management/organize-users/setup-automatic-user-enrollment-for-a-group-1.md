@@ -20,6 +20,8 @@ In this article, you will learn more about how to setup rule for a group to  aut
 
 ## Steps to add rule for a group
 
+### Case 1: No rules added to the group (Add smart group rules)
+
 1. Select a Group under Users tab to which you want to add rule.
 
 2. On the group details page, Click or tap on the **Add User** button and select **Add Rule** option from the drop-down menu.
@@ -43,8 +45,30 @@ In this article, you will learn more about how to setup rule for a group to  aut
 
 6. Groups which have rule applied will be prefixed with both sign ![Groups which have rule](../../media/image%2861%29.png)
 
-> [!IMPORTANT]
-> Once user gets added to group and later changes the profile information, he or she won't be removed previously added group. Administrator will have to remove such users from the group if required.
+### Case 2: Group already has rules applied (Edit smart group rules)
+
+1. Select the group where more rules are required to be added in addition to the existing rules.
+
+2. On the group details page, Click on the "Rules applied" button to open the Automatic Enrollments pane.
+:::image type="content" source="../../media/Add rules to Smart Group1.png" alt-text="Rules applied":::
+
+3. In the "Automatic Enrollments" pane, you would find a list of all the existing rules applied to the group.
+:::image type="content" source="../../media/Add rules to Smart Group2.png" alt-text="Existing Rules":::
+
+4. Click on the "Add" button against the [**additional profile field**](../../settings/add-additional-profile-fields-for-user-information.md) where you would like to add value in the **Is** field.
+:::image type="content" source="../../media/Add rules to Smart Group3.png" alt-text="Add new rule":::
+
+5. In the **Automatically add users** pop-up, enter the values in the **Is** field as per your requirement and click on **Done**.
+:::image type="content" source="../../media/Add rules to Smart Group4a.png" alt-text="Select Value":::
+
+6. Click on **Done** in the **Automatic Enrollments** pane.
+:::image type="content" source="../../media/Add rules to Smart Group5.png" alt-text="Save rules":::
+
+>[!Warning]
+>
+>- At a given moment, you can add multiple values to just one single profile field.
+>
+>- If you want to **add values to multiple profile fields**, enter value for one profile field by following step 4 to step 6. Then repeat the process from Step 2 to Step 6 as mentioned above to add value to another profile field.
 
 ## Sample rules for groups
 

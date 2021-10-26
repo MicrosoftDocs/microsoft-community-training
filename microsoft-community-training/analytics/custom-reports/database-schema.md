@@ -45,7 +45,7 @@ Go to the MCT portal's SQL database from the Managed resource group (Find the da
 > [!IMPORTANT]  
 > If you are facing a “Key Vault” issue when trying to get password of Admin user for MCT Database in Azure with the error - "The operation “List” is not enabled in this key vault’s access policy" also please follow the following steps.
 
-Go the key vault. By default, user does not have access permission to view the keys, secrets and Certificate information stored in Key Vault. To gain access, follow below steps,
+Go the key vault (login to your [Azure portal](https://ms.portal.azure.com/), search & click on 'Key vaults', click on key vault corresponding to your application's resource group). By default, user does not have access permission to view the keys, secrets and Certificate information stored in Key Vault. To gain access, follow below steps,
 
 1. Select Access Policies from the Key Vault resource blade (See below screenshot, In setting Tab there is Access policies)
 

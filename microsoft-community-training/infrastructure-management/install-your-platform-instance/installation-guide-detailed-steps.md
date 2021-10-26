@@ -60,6 +60,10 @@ Get the ownership access to your pay-as-you-go Azure subscription. To learn more
 
 8. The next section is **Setup your portal details**. Enter values as per the instructions below and click **OK**.
     * ***Website Name*** - The name of your learning portal. For example, if you enter “Contoso”, your learning portal’s website URL will be of the form "https://contoso.azurefd.net". You can map the learning portal to a [**custom domain later**](../../infrastructure-management/configure-your-platform-infrastructure/setup-custom-domain-url.md).
+
+        >[!Note]
+        >Please make sure to have your website name to be minimum of 5 characters in length to meet Azure FD requirement.
+
     * ***Contact email addresses*** - The email addresses you want to be contacted on for all information regarding getting started, updates to the platform, latest news etc.
 
         ![Setup your portal details](../../media/image%28357%29.png)
@@ -81,8 +85,10 @@ Get the ownership access to your pay-as-you-go Azure subscription. To learn more
       > [!NOTE]
       > Deployment takes about 20 minutes. Click on the **Notification** icon on the top-right of toolbar to monitor the deployment process.
 
-14. Once the deployment is complete and the website is up, refer to the [**getting started guide**](../../get-started/step-by-step-configuration-guide.md) to start configuring your learning portal.
+14. To enable more than one mode of authentication on your deployment, refer to the [Configure multiple authentications in a single instance](configure-multiple-authentications-in-a-single-instance.md) for step by step instructions.
 
-15. To setup a mobile app for your instance, follow the instructions given in the [**create and publish your Mobile App**](../../infrastructure-management/install-your-platform-instance/create-publish-mobile-app.md) article.
+15. Once the deployment is complete and the website is up, refer to the [**getting started guide**](../../get-started/step-by-step-configuration-guide.md) to start configuring your learning portal.
 
-16. To setup Teams for your instance , follow the instructions given in the [**setup Microsoft Teams as learner's endpoint**](../../infrastructure-management/install-your-platform-instance/create-teams-app-for-your-training-portal.md) for the platform article.
+16. To setup a mobile app for your instance, follow the instructions given in the [**create and publish your Mobile App**](../../infrastructure-management/install-your-platform-instance/create-publish-mobile-app.md) article.
+
+17. To setup Teams for your instance , follow the instructions given in the [**setup Microsoft Teams as learner's endpoint**](../../infrastructure-management/install-your-platform-instance/create-teams-app-for-your-training-portal.md) for the platform article.

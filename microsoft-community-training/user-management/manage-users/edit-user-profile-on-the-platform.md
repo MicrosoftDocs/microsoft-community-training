@@ -12,6 +12,11 @@ A user's profile on the training platform consists of mandatory fields first nam
 
 In this topic, you will learn the simple steps to edit single and multiple user profiles on the platform.
 
+>[!Warning]
+>Once the administrator edits the profile field of any learner (via UI or json/csv API), the smart groups associated with that profile field value would be de-assigned and the new groups (if applicable) that are associated with the new value of that profile field would be assigned to the user.
+
+This will therefore change the content assigned to the learner accordingly. For more information refer [here](De-assigning-content-from-user.md).
+
 ## Permissions Level
 
 The Microsoft Community Training management portal provides role-based administration and depending upon the type of access level administrator can perform an action on the portal. Table below shows administrative role which are allowed to delete users from a group on the portal:

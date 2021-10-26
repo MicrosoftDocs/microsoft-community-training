@@ -46,6 +46,9 @@ The Microsoft Community Training management portal provides role-based administr
 
     ![Courses from right panel](../../../media/image%28393%29.png)
 
+    >[!Tip]
+    >You can also unselect Courses which will **de-assign that content** from the learners of that Learning Path. Hence, learners will not be able to view that content anymore. For more information, refer [here](De-assigning-content-from-user.md).
+
 6. Click on **Done**.
 
  **Next>** Once the Courses are added to the Learning Path, you can [**assign the Learning Path to user groups**](../../../user-management/manage-users/assign-content-to-group-users.md).

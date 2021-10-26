@@ -20,7 +20,7 @@ In this article, you will learn more about how to setup rule for a group to  aut
 
 ## Steps to add rule for a group
 
-### Case 1: No rules added to the group before
+### Case 1: No rules added to the group (Add smart group rules)
 
 1. Select a Group under Users tab to which you want to add rule.
 
@@ -45,7 +45,7 @@ In this article, you will learn more about how to setup rule for a group to  aut
 
 6. Groups which have rule applied will be prefixed with both sign ![Groups which have rule](../../media/image%2861%29.png)
 
-### Case 2: Group already has rules applied to it
+### Case 2: Group already has rules applied (Edit smart group rules)
 
 1. Select the group where more rules are required to be added in addition to the existing rules.
 

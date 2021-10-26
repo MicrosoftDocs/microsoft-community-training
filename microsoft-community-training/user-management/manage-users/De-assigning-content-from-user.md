@@ -3,7 +3,7 @@ title: De-assigning content from users
 original-url: https://docs.microsoftcommunitytraining.com/docs/de-assigning-content-from-user
 author: v-samarth
 ms.author: v-samarth
-description: "When the administrator removes learners from Courses/ learning paths/ user groups, in a way it de-assign them from the relevant content mapped through these segments. With this, once the learner is de-assigned from a content, he/she will not be able to view that content."
+description: "When the administrator removes learners from Courses/ learning paths/ user groups, in a way it de-assigns the relevant content mapped through these segments to the learner."
 ms.prod: azure
 ---
 

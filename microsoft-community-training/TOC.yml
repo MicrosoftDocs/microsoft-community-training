@@ -154,12 +154,10 @@
            href: infrastructure-management/install-your-platform-instance/installation-guide-detailed-steps.md
          - name: Configure login identity for the platform
            href: infrastructure-management/install-your-platform-instance/configure-login-social-work-school-account.md
-         - name: Configure multi mode authentication for an instance
-           href: infrastructure-management/install-your-platform-instance/configure-multi-mode-authentication-for-same-deployment.md   
+         - name: Configure multiple authentications in a single instance
+           href: infrastructure-management/install-your-platform-instance/configure-multiple-authentications-in-a-single-instance.md   
          - name: Create and Publish your Mobile App
-           href: infrastructure-management/install-your-platform-instance/create-publish-mobile-app.md
-         - name: Enable Progressive Web App
-           href: infrastructure-management/install-your-platform-instance/create-progressive-web-app.md  
+           href: infrastructure-management/install-your-platform-instance/create-publish-mobile-app.md  
          - name: Using REST APIs to integrate with existing system
            href: infrastructure-management/install-your-platform-instance/apis.md
          - name: Setup Microsoft Teams as learner endpoint for the platform

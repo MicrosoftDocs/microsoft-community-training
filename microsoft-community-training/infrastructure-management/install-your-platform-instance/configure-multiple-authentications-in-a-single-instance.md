@@ -1,19 +1,19 @@
 ---
-title: Configure multi mode authentication for same deployment
+title: Configure multiple authentications in a single instance
 original-url: https://docs.microsoftcommunitytraining.com/docs/configure-multi-mode-authentication-for-same-deployment
 author: sambati
 ms.author: sambati
-description: Microsoft Community Training platform supports login via multiple modes.
+description: Setup multiple authentication modes in a single instance of Microsoft Community Training platform.
 ms.prod: azure
 ---
 
-# Configure Multi-mode Authentication for an Instance
+# Configure multiple authentications in a single instance
 
-Many organizations might want to support multiple authentication options to be available for their learners. MCT now supports adding more than one Authentication option for a single MCT instance.
+Many organizations might want to support multiple authentication options to be available for their learners. Microsoft Community Training now supports adding more than one authentication option for a single platform instance.
 
 ## Add Phone-based login to existing Social Account login Instance
 
-Here are the steps to configure ADB2C tenant to be able to support MCT Phone authentication along side your social account login.
+Here are the steps to configure ADB2C tenant to be able to support the custom platform's Phone authentication along side your social account login.
 
 ### Prerequisites
 
@@ -49,19 +49,19 @@ Create a [**MCT support ticket**](https://sangamhelpdesk.microsoftcrmportals.com
     | Surname | Enter `family_name` |
     | Email | Enter `email` |
 
-    :::image type="content" source="../../media/Config customIDP.PNG" alt-text="customIDPconfig":::
+    :::image type="content" source="../../media/Config customIDP.PNG" alt-text="custom IDP config":::
 
 6. Navigate back to your ADB2C resource, under Policies, click on User Flows and click on your instance's “Sign up and Sign in” User flow.
 
-    :::image type="content" source="../../media/UserFlow.png" alt-text="userflowincustidp":::
+    :::image type="content" source="../../media/UserFlow.png" alt-text="user flow in custom idp":::
 
-7. Inside your instance’s Signup and Signin user flow, click on ‘Application Claims’ and ensure you have ‘Display Name’, ‘Email Address’, ‘User’s Object ID’ selected and saved.
+7. Inside your instance’s Sign-up and Sign-in user flow, click on ‘Application Claims’ and ensure you have ‘Display Name’, ‘Email Address’, ‘User’s Object ID’ selected and saved.
 
-    :::image type="content" source="../../media/MultiAuth_AppClaims.PNG" alt-text="multiauthappclaims":::
+    :::image type="content" source="../../media/MultiAuth_AppClaims.PNG" alt-text="multi auth app claims":::
 
-8. While in your Signup Signin user flow, navigate to ‘Identity Providers’ and select on newly configured OpenID Connect under Custom Identity Providers and click save.
+8. While in your Sign-up Sign-in user flow, navigate to ‘Identity Providers’ and select on newly configured OpenID Connect under Custom Identity Providers and click save.
 
-    :::image type="content" source="../../media/FinalIDP.png" alt-text="IDPfinalimage":::
+    :::image type="content" source="../../media/FinalIDP.png" alt-text="IDP final image":::
 
 9. Now in the login page of your instance, you should see an option that enables users to login through their Phone number alongside option to login via social account. Users can now choose any one of the login methods for registering.
 
@@ -74,7 +74,7 @@ You can add Azure Active Directory/Work email based authentication along side so
 3. Create an Azure Active Directory App (can be from different tenant) [Configure login identity for the platform by creating Azure AD Application](configure-login-social-work-school-account.md#step-2---create-azure-ad-application), copy your Client ID and Client Secret, Tenant ID.
 4. While in your AAD app, Click on ‘Authentication’ to add your Reply URL `https://<adb2c_tenant_name>.b2clogin.com/<adb2c_tenant_name>.onmicrosoft.com/oauth2/authresp` replace highlighted text with your AD B2C tenant name from Step 2.
 
-    :::image type="content" source="../../media/AddingredirectURLinAAD_app.png" alt-text="addredirecturl":::
+    :::image type="content" source="../../media/AddingredirectURLinAAD_app.png" alt-text="add redirect url":::
 
 5. Now switch to your AD B2C tenant, under Manage section, in ‘Identity Providers’ click on ‘New Open ID Connect Provider’ and provide following values in Configure custom IDP window and click save.
 
@@ -94,19 +94,19 @@ You can add Azure Active Directory/Work email based authentication along side so
     | Surname | Enter `family_name` |
     | Email | Enter `email` |
 
-    :::image type="content" source="../../media/AADidpedit.png" alt-text="AAD_Identityprovider_edit":::
+    :::image type="content" source="../../media/AADidpedit.png" alt-text="AAD Identity provider edit":::
 
 6. Navigate back to your ADB2C resource, under Policies, click on User Flows and click on your instance's “Sign up and Sign in” User flow.
 
-    :::image type="content" source="../../media/UserFlow.png" alt-text="userflowincustidpaad":::
+    :::image type="content" source="../../media/UserFlow.png" alt-text="user flow in custom idp aad":::
 
-7. Inside your instance’s Signup and Signin user flow, click on ‘Application Claims’ and ensure you have ‘Display Name’, ‘Email Address’, ‘User’s Object ID’ selected and saved.
+7. Inside your instance’s Sign-up and Sign-in user flow, click on ‘Application Claims’ and ensure you have ‘Display Name’, ‘Email Address’, ‘User’s Object ID’ selected and saved.
 
-    :::image type="content" source="../../media/MultiAuth_AppClaims.PNG" alt-text="multiauthappclaimsaad":::
+    :::image type="content" source="../../media/MultiAuth_AppClaims.PNG" alt-text="multi auth app claims aad":::
 
-8. While in your Signup Signin user flow, navigate to ‘Identity Providers’ and select on newly configured OpenID Connect under Custom Identity Providers and click save.
+8. While in your Sign-up Sign-in user flow, navigate to ‘Identity Providers’ and select on newly configured OpenID Connect under Custom Identity Providers and click save.
 
-    :::image type="content" source="../../media/FinalIDP.png" alt-text="IDPfinalimageaad":::
+    :::image type="content" source="../../media/FinalIDP.png" alt-text="IDP final image aad":::
 
 9. Now in the login page of your instance, you should see an option that enables users to login through their work email (Azure AD email) alongside Social Account login.
 
@@ -121,15 +121,15 @@ To be able to support multi mode authentication you should create AD B2C tenant 
 3. Navigate to your Application’s [Key-Vault](../../analytics/custom-reports/database-schema.md#accessing-key-vault):
 
     * Click on “AzureADB2CExternalAuthClientSecret” in Secrets under settings
-        :::image type="content" source="../../media/Multiauth_adb2csecret.png" alt-text="adb2csecret1":::
+        :::image type="content" source="../../media/Multiauth_adb2csecret.png" alt-text="adb2c secret1":::
     * Create a new secret version
-        :::image type="content" source="../../media/Multiauth_adb2csecret2.png" alt-text="adb2csecret":::
+        :::image type="content" source="../../media/Multiauth_adb2csecret2.png" alt-text="adb2c secret":::
     * Paste the ADB2C application ClientSecret that you previously copied as Value and click save.
-        :::image type="content" source="../../media/Multiauth_adb2csecret3.png" alt-text="adb2csecret3":::
+        :::image type="content" source="../../media/Multiauth_adb2csecret3.png" alt-text="adb2c secret3":::
     * Now, with in AzureADB2CExternalAuthClientSecret, click on newly created secret version and copy Secret Identifier
-        :::image type="content" source="../../media/Multiauth_adb2csecret4.png" alt-text="secretadb2c":::
+        :::image type="content" source="../../media/Multiauth_adb2csecret4.png" alt-text="secret adb2c":::
 
-        :::image type="content" source="../../media/Multiauth_adb2csecret5.png" alt-text="secretadb2cfinal":::
+        :::image type="content" source="../../media/Multiauth_adb2csecret5.png" alt-text="secret adb2c final":::
 
 4. Navigate to [Configurations on the Training Platform](../../settings/configurations-on-the-training-platform.md#steps-to-set-the-configurations-on-the-platform), search and update the following app settings (create new application settings if not already present)
 
@@ -146,7 +146,7 @@ To be able to support multi mode authentication you should create AD B2C tenant 
 
 6. [Add Work email based Authentication to existing Social Account login instance](#add-work-email-based-authentication-to-existing-social-account-login-instance)
 
-## Add Phone-based login to Azure AD(work email) based authentication instance
+## Add Phone-based login to Azure AD (work email) based authentication instance
 
 To be able to support multi mode authentication you should create AD B2C tenant and later configure the AD B2C application to add Phone and social based login.
 

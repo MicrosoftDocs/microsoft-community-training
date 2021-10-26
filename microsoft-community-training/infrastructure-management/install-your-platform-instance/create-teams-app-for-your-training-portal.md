@@ -118,7 +118,7 @@ If you haven't, please follow the Installation steps first and then refer this a
 
 ## Schedule an MS Teams meeting for your learners
 
-Microsoft Community Training platform allows the Administrators to set-up and schedule meetings over MS Teams for the learners enrolled to a specific course/ learning path/ or a user group to enhance their learning curve.
+Microsoft Community Training platform allows the Administrators to set-up and schedule meetings over MS Teams from within the platform itself. These meetings can be for the learners enrolled to a specific course/ learning path/ or a user group to enhance their learning curve.
 
 In this article, you will learn about how to setup your MCT instance to allow Administrators to create/ set-up a Microsoft Teams meeting for a Course/ Learning Path/ User Group.
 

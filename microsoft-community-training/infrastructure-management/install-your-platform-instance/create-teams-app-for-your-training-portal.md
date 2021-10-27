@@ -243,6 +243,7 @@ Once you have configured Microsoft Teams Meeting Scheduling in MCT, the admin ne
     :::image type="content" source="../../media/Blended Learning 13.png" alt-text="Meeting Created":::
 
 >[!Note]
+>
 >* For **Work or School based instance** and **Social email-based login**, the learner will get an email as well as the meeting notification in his calendar.
 >:::image type="content" source="../../media/Blended Learning 19.PNG" alt-text="Learner experience":::
 >* For **Phone authentication based instance**, the learner will not receive any notification and the admin needs to inform the learners explicitly.

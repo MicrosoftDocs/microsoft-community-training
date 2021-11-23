@@ -88,7 +88,7 @@ You can create a new Azure Active Directory tenant or use an existing one based 
 
     * Set to type "Web"
     * Add following to Redirect URIs:
-        * **<https://name.azurewebsites.net>**,
+        * **<https://name.azurefd.net/signin-azureAD>**,
         * **<https://name.azurewebsites.net/signin-azureAD>** and
         * **<https://name-staging.azurewebsites.net/signin-azureAD>** where **"name"** corresponds to your website name.
     ![Manual AAD Setup Step 1](../../media/ManualAADSetup1.png)
@@ -97,19 +97,21 @@ You can create a new Azure Active Directory tenant or use an existing one based 
 ![Manual AAD Setup Step 2](../../media/ManualAADSetup2.png)
 
 3. Click on "Add a scope". Ensure that the auto-populated value of Application ID URI is of the form "api://{ClientID}"
-![Manual AAD Setup Step 3](../../media/ManualAADSetup3.png)
+![Manual AAD Setup Step 3a](../../media/ManualAADSetup3a.png)
 
 4. Click on Save and continue.
 5. Enter the value "access_as_user" under Scope name.
 6. Select Admins and users under Who can consent?
 7. Populate the remaining values. These values appear on the login screen (unless global consent is granted by admin)
+    ![Manual AAD Setup Step 3](../../media/ManualAADSetup3.png)
 8. Obtain Client ID and Client Secret:
 
     * Copy the value of Application ID required later as Client ID
     * Click on Certificates & Secrets from the left menu.
     * Click on New client secret.
-    * Enter the description and expiry time of the secret (recommended to select Never for expiry time) and click on Save button. A value would be shown. Save this value. Would be required later as the ClientSecret.
     ![Manual AAD Setup Step 8](../../media/ManualAADSetup4.png)
+    * Enter the description and expiry time of the secret (recommended to select Never for expiry time) and click on Save button. A value would be shown. Save this Client secret value. Would be required later as the ClientSecret.
+    :::image type="content" source="../../media/Obtain clientsecret value.PNG" alt-text="Obtain ClientSecret value":::
 
 9. Make a note of the values and follow [**installation article**](../../infrastructure-management/install-your-platform-instance/installation-guide-detailed-steps.md) to complete the Deployment by configuring obtained values as below.
 

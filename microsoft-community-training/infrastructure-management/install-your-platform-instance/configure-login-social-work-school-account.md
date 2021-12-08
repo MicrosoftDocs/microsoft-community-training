@@ -88,32 +88,34 @@ You can create a new Azure Active Directory tenant or use an existing one based 
 
     * Set to type "Web"
     * Add following to Redirect URIs:
-        * **<https://name.azurewebsites.net>**,
+        * **<https://name.azurefd.net/signin-azureAD>**,
         * **<https://name.azurewebsites.net/signin-azureAD>** and
         * **<https://name-staging.azurewebsites.net/signin-azureAD>** where **"name"** corresponds to your website name.
-    ![Manual AAD Setup Step 1](../../media/ManualAADSetup1.png)
+        :::image type="content" source="../../media/Redirect URIs.png" alt-text="Manual AAD Setup Step 1a":::
 
 2. Click on Expose an API from the left menu of your application.
 ![Manual AAD Setup Step 2](../../media/ManualAADSetup2.png)
 
 3. Click on "Add a scope". Ensure that the auto-populated value of Application ID URI is of the form "api://{ClientID}"
-![Manual AAD Setup Step 3](../../media/ManualAADSetup3.png)
+![Manual AAD Setup Step 3a](../../media/ManualAADSetup3a.png)
 
 4. Click on Save and continue.
 5. Enter the value "access_as_user" under Scope name.
 6. Select Admins and users under Who can consent?
 7. Populate the remaining values. These values appear on the login screen (unless global consent is granted by admin)
+    ![Manual AAD Setup Step 3](../../media/ManualAADSetup3.png)
 8. Obtain Client ID and Client Secret:
 
     * Copy the value of Application ID required later as Client ID
     * Click on Certificates & Secrets from the left menu.
     * Click on New client secret.
-    * Enter the description and expiry time of the secret (recommended to select Never for expiry time) and click on Save button. A value would be shown. Save this value. Would be required later as the ClientSecret.
     ![Manual AAD Setup Step 8](../../media/ManualAADSetup4.png)
+    * Enter the description and expiry time of the secret (recommended to select Never for expiry time) and click on Save button. A value would be shown. Save this Client secret value. Would be required later as the ClientSecret.
+    :::image type="content" source="../../media/Obtain clientsecret value.PNG" alt-text="Image showing how to obtain Client Secret value ":::
 
 9. Make a note of the values and follow [**installation article**](../../infrastructure-management/install-your-platform-instance/installation-guide-detailed-steps.md) to complete the Deployment by configuring obtained values as below.
 
-    ![Enter clientid, secret,tenantId,Name](../../media/LoginIdentity6.png)
+    ![Enter clientId, secret,tenantId,Name](../../media/LoginIdentity6.png)
 
 > [!Note]
 >If you are facing any issues while Deploying your AD instance, please follow the header "Azure Active Directory Configuration issue" under [**troubleshooting document**](troubleshooting.md) and send us the required output.
@@ -141,11 +143,11 @@ MCT supports login via multiple tenants for AAD authentication. This can be done
 5. Search for **idp:AzureADExternalAuthClientId** and note Client ID.
 6. Navigate to your tenant (tenant name from step 4) where your AAD exists, click on App registrations and search for application which corresponds to client id from step 5.
 
-    :::image type="content" source="../../media/MultitenantAAD2.png" alt-text="multipletenantappreg":::
+    :::image type="content" source="../../media/MultitenantAAD2.png" alt-text="multiple tenant app reg":::
 
 7. Click on the application and navigate to ‘Authentication’ and select ‘Accounts in any organizational directory (Any Azure AD directory - Multitenant)’ under Supported account types and click ‘Save’
 
-    :::image type="content" source="../../media/MultitenantAAD3.png" alt-text="multitenantauthentication":::
+    :::image type="content" source="../../media/MultitenantAAD3.png" alt-text="multi tenant authentication":::
 
 8. For first time login using multiple tenants, admin of those tenants needs to approve the client ID of the MCT application by using URL, in below url replace the placeholder with clientID from step 5.
 

@@ -15,7 +15,9 @@ In this article, you will learn more about the platform's database schema and it
 
 ## Database Schema Overview
 
-[**Microsoft Community Training - DB Schema Overview.pdf**](https://github.com/MicrosoftDocs/microsoft-community-training/files/7046708/MCT_DB.Schema_Aug2021.pdf)
+[**Microsoft Community Training - DB Schema Overview.pdf**](https://github.com/MicrosoftDocs/microsoft-community-training/files/7581669/MCT_DB_Schema_Oct2021.pdf)
+
+[comment]: <[**Microsoft Community Training - DB Schema Overview.pdf**](https://github.com/MicrosoftDocs/microsoft-community-training/files/7046708/MCT_DB.Schema_Aug2021.pdf)>
 
 ## Accessing Database
 

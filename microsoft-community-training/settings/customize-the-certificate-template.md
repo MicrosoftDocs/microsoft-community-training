@@ -77,6 +77,7 @@ The Standard Placeholders are the data fields that can be used by default on any
 * [Last Name]
 * [Unique Identity]
 * [Course Name]
+* [Learning Path Name]
 * [Course Completion Date]
 * [Instance Name]
 * [Exam Score]

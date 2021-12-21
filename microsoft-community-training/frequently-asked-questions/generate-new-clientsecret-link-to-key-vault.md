@@ -1,6 +1,6 @@
 ---
 title: Generate new Client Secret and link to key-vault
-original-url: https://docs.microsoftcommunitytraining.com/docs/generate-new-client-secret-link-to-key-vault
+original-url: https://docs.microsoftcommunitytraining.com/docs/generate-new-clientsecret-link-to-key-vault
 author: v-sambati
 ms.author: v-sambati
 description: Steps for generating a new client secret and link it to key-vault when the existing one is expired.

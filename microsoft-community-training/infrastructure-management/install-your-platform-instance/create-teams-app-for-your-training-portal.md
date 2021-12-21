@@ -56,8 +56,7 @@ If you haven't, please follow the Installation steps first and then refer this a
 
 ### Step 2 - Generate a Teams Manifest File (Microsoft Teams App) for your Microsoft Community Training instance
 
-1. Unzip the file given below "**Manifest file setup.zip**" 
-[Manifest file setup.zip](https://github.com/MicrosoftDocs/microsoft-community-training/files/7755254/Manifest.file.setup.zip)
+1. Unzip the file [Manifest file setup.zip](https://github.com/MicrosoftDocs/microsoft-community-training/files/7755254/Manifest.file.setup.zip)
 
 2. Open the word document "**Steps to create a MS Teams file.docx**".
 

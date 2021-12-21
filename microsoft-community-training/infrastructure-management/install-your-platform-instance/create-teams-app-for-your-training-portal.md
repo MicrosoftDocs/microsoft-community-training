@@ -54,24 +54,22 @@ If you haven't, please follow the Installation steps first and then refer this a
 > [!NOTE]
 > Please sure all the values marked in red rectangle are correctly set.
 
-### Step 2 - Raise a support ticket to get the Microsoft Teams app for your Microsoft Community Training instance
+### Step 2 - Generate a Teams Manifest File (Microsoft Teams App) for your Microsoft Community Training instance
 
-1. Create a support ticket on [**Microsoft Community Training HelpDesk**](https://go.microsoft.com/fwlink/?linkid=2104630) for a Microsoft Teams app manifest for your training platform instance in the following format,
+1. Unzip the file given below "**Manifest file setup.zip**" 
 
-    | Field | Description |
-    | --- | --- |
-    | Title | Enter "Request for Teams Manifest File" |
-    | Type | Select "Request" |
-    | Subject | Select "Microsoft Teams" |
-    | Description | Provide the **Azure Websites URL  & Custom domain URL** (if configured) for your instance|
+2. Open the word document "**Steps to create a MS Teams file.docx**".
 
-2. Our team will provide your the Teams app manifest within 2-3 business days.
+3. Follow the steps mentioned in the word file and make the necessary changes (as suggested in document) with reference to your MCT instance.
+
+> [!NOTE]
+> The ***color.png*** and ***outline.png*** file to be attached while following the word documentation can be obtained from the same zip file **Manifest file setup.zip**.
 
 ### Step 3 - Install the Microsoft Teams App for your organization
 
 1. Open the Microsoft Teams client application and sign in using your global or teams service admin credentials.
 
-2. Upload the manifest file (.zip file) provided by the customer support team as a custom app for organization in Teams
+2. Upload the manifest file (.zip file) created in the **Step 2** above as a custom app for organization in Teams
 
     ![Upload the manifest](../../media/image%28199%29.png)
 

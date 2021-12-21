@@ -26,6 +26,9 @@ If you’re looking to host your Microsoft Community Training instance on a cust
 
 1. [**Map the custom DNS name**](/azure/frontdoor/front-door-custom-domain#create-a-cname-dns-record) to point to your Microsoft Community Training instance, using a CNAME DNS record.
 
+> [!NOTE]
+> Add your **Front Door URL** of your MCT instance wherever specified in the above documentation. It typically looks like *`https://<InstanceName>.azurefd.net/`*
+
 2. [**Associate the mapped custom domain**](/azure/frontdoor/front-door-custom-domain#associate-the-custom-domain-with-your-front-door), with your Microsoft Community Training instance's Front Door resource.
 
 3. [**Configure the SSL certificate**](/azure/frontdoor/front-door-custom-domain-https) for your Microsoft Community Training instance.  

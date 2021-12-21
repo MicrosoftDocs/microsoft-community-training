@@ -110,7 +110,7 @@ You can create a new Azure Active Directory tenant or use an existing one based 
     * Click on Certificates & Secrets from the left menu.
     * Click on New client secret.
     ![Manual AAD Setup Step 8](../../media/ManualAADSetup4.png)
-    * Enter the description and expiry time of the secret (recommended to select Never for expiry time) and click on Save button. A value would be shown. Save this Client secret value. Would be required later as the ClientSecret.
+    * Enter the description and expiry time of the secret (recommended to select maximum allowed time for expiry) and click on Save button. A value would be shown. Save this Client secret value. Would be required later as the ClientSecret.
     :::image type="content" source="../../media/Obtain clientsecret value.PNG" alt-text="Image showing how to obtain Client Secret value ":::
 
 9. Make a note of the values and follow [**installation article**](../../infrastructure-management/install-your-platform-instance/installation-guide-detailed-steps.md) to complete the Deployment by configuring obtained values as below.

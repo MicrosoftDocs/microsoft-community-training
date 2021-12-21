@@ -49,6 +49,9 @@ Here are the simple steps to customize the certificate template on the platform:
 
 11. Please visit [**Microsoft Community Training Help desk**](https://go.microsoft.com/fwlink/?linkid=2104630) to log a support ticket if you wish to edit the templates of previously issued certificates.
 
+> [!TIP]
+> We recommend using separate templates for Course and Learning Path when using custom certificates.
+
 ## Customize Certificate Text
 
 The above default certificate text HTML can be customized to alter the text, existing data fields and including custom profile fields. The default certificate text on the platform is as follows,
@@ -73,14 +76,15 @@ This is to certify that
 
 The Standard Placeholders are the data fields that can be used by default on any instance of the platform. The fields enabled for the certificate template are,
 
-* [First Name]
-* [Last Name]
-* [Unique Identity]
-* [Course Name]
-* [Learning Path Name]
-* [Course Completion Date]
-* [Instance Name]
-* [Exam Score]
+|Placeholders for Course certificate| Placeholders for Learning Path certificate|
+|---|---|
+|[First Name]|[First Name]|
+|[Last Name]|[Last Name]|
+|[Unique Identity]|[Unique Identity]|
+|[Course Name]|[Learning Path Name]|
+|[Course Completion Date]|[Learning Path Completion Date]|
+|[Instance Name]|[Instance Name]|
+|[Exam Score]|N/A|
 
 ### Custom Placeholders
 

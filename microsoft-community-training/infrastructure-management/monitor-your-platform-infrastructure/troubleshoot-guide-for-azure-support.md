@@ -63,6 +63,8 @@ If the error is related to failure in accessing certain resources, try restartin
 
 **Resolution**: Ensure that the Client-secret present in the Key Vault matches with the Client-secret value obtained while configuring the identity. Also ensure that the Key-Vault reference is correctly configured in the Azure App Service configuration. These are the values to check in Azure App Service configuration for corresponding identities: idp:AzureADExternalAuthClientSecret (Azure AD), idp:AzureADB2CExternalAuthClientSecret (Azure AD B2C), idp:PhoneExternalAuthClientSecret (Phone)
 
+In case of client secret is expired or nearing expiration, here are [**steps to generate a new client secret and link it to key-vault**](../../frequently-asked-questions/generate-new-client-secret-link-to-key-vault.md#steps-to-generate-a-new-client-secret-and-link-it-to-key-vault)
+
 ### Issue 3: Learner not able to update profile fields on login
 
 **Root Cause**: Unable to update profile fields on login

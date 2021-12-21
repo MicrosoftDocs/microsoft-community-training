@@ -210,6 +210,8 @@
         href: frequently-asked-questions/faqs-installation-and-setup.md
       - name: Login Types and User Identity
         href: frequently-asked-questions/faqs-user-management.md
+      - name: Generate New Client-Secret and link it to Key-Vault
+        href: frequently-asked-questions/generate-new-client-secret-link-to-key-vault.md
       - name: Portal Branding & Customization
         href: frequently-asked-questions/portal-branding-customization.md
       - name: Content and Course management

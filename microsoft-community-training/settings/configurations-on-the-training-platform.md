@@ -190,7 +190,6 @@ Switch to the learner’s view on your instance and click on profile picture. No
 
 :::image type="content" source="../media/el7.png" alt-text="External link 7":::
 
-<<<<<<< HEAD
 ## Steps to set Default Country for Phone based login
 
 If your instance has phone based authentication and if you want to set a default country flag in login page for all the learners, you need to provide [**Alpha-2 ISO code**](https://en.wikipedia.org/wiki/List_of_ISO_3166_country_codes) for the country you want to be as default flag as value to **DefaultCountry** application setting.

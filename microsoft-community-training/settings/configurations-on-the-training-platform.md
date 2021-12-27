@@ -218,7 +218,7 @@ To disable this MS Teams integration, update this app setting with **value â€œ0â
 >- Once you disable the MS Teams integration, you would be able to add users to the platform via MCT Admin UI.
 
 :::image type="content" source="../media/Disable MS Teams integration.PNG" alt-text="Disable teams integration":::
->>>>>>> 1718275c9153fc48945d1996d16358837ddbbc14
+
 
 ## Steps to set the Configurations on the Platform
 

@@ -19,7 +19,7 @@ It is available as a [**Managed PaaS offering via Azure Marketplace**](https://a
 
 ### When was Microsoft Community Training launched?
 
-Microsoft community training was publicly announced on 22nd February 2017. It is currently in Public Preview and planning to become Generally Available by 2021.
+Microsoft community training was publicly announced on 22nd February 2017. It is currently in Public Preview and planning to become Generally Available by 2022.
 
 ### Is Microsoft Community Training a Learning Management System?
 

@@ -133,7 +133,16 @@ Follow the steps mentioned below to Register the Client app.
 
 > [!NOTE]
 >
-> - [This link](/azure/active-directory/develop/v2-oauth2-client-creds-grant-flow#get-a-token) can be referred for generating tokens to call APIs.
+> - [**This link**](/azure/active-directory/develop/v2-oauth2-client-creds-grant-flow#get-a-token) can be referred for generating tokens to call APIs.
+> ```HTTP
+>POST /{tenant}/oauth2/v2.0/token HTTP/1.1     //Line breaks for clarity
+>Host: login.microsoftonline.com
+>Content-Type: application/x-www-form-urlencoded
+>client_id=<The application ID that's assigned to your app>
+>&scope=https://graph.microsoft.com/.default
+>&client_secret=sampleCredentia1s
+>&grant_type=client_credentials
+>```
 > - The value passed for the “scope” parameter in the request should be the resource identifier (application ID URI) of the resource you want, affixed with the “/.default” suffix. e.g. api://webapi-clientid/.default.
 
 ## Step 3: Configure the Azure App Service
@@ -151,8 +160,8 @@ Follow the steps mentioned below to Register the Client app.
    1. **ServiceAuthAudience**: Application ID URI created in “Register Service application” step
    2. **ServiceAuthTenantName**: Tenant name retrieved in “Register Service application” step
    3. **ServiceAuthTenantId**: Tenant Id retrieved in “Register Service application” step
-   4. **ServiceObjectIds**: This is required only if the Client type is of type **Approach 1** above. Enter the Object Id retrieved above. If multiple clients are created of this type, enter all of them here, separated by a semi-colon. (ObjectId_1;ObjectId_2…)
-   5. **ServiceApplicationIds**: This is required only if the Client type is of type **Approach 2** above. Enter the Application Id retrieved above. If multiple clients are created of this type, enter all of them here, separated by a semi-colon. (ApplicationId_1;ApplicationId_2…)
+   4. **ServiceObjectIds**: This is required only if the Client type is of type **Approach 1** above. Enter the Object Id retrieved above. If multiple clients are created of this type, enter all of them here, separated by a semi-colon. (ObjectId_1;ObjectId_2…). **This is client objectId from step2-Approach1**
+   5. **ServiceApplicationIds**: This is required only if the Client type is of type **Approach 2** above. Enter the Application Id retrieved above. If multiple clients are created of this type, enter all of them here, separated by a semi-colon. (ApplicationId_1;ApplicationId_2…). **This is client application ID from step2-Approach2**
    6. **ServiceAuthRole**: This is required only if the Client type is of type 2.
  b) Enter the role value as created in the manifest in the “**Register Service application**” step above. (e.g. "S2SAppRole").
 

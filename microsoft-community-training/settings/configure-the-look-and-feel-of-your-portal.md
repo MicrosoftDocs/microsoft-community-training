@@ -74,6 +74,7 @@ Your banner image will appear on the landing page and will form the first impres
 ## Set the welcome text
 
 Your welcome text will appear on the landing page of your learning portal.
+
 ![Set the welcome text](../media/image%28267%29.png)
 > [!WARNING]
 > Greet your learners with a catchy welcome text.

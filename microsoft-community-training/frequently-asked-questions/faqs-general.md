@@ -9,7 +9,7 @@ ms.prod: azure
 
 # General FAQs
 
-### What is Microsoft Community Training?
+## What is Microsoft Community Training?
 
 Microsoft Community Training is an Azure-powered online learning platform to enable organizations of all sizes and types to run large scale training programs for their internal and external communities such as first line workers, extended workforces, partner ecosystem, volunteer network, program beneficiaries, etc.
 

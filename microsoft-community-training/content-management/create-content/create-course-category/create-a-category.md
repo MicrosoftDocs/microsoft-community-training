@@ -43,11 +43,17 @@ In this topic, you will learn the simple steps to **Create Category** in the pla
 
 5. Choose **Upload** option to open file picker and select an image file as **Category Thumbnail.**
 
+    > [!TIP]
+    > Recommended size for the thumbnail image is 320*180 px
+
 6. Select the **Organization** for the category. By default, it is assigned to a default organization.
 
 7. Click or tap on the **Create** button to create a new category.
 
-> [!TIP]
-> Recommended size for the thumbnail image is 320*180 px
+8. Once the category is created, you will see this window to choose from options to create course.
 
-**Next >** Once a category is created, you can [**add courses**](create-a-new-course.md) under the category and upload content for the learning program.
+    :::image type="content" source="../../../media/marketplaceall.png" alt-text="marketplaceall":::
+
+    * You can choose [**Add new course**](create-a-new-course.md#option-1---create-a-single-course-in-a-category) under the category and upload content for the learning program.
+    * You can [**Bulk Upload**](create-a-new-course.md#option-2---create-multiple-courses-in-a-category) under the category and upload multiple courses at once to save time.
+    * You can choose to import courses via [**Marketplace**](create-a-new-course.md#option-2---add-course-via-content-marketplace) which contains catalogue of expert curated courses to get a head start on your training program.

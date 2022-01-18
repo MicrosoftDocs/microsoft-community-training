@@ -48,7 +48,7 @@ In this article, you will learn about how to add non-graded assessments to a cou
     * Non-graded Assessments Title – This would be assessment name.
     * Multiple correct answers toggle - Enabling this toggle will allow the Administrator to select multiple correct answers to that question - hence making the question multiple-choice multi-correct type.
     :::image type="content" source="../../../media/Assessment - multi-correct.PNG" alt-text="multiple correct":::
-    * Question Title – add your question in this field. Check [**sample questions**](#question-types-for-a-practice-quiz-or-exam) to know more about the types of questions you can create on the portal.
+    * Question Title – add your question in this field. Check [**sample questions**](#question-types-for-any-assessment) to know more about the types of questions you can create on the portal.
     * Options – add one or more options as possible answers for the question. Check the **radio button/checkbox** to the left of the text field to select the correct answer(s).
     * **Answer Explanation** - Click on the icon besides every option to add explanation for that specific option.
         :::image type="content" source="../../../media/Assessment - answer explanantion.PNG" alt-text="answer explanation":::
@@ -66,7 +66,7 @@ In this article, you will learn about how to add non-graded assessments to a cou
 6. Once you are done adding questions, click or tap **Save** icon to the right-end of the assessment title to upload the non-graded assessment to the portal.
 
     > [!TIP]
-    > Use the [**bulk upload questions feature**](#bulk-upload-questions-for-a-practice-quiz-or-exam) to seamlessly import your existing questions list for a non-graded assessment.
+    > Use the [**bulk upload questions feature**](#bulk-upload-questions-for-a-non-graded-assessment-or-graded-assessment) to seamlessly import your existing questions list for a non-graded assessment.
 
 ## Add graded assessment for a course
 
@@ -95,7 +95,7 @@ In this article, you will learn about how to add a graded assessment to a course
     > All the questions in the exam carry equal weightage. And **Exam** is always the last segment of the course.
 
 5. Enter details for the **Question 1** on the portal as below:
-    * Question Title – add your question in this field. Check [**sample questions**](#question-types-for-a-practice-quiz-or-exam) to know more about the types of questions you can create on the portal.  
+    * Question Title – add your question in this field. Check [**sample questions**](#question-types-for-any-assessment) to know more about the types of questions you can create on the portal.  
     * Options – add one or more options as possible answers for the question.  Check the **checkbox/radio button** to the left of the text field to select the correct answer.
   
     > [!NOTE]
@@ -113,7 +113,7 @@ In this article, you will learn about how to add a graded assessment to a course
 8. Once you are done adding questions, click or tap **Save** icon to the right-end of the assessment title to upload the exam to the portal.
 
 > [!TIP]
-> Use the [**bulk upload questions feature**](add-practice-quizzes-and-exam.md#bulk-upload-questions-for-a-practice-quiz-or-exam) to seamlessly import your existing questions list for an Exam.
+> Use the [**bulk upload questions feature**](add-practice-quizzes-and-exam.md#bulk-upload-questions-for-a-non-graded-assessment-or-graded-assessment) to seamlessly import your existing questions list for an Exam.
 
 ## Bulk upload questions for a non-graded assessment or graded assessment
 

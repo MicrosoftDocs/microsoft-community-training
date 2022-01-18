@@ -69,7 +69,7 @@ To add learning material into your training portal, first you need to [**define 
  ![create course gif](../media/create-course-gif.gif)
 
 > [!TIP]
-> Use [**bulk upload course**](../content-management/create-content/create-course-category/create-a-new-course.md#option-2---create-multiple-courses-in-a-category) to quickly upload your training content on the portal
+> Use [**bulk upload course**](../content-management/create-content/create-course-category/create-a-new-course.md#option-3---create-multiple-courses-in-a-category) to quickly upload your training content on the portal
 
 ## Step 5 – Create group and onboard learners to the portal  
 

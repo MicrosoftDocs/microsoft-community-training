@@ -41,7 +41,7 @@ This article explains how learners can access the training content using the web
 
     :::image type="content" source="../media/LearnerLanguage1.jpg" alt-text="Learner language drop down":::
 
-3. Content on the home page will be updated based on learner's chosen language. Please refer [**Course Translations**](../content-management/create-content/create-course-category/create-a-new-course.md#option-3-create-multiple-translations-of-a-course) to understand how language change will impact learner view.
+3. Content on the home page will be updated based on learner's chosen language. Please refer [**Course Translations**](../content-management/create-content/create-course-category/create-a-new-course.md#option-4---create-multiple-translations-of-a-course) to understand how language change will impact learner view.
 
 >[!NOTE]
 >Only the languages enabled by the Global administrator will be available for selection. The dropdown will not be available to the learners, if only ONE language is enabled on the platform.

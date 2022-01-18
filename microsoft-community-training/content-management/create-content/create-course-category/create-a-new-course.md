@@ -97,7 +97,7 @@ In this topic, you will learn simple steps to Import courses from marketplace in
 
 4. You will see a popup with content to choose from various providers.
 
-    :::image type="content" source="../../../media/marketplaceimg2.png" alt-text="marketplaceimg2":::
+    :::image type="content" source="../../../media/marketplaceimg2.png" alt-text="imagemarketplace":::
 
 5. After choosing content of your choice, click on ‘Import course’ button
 
@@ -109,7 +109,7 @@ In this topic, you will learn simple steps to Import courses from marketplace in
 
 7. The course you selected will now be imported to selected category as shown
 
-    :::image type="content" source="../../../media/marketplaceimg5.png" alt-text="marketplaceimg5":::
+    :::image type="content" source="../../../media/marketplaceimg5.png" alt-text="imagemarketplace5":::
 
 ## Option 3 - Create multiple courses in a category
 
@@ -193,7 +193,7 @@ Alternatively, you can check the step by step video tutorial for bulk upload con
 
 ## Option 4 - Create multiple translations of a Course
 
-The learning portal allows you to create multiple translations of a course in different languages. Once a course is created within a category via either [**Option 1 - Create a single course in a category**](create-a-new-course.md#option-1---create-a-single-course-in-a-category) or [**Option 2 - Create multiple courses in a category**](create-a-new-course.md#option-2---create-multiple-courses-in-a-category), administrators can create its translations.  
+The learning portal allows you to create multiple translations of a course in different languages. Once a course is created within a category via either [**Option 1 - Create a single course in a category**](create-a-new-course.md#option-1---create-a-single-course-in-a-category) or [**Option 2 - Create multiple courses in a category**](create-a-new-course.md#option-3---create-multiple-courses-in-a-category), administrators can create its translations.  
 
 > [!NOTE]
 >The default version of the course can be accessed from the left vertical browsing panel. For a learner, if a course translation is not available in its selected language, the default version of the course will render for the learner.
@@ -220,7 +220,7 @@ Let us assume that a course by default is created in the language *English* and 
 > [!NOTE]
 > Course translations can be created only in the languages that are enabled on the platform. Administrators can [enable multiple languages on the platform](../../../settings/customize-languages-for-the-learners-on-the-platform.md).
 
-Next, let us understand how to create course translations once a default course is created via either [**Option 1 - Create a single course in a category**](create-a-new-course.md#option-1---create-a-single-course-in-a-category) or [**Option 2 - Create multiple courses in a category**](create-a-new-course.md#option-2---create-multiple-courses-in-a-category).
+Next, let us understand how to create course translations once a default course is created via either [**Option 1 - Create a single course in a category**](create-a-new-course.md#option-1---create-a-single-course-in-a-category) or [**Option 2 - Create multiple courses in a category**](create-a-new-course.md#option-3---create-multiple-courses-in-a-category).
 
 ### Creating Course Translations
 

@@ -52,8 +52,8 @@ In this topic, you will learn the simple steps to **Create Category** in the pla
 
 8. Once the category is created, you will see this window to choose from options to create course.
 
-    :::image type="content" source="../../../media/marketplaceall.png" alt-text="marketplaceall":::
+    :::image type="content" source="../../../media/marketplaceall.png" alt-text="overview_marketplace":::
 
     * You can choose [**Add new course**](create-a-new-course.md#option-1---create-a-single-course-in-a-category) under the category and upload content for the learning program.
-    * You can [**Bulk Upload**](create-a-new-course.md#option-2---create-multiple-courses-in-a-category) under the category and upload multiple courses at once to save time.
+    * You can [**Bulk Upload**](create-a-new-course.md#option-3---create-multiple-courses-in-a-category) under the category and upload multiple courses at once to save time.
     * You can choose to import courses via [**Marketplace**](create-a-new-course.md#option-2---add-course-via-content-marketplace) which contains catalogue of expert curated courses to get a head start on your training program.

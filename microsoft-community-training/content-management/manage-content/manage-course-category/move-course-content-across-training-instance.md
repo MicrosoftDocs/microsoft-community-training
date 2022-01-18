@@ -50,7 +50,7 @@ In this article, you will learn more about how to export course content from one
 
     ![Bulk Upload courses](../../../media/image%28222%29.png)
 
-4. Next, choose the previously downloaded zip file as part of the bulk upload course workflow. See detailed steps [**here**](../../create-content/create-course-category/create-a-new-course.md#option-2---create-multiple-courses-in-a-category).
+4. Next, choose the previously downloaded zip file as part of the bulk upload course workflow. See detailed steps [**here**](../../create-content/create-course-category/create-a-new-course.md#option-3---create-multiple-courses-in-a-category).
 
     > [!IMPORTANT]
     > For step 4, skip the prerequisite part and directly jump to the actual steps of bulk uploading courses to the platform.

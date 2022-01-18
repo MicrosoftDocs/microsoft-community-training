@@ -1,5 +1,5 @@
 ---
-title: Add practice quiz and exam for a course
+title: Add non-graded assessment and graded assessment for a course
 original-url: https://docs.microsoftcommunitytraining.com/docs/add-practice-quizzes-and-exam
 author: nikotha
 ms.author: nikotha
@@ -7,21 +7,21 @@ description: Microsoft Community Training platform allows trainers to add assess
 ms.prod: azure
 ---
 
-# Add practice quiz and exam for a course
+# Add non-graded and graded assessments to a course
 
-Microsoft Community Training platform allows trainers to add assessments as a way to evaluate learners on their knowledge and proficiency. The platform provides two types of assessments in the form of Practice Quiz and Exam containing one or more multiple-choice questions.
+Microsoft Community Training platform allows trainers to add assessments as a way to evaluate learners on their knowledge and proficiency. The platform provides two types of assessments in the form of non-graded assessments and graded assessments containing one or more multiple-choice questions.
 
-**Practice Quiz** - A Practice Quiz serves as a refresher for learners and facilitate revision of a particular lesson. There is no limit to the number of Practice Quizzes you can add to a course.
+**Non-graded Assessments** - A non-graded assessment serves as a refresher for learners and facilitate revision of a particular lesson. There is no limit to the number of assessments you can add to a course.
 
-**Exam**  -  An Exam is used to evaluate learners on their proficiency and knowledge in a particular course to measure learning outcome. Unlike practice quiz, an exam has limited number of attempts and a passing percentage as specified by the trainer.
+**Graded Assessments**  -  A Graded Assessments is used to evaluate learners on their proficiency and knowledge in a particular course to measure learning outcome. Unlike non-graded assessments, a graded assessment has limited number of attempts and a passing percentage as specified by the trainer.
 
 In this article, you will learn more about how to add assessments to a course followed by an overview on sample assessment question types, in respective sections:
 
 ## Permission Level
 
-The Microsoft Community Training  management portal provides role-based administration and depending upon the type of access level administrators can perform an action on the portal. Table below shows administrative role which are allowed to add Practice Quiz and Exam to a course in the portal:
+The Microsoft Community Training  management portal provides role-based administration and depending upon the type of access level administrators can perform an action on the portal. Table below shows administrative role which are allowed to add non-graded and graded assessments to a course in the portal:
 
-| Access Level  | Add practice quiz and exam to a course |
+| Access Level  | Add assessments to a course |
 | --- | --- |
 | Global Administrator | Yes |
 | Organization Administrator | Yes |
@@ -30,68 +30,73 @@ The Microsoft Community Training  management portal provides role-based administ
 | Course Administrator | Yes |
 | Group Administrator | No|
 
-## Add a practice test for a course
+## Add a non-graded assessments for a course
 
-In this article, you will learn about how to add practice quiz to a course:
+In this article, you will learn about how to add non-graded assessments to a course:
 
 > [!TIP]
-> Use the practice test after every 2-3 lessons to help learners retain and revise the learning concept. Keep the questions short and simple.  Answering correctly makes the learner want to go to the next lesson, ensuring higher completion rate of courses.)
+> Use the non-graded assessments after every 2-3 lessons to help learners retain and revise the learning concept. Keep the questions short and simple.  Answering correctly makes the learner want to go to the next lesson, ensuring higher completion rate of courses.)
 
 1. On the Microsoft Community Training portal, login and [**switch to administrator view**](../../../get-started/step-by-step-configuration-guide.md#step-2--switch-to-administrator-view-of-the-portal).
 
-2. Under Course tab, select the course under a category in the list to which you want to add a practice quiz.
+2. Under Course tab, select the course under a category in the list to which you want to add a non-graded assessments.
 
-3. Click or tap on the **New Assessment** button and select the **Practice Quiz** option from the drop-down menu.
+3. Click or tap on the **New Assessment** button and select the **Add non-graded assessments** option from the drop-down menu.
+:::image type="content" source="../../../media/Assessment - New Assessment.PNG" alt-text="Select assessment type":::
 
-    ![New Assessment](../../../media/image%28245%29.png)
-
-4. Enter details for the **Question 1** on the portal as below:
+4. Enter details for the **non-graded assessments** on the portal as below:
+    * Non-graded Assessments Title – This would be assessment name.
+    * Multiple correct answers toggle - Enabling this toggle will allow the Administrator to select multiple correct answers to that question - hence making the question multiple-choice multi-correct type.
+    :::image type="content" source="../../../media/Assessment - multi-correct.PNG" alt-text="multiple correct":::
     * Question Title – add your question in this field. Check [**sample questions**](#question-types-for-a-practice-quiz-or-exam) to know more about the types of questions you can create on the portal.
-    * Options – add one or more options as possible answers for the question. Check the **radio button** to the left of the text field to select the correct answer.
+    * Options – add one or more options as possible answers for the question. Check the **radio button/checkbox** to the left of the text field to select the correct answer(s).
+    * **Answer Explanation** - Click on the icon besides every option to add explanation for that specific option.
+        :::image type="content" source="../../../media/Assessment - answer explanantion.PNG" alt-text="answer explanation":::
 
-        ![Quiz title](../../../media/Quiz%20title.png)
+     :::image type="content" source="../../../media/Assessment - New AssessmentQuiz.PNG" alt-text="Quiz question details":::
 
     > [!NOTE]
-    > If only two possible options are needed use **Delete** button  next to the option field to remove the options.To add more options use **Add Option** button to increase choices for the question.)
+    > If only two possible options are needed use **Delete** button  next to the option field to remove the options. To add more options use **Add Option** button to increase choices for the question.)
 
     > [!TIP]
     > The Question and Options both support HTML rich text. Please ensure the rich text formatting is applied from the options available in the editing box only and not from the content source.
 
-5. Click or tap **Add Question** at the bottom-right of the Quiz card, to add more questions in the Practice Quiz and repeat Step 4.
+5. Click or tap **Add Question** at the bottom-left of the assessment card, to add more questions in the non-graded assessment and repeat Step 4.
 
-6. Once you are done adding questions, click or tap **Save** icon to the right-end of the quiz title to upload the practice quiz to the portal.
+6. Once you are done adding questions, click or tap **Save** icon to the right-end of the assessment title to upload the non-graded assessment to the portal.
 
     > [!TIP]
-    > Use the [**bulk upload questions feature**](#bulk-upload-questions-for-a-practice-quiz-or-exam) to seamlessly import your existing questions list for a practice quiz.
+    > Use the [**bulk upload questions feature**](#bulk-upload-questions-for-a-practice-quiz-or-exam) to seamlessly import your existing questions list for a non-graded assessment.
 
-## Add final exam for a course
+## Add graded assessment for a course
 
-In this article, you will learn about how to add an exam to a course:
+In this article, you will learn about how to add a graded assessment to a course:
 
 > [!TIP]
-> Use the exam to evaluate the knowledge of a learner that is acquired from the course. Keep a fair pass percentage based on the degree of difficulty and number of attempts as required for the role.
+> Use the graded assessment to evaluate the knowledge of a learner that is acquired from the course. Keep a fair pass percentage based on the degree of difficulty and number of attempts as required for the role.
 
 1. On the Microsoft Community Training portal, login and [**switch to administrator view**](../../../get-started/step-by-step-configuration-guide.md#step-2--switch-to-administrator-view-of-the-portal).
 
 2. Under Course tab, select the course under a category in the list to which you want to add an Exam.
 
-3. Click or tap on the **New Quiz** button and select the **Exam** option from the drop-down menu.
+3. Click or tap on the **New Assessment** button and select the **Graded assessment** option from the drop-down menu.
 
-    ![New Quiz & Exam](../../../media/image%28246%29.png)
+    :::image type="content" source="../../../media/Assessment - New AssessmentFinalExam.PNG" alt-text="New assessment for graded assessment":::
 
-4. Enter details for the **Exams** on the portal as below:
-    * Enter **Quiz Title**. The quiz title is the name for the exam displayed to the learners on the web portal and mobile application. For example: *Final Exam*
+4. Enter details for the **graded assessment** on the portal as below:
+    * Enter **Graded Assessment Title**. The graded assessment title is the name for the exam displayed to the learners on the web portal and mobile application. For example: *Final Exam*
     * Define the **passing percentage** and **number of attempts** a learner can take the exam based on the degree of difficulty.
-    * Enable the **shuffle mode** for the exam questions if required. This will ensure that learners will always be offered a different version of the quiz so you can be sure that answers cannot be memorized for subsequent attempts or copied from others
+    * Enable the **Show answers to learner** if you would like to add answer explanation which would be shown to the learner once he/she completes the assessment and are viewing their answers/scores.
+    * Enable the **shuffle mode** for the exam questions if required. This will ensure that learners will always be offered a different version of the assessment so you can be sure that answers cannot be memorized for subsequent attempts or copied from others.
 
-        ![Details for Exams](../../../media/image%28210%29.png)
+        :::image type="content" source="../../../media/Assessment - graded question.PNG" alt-text="graded question details":::
 
     > [!NOTE]
     > All the questions in the exam carry equal weightage. And **Exam** is always the last segment of the course.
 
 5. Enter details for the **Question 1** on the portal as below:
     * Question Title – add your question in this field. Check [**sample questions**](#question-types-for-a-practice-quiz-or-exam) to know more about the types of questions you can create on the portal.  
-    * Options – add one or more options as possible answers for the question.  Check the **radio button** to the left of the text field to select the correct answer.
+    * Options – add one or more options as possible answers for the question.  Check the **checkbox/radio button** to the left of the text field to select the correct answer.
   
     > [!NOTE]
     > If only two possible options are needed, use **Delete** button  next to the option field to remove the options. To add more options use **Add Option** button to increase choices for the question.
@@ -99,24 +104,28 @@ In this article, you will learn about how to add an exam to a course:
     > [!TIP]
     > The Question and Options both support HTML rich text. Please ensure the rich text formatting is applied from the options available in the editing box only and not from the content source.
   
-6. Click or tap **Add Question**, to add more questions in the **Exam** and repeat Step 5.
+6. To add answer explanation, first enable the toggle near assessment title and then click on the **Add explanation** icon beside the option text field and provide the relevant details in the text box.
 
-7. Once you are done adding questions, click or tap **Save** icon to the right-end of the quiz title to upload the exam to the portal.
+    :::image type="content" source="../../../media/Assessment - answer explanantion.PNG" alt-text="answer explanation":::
+
+7. Click or tap **Add Question**, to add more questions in the **Exam** and repeat Step 5.
+
+8. Once you are done adding questions, click or tap **Save** icon to the right-end of the assessment title to upload the exam to the portal.
 
 > [!TIP]
 > Use the [**bulk upload questions feature**](add-practice-quizzes-and-exam.md#bulk-upload-questions-for-a-practice-quiz-or-exam) to seamlessly import your existing questions list for an Exam.
 
-## Bulk upload questions for a practice quiz or exam
+## Bulk upload questions for a non-graded assessment or graded assessment
 
-In this topic, you will learn how to bulk upload questions for a practice quiz or exam in the management portal:
+In this topic, you will learn how to bulk upload questions for a non-graded or graded assessment in the management portal:
 
 ### Prerequisite for bulk upload questions
 
-Before you start doing the bulk upload of questions for a practice quiz or exam, you need to make sure the question list is structured in the right format on your local machine. The steps below provide information on how to create and verify that the question list is in the correct format:
+Before you start doing the bulk upload of questions for a assessment, you need to make sure the question list is structured in the right format on your local machine. The steps below provide information on how to create and verify that the question list is in the correct format:
 
 #### Step 1 - Download the sample CSV file
 
-1. Click or tap on the **Import CSV** icon to the top right of Practice Quiz or Exam card.
+1. Click or tap on the **Import CSV** icon to the top right of the assessment.
 
     ![Import CSV icon](../../../media/Import%20CSV%20icon.png)
 
@@ -133,10 +142,12 @@ Before you start doing the bulk upload of questions for a practice quiz or exam,
     > Do not remove the column headers from the CSV file.
 
 3. Start adding 1 question per row with the following information under each column header:
-    * Serial Number – put the sequence number of the question in the list.  
-    * Question Title – put the question text in this field.
+    * Serial Number – put the sequence number of the question in the list.
+    * Question Type - specify the type of question **"Single choice"** or **"Multiple choice"**
+    * Question Text – put the question text in this field.
     * Choice 1 to N – add the choices for the question.
-    * Answer – select the correct number among the choices. For e.g. set value to 2 if Choice 2 is the correct answer.
+    * Correct Answer – select the correct number among the choices. For e.g. set value to 2 if Choice 2 is the correct answer.
+    * Answer explanation - add the explanation for the correct as well as incorrect answers.
 
         ![CSV file format](../../../media/CSV%20file%20format.png)
 
@@ -163,9 +174,9 @@ Before you start doing the bulk upload of questions for a practice quiz or exam,
 
 4. In case you find any issues with the file, edit and correct the structure as described in the previous step.
 
-### Steps for bulk upload questions for a Practice Quiz or Exam
+### Steps for bulk upload questions for a non-graded or graded assessment
 
-1. Click or tap on the **Import CSV** icon to the top right of Practice Quiz or Exam card.
+1. Click or tap on the **Import CSV** icon to the top right of non-graded assessment or graded assessment.
 
     ![Import CSV icon](../../../media/Import%20CSV%20icon.png)
 
@@ -175,11 +186,11 @@ Before you start doing the bulk upload of questions for a practice quiz or exam,
 
 3. Click or tap on the **Done** button to begin bulk upload questions operation.
 
-4. Once completed, you will see the newly added questions in the Practice Quiz or Exam card.
+4. Once completed, you will see the newly added questions in the non-graded assessment or graded assessment.
 
-## Question Types for a practice quiz or exam
+## Question Types for any assessment
 
-In this article, you will learn about the variety of question types that you can create for a practice quiz or exam in the management portal.
+In this article, you will learn about the variety of question types that you can create for any assessment in the management portal.
 
 Following are the question types that can be created on the portal,
 

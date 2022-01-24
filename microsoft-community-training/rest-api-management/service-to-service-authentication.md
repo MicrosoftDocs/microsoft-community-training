@@ -145,15 +145,7 @@ Follow the steps mentioned below to Register the Client app.
 >&grant_type=client_credentials
 >```
 >
-> | Parameter   | Description |
-> | ---- | --- |
-> | `tenant` | The directory tenant the  application plans to operate against, in GUID or domain-name  format. |
-> | `client_id` | The application ID that's assigned to your app. You can find this information in the portal where you registered your app. |
-> | `scope` | The value passed for the `scope` parameter in this request should be the resource identifier (application ID URI) of the resource you want, affixed with the `.default` suffix. For the Microsoft Graph example, the value is `https://graph.microsoft.com/.default`. <br/>This value tells the Microsoft identity platform that of all the direct application permissions you have configured for your app, the endpoint should issue a token for the ones associated with the resource you want to use. To learn more about the `/.default` scope, see the [consent documentation](v2-permissions-and-consent.md#the-default-scope). |
-> | `client_secret` | The client secret that you generated for your app in the app registration portal. The client secret must be URL-encoded before being sent. The Basic auth pattern of instead providing credentials in the Authorization header, per [RFC 6749](https://datatracker.ietf.org/doc/html/rfc6749#section-2.3.1) is also supported. |
-> | `grant_type` | Must be set to `client_credentials`. |
->
-> - The value passed for the “scope” parameter in the request should be the resource identifier (application ID URI) of the resource you want, affixed with the “/.default” suffix. e.g. api://webapi-clientid/.default.
+> - The value passed for the **`scope`** parameter in this request should be the resource identifier (application ID URI) of the resource you want, affixed with the `.default` suffix `api://webapi-clientid/.default`. For the Microsoft Graph example, the value is `https://graph.microsoft.com/.default`.
 
 ## Step 3: Configure the Azure App Service
 

@@ -56,6 +56,9 @@ Select the WAF policy instance that is deployed in the same resource group.
 
 10. Update the setting **ContentEndpoint** with your custom domain name, followed by the path "/storage". *For example - `https://contosolearning.contoso.com/storage`*.
 
+    >[!Important]
+    >The above setting is required to be configured with the **new custom domain** you have created else it might generate issues.
+
 11. Next based on your chosen identity type, follow the steps below:
     * **For Social Accounts or email based authentication** like Google, Microsoft and Facebook [follow these steps](../../infrastructure-management/configure-your-platform-infrastructure/setup-custom-domain-url.md#for-social-accounts-like-google-microsoft-and-facebook)
     * **For Azure Active Directory** (aka Work or School account) [follow these steps](../../infrastructure-management/configure-your-platform-infrastructure/setup-custom-domain-url.md#for-azure-active-directory-work-or-school-account)

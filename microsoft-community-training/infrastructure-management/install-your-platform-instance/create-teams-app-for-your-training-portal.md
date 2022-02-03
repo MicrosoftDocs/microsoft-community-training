@@ -140,7 +140,7 @@ In this article, you will learn about how to setup Teams SSO login supporting mu
     :::image type="content" source="../../media/Teams SSO MultiTenant 5.png" alt-text="Teams SSO 5":::
 12. Click on the application and navigate to ‘Authentication’ and select ‘Accounts in any organizational directory (Any Azure AD directory - Multitenant)’ under Supported account types and click ‘Save’
     :::image type="content" source="../../media/Teams SSO MultiTenant 6.png" alt-text="Teams SSO 6":::
-13. For each tenant follow steps mentioned in the below two
+13. For each tenant follow steps mentioned as below
 
       * [Install the Microsoft Teams App for your organization](#step-3---install-the-microsoft-teams-app-for-your-organization).
       * [Setup app policies to pin the training application from the Microsoft Team admin center](#step-4---setup-app-policies-to-pin-the-training-application-from-the-microsoft-team-admin-center).

@@ -122,7 +122,7 @@ In this article, you will learn about how to setup Teams SSO login supporting mu
 
 ### Steps to enable multi-tenant login in Teams for an AAD based instance
 
-1. Login to Azure portal
+1. Login to [**Azure portal**](https://ms.portal.azure.com/#home)
 2. Go to App Services from the left-menu
     :::image type="content" source="../../media/Teams SSO MultiTenant 1.png" alt-text="Teams SSO MultiTenant1":::
 3. Click on the app service belonging to your Microsoft Community Training instance.

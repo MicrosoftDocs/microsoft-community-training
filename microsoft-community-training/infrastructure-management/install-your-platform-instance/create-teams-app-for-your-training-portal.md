@@ -114,6 +114,47 @@ If you haven't, please follow the Installation steps first and then refer this a
 
     ![Save Application Settings.png](../../media/Save%20Application%20Settings%281%29.png)
 
+## Multi-Tenant support for Azure Active Directory based Authentication in Teams
+
+Microsoft Community Training platform supports login via multiple tenants in Teams for AAD based authentication instances.
+
+In this article, you will learn about how to setup Teams SSO login supporting multiple tenants.
+
+### Steps to enable multi-tenant login in Teams for an AAD based instance
+
+1. Login to [**Azure portal**](https://ms.portal.azure.com/#home)
+2. Go to App Services from the left-menu
+    :::image type="content" source="../../media/Teams SSO MultiTenant 1.png" alt-text="Teams SSO MultiTenant1":::
+3. Click on the app service belonging to your Microsoft Community Training instance.
+4. Select Configuration under settings from the left-menu
+    :::image type="content" source="../../media/Teams SSO MultiTenant 2.png" alt-text="Teams SSO 2":::
+5. Go under Applications Settings tab
+    :::image type="content" source="../../media/Teams SSO MultiTenant 3.png" alt-text="Teams SSO 3":::
+6. Search for `Features:IsMultiOrgDeployment`, add this if it does not exist, set the **value** as `true`, then click ‘Ok’
+7. Next, search for `idp:AzureADExternalAuthTenantId`, add this application setting if it does not exist using **New application setting** option
+8. Set the **value** as `common` replacing the existing tenant id (we suggest you keep a copy of your original Tenant ID value as a reference), then click ‘Ok’
+    :::image type="content" source="../../media/Teams SSO MultiTenant 4.png" alt-text="Teams SSO4":::
+9. Now while in Configurations section, search for `idp:AzureADExternalAuthTenant` and note the Tenant name
+10. Also, search for `idp:AzureADExternalAuthClientId` and note Client ID
+11. Navigate to your tenant (tenant name that you noted from Step 9) where your AAD exists, click on App registrations and search for application which corresponds to Client ID (Client ID that was noted from Step 10)
+    :::image type="content" source="../../media/Teams SSO MultiTenant 5.png" alt-text="Teams SSO 5":::
+12. Click on the application and navigate to ‘Authentication’ and select ‘Accounts in any organizational directory (Any Azure AD directory - Multitenant)’ under Supported account types and click ‘Save’
+    :::image type="content" source="../../media/Teams SSO MultiTenant 6.png" alt-text="Teams SSO 6":::
+13. For each tenant follow steps mentioned as below
+
+      * [Install the Microsoft Teams App for your organization](#step-3---install-the-microsoft-teams-app-for-your-organization).
+      * [Setup app policies to pin the training application from the Microsoft Team admin center](#step-4---setup-app-policies-to-pin-the-training-application-from-the-microsoft-team-admin-center).
+
+14. Setup app policies to pin the training application from the Microsoft Team admin center
+15. Once the above steps are done, for first time login using multiple tenants, admin of those tenants needs to approve the client ID of the MCT application by using the below URL
+
+    ```http
+    https://login.microsoftonline.com/common/adminconsent?client_id=<client_ID_of_your_application>
+    ```
+
+16. The users belonging to multiple tenants will now be able to access MCT application through their Teams application.
+:::image type="content" source="../../media/Teams SSO MultiTenant 7.png" alt-text="Teams SSO 7":::
+
 ## Schedule an MS Teams meeting for your learners
 
 Microsoft Community Training platform allows the Administrators to set-up and schedule meetings over MS Teams from within the platform itself. These meetings can be for the learners enrolled to a specific course/ learning path/ or a user group to enhance their learning curve.

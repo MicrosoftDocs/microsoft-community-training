@@ -131,7 +131,7 @@ In this article, you will learn about how to setup Teams SSO login supporting mu
 5. Go under Applications Settings tab
     :::image type="content" source="../../media/Teams SSO MultiTenant 3.png" alt-text="Teams SSO 3":::
 6. Search for `Features:IsMultiOrgDeployment`, add this if it does not exist, set the **value** as `true`, then click ‘Ok’
-7. Next, search for `idp:AzureADExternalAuthTenantId`, add this application setting if it does not exist using New application setting option
+7. Next, search for `idp:AzureADExternalAuthTenantId`, add this application setting if it does not exist using **New application setting** option
 8. Set the **value** as `common` replacing the existing tenant id (we suggest you keep a copy of your original Tenant ID value as a reference), then click ‘Ok’
     :::image type="content" source="../../media/Teams SSO MultiTenant 4.png" alt-text="Teams SSO4":::
 9. Now while in Configurations section, search for `idp:AzureADExternalAuthTenant` and note the Tenant name

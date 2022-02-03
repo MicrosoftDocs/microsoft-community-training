@@ -118,7 +118,7 @@ If you haven't, please follow the Installation steps first and then refer this a
 
 Microsoft Community Training platform supports login via multiple tenants in Teams for AAD based authentication instances.
 
-In this article, you will learn about how to setup Teams SSO login supporting multiple tenants to allow users of multiple tenants, use your MCT instance in Teams application.
+In this article, you will learn about how to setup Teams SSO login supporting multiple tenants.
 
 ### Steps to enable multi-tenant login in Teams for an AAD based instance
 

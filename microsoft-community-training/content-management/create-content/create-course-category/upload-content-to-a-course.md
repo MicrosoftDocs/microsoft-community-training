@@ -94,7 +94,7 @@ You can manually upload the required content to a course using New Lesson option
 
 9. Repeat **Step 2 to Step 6 to continue to add more lessons** for the course.
 
-**Next>** [**Add practice quiz and exams**](add-practice-quizzes-and-exam.md) to the course or [**publish the course**](publishing-course.md) for the learners
+**Next>** [**Add practice quiz and exams**](add-assessments-to-a-course.md) to the course or [**publish the course**](publishing-course.md) for the learners
 
 > [!TIP]
 > Whenever you are performing content upload, [**scale up your platform configuration**](../../../infrastructure-management/configure-your-platform-infrastructure/scale-up-instance-configuration.md) to reduce the upload and processing time for the content)
@@ -118,7 +118,7 @@ Before you start doing the bulk upload of lessons for a course, you need to make
 > [!NOTE]
 > Practice quizzes and exams cannot be added to the course via bulk upload functionality unless [**you are exporting courses from one instance to another**](../../../content-management/manage-content/manage-course-category/move-course-content-across-training-instance.md).
 >
-> The admins have to add them via [**add quiz and exam workflow**](../../../content-management/create-content/create-course-category/add-practice-quizzes-and-exam.md).
+> The admins have to add them via [**add quiz and exam workflow**](../../../content-management/create-content/create-course-category/add-assessments-to-a-course.md).
 
 ### Steps for bulk upload lessons for a course
 
@@ -154,7 +154,7 @@ Before you start doing the bulk upload of lessons for a course, you need to make
 
 9. Click on the **Save** icon to update the tags for the lessons in a course.
 
-**Next>** Once the lessons are uploaded, you can [**add assessment**](add-practice-quizzes-and-exam.md) or [**publish course**](publishing-course.md) for learners to consume the content via the web portal or mobile application.  
+**Next>** Once the lessons are uploaded, you can [**add assessment**](add-assessments-to-a-course.md) or [**publish course**](publishing-course.md) for learners to consume the content via the web portal or mobile application.  
 
 > [!NOTE]
 > For video content, processing can take hours depending upon the number of videos, size and configuration of media service end point. This processing is a non-blocking operation and admins are allowed to do other tasks.

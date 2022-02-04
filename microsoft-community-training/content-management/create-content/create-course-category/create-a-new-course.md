@@ -181,7 +181,7 @@ Before you start doing the bulk upload of courses under a category, you need to 
     g. Enrollment type – Self enrollment
     ```
 
-**Next>** Once the course is uploaded, you can [**add assessments**](add-practice-quizzes-and-exam.md) or [**publish the course**](publishing-course.md) for learners to consume the content via the web portal or mobile application.
+**Next>** Once the course is uploaded, you can [**add assessments**](add-assessments-to-a-course.md) or [**publish the course**](publishing-course.md) for learners to consume the content via the web portal or mobile application.
 
 > [!TIP]
 > When performing bulk upload course operations,  [**scale up your platform configuration**](../../../infrastructure-management/configure-your-platform-infrastructure/scale-up-instance-configuration.md) to reduce the upload and processing time for the content.)

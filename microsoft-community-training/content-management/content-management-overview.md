@@ -113,7 +113,7 @@ Content creation is one of the core activities of any online learning program. T
 
 ### Step 4 – Add practice quiz and exam for the course
 
- Here are the detailed steps on [**how to add quizzes and exams**](create-content/create-course-category/add-practice-quizzes-and-exam.md) for the course on the portal.
+ Here are the detailed steps on [**how to add quizzes and exams**](create-content/create-course-category/add-assessments-to-a-course.md) for the course on the portal.
 
 ### Step 5 – Publish the course for the learners  
 

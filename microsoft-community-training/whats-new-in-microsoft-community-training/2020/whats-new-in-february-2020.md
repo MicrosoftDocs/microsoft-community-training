@@ -13,7 +13,7 @@ We’re excited to share the new product update of Microsoft Community Training 
 
 ## Shuffle questions in an exam
 
-In this update, we have released a new setting which allows you to [**set shuffle mode**](../../content-management/create-content/create-course-category/add-practice-quizzes-and-exam.md) for exam questions when you create or update an exam. This ensures that your learners will always be offered a different version of the quiz so you can be sure that answers cannot be memorized for subsequent attempts or copied from others.
+In this update, we have released a new setting which allows you to [**set shuffle mode**](../../content-management/create-content/create-course-category/add-assessments-to-a-course.md) for exam questions when you create or update an exam. This ensures that your learners will always be offered a different version of the quiz so you can be sure that answers cannot be memorized for subsequent attempts or copied from others.
 ![Shuffle questions in an exam](../../media/image%28211%29.png)
 
 ## Add audio content as lesson for a course

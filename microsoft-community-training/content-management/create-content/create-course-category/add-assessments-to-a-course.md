@@ -1,6 +1,6 @@
 ---
 title: Add non-graded assessment and graded assessment for a course
-original-url: https://docs.microsoftcommunitytraining.com/docs/add-practice-quizzes-and-exam
+original-url: https://docs.microsoftcommunitytraining.com/docs/add-assessments-to-a-course
 author: nikotha
 ms.author: nikotha
 description: Microsoft Community Training platform allows trainers to add assessments as a way to evaluate learners on their knowledge and proficiency.
@@ -46,12 +46,14 @@ In this article, you will learn about how to add non-graded assessments to a cou
 
 4. Enter details for the **non-graded assessments** on the portal as below:
     * Non-graded Assessments Title – This would be assessment name.
-    * Multiple correct answers toggle - Enabling this toggle will allow the Administrator to select multiple correct answers to that question - hence making the question multiple-choice multi-correct type.
-    :::image type="content" source="../../../media/Assessment - multi-correct.PNG" alt-text="multiple correct":::
+    * **Multiple correct answers toggle** - Enabling this toggle will allow the Administrator to select multiple correct answers to that question - hence making the question multiple-choice multi-correct type.
+        :::image type="content" source="../../../media/Assessment - multi-correct.PNG" alt-text="multiple correct":::
     * Question Title – add your question in this field. Check [**sample questions**](#question-types-for-any-assessment) to know more about the types of questions you can create on the portal.
     * Options – add one or more options as possible answers for the question. Check the **radio button/checkbox** to the left of the text field to select the correct answer(s).
     * **Answer Explanation** - Click on the icon besides every option to add explanation for that specific option.
         :::image type="content" source="../../../media/Assessment - answer explanantion.PNG" alt-text="answer explanation":::
+
+    A non-graded assessment might typically look like this:
 
      :::image type="content" source="../../../media/Assessment - New AssessmentQuiz.PNG" alt-text="Quiz question details":::
 
@@ -113,7 +115,7 @@ In this article, you will learn about how to add a graded assessment to a course
 8. Once you are done adding questions, click or tap **Save** icon to the right-end of the assessment title to upload the exam to the portal.
 
 > [!TIP]
-> Use the [**bulk upload questions feature**](add-practice-quizzes-and-exam.md#bulk-upload-questions-for-a-non-graded-assessment-or-graded-assessment) to seamlessly import your existing questions list for an Exam.
+> Use the [**bulk upload questions feature**](add-assessments-to-a-course.md#bulk-upload-questions-for-a-non-graded-assessment-or-graded-assessment) to seamlessly import your existing questions list for an Exam.
 
 ## Bulk upload questions for a non-graded assessment or graded assessment
 
@@ -195,7 +197,7 @@ In this article, you will learn about the variety of question types that you can
 Following are the question types that can be created on the portal,
 
 1. Single Choice Question – can be answered with only one correct answer
-2. Multi Choice Question – can be answered with more than one correct answer
+2. Multi Choice - Multi Correct Question – can be answered with more than one correct answer
 3. True/False Question – can be answered with either True or False
 4. Fill in the Blank Question – can be answered by filling blank in a statement
 5. Chronological Question – can be answered by logical ordering of text/images
@@ -220,21 +222,13 @@ To create a single choice question,
 
     :::image type="content" source="../../../media/image(227).png" alt-text="Question Sample":::
 
-### Multi Choice Question
+### Multi Choice - Multi Correct Question
 
-![Multi Choice Question](../../../media/image%28235%29.png)
+This type of question can be created by enabling **Multiple correct answers toggle**. This will allow the Administrator to select multiple correct answers to that question - hence making the question multiple-choice multi-correct type.
+    :::image type="content" source="../../../media/Assessment - multi-correct detailed.PNG" alt-text="multiple correct":::
 
-For this type of question, learners can choose more than one answer among the available options because there is more than one correct answer.
-
-To create a multiple-choice question,
-
-1. Add the question along with possible options of text, images or links in the question title box
-2. Create answer options as combinations of the possible options listed in the question title box
-3. Select the correct answer option by checking the radio button to the left of the answer text field
-
-This question will appear like this for the learners -
-
-![Multi Choice Question Sample](../../../media/image%28230%29.png)
+>[!Note]
+> The change in type of question (between single correct and multi-coorect) cannot be done once the assessment is saved as the toggle will disappear from the question box.
 
 ### True/False Question  
 

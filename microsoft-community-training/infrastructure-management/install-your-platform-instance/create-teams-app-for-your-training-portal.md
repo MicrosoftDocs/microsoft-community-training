@@ -123,23 +123,36 @@ In this article, you will learn about how to setup Teams SSO login supporting mu
 ### Steps to enable multi-tenant login in Teams for an AAD based instance
 
 1. Login to [**Azure portal**](https://ms.portal.azure.com/#home)
+
 2. Go to App Services from the left-menu
+
     :::image type="content" source="../../media/Teams SSO MultiTenant 1.png" alt-text="Teams SSO MultiTenant1":::
+
 3. Click on the app service belonging to your Microsoft Community Training instance.
 4. Select Configuration under settings from the left-menu
+
     :::image type="content" source="../../media/Teams SSO MultiTenant 2.png" alt-text="Teams SSO 2":::
+
 5. Go under Applications Settings tab
+
     :::image type="content" source="../../media/Teams SSO MultiTenant 3.png" alt-text="Teams SSO 3":::
+
 6. Search for `Features:IsMultiOrgDeployment`, add this if it does not exist, set the **value** as `true`, then click ‘Ok’
 7. Next, search for `idp:AzureADExternalAuthTenantId`, add this application setting if it does not exist using **New application setting** option
 8. Set the **value** as `common` replacing the existing tenant id (we suggest you keep a copy of your original Tenant ID value as a reference), then click ‘Ok’
+
     :::image type="content" source="../../media/Teams SSO MultiTenant 4.png" alt-text="Teams SSO4":::
+
 9. Now while in Configurations section, search for `idp:AzureADExternalAuthTenant` and note the Tenant name
 10. Also, search for `idp:AzureADExternalAuthClientId` and note Client ID
 11. Navigate to your tenant (tenant name that you noted from Step 9) where your AAD exists, click on App registrations and search for application which corresponds to Client ID (Client ID that was noted from Step 10)
+
     :::image type="content" source="../../media/Teams SSO MultiTenant 5.png" alt-text="Teams SSO 5":::
+
 12. Click on the application and navigate to ‘Authentication’ and select ‘Accounts in any organizational directory (Any Azure AD directory - Multitenant)’ under Supported account types and click ‘Save’
+
     :::image type="content" source="../../media/Teams SSO MultiTenant 6.png" alt-text="Teams SSO 6":::
+
 13. For each tenant follow steps mentioned as below
 
       * [Install the Microsoft Teams App for your organization](#step-3---install-the-microsoft-teams-app-for-your-organization).
@@ -153,7 +166,8 @@ In this article, you will learn about how to setup Teams SSO login supporting mu
     ```
 
 16. The users belonging to multiple tenants will now be able to access MCT application through their Teams application.
-:::image type="content" source="../../media/Teams SSO MultiTenant 7.png" alt-text="Teams SSO 7":::
+
+    :::image type="content" source="../../media/Teams SSO MultiTenant 7.png" alt-text="Teams SSO 7":::
 
 ## Schedule an MS Teams meeting for your learners
 

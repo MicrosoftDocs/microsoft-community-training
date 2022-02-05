@@ -51,7 +51,9 @@
       - name: Create Content
         items: 
          - name: Create Course / Category
-           items: 
+           items:
+            - name: Content Marketplace
+              href: content-management/create-content/create-course-category/content-marketplace.md 
             - name: Create a category
               href: content-management/create-content/create-course-category/create-a-category.md
             - name: Create a new course
@@ -250,6 +252,10 @@
            href: whats-new-in-microsoft-community-training/2021/what-new-in-july-2021.md
          - name: What's new in October 2021
            href: whats-new-in-microsoft-community-training/2021/whats-new-in-october-2021.md
+      - name: 2022
+        items:
+         - name: What's new in February 2022
+           href: whats-new-in-microsoft-community-training/2022/whats-new-in-february-2022.md
    - name: Learning in Offline Mode
      items:
      - name: Offline Learning with Microsoft Community Training

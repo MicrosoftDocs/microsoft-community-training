@@ -28,7 +28,7 @@ Curated content from Microsoft to enable digital literacy: [**Digital Literacy**
 Training on Office 365 tools: Collection of training material on Office tools like Excel, Word, Outlook, OneDrive etc.
 
 >[!Note]
-    > Office 365 courses in marketplace are added as lessons with external links mapping to relevant tutorial video, to have them play inline with MCT you need to [**embed the domain**](../../../settings/configurations-on-the-training-platform.md#allow-external-video-embedding-into-mct) `microsoft.com` in the [**app settings**](../../../settings/configurations-on-the-training-platform.md#steps-to-set-the-configurations-on-the-platform)
+> Office 365 courses in marketplace are added as lessons with external links mapping to relevant tutorial video, to have them play inline with MCT you need to [**embed the domain**](../../../settings/configurations-on-the-training-platform.md#allow-external-video-embedding-into-mct) `microsoft.com` in the [**app settings**](../../../settings/configurations-on-the-training-platform.md#steps-to-set-the-configurations-on-the-platform)
 
 >**Next Steps:**
 >

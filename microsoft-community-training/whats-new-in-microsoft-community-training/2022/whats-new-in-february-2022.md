@@ -56,4 +56,4 @@ In MCT, an admin of a learning path or group can now use the search bar to searc
 
 * If you are planning to reuse (download and upload) course content across instances, please ensure that both instances are on latest release as we've made changes to meta-date schema in this release.
 
-* If you are planning to reuse (download and upload) questions across instances, due to file format changes, you now have to update the csv template.
+* If you are planning to reuse (download and upload) questions across instances, due to file format changes, you now have to update the [csv template] (https://github.com/MicrosoftDocs/microsoft-community-training/files/8015610/Sample.CSV.-.Quiz.csv).

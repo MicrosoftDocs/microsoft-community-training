@@ -24,6 +24,8 @@ In Microsoft Community Platform, **‘exam’** as been rephrased as **‘graded
 
 :::image type="content" source="../../media/assessment-newold.png" alt-text="newoldassesmentchange":::
 
+Now, it is possible to have multiple graded assessments as a part of single course at desired location.
+
 Now administrators can add multiple correct answers to a question. It is also possible to [add answer explanations](../../content-management/create-content/create-course-category/add-assessments-to-a-course.md#add-non-graded-and-graded-assessments-to-a-course).
 
 :::image type="content" source="../../media/assesmentsfeb22.png" alt-text="feb22assessmentchange":::
@@ -49,3 +51,9 @@ Microsoft Community Training platform now supports enabling SSO login for [multi
 In MCT, an admin of a learning path or group can now use the search bar to search and find a respective group or learning path. This feature eases out searching where an admin has large number of learning paths or groups to manage.
 
 :::image type="content" source="../../media/groupsearch.png" alt-text="searchingroups":::
+
+## Changes in API
+
+* If you are planning to reuse (download and upload) course content across instances, please ensure that both instances are on latest release as we've made changes to meta-date schema in this release.
+
+* If you are planning to reuse (download and upload) questions across instances, due to file format changes, you now have to update the csv template.

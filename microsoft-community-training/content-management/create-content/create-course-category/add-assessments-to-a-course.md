@@ -72,9 +72,12 @@ In this article, you will learn about how to add non-graded assessments to a cou
     > [!TIP]
     > Use the [**bulk upload questions feature**](#bulk-upload-questions-for-a-non-graded-assessment-or-graded-assessment) to seamlessly import your existing questions list for a non-graded assessment.
 
-## Add graded assessment for a course
+## Add graded assessment(s) for a course
 
 In this article, you will learn about how to add a graded assessment to a course:
+
+>[!TIP]
+> You can use graded assessments at various points in a course to better evaluate learner's understanding of the course.
 
 > [!TIP]
 > Use the graded assessment to evaluate the knowledge of a learner that is acquired from the course. Keep a fair pass percentage based on the degree of difficulty and number of attempts as required for the role.

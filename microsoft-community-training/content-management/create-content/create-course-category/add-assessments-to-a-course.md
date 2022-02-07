@@ -48,7 +48,7 @@ In this article, you will learn about how to add non-graded assessments to a cou
     * Non-graded Assessments Title – This would be assessment name.
     * **Multiple correct answers toggle** - Enabling this toggle will allow the Administrator to select multiple correct answers to that question - hence making the question multiple-choice multi-correct type.
 
-        :::image type="content" source="../../../media/Assessment - multi-correct.PNG" alt-text="multiple correct":::
+        :::image type="content" source="../../../media/Assessment - multi-correct.PNG" alt-text="multicorrect":::
 
     * Question Title – add your question in this field. Check [**sample questions**](#question-types-for-any-assessment) to know more about the types of questions you can create on the portal.
     * Options – add one or more options as possible answers for the question. Check the **radio button/checkbox** to the left of the text field to select the correct answer(s).
@@ -230,7 +230,7 @@ To create a single choice question,
 ### Multi Choice - Multi Correct Question
 
 This type of question can be created by enabling **Multiple correct answers toggle**. This will allow the Administrator to select multiple correct answers to that question - hence making the question multiple-choice multi-correct type.
-    :::image type="content" source="../../../media/Assessment - multi-correct detailed.PNG" alt-text="multiple correct":::
+    :::image type="content" source="../../../media/Assessment - multi-correct detailed.PNG" alt-text="multiple_correct":::
 
 >[!Note]
 > The change in type of question (between single correct and multi-correct) cannot be done once the assessment is saved as the toggle will disappear from the question box.

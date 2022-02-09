@@ -74,6 +74,14 @@ The platform can accept files size depending on the upload size limit as specifi
 
 Yes, customers can embed videos from any external platforms such as YouTube, MS Learn etc. on the Microsoft Community Training portal.  However, learners will not be able to download such content on the mobile app for offline consumption.
 
+>[!Note]
+> For Vimeo videos, they do not allow their videos to get embedded directly on any other platform. In order to get the embed URL for any video, you need to follow the below steps:
+>
+> * In your Vimeo video player, click on share button, under Embed section copy the code highlited as below and you can paste this as external url for lesson in MCT
+> :::image type="content" source="../media/viemoshare.png" alt-text="sharevimeo":::
+>
+> * If receiving any playback error while playing Vimeo video in MCT, you need update [privacy settings](https://vimeo.zendesk.com/hc/en-us/articles/115015677227-Troubleshoot-player-error-messages) in your Vimeo account.
+
 ### How can I allow external videos to play inside Microsoft Community Training?
 
 1. Login to Azure portal.

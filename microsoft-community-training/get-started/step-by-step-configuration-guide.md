@@ -64,12 +64,12 @@ To add learning material into your training portal, first you need to [**define 
 
 3. Upload a customized image relating to the course topic to provide visual cue to the learners. Try to create different thumbnails for each course, as to avoid redundancy by using the same image.
 
- Once you have created the courses, [**add learning materials**](../content-management/create-content/create-course-category/upload-content-to-a-course.md) like Video, PDF, PowerPoint, YouTube Links, etc. and [**manage the course options**](../content-management/manage-content/manage-course-category/manage-users-for-a-course.md) according to your needs. Lastly, [**add practice quiz and exams**](../content-management/create-content/create-course-category/add-practice-quizzes-and-exam.md) before [**publishing the course**](../content-management/create-content/create-course-category/publishing-course.md) for the learners.
+ Once you have created the courses, [**add learning materials**](../content-management/create-content/create-course-category/upload-content-to-a-course.md) like Video, PDF, PowerPoint, YouTube Links, etc. and [**manage the course options**](../content-management/manage-content/manage-course-category/manage-users-for-a-course.md) according to your needs. Lastly, [**add practice quiz and exams**](../content-management/create-content/create-course-category/add-assessments-to-a-course.md) before [**publishing the course**](../content-management/create-content/create-course-category/publishing-course.md) for the learners.
 
  ![create course gif](../media/create-course-gif.gif)
 
 > [!TIP]
-> Use [**bulk upload course**](../content-management/create-content/create-course-category/create-a-new-course.md#option-2---create-multiple-courses-in-a-category) to quickly upload your training content on the portal
+> Use [**bulk upload course**](../content-management/create-content/create-course-category/create-a-new-course.md#option-3---create-multiple-courses-in-a-category) to quickly upload your training content on the portal
 
 ## Step 5 – Create group and onboard learners to the portal  
 

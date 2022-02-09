@@ -39,10 +39,10 @@ The Microsoft Community Training management portal provides role-based administr
 
 2. Click on **Settings tab** from the left navigation panel and select  Additional Profile fields options from the list
 
-    ![Settings tab](../media/image%28380%29.png)
+    :::image type="content" source="../media/Additional Profil Field - Main screen.PNG" alt-text="Add profile field":::
 
 3. Select the type of profile field to add. Profile fields can be of three types:
-   1. **Text field** - Use this type of field to capture information which are unique to every learners such as Email address, phone number,  employee/student ID, etc.  
+   1. **Text field** - Use this type of field to capture information which are unique to every learners such as Email address, phone number,  employee/student ID, etc. You may add validation as well to this profile field value.
    2. **Single choice** -  Use this type of field when you want learners to choose 1 value among the finite set of options. Use this field to capture learner information such as Job Role, Department, Center Location, etc.
    3. **Multiple choice** - Use this type of field when you want learners to choose 1 or more values among the finite set of options. Use this field to capture learner information such as Topics of Interest, Learning Preferences, etc.
 
@@ -51,7 +51,36 @@ The Microsoft Community Training management portal provides role-based administr
        > * For Single and Multiple choice field, you can add as many options as you prefer.
        > * In total, you can add up to 15 additional fields.
 
-4. Toggle the required option to mark each profile field as either,
+4. **Set validation criteria** - This option is only available for **Text field** type of profile field.
+
+    :::image type="content" source="../media/Profile Field - set validation.PNG" alt-text="set validation":::
+
+    There are three validation criteria that can be selected using the this option:
+    1. **Date**: This criteria will restrict the learner to add value only in the format DD/MM/YYYY.
+    2. **Numerals**: This criteria will restrict the learner to add only numeric value to the profile field.
+    3. **Regular Expression**: This format allows the Administrator to define the validation criteria from his end using the regular expression format.
+    > [!Note]
+    >
+    > * Each criteria will allow the Administrator to enter the **description** in various languages. This description  is shown to the users in the text field input box in the profile panel.
+    > * Each criteria will allow the Administrator to enter the **error messages** in various languages. This message will be shown to the users if they input any value that does not fulfil the validation criteria.
+    > :::image type="content" source="../media/Profile Field - error message and description.PNG" alt-text="error msg and description":::
+
+5. **Add localization to Profile field name** - The Administrator can add translations to the profile field name using the Edit option to the right side of the profile field.
+
+    :::image type="content" source="../media/Profile Field - name translation.PNG" alt-text="Edit name":::
+
+    Enter the translated string along with the language.
+
+    :::image type="content" source="../media/Profile Field - save translation.PNG" alt-text="enter translation":::
+
+6. **Upload/Download List** - This option is only available for **Single Choice** and **Multiple choice** type of profile fields. Using this option, the Administrator can add a large number of values to any specific profile field.
+
+    :::image type="content" source="../media/Profile Field - download-upload list.PNG" alt-text="upload-download-list":::
+
+    > [!Note]
+    > You can download the sample .csv file using the download list option and modify the same file and upload with the new values.
+
+7. Toggle the required option to mark each profile field as either,
    1. **Mandatory**: Learners are compulsorily required to fill in mandatory fields after logging in.
    2. **Hidden**: Learners will not be able to view this field, such fields can be used by administrators for internal management.
    3. **Read-only**: Learners will be able to view the profile field but not edit it.
@@ -59,7 +88,7 @@ The Microsoft Community Training management portal provides role-based administr
    > [!NOTE]
    > Any change in a new or existing profile field will be applicable to new and existing learners on the platform.
 
-5. Once you have added the fields, click on **Publish**. You’ll be asked to confirm by typing Publish again.
+8. Once you have added the fields, click on **Publish**. You’ll be asked to confirm by typing Publish again.
 
 > [!CAUTION]
 > Ensure you click on Publish. Otherwise, the changes you made will be lost.

@@ -23,6 +23,8 @@ This article explains how learners can access the training content using the web
 
 ## Step 2: Create your profile
 
+### For new users
+
 1. When user is logging into the platform for the first time, he or she will be asked to complete the profile information (at least the mandatory fields).
 
 2. The fields displayed on the profile page  are configured by the administrator. For more details, see [**this article**](../settings/add-additional-profile-fields-for-user-information.md).
@@ -30,6 +32,19 @@ This article explains how learners can access the training content using the web
     :::image type="content" source="../media/MCT Complete your profile.png" alt-text="MCT Profile Completion":::
 
 3. Complete the profile information and click  on **Get Started**.
+
+### For existing users
+
+1. Click on the profile icon on top right corner of the learner view page.
+    :::image type="content" source="../media/Profile Field - edit from learner view 1.PNG" alt-text="Edit from learner view":::
+
+2. Modify the profile field(s) as required
+    :::image type="content" source="../media/Profile Field - edit from learner view 2.PNG" alt-text="Edit profile field":::
+
+    >[!Tip]
+    >You can now search for the relevant value from a long list of profile field values the Admin has provided. For example, you can search your city name from a list of all cities in your country.
+
+3. Click on **Confirm** and **Done**.
 
 ## Step 3: Choose the language
 
@@ -41,7 +56,7 @@ This article explains how learners can access the training content using the web
 
     :::image type="content" source="../media/LearnerLanguage1.jpg" alt-text="Learner language drop down":::
 
-3. Content on the home page will be updated based on learner's chosen language. Please refer [**Course Translations**](../content-management/create-content/create-course-category/create-a-new-course.md#option-3-create-multiple-translations-of-a-course) to understand how language change will impact learner view.
+3. Content on the home page will be updated based on learner's chosen language. Please refer [**Course Translations**](../content-management/create-content/create-course-category/create-a-new-course.md#option-4---create-multiple-translations-of-a-course) to understand how language change will impact learner view.
 
 >[!NOTE]
 >Only the languages enabled by the Global administrator will be available for selection. The dropdown will not be available to the learners, if only ONE language is enabled on the platform.
@@ -67,7 +82,7 @@ This article explains how learners can access the training content using the web
 
 1. On the **My Course** page, click on the Learning Path or Course item which you want view and learn.
 
-2. Every course comprises of lessons, practice quizzes and an exam as shown in the course outline below. In the image below, you can see completed course item has a green circled tick mark.
+2. Every course comprises of course description, lessons, practice quizzes and an exam as shown in the course outline below. In the image below, you can see completed course item has a green circled tick mark.
 
     :::image type="content" source="../media/image(181).png" alt-text="green circled tick mark":::
 

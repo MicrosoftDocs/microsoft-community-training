@@ -81,7 +81,33 @@ In this topic, you will learn  simple steps to create a single course in the Mic
 > [!TIP]
 > Use numbering as prefix like  01, 02, 03, 04, 05 etc in the course name as they are alphabetically stacked. Order of courses can be changed by editing the name or numbers in edit course dialogue box.
 
-## Option 2 - Create multiple courses in a category
+## Option 2 - Add Course via Content Marketplace
+
+In this topic, you will learn simple steps to Import courses from marketplace in the platform.
+
+1. On the Microsoft Community Training portal, after login [**switch to administrator view**](../../../get-started/step-by-step-configuration-guide.md#step-2--switch-to-administrator-view-of-the-portal).
+2. Select the Content menu on the left bar and click on **Categories tab**
+3. Select **Marketplace**, on the bottom-left of the page.
+
+    :::image type="content" source="../../../media/marketplace1.png" alt-text="marketplace1img":::
+
+4. You will see a popup with content to choose from various providers.
+
+    :::image type="content" source="../../../media/marketplaceimg2.png" alt-text="imagemarketplace":::
+
+5. After choosing content of your choice, click on ‘Import course’ button
+
+    :::image type="content" source="../../../media/marketplaceimg3.png" alt-text="marketplace3img":::
+
+6. Search and choose for category that you want the course to be imported to.
+
+    :::image type="content" source="../../../media/marketplaceimg4.png" alt-text="img4marketplace":::
+
+7. The course you selected will now be imported to selected category as shown
+
+    :::image type="content" source="../../../media/marketplaceimg5.png" alt-text="imagemarketplace5":::
+
+## Option 3 - Create multiple courses in a category
 
 The easiest way to create courses and upload content in the learning portal is to leverage the **Bulk Upload Courses**  feature. Administrators can save time by creating multiple courses and uploading content at once using the Bulk Upload Courses functionality.
 
@@ -151,7 +177,7 @@ Before you start doing the bulk upload of courses under a category, you need to 
     g. Enrollment type – Self enrollment
     ```
 
-**Next>** Once the course is uploaded, you can [**add assessments**](add-practice-quizzes-and-exam.md) or [**publish the course**](publishing-course.md) for learners to consume the content via the web portal or mobile application.
+**Next>** Once the course is uploaded, you can [**add assessments**](add-assessments-to-a-course.md) or [**publish the course**](publishing-course.md) for learners to consume the content via the web portal or mobile application.
 
 > [!TIP]
 > When performing bulk upload course operations,  [**scale up your platform configuration**](../../../infrastructure-management/configure-your-platform-infrastructure/scale-up-instance-configuration.md) to reduce the upload and processing time for the content.)
@@ -161,9 +187,9 @@ Alternatively, you can check the step by step video tutorial for bulk upload con
  @(Embed)(../../../media/Bulk%20Upload%20Content(1).mp4) 
 --->
 
-## Option 3: Create multiple translations of a Course
+## Option 4 - Create multiple translations of a Course
 
-The learning portal allows you to create multiple translations of a course in different languages. Once a course is created within a category via either [**Option 1 - Create a single course in a category**](create-a-new-course.md#option-1---create-a-single-course-in-a-category) or [**Option 2 - Create multiple courses in a category**](create-a-new-course.md#option-2---create-multiple-courses-in-a-category), administrators can create its translations.  
+The learning portal allows you to create multiple translations of a course in different languages. Once a course is created within a category via either [**Option 1 - Create a single course in a category**](create-a-new-course.md#option-1---create-a-single-course-in-a-category) or [**Option 2 - Create multiple courses in a category**](create-a-new-course.md#option-3---create-multiple-courses-in-a-category), administrators can create its translations.  
 
 > [!NOTE]
 >The default version of the course can be accessed from the left vertical browsing panel. For a learner, if a course translation is not available in its selected language, the default version of the course will render for the learner.
@@ -190,7 +216,7 @@ Let us assume that a course by default is created in the language *English* and 
 > [!NOTE]
 > Course translations can be created only in the languages that are enabled on the platform. Administrators can [enable multiple languages on the platform](../../../settings/customize-languages-for-the-learners-on-the-platform.md).
 
-Next, let us understand how to create course translations once a default course is created via either [**Option 1 - Create a single course in a category**](create-a-new-course.md#option-1---create-a-single-course-in-a-category) or [**Option 2 - Create multiple courses in a category**](create-a-new-course.md#option-2---create-multiple-courses-in-a-category).
+Next, let us understand how to create course translations once a default course is created via either [**Option 1 - Create a single course in a category**](create-a-new-course.md#option-1---create-a-single-course-in-a-category) or [**Option 2 - Create multiple courses in a category**](create-a-new-course.md#option-3---create-multiple-courses-in-a-category).
 
 ### Creating Course Translations
 

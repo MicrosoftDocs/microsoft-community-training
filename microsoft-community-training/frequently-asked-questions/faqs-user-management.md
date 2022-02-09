@@ -13,7 +13,7 @@ ms.prod: azure
 
 ### What kind of login identity is supported by Microsoft Community Training platform?
 
-Currently, there are 3 forms of login identity supported in the platform out of box i.e. Mobile Number, Personal Email Address (or  Social Account) and Azure AD. The customer can choose any one of the above methods as authentication method for the learners on the portal as explained below:
+Currently, there are 3 forms of login identity supported in the platform out of box i.e. Mobile Number, Personal Email Address (or  Social Account) and Azure AD. The customer can choose any one of the above methods as authentication method or any combination of above mentioned 3 forms of login identity for the learners on the portal as explained below:
 
 1. **Mobile Number** - Learners receive one-time-password on the mobile no. which is entered at the time signing in. On successful verification, learners can access the portal.
 
@@ -21,10 +21,14 @@ Currently, there are 3 forms of login identity supported in the platform out of 
 
 3. **Azure Active Directory** -  Learners use their Azure Active Directory (aka Azure AD) credentials to login to the portal.
 
+4. **Login via multiple modes** - Microsoft Community Training supports adding more than one authentication option for a single platform instance. To be able to configure multiple authentications to your instance you need to first create [**AD B2C**](https://docs.microsoft.com/azure/active-directory-b2c/overview) tenant and register an application to later add Mobile number, Personal Email, Azure AD login support for your instance.
+
 Apart from the out-of-box identities, platform can integrate with any existing OAuth 2.0, OpenID Connect or SAML based authenticate service for login. For more information, reach out us [**via HelpDesk**](https://go.microsoft.com/fwlink/?linkid=2104630).
 
+<!---
 > [!NOTE]  
 > Organization can use only 1 of the identity type for login purpose.
+--->
 
 ### I want to use Microsoft Community Training platform for both my internal and external workforces training. How can I configure the platform for such scenarios?
 
@@ -36,13 +40,13 @@ The platform can be setup with Azure AD as the login identity. Learners can use 
 
 #### *Case 2 – Internal workforce is Managed (via Azure AD) and External workforce is not managed*
 
-The platform can be setup with Azure AD B2C i.e. personal email address or social account at the time of deployment which will allow your employees to login using their work account and external partners to login via their personal email ID.
-
-Alternative approach can be to setup your platform with mobile number as identity and let both external and internal workforces use mobile number to login.
+The platform can be setup with Azure AD B2C to support personal email support and you can add Azure AD login support to your B2C instance, which will allow your employees to login using their work account and external partners to login via their personal email ID.
 
 #### *Case 3 - Both internal and external workforce are unmanaged*
 
 The platform can be setup with personal email address (aka social account) or mobile no. as the login identity. Learners can use their existing social account or mobile no. to access the training content. Organizations can make use of groups and admin only courses to ensure external workforce cannot access course content meant for internal employees.
+
+Alternatively, you can setup an instance with AD B2C to support login with personal email, later you can add phone auth which allows users to choose either email or phone for login.
 
 ### Is there a provision for guest login on the Microsoft Community Training platform?
 
@@ -50,9 +54,7 @@ Currently, there  is no guest user provision on the platform. Every user, depend
 
 ### Is it possible to allow learners to login using either Mobile number or Email address for the same instance?
 
-No. Currently, customers can use only 1 login method per instance  i.e. they can either enable Mobile number as login or Email Address as the authentication mechanism.
-
-In the future, we do plan to enable support multiple login identities for the same Microsoft Community Training instance.
+Yes, MCT will support login via multiple modes for same instance,for that you need to have B2C tenant to which you can add Azure AD, phone auth as IDP.
 
 ### My learners don’t have an email address or mobile number, how can they login and access the training content?
 

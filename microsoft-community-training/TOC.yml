@@ -51,7 +51,9 @@
       - name: Create Content
         items: 
          - name: Create Course / Category
-           items: 
+           items:
+            - name: Content Marketplace
+              href: content-management/create-content/create-course-category/content-marketplace.md 
             - name: Create a category
               href: content-management/create-content/create-course-category/create-a-category.md
             - name: Create a new course
@@ -60,8 +62,8 @@
               href: content-management/create-content/create-course-category/upload-content-to-a-course.md
             - name: Add subtitles or captions to video content
               href: content-management/create-content/create-course-category/add-subtitles-or-captions-to-video-content.md
-            - name: Add practice quiz and exam for a course
-              href: content-management/create-content/create-course-category/add-practice-quizzes-and-exam.md
+            - name: Add assessments to a course
+              href: content-management/create-content/create-course-category/add-assessments-to-a-course.md
             - name: Add feedback form for a course
               href: content-management/create-content/create-course-category/add-feedback-form-for-a-course.md
             - name: Publish a course on the training portal
@@ -250,6 +252,10 @@
            href: whats-new-in-microsoft-community-training/2021/what-new-in-july-2021.md
          - name: What's new in October 2021
            href: whats-new-in-microsoft-community-training/2021/whats-new-in-october-2021.md
+      - name: 2022
+        items:
+         - name: What's new in February 2022
+           href: whats-new-in-microsoft-community-training/2022/whats-new-in-february-2022.md
    - name: Learning in Offline Mode
      items:
      - name: Offline Learning with Microsoft Community Training

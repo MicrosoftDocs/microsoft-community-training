@@ -84,7 +84,8 @@ The Standard Placeholders are the data fields that can be used by default on any
 |[Course Name]|[Learning Path Name]|
 |[Course Completion Date]|[Learning Path Completion Date]|
 |[Instance Name]|[Instance Name]|
-|[Exam Score]|N/A|
+|[Average Exam Score]|N/A|
+|[Maximum Exam Score]|N/A|
 
 ### Custom Placeholders
 

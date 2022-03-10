@@ -126,7 +126,7 @@ Raise a [**ticket**](https://sangamhelpdesk.microsoftcrmportals.com/SignIn?Retur
 
     3. Provide App name and Launcher name for your application
 
-    4. Click on “All Settings” and increment your App version and App Version Code by 1 from the version of your existing app, else do not increment the value.
+    4. Click on “All Settings” and increment your App version and App Version Code by 1 from the version of your existing app, if creating the app for first time do not increment the value.
 
         :::image type="content" source="../../media/PWA_migration.png" alt-text="pwamigration1":::
 
@@ -136,7 +136,7 @@ Raise a [**ticket**](https://sangamhelpdesk.microsoftcrmportals.com/SignIn?Retur
 
     6. Download your application bundle.
 
-6. You have a run a script by following steps mentioned in this document that will allow you for [Digital Asset linking](https://developers.google.com/digital-asset-links/v1/getting-started).
+6. Finish the process by running a script with steps as mentioned in this [document](https://github.com/MicrosoftDocs/microsoft-community-training/files/8222196/PWA.Migration.docx) that will allow you for [Digital Asset linking](https://developers.google.com/digital-asset-links/v1/getting-started).
 
 <!--
 5. If you are creating an Android App for your instance for the first time (if you have an existing app and wanted it updated instead of creating new application, then proceed to step 6)

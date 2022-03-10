@@ -26,6 +26,8 @@ In Microsoft Community Platform, **‘exam’** as been rephrased as **‘graded
 
 Now, it is possible to have multiple graded assessments as a part of single course at desired location.
 
+Changes in [custom certificate text](../../settings/customize-the-certificate-template.md#standard-placeholders), certificate template text will now have **[Average Exam Score]** by default. Users also choose to have **[Maximum Exam Score]**
+
 Now administrators can add multiple correct answers to a question. It is also possible to [add answer explanations](../../content-management/create-content/create-course-category/add-assessments-to-a-course.md#add-non-graded-and-graded-assessments-to-a-course).
 
 :::image type="content" source="../../media/assesmentsfeb22.png" alt-text="feb22assessmentchange":::

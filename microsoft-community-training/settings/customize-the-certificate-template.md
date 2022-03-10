@@ -67,7 +67,7 @@ This is to certify that
 </div>
 <b>[Course Name]</b>
 <div>
-    offered by [Instance Name] on [Course Completion Date] with a score of [Exam Score]%.
+    offered by [Instance Name] on [Course Completion Date] with a score of [Average Exam Score]%.
 </div>
 </div>
 ```

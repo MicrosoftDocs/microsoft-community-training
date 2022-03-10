@@ -98,6 +98,10 @@ Since a progressive web app is a type of webpage/website known as a web applicat
 
 As you enabled the PWA, in the backend there will be a [service worker](https://developers.google.com/web/fundamentals/primers/service-workers) and a [web manifest](https://web.dev/add-manifest/) added, through which you can build a native Android application that can be bundled to be uploaded to your play store. We recommend using [**PWABuilder**](https://www.pwabuilder.com/) an online GUI tool that can generate APK & AAB files for your instance.
 
+#### Prerequisites
+
+Raise a [**ticket**](https://sangamhelpdesk.microsoftcrmportals.com/SignIn?ReturnUrl=%2Fsupport%2Fcreate-case%2F) with MCT support team requesting KeyStore file for your existing mobile application or to create a new one if you do not have an existing mobile application for your instance.
+
 #### Part 1: Steps to Generate Android App Bundle
 
 1. Open [**PWABuilder**](https://www.pwabuilder.com/)
@@ -114,6 +118,27 @@ As you enabled the PWA, in the backend there will be a [service worker](https://
 
     :::image type="content" source="../../media/PWA_android3.png" alt-text="PWABuildpackage":::
 
+5. In 'Android App Options' window:
+
+    1. If you want to update an existing application then mention [**Package ID**](https://developers.google.com/android/management/apps#install_apps) of your previously published android app.
+
+    2. If creating application for first time, you can choose to leave it with pre-populated ID.
+
+    3. Provide App name and Launcher name for your application
+
+    4. Click on “All Settings” and increment your App version and App Version Code by 1 from the version of your existing app, if creating the app for first time do not increment the value.
+
+        :::image type="content" source="../../media/PWA_migration.png" alt-text="pwamigration1":::
+
+    5. Scroll to “Signing Key”, choose ‘Use Mine’ and upload the key store file that you received from MCT support team.
+
+        :::image type="content" source="../../media/PWA_Existingapp.png" alt-text="PWA exixting app":::
+
+    6. Download your application bundle.
+
+6. Finish the process by running a script with steps as mentioned in this [document](https://github.com/MicrosoftDocs/microsoft-community-training/files/8222196/PWA.Migration.docx) that will allow you for [Digital Asset linking](https://developers.google.com/digital-asset-links/v1/getting-started).
+
+<!--
 5. If you are creating an Android App for your instance for the first time (if you have an existing app and wanted it updated instead of creating new application, then proceed to step 6)
 
     * Provide App name and Launcher name for your application and click Generate.
@@ -156,6 +181,8 @@ This links protocol & API and enable an app or website to make public, verifiabl
     :::image type="content" source="../../media/Digitalassetlinksfinal.png" alt-text="DLAFinal":::
 
 5. you can now [upload](https://support.google.com/googleplay/android-developer/answer/9859152?hl=en&ref_topic=7072031&visit_id=637708323322373803-2268564924&rd=1) your AAB to your Play Store.
+
+-->
 
 ## Option 2: Requesting a mobile app AAB from the platform team
 

@@ -56,7 +56,7 @@ MCT requires Azure Active Directory application creation and registration. To su
 1. Open Cloud Shell in azure portal
 
 2. Run the following steps in a Cloud Shell instance using the PowerShell environment.
-    1. Download the AAD app creation script using following command: `wget -q https://sangamapps2.blob.core.windows.net/aad-app-creation/AADAppCreation.ps1 -O ./aad_app_creation.ps1`
+    1. Download the AAD app creation script using following command: `wget -q https://raw.githubusercontent.com/MicrosoftDocs/microsoft-community-training/live/microsoft-community-training/media/aad_app_creation.ps1 -O ./aad_app_creation.ps1`
 
     2. By default, the file is downloaded to your home directory. Navigate to the home directory with following command: **cd**
 

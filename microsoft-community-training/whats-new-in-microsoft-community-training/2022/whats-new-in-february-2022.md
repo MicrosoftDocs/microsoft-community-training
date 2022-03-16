@@ -54,8 +54,9 @@ In MCT, an admin of a learning path or group can now use the search bar to searc
 
 :::image type="content" source="../../media/groupsearch.png" alt-text="searchingroups":::
 
-## Changes in API
+## Changes in DB/API
 
+* Please refer to the DB chnages made for this release [DB Schema](https://github.com/MicrosoftDocs/microsoft-community-training/files/7889844/MCT_DB_Schema_Jan2022.pdf)
 * If you are planning to reuse (download and upload) course content across instances, please ensure that both instances are on latest release as we've made changes to meta-date schema in this release.
 
 * If you are planning to reuse (download and upload) questions across instances, due to file format changes, you now have to update the [csv template](https://github.com/MicrosoftDocs/microsoft-community-training/files/8015610/Sample.CSV.-.Quiz.csv).

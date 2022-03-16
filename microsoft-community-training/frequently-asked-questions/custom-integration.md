@@ -82,6 +82,19 @@ Microsoft community training does not have this function out of the box. However
 
 For more details, reach out to us [**via HelpDesk**](https://go.microsoft.com/fwlink/?linkid=2104630).
 
+### Can the administrators share deep link of courses with the learners?
+
+Yes, the administrators can obtain the deep link of each course on the MCT portal and share the same with the learners. To obtain the deep link of a course, the administrators need to follow the below steps:
+
+1. Go the Administrator view of your MCT instance.
+2. Go to the course for which you want to obtain the deep link.
+3. Click on "**View as Learner**" icon on the top-right pane of the course.
+
+   ![Course options](https://user-images.githubusercontent.com/87796184/158620704-7b4044e3-f46a-4786-80c6-1fb187c4ef8f.PNG)
+4. On this learner's view, copy the URL that is displayed on the browser.
+
+This link obtained above is the deep link of the course and can be shared with the learners.
+
 ## Rest APIs
 
 ### Are there any Rest APIs available for integration with existing systems or applications?

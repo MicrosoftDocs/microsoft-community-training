@@ -82,7 +82,7 @@ This article explains how learners can access the training content using the web
 
 1. On the **My Course** page, click on the Learning Path or Course item which you want view and learn.
 
-2. Every course comprises of lessons, practice quizzes and an exam as shown in the course outline below. In the image below, you can see completed course item has a green circled tick mark.
+2. Every course comprises of course description, lessons, practice quizzes and an exam as shown in the course outline below. In the image below, you can see completed course item has a green circled tick mark.
 
     :::image type="content" source="../media/image(181).png" alt-text="green circled tick mark":::
 

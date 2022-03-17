@@ -83,10 +83,6 @@ In this topic, you will learn  simple steps to create a single course in the Mic
 
 ## Option 2 - Add Course via Content Marketplace
 
-Microsoft community training now allows users to import courses via Content Marketplace available at your fingertips from the admin view of your training portal. Content Marketplace is a catalogue of top-notch training material from Microsoft ranging from digital literacy, soft skills, Office 365, Azure cloud to latest in-demand technological tools. Take advantage of this high-quality material to get a head start on your training programs.
-
-### Steps to add content from Marketplace
-
 In this topic, you will learn simple steps to Import courses from marketplace in the platform.
 
 1. On the Microsoft Community Training portal, after login [**switch to administrator view**](../../../get-started/step-by-step-configuration-guide.md#step-2--switch-to-administrator-view-of-the-portal).

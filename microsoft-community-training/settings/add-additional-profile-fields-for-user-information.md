@@ -50,6 +50,9 @@ The Microsoft Community Training management portal provides role-based administr
        >
        > * For Single and Multiple choice field, you can add as many options as you prefer.
        > * In total, you can add up to 15 additional fields.
+       > * For Single/Multiple Choice - When list contains more than 10 options, use of **Upload List** Feature (explained below, in STEP 6) is recommended
+
+
 
 4. **Set validation criteria** - This option is only available for **Text field** type of profile field.
 

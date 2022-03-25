@@ -50,11 +50,20 @@ You can manually upload the required content to a course using New Lesson option
     a. **For uploading content** - Click or tap **Upload** button and choose the content file you want to upload for the lesson. The format of the content must be Video, Audio, PDF, EPUB, Word, Excel, PowerPoint or HTML.
 
     > [!NOTE]
-    > Supported Lesson Content Formats
+    >> **Supported Lesson Content Formats:**
+    >>
+    >> **Video lessons**: MP4, 3GP, 3G2, 3GP2, AVI, MEPG, MPG, WMV, VOB, MKV, FLV, DV, TS, ASF, M4V, MOV
+    >>
+    >> **Audio Lessons**: MP3 & OGG
+    >>
+    >> **Other formats**: PDF, PPT, PPTX, DOCX, EPUB, HTML, External Links
+    >>
+    > MCT does not have [file size restrictions on upload](../../../frequently-asked-questions/faqs-course.md) for most formats but the [App Service plan](https://azure.microsoft.com/pricing/details/app-service/windows/) for your instance might restrict total upload size (multiple uploads across different devices for the same instance) at a time. For App Service plan:
     >
-    > **Video lessons**: MP4, 3GP, 3G2, 3GP2, AVI, MEPG, MPG, WMV, VOB, MKV, FLV, DV, TS, ASF, M4V, MOV
-    > **Audio Lessons**: MP3 & OGG
-    > **Other formats**: PDF, PPT, PPTX, DOCX, EPUB, HTML, External Links
+    >* P1V2 - maximum upload size is 21GB
+    >* P2V2 - maximum upload size is 61GB
+    >
+    >Refer [here](https://github.com/projectkudu/kudu/wiki/Understanding-the-Azure-App-Service-file-system) for more information.
 
     b. **For embedding external web link** - Paste the URL of the web page in the textbox available. The web page can be a YouTube video link or any other web link. For example: [Sample YouTube Video](https://youtu.be/hWY8t_QSOU4). **Learners will not be able to download this content from mobile app.**
 

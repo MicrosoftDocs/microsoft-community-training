@@ -60,8 +60,8 @@ You can manually upload the required content to a course using New Lesson option
     >>
     > MCT does not have [file size restrictions on upload](../../../frequently-asked-questions/faqs-course.md) for most formats but the [App Service plan](https://azure.microsoft.com/pricing/details/app-service/windows/) for your instance might restrict total upload size (multiple uploads across different devices for the same instance) at a time. For App Service plan:
     >
-    >* P1V2 - maximum upload size is 21GB
-    >* P2V2 - maximum upload size is 61GB
+    >* P1V2 - maximum upload size is 18GB
+    >* P2V2 - maximum upload size is 56GB
     >
     >Refer [here](https://github.com/projectkudu/kudu/wiki/Understanding-the-Azure-App-Service-file-system) for more information.
 

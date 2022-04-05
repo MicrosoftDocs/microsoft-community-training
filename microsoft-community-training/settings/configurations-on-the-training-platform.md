@@ -219,6 +219,15 @@ To disable this MS Teams integration, update this app setting with **value â€œ0â
 
 :::image type="content" source="../media/Disable MS Teams integration.PNG" alt-text="Disable teams integration":::
 
+## Enable PWA Mobile App
+
+```Enable PWA Mobile App
+Features:EnableWebAppInstall
+```
+
+The platform supports progressive web applications (PWA). For setting up the mobile app for your training portal, you need to update enable this feature, by setting its value to **True**.
+
+By default, this feature is disabled with the value **False**.
 
 ## Steps to set the Configurations on the Platform
 

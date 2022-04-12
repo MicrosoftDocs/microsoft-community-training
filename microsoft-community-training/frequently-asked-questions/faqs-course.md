@@ -70,6 +70,14 @@ The platform can accept files size depending on the upload size limit as specifi
 | PPT, PPTX, DOCX | 10 MB |
 | Excel | 5 MB |
 
+>[!Note]
+>The [App Service plan](https://azure.microsoft.com/pricing/details/app-service/windows/) for your instance might restrict total upload size (multiple uploads across different devices for the same instance) at a time. For App Service plan:
+>
+>* P1V2 - maximum upload size is 18GB
+>* P2V2 - maximum upload size is 56GB
+>
+>Refer [here](https://github.com/projectkudu/kudu/wiki/Understanding-the-Azure-App-Service-file-system) for more information.
+
 ### Will I be able to link videos from external platforms like YouTube and Vimeo?
 
 Yes, customers can embed videos from any external platforms such as YouTube, MS Learn etc. on the Microsoft Community Training portal.  However, learners will not be able to download such content on the mobile app for offline consumption.

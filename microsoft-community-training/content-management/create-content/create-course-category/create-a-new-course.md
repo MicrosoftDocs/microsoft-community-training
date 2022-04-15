@@ -93,7 +93,7 @@ In this topic, you will learn simple steps to Import courses from marketplace in
 
 4. You will see a popup with content to choose from various providers.
 
-    :::image type="content" source="../../../media/marketplaceimg2.png" alt-text="imagemarketplace":::
+    :::image type="content" source="../../../media/marketplacesearch.png" alt-text="imagemarketplacesearch":::
 
 5. After choosing content of your choice, click on ‘Import course’ button
 

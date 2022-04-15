@@ -25,7 +25,7 @@ To enable sign-in for users with an Azure AD account from a specific Azure AD or
 
     `https://your-B2C-tenant-name.b2clogin.com/your-B2C-tenant-name.onmicrosoft.com/oauth2/authresp`
 
-     If you use a [custom domain](setup-custom-domain-url.md), enter <https://your-domain-name/your-tenant-name.onmicrosoft.com/oauth2/authresp>. Replace ***your-domain-name*** with your custom domain, and ***your-tenant-name*** with the name of your tenant.
+     If you use a [custom domain](setup-custom-domain-url.md), enter `https://your-domain-name/your-tenant-name.onmicrosoft.com/oauth2/authresp`. Replace ***your-domain-name*** with your custom domain, and ***your-tenant-name*** with the name of your tenant.
 8. Select **Register**. Record the **Application (client) ID** for use in a later step.
 9. Select **Certificates & secrets**, and then select **New client secret**.
 10. Enter a **Description** for the secret, select an expiration, and then select **Add**. Record the **Value** of the secret for use in a later step.
@@ -37,11 +37,11 @@ To enable sign-in for users with an Azure AD account from a specific Azure AD or
 3. Select **Identity providers**, and then select **New OpenID Connect provider**.
 4. Enter a **Name**. For example, enter *firstAD*.
 5. For **Metadata url**, enter the following URL replacing {tenant} with the domain name of your Azure AD tenant:
-    <https://login.microsoftonline.com/{tenant}/v2.0/.well-known/openid-configuration>
+    `https://login.microsoftonline.com/{tenant}/v2.0/.well-known/openid-configuration`
 
     **For example:**
-    - <https://login.microsoftonline.com/contoso.onmicrosoft.com/v2.0/.well-known/openid-configuration.>
-    - <https://login.microsoftonline.com/contoso.com/v2.0/.well-known/openid-configuration.>
+    - `https://login.microsoftonline.com/contoso.onmicrosoft.com/v2.0/.well-known/openid-configuration`
+    - `https://login.microsoftonline.com/contoso.com/v2.0/.well-known/openid-configuration`
 
 6. For **Client ID**, enter the application ID that you previously recorded.
 7. For **Client secret**, enter the client secret that you previously recorded.

@@ -158,7 +158,7 @@ When you no longer need your training portal, you can delete it by deleting the 
 
 There are two channels available to the customers to seek help during platform setup and configuration:
 
-1. [**Self-serve documentation website**](https://docs.microsoft.com/azure/industry/training-services/microsoft-community-training/) which helps customers provide how to guide and explain different capabilities of the platform in detail.
+1. [**Self-serve documentation website**](/azure/industry/training-services/microsoft-community-training/) which helps customers provide how to guide and explain different capabilities of the platform in detail.
 2. [**24*7 support desk**](https://go.microsoft.com/fwlink/?linkid=2104630) in case customers are not able to find answers to their queries via documentation site.
 
 ### Can we (Microsoft Partner) host this in our Azure subscription tenant and package it as training platform to existing Office 365 customers? Does the license allow us to do that?

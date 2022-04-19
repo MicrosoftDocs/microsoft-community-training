@@ -277,7 +277,7 @@ In case, content on the external website is not owned by the organization or can
 
 1. If the content is hosted on a video sharing platform like YouTube and Vimeo, the learners will be able to view the content inline similar to the uploaded content. However, learners will not be able to download this content and administrators will not be able to track consumption as the lesson will be marked as completed as soon as the learner opens the lesson.
 
-2. All the other content will open in a new browser window (except in mobile application, where the content will still open inline). The learners will see the following message on opening the lesson. When they click on **View Lesson**, the content will open in a new browser window. This is the behavior for content from external sources such as [**Microsoft Learn**](/learn/) and [**Khan Academy**](https://www.khanacademy.org/test-prep/iit-jee-subject/iit-jee/v/iit-jee-perpendicular-planes-part-1).
+2. All the other content will open in a new browser window (except in mobile application, where the content will still open inline). The learners will see the following message on opening the lesson. When they click on **View Lesson**, the content will open in a new browser window. This is the behavior for content from external sources such as [**Microsoft Learn**](/learn/) and [**Khan Academy**](https://www.khanacademy.org/test-prep/iit-jee-subject/iit-jee-topic).
 
     ![View lesson](../media/image%28255%29.png)
 

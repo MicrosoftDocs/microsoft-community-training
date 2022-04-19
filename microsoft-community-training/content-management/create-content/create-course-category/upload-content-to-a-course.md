@@ -41,13 +41,16 @@ You can manually upload the required content to a course using New Lesson option
 
 3. Select **New Lesson**, to create a new lesson for the course.
 
-    ![New Lesson](../../../media/New%20Lesson.png)
+    :::image type="content" source="../../../media/New Lesson v2.PNG" alt-text="New lesson":::
 
 4. Enter **Lesson Name**. The lesson name is the title of the lesson. For example, *What is Smart Farming*?
 
 5. Add content to the lesson either by uploading content directly to the portal or embedding an external web link.
 
     a. **For uploading content** - Click or tap **Upload** button and choose the content file you want to upload for the lesson. The format of the content must be Video, Audio, PDF, EPUB, Word, Excel, PowerPoint or HTML.
+
+    You can also **upload a SCORM file** in .zip format. After attaching the zip file for the SCORM content, please mark the check box as well to ensure successful validation of the file.
+    :::image type="content" source="../../../media/New Lesson SCORM.PNG" alt-text="SCORM upload":::
 
     > [!NOTE]
     >> **Supported Lesson Content Formats:**
@@ -57,6 +60,8 @@ You can manually upload the required content to a course using New Lesson option
     >> **Audio Lessons**: MP3 & OGG
     >>
     >> **Other formats**: PDF, PPT, PPTX, DOCX, EPUB, HTML, External Links
+    >>
+    >>**SCORM content**: Content compliant to SCORM v1.2 are supported on the platform
     >>
     > MCT does not have [file size restrictions on upload](../../../frequently-asked-questions/faqs-course.md) for most formats but the [App Service plan](https://azure.microsoft.com/pricing/details/app-service/windows/) for your instance might restrict total upload size (multiple uploads across different devices for the same instance) at a time. For App Service plan:
     >
@@ -87,21 +92,24 @@ You can manually upload the required content to a course using New Lesson option
 
 6. Enter tags in the **Add Tags** field to help learners search for the content using relevant keywords. You can add one or more tags for each lesson. For example – *Smart Farming, Internet of Things, Precision Farming*
 
-7. Click or tap **Save**  icon the to upload the content for the lesson.
+7. If you have uploaded content from computer, the files would be visible in the **Attached files** section. You can click on **Replace file** if you wish to upload another file.
+:::image type="content" source="../../../media/New Lesson replace file.PNG" alt-text="replace uploaded content":::
+
+8. Click or tap **Save**  icon the to upload the content for the lesson.
 
     ![Upload progress](../../../media/Upload%20progress.png)
 
     > [!IMPORTANT]
     > Click or tap the **Save** button to complete the add lesson operation. If you perform any other activity before clicking on the Save button, then all your progress will be lost.
 
-8. For video content, after upload is completed, the system will start the encoding process to create multiple copies to optimize streaming on different devices and network quality. You can check the encoding status on the course page as shown below.
+9. For video content, after upload is completed, the system will start the encoding process to create multiple copies to optimize streaming on different devices and network quality. You can check the encoding status on the course page as shown below.
 
     ![Encoding status on the course page](../../../media/image%2849%29.png)
 
     > [!NOTE]
     > Depending upon the video size, it can take upto 20 minutes to complete the encoding process.
 
-9. Repeat **Step 2 to Step 6 to continue to add more lessons** for the course.
+10. Repeat **Step 2 to Step 6 to continue to add more lessons** for the course.
 
 **Next>** [**Add practice quiz and exams**](add-assessments-to-a-course.md) to the course or [**publish the course**](publishing-course.md) for the learners
 

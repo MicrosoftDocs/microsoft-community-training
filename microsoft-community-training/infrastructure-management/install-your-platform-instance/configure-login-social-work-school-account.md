@@ -88,9 +88,9 @@ You can create a new Azure Active Directory tenant or use an existing one based 
 
     * Set to type "Web"
     * Add following to Redirect URIs:
-        * **<https://name.azurefd.net/signin-azureAD>**,
-        * **<https://name.azurewebsites.net/signin-azureAD>** and
-        * **<https://name-staging.azurewebsites.net/signin-azureAD>** where **"name"** corresponds to your website name.
+        * **`https://name.azurefd.net/signin-azureAD`**,
+        * **`https://name.azurewebsites.net/signin-azureAD`** and
+        * **`https://name-staging.azurewebsites.net/signin-azureAD`** where **"name"** corresponds to your website name.
         :::image type="content" source="../../media/Redirect URIs.png" alt-text="Manual AAD Setup Step 1a":::
 
 2. Click on Expose an API from the left menu of your application.

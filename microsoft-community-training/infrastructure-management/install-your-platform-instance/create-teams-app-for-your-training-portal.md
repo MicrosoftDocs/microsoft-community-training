@@ -196,11 +196,17 @@ Creating Organizations for each tenant is important, else users from the tenant 
 1. In Admin View, go to Users tab
 2. Click on Organization Administrators
 3. Click on Manage Organizations
+
     :::image type="content" source="../../media/Add Organization in MultiTenant.png" alt-text="Create Orn in MultiTenant1":::
+
 4. Click on “Add Organization”
+
     :::image type="content" source="../../media/Add Organization2 Multi Tenant.png" alt-text="Add Org to Multi Tenant 2":::
+
 5. Enter **Organization Name** & **Organization Description** to the Organization and then input the **TenantId** ([Steps to find TenantId](/azure/active-directory/fundamentals/active-directory-how-to-find-tenant)) of the respective tenant which has to be added
+
     :::image type="content" source="../../media/Add tenant ID Organization.png" alt-text="Add Org to Multi Tenant 3":::
+
 6. Click on "Create"
 7. Repeat the above steps to create organizations for the other tenants also
 

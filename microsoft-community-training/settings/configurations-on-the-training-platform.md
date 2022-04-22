@@ -157,9 +157,12 @@ EnablePDFLessonDownload
 ```
 
 Value: **true**
-    :::image type="content" source="../media/Enable PDF Download.png" alt-text="Enable PDF Download 1":::
 
-Click on Ok
+:::image type="content" source="../media/Enable PDF Download.png" alt-text="Enable PDF Download 1":::
+
+Click on Ok and then save
+
+:::image type="content" source="../media/Save Application Settings(1).png" alt-text="save app settings":::
 
 MCT portal allows you to enable the Download feature for the PDF lessons in the learner’s view of the platform. You can enable/disable this feature on the portal depending on your specific requirements.
 

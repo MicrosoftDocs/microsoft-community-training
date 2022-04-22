@@ -154,7 +154,8 @@ MCT now supports an organization administrator to add one or more other administ
 
     :::image type="content" source="../media/Add Admin by Org Admin.png" alt-text="Add Admin by Org Admin 1":::
 
-    > [!Note] "Manage Organizations" option is greyed-out for Organization admin and will only be accessible to Global Administrator
+    > [!Note]
+    "Manage Organizations" option is greyed-out for Organization admin and will only be accessible to Global Administrator
 4. In the pop-up box, add the user detail to whom the organization admin access is to be given
 
     :::image type="content" source="../media/Add Admin by Org Admin 2.png" alt-text="Add Admin by Org Admin2":::
@@ -163,9 +164,11 @@ MCT now supports an organization administrator to add one or more other administ
 
     :::image type="content" source="../media/Org Admin addition.png" alt-text="Org Admin list":::
 
-    > [!Note] Organization admin would only be able to see the list of Organizations for which admin access is enabled
+    > [!Note]
+    Organization admin would only be able to see the list of Organizations for which admin access is enabled
 6. After selecting the organization, click on “Create”
-    > [!Note] Organization admin will only be able to edit but not delete other Organization admin
+    > [!Note]
+    Organization admin will only be able to edit but not delete other Organization admin
 
 ## Delete an Organization Administrator
 

@@ -102,8 +102,7 @@ In this article, you will learn about how to add a graded assessment to a course
     * Enable the **Show answers to learner** if you would like to add answer explanation which would be shown to the learner once he/she completes the assessment and are viewing their answers/scores.
     * Enter **Graded Assessment Title**. The graded assessment title is the name for the exam displayed to the learners on the web portal and mobile application. For example: *Final Exam*
 
-
-        :::image type="content" source="../../../media/Assessment - graded question.PNG" alt-text="graded question details":::
+        :::image type="content" source="../../../media/Assessment - graded question.PNG" alt-text="graded assessment":::
 
     > [!NOTE]
     > All the questions in the exam carry equal weightage. And **Exam** is always the last segment of the course.
@@ -166,22 +165,18 @@ Before you start doing the bulk upload of questions for a assessment, you need t
 
 3. Start adding 1 question per row with the following information under each column header:
 
-| Question type | Question Text | Choices | Correct Answer | Answer Explanation | Match Criterion |
-| --- | --- | --- | --- | --- | --- |
-| Single choice | Entire question body | Add as many choices as required | Add the numeric value of the correct option | Add answer explanation for each option separated by semi-colon | Not applicable |
-| Multiple choice | Entire question body | Add as many choices as required | Add the numeric value of the correct option(s) | Add answer explanation for each option separated by semi-colon | Not applicable |
-| Fill blanks | Entire question body with blanks depicted by pipe delimiter | Not applicable | Add correct answers for each blank separated by semi-colon. Separate answers to two blanks via pipe delimiter | Add answer explanation for each option separated by semi-colon | Add the Match type (Contains/Exact Match) for each blank separated by pipe delimiter |
-| True false | Entire question body | Only Choice 1 and choice 2 can be filled | Add "TRUE" or "FALSE" | Not applicable | Not applicable |
+    | Question type | Question Text | Choices (1 to N) | Correct Answer | Answer Explanation | Match Criterion |
+    | --- | --- | --- | --- | --- | --- |
+    | Single choice | Entire question body | Add as many choices as required | Add the numeric value of the correct option | Add answer explanation for each option separated by semi-colon | Not applicable |
+    | Multiple choice | Entire question body | Add as many choices as required | Add the numeric value of the correct option(s) | Add answer explanation for each option separated by semi-colon | Not applicable |
+    | Fill blanks | Entire question body with blanks depicted by pipe delimiter | Not applicable | Correct answer(s) for a blank to be separated by semi-colon. Correct Answer(s) for multiple blank separated via pipe delimiter | Add answer explanation for each option separated by semi-colon | Add the Match type (Contains/ Exact Match) for each blank separated by pipe delimiter |
+    | True false | Entire question body | Only choice 1,2 can be filled | Add "TRUE" or "FALSE" | Not applicable | Not applicable |
 
-    * Serial Number – put the sequence number of the question in the list.
-    * Question Type - specify the type of question **"Single choice"** or **"Multiple choice"** or **Fill blanks** or **True false**
-    * Question Text – put the question text in this field. To add blanks, add the delimiter **|**
-    * Choice 1 to N – add the choices for the question.
-    * Correct Answer – select the correct number among the choices. For e.g. set value to 2 if Choice 2 is the correct answer.
-    * Answer explanation - add the explanation for the correct as well as incorrect answers.
-    * Match Criterion - For Fill in the blank type of question, add the Match type (Contains/Exact Match) for each blank
+    :::image type="content" source="../../../media/Assessment - csv sample upload v2.PNG" alt-text="csv upload":::
 
-        ![CSV file format](../../../media/CSV%20file%20format.png)
+    > [!Note]
+    > A sample CSV file for quick reference is also available. You can download this file from the upload assessment csv screen.
+    >:::image type="content" source="../../../media/Assessment - csv upload.PNG" alt-text="csv upload/sample csv download":::
 
 4. Rename and save the edited file once you are done creating the question list. When editing the CSV file, please take care of the following things:
     * Do not add **comma (,)** in the question or choices when editing the sample file
@@ -286,8 +281,8 @@ To create a Fill in the Blank question,
 
 1. Add the question statement along with the blank fields placeholders added using the option **+ Add a blank field**
 2. Select the **match criterion** of blank using the dropdown and add the answer options with text to be filled in the blanks.
-    * **Contains**: The answer from the learner is marked correct if it matches any of the value(s) provided by Admin. Multiple values in answer text can be provide as 'Cat;The cat;cats' etc.
-    * **Exact Match**: This accepts only 1 value and answer evaluation is case-sensitive.
+    * **Contains**: The answer from the learner is marked correct if it matches any of the value(s) provided by Admin. Multiple values in answer text can be provide as 'Cat;The cat;cats' etc. And if the learner's answer is any of these in case in-sensitive manner, then its marked as correct.
+    * **Exact Match**: This accepts only 1 value and answer evaluation is case-sensitive. Hence, the learner has to enter the exact string to get it marked correct.
 
 The question will appear like this for the learners –
 

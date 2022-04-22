@@ -150,6 +150,19 @@ The portal allows you to hide the Course Library from the learner’s view of th
 
 By default, this feature is kept disabled with value as **False** for permitting the learner to view the library.
 
+## Enable PDF Download feature in the lessons
+
+```Enable
+EnablePDFLessonDownload
+```
+
+Value: **true**
+    :::image type="content" source="../media/Enable PDF Download.png" alt-text="Enable PDF Download 1":::
+
+Click on Ok
+
+MCT portal allows you to enable the Download feature for the PDF lessons in the learner’s view of the platform. You can enable/disable this feature on the portal depending on your specific requirements.
+
 ## Allow learners to skip videos
 
 ```Allow learners to skip videos  

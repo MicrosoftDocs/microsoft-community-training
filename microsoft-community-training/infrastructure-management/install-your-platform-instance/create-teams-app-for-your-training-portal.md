@@ -169,6 +169,41 @@ In this article, you will learn about how to setup Teams SSO login supporting mu
 
     :::image type="content" source="../../media/Teams SSO MultiTenant 7.png" alt-text="Teams SSO 7":::
 
+## Enabling Global Content across multi-tenant enabled Teams Integration based Instances
+
+Global Content enables Categories/Learning Paths created in "Common" Organization to be visible for all administrators and also be available to assign it to any Group/Learning Path across tenants/organizations.
+
+### Steps to Enable Global content across multi-tenants
+
+1. Pre-requisite: [Multi-Tenant support for Azure Active Directory based Authentication in Teams](#multi-tenant-support-for-azure-active-directory-based-authentication-in-teams)
+2. Login to [**Azure portal**](https://ms.portal.azure.com/#home)
+3. Navigate to [Configurations on the Training Platform](../../settings/configurations-on-the-training-platform.md#configurations-on-the-training-platform)
+
+4. Create/Update with below mentioned two App settings in Configurations
+    a.  Search for `Features:IsMultiOrgDeployment`, add this if it does not exist, set the **value** as `true`, then click ‘Ok’
+    b. Next add, `Features:IsGlobalContentEnabled`, set the **value** as `true`, then click ‘Ok’
+
+    :::image type="content" source="../../media/Global Content Configuration.png" alt-text="Global Content 1":::
+
+5. Now, the Categories/Learning Paths created in **"Common"** Organization will be visible to all admin, and will be available for assigning them to any Group/Learning Path
+
+## Creating Organizations for Each Tenant
+
+Creating Organizations for each tenant is important, else users from the tenant will not be able to login
+
+### Steps to create organizations for each tenant
+
+1. In Admin View, go to Users tab
+2. Click on Organization Administrators
+3. Click on Manage Organizations
+    :::image type="content" source="../../media/Add Organization in MultiTenant.png" alt-text="Create Orn in MultiTenant1":::
+4. Click on “Add Organization”
+    :::image type="content" source="../../media/Add Organization2 Multi Tenant.png" alt-text="Add Org to Multi Tenant 2":::
+5. Enter **Organization Name** & **Organization Description** to the Organization and then input the **TenantId** ([Steps to find TenantId](/azure/active-directory/fundamentals/active-directory-how-to-find-tenant)) of the respective tenant which has to be added
+    :::image type="content" source="../../media/Add tenant ID Organization.png" alt-text="Add Org to Multi Tenant 3":::
+6. Click on "Create"
+7. Repeat the above steps to create organizations for the other tenants also
+
 ## Schedule an MS Teams meeting for your learners
 
 Microsoft Community Training platform allows the Administrators to set-up and schedule meetings over MS Teams from within the platform itself. These meetings can be for the learners enrolled to a specific course/ learning path/ or a user group to enhance their learning curve.

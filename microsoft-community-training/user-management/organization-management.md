@@ -139,6 +139,27 @@ Click on the **Delete** icon from the Manage Organizations panel to Delete an Or
 
      ![User Management - Add Organization - Organization Administrator - Edit](../media/User%20Management%20-%20Add%20Organization%20-%20Organization%20Administrator%20-%20Edit.png)
 
+## Adding one or more admins to an organization by Organization Admin
+
+MCT now supports an organization administrator to add one or more other administrators, to their respective Organizations
+
+### Steps to add one or more Administrators to an organization, by Organization Administrator
+
+1. Go to Admin View
+2. In the Users Tab, go to Organization Administrators
+     > [!Note]
+    > An Organization Admin will only be able to see the list of administrators of the organizations to which the Organization Admin has admin access is enabled
+
+3. Click on "Add Administrators”
+:::image type="content" source="../media/Add Admin by Org Admin.png" alt-text="Add Admin by Org Admin 1":::
+    > [!Note] "Manage Organizations" option is greyed-out for Organization admin and will only be accessible to Global Administrator
+4. In the pop-up box, add the user detail to whom the organization admin access is to be given
+    :::image type="content" source="../media/Add Admin by Org Admin 2.png" alt-text="Add Admin by Org Admin2":::
+5. Then select the Organization to which the user must be added as Organization Admin
+    > [!Note] Organization admin would only be able to see the list of Organizations for which admin access is enabled
+6. After selecting the organization, click on “Create”
+    > [!Note] Organization admin will only be able to edit but not delete other Organization admin
+
 ## Delete an Organization Administrator
 
 If an Organization administrator's access is revoked from an Organization, it will not be able to access content and user groups associated with the organization unless specifically added as a learning path, category or group administrator.  

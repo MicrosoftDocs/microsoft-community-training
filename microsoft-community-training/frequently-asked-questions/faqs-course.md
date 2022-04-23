@@ -121,19 +121,21 @@ Yes, customers can embed videos from any external platforms such as YouTube, MS 
 
 ### Does Microsoft Community Training support SCORM content?
 
-Currently, Microsoft Community Training is optimized for video based content for consumption on mobile devices. The platform doesn't provide native support for SCORM based content but it is on the product roadmap.
+Microsoft community training supports for upload of SCORM (version 1.2) package.
 
-Alternatively, we recommend customers use HTML which is faster and works seamlessly with video-based content when compared with SCORM.
+SCORM (Sharable Content Object Reference Model) is a set of technical standards for eLearning software products. SCORM tells programmers how to write their code so that it can “play well” with other eLearning software. It is the de facto industry standard for eLearning interoperability. Learn more about [SCORM](https://scorm.com/scorm-explained/one-minute-scorm-overview/)
 
-While designing a learning unit or a course on an authoring system (such as Adobe Captivate, Articulate Storyline) the user has an option between SCORM compliant export or an HTML package export. Since, HTML is a supported content format on the MCT platform, the admins can use the authoring tool and export the content as an HTML package and then upload as a course or lesson on the MCT platform.
+#### Steps to upload SCORM:
 
-To add HTML content as a lesson,
+* Click on 'New Lesson'
 
-1. Upload a ZIP file containing HTML resources such as HTML, CSS and JS files
-2. There must be an index.html or home.html file at the top level (root directory) within the ZIP file
-3. All resources referenced in the HTML pages must be relative and point to files included in the ZIP file
+* Upload SCORM package, make sure your folder is .zip and it also has `imsmanifest.xml` file
 
-    ![Index](../media/image%28315%29.png)
+* Once file is attached, check the box 'This is a SCORM.zip file'.
+
+* Click Save. Please note that MCT (as of Apr 2022) supports version 1.2 of SCORM packages only.
+
+:::image type="content" source="../media/SCORMupload.png" alt-text="scormuploadimag1":::
 
 ### Does Microsoft Community Training support HTML content?
 

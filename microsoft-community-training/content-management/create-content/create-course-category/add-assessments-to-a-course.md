@@ -175,7 +175,7 @@ Before you start doing the bulk upload of questions for a assessment, you need t
     :::image type="content" source="../../../media/Assessment - csv sample upload v2.PNG" alt-text="csv upload":::
 
     > [!Note]
-    > A [**sample CSV file**]([Sample CSV - Assessment.csv](https://github.com/MicrosoftDocs/microsoft-community-training/files/8556647/Sample.CSV.-.Assessment.csv)
+    > A **sample CSV file**([Sample CSV - Assessment.csv](https://github.com/MicrosoftDocs/microsoft-community-training/files/8556647/Sample.CSV.-.Assessment.csv)
 ) for quick reference is also available. You can download this file from the upload assessment csv screen.
     >:::image type="content" source="../../../media/Assessment - csv upload.PNG" alt-text="csv upload/sample csv download":::
 

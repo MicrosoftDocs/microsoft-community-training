@@ -180,7 +180,7 @@ Before you start doing the bulk upload of questions for a assessment, you need t
 
 4. Rename and save the edited file once you are done creating the question list. When editing the CSV file, please take care of the following things:
     * Do not add **comma (,)** in the question or choices when editing the sample file
-    * Use **semi-colon (;) or pipe(|) as delimiter** when adding multiple values for a single option. Refer to the above step for desired usage.
+    * Use **semi-colon (;) or pipe ( | ) as delimiter** when adding multiple values for a single option. Refer to the above step for desired usage.
     * For any cell, do not split the text into multiple lines (i.e. do not use **ALT + Enter**)
 
 > [!NOTE]
@@ -249,7 +249,7 @@ To create a single choice question,
 
 ### Multi Choice - Multi Correct Question
 
-This type of question can be created by enabling **Multiple correct answers toggle**. This will allow the Administrator to select multiple correct answers to that question - hence making the question multiple-choice multi-correct type.
+This type of question can be created by selecting **MCQ - Multiple correct answers**. This will allow the Administrator to select multiple correct answers to that question - hence making the question multiple-choice multi-correct type.
 
 :::image type="content" source="../../../media/Assessment - multi-correct detailed.PNG" alt-text="multiple correct":::
 

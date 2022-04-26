@@ -175,12 +175,13 @@ Before you start doing the bulk upload of questions for a assessment, you need t
     :::image type="content" source="../../../media/Assessment - csv sample upload v2.PNG" alt-text="csv upload":::
 
     > [!Note]
-    > A sample CSV file for quick reference is also available. You can download this file from the upload assessment csv screen.
+    > A **sample CSV file**([Sample CSV - Assessment.csv](https://github.com/MicrosoftDocs/microsoft-community-training/files/8556647/Sample.CSV.-.Assessment.csv)
+) for quick reference is also available. You can download this file from the upload assessment csv screen.
     >:::image type="content" source="../../../media/Assessment - csv upload.PNG" alt-text="csv upload/sample csv download":::
 
 4. Rename and save the edited file once you are done creating the question list. When editing the CSV file, please take care of the following things:
     * Do not add **comma (,)** in the question or choices when editing the sample file
-    * Use **semi-colon (;) or pipe(|) as delimiter** when adding multiple values for a single option. Refer to the above step for desired usage.
+    * Use **semi-colon (;) or pipe ( | ) as delimiter** when adding multiple values for a single option. Refer to the above step for desired usage.
     * For any cell, do not split the text into multiple lines (i.e. do not use **ALT + Enter**)
 
 > [!NOTE]
@@ -249,7 +250,7 @@ To create a single choice question,
 
 ### Multi Choice - Multi Correct Question
 
-This type of question can be created by enabling **Multiple correct answers toggle**. This will allow the Administrator to select multiple correct answers to that question - hence making the question multiple-choice multi-correct type.
+This type of question can be created by selecting **MCQ - Multiple correct answers**. This will allow the Administrator to select multiple correct answers to that question - hence making the question multiple-choice multi-correct type.
 
 :::image type="content" source="../../../media/Assessment - multi-correct detailed.PNG" alt-text="multiple correct":::
 

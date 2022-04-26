@@ -88,3 +88,34 @@ In this topic, you will learn simple steps to add Group Administrator to the por
 > In case portal is setup with **Social Account or Azure Active Directory** as login identity then you will need to enter email address in the above step.
 
 Alternatively, you can also **Add Administrator** to the group by clicking on the **More(…)** button on the top right of the details page and select **Manage Administrators** option. Click or tap **Add Administrator** button to add administrators to the Group.
+
+## Adding one or more admins to an organization by Organization Admin
+
+MCT now supports an organization administrator to add one or more other administrators, to their respective Organizations
+
+### Steps to add one or more Administrators to an organization, by Organization Administrator
+
+1. Go to Admin View
+2. In the Users Tab, go to Organization Administrators
+     > [!Note]
+    > An Organization Admin will only be able to see the list of administrators of the organizations to which the Organization Admin has admin access is enabled
+
+3. Click on "Add Administrators”
+
+    :::image type="content" source="../../media/Add Admin by Org Admin.png" alt-text="Add admin by Org admin":::
+
+    > [!Note]
+    > "Manage Organizations" option is greyed-out for Organization admin and will only be accessible to Global Administrator
+4. In the pop-up box, add the user detail to whom the organization admin access is to be given
+
+    :::image type="content" source="../../media/Add Admin by Org Admin 2.png" alt-text="Add Admin by Org Admin 2":::
+
+5. Then select the **Organization** to which the user must be added as Organization Administrator
+
+    :::image type="content" source="../../media/Org Admin addition.png" alt-text="Org Admin addition list":::
+
+    > [!Note]
+    > Organization admin would only be able to see the list of Organizations for which admin access is enabled
+6. After selecting the organization, click on “Create”
+    > [!Important]
+    > Organization admin will only be able to edit but not delete other Organization admin

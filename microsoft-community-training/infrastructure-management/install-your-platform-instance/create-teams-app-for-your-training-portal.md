@@ -180,7 +180,9 @@ Global Content enables Categories/Learning Paths created in "Common" Organizatio
 3. Navigate to [Configurations on the Training Platform](../../settings/configurations-on-the-training-platform.md#configurations-on-the-training-platform)
 
 4. Create/Update with below mentioned two App settings in Configurations
+
     a.  Search for `Features:IsMultiOrgDeployment`, add this if it does not exist, set the **value** as `true`, then click ‘Ok’
+
     b. Next add, `Features:IsGlobalContentEnabled`, set the **value** as `true`, then click ‘Ok’
 
     :::image type="content" source="../../media/Global Content Configuration.png" alt-text="Global Content 1":::

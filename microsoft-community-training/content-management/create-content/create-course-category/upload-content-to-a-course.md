@@ -61,7 +61,7 @@ You can manually upload the required content to a course using New Lesson option
     >>
     >> **Other formats**: PDF, PPT, PPTX, DOCX, EPUB, HTML, External Links
     >>
-    >>**SCORM content**: Content compliant to SCORM v1.2 are supported on the platform
+    >>**SCORM content**: Content compliant to SCORM v1.2 are supported on the platform. Make sure your folder is .zip and it also has `imsmanifest.xml` file
     >>
     > MCT does not have [file size restrictions on upload](../../../frequently-asked-questions/faqs-course.md) for most formats but the [App Service plan](https://azure.microsoft.com/pricing/details/app-service/windows/) for your instance might restrict total upload size (multiple uploads across different devices for the same instance) at a time. For App Service plan:
     >

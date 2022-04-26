@@ -125,15 +125,7 @@ Microsoft community training supports for upload of SCORM (version 1.2) package.
 
 SCORM (Sharable Content Object Reference Model) is a set of technical standards for eLearning software products. SCORM tells programmers how to write their code so that it can “play well” with other eLearning software. It is the de facto industry standard for eLearning interoperability. Learn more about [SCORM](https://scorm.com/scorm-explained/one-minute-scorm-overview/)
 
-#### Steps to upload SCORM:
-
-* Click on 'New Lesson'
-
-* Upload SCORM package, make sure your folder is .zip and it also has `imsmanifest.xml` file
-
-* Once file is attached, check the box 'This is a SCORM.zip file'.
-
-* Click Save. Please note that MCT (as of Apr 2022) supports version 1.2 of SCORM packages only.
+[How to upload content to a course](../content-management/create-content/create-course-category/upload-content-to-a-course.md#option-1-manually-add-content-for-each-lesson-in-a-course)
 
 :::image type="content" source="../media/SCORMupload.png" alt-text="scormuploadimag1":::
 

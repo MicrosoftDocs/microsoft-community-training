@@ -139,13 +139,13 @@ Global Content enables Categories/Learning Paths created in "Common" Organizatio
 
 1. Pre-requisite:
 
-    a. For instances without MS Teams Integration: [Multi-Tenant support for Azure Active Directory based Authentication](https://docs.microsoft.com/azure/industry/training-services/microsoft-community-training/infrastructure-management/install-your-platform-instance/configure-login-social-work-school-account#multi-tenant-support-for-azure-active-directory-based-authentication)
+    a. For instances without MS Teams Integration: [Multi-Tenant support for Azure Active Directory based Authentication](../infrastructure-management/install-your-platform-instance/configure-login-social-work-school-account.md#multi-tenant-support-for-azure-active-directory-based-authentication)
 
-    b. For instances with MS Teams Integration:  [Multi-Tenant support for Azure Active Directory based Authentication in Teams](#multi-tenant-support-for-azure-active-directory-based-authentication-in-teams)
+    b. For instances with MS Teams Integration: [Multi-Tenant support for Azure Active Directory based Authentication in Teams](../infrastructure-management/install-your-platform-instance/create-teams-app-for-your-training-portal.md#multi-tenant-support-for-azure-active-directory-based-authentication-in-teams)
 
 2. Login to [**Azure portal**](https://ms.portal.azure.com/#home)
 
-3. Navigate to [Configurations on the Training Platform](../../settings/configurations-on-the-training-platform.md#configurations-on-the-training-platform)
+3. Navigate to [Steps to set the Configurations on the Platform](../settings/configurations-on-the-training-platform.md#steps-to-set-the-configurations-on-the-platform)
 
 4. Create/Update with below mentioned two App settings in Configurations
 
@@ -153,7 +153,7 @@ Global Content enables Categories/Learning Paths created in "Common" Organizatio
 
     b. Next add, `Features:IsGlobalContentEnabled`, set the **value** as `true`, then click ‘Ok’
 
-    :::image type="content" source="../media/Global Content Configuration.png" alt-text="global content configuration":::
+    :::image type="content" source="../media/Global Content Configuration.png" alt-text="Configuration value for Global content":::
 
 5. Now, the Categories/Learning Paths created in **"Common"** Organization will be visible to all admin, and will be available for assigning them to any Group/Learning Path
 

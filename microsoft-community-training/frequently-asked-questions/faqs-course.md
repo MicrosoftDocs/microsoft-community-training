@@ -67,7 +67,7 @@ The platform can accept files size depending on the upload size limit as specifi
 | Video lessons: MP4, 3GP, 3G2, 3GP2, AVI, MPEG, MPG, WMV, VOB, MKV, FLV, DV, TS, ASF, M4V, MOV | No limit |
 | Audio Lessons: MP3 & OGG | No limit |
 | PDF, HTML, External Links, ePUB | No limit |
-| PPT, PPTX, DOCX | 10 MB |
+| PPT, PPTX, DOCX | 100 MB |
 | Excel | 5 MB |
 
 >[!Note]

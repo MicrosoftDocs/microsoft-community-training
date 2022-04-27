@@ -23,7 +23,7 @@ The Microsoft Community Training management portal provides role-based administr
 | Access Level   | Add Global Administrator | Add Organization Administrator | Add Learning Path Administrator | Add Category Administrator | Add Course Administrator | Add Group Administrator  |
 | --- | --- | --- | --- | --- | --- | --- |
 | Global Administrator | Yes | Yes | Yes | Yes | Yes | Yes |
-| Organization Administrator | No | No | Yes | Yes | Yes | Yes |
+| Organization Administrator | No | Yes | Yes | Yes | Yes | Yes |
 | Learning Path Administrator | No | No | Yes | No | No | No |
 | Category Administrator | No | No | No | Yes | Yes | No |
 | Course Administrator | No | No | No | No |  Yes | No |

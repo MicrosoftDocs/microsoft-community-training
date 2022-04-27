@@ -13,6 +13,34 @@ You can customize the learner and administrator experience on the Microsoft Comm
 
 In this article, you will learn about the different configuration options available on the Microsoft Community Training platform and how to enable or disable the configurations.
 
+# Steps to set the Configurations on the Platform
+
+1. Login to [Azure portal](https://www.portal.azure.com/).
+
+2. Go to App Services from the left-menu.
+
+    ![Select App Service.png](../media/Select%20App%20Service%281%29.png)
+
+3. Click on the app service belonging to your Microsoft Community Training instance.
+
+4. Select Configuration under settings from the left-menu.
+
+    ![Select Configurations.png](../media/Select%20Configurations%281%29.png)
+
+5. Go under Applications Settings tab
+
+    ![Select Application Settings.png](../media/Select%20Application%20Settings.png)
+
+6. Select the setting you want to edit, Example - If you want to disable learner comments, use the setting **Features:CommentDisabled** and update it with value “**true**”
+
+    ![Comment Disabled](../media/CommentDisabled.png)
+
+    ![Comment Disabled Editing](../media/CommentDisabledEditing.png)
+
+7. Click on save.
+
+    ![Save Application Settings.png](../media/Save%20Application%20Settings%281%29.png)
+
 ## Certificates Received Metric
 
 ```Certificates Received Metric
@@ -164,7 +192,9 @@ Click on Ok and then save
 
 :::image type="content" source="../media/Save Application Settings(1).png" alt-text="save app settings":::
 
-MCT portal allows you to enable the Download feature for the PDF lessons in the learner’s view of the platform. You can enable/disable this feature on the portal depending on your specific requirements.
+MCT portal allows you to enable the Download feature for the PDF lessons in the learner’s view of the platform.By default this feature is not enabled, you can enable/disable this feature on the portal depending on your specific requirements.
+
+:::image type="content" source="../media/Dowload PDF feature.png" alt-text="Dowload PDF feature":::
 
 ## Allow learners to skip videos
 
@@ -244,31 +274,3 @@ Features:EnableWebAppInstall
 The platform supports progressive web applications (PWA). For setting up the mobile app for your training portal, you need to update enable this feature, by setting its value to **True**.
 
 By default, this feature is disabled with the value **False**.
-
-## Steps to set the Configurations on the Platform
-
-1. Login to [Azure portal](https://www.portal.azure.com/).
-
-2. Go to App Services from the left-menu.
-
-    ![Select App Service.png](../media/Select%20App%20Service%281%29.png)
-
-3. Click on the app service belonging to your Microsoft Community Training instance.
-
-4. Select Configuration under settings from the left-menu.
-
-    ![Select Configurations.png](../media/Select%20Configurations%281%29.png)
-
-5. Go under Applications Settings tab
-
-    ![Select Application Settings.png](../media/Select%20Application%20Settings.png)
-
-6. Select the setting you want to edit, Example - If you want to disable learner comments, use the setting **Features:CommentDisabled** and update it with value “**true**”
-
-    ![Comment Disabled](../media/CommentDisabled.png)
-
-    ![Comment Disabled Editing](../media/CommentDisabledEditing.png)
-
-7. Click on save.
-
-    ![Save Application Settings.png](../media/Save%20Application%20Settings%281%29.png)

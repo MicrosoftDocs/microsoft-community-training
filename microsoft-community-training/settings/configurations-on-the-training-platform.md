@@ -13,7 +13,7 @@ You can customize the learner and administrator experience on the Microsoft Comm
 
 In this article, you will learn about the different configuration options available on the Microsoft Community Training platform and how to enable or disable the configurations.
 
-# Steps to set the Configurations on the Platform
+## Steps to set the Configurations on the Platform
 
 1. Login to [Azure portal](https://www.portal.azure.com/).
 
@@ -194,7 +194,7 @@ Click on Ok and then save
 
 MCT portal allows you to enable the Download feature for the PDF lessons in the learner’s view of the platform.By default this feature is not enabled, you can enable/disable this feature on the portal depending on your specific requirements.
 
-:::image type="content" source="../media/Dowload PDF feature.png" alt-text="Dowload PDF feature":::
+:::image type="content" source="../media/Dowload PDF feature.png" alt-text="Enable Download PDF feature":::
 
 ## Allow learners to skip videos
 

@@ -102,13 +102,13 @@ MCT now supports an organization administrator to add one or more other administ
 
 3. Click on "Add Administrators”
 
-    :::image type="content" source="../../media/Add Admin by Org Admin.png" alt-text="Add admin by Org admin":::
+    :::image type="content" source="../../media/Add Admin by Org Admin.png" alt-text="Add admin option to Org Administrator":::
 
     > [!Note]
     > "Manage Organizations" option is greyed-out for Organization admin and will only be accessible to Global Administrator
 4. In the pop-up box, add the user detail to whom the organization admin access is to be given
 
-    :::image type="content" source="../../media/Add Admin by Org Admin 2.png" alt-text="Add Admin by Org Admin 2":::
+    :::image type="content" source="../../media/Add Admin by Org Admin 2.png" alt-text="Choose Organization details":::
 
 5. Then select the **Organization** to which the user must be added as Organization Administrator
 

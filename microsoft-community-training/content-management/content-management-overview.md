@@ -133,7 +133,9 @@ Here are the detailed steps on [**how to publish a Learning path**](../content-m
 
 ## Enabling Global Content across multi-tenant enabled instances
 
-Global Content enables Categories/Learning Paths created in "Common" Organization to be visible for all administrators and also be available to assign it to any Group/Learning Path across tenants/organizations.
+Microsoft Community Training allows to create a common repository of content which is called as **Global Content**. With this feature, your instance can have a set of content available across organizations/tenants that are associated with your instance.
+
+Global Content enables administrators create Categories/Learning Paths in "Common" Organization. This content will now be visible to all administrators and can then be assigned to any Group/Learning Path across tenants/organizations.
 
 ### Steps to enable Global Content across multi-tenants
 

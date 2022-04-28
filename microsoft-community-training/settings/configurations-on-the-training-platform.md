@@ -180,21 +180,15 @@ By default, this feature is kept disabled with value as **False** for permitting
 
 ## Enable PDF Download feature in the lessons
 
+MCT portal allows you to enable the Download feature for the PDF lessons in the learner’s view of the platform.
+
 ```Enable
 EnablePDFLessonDownload
 ```
 
-Value: **true**
+By default this feature is not enabled, you need to add the above configuration and enable this feature by setting value as **true**. To disable this feature, configuration setting value should be set as **false**.
 
-:::image type="content" source="../media/Enable PDF Download.png" alt-text="Enable PDF Download 1":::
-
-Click on Ok and then save
-
-:::image type="content" source="../media/Save Application Settings(1).png" alt-text="save app settings":::
-
-MCT portal allows you to enable the Download feature for the PDF lessons in the learner’s view of the platform.By default this feature is not enabled, you can enable/disable this feature on the portal depending on your specific requirements.
-
-:::image type="content" source="../media/Dowload PDF feature.png" alt-text="Enable Download PDF feature":::
+:::image type="content" source="../media/Enable PDF Download3.png" alt-text="Enable Download PDF":::
 
 ## Allow learners to skip videos
 

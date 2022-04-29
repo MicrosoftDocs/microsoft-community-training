@@ -38,7 +38,7 @@ Administrators can now search through [content available in Marketplace](../../c
 
 1. **Content Management:** MCT now supports content that can be accessed globally by all organizations/tenants within that instance. This content (aka **Global Content**) needs to be created in "Common" organization in order to be accessible. Learn more about achieving this from [here](../../content-management/content-management-overview.md#enabling-global-content-across-multi-tenant-enabled-instances).
 
-2. **User Management:** Administrators will now be able to [manage users from various tenants](../../infrastructure-management/install-your-platform-instance/create-teams-app-for-your-training-portal.md/#steps-to-create-organizations-for-each-tenant) on their MCT platform while using MS Teams. Here, only the global admin will be able to manage user across various tenant.
+2. **User Management:** Administrators will now be able to [[manage users from various tenants](../../infrastructure-management/install-your-platform-instance/create-teams-app-for-your-training-portal.md#steps-to-create-organizations-for-each-tenant) on their MCT platform while using MS Teams. Here, only the global admin will be able to manage user across various tenant.
 
 ## Increase in upload size limit of files
 

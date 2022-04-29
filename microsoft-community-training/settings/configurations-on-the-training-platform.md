@@ -268,3 +268,13 @@ Features:EnableWebAppInstall
 The platform supports progressive web applications (PWA). For setting up the mobile app for your training portal, you need to update enable this feature, by setting its value to **True**.
 
 By default, this feature is disabled with the value **False**.
+
+## Manage course progress retention
+
+```Enable retention of course progress
+UserProgressRetentionEnabled
+```
+
+If the Administrator enables this application setting with the value "**True**", user's progress for the content will be retained even if content is de-assigned to that user. That means, if a learner is removed from a course and then re-enrolled to the same course, the earlier progress would be retained.
+
+By default, the application setting is marked as "**False**"i.e. on de-assignment, all the progress of that learner will be deleted from that course.

@@ -11,7 +11,9 @@ ms.prod: azure
 
 This article explains how learners can access the training content using the [PWA based Android mobile application](../infrastructure-management/install-your-platform-instance/create-publish-mobile-app.md#option-1-creating-a-progressive-web-application-pwa-for-android) for the Microsoft Community Training platform instance setup for your organization.
 
-## Step 1: Download the app from the Play Store
+## Step 1: Download the app
+
+### Option 1: Install from Play store
 
 1. Open the Google Play Store app on your Android smartphone
 
@@ -21,6 +23,15 @@ This article explains how learners can access the training content using the [PW
 
 > [!NOTE]
 > Microsoft Community Training platform lets every organization create a custom white-labelled mobile app. Learners need to get the name of the training app published on the Play Store from the administrator.
+
+### Option 2: Install from browser
+
+1. For mobile devices (Android), users can install PWA by clicking on the prompt (add to home screen banner) that they receive while browsing your MCT instance or clicking on ‘install app’ from browser options.
+
+    :::image type="content" source="../media/Screenshot_20210930-161736_Chrome (3).jpg" alt-text="pwainstallimage":::
+
+> [!NOTE]
+> Learner experience will remain same for both options of installation.
 
 ## Step 2: Login and create your profile
 

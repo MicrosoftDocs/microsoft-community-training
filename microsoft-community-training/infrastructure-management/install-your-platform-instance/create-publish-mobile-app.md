@@ -260,3 +260,7 @@ This links protocol & API and enable an app or website to make public, verifiabl
 9. Click on **Send Invitation**.
 
 10. **Important**: Send an email note to the Microsoft Community Training team that the permission has been shared. You can reply to the  email chain in which AAB file was shared with you.
+
+> [!NOTE]
+> 
+> If there is any change/update in login type configuration on your instance then the mobile application needs to be updated. 

@@ -171,12 +171,12 @@ In this article, you will learn about how to setup Teams SSO login supporting mu
 
 ## Creating Organizations for Each Tenant
 
-Creating Organizations for each tenant is important, else users from the tenant will not be able to login
+Creating Organizations for each tenant is important step.Unless you create organization for the Tenant, users form that tenant will not be able to login to the instance
 
 > [!Note]
 > To enable common content across multiple tenants, refer [Steps to enable Global Content across multi-tenants](../../content-management/content-management-overview.md#steps-to-enable-global-content-across-multi-tenants)
 
-### Steps to create organizations for each tenant
+### Steps to create organization for each tenant
 
 1. In Admin View, go to Users tab
 2. Click on Organization Administrators
@@ -188,12 +188,12 @@ Creating Organizations for each tenant is important, else users from the tenant 
 
     :::image type="content" source="../../media/Add Organization2 Multi Tenant.png" alt-text="Add Org to Multi Tenant 2":::
 
-5. Enter **Organization Name** & **Organization Description** to the Organization and then input the **TenantId** ([Steps to find TenantId](/azure/active-directory/fundamentals/active-directory-how-to-find-tenant)) of the respective tenant which has to be added
+5. Enter **Organization Name** & **Organization Description** and then provide the **TenantId** ([Steps to find TenantId](/azure/active-directory/fundamentals/active-directory-how-to-find-tenant)) of the respective tenant to be added
 
     :::image type="content" source="../../media/Add tenant ID Organization.png" alt-text="Add Org to Multi Tenant 3":::
 
 6. Click on "Create"
-7. Repeat the above steps to create organizations for the other tenants also
+7. Repeat the above steps to create organizations for the other tenants as well.
 
 ## Schedule an MS Teams meeting for your learners
 

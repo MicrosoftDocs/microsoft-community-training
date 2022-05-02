@@ -58,7 +58,7 @@ The Microsoft Community Training management portal provides role-based administr
 9. Select the **Organization** for the Learning Path. By default, it is assigned to a default organization.
 
     > [!Note]
-    > If your instance is Multi-Tenant enabled, refer [Enabling Global Content across multi-tenant enabled instances](../../content-management-overview.md#enabling-global-content-across-multi-tenant-enabled-instances), to have common Learning paths enabled across organizations.
+    > If your instance is Multi-Tenant enabled, refer [Enabling Global Content across organizations](../../content-management-overview.md#enabling-global-content-across-organizations), to have common Learning paths enabled across organizations.
 
 10. Click or tap **Create** button to create the Learning Path.
 

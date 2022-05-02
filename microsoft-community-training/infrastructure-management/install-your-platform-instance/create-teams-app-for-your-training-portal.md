@@ -174,7 +174,7 @@ In this article, you will learn about how to setup Teams SSO login supporting mu
 Creating Organizations for each tenant is important step.Unless you create organization for the Tenant, users form that tenant will not be able to login to the instance
 
 > [!Note]
-> To enable common content across multiple tenants, refer [Steps to enable Global Content across multi-tenants](../../content-management/content-management-overview.md#steps-to-enable-global-content-across-multi-tenants)
+> To enable common content across multiple tenants, refer [Enabling Global Content across organizations](../../content-management/content-management-overview.md#enabling-global-content-across-organizations)
 
 ### Steps to create organization for each tenant
 

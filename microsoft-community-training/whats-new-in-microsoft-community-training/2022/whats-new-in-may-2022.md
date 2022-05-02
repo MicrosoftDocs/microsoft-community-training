@@ -36,11 +36,11 @@ Administrators can now search through [content available in Marketplace](../../c
 
 ## Supporting Global Content which can be accessed across organization
 
-MCT now supports content that can be accessed globally by all organizations within that instance. This content (aka Global Content) needs to be created in "Common" organization in order to be accessible.
+MCT now supports content that can be accessed globally by all organizations within that instance. This content (aka [Global Content](../../content-management/content-management-overview.md#enabling-global-content-across-organizations)) needs to be created in "Common" organization in order to be accessible.
 
 ## Enhancements to MS Teams based instance with multiple tenants
 
-1. **Content Management:** Global content can be made accessible to users across Organizations and multiple tenants for Teams based deployments (tenants are mapped to Organizations in MCT)
+1. **Content Management:** [Global content](../../content-management/content-management-overview.md#enabling-global-content-across-organizations) can be made accessible to users across Organizations and multiple tenants for Teams based deployments (tenants are mapped to Organizations in MCT)
 
 2. **User Management:** For Teams deployment with multiple tenants, Global Admin would be able to view users across tenants while the Organization (Tenant) Administrators would be able to view users belonging to their tenant.
 

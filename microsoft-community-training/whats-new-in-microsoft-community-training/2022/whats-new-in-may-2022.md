@@ -98,6 +98,14 @@ Learners will now be able to view and track all their certificates under ‘My C
 
 As part of our constant effort in making MCT platform more accessible we added new languages to support localization in MCT. Roma, Bosnian, Romanian, Rusyn, Slovak, Croatian, Bulgarian, Urdu, Punjabi, Gujarati, Marathi, Kannada, Malayalam, Assamese are in the list of recently added languages. [Enable these languages](../../settings/customize-languages-for-the-learners-on-the-platform.md#steps-to-add-languages-on-the-platform) from the settings tab.
 
+### API changes for loading of Course and Categories
+
+`v1/admin/categoryAndCourses` which usually returns courses and category will be deprecated with effect current release.
+
+`v2/admin/categoryAndCourses` is the new API that will retrun category and courses for Content page in admin view
+
+`v1/admin/group/{groupId}/categoriesAndCourse` is the new API that will return category and courses for groups in Users section
+
 ### Enhancements in how MCT renders HTML content
 
 MCT now provides an enhanced HTML rendering capability on the platform.

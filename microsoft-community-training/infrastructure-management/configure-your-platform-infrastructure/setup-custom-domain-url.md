@@ -54,7 +54,9 @@ Select the WAF policy instance that is deployed in the same resource group.
 
    ![Configuration](../../media/image%2894%29.png)
 
-10. Update the setting **ContentEndpoint** with your custom domain name, followed by the path "/storage". *For example - `https://contosolearning.contoso.com/storage`*.
+10. Update the [configuration setting](../../settings/configurations-on-the-training-platform.md#steps-to-set-the-configurations-on-the-platform) **ContentEndpoint** with your custom domain name, followed by the path "/storage". *For example - `https://contosolearning.contoso.com/storage`*.
+
+    :::image type="content" source="../../media/custom domain endpoint setting.png" alt-text="Custom Domain Storage Endpoint":::
 
     >[!Important]
     >The above setting is required to be configured with the **new custom domain** you have created else it might generate issues.

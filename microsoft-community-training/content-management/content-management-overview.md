@@ -131,6 +131,35 @@ Here are the detailed steps to [**add courses to the Learning path**](../content
 
 Here are the detailed steps on [**how to publish a Learning path**](../content-management/create-content/create-learning-path/publish-a-learning-path-on-the-portal.md).  
 
+## Enabling Global Content across organizations
+
+Microsoft Community Training allows to create a common repository of content which is called as **Global Content**. With this feature, you can have common content across organizations/tenants in your instance.
+
+> [!Note]
+> This Feature will allow you to have global content across multiple tenants for your MS Teams deployment
+
+### Steps to enable Global Content
+
+1. Pre-requisite:
+
+   a. In App Service Configurations, search for `Features:IsMultiOrgDeployment`, add this if it does not exist, follow [this step](../settings/configurations-on-the-training-platform.md#enabling-organizations-on-the-platform)
+
+    b. For instances with MS Teams Integration: Follow the steps to enable [Multi-Tenant support for Azure Active Directory based Authentication in Teams](../infrastructure-management/install-your-platform-instance/create-teams-app-for-your-training-portal.md#multi-tenant-support-for-azure-active-directory-based-authentication-in-teams)
+
+2. Login to [**Azure portal**](https://ms.portal.azure.com/#home)
+
+3. Navigate to [Steps to set the Configurations on the Platform](../settings/configurations-on-the-training-platform.md#steps-to-set-the-configurations-on-the-platform)
+
+4. Create/Update with below mentioned App settings in Configurations
+
+   `Features:IsGlobalContentEnabled`, set the **value** as `true`, then click ‘Ok’
+
+    :::image type="content" source="../media/Global Content Configuration.png" alt-text="Configuration value for Global content":::
+
+5. Now, **"Common"** organization will be available while creating Categories/Learning Paths. Any content created under **Common** will be available for assignment to all admins.
+
+    :::image type="content" source="../media/After Common Content Enabled.png" alt-text="Common content Enabled":::
+
 ## View content analytics to track and measure effectiveness
 
 Microsoft Community Training platform provides out of the box rich analytics for organizations to track overall learner’s enrollment and completion for different courses, measure learner’s performance and ensure quality of content in satisfactory and meets the success criteria set by the organization.

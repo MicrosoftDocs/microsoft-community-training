@@ -46,9 +46,15 @@ In this article, you will learn about how to add non-graded assessments to a cou
 
 4. Enter details for the **non-graded assessments** on the portal as below:
     * Non-graded Assessments Title – This would be assessment name.
-    * **Multiple correct answers toggle** - Enabling this toggle will allow the Administrator to select multiple correct answers to that question - hence making the question multiple-choice multi-correct type.
+    * Question Type dropdown - Select the format that you would like to use for this question. You can select:
+        * MCQ - Single correct answers
+        * MCQ - Multiple correct answers
+        * Fill in the blanks
+        * True and False
 
-        :::image type="content" source="../../../media/Assessment - multi-correct.PNG" alt-text="multicorrect":::
+        :::image type="content" source="../../../media/Assessment - question type.PNG" alt-text="Question type":::
+    >[!Note]
+    >You can not change the question type once you have saved the assessment.
 
     * Question Title – add your question in this field. Check [**sample questions**](#question-types-for-any-assessment) to know more about the types of questions you can create on the portal.
     * Options – add one or more options as possible answers for the question. Check the **radio button/checkbox** to the left of the text field to select the correct answer(s).
@@ -91,17 +97,26 @@ In this article, you will learn about how to add a graded assessment to a course
     :::image type="content" source="../../../media/Assessment - New AssessmentFinalExam.PNG" alt-text="New assessment for graded assessment":::
 
 4. Enter details for the **graded assessment** on the portal as below:
-    * Enter **Graded Assessment Title**. The graded assessment title is the name for the exam displayed to the learners on the web portal and mobile application. For example: *Final Exam*
+    * Enable the **shuffle mode** for the exam questions/answer options if required. This will ensure that learners will always be offered a different version of the assessment so you can be sure that answers cannot be memorized for subsequent attempts or copied from others.
     * Define the **passing percentage** and **number of attempts** a learner can take the exam based on the degree of difficulty.
     * Enable the **Show answers to learner** if you would like to add answer explanation which would be shown to the learner once he/she completes the assessment and are viewing their answers/scores.
-    * Enable the **shuffle mode** for the exam questions if required. This will ensure that learners will always be offered a different version of the assessment so you can be sure that answers cannot be memorized for subsequent attempts or copied from others.
+    * Enter **Graded Assessment Title**. The graded assessment title is the name for the exam displayed to the learners on the web portal and mobile application. For example: *Final Exam*
 
-        :::image type="content" source="../../../media/Assessment - graded question.PNG" alt-text="graded question details":::
+        :::image type="content" source="../../../media/Assessment - graded question.PNG" alt-text="graded assessment":::
 
     > [!NOTE]
     > All the questions in the exam carry equal weightage. And **Exam** is always the last segment of the course.
 
 5. Enter details for the **Question 1** on the portal as below:
+    * Question Type dropdown - Select the format that you would like to use for this question. You can select:
+        * MCQ - Single correct answers
+        * MCQ - Multiple correct answers
+        * Fill in the blanks
+        * True and False
+
+        :::image type="content" source="../../../media/Assessment - question type.PNG" alt-text="Question type":::
+    >[!Note]
+    >You can not change the question type once you have saved the assessment.
     * Question Title – add your question in this field. Check [**sample questions**](#question-types-for-any-assessment) to know more about the types of questions you can create on the portal.  
     * Options – add one or more options as possible answers for the question.  Check the **checkbox/radio button** to the left of the text field to select the correct answer.
   
@@ -149,18 +164,24 @@ Before you start doing the bulk upload of questions for a assessment, you need t
     > Do not remove the column headers from the CSV file.
 
 3. Start adding 1 question per row with the following information under each column header:
-    * Serial Number – put the sequence number of the question in the list.
-    * Question Type - specify the type of question **"Single choice"** or **"Multiple choice"**
-    * Question Text – put the question text in this field.
-    * Choice 1 to N – add the choices for the question.
-    * Correct Answer – select the correct number among the choices. For e.g. set value to 2 if Choice 2 is the correct answer.
-    * Answer explanation - add the explanation for the correct as well as incorrect answers.
 
-        ![CSV file format](../../../media/CSV%20file%20format.png)
+    | Question type | Question Text | Choices (1 to N) | Correct Answer | Answer Explanation | Match Criterion |
+    | --- | --- | --- | --- | --- | --- |
+    | Single choice | Entire question body | Add as many choices as required | Add the numeric value of the correct option | Add answer explanation for each option separated by semi-colon | Not applicable |
+    | Multiple choice | Entire question body | Add as many choices as required | Add the numeric value of the correct option(s) | Add answer explanation for each option separated by semi-colon | Not applicable |
+    | Fill blanks | Entire question body with blanks depicted by pipe delimiter | Not applicable | Correct answer(s) for a blank to be separated by semi-colon. Correct Answer(s) for multiple blank separated via pipe delimiter | Add answer explanation for each option separated by semi-colon | Add the Match type (Contains/ Exact Match) for each blank separated by pipe delimiter |
+    | True false | Entire question body | Only choice 1,2 can be filled | Add "TRUE" or "FALSE" | Not applicable | Not applicable |
+
+    :::image type="content" source="../../../media/Assessment - csv sample upload v2.PNG" alt-text="csv upload":::
+
+    > [!Note]
+    > A **sample CSV file**([Sample CSV - Assessment.csv](https://github.com/MicrosoftDocs/microsoft-community-training/files/8556647/Sample.CSV.-.Assessment.csv)
+) for quick reference is also available. You can download this file from the upload assessment csv screen.
+    >:::image type="content" source="../../../media/Assessment - csv upload.PNG" alt-text="csv upload/sample csv download":::
 
 4. Rename and save the edited file once you are done creating the question list. When editing the CSV file, please take care of the following things:
     * Do not add **comma (,)** in the question or choices when editing the sample file
-    * Use **semi-colon (;) as delimiter** when adding multiple values for a single option  
+    * Use **semi-colon (;) or pipe ( | ) as delimiter** when adding multiple values for a single option. Refer to the above step for desired usage.
     * For any cell, do not split the text into multiple lines (i.e. do not use **ALT + Enter**)
 
 > [!NOTE]
@@ -229,43 +250,44 @@ To create a single choice question,
 
 ### Multi Choice - Multi Correct Question
 
-This type of question can be created by enabling **Multiple correct answers toggle**. This will allow the Administrator to select multiple correct answers to that question - hence making the question multiple-choice multi-correct type.
-    :::image type="content" source="../../../media/Assessment - multi-correct detailed.PNG" alt-text="multiple_correct":::
+This type of question can be created by selecting **MCQ - Multiple correct answers**. This will allow the Administrator to select multiple correct answers to that question - hence making the question multiple-choice multi-correct type.
+
+:::image type="content" source="../../../media/Assessment - multi-correct detailed.PNG" alt-text="multiple correct":::
 
 >[!Note]
-> The change in type of question (between single correct and multi-correct) cannot be done once the assessment is saved as the toggle will disappear from the question box.
+> The change in type of question cannot be done once the assessment is saved as the question type dropdown will disappear from the question box.
 
-### True/False Question  
+### True/False Question
 
-![True/False Question](../../../media/image%28234%29.png)
+:::image type="content" source="../../../media/Assessment - TrueFalse.PNG" alt-text="TrueFalse":::
 
 For this type of question, learners can choose only one amongst the two available options of true and false.
 
 To create a True/False question,
 
 1. Add the question text with image/links in the question title box
-2. Add two answer options as True and False
-3. Select the correct answer option by checking the radio button to the left of the answer text field
+2. Select the correct answer option by checking the radio button to the left of the answer text field
 
 The question will appear like this for the learners –
 
-![True/False Question sample](../../../media/image%28232%29.png)
+:::image type="content" source="../../../media/Assessment - TrueFalse Learner.PNG" alt-text="TrueFalse Learner":::
 
 ### Fill in the Blank Question
 
-![Fill in the Blank Question](../../../media/image%28233%29.png)
+:::image type="content" source="../../../media/Assessment - FillBlank.PNG" alt-text="FillBlank Admin":::
 
 For this type of question, learners can choose only one answer among the available options which fills the blank in the question to complete the phrase.
 
 To create a Fill in the Blank question,
 
-1. Add the question statement leaving a series of underscores to indicate blanks to be filled
-2. Add the answer options with text/image to be filled in the blanks
-3. Select the correct answer option by checking the radio button to the left of the answer text field
+1. Add the question statement along with the blank fields placeholders added using the option **+ Add a blank field**
+2. Select the **match criterion** of blank using the dropdown and add the answer options with text to be filled in the blanks.
+    * **Contains**: The answer from the learner is marked correct if it matches any of the value(s) provided by Admin. Multiple values in answer text can be provide as 'Cat;The cat;cats' etc. And if the learner's answer is any of these in case in-sensitive manner, then its marked as correct.
+    * **Exact Match**: This accepts only 1 value and answer evaluation is case-sensitive. Hence, the learner has to enter the exact string to get it marked correct.
 
 The question will appear like this for the learners –
 
-![Fill in the Blank Question sample](../../../media/image%28236%29.png)
+:::image type="content" source="../../../media/Assessment - FillBlank Learner.PNG" alt-text="Fill Blank Learner":::
 
 ### Chronological Question
 

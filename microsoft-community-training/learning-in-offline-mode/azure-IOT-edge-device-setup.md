@@ -40,7 +40,7 @@ This step is required for generating SSL certificates for successful HTTPS conne
 
 ## Step 4: Deploy to device using Azure IoT
 
-Follow [**the steps in this document**](/azure/iot-edge/how-to-deploy-modules-cli?view=iotedge-2018-06) to deploy the mctdeployment.json file configured in the Step 3 of the [**Azure IoT Hub Initial Setup documentation**](/v1/docs/azure-iot-hub-initial-setup#step-3-configuring-deployment-file) to the Linux edge device.
+Follow [**the steps in this document**](/azure/iot-edge/how-to-deploy-modules-cli?view=iotedge-2018-06) to deploy the mctdeployment.json file configured in the Step 3 of the [**Azure IoT Hub Initial Setup documentation**](/azure/industry/training-services/microsoft-community-training/learning-in-offline-mode/azure-iot-hub-initial-setup#step-3-configuring-deployment-file) to the Linux edge device.
 
 >[!important]
 >This step should be done in the device where the [**Azure IoT Hub Initial setup**](azure-IOT-hub-initial-setup.md) was done.
@@ -51,6 +51,6 @@ Wait for a couple of minutes before so that the deployment above is successful. 
 
 :::image type="content" source="../media/image(449).png" alt-text="Dep1":::
 
-Browse to the url configured (or <https://127.0.0.1>) on the Linux device. A screen like this should be visible:
+Browse to the url configured (or `https://127.0.0.1`) on the Linux device. A screen like this should be visible:
 
 :::image type="content" source="../media/image(453).png" alt-text="dep2":::

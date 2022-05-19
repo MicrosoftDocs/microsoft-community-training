@@ -104,6 +104,8 @@
         href: learner-experience/web-app.md
       - name: Learner Experience on the mobile app
         href: learner-experience/mobile.md
+      - name: Learner Experience on PWA based mobile app
+        href: learner-experience/pwa-app.md  
    - name: Analytics
      items:
       - name: Analytics - Overview
@@ -256,6 +258,8 @@
         items:
          - name: What's new in February 2022
            href: whats-new-in-microsoft-community-training/2022/whats-new-in-february-2022.md
+         - name: What's new in May 2022
+           href: whats-new-in-microsoft-community-training/2022/whats-new-in-may-2022.md
    - name: Learning in Offline Mode
      items:
      - name: Offline Learning with Microsoft Community Training

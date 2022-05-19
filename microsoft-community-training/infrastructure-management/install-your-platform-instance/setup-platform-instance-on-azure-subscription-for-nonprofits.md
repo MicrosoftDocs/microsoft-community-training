@@ -101,7 +101,7 @@ For deploying the Microsoft Community Training platform, you will need to add pa
 
 2. Note the Subscription ID displayed on the right top of the web page
 
-3. Next, go to [**Azure portal**](http://portal.zure.com/) and select **Subscriptions** where Microsoft Community Training platform is deployed
+3. Next, go to [**Azure portal**](https://portal.azure.com/) and select **Subscriptions** where Microsoft Community Training platform is deployed
 
 4. Ensure subscription ID at the sponsorship site (i.e. step 2) and Azure portal are same
 

@@ -13,6 +13,34 @@ You can customize the learner and administrator experience on the Microsoft Comm
 
 In this article, you will learn about the different configuration options available on the Microsoft Community Training platform and how to enable or disable the configurations.
 
+## Steps to set the Configurations on the Platform
+
+1. Login to [Azure portal](https://www.portal.azure.com/).
+
+2. Go to App Services from the left-menu.
+
+    ![Select App Service.png](../media/Select%20App%20Service%281%29.png)
+
+3. Click on the app service belonging to your Microsoft Community Training instance.
+
+4. Select Configuration under settings from the left-menu.
+
+    ![Select Configurations.png](../media/Select%20Configurations%281%29.png)
+
+5. Go under Applications Settings tab
+
+    ![Select Application Settings.png](../media/Select%20Application%20Settings.png)
+
+6. Select the setting you want to edit, Example - If you want to disable learner comments, use the setting **Features:CommentDisabled** and update it with value “**true**”
+
+    ![Comment Disabled](../media/CommentDisabled.png)
+
+    ![Comment Disabled Editing](../media/CommentDisabledEditing.png)
+
+7. Click on save.
+
+    ![Save Application Settings.png](../media/Save%20Application%20Settings%281%29.png)
+
 ## Certificates Received Metric
 
 ```Certificates Received Metric
@@ -150,6 +178,18 @@ The portal allows you to hide the Course Library from the learner’s view of th
 
 By default, this feature is kept disabled with value as **False** for permitting the learner to view the library.
 
+## Enable PDF Download feature in the lessons
+
+MCT portal allows you to enable the Download feature for the PDF lessons in the learner’s view of the platform.
+
+```Enable
+EnablePDFLessonDownload
+```
+
+By default this feature is not enabled, you need to add the above configuration and enable this feature by setting value as **true**. To disable this feature, configuration setting value should be set as **false**.
+
+:::image type="content" source="../media/Enable PDF Download3.png" alt-text="Enable Download PDF":::
+
 ## Allow learners to skip videos
 
 ```Allow learners to skip videos  
@@ -229,30 +269,12 @@ The platform supports progressive web applications (PWA). For setting up the mob
 
 By default, this feature is disabled with the value **False**.
 
-## Steps to set the Configurations on the Platform
+## Manage course progress retention
 
-1. Login to [Azure portal](https://www.portal.azure.com/).
+```Enable retention of course progress
+UserProgressRetentionEnabled
+```
 
-2. Go to App Services from the left-menu.
+If the Administrator enables this application setting with the value "**True**", user's progress for the content will be retained even if content is de-assigned to that user. That means, if a learner is removed from a course and then re-enrolled to the same course, the earlier progress would be retained.
 
-    ![Select App Service.png](../media/Select%20App%20Service%281%29.png)
-
-3. Click on the app service belonging to your Microsoft Community Training instance.
-
-4. Select Configuration under settings from the left-menu.
-
-    ![Select Configurations.png](../media/Select%20Configurations%281%29.png)
-
-5. Go under Applications Settings tab
-
-    ![Select Application Settings.png](../media/Select%20Application%20Settings.png)
-
-6. Select the setting you want to edit, Example - If you want to disable learner comments, use the setting **Features:CommentDisabled** and update it with value “**true**”
-
-    ![Comment Disabled](../media/CommentDisabled.png)
-
-    ![Comment Disabled Editing](../media/CommentDisabledEditing.png)
-
-7. Click on save.
-
-    ![Save Application Settings.png](../media/Save%20Application%20Settings%281%29.png)
+By default, the application setting is marked as "**False**"i.e. on de-assignment, all the progress of that learner will be deleted from that course.

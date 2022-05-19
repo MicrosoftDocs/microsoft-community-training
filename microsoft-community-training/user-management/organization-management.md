@@ -162,3 +162,6 @@ The API signature that assigns learners to Organizations is given below.
   "OrganizationName": "string"
 }
 ```
+
+> [!Note]
+> For instances with MS Teams deployment, organization admin will be able to view users of the tenant to which organization admin belongs. Here are the steps to [create Organizations for each tenant](../infrastructure-management/install-your-platform-instance/create-teams-app-for-your-training-portal.md#creating-organizations-for-each-tenant)

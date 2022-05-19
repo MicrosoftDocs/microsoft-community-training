@@ -48,6 +48,9 @@ In this topic, you will learn the simple steps to **Create Category** in the pla
 
 6. Select the **Organization** for the category. By default, it is assigned to a default organization.
 
+    > [!Note]
+    > If your instance is Multi-Tenant enabled, refer [Enabling Global Content across organizations](../../content-management-overview.md#enabling-global-content-across-organizations), to have a common content enabled for organizations
+
 7. Click or tap on the **Create** button to create a new category.
 
 8. Once the category is created, you will see this window to choose from options to create course.

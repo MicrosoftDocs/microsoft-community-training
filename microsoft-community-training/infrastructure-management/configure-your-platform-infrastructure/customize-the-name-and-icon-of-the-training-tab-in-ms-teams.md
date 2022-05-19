@@ -37,4 +37,4 @@ This article assumes you have followed the steps outlined in the [MS Teams insta
 ### Step 3 – Create the new Teams Manifest File and upload it
 
 1. Zip the 3 files (Color.png, outline.png and manifest.json) to create a new manifest zip file.
-2. Follow the instructions in the [Steps to enable learning inside Microsoft Teams document](/docs/create-teams-app-for-your-training-portal), Step 3 onwards to upload the updated file.
+2. Follow the instructions in the [Steps to enable learning inside Microsoft Teams document](/azure/industry/training-services/microsoft-community-training/infrastructure-management/install-your-platform-instance/create-teams-app-for-your-training-portal), Step 3 onwards to upload the updated file.

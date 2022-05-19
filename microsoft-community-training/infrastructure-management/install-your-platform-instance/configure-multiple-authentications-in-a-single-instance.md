@@ -162,4 +162,5 @@ To be able to support multi mode authentication you should create AD B2C tenant 
 3. [**Add Work email based Authentication to existing Social Account login instance**](#add-work-email-based-authentication-to-existing-social-account-login-instance)
 
 >[!Note]
-> Please note that learner should use only one mode of authentication (phone, social email, work email) for registering. If a learner uses multiple modes of authentication for registration, the accounts will be treated as different users.
+> * Please note that learner should use only one mode of authentication (phone, social email, work email) for registering. If a learner uses multiple modes of authentication for registration, the accounts will be treated as different users.
+> * If you have an existing mobile application and you made changes to login type on your instance, to have them reflected in your mobile app, you need to update your existing mobile application. 

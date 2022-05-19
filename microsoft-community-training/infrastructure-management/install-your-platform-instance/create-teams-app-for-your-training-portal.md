@@ -169,6 +169,32 @@ In this article, you will learn about how to setup Teams SSO login supporting mu
 
     :::image type="content" source="../../media/Teams SSO MultiTenant 7.png" alt-text="Teams SSO 7":::
 
+## Creating Organizations for Each Tenant
+
+Creating Organizations for each tenant is important step.Unless you create organization for the Tenant, users form that tenant will not be able to login to the instance
+
+> [!Note]
+> To enable common content across multiple tenants, refer [Enabling Global Content across organizations](../../content-management/content-management-overview.md#enabling-global-content-across-organizations)
+
+### Steps to create organization for each tenant
+
+1. In Admin View, go to Users tab
+2. Click on Organization Administrators
+3. Click on Manage Organizations
+
+    :::image type="content" source="../../media/Add Organization in MultiTenant.png" alt-text="Create Orn in MultiTenant1":::
+
+4. Click on “Add Organization”
+
+    :::image type="content" source="../../media/Add Organization2 Multi Tenant.png" alt-text="Add Org to Multi Tenant 2":::
+
+5. Enter **Organization Name** & **Organization Description** and then provide the **TenantId** ([Steps to find TenantId](/azure/active-directory/fundamentals/active-directory-how-to-find-tenant)) of the respective tenant to be added
+
+    :::image type="content" source="../../media/Add tenant ID Organization.png" alt-text="Add Org to Multi Tenant 3":::
+
+6. Click on "Create"
+7. Repeat the above steps to create organizations for the other tenants as well.
+
 ## Schedule an MS Teams meeting for your learners
 
 Microsoft Community Training platform allows the Administrators to set-up and schedule meetings over MS Teams from within the platform itself. These meetings can be for the learners enrolled to a specific course/ learning path/ or a user group to enhance their learning curve.

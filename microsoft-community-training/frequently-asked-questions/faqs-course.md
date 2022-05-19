@@ -67,7 +67,7 @@ The platform can accept files size depending on the upload size limit as specifi
 | Video lessons: MP4, 3GP, 3G2, 3GP2, AVI, MPEG, MPG, WMV, VOB, MKV, FLV, DV, TS, ASF, M4V, MOV | No limit |
 | Audio Lessons: MP3 & OGG | No limit |
 | PDF, HTML, External Links, ePUB | No limit |
-| PPT, PPTX, DOCX | 10 MB |
+| PPT, PPTX, DOCX | 100 MB |
 | Excel | 5 MB |
 
 >[!Note]
@@ -121,19 +121,13 @@ Yes, customers can embed videos from any external platforms such as YouTube, MS 
 
 ### Does Microsoft Community Training support SCORM content?
 
-Currently, Microsoft Community Training is optimized for video based content for consumption on mobile devices. The platform doesn't provide native support for SCORM based content but it is on the product roadmap.
+Microsoft community training supports for upload of SCORM (version 1.2) package.
 
-Alternatively, we recommend customers use HTML which is faster and works seamlessly with video-based content when compared with SCORM.
+SCORM (Sharable Content Object Reference Model) is a set of technical standards for eLearning software products. SCORM tells programmers how to write their code so that it can “play well” with other eLearning software. It is the de facto industry standard for eLearning interoperability. Learn more about [SCORM](https://scorm.com/scorm-explained/one-minute-scorm-overview/)
 
-While designing a learning unit or a course on an authoring system (such as Adobe Captivate, Articulate Storyline) the user has an option between SCORM compliant export or an HTML package export. Since, HTML is a supported content format on the MCT platform, the admins can use the authoring tool and export the content as an HTML package and then upload as a course or lesson on the MCT platform.
+[How to upload content to a course](../content-management/create-content/create-course-category/upload-content-to-a-course.md#option-1-manually-add-content-for-each-lesson-in-a-course)
 
-To add HTML content as a lesson,
-
-1. Upload a ZIP file containing HTML resources such as HTML, CSS and JS files
-2. There must be an index.html or home.html file at the top level (root directory) within the ZIP file
-3. All resources referenced in the HTML pages must be relative and point to files included in the ZIP file
-
-    ![Index](../media/image%28315%29.png)
+:::image type="content" source="../media/SCORMupload.png" alt-text="scormuploadimag1":::
 
 ### Does Microsoft Community Training support HTML content?
 
@@ -277,7 +271,7 @@ In case, content on the external website is not owned by the organization or can
 
 1. If the content is hosted on a video sharing platform like YouTube and Vimeo, the learners will be able to view the content inline similar to the uploaded content. However, learners will not be able to download this content and administrators will not be able to track consumption as the lesson will be marked as completed as soon as the learner opens the lesson.
 
-2. All the other content will open in a new browser window (except in mobile application, where the content will still open inline). The learners will see the following message on opening the lesson. When they click on **View Lesson**, the content will open in a new browser window. This is the behavior for content from external sources such as [**Microsoft Learn**](/learn/) and [**Khan Academy**](https://www.khanacademy.org/test-prep/iit-jee-subject/iit-jee/v/iit-jee-perpendicular-planes-part-1).
+2. All the other content will open in a new browser window (except in mobile application, where the content will still open inline). The learners will see the following message on opening the lesson. When they click on **View Lesson**, the content will open in a new browser window. This is the behavior for content from external sources such as [**Microsoft Learn**](/learn/) and [**Khan Academy**](https://www.khanacademy.org/test-prep/iit-jee-subject/iit-jee-topic).
 
     ![View lesson](../media/image%28255%29.png)
 

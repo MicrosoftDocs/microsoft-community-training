@@ -17,11 +17,13 @@ In this article, you will learn more about the platform's database schema and it
 
 [**Microsoft Community Training - DB Schema Overview.pdf**](https://github.com/MicrosoftDocs/microsoft-community-training/files/8511863/MCT_DB_Schema_Apr2022.pdf)
 
-[comment]: <[**Microsoft Community Training - DB Schema Overview.pdf**](https://github.com/MicrosoftDocs/microsoft-community-training/files/7889844/MCT_DB_Schema_Jan2022.pdf)>
+### Previous Versions
 
-[comment]: <[**Microsoft Community Training - DB Schema Overview.pdf**](https://github.com/MicrosoftDocs/microsoft-community-training/files/7581669/MCT_DB_Schema_Oct2021.pdf)>
+* [**Microsoft Community Training - DB Schema Overview_Jan_2022.pdf**](https://github.com/MicrosoftDocs/microsoft-community-training/files/7889844/MCT_DB_Schema_Jan2022.pdf)
 
-[comment]: <[**Microsoft Community Training - DB Schema Overview.pdf**](https://github.com/MicrosoftDocs/microsoft-community-training/files/7046708/MCT_DB.Schema_Aug2021.pdf)>
+* [**Microsoft Community Training - DB Schema Overview_Oct_2021.pdf**](https://github.com/MicrosoftDocs/microsoft-community-training/files/7581669/MCT_DB_Schema_Oct2021.pdf)
+
+* [**Microsoft Community Training - DB Schema Overview_Aug_2021.pdf**](https://github.com/MicrosoftDocs/microsoft-community-training/files/7046708/MCT_DB.Schema_Aug2021.pdf)
 
 ## Accessing Database
 

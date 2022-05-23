@@ -110,6 +110,10 @@ As part of our constant effort in making MCT platform more accessible we added n
 
 MCT now provides an enhanced HTML rendering capability on the platform.
 
+### Event related changes
+
+The `CourseCompletion` event logged in Application Insights is now updated to `Course_completion`.
+
 ### DB Changes
 
 In view of the new features that got added into the platform, we made few changes to our Database Schema. Please refer to [this document](../../analytics/custom-reports/database-schema.md#database-schema-overview) for addition information.

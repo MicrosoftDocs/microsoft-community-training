@@ -109,4 +109,4 @@ This article explains how learners can access the training content using the [PW
 >
 > * The content downloaded for offline consumption from a PWA based app gets stored in browser storage.
 >
-> * Current limit for storage is capped at 200MB, plans to increase the storage limit is in road map.
+> * Current limit for storage is capped for each lesson at 200MB, over all limit is depended on device storage.

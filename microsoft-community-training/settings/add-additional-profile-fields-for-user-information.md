@@ -94,7 +94,8 @@ The Microsoft Community Training management portal provides role-based administr
 8. Once you have added the fields, click on **Publish**. You’ll be asked to confirm by typing Publish again.
 
 > [!CAUTION]
-> Ensure you click on Publish. Otherwise, the changes you made will be lost.
+> * Ensure you click on Publish. Otherwise, the changes you made will be lost.
+> * Note that, while making any change in existing profile field data, this could impact learner association with smart group (if present)
 
 ## Add Privacy Terms and Conditions
 

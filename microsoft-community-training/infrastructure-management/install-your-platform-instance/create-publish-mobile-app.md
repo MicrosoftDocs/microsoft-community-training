@@ -100,7 +100,7 @@ As you enabled the PWA, in the backend there will be a [service worker](https://
 
 #### Prerequisites
 
-Raise a [**ticket**](https://sangamhelpdesk.microsoftcrmportals.com/SignIn?ReturnUrl=%2Fsupport%2Fcreate-case%2F) with MCT support team requesting KeyStore file for your existing mobile application or to create a new one if you do not have an existing mobile application for your instance.
+Raise a [**ticket**](https://sangamhelpdesk.microsoftcrmportals.com/SignIn?ReturnUrl=%2Fsupport%2Fcreate-case%2F) with MCT support team requesting KeyStore file in case you wanted to have an update for your existing mobile application.
 
 #### Part 1: Steps to Generate Android App Bundle
 
@@ -124,7 +124,7 @@ Raise a [**ticket**](https://sangamhelpdesk.microsoftcrmportals.com/SignIn?Retur
 
     2. If creating application for first time, you can choose to leave it with pre-populated ID.
 
-    3. Provide App name and Launcher name for your application
+    3. Provide App name and Launcher name for your application. If creating application for the first time then you can skip to downloading your app bundle.
 
     4. Click on “All Settings” and increment your App version and App Version Code by 1 from the version of your existing app, if creating the app for first time do not increment the value.
 

@@ -66,29 +66,29 @@ Learners on MCT platform can now be able to view lessons in full screen as well 
 
 ## Other enhancements/additions
 
-### Retain course progress for learners on MCT
+### Choice for admin to Retain/Delete course progress for learner
 
 Administrators will now be able to delete the course progress using the [API call](../../rest-api-management/api-documentation.md#rest-api-documentation) itself. This can be helpful to reset course progress for learners.
 
 Additionally, the administrators can also control progress retention for a learner in a course on de-assignment.This can be achieved by [app service settings](../../settings/configurations-on-the-training-platform.md#manage-course-progress-retention): `UserProgressRetentionEnabled`.
 
-### Fixed: Course level analytics downloaded list has duplicate entries for users
+### Fixed the issue of duplicate entries in Course level analytics
 
 MCT Analytics will now consider only unique users per course for each metric, irrespective of the multiple translations which the user might have completed.
 
-### Bulk download for courses with assessment
+### Change in CSV format for Bulk download for courses with assessment
 
 With the addition of new question types there is a change in Bulk upload of courses with assessments i.e change in metadata JSON format
 
-### Lesson contents can’t be replaced once published
+### Lesson contents can’t be replaced once course is published
 
-Once the content is added to a lesson and published, the content of the lesson cannot be replaced.
+Post publishing a course the content of a lesson cannot be changed. All other operations such as creation/deletion of lesson, assessments will be possible as before. 
 
 ### Certificates are now being generated asynchronously
 
 Certificate generation flow is now optimized to be in sync with load/traffic on the platform. i.e learner will see a slight delay in getting the certificate based on the concurrent requests on the platform.
 
-### Separate page for certificates
+### Consolidated view for certificates in Learner view
 
 Learners will now be able to view and track all their certificates under ‘My Courses’ page ‘My Certificates’ section.
 

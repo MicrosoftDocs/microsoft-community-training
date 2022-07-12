@@ -100,7 +100,7 @@ As you enabled the PWA, in the backend there will be a [service worker](https://
 
 #### Prerequisites
 
-Raise a [**ticket**](https://sangamhelpdesk.microsoftcrmportals.com/SignIn?ReturnUrl=%2Fsupport%2Fcreate-case%2F) with MCT support team requesting KeyStore file in case you wanted to have an update for your existing mobile application.
+Raise a [**ticket**](https://sangamhelpdesk.microsoftcrmportals.com/SignIn?ReturnUrl=%2Fsupport%2Fcreate-case%2F) with MCT support team requesting KeyStore file **in case you wanted to have an update for your existing mobile application.**
 
 #### Part 1: Steps to Generate Android App Bundle
 

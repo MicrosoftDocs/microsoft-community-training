@@ -124,7 +124,7 @@ Raise a [**ticket**](https://sangamhelpdesk.microsoftcrmportals.com/SignIn?Retur
 
     2. If creating application for first time, you can choose to leave it with pre-populated ID.
 
-    3. Provide App name and Launcher name for your application. If creating application for the first time then you can skip to downloading your app bundle.
+    3. Provide App name and Launcher name for your application. **If creating application for the first time, then you can proceeed to Step 6 generating your app bundle**
 
     4. Click on “All Settings” and increment your App version and App Version Code by 1 from the version of your existing app, if creating the app for first time do not increment the value.
 

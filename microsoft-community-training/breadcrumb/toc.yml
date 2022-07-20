@@ -1,3 +1,18 @@
 - name: Docs
   tocHref: /
   topicHref: /
+  items:
+
+  - name: Azure
+    tocHref: /azure/
+    topicHref: /azure/index
+    items:
+
+    - name: Azure for Industry
+      tocHref: /azure/industry/
+      topicHref: /azure/industry/index
+      items:
+
+      - name: Microsoft Community Training
+        tocHref: /azure/industry/training-services/microsoft-community-training/
+        topicHref: /azure/industry/training-services/microsoft-community-training/index  

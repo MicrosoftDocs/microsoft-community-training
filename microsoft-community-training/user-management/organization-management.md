@@ -103,7 +103,9 @@ Click on the **Delete** icon from the Manage Organizations panel to Delete an Or
     ![User Management - Organization Administrator](../media/User%20Management%20-%20Organization%20Administrator.png)
 
     > [!Note]
-    > This access is available only to Global Administrators on the platform.
+    >
+    > * Global Administrators can add Organization Administrators across all organizations in the platform
+    > * Organization Administrator can add other organization administrators specific to their Organizations.
 
 3. To **create a new** Organization Administrator, click on **Add Administrator**
 
@@ -141,7 +143,7 @@ Click on the **Delete** icon from the Manage Organizations panel to Delete an Or
 
 ## Delete an Organization Administrator
 
-If an Organization administrator's access is revoked from an Organization, it will not be able to access content and user groups associated with the organization unless specifically added as a learning path, category or group administrator.  
+If an Organization administrator's access is revoked from an Organization, they will not be able to access content and user groups associated with the organization unless specifically added as a learning path, category or group administrator.  
 
 Click on the **Delete** icon against an Organization Administrator to delete.
 
@@ -149,6 +151,54 @@ Click on the **Delete** icon against an Organization Administrator to delete.
 
 ## Assign learners to Organizations
 
+Learners can be assigned to Organizations on the portal from 'All Users' section.
+
+### Add Single User to Organization
+
+1. On the Microsoft Community Training portal, after login [**switch to administrator view**](../get-started/step-by-step-configuration-guide.md#step-2--switch-to-administrator-view-of-the-portal)
+
+2. Select 'All Users' tab in the left-navigation page from users module
+
+3. Click or tap the Add Users icon on top-right of the details page to select 'Add Single User'
+
+    :::image type="content" source="../media/Allusersorg.png" alt-text="Allusersorganization":::
+
+4. Add User contact and choose the Organization in which you want to place the user
+
+    :::image type="content" source="../media/orgcontactadd.png" alt-text="addcontacttoOrg":::
+
+### Bulk upload users to Organization
+
+1. On the Microsoft Community Training portal, after login [**switch to administrator view**](../get-started/step-by-step-configuration-guide.md#step-2--switch-to-administrator-view-of-the-portal)
+
+2. Select 'All Users' tab in the left-navigation page from users module
+
+3. Click or tap the Add Users icon on top-right of the details page to select 'Bulk upload Users'
+
+4. Choose the Organization where you want to upload users.
+    1. Download the sample csv to add user information
+    2. Now click on Upload
+
+    :::image type="content" source="../media/bulkuserorg.png" alt-text="bulkuploadusertoOrg":::
+
+## Edit Organization of Learner
+
+Global administrator can update user organization while [**editing learner profile**](manage-users/edit-user-profile-on-the-platform.md#option-1---steps-to-edit-a-single-user-profile).
+
+>[!Note]
+> Only Global Admin can add/edit users on the platform
+
+## View and Download users in Organization
+
+1. On the Microsoft Community Training portal, after login [**switch to administrator view**](../get-started/step-by-step-configuration-guide.md#step-2--switch-to-administrator-view-of-the-portal)
+
+2. Select 'All Users' tab in the left-navigation page from users module
+
+3. Filter for Organization you want to view users from and download the list.
+    1. By default 'All Organization' is selected and when you click download, you will get a zipped folder with a  .csv file for each organization
+    :::image type="content" source="../media/filterorg.png" alt-text="filterfroorganization":::
+
+<!---
 Learners can be assigned to Organizations on the portal using API call. You can refer to [**REST API documentation**](../rest-api-management/api-documentation.md) to learn more about accessing API Signatures.
 
 The API signature that assigns learners to Organizations is given below.
@@ -162,6 +212,8 @@ The API signature that assigns learners to Organizations is given below.
   "OrganizationName": "string"
 }
 ```
+--->
 
-> [!Note]
+>[!Note]
+>
 > For instances with MS Teams deployment, organization admin will be able to view users of the tenant to which organization admin belongs. Here are the steps to [create Organizations for each tenant](../infrastructure-management/install-your-platform-instance/create-teams-app-for-your-training-portal.md#creating-organizations-for-each-tenant)

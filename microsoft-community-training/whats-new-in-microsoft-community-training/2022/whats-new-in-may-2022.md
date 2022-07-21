@@ -1,7 +1,7 @@
 ---
 title: What's new in May 2022
-author: v-samarth
-ms.author: v-samarth
+author: v-sambati
+ms.author: v-sambati
 description: This document details the new features and capabilities launched on the Microsoft Community Training platform in May 2022. 
 ms.prod: azure
 ---
@@ -16,7 +16,7 @@ We are excited to announce that with this release we are starting to support for
 
 SCORM (Sharable Content Object Reference Model), is a set of technical standards for eLearning software products. We currently support for SCORM 1.2 version. [Learn more on SCORM](https://scorm.com/). The administrators will now be using the improvised user interface for adding the SCORM content, regular files and the external links.
 
-:::image type="content" source="../../media/Upload SCORM.png" alt-text="upload scorm":::
+:::image type="content" source="../../media/Upload SCORM.png" alt-text="upload_scorm_img":::
 
 ## Assessment will now support some more question formats
 
@@ -32,7 +32,7 @@ Starting May 2022, the [**PWA**](../../infrastructure-management/install-your-pl
 
 Administrators can now search through [content available in Marketplace](../../content-management/create-content/create-course-category/create-a-new-course.md#option-2---add-course-via-content-marketplace).
 
-:::image type="content" source="../../media/Search Content Marketplace.png" alt-text="search content marketplace":::
+:::image type="content" source="../../media/Search Content Marketplace.png" alt-text="searchcontentmarketplaceimage":::
 
 ## Supporting Global Content which can be accessed across organization
 
@@ -62,7 +62,7 @@ MCT portal now allows to enable the [download feature for the PDF lessons](../..
 
 Learners on MCT platform can now be able to view lessons in full screen as well as in landscape mode on their Mobile browser. This enables the learners to have more visibility and optimized screen usage while accessing lessons.
 
-:::image type="content" source="../../media/Full screen lesson.png" alt-text="full screen lesson":::
+:::image type="content" source="../../media/Full screen lesson.png" alt-text="full_screen_lessonimg":::
 
 ## Other enhancements/additions
 
@@ -82,7 +82,7 @@ With the addition of new question types there is a change in Bulk upload of cour
 
 ### Lesson contents can’t be replaced once course is published
 
-Post publishing a course the content of a lesson cannot be changed. All other operations such as creation/deletion of lesson, assessments will be possible as before. 
+Post publishing a course the content of a lesson cannot be changed. All other operations such as creation/deletion of lesson, assessments will be possible as before.
 
 ### Certificates are now being generated asynchronously
 
@@ -92,7 +92,7 @@ Certificate generation flow is now optimized to be in sync with load/traffic on 
 
 Learners will now be able to view and track all their certificates under ‘My Courses’ page ‘My Certificates’ section.
 
-:::image type="content" source="../../media/Separate page for certificates.png" alt-text="separate page for certificates":::
+:::image type="content" source="../../media/Separate page for certificates.png" alt-text="separate_page_for_certificates_img":::
 
 ### New Languages added to platform
 

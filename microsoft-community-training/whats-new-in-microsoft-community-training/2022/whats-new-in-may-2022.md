@@ -24,9 +24,9 @@ With this new release, assessments in MCT platform will now support [Fill Blank]
 
 :::image type="content" source="../../media/Assessment - question type.PNG" alt-text="question type":::
 
-## Download content in PWA app for offline consumption
+## Download content in PWA (Mobile) app for offline consumption
 
-Starting May 2022, the PWA based application will let users [download content for offline consumption](../../learner-experience/pwa-app.md#step-6-download-content-and-continue-learning-offline). This will there by enable learners to consume content even in low/no connectivity scenarios.
+Starting May 2022, the [**PWA**](../../infrastructure-management/install-your-platform-instance/create-publish-mobile-app.md#what-are-progressive-web-applications) based application will let users [download content for offline consumption](../../learner-experience/pwa-app.md#step-6-download-content-and-continue-learning-offline). This will there by enable learners to consume content even in low/no connectivity scenarios.
 
 ## Search option in Content Marketplace
 
@@ -76,7 +76,7 @@ Additionally, the administrators can also control progress retention for a learn
 
 MCT Analytics will now consider only unique users per course for each metric, irrespective of the multiple translations which the user might have completed.
 
-### Change in CSV format for Bulk download for courses with assessment
+### Change in CSV format for Bulk upload & download for courses with assessment
 
 With the addition of new question types there is a change in Bulk upload of courses with assessments i.e change in metadata JSON format
 

@@ -87,7 +87,11 @@ Error: Unable to decrypt the encrypted video source
 
 **Root Cause**: Content not loading related errors are generally related to the CORS setting.
 
-**Resolution**: If customer is using custom domain or even for the AzureFD or AzureWebsites URL, need to check if CORS is correctly configured or not in customer's storage account. Make sure URL have permission for get, post and PUT.
+**Resolution**: If customer is using custom domain or even for the AzureFD or AzureWebsites URL, need to check if CORS is correctly configured or not in customer's storage account. Make sure URL have permission for get, post and PUT. Navigate to Storage account of customer's instance and check for 'Resource Sharing (CORS)' and follow below steps:
+
+* In allowed origin, add the current domain (one entry with www. Prefix and another without this prefix)
+* In allowed Methods, add GET, PUT, PATCH, OPTION, DELETE, POST.
+* Save this by clicking on the “save” button above.
 
 ### Issue 6: Unable to add lessons to courses
 

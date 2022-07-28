@@ -154,7 +154,7 @@ Click on the **Delete** icon against an Organization Administrator to delete.
 Learners can be assigned to Organizations on the portal from 'All Users' section.
 
 >[!Note]
-> Only Global Admin can add/edit users on the platform
+> Only Global Admin, Organization Admin can add/edit users on the platform
 
 ### Add Single User to Organization
 
@@ -243,7 +243,7 @@ The API signature that assigns learners to Organizations is given below.
 3. [Add Learner via All users](add-users/add-users-to-the-portal-1.md#option-1--add-learner-via-all-users) requires an organization to be selected.
 
     >[!Note]
-    > Global Admin can add users via All Users section.
+    > Global Admin, Organization Admin can add users via All Users section.
 
 4. [Adding users to a Group](organize-users/add-a-single-user-to-the-group.md#steps-for-adding-a-single-user-to-a-group) requires both User and Group to belong to same Organization.
 

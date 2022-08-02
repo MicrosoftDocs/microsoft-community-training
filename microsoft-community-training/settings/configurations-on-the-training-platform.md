@@ -122,6 +122,14 @@ Microsoft Community Training portal allows you to [manage the portal with multip
 
 By default, this feature remains disabled with value **False**, therefore not allowing administrators to create multiple organizations.
 
+## Restricting ability to edit Learner profile for non-Global admin
+
+```Disable profile edit for non-global admin
+Features:disableProfileEditForNonSuperAdmin
+```
+
+MCT allows you to restrict ability of editing learner profiles for administrators other than global admin. If you choose to have only Global admin to edit learner profiles in MCT you can set this value to **true**
+
 ## Hide Navigation bar for Learners
 
 ```Hide Navigation bar for Learners

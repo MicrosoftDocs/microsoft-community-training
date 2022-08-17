@@ -190,3 +190,7 @@ Having said that, gamification features are something on our roadmap which shoul
 ### How to move MCT resources across Azure subscriptions?
 
 At present, we do not recommend moving resource group across different Azure subscriptions. Doing so might impact the services and functionalities of your MCT training portal.
+
+### Language customization in Azure Active Directory B2C
+
+[**Language customization in Azure Active Directory B2C (Azure AD B2C)**](https://docs.microsoft.com/en-us/azure/active-directory-b2c/language-customization?pivots=b2c-user-flow#support-requested-languages-for-ui_locales) allows your user flow to accommodate different languages to suit your customer needs. 

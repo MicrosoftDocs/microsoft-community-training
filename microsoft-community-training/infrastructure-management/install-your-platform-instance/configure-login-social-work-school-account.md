@@ -188,11 +188,11 @@ Here are the steps an create on Azure AD B2C tenant and link the same with your 
         2. "https://*name*.azurewebsites.net/signin-b2c-pwd"
         3. "https://*name*-staging.azurewebsites.net/signin-b2c-pwd"  
     where "name" corresponds to your website name.
-
-            ![Password reset flow](../../media/image%28113%29.png)
 2. Copy the Application ID value to be required later for **Client ID**.
-3. Under Application, go to **Keys** and click on **Generate Key**.
+    :::image type="content" source="../../media/cliendIDB2C.png" alt-text="clientapplicaitonID":::
+3. In your Application, under Manage, go to **Certificates & Secrets** and click on **Generate Key**.
 4. Click on **Save** and the app key will appear. Copy the value to be required later for **Client Secret**.
+    :::image type="content" source="../../media/cliendsecretB2C.png" alt-text="clientsecretforB2C":::
 5. Go to Azure Active Directory from the left menu of your Azure portal, click on Domain Names and copy the tenant name under Name to be required later for **Tenant Name**. For example, if the default domain for your Azure AD tenant is **contoso.onmicrosoft.com**, then enter **contoso**.
 6. Refer [**this article**](/azure/active-directory-b2c/tutorial-create-user-flows) article to create a **signing flow** (a sign-up and sign-in user flow) and a **password reset flow** (for local account)
     * Select Email Addresses, Given Name, Identity Provider and Surname in Application claims
@@ -206,15 +206,15 @@ Here are the steps an create on Azure AD B2C tenant and link the same with your 
     > Setting Password Reset Flow for an Existing Deployment:
     > If you are setting up the **Password reset flow** on an existing deployment with Azure AD B2C authentication:
     >
-    > a. Set Userflow Name as **pwd_reset** (Step #1 in Create Flow using steps in [**this article**](/azure/active-directory-b2c/tutorial-create-user-flows)
+    > 1. Set Userflow Name as **pwd_reset** (Step #1 in Create Flow using steps in [**this article**](/azure/active-directory-b2c/tutorial-create-user-flows)
     >
-    > b. Add the following URLs in the **Reply URL** section,
-                >
-                > * "https://*name*.azurefd.net/signin-b2c-pwd"
-                > * "https://*name*.azurewebsites.net/signin-b2c-pwd"
-                > * "https://*name*-staging.azurewebsites.net/signin-b2c-pwd" where "name" corresponds to your website name.
-                >
-    > c. Open **App Service** and add the following configurations both with value as **B2C_1_pwd_reset**,
+    > 2. Add the following URLs in the **Reply URL** section,
+        >
+        > * `https://*name*.azurefd.net/signin-b2c-pwd`
+        > * `https://*name*.azurewebsites.net/signin-b2c-pwd`
+        > * `https://*name*-staging.azurewebsites.net/signin-b2c-pwd` where "name" corresponds to your website name.
+        >
+    > 3. Open **App Service** and add the following configurations both with value as **B2C_1_pwd_reset**,
         >
         > * AzureADB2CPasswordResetPolicy
         > * idp:AzureADB2CPasswordResetPolicy

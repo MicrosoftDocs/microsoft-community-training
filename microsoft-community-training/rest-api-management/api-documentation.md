@@ -44,7 +44,7 @@ Apply the following steps to access the Rest API signatures exposed by the Micro
 > Then, URL Structure for API Signature: `https://mcttraining.azurewebsites.net/swagger`
 
 > [!WARNING]
-> You must be signed in as an administrator on your training portal to obtain the API Signature.
+> (In the same browser) You must be signed in as an administrator on your training portal to be able to access Swagger link for your instance.
 
 ## API Authentication
 

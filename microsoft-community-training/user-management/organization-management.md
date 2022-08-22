@@ -8,7 +8,7 @@ ms.prod: azure
 ---
 # Organization Management
 
-Microsoft Community Training supports multiple organizations to be created on the training platform where content and users can be mutually exclusive to each other.
+Microsoft Community Training supports multiple organizations to be created on the training platform where content and users can be part of siloed organizations with in same instance.
 
 An **Organization** on the Microsoft Community Platform is a set of learners and administrators who have a particular purpose or belong to a specific criteria viz. location, job function, interest etc. The organization administrator can use the management portal to manage content and users for its organization.
 
@@ -153,6 +153,9 @@ Click on the **Delete** icon against an Organization Administrator to delete.
 
 Learners can be assigned to Organizations on the portal from 'All Users' section.
 
+>[!Note]
+> Only Global Admin, Organization Admin can add/edit users on the platform
+
 ### Add Single User to Organization
 
 1. On the Microsoft Community Training portal, after login [**switch to administrator view**](../get-started/step-by-step-configuration-guide.md#step-2--switch-to-administrator-view-of-the-portal)
@@ -168,6 +171,11 @@ Learners can be assigned to Organizations on the portal from 'All Users' section
     :::image type="content" source="../media/orgcontactadd.png" alt-text="addcontacttoOrg":::
 
 ### Bulk upload users to Organization
+
+>[!warning]
+>
+> Adding an existing user from a different Organization will lead to loss of course progress made in previous organization
+>
 
 1. On the Microsoft Community Training portal, after login [**switch to administrator view**](../get-started/step-by-step-configuration-guide.md#step-2--switch-to-administrator-view-of-the-portal)
 
@@ -185,8 +193,10 @@ Learners can be assigned to Organizations on the portal from 'All Users' section
 
 Global administrator can update user organization while [**editing learner profile**](manage-users/edit-user-profile-on-the-platform.md#option-1---steps-to-edit-a-single-user-profile).
 
->[!Note]
-> Only Global Admin can add/edit users on the platform
+>[!warning]
+>
+> Adding an existing user from a different Organization will lead to loss of course progress made in previous organization
+>
 
 ## View and Download users in Organization
 
@@ -217,3 +227,43 @@ The API signature that assigns learners to Organizations is given below.
 >[!Note]
 >
 > For instances with MS Teams deployment, organization admin will be able to view users of the tenant to which organization admin belongs. Here are the steps to [create Organizations for each tenant](../infrastructure-management/install-your-platform-instance/create-teams-app-for-your-training-portal.md#creating-organizations-for-each-tenant)
+
+## Impact of Organizations in various admin flows
+
+1. [Enrolling Learner to a course](../content-management/manage-content/manage-course-category/manage-users-for-a-course.md#steps-to-enroll-users-directly-to-a-course) requires both Learner and Course to belong to same Organization.
+
+    >[!Note]
+    >Global admin, Organization Admin, Category Admin, Course admin are allowed to enroll existing users in platform to course.
+
+2. [Enrolling Learners to Learning Path](../content-management/manage-content/manage-learning-path/manage-user-for-a-learning-path.md#steps-to-add-users-on-the-learning-path) requires both Learner and Course to belong to same Organization.
+
+    >[!Note]
+    > Global Admin, Organization Admin, Learning Path Admin are allowed to enroll existing users in platform to Learning path.
+
+3. [Add Learner via All users](add-users/add-users-to-the-portal-1.md#option-1--add-learner-via-all-users) requires an organization to be selected.
+
+    >[!Note]
+    > Global Admin, Organization Admin can add users via All Users section.
+
+4. [Adding users to a Group](organize-users/add-a-single-user-to-the-group.md#steps-for-adding-a-single-user-to-a-group) requires both User and Group to belong to same Organization.
+
+    >[!Note]
+    > Global Admin, Organization Admin, Group Admin can add existing users in platform to a Group.
+
+5. [Assign content to users in the group](manage-users/assign-content-to-group-users.md#assign-content-to-users-in-the-group): Content (Courses and Learning Path) available for assignment to group users requires to have Group and content in same organization.
+
+    >[!Note]
+    > Global Admin, Organization Admin, Group Admin can add assign content to users from Group.
+
+6. [Adding course to a Learning path](../content-management/create-content/create-learning-path/add-course-to-a-learning-path.md#add-course-to-a-learning-path) requires that both Course and Learning Path belong to same Organization.
+
+    >[!Note]
+    > Global Admin, Organization Admin, Learning Path Admin can add courses to a learning path.
+
+7. Admin can update organization of a Category while [changing Course details](../content-management/manage-content/manage-course-category/change-course-details.md#change-course-details).
+
+    >[!Note]
+    > Global Admin, Organization Admin can change organization of a category.
+
+    >[!Warning]
+    > While changing organization of an existing category, course progress made by learner on previous organization would be lost.

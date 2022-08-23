@@ -4,7 +4,7 @@ original-url: https://docs.microsoftcommunitytraining.com/docs/create-a-new-cour
 author: nikotha
 ms.author: nikotha
 description: This document explains new course creation flow on the Microsoft Community Training platform. 
-ms.prod: azure
+ms.prod: learning-azure
 ---
 
 # Create a new course

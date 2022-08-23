@@ -4,7 +4,7 @@ original-url: https://docs.microsoftcommunitytraining.com/docs/create-teams-app-
 author: nikotha
 ms.author: nikotha
 description: Microsoft Community Training allows organization to enable online learning inside Microsoft Teams across web, mobile and desktop app.
-ms.prod: azure
+ms.prod: learning-azure
 ---
 
 # Setup Microsoft Teams as learner's endpoint for the platform

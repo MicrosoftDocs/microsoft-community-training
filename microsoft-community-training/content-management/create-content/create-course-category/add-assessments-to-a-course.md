@@ -4,7 +4,7 @@ original-url: https://docs.microsoftcommunitytraining.com/docs/add-assessments-t
 author: nikotha
 ms.author: nikotha
 description: Microsoft Community Training platform allows trainers to add assessments as a way to evaluate learners on their knowledge and proficiency.
-ms.prod: azure
+ms.prod: learning-azure
 ---
 
 # Add non-graded and graded assessments to a course

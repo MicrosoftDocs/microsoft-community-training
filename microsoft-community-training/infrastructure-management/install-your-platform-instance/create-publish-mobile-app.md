@@ -138,6 +138,16 @@ Raise a [**ticket**](https://sangamhelpdesk.microsoftcrmportals.com/SignIn?Retur
 
 6. Finish the process by running a script with steps as mentioned in this [document](https://github.com/MicrosoftDocs/microsoft-community-training/files/8222196/PWA.Migration.docx) that will allow you for [Digital Asset linking](https://developers.google.com/digital-asset-links/v1/getting-started).
 
+> [!NOTE]
+>
+> 1. **Difference between installing PWA from browser and installing from Play Store?**
+>     * There will be no difference in learning experience. However, with Play Store you can have controlled environments for downloads for your application
+>
+> 2. **Advantages of PWA over Native application**
+>    * PWAs are light weight applications when compared to Native applications, therefore they occupy less space.
+>
+>    * Easy to maintain, as PWA is essentially a browser page running as Native application it would be on-par with updates released for web application.
+
 <!--
 5. If you are creating an Android App for your instance for the first time (if you have an existing app and wanted it updated instead of creating new application, then proceed to step 6)
 

@@ -4,7 +4,7 @@ original-url: https://docs.microsoftcommunitytraining.com/docs/add-course-to-a-l
 author: nikotha
 ms.author: nikotha
 description: A Learning Path is a defined sequence of courses on the training platform to administrator guided training paths to the learners.
-ms.prod: azure
+ms.prod: learning-azure
 ---
 
 # Add course to a Learning path

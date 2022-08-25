@@ -4,7 +4,7 @@ original-url: https://docs.microsoftcommunitytraining.com/docs/de-assigning-cont
 author: v-samarth
 ms.author: v-samarth
 description: "When the administrator removes learners from Courses/ learning paths/ user groups, in a way it de-assigns the relevant content mapped through these segments to the learner."
-ms.prod: azure
+ms.prod: learning-azure
 ---
 
 # De-assignment of Content from the User

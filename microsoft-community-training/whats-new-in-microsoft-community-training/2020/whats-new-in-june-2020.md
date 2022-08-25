@@ -4,7 +4,7 @@ original-url: https://docs.microsoftcommunitytraining.com/docs/whats-new-in-june
 author: nikotha
 ms.author: nikotha
 description: As the world fights with the COVID-19 pandemic, we hope that you are safe and are continuing your online training programs with Microsoft Community Training platform.
-ms.prod: azure
+ms.prod: learning-azure
 ---
 
 # What's new in June 2020

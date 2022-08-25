@@ -4,7 +4,7 @@ original-url: https://docs.microsoftcommunitytraining.com/docs/upload-content-to
 author: nikotha
 ms.author: nikotha
 description: Lesson is a single unit of learning content in the form of Video, PDF, Word or PPT file for a course.
-ms.prod: azure
+ms.prod: learning-azure
 ---
 
 # Upload content to a course

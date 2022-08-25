@@ -3,7 +3,7 @@ title: What's new in October 2021
 author: nikotha
 ms.author: nikotha
 description: This document details the new features and capabilities launched on the Microsoft Community Training platform in October 2021. 
-ms.prod: azure
+ms.prod: learning-azure
 ---
 
 # What’s new in October 2021

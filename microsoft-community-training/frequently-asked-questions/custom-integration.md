@@ -4,7 +4,7 @@ original-url: https://docs.microsoftcommunitytraining.com/docs/custom-integratio
 author: nikotha
 ms.author: nikotha
 description: Microsoft Community Training do not inbuilt support for live training sessions.
-ms.prod: azure
+ms.prod: learning-azure
 ---
 
 # Platform Extensibility & Integration

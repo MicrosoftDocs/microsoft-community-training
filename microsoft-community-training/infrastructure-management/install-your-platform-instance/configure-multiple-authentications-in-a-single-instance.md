@@ -4,7 +4,7 @@ original-url: https://docs.microsoftcommunitytraining.com/docs/configure-multi-m
 author: sambati
 ms.author: sambati
 description: Setup multiple authentication modes in a single instance of Microsoft Community Training platform.
-ms.prod: azure
+ms.prod: learning-azure
 ---
 
 # Configure multiple authentications in a single instance

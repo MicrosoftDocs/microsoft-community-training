@@ -4,7 +4,7 @@ original-url: https://docs.microsoftcommunitytraining.com/docs/business-continui
 author: nikotha
 ms.author: nikotha
 description: Business Continuity and Disaster Recovery covers the aspect of service resiliency in case of an unfortunate event like Azure region going down.
-ms.prod: azure
+ms.prod: learning-azure
 ---
 
 # Business Continuity and Disaster Recovery for your Platform Instance

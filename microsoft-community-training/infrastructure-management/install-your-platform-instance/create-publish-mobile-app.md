@@ -141,12 +141,17 @@ Raise a [**ticket**](https://sangamhelpdesk.microsoftcrmportals.com/SignIn?Retur
 > [!NOTE]
 >
 > 1. **Difference between installing PWA from browser and installing from Play Store?**
->     * There will be no difference in learning experience. However, with Play Store you can have controlled environments for downloads for your application
+>    * There will be no difference in learning experience. However, with Play Store you can have controlled environments for downloads for your application
 >
+>    * Also, the AAB from Play Store is signed again by the Play Store certificates and therefore much more secure.
 > 2. **Advantages of PWA over Native application**
 >    * PWAs are light weight applications when compared to Native applications, therefore they occupy less space.
 >
 >    * Easy to maintain, as PWA is essentially a browser page running as Native application it would be on-par with updates released for web application.
+> 3. **Things to remember when migrating from Native application to PWA**
+>    * Downloaded content will not be migrated from Native to PWA application. Learner needs to download the content again for offline consumption.
+>
+>    * If you have PWA updated in Play Store in place of your native application then based on user device settings the app would be automatically updated, else user needs to manually update the application from Play Store.
 
 <!--
 5. If you are creating an Android App for your instance for the first time (if you have an existing app and wanted it updated instead of creating new application, then proceed to step 6)

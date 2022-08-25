@@ -4,7 +4,7 @@ original-url: https://docs.microsoftcommunitytraining.com/docs/generate-new-clie
 author: v-sambati
 ms.author: v-sambati
 description: Steps for generating a new client secret and link it to key-vault when the existing one is expired.
-ms.prod: azure
+ms.prod: learning-azure
 ---
 
 # Steps to generate a new client secret and link it to key-vault

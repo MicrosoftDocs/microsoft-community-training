@@ -4,7 +4,7 @@ original-url: https://docs.microsoftcommunitytraining.com/docs/create-a-category
 author: nikotha
 ms.author: nikotha
 description: A category is a collection of courses on a specific topic. Categories help you organize your learning content for different learners.
-ms.prod: azure
+ms.prod: learning-azure
 ---
 
 # Create a category

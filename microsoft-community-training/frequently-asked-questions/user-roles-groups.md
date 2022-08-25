@@ -4,7 +4,7 @@ original-url: https://docs.microsoftcommunitytraining.com/docs/user-roles-groups
 author: nikotha
 ms.author: nikotha
 description: The platform follows a role-based administration hierarchy.
-ms.prod: azure
+ms.prod: learning-azure
 ---
 
 # User Roles & Groups

@@ -4,7 +4,7 @@ original-url: https://docs.microsoftcommunitytraining.com/docs/mobile
 author: nikotha
 ms.author: nikotha
 description: This article explains how learners can access the training content using the Android mobile application for the Microsoft Community Training platform instance setup for your organization.
-ms.prod: azure
+ms.prod: learning-azure
 ---
 
 # Learner Experience on the mobile app

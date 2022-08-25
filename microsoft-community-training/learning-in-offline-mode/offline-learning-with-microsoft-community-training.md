@@ -4,7 +4,7 @@ original-url: https://docs.microsoftcommunitytraining.com/docs/learning-in-offli
 author: sambati
 ms.author: sambati
 description: This article explains how learners can access the training content in offline mode
-ms.prod: azure
+ms.prod: learning-azure
 ---
 
 # Offline Learning with Microsoft Community Training

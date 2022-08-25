@@ -4,7 +4,7 @@ original-url: https://docs.microsoftcommunitytraining.com/docs/add-multiple-user
 author: nikotha
 ms.author: nikotha
 description: Group Administrators can use bulk upload users feature to save time and add multiple users to specific group in one go.
-ms.prod: azure
+ms.prod: learning-azure
 ---
 
 # Add multiple users to the group

@@ -144,7 +144,7 @@ Raise a [**ticket**](https://sangamhelpdesk.microsoftcrmportals.com/SignIn?Retur
 >    * There will be no difference in learning experience. However, with Play Store you can have access to analytics and ability to choose who can download the application. As Play Store certifies the application, it is more secure.
 >
 > 2. **Advantages of PWA over Native application**
->    * PWAs are light weight applications when compared to Native applications, therefore they occupy less space.
+>    * PWAs are light weight applications when compared to Native applications, therefore they occupy less space (typically less than 10 MB).
 >
 >    * Easy to maintain, as PWA is essentially a browser page running as Native application it would be at-par with updates released for web application.
 >

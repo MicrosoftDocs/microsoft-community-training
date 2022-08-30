@@ -181,9 +181,9 @@ All the learners data will be stored in Azure SQL DB on customer’s subscriptio
 
 Microsoft Community Training does not have any limitations on the number of users that be added to the platform. You will be able to have as many users as required.
 
-## Tutorial: Custom policies for Phone Auth Azure Active Directory B2C For Microsoft Community Training
+## Setup Native ADB2C Phone authentication: Custom policies for Phone login through Azure ADB2C For MCT
 
-[Custom policies](https://docs.microsoft.com/azure/active-directory-b2c/custom-policy-overview) are configuration files that define the behavior of your Azure Active Directory B2C (Azure AD B2C) tenant.
+You can choose to enable phone number as a sign-up option tenant-wide by adding phone sign-up and sign-in to your local account identity provider via ADB2C instead of using MCT phone authentication by defining [Custom policies](https://docs.microsoft.com/azure/active-directory-b2c/custom-policy-overview) which are configuration files that define the behavior of your Azure Active Directory B2C tenant.
 
 ### Prerequisites
 
@@ -218,17 +218,19 @@ Microsoft Community Training does not have any limitations on the number of user
 
 ### Custom policy
 
+1. [Download the .zip file](https://github.com/MicrosoftDocs/microsoft-community-training/files/9452013/Native_ADB2C_PhoneAuth_MCT-main.zip)
+<!---
 1. [Download the .zip file](https://github.com/Indrasen-Singh/Native_ADB2C_PhoneAuth_MCT/archive/refs/heads/main.zip) or clone the repository:
 
     ```console
     git clone https://github.com/Indrasen-Singh/Native_ADB2C_PhoneAuth_MCT.git
     ```
-
-1. In all of the files in the directory, replace the string `yourtenant` with the name of your Azure AD B2C tenant.
+-->
+2. In all of the files in the directory, replace the string `yourtenant` with the name of your Azure AD B2C tenant.
 
     For example, if the name of your B2C tenant is *contosotenant*, all instances of `yourtenant.onmicrosoft.com` become `contosotenant.onmicrosoft.com`.
 
-1. Save the file.
+3. Save the file.
 
 ### Upload the policies
 

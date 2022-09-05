@@ -75,7 +75,7 @@ To get started, you need to have a custom home page designed for it to be linked
 
 >[!Note]
 >
->1. For more details please refer [https://docs.microsoft.com/azure/storage/blobs/storage-blob-static-website-host](/azure/storage/blobs/storage-blob-static-website-host)
+>1. For more details, see [Tutorial: Host a static website on Blob Storage](/azure/storage/blobs/storage-blob-static-website-host)
 >
 >2. Here are some sample templates of the Custom Homepage which can be used to deploy on your MCT instance:
 >    * [**MCT_CustomHomePage_Templates.zip**](https://github.com/MicrosoftDocs/microsoft-community-training/files/6968259/MCT_CustomHomePage_Templates.zip)

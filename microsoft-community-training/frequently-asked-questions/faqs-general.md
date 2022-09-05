@@ -89,7 +89,7 @@ Refer to this [**pricing calculator**](https://communitytraining.microsoft.com/p
 
 ### Can I get access to demo environment or trial version of Microsoft Community Training?
 
-We have a guided tour available for you to play around and get familiar with the platform capabilities. Please navigate to the [**interactive demo**](https://communitytraining.microsoft.com/demo/ ) on the [**product website**](https://communitytraining.microsoft.com/).
+We have a guided tour available for you to play around and get familiar with the platform capabilities. Please navigate to the [**interactive demo**](https://communitytraining.microsoft.com/demo/) on the [**product website**](https://communitytraining.microsoft.com/).
 
 Alternatively, you can also deploy and setup a platform instance on your Azure subscription from the [**Azure Marketplace**](https://azuremarketplace.microsoft.com/marketplace/apps/project-sangam.microsoft-community-training?tab=Overview).  
 

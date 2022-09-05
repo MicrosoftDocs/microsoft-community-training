@@ -82,7 +82,7 @@ You can create a new Azure Active Directory tenant or use an existing one based 
 
 #### Step 2 - Create an Azure AD application
 
-1. Create a new Azure AD application by following this article. You only need to follow the section titled **Create an Azure Active Directory application**. Please ensure to set the Redirect URIs as per below:
+1. Create a new Azure AD application by following [**this article**](https://docs.microsoft.com/azure/active-directory/develop/quickstart-register-app). You only need to follow the section titled **Register an application**. Please ensure to set the Redirect URIs as per below:
 
     **Redirect URIs**
 

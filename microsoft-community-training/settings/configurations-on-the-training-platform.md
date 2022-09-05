@@ -186,6 +186,16 @@ The portal allows you to hide the Course Library from the learner’s view of th
 
 By default, this feature is kept disabled with value as **False** for permitting the learner to view the library.
 
+## Disable creation of Auto-Enroll courses
+
+```Features:AutoEnrollCourseEnabled
+Features:AutoEnrollCourseEnabled
+```
+
+MCT portal allows you to disable marking course as Auto-enroll while creating [**new course**](https://docs.microsoft.com/en-us/azure/industry/training-services/microsoft-community-training/content-management/create-content/create-course-category/create-a-new-course). By default, admin can create auto-enroll courses is enabled and to disable this you need to set the value as **false**
+
+:::image type="content" source="../media/featuredisableautoenrollcourse.png" alt-text="autoenrollcourse":::
+
 ## Enable PDF Download feature in the lessons
 
 MCT portal allows you to enable the Download feature for the PDF lessons in the learner’s view of the platform.
@@ -196,7 +206,7 @@ EnablePDFLessonDownload
 
 By default this feature is not enabled, you need to add the above configuration and enable this feature by setting value as **true**. To disable this feature, configuration setting value should be set as **false**.
 
-:::image type="content" source="../media/Enable PDF Download3.png" alt-text="Enable Download PDF":::
+:::image type="content" source="../media/featuredisableautoenrollcourse.png" alt-text="autoenrolldisable":::
 
 ## Allow learners to skip videos
 

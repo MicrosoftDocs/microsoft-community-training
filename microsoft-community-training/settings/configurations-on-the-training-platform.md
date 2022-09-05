@@ -186,13 +186,13 @@ The portal allows you to hide the Course Library from the learner’s view of th
 
 By default, this feature is kept disabled with value as **False** for permitting the learner to view the library.
 
-## Disable ability to create Auto-Enroll courses
+## Disable creation of Auto-Enroll courses
 
 ```Features:AutoEnrollCourseEnabled
 Features:AutoEnrollCourseEnabled
 ```
 
-MCT portal allows you to disable the ability of marking course as Auto-enroll while creating new course. By default, this feature is enabled and to disable this you need to set the value as **false**
+MCT portal allows you to disable marking course as Auto-enroll while creating [**new course**](https://docs.microsoft.com/en-us/azure/industry/training-services/microsoft-community-training/content-management/create-content/create-course-category/create-a-new-course). By default, admin can create auto-enroll courses is enabled and to disable this you need to set the value as **false**
 
 :::image type="content" source="../media/featuredisableautoenrollcourse.png" alt-text="autoenrollcourse":::
 

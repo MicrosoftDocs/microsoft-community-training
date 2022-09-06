@@ -206,7 +206,7 @@ EnablePDFLessonDownload
 
 By default this feature is not enabled, you need to add the above configuration and enable this feature by setting value as **true**. To disable this feature, configuration setting value should be set as **false**.
 
-:::image type="content" source="../media/featuredisableautoenrollcourse.png" alt-text="autoenrolldisable":::
+:::image type="content" source="../media/Enable PDF Download.png" alt-text="pdfdownload":::
 
 ## Allow learners to skip videos
 

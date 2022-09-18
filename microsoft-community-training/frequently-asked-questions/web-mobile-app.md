@@ -144,6 +144,16 @@ As Android platform polices are subjected to change, we suggest you refer to [**
 
 Download functionality on the mobile app is turned on by default and cannot be disabled. However, the downloaded content can only be consumed within the app and are not accessible outside the mobile app. This ensures that learners won’t be able to share content with others.
 
+### Things to remember while migrating from Native Android app to PWA
+
+If you have an existing native android application and planning to migrate to PWA then these are things to be noted before migration:
+
+1. Send a communication via [in-app](https://learn.microsoft.com/azure/industry/training-services/microsoft-community-training/user-management/manage-users/send-announcement-to-the-users) or by email/phone to all the users on the platform to have their progress that they would've made offline synced with webapp by staying connected to internet for 5-10 min.
+   * Make sure you send this notification prior to updating the app in Play Store.
+2. As you update your existing native app with PWA in your Play Store, based on end user's device settings, the update would automatically happen or they've to manually update it from Play Store.
+   * If you have users installing PWA from browser instead of play store, where you previously have native application, above step 1 remains same.
+3. Once updated, learner can now again [download content](https://learn.microsoft.com/azure/industry/training-services/microsoft-community-training/learner-experience/pwa-app) for their offline consumption. 
+
 ## Discussion forum & announcement
 
 ### Are there discussion forums or comment sessions available on the platform for Q&A?

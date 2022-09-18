@@ -69,6 +69,21 @@ Alternatively, you can also use [**REST APIs**](../infrastructure-management/ins
 
 Please  contact us [**via HelpDesk**](https://go.microsoft.com/fwlink/?linkid=2104630) to get help on the integration.
 
+### Identity Mapping between external portal to MCT (via ADB2C)
+
+MCT allows you to map identity with external portal i.e., if you have an external portal where you want to authenticate users (via email, User name, local IDP) and then have them redirected to MCT. This flow can be acheived via setting up custom policies in your B2C tenant as mentioned in steps below:
+
+* Setup [ADB2C tenant](https://learn.microsoft.com/azure/active-directory-b2c/tutorial-create-tenant)
+* You need to set custom policies in your ADB2C (we are sharing [sample codes](https://github.com/MicrosoftDocs/microsoft-community-training/files/9594393/Sample.NCS.login.usecase.zip) for your reference) please make necessary changes based on your login requirements 
+* **ADB2C Policies** 
+   * The sign-in page has the option to login only via custom id
+   * Upload the custom files in the order mentioned [here](https://learn.microsoft.com/azure/active-directory-b2c/tutorial-create-user-flows?pivots=b2c-custom-policy#upload-the-policies)
+* **Function app**
+   * The sample code has feature of updating user’s FirstName and LastName via Service2Service auth on user’s login.
+   * This implies that MCT will always have the same FirstName and LastName of the user as present in your external portal, and it will be updated automatically whenever the user logs in.
+   * Please update the required params in code following the documentation of S2S here Service to [Service Authentication](https://learn.microsoft.com/azure/industry/training-services/microsoft-community-training/rest-api-management/service-to-service-authentication) and then publish the function app.
+* Here is a [sample recording](https://microsoft.sharepoint.com/:v:/t/BuildingSangam/EQZ7Z2zY7zdAuQY5leNYmwgBO7-ezdGFTUngJWdz70wmsA?e=YIITyN) for your reference. 
+
 ### Does Microsoft Community Training provide any job matching capabilities? How can I integrate Microsoft community training with external job portals?
 
 Microsoft Community Training does not come with any job matching capabilities out of the box. However, the platform can be integrated with external job portals to push learner progress and course certificate using the REST APIs.

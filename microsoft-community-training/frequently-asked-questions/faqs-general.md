@@ -102,7 +102,7 @@ Microsoft community training supports a wide range of formats as listed below:
 * **Video formats**: MP4, 3GP, 3G2, 3GP2, AVI, MPEG, MPG, WMV, VOB, MKV, FLV, DV, TS, ASF, M4V, MOV
 * **Audio formats**: MP3 & OGG
 * **Other formats**: PDF, PPT, PPTX, DOCX, HTML, ePUB
-* **Hyperlinks**: Paste link in the upload lesson dialogue box ((Example: Contents added via external platforms such as YouTube or Microsoft Learn training using their URL)
+* **Hyperlinks**: Paste link in the upload lesson dialogue box ((Example: Contents added via external platforms such as YouTube or Microsoft Learn using their URL)
 
 For more information, check the article on [**how to manage course content**](../content-management/content-management-overview.md) on Microsoft Community Training platform.  
 

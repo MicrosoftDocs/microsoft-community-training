@@ -22,7 +22,7 @@ This document walks through root cause and resolution steps for some of the majo
 
 ## Brief on MCT Architecture
 
-Microsoft Community Training (MCT) platform is available as a [Managed Application](https://docs.microsoft.com/azure/azure-resource-manager/managed-applications/) on the [Azure Marketplace](https://azuremarketplace.microsoft.com/marketplace/apps/project-sangam.microsoft-community-training) for customers. The MCT instance is deployed on customer’s Azure subscriptions and utilizes the following Azure services –
+Microsoft Community Training (MCT) platform is available as a [Managed Application](https://learn.microsoft.com/azure/azure-resource-manager/managed-applications/) on the [Azure Marketplace](https://azuremarketplace.microsoft.com/marketplace/apps/project-sangam.microsoft-community-training) for customers. The MCT instance is deployed on customer’s Azure subscriptions and utilizes the following Azure services –
 
 1. Azure App Service
 2. Azure Blob Storage

@@ -42,7 +42,7 @@ The platform supports the following types of formats:
 * **Video formats**: MP4, 3GP, 3G2, 3GP2, AVI, MPEG, MPG, WMV, VOB, MKV, FLV, DV, TS, ASF, M4V, MOV
 * **Audio formats**: MP3 & OGG
 * **Other formats**: PDF, PPT, PPTX, DOCX, HTML, ePUB
-* **Hyperlinks**: Paste link in the upload lesson dialogue box (Example: Video URLs from YouTube, Microsoft Learn training etc.)
+* **Hyperlinks**: Paste link in the upload lesson dialogue box (Example: Video URLs from YouTube, Microsoft Learn, etc.)
 
 For more information, check the article on [**how to manage course content**](../content-management/content-management-overview.md) on Microsoft Community Training platform.  
 
@@ -80,7 +80,7 @@ The platform can accept files size depending on the upload size limit as specifi
 
 ### Will I be able to link videos from external platforms like YouTube and Vimeo?
 
-Yes, customers can embed videos from any external platforms such as YouTube, Microsoft Learn training etc. on the Microsoft Community Training portal.  However, learners will not be able to download such content on the mobile app for offline consumption.
+Yes, customers can embed videos from any external platforms such as YouTube, Microsoft Learn, etc. on the Microsoft Community Training portal.  However, learners will not be able to download such content on the mobile app for offline consumption.
 
 >[!Note]
 > For Vimeo videos, they do not allow their videos to get embedded directly on any other platform. In order to get the embed URL for any video, you need to follow the below steps:
@@ -283,12 +283,12 @@ If the video is hosted on external platforms like YouTube then below features wi
 
 2. Video consumption cannot be tracked by the platform i.e. lesson will be marked as completed as soon as they clicked on the video irrespective whether they actually watched the video lessons later or not.
 
-### What is the difference between uploading content v/s linking content from public resources such as YouTube, Microsoft Learn training, etc.?
+### What is the difference between uploading content v/s linking content from public resources such as YouTube, Microsoft Learn, etc.?
 
 When content is uploaded to our portal, learners get the advantage of features such as offline consumption on mobile app, auto-optimization based on data bandwidth, detailed analytics etc. which are not available for content from external sources. Also, external content  are marked as completed once they are opened or redirected.
 
 > [!NOTE]  
-> Video content from YouTube platform will be embedded and render within the application, Other external web links such as Microsoft Learn training and LinkedIn Learning will open in a new browser window.
+> Video content from YouTube platform will be embedded and render within the application, Other external web links such as Microsoft Learn and LinkedIn Learning will open in a new browser window.
 
 ### How do I show language specific content for a course to the learners?
 

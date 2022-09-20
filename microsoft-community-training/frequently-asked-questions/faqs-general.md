@@ -108,7 +108,7 @@ For more information, check the article on [**how to manage course content**](..
 
 ### Does the Microsoft Community Training platform come with some out of the box content?
 
-Microsoft Community Training offers wide range of out of box video content such as Microsoft Learn training, Office products, Computer basics & Security etc. All these contents are free of cost and  can obtain the video contents by [**contacting our helpDesk**](https://go.microsoft.com/fwlink/?linkid=2104630) post your platform deployment.
+Microsoft Community Training offers wide range of out of box video content such as Microsoft Learn, Office products, Computer basics & Security etc. All these contents are free of cost and  can obtain the video contents by [**contacting our helpDesk**](https://go.microsoft.com/fwlink/?linkid=2104630) post your platform deployment.
 
 You can check [**our sample content library**](http://sangampartners.azurewebsites.net/) for reference. We constantly keep updating our content library.  
 

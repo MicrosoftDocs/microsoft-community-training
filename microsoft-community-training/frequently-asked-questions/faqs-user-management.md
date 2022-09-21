@@ -21,7 +21,7 @@ Currently, there are 3 forms of login identity supported in the platform out of 
 
 3. **Azure Active Directory** -  Learners use their Azure Active Directory (aka Azure AD) credentials to login to the portal.
 
-4. **Login via multiple modes** - Microsoft Community Training supports adding more than one authentication option for a single platform instance. To be able to configure multiple authentications to your instance you need to first create [**AD B2C**](https://docs.microsoft.com/azure/active-directory-b2c/overview) tenant and register an application to later add Mobile number, Personal Email, Azure AD login support for your instance.
+4. **Login via multiple modes** - Microsoft Community Training supports adding more than one authentication option for a single platform instance. To be able to configure multiple authentications to your instance you need to first create [**AD B2C**](https://learn.microsoft.com/azure/active-directory-b2c/overview) tenant and register an application to later add Mobile number, Personal Email, Azure AD login support for your instance.
 
 Apart from the out-of-box identities, platform can integrate with any existing OAuth 2.0, OpenID Connect or SAML based authenticate service for login. For more information, reach out us [**via HelpDesk**](https://go.microsoft.com/fwlink/?linkid=2104630).
 
@@ -183,12 +183,12 @@ Microsoft Community Training does not have any limitations on the number of user
 
 ## Setup Native ADB2C Phone authentication: Custom policies for Phone login through Azure ADB2C For MCT
 
-You can choose to enable phone number as a sign-up option tenant-wide by adding phone sign-up and sign-in to your local account identity provider via ADB2C instead of using MCT phone authentication by defining [Custom policies](https://docs.microsoft.com/azure/active-directory-b2c/custom-policy-overview) which are configuration files that define the behavior of your Azure Active Directory B2C tenant.
+You can choose to enable phone number as a sign-up option tenant-wide by adding phone sign-up and sign-in to your local account identity provider via ADB2C instead of using MCT phone authentication by defining [Custom policies](https://learn.microsoft.com/azure/active-directory-b2c/custom-policy-overview) which are configuration files that define the behavior of your Azure Active Directory B2C tenant.
 
 ### Prerequisites
 
-- If you don't have one already, [create an Azure AD B2C tenant](https://docs.microsoft.com/azure/active-directory-b2c/tutorial-create-tenant) that is linked to your Azure subscription.
-- [Register a web application](https://docs.microsoft.com/azure/active-directory-b2c/tutorial-register-applications?tabs=app-reg-ga), and [enable ID token implicit grant](https://docs.microsoft.com/azure/active-directory-b2c/tutorial-register-applications?tabs=app-reg-ga#enable-id-token-implicit-grant).
+- If you don't have one already, [create an Azure AD B2C tenant](https://learn.microsoft.com/azure/active-directory-b2c/tutorial-create-tenant) that is linked to your Azure subscription.
+- [Register a web application](https://learn.microsoft.com/azure/active-directory-b2c/tutorial-register-applications?tabs=app-reg-ga), and [enable ID token implicit grant](https://learn.microsoft.com/azure/active-directory-b2c/tutorial-register-applications?tabs=app-reg-ga#enable-id-token-implicit-grant).
 
 ### Add signing and encryption keys
 
@@ -254,7 +254,7 @@ As you upload the files, Azure adds the prefix `B2C_1A_` to each.
 
 ### Reference
 
-1. [Tutorial - Create user flows and custom policies - Azure Active Directory B2C](https://docs.microsoft.com/azure/active-directory-b2c/tutorial-create-user-flows?pivots=b2c-custom-policy)
+1. [Tutorial - Create user flows and custom policies - Azure Active Directory B2C](https://learn.microsoft.com/azure/active-directory-b2c/tutorial-create-user-flows?pivots=b2c-custom-policy)
 
 2. [Phone Number Passwordless](https://github.com/Azure-Samples/active-directory-b2c-custom-policy-starterpack/tree/master/scenarios/phone-number-passwordless)
 

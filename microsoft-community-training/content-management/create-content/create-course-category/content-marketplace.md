@@ -13,11 +13,11 @@ Microsoft community training now allows users to import courses to their trainin
 
 ## Content Providers in MCT Content Marketplace
 
-MCT plans to aggregate top content from various providers, currently started with MS Learn and Digital content, we are planning to gather quality content from more providers in near future.
+MCT plans to aggregate top content from various providers, currently started with Microsoft Learn training and Digital content, we are planning to gather quality content from more providers in near future.
 
 ### Microsoft Learn
 
-[**Microsoft Learn**](https://docs.microsoft.com/learn/support/faq?pivots=general) is a free, online training platform that provides interactive learning for Microsoft products and more. Goal is to help you become proficient on Microsoft technologies and learn more skills with fun, guided, hands-on, interactive content that's specific to your role and goals.
+[**Microsoft Learn training**](https://learn.microsoft.com/training/support/faq?pivots=general) is a free, online training platform that provides interactive learning for Microsoft products and more. Goal is to help you become proficient on Microsoft technologies and learn more skills with fun, guided, hands-on, interactive content that's specific to your role and goals.
 
 MS Learn provides role-based training for Azure developers, solution architects, and administrators they also provide role-based training for Microsoft Power BI, PowerApps, Dynamics365, Microsoft365, Office and Visual Studio.
 

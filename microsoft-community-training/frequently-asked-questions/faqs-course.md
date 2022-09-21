@@ -42,7 +42,7 @@ The platform supports the following types of formats:
 * **Video formats**: MP4, 3GP, 3G2, 3GP2, AVI, MPEG, MPG, WMV, VOB, MKV, FLV, DV, TS, ASF, M4V, MOV
 * **Audio formats**: MP3 & OGG
 * **Other formats**: PDF, PPT, PPTX, DOCX, HTML, ePUB
-* **Hyperlinks**: Paste link in the upload lesson dialogue box (Example: Video URLs from YouTube, MS Learn etc.)
+* **Hyperlinks**: Paste link in the upload lesson dialogue box (Example: Video URLs from YouTube, Microsoft Learn, etc.)
 
 For more information, check the article on [**how to manage course content**](../content-management/content-management-overview.md) on Microsoft Community Training platform.  
 
@@ -80,7 +80,7 @@ The platform can accept files size depending on the upload size limit as specifi
 
 ### Will I be able to link videos from external platforms like YouTube and Vimeo?
 
-Yes, customers can embed videos from any external platforms such as YouTube, MS Learn etc. on the Microsoft Community Training portal.  However, learners will not be able to download such content on the mobile app for offline consumption.
+Yes, customers can embed videos from any external platforms such as YouTube, Microsoft Learn, etc. on the Microsoft Community Training portal.  However, learners will not be able to download such content on the mobile app for offline consumption.
 
 >[!Note]
 > For Vimeo videos, they do not allow their videos to get embedded directly on any other platform. In order to get the embed URL for any video, you need to follow the below steps:
@@ -271,7 +271,7 @@ In case, content on the external website is not owned by the organization or can
 
 1. If the content is hosted on a video sharing platform like YouTube and Vimeo, the learners will be able to view the content inline similar to the uploaded content. However, learners will not be able to download this content and administrators will not be able to track consumption as the lesson will be marked as completed as soon as the learner opens the lesson.
 
-2. All the other content will open in a new browser window (except in mobile application, where the content will still open inline). The learners will see the following message on opening the lesson. When they click on **View Lesson**, the content will open in a new browser window. This is the behavior for content from external sources such as [**Microsoft Learn**](/learn/) and [**Khan Academy**](https://www.khanacademy.org/test-prep/iit-jee-subject/iit-jee-topic).
+2. All the other content will open in a new browser window (except in mobile application, where the content will still open inline). The learners will see the following message on opening the lesson. When they click on **View Lesson**, the content will open in a new browser window. This is the behavior for content from external sources such as [**Microsoft Learn training**](/training/) and [**Khan Academy**](https://www.khanacademy.org/test-prep/iit-jee-subject/iit-jee-topic).
 
     ![View lesson](../media/image%28255%29.png)
 
@@ -283,7 +283,7 @@ If the video is hosted on external platforms like YouTube then below features wi
 
 2. Video consumption cannot be tracked by the platform i.e. lesson will be marked as completed as soon as they clicked on the video irrespective whether they actually watched the video lessons later or not.
 
-### What is the difference between uploading content v/s linking content from public resources such as YouTube, MS Learn, etc.?
+### What is the difference between uploading content v/s linking content from public resources such as YouTube, Microsoft Learn, etc.?
 
 When content is uploaded to our portal, learners get the advantage of features such as offline consumption on mobile app, auto-optimization based on data bandwidth, detailed analytics etc. which are not available for content from external sources. Also, external content  are marked as completed once they are opened or redirected.
 

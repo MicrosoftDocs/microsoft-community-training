@@ -33,6 +33,19 @@ The support for Organizations can be enabled on the platform by [enabling the ap
 
 ## Create a New Organization
 
+1. On the  Microsoft Community Training portal, after login [**switch to administrator view**](../get-started/step-by-step-configuration-guide.md#step-2--switch-to-administrator-view-of-the-portal)
+
+2. Click on **Settings** option from the left navigation panel and navigate to **Manage Organizations**.
+
+    :::image type="content" source="../media/manageorg.png" alt-text="manageorganizations":::
+
+3. Click on **Add Organization**
+
+4. Enter the Organization name and description (optional) and click **Create**.
+
+    ![User Management - Add Organization - Create Organization](../media/User%20Management%20-%20Add%20Organization%20-%20Create%20Organization.png)
+
+<!--
 1. On the  Microsoft Community Training portal, after login [**switch to administrator view**](../get-started/step-by-step-configuration-guide.md#step-2--switch-to-administrator-view-of-the-portal).
 
     ![Create a New Organization](../media/image%28421%29.png)
@@ -57,9 +70,27 @@ The support for Organizations can be enabled on the platform by [enabling the ap
     ![User Management - Add Organization - Create Organization](../media/User%20Management%20-%20Add%20Organization%20-%20Create%20Organization.png)
 
 6. Click on **Done** to close the **Manage Organization** panel.
+-->
 
 ## Edit an Existing Organization
 
+>[!Note]
+>
+> This access is available only to Global Administrators on the platform.
+
+1. On the  Microsoft Community Training portal, after login [**switch to administrator view**](../get-started/step-by-step-configuration-guide.md#step-2--switch-to-administrator-view-of-the-portal)
+
+2. Click on **Settings** option from the left navigation panel and navigate to **Manage Organizations**.
+
+3. From the **Manage Organizations** panel, click on the **pencil icon** next to the respective Organization name.
+
+    :::image type="content" source="../media/Orgbrandedit.png" alt-text="brandedit":::
+
+4. Edit the Organization name and/or desription and click **Update**.
+
+    ![User Management - Add Organization - Edit Organization](../media/User%20Management%20-%20Add%20Organization%20-%20Edit%20Organization.png)
+
+<!--
 1. On the  Microsoft Community Training portal, after login [**switch to administrator view**](../get-started/step-by-step-configuration-guide.md#step-2--switch-to-administrator-view-of-the-portal).
 
     ![Edit an Existing Organization](../media/image%28421%29.png)
@@ -84,6 +115,7 @@ The support for Organizations can be enabled on the platform by [enabling the ap
     ![User Management - Add Organization - Edit Organization](../media/User%20Management%20-%20Add%20Organization%20-%20Edit%20Organization.png)
 
 6. Click on **Done** to close the **Manage Organization** panel.
+-->
 
 ## Delete an Organization
 
@@ -91,6 +123,49 @@ If an Organization is deleted, all content, users and user Groups of the Organiz
 Click on the **Delete** icon from the Manage Organizations panel to Delete an Organization.
 
 ![User Management - Add Organization - Manage Organization](../media/User%20Management%20-%20Add%20Organization%20-%20Manage%20Organization.png)
+
+## Customize look and feel of your Organization(s)
+
+You can customize the look and feel of your learner experience of the Microsoft Community Training platform for each of your [Organization](#create-a-new-organization)
+
+>[!Note]
+>
+> This access is available only to Global Administrators on the platform.
+
+1. On the  Microsoft Community Training portal, after login [**switch to administrator view**](../get-started/step-by-step-configuration-guide.md#step-2--switch-to-administrator-view-of-the-portal).
+
+2. Click on **Settings** option from the left navigation panel and navigate to **Organization settings**.
+
+    :::image type="content" source="../media/Orgbrandsettings.png" alt-text="brandsettings":::
+
+3. Choose the Organization for which you want to update the setting from the drop down. Here you can update the following:
+
+    1. **General**
+        1. [Set your portal name](../settings/configure-the-look-and-feel-of-your-portal.md#set-your-portal-name)
+        2. [Set your privacy terms](../settings/configure-the-look-and-feel-of-your-portal.md#set-your-privacy-terms)
+        3. [Enable languages on the portal](../settings/configure-the-look-and-feel-of-your-portal.md#enable-languages-on-the-portal)
+
+    2. **Branding**
+        1. [Set the logo](../settings/configure-the-look-and-feel-of-your-portal.md#set-the-logo)
+        2. [Set the banner image](../settings/configure-the-look-and-feel-of-your-portal.md#set-the-banner-image)
+        3. [Set the welcome text](../settings/configure-the-look-and-feel-of-your-portal.md#set-the-welcome-text)
+        4. [Set the brand color](../settings/configure-the-look-and-feel-of-your-portal.md#set-the-brand-color)
+        5. [Set the footer title and message](../settings/configure-the-look-and-feel-of-your-portal.md#set-the-footer-title-and-message)
+
+    3. **Mobile Application**
+
+    * You can create [Progressive Web Application (PWA)](../infrastructure-management/install-your-platform-instance/create-publish-mobile-app.md#option-1-creating-a-progressive-web-application-pwa-for-android) for your instance for which you need to meet the [installation requirements](../infrastructure-management/install-your-platform-instance/create-publish-mobile-app.md#installation-requirements-for-pwa-mobile-application).
+
+    * Under Mobile Application setting you need to specify following information:
+
+        | Setting | Description |
+        | --- | --- |
+        | Mobile Application Name | You can specify your Instance name, this name will be used for rendering splash screen (Android), Start menu item (Windows) |
+        | Mobile Application Short Name | This will be used to generate the App icon name on the device app tray. You can mention a shorter acronym of your instance name. |
+        | Application Background Color | This setting will be used for rendering Splash screen (Android) |
+        | Application Logo (512 px by 512 px) | The logo must be 512x512 pixels, MCT uses this image to render Splash screen, Start menu, App Launcher item for your PWA.  |
+
+4. Once the settings are updated, learner (post login) will see the portal customized based on their respective Organization settings to which they belong.
 
 ## Create a New Organization Administrator
 

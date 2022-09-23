@@ -130,7 +130,8 @@ You can customize the look and feel of your learner experience of the Microsoft 
 
 >[!Note]
 >
-> This access is available only to Global Administrators on the platform.
+> * Global Administrators can adjust settings for all Organizations.
+> * Organization Administrators can only adjust these settings on which they are admin.
 
 1. On the  Microsoft Community Training portal, after login [**switch to administrator view**](../get-started/step-by-step-configuration-guide.md#step-2--switch-to-administrator-view-of-the-portal).
 

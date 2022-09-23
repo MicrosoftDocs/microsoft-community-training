@@ -28,7 +28,7 @@ If you have [Organization(s)](../../user-management/organization-management.md#o
 
 We've enforced [validations at Organization level](../../user-management/organization-management.md#impact-of-organizations-in-various-admin-flows) for various flows with in MCT for a seamless management of your Organizations.
 
-### Behavior changes due to enhancements in Organization Management
+### Behavioral changes due to enhancements in Organization Management
 
 * learning path Admin can add any course to the learning path, even though (s)he isn't a course/category admin. Earlier they needed to be course/category admin to be able to add a course/category to a learning path.
 * [Enrolling Learner to a course](../../content-management/manage-content/manage-course-category/manage-users-for-a-course.md#steps-to-enroll-users-directly-to-a-course) requires both Learner and Course to belong to same Organization.
@@ -90,6 +90,8 @@ Adjusted the count logic to not count system admin in case of auto-enroll course
 Post publishing a lesson you can now replace content of that lesson.
 
 ### Fixed multiple issue with SCORM and HTML lessons rendering in MCT
+
+Fixed content access issues for HTML and SCORM lessons.
 
 ### DB changes
 

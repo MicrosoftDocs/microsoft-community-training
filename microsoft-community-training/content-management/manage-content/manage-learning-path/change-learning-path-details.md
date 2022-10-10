@@ -49,6 +49,14 @@ The Microsoft Community Training management portal provides role-based administr
 
 8. Click on **Update**.
 
+9. If your instance has [multiple languages](../../../settings/customize-languages-for-the-learners-on-the-platform.md#customize-languages-on-the-platform) enabled then you can add and edit translations of your Learning path fields.
+
+    :::image type="content" source="../../../media/LPlocedit.png" alt-text="LPlocalizationcreate":::
+
+    * You can select the language and add translated name, description and also assign new certificate template as needed
+
+    :::image type="content" source="../../../media/LPloccreateadd.png" alt-text="LPlocacreate"::: 
+
 ## Steps to delete a Learning Path
 
 1. On the Microsoft Community Training portal, login and [**switch to administrator view**](../../../get-started/step-by-step-configuration-guide.md#step-2--switch-to-administrator-view-of-the-portal).

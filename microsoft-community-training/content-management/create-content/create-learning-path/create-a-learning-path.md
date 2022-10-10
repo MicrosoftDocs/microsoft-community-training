@@ -44,6 +44,10 @@ The Microsoft Community Training management portal provides role-based administr
 
     :::image type="content" source="../../../media/LP_cert.PNG" alt-text="LearningPathCertificate":::
 
+    1. If you have [multiple languages](../../../settings/customize-languages-for-the-learners-on-the-platform.md#customize-languages-on-the-platform) enabled for your instance, then you can add translations for your Learning Path fields.
+
+        :::image type="content" source="../../../media/LPloccreate.png" alt-text="LPlocalization":::
+
 5. Enter the **Learning Path Description**. The Learning Path description is a short summary which informs a learner about course content at the time of registration.
 
 6. Choose  **Upload**  option to open file picker and select an image file as Learning Path Thumbnail.

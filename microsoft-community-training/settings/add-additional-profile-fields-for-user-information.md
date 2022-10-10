@@ -52,8 +52,6 @@ The Microsoft Community Training management portal provides role-based administr
        > * In total, you can add up to 15 additional fields.
        > * For Single/Multiple Choice - When list contains more than 10 options, use of **Upload List** Feature (explained below, in STEP 6) is recommended
 
-
-
 4. **Set validation criteria** - This option is only available for **Text field** type of profile field.
 
     :::image type="content" source="../media/Profile Field - set validation.PNG" alt-text="set validation":::
@@ -94,8 +92,73 @@ The Microsoft Community Training management portal provides role-based administr
 8. Once you have added the fields, click on **Publish**. You’ll be asked to confirm by typing Publish again.
 
 > [!CAUTION]
+>
 > * Ensure you click on Publish. Otherwise, the changes you made will be lost.
 > * Note that, while making any change in existing profile field data, this could impact learner association with smart group (if present)
+
+## Associated Profile Fields
+
+Microsoft Community Training supports adding associated profile fields. Associated profile fields will help in defining relationship and create dependencies between profile fields. Selection of a particular profile field value will determine the options in dependent profile field.
+
+For example, if there are two profile fields ‘State’ and ‘City’ and if city is a dependent on State, then selecting a particular State will show the Cities specific to that State.
+
+### Steps to create Associated profile fields
+
+1. Login to the Microsoft Community Training portal and [**switch to administrator view**](../get-started/step-by-step-configuration-guide.md#step-2--switch-to-administrator-view-of-the-portal)
+
+2. Click on **Settings** tab from the left navigation panel and select ‘Additional Profile fields’ from the list
+
+3. To make association between profile fields:
+
+    1. Select an existing profile field or [create new additional profile fields](#steps-to-create-additional-profile-fields)
+    2. Click on **Add Dependency** checkbox
+
+    :::image type="content" source="../media/assocfiled.png" alt-text="Associatedfiled":::
+
+    >[!Warning]
+    >
+    > Please note while changing/adding associations to an existing field would result in loss of profile data for users.
+
+    >[!Note]
+    >
+    > * By default, associated profile fields can be set with a dependency of up to two levels.
+    > * Only Single Choice type profile fields can be chosen as dependency fields
+    >
+    > **For example**, if an organization wants to have the `City`, `State` and `Country` to be associated then below are the steps:
+    >
+    > * `Country` – `State` - `City` is a two-level hierarchy of associated profile field.
+    > * First create a Single choice profile field for `Country`
+    > * Now, create a field for `State` by choosing `Country` as dependency
+    > * Now create a profile field for `City` by choosing `State` as dependency field.
+
+4. From the **Choose dependency** drop down list, select the profile field which this profile field should be dependent on.
+
+    :::image type="content" source="../media/choosedep.png" alt-text="choosingdependency":::
+
+5. After selecting the dependent profile field, choose the profile field option from the dropdown list, to add associated field options.
+
+    :::image type="content" source="../media/depchooseoptions.png" alt-text="chooseoptions":::
+
+    >[!NOTE]
+    >
+    >Associated field options can also be added through bulk upload flow via csv file with the options listed as example format given below for associating State with Country
+    > :::image type="content" source="../media/depassocupload.png" alt-text="uploaddependency":::
+
+6. Add the associated profile field option(s) under the selected dependency profile field option, click on **Add Option**
+
+    :::image type="content" source="../media/depassocaddoption.png" alt-text="uploadoption":::
+
+    >[!Caution]
+    >
+    > The combined option count that you can add via UI for a dependent field is capped at 10, for adding more than 10 options use bulk upload option.
+
+7. Follow the step 5 to add associated profile field options for all the dependency field options.
+
+8. Once all associated options added for a dependent profile field, click on Publish.
+
+>[!Caution]
+>
+> Associated profile fields cannot be edited/updated/deleted once they are published
 
 ## Add Privacy Terms and Conditions
 

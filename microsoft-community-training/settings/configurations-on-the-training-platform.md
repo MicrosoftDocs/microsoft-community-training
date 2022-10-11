@@ -192,7 +192,7 @@ By default, this feature is kept disabled with value as **False** for permitting
 Features:AutoEnrollCourseEnabled
 ```
 
-MCT portal allows you to disable marking course as Auto-enroll while creating [**new course**](https://learn.microsoft.com/azure/industry/training-services/microsoft-community-training/content-management/create-content/create-course-category/create-a-new-course). By default, admin can create auto-enroll courses is enabled and to disable this you need to set the value as **false**
+MCT portal allows you to disable marking course as Auto-enroll while creating [**new course**](/azure/industry/training-services/microsoft-community-training/content-management/create-content/create-course-category/create-a-new-course). By default, admin can create auto-enroll courses is enabled and to disable this you need to set the value as **false**
 
 :::image type="content" source="../media/featuredisableautoenrollcourse.png" alt-text="autoenrollcourse":::
 

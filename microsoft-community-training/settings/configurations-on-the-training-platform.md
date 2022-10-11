@@ -105,7 +105,7 @@ By default, this feature remains enabled. But, the administrators have the flexi
 ## Learner Action Events
 
 ```Learner Action Events
-Features: Events
+Features:Events
 ```
 
 Microsoft Community Training portal utilizes **Microsoft Azure Service Bus** to integrate with other supporting Azure services (like Azure Storage, Azure Media Service) for enhancing user experience. All events that trigger the service bus can be tracked and further be used for specific actions. You can enable this feature to get updates on specific triggers.
@@ -167,7 +167,7 @@ By default, it remains empty. You can add domain names into the **value** field 
 ## Hide landing page courses
 
 ```Hide landing page courses  
-Features: HideCoursesInLandingPage
+Features:HideCoursesInLandingPage
 ```
 
 The portal allows content to be available to the learners only after they login to the platform from the landing page. The landing page for the learners by default shows the names and description of the self-enroll and auto-enroll courses on the platform, this can be avoided by setting this configuration as **True**.
@@ -179,7 +179,7 @@ By default, this feature is disabled with value as **False** allowing learners t
 ## Hide Course Library
 
 ```Hide Course Library  
-Features: HideCourseLibrary
+Features:HideCourseLibrary
 ```
 
 The portal allows you to hide the Course Library from the learner’s view of the platform. You can enable/ disable this feature on the portal depending on your specific requirements.
@@ -192,7 +192,7 @@ By default, this feature is kept disabled with value as **False** for permitting
 Features:AutoEnrollCourseEnabled
 ```
 
-MCT portal allows you to disable marking course as Auto-enroll while creating [**new course**](https://learn.microsoft.com/azure/industry/training-services/microsoft-community-training/content-management/create-content/create-course-category/create-a-new-course). By default, admin can create auto-enroll courses is enabled and to disable this you need to set the value as **false**
+MCT portal allows you to disable marking course as Auto-enroll while creating [**new course**](/azure/industry/training-services/microsoft-community-training/content-management/create-content/create-course-category/create-a-new-course). By default, admin can create auto-enroll courses is enabled and to disable this you need to set the value as **false**
 
 :::image type="content" source="../media/featuredisableautoenrollcourse.png" alt-text="autoenrollcourse":::
 
@@ -211,7 +211,7 @@ By default this feature is not enabled, you need to add the above configuration 
 ## Allow learners to skip videos
 
 ```Allow learners to skip videos  
-Features: EnableSeekingInVideos
+Features:EnableSeekingInVideos
 ```
 
 The portal allows learners to skip through any video lesson while viewing it on the platform. This capability can be enabled/disabled on the portal depending on your specific requirements.
@@ -296,3 +296,26 @@ UserProgressRetentionEnabled
 If the Administrator enables this application setting with the value "**True**", user's progress for the content will be retained even if content is de-assigned to that user. That means, if a learner is removed from a course and then re-enrolled to the same course, the earlier progress would be retained.
 
 By default, the application setting is marked as "**False**"i.e. on de-assignment, all the progress of that learner will be deleted from that course.
+
+## Mask User details for Admin
+
+MCT platform supports masking of user data, this will help in creating additional security to restrict admin from glancing sensitive user information.
+
+You can enable masking of your user data by setting Features:Masking:IsProfileFieldsMaskEnabled to **true**
+
+```Enable Masking
+Features:Masking:IsProfileFieldsMaskEnabled
+```
+
+Once the masking feature is enabled, you can now choose what user information to be masked from this app setting.
+
+```Fields to be masked
+Features:Masking:MaskedProfileFields
+```
+
+:::image type="content" source="../media/maskfields.png" alt-text="maskthefields":::
+
+- Use `First Name` as a field in app settings to mask first name of the user/admin
+- Use `Contact` to mask EmailId/Phone number/Contact of the user/admin
+- Use `Last Name` to mask last name of the user/admin
+- To mask custom Profile Fields, use actual name of the field Eg: `State`, `SSN`

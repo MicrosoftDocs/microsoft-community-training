@@ -20,6 +20,10 @@ As an admin you can now create [dependencies](../../settings/add-additional-prof
 
 Microsoft community training now lets you [customize the look](../../user-management/organization-management.md#customize-look-and-feel-of-your-organizations) and feel of your [Organization(s)](../../user-management/organization-management.md#organization-management). When a learner from specific organization logins to MCT their experience would be customized to settings of their respective organization.
 
+>[!NOTE]
+>
+> * If your instance has multiple organizations, there would be a one time migration happening in backend where your current settings (Global) would be stored in `GlobalConfig` table and your setting specific to organizations would be migrated to `Settings` column in `Organization` table. 
+
 :::image type="content" source="../../media/Orgbrandsettings.png" alt-text="brandsettings":::
 
 ## Enhancements to Organization Management

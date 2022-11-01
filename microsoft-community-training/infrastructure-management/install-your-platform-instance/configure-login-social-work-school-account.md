@@ -128,16 +128,18 @@ MCT supports login via multiple tenants for AAD authentication. This can be done
 
 1. Login to your [**Azure portal**](https://www.portal.azure.com/)
 2. Navigate to [**Configurations on the Training Platform**](../../settings/configurations-on-the-training-platform.md#steps-to-set-the-configurations-on-the-platform)
-3. For adding multiple tenants:
-
-    * For New Deployments:
+3. Search for **idp:AzureADExternalAuthTenantIds**.
+    <!--
+    *For New Deployments:
         * If you are running AAD script while       [**Configuring login identity for the platform**](#work-or-school-account-based-authentication) to create new deployment then give the Tenant Id as ‘**common**’ at the time of deployment in place of original Tenant ID that you received after running the script.
-        * If you are following manual steps while [**Configuring login identity for the platform**](#option-2---follow-the-manual-steps-to-configure-work-or-school-account-for-your-training-portal-by-following-the-instructions-below) to create new deployment then provide the Tenant ID as ‘common’ in the “Set up your login type” window instead of the Tenant ID from your Azure AD.
+        *If you are following manual steps while [**Configuring login identity for the platform**](#option-2---follow-the-manual-steps-to-configure-work-or-school-account-for-your-training-portal-by-following-the-instructions-below) to create new deployment then provide the Tenant ID as ‘common’ in the “Set up your login type” window instead of the Tenant ID from your Azure AD.
+      * For Existing deployments:
+    -->
+    * List the tenantIDs separated by semicolon that you would like to grant access
+  
+        :::image type="content" source="../../media/multiaadsetup.png" alt-text="aadsetupmultiple":::
 
-    * For Existing deployments:
-        * In [**Configurations on the Training Platform**](../../settings/configurations-on-the-training-platform.md#steps-to-set-the-configurations-on-the-platform) , search for **idp:AzureADExternalAuthTenantIds**. Set the value as ‘’ (blank) replacing the existing tenant id (we suggest you keep a copy of your original Tenant ID value as a reference). Click ‘Ok’.
-
-            :::image type="content" source="../../media/MultitenantAAD1.png" alt-text="multi tenant app setting":::
+    * If you want to grant access to all AAD tenants, then set the value as ‘’ (blank) replacing the existing tenant id (we suggest you keep a copy of your original Tenant ID value as a reference). Click ‘Ok’.
 
 4. Now while in Configurations section, search for **idp:AzureADExternalAuthTenant** and note the Tenant name.
 5. Search for **idp:AzureADExternalAuthClientId** and note Client ID.

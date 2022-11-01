@@ -117,7 +117,7 @@ You can create a new Azure Active Directory tenant or use an existing one based 
 
     ![Enter clientId, secret,tenantId,Name](../../media/LoginIdentity6.png)
 
-> [!Note]
+>[!Note]
 >If you are facing any issues while Deploying your AD instance, please follow the header "Azure Active Directory Configuration issue" under [**troubleshooting document**](troubleshooting.md) and send us the required output.
 
 ### Multi-Tenant support for Azure Active Directory based Authentication
@@ -135,7 +135,7 @@ MCT supports login via multiple tenants for AAD authentication. This can be done
         * If you are following manual steps while [**Configuring login identity for the platform**](#option-2---follow-the-manual-steps-to-configure-work-or-school-account-for-your-training-portal-by-following-the-instructions-below) to create new deployment then provide the Tenant ID as ‘common’ in the “Set up your login type” window instead of the Tenant ID from your Azure AD.
 
     * For Existing deployments:
-        * In [**Configurations on the Training Platform**](../../settings/configurations-on-the-training-platform.md#steps-to-set-the-configurations-on-the-platform) , search for **idp:AzureADExternalAuthTenantId**. Set the value as ‘**common**’ replacing the existing tenant id (we suggest you keep a copy of your original Tenant ID value as a reference). Click ‘Ok’.
+        * In [**Configurations on the Training Platform**](../../settings/configurations-on-the-training-platform.md#steps-to-set-the-configurations-on-the-platform) , search for **idp:AzureADExternalAuthTenantIds**. Set the value as ‘’ (blank) replacing the existing tenant id (we suggest you keep a copy of your original Tenant ID value as a reference). Click ‘Ok’.
 
             :::image type="content" source="../../media/MultitenantAAD1.png" alt-text="multi tenant app setting":::
 

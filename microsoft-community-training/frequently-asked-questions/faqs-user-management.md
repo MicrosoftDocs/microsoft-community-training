@@ -252,6 +252,13 @@ As you upload the files, Azure adds the prefix `B2C_1A_` to each.
 1. Select **Run now** again.
 1. Sign in with the same account to confirm that you have the correct configuration.
 
+### Update the App setting
+
+1. Navigate to [App service](https://learn.microsoft.com/en-us/azure/industry/training-services/microsoft-community-training/settings/configurations-on-the-training-platform#steps-to-set-the-configurations-on-the-platform) configurations.
+2. Search for `idp:AzureADB2CExternalAuthPolicy`
+3. Update the value to **B2C_1A_SignUpOrSignInWithPhone**
+4. Save the App settings
+
 ### Reference
 
 1. [Tutorial - Create user flows and custom policies - Azure Active Directory B2C](https://learn.microsoft.com/azure/active-directory-b2c/tutorial-create-user-flows?pivots=b2c-custom-policy)

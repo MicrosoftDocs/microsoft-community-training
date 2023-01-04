@@ -313,7 +313,7 @@ Once the masking feature is enabled, you can now choose what user information to
 Features:Masking:MaskedProfileFields
 ```
 
-:::image type="content" source="../media/maskfields.png" alt-text="maskthefields":::
+:::image type="content" source="../media/doc_3_1.png" alt-text="maskthefields":::
 
 - Use `First Name` as a field in app settings to mask first name of the user/admin
 - Use `Contact` to mask EmailId/Phone number/Contact of the user/admin

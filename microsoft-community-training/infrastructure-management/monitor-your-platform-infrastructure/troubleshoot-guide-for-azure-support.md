@@ -3,7 +3,7 @@ title: Troubleshoot Guide for Azure Support
 author: nikotha
 ms.author: nikotha
 description: This is a troubleshoot guide for the customers of Microsoft Community Training platform. 
-ms.prod: azure
+ms.prod: learning-azure
 ---
 
 # Troubleshoot Guide for Azure Support
@@ -22,7 +22,7 @@ This document walks through root cause and resolution steps for some of the majo
 
 ## Brief on MCT Architecture
 
-Microsoft Community Training (MCT) platform is available as a [Managed Application](https://docs.microsoft.com/azure/azure-resource-manager/managed-applications/) on the [Azure Marketplace](https://azuremarketplace.microsoft.com/marketplace/apps/project-sangam.microsoft-community-training) for customers. The MCT instance is deployed on customer’s Azure subscriptions and utilizes the following Azure services –
+Microsoft Community Training (MCT) platform is available as a [Managed Application](https://learn.microsoft.com/azure/azure-resource-manager/managed-applications/) on the [Azure Marketplace](https://azuremarketplace.microsoft.com/marketplace/apps/project-sangam.microsoft-community-training) for customers. The MCT instance is deployed on customer’s Azure subscriptions and utilizes the following Azure services –
 
 1. Azure App Service
 2. Azure Blob Storage
@@ -87,7 +87,11 @@ Error: Unable to decrypt the encrypted video source
 
 **Root Cause**: Content not loading related errors are generally related to the CORS setting.
 
-**Resolution**: If customer is using custom domain or even for the AzureFD or AzureWebsites URL, need to check if CORS is correctly configured or not in customer's storage account. Make sure URL have permission for get, post and PUT.
+**Resolution**: If customer is using custom domain or even for the AzureFD or AzureWebsites URL, need to check if CORS is correctly configured or not in customer's storage account. Make sure URL have permission for get, post and PUT. Navigate to Storage account of customer's instance and check for 'Resource Sharing (CORS)' and follow below steps:
+
+* In allowed origin, add the current domain (one entry with www. Prefix and another without this prefix)
+* In allowed Methods, add GET, PUT, PATCH, OPTION, DELETE, POST.
+* Save this by clicking on the “save” button above.
 
 ### Issue 6: Unable to add lessons to courses
 

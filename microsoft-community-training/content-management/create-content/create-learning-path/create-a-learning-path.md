@@ -4,7 +4,7 @@ original-url: https://docs.microsoftcommunitytraining.com/docs/create-a-learning
 author: nikotha
 ms.author: nikotha
 description: A Learning Path is a defined sequence of courses on the training platform to administer guided training paths to the learners.
-ms.prod: azure
+ms.prod: learning-azure
 ---
 
 # Create a Learning path
@@ -43,6 +43,10 @@ The Microsoft Community Training management portal provides role-based administr
 4. Enter **Learning Path name**. The Learning Path name is the title that learners would see on the web portal and mobile app. For example: Microsoft Office.
 
     :::image type="content" source="../../../media/LP_cert.PNG" alt-text="LearningPathCertificate":::
+
+    1. If you have [multiple languages](../../../settings/customize-languages-for-the-learners-on-the-platform.md#customize-languages-on-the-platform) enabled for your instance, then you can add translations for your Learning Path fields.
+
+        :::image type="content" source="../../../media/LPloccreate.png" alt-text="LPlocalization":::
 
 5. Enter the **Learning Path Description**. The Learning Path description is a short summary which informs a learner about course content at the time of registration.
 

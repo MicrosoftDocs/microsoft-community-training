@@ -4,7 +4,7 @@ original-url: https://docs.microsoftcommunitytraining.com/docs/faqs-user-managem
 author: nikotha
 ms.author: nikotha
 description: Currently, there are 3 forms of login identity supported in the platform out of box i.e. Mobile Number, Personal Email Address (or  Social Account) and Azure AD.
-ms.prod: azure
+ms.prod: learning-azure
 ---
 
 # Login Types and User Identity
@@ -21,7 +21,7 @@ Currently, there are 3 forms of login identity supported in the platform out of 
 
 3. **Azure Active Directory** -  Learners use their Azure Active Directory (aka Azure AD) credentials to login to the portal.
 
-4. **Login via multiple modes** - Microsoft Community Training supports adding more than one authentication option for a single platform instance. To be able to configure multiple authentications to your instance you need to first create [**AD B2C**](https://docs.microsoft.com/azure/active-directory-b2c/overview) tenant and register an application to later add Mobile number, Personal Email, Azure AD login support for your instance.
+4. **Login via multiple modes** - Microsoft Community Training supports adding more than one authentication option for a single platform instance. To be able to configure multiple authentications to your instance you need to first create [**AD B2C**](https://learn.microsoft.com/azure/active-directory-b2c/overview) tenant and register an application to later add Mobile number, Personal Email, Azure AD login support for your instance.
 
 Apart from the out-of-box identities, platform can integrate with any existing OAuth 2.0, OpenID Connect or SAML based authenticate service for login. For more information, reach out us [**via HelpDesk**](https://go.microsoft.com/fwlink/?linkid=2104630).
 
@@ -180,3 +180,91 @@ All the learners data will be stored in Azure SQL DB on customer’s subscriptio
 ### How many users does the Microsoft Community Training platform support?
 
 Microsoft Community Training does not have any limitations on the number of users that be added to the platform. You will be able to have as many users as required.
+
+## Setup Native ADB2C Phone authentication: Custom policies for Phone login through Azure ADB2C For MCT
+
+You can choose to enable phone number as a sign-up option tenant-wide by adding phone sign-up and sign-in to your local account identity provider via ADB2C instead of using MCT phone authentication by defining [Custom policies](https://learn.microsoft.com/azure/active-directory-b2c/custom-policy-overview) which are configuration files that define the behavior of your Azure Active Directory B2C tenant.
+
+### Prerequisites
+
+- If you don't have one already, [create an Azure AD B2C tenant](https://learn.microsoft.com/azure/active-directory-b2c/tutorial-create-tenant) that is linked to your Azure subscription.
+- [Register a web application](https://learn.microsoft.com/azure/active-directory-b2c/tutorial-register-applications?tabs=app-reg-ga), and [enable ID token implicit grant](https://learn.microsoft.com/azure/active-directory-b2c/tutorial-register-applications?tabs=app-reg-ga#enable-id-token-implicit-grant).
+
+### Add signing and encryption keys
+
+1. Sign in to the [Azure portal](https://portal.azure.com).
+1. Make sure you're using the directory that contains your Azure AD B2C tenant. Select the **Directories + subscriptions** icon in the portal toolbar.
+1. On the **Portal settings | Directories + subscriptions** page, find your Azure AD B2C directory in the **Directory name** list, and then select **Switch**.
+1. In the Azure portal, search for and select **Azure AD B2C**.
+1. On the overview page, under **Policies**, select **Identity Experience Framework**.
+
+#### Create the signing key
+
+1. Select **Policy Keys** and then select **Add**.
+1. For **Options**, choose `Generate`.
+1. In **Name**, enter `TokenSigningKeyContainer`. The prefix `B2C_1A_` might be added automatically.
+1. For **Key type**, select **RSA**.
+1. For **Key usage**, select **Signature**.
+1. Select **Create**.
+
+#### Create the encryption key
+
+1. Select **Policy Keys** and then select **Add**.
+1. For **Options**, choose `Generate`.
+1. In **Name**, enter `TokenEncryptionKeyContainer`. The prefix `B2C_1A`_ might be added automatically.
+1. For **Key type**, select **RSA**.
+1. For **Key usage**, select **Encryption**.
+1. Select **Create**.
+
+### Custom policy
+
+1. [Download the .zip file](https://github.com/MicrosoftDocs/microsoft-community-training/files/9452013/Native_ADB2C_PhoneAuth_MCT-main.zip)
+<!---
+1. [Download the .zip file](https://github.com/Indrasen-Singh/Native_ADB2C_PhoneAuth_MCT/archive/refs/heads/main.zip) or clone the repository:
+
+    ```console
+    git clone https://github.com/Indrasen-Singh/Native_ADB2C_PhoneAuth_MCT.git
+    ```
+-->
+2. In all of the files in the directory, replace the string `yourtenant` with the name of your Azure AD B2C tenant.
+
+    For example, if the name of your B2C tenant is *contosotenant*, all instances of `yourtenant.onmicrosoft.com` become `contosotenant.onmicrosoft.com`.
+
+3. Save the file.
+
+### Upload the policies
+
+1. Select the **Identity Experience Framework** menu item in your B2C tenant in the Azure portal.
+1. Select **Upload custom policy**.
+1. In this order, upload the policy files:
+    1. *Phone_Email_Base.xml*
+    1. *SignUpOrSignInWithPhone.xml*
+
+As you upload the files, Azure adds the prefix `B2C_1A_` to each.
+
+### Test the custom policy
+
+1. Under **Custom policies**, select **B2C_1A_SignUpOrSignInWithPhone**.
+1. For **Select application** on the overview page of the custom policy, select the web application named *webapp1* that you previously registered.
+1. Make sure that the **Reply URL** is `https://jwt.ms`.
+1. Select **Run now**.
+1. Sign up using phone number.
+1. Select **Run now** again.
+1. Sign in with the same account to confirm that you have the correct configuration.
+
+### Update the App setting
+
+1. Navigate to [App service](https://learn.microsoft.com/en-us/azure/industry/training-services/microsoft-community-training/settings/configurations-on-the-training-platform#steps-to-set-the-configurations-on-the-platform) configurations.
+2. Search for `idp:AzureADB2CExternalAuthPolicy`
+3. Update the value to **B2C_1A_SignUpOrSignInWithPhone**
+4. Save the App settings
+
+### Reference
+
+1. [Tutorial - Create user flows and custom policies - Azure Active Directory B2C](https://learn.microsoft.com/azure/active-directory-b2c/tutorial-create-user-flows?pivots=b2c-custom-policy)
+
+2. [Phone Number Passwordless](https://github.com/Azure-Samples/active-directory-b2c-custom-policy-starterpack/tree/master/scenarios/phone-number-passwordless)
+
+### Next steps
+
+You can also learn more in the [Azure AD B2C Architecture Deep Dive Series](https://www.youtube.com/playlist?list=PLOPotgzC07IKXXCTZcrpuLWbVe3y51kfm).

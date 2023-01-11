@@ -4,7 +4,7 @@ original-url: https://docs.microsoftcommunitytraining.com/docs/create-teams-app-
 author: nikotha
 ms.author: nikotha
 description: Microsoft Community Training allows organization to enable online learning inside Microsoft Teams across web, mobile and desktop app.
-ms.prod: azure
+ms.prod: learning-azure
 ---
 
 # Setup Microsoft Teams as learner's endpoint for the platform
@@ -56,9 +56,11 @@ If you haven't, please follow the Installation steps first and then refer this a
 
 ### Step 2 - Generate a Teams Manifest File (Microsoft Teams App) for your Microsoft Community Training instance
 
+1. Unzip the file [**steps_to_create_manifest_file.zip**](https://github.com/MicrosoftDocs/microsoft-community-training/files/10336214/steps_to_create_manifest_file.zip)
+<!---
 1. Unzip the file [Manifest file setup.zip](https://github.com/MicrosoftDocs/microsoft-community-training/files/7755254/Manifest.file.setup.zip)
-
-2. Open the word document "**Steps to create a MS Teams file.docx**".
+-->
+2. Open the PDF document "**Steps to create a MS Teams file.pdf**".
 
 3. Follow the steps mentioned in the word file and make the necessary changes (as suggested in document) with reference to your MCT instance.
 
@@ -66,6 +68,9 @@ If you haven't, please follow the Installation steps first and then refer this a
 > The ***color.png*** and ***outline.png*** file to be attached while following the word documentation can be obtained from the same zip file **Manifest file setup.zip**.
 
 ### Step 3 - Install the Microsoft Teams App for your organization
+
+> [!NOTE]
+> If you published the app already in Step 2, you can skip to Step 4.
 
 1. Open the Microsoft Teams client application and sign in using your global or teams service admin credentials.
 

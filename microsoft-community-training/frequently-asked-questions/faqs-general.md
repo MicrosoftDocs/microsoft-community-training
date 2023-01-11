@@ -4,7 +4,7 @@ original-url: https://docs.microsoftcommunitytraining.com/docs/faqs-general
 author: nikotha
 ms.author: nikotha
 description: Microsoft Community Training is an Azure-powered online learning platform to enable organizations of all sizes.
-ms.prod: azure
+ms.prod: learning-azure
 ---
 
 # General FAQs
@@ -51,7 +51,7 @@ For more information [**visit our website**.](https://communitytraining.microsof
 
 Organization can use the Microsoft Community Training platform to host and train their workforces on multiple topics including Microsoft Product & Services. The platform comes with readily available content around Digital Literacy, Office 365, Azure, etc.
 
-Here is [**our free content library**](https://sangampartners.azurewebsites.net/) for your reference. Also, you can host content from [**Microsoft Learn**](/learn/) into the platform to provide one stop shop for all training courses to your target audience.
+Here is [**our free content library**](https://sangampartners.azurewebsites.net/) for your reference. Also, you can host content from [**Microsoft Learn training**](/training/) into the platform to provide one stop shop for all training courses to your target audience.
 
 For more details on how to leverage the import these content on your platform instance, reach out to us [**via HelpDesk**](https://go.microsoft.com/fwlink/?linkid=2104630).
 
@@ -89,7 +89,7 @@ Refer to this [**pricing calculator**](https://communitytraining.microsoft.com/p
 
 ### Can I get access to demo environment or trial version of Microsoft Community Training?
 
-We have a guided tour available for you to play around and get familiar with the platform capabilities. Please navigate to the [**interactive demo**](https://communitytraining.microsoft.com/demo/ ) on the [**product website**](https://communitytraining.microsoft.com/).
+We have a guided tour available for you to play around and get familiar with the platform capabilities. Please navigate to the [**interactive demo**](https://communitytraining.microsoft.com/demo/) on the [**product website**](https://communitytraining.microsoft.com/).
 
 Alternatively, you can also deploy and setup a platform instance on your Azure subscription from the [**Azure Marketplace**](https://azuremarketplace.microsoft.com/marketplace/apps/project-sangam.microsoft-community-training?tab=Overview).  
 
@@ -102,13 +102,13 @@ Microsoft community training supports a wide range of formats as listed below:
 * **Video formats**: MP4, 3GP, 3G2, 3GP2, AVI, MPEG, MPG, WMV, VOB, MKV, FLV, DV, TS, ASF, M4V, MOV
 * **Audio formats**: MP3 & OGG
 * **Other formats**: PDF, PPT, PPTX, DOCX, HTML, ePUB
-* **Hyperlinks**: Paste link in the upload lesson dialogue box ((Example: Contents added via external platforms such as YouTube or MS Learn using their URL)
+* **Hyperlinks**: Paste link in the upload lesson dialogue box ((Example: Contents added via external platforms such as YouTube or Microsoft Learn using their URL)
 
 For more information, check the article on [**how to manage course content**](../content-management/content-management-overview.md) on Microsoft Community Training platform.  
 
 ### Does the Microsoft Community Training platform come with some out of the box content?
 
-Microsoft Community Training offers wide range of out of box video content such as MS Learn, Office products, Computer basics & Security etc. All these contents are free of cost and  can obtain the video contents by [**contacting our helpDesk**](https://go.microsoft.com/fwlink/?linkid=2104630) post your platform deployment.
+Microsoft Community Training offers wide range of out of box video content such as Microsoft Learn, Office products, Computer basics & Security etc. All these contents are free of cost and  can obtain the video contents by [**contacting our helpDesk**](https://go.microsoft.com/fwlink/?linkid=2104630) post your platform deployment.
 
 You can check [**our sample content library**](http://sangampartners.azurewebsites.net/) for reference. We constantly keep updating our content library.  
 
@@ -190,3 +190,7 @@ Having said that, gamification features are something on our roadmap which shoul
 ### How to move MCT resources across Azure subscriptions?
 
 At present, we do not recommend moving resource group across different Azure subscriptions. Doing so might impact the services and functionalities of your MCT training portal.
+
+### Language customization in Azure Active Directory B2C
+
+[**Language customization in Azure Active Directory B2C (Azure AD B2C)**](https://learn.microsoft.com/azure/active-directory-b2c/language-customization?pivots=b2c-user-flow#support-requested-languages-for-ui_locales) allows your user flow to accommodate different languages to suit your customer needs. 

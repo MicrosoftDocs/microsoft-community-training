@@ -3,7 +3,7 @@ title: Edit user profile on the platform
 author: nikotha
 ms.author: nikotha
 description: This document details the flow to edit learner profile on the Microsoft Community Training platform.  
-ms.prod: azure
+ms.prod: learning-azure
 ---
 
 # Edit user profile on the platform

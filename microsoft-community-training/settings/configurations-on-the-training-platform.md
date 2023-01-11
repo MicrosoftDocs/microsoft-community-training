@@ -4,7 +4,7 @@ original-url: https://docs.microsoftcommunitytraining.com/docs/configurations-on
 author: nikotha
 ms.author: nikotha
 description: This document details the customizations supported on the Microsoft Community Training platform for administrator and learner capabilities.
-ms.prod: azure
+ms.prod: learning-azure
 ---
 
 # Configurations on the Training Platform
@@ -105,7 +105,7 @@ By default, this feature remains enabled. But, the administrators have the flexi
 ## Learner Action Events
 
 ```Learner Action Events
-Features: Events
+Features:Events
 ```
 
 Microsoft Community Training portal utilizes **Microsoft Azure Service Bus** to integrate with other supporting Azure services (like Azure Storage, Azure Media Service) for enhancing user experience. All events that trigger the service bus can be tracked and further be used for specific actions. You can enable this feature to get updates on specific triggers.
@@ -121,6 +121,14 @@ Features:IsMultiOrgDeployment
 Microsoft Community Training portal allows you to [manage the portal with multiple organization](../user-management/organization-management.md). An organization comprises of a group of learners and administrators on your training platform who have a particular purpose or belong to a specific criteria. You can enable/disable this feature depending upon your requirements.
 
 By default, this feature remains disabled with value **False**, therefore not allowing administrators to create multiple organizations.
+
+## Restricting ability to edit Learner profile for non-Global admin
+
+```Disable profile edit for non-global admin
+Features:disableProfileEditForNonSuperAdmin
+```
+
+MCT allows you to restrict ability of editing learner profiles for administrators other than global admin. If you choose to have only Global admin to edit learner profiles in MCT you can set this value to **true**
 
 ## Hide Navigation bar for Learners
 
@@ -159,7 +167,7 @@ By default, it remains empty. You can add domain names into the **value** field 
 ## Hide landing page courses
 
 ```Hide landing page courses  
-Features: HideCoursesInLandingPage
+Features:HideCoursesInLandingPage
 ```
 
 The portal allows content to be available to the learners only after they login to the platform from the landing page. The landing page for the learners by default shows the names and description of the self-enroll and auto-enroll courses on the platform, this can be avoided by setting this configuration as **True**.
@@ -171,12 +179,22 @@ By default, this feature is disabled with value as **False** allowing learners t
 ## Hide Course Library
 
 ```Hide Course Library  
-Features: HideCourseLibrary
+Features:HideCourseLibrary
 ```
 
 The portal allows you to hide the Course Library from the learner’s view of the platform. You can enable/ disable this feature on the portal depending on your specific requirements.
 
 By default, this feature is kept disabled with value as **False** for permitting the learner to view the library.
+
+## Disable creation of Auto-Enroll courses
+
+```Features:AutoEnrollCourseEnabled
+Features:AutoEnrollCourseEnabled
+```
+
+MCT portal allows you to disable marking course as Auto-enroll while creating [**new course**](/azure/industry/training-services/microsoft-community-training/content-management/create-content/create-course-category/create-a-new-course). By default, admin can create auto-enroll courses is enabled and to disable this you need to set the value as **false**
+
+:::image type="content" source="../media/featuredisableautoenrollcourse.png" alt-text="autoenrollcourse":::
 
 ## Enable PDF Download feature in the lessons
 
@@ -188,12 +206,12 @@ EnablePDFLessonDownload
 
 By default this feature is not enabled, you need to add the above configuration and enable this feature by setting value as **true**. To disable this feature, configuration setting value should be set as **false**.
 
-:::image type="content" source="../media/Enable PDF Download3.png" alt-text="Enable Download PDF":::
+:::image type="content" source="../media/Enable PDF Download.png" alt-text="pdfdownload":::
 
 ## Allow learners to skip videos
 
 ```Allow learners to skip videos  
-Features: EnableSeekingInVideos
+Features:EnableSeekingInVideos
 ```
 
 The portal allows learners to skip through any video lesson while viewing it on the platform. This capability can be enabled/disabled on the portal depending on your specific requirements.
@@ -278,3 +296,26 @@ UserProgressRetentionEnabled
 If the Administrator enables this application setting with the value "**True**", user's progress for the content will be retained even if content is de-assigned to that user. That means, if a learner is removed from a course and then re-enrolled to the same course, the earlier progress would be retained.
 
 By default, the application setting is marked as "**False**"i.e. on de-assignment, all the progress of that learner will be deleted from that course.
+
+## Mask User details for Admin
+
+MCT platform supports masking of user data, this will help in creating additional security to restrict admin from glancing sensitive user information.
+
+You can enable masking of your user data by setting Features:Masking:IsProfileFieldsMaskEnabled to **true**
+
+```Enable Masking
+Features:Masking:IsProfileFieldsMaskEnabled
+```
+
+Once the masking feature is enabled, you can now choose what user information to be masked from this app setting.
+
+```Fields to be masked
+Features:Masking:MaskedProfileFields
+```
+
+:::image type="content" source="../media/doc_3_1.png" alt-text="maskthefields":::
+
+- Use `First Name` as a field in app settings to mask first name of the user/admin
+- Use `Contact` to mask EmailId/Phone number/Contact of the user/admin
+- Use `Last Name` to mask last name of the user/admin
+- To mask custom Profile Fields, use actual name of the field Eg: `State`, `SSN`

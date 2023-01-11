@@ -4,7 +4,7 @@ original-url: https://docs.microsoftcommunitytraining.com/docs/setup-custom-doma
 author: nikotha
 ms.author: nikotha
 description: "By default, your training portal is hosted on <name>.azurefd.net   where <name>* is the website name entered by administrator at the time of platform deployment and installation."
-ms.prod: azure
+ms.prod: learning-azure
 ---
 
 # Setup custom domain URL

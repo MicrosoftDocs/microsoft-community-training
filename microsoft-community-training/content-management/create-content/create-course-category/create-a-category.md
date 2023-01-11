@@ -4,7 +4,7 @@ original-url: https://docs.microsoftcommunitytraining.com/docs/create-a-category
 author: nikotha
 ms.author: nikotha
 description: A category is a collection of courses on a specific topic. Categories help you organize your learning content for different learners.
-ms.prod: azure
+ms.prod: learning-azure
 ---
 
 # Create a category
@@ -60,3 +60,12 @@ In this topic, you will learn the simple steps to **Create Category** in the pla
     * You can choose [**Add new course**](create-a-new-course.md#option-1---create-a-single-course-in-a-category) under the category and upload content for the learning program.
     * You can [**Bulk Upload**](create-a-new-course.md#option-3---create-multiple-courses-in-a-category) under the category and upload multiple courses at once to save time.
     * You can choose to import courses via [**Marketplace**](create-a-new-course.md#option-2---add-course-via-content-marketplace) which contains catalogue of expert curated courses to get a head start on your training program.
+
+### Adding translations for your Category name
+
+If you have [multiple languages](../../../settings/customize-languages-for-the-learners-on-the-platform.md#customize-languages-on-the-platform) enabled for your instance, then you can add translations for your Category fields.
+
+1. While creating a [new category](#create-a-category) you can select the language from dropdown to add translations.
+
+    :::image type="content" source="../../../media/Categorylocalizationcreate.png" alt-text="catloccreate":::
+2. Now based on language selection in learner view the category name would be translated.

@@ -4,7 +4,7 @@ original-url: https://docs.microsoftcommunitytraining.com/docs/assign-content-to
 author: nikotha
 ms.author: nikotha
 description: "By default, learners can only consume auto enroll and self enroll content on the platform. For admin only courses, administrator has to assign such content (Learning Paths and Courses) to learners on the platform via groups or individually."
-ms.prod: azure
+ms.prod: learning-azure
 ---
 
 # Assign content to users in the group

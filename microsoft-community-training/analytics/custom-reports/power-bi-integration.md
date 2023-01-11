@@ -4,9 +4,9 @@ description: Provides the process for making suggestions or contributions to int
 original-url: https://docs.microsoftcommunitytraining.com/docs/power-bi-integration
 author: nikotha
 ms.author: nikotha
-ms.service: azure
+ms.service: power-bi-embedded
 ms.date: 07/21/2021
-ms.topic: microsoft-community-training-guide
+ms.topic: conceptual
 ms.custom: internal-contributor-guide
 #<Customer intent: As a customer of Microsoft Community Training platform, I need to know how to use the different capabilities available on the platform for a learner and an administrator.
 ---

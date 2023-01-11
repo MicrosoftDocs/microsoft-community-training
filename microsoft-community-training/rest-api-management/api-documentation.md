@@ -4,7 +4,7 @@ original-url: https://docs.microsoftcommunitytraining.com/docs/api-documentation
 author: nikotha
 ms.author: nikotha
 description: Microsoft Community Training platform exposes its APIs for integration with another service or application.
-ms.prod: azure
+ms.prod: learning-azure
 ---
 
 # Rest API Documentation
@@ -44,7 +44,7 @@ Apply the following steps to access the Rest API signatures exposed by the Micro
 > Then, URL Structure for API Signature: `https://mcttraining.azurewebsites.net/swagger`
 
 > [!WARNING]
-> You must be signed in as an administrator on your training portal to obtain the API Signature.
+> (In the same browser) You must be signed in as an administrator on your training portal to be able to access Swagger link for your instance.
 
 ## API Authentication
 

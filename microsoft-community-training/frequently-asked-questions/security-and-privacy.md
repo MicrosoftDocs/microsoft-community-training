@@ -4,7 +4,7 @@ original-url: https://docs.microsoftcommunitytraining.com/docs/security-and-priv
 author: nikotha
 ms.author: nikotha
 description: Microsoft Community Training can only be hosted and run on Microsoft Azure Cloud.  It cannot be deployed on other public cloud providers or on-premise data center.
-ms.prod: azure
+ms.prod: learning-azure
 ---
 
 # Backup, Security & Privacy

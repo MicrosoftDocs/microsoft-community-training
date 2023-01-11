@@ -4,7 +4,7 @@ original-url: https://docs.microsoftcommunitytraining.com/docs/change-category-d
 author: nikotha
 ms.author: nikotha
 description: Microsoft Community Training platform allows you to edit and delete categories created on the portal.
-ms.prod: azure
+ms.prod: learning-azure
 ---
 
 # Change Category details
@@ -40,6 +40,15 @@ In this topic, you will learn simple steps to edit an existing category in the p
 3. Enter **Category name** you want to change. For example, category name is *Course on Microsoft Excel*.
 
 4. Choose **Upload** option to edit the **Category Thumbnail**  and then click or tap **Update**. The edited changes will get updated.
+
+5. If your instance has [multiple languages](../../../settings/customize-languages-for-the-learners-on-the-platform.md#customize-languages-on-the-platform) enabled then you can add and edit translations of your category name.
+
+    :::image type="content" source="../../../media/Categorylocedit.png" alt-text="editingloc":::
+
+    * You can add or edit translations from the panel as shown below.
+
+    :::image type="content" source="../../../media/Categoryloceditaddlang.png" alt-text="createlocalizationadding":::
+
 
 ## Delete a category
 

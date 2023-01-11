@@ -1,9 +1,9 @@
 ---
 title: What's new in May 2022
-author: v-samarth
-ms.author: v-samarth
+author: v-sambati
+ms.author: v-sambati
 description: This document details the new features and capabilities launched on the Microsoft Community Training platform in May 2022. 
-ms.prod: azure
+ms.prod: learning-azure
 ---
 
 # What’s new in May 2022
@@ -16,7 +16,7 @@ We are excited to announce that with this release we are starting to support for
 
 SCORM (Sharable Content Object Reference Model), is a set of technical standards for eLearning software products. We currently support for SCORM 1.2 version. [Learn more on SCORM](https://scorm.com/). The administrators will now be using the improvised user interface for adding the SCORM content, regular files and the external links.
 
-:::image type="content" source="../../media/Upload SCORM.png" alt-text="upload scorm":::
+:::image type="content" source="../../media/Upload SCORM.png" alt-text="upload_scorm_img":::
 
 ## Assessment will now support some more question formats
 
@@ -24,15 +24,15 @@ With this new release, assessments in MCT platform will now support [Fill Blank]
 
 :::image type="content" source="../../media/Assessment - question type.PNG" alt-text="question type":::
 
-## Download content in PWA app for offline consumption
+## Download content in PWA (Mobile) app for offline consumption
 
-Starting May 2022, the PWA based application will let users [download content for offline consumption](../../learner-experience/pwa-app.md#step-6-download-content-and-continue-learning-offline). This will there by enable learners to consume content even in low/no connectivity scenarios.
+Starting May 2022, the [**PWA**](../../infrastructure-management/install-your-platform-instance/create-publish-mobile-app.md#what-are-progressive-web-applications) based application will let users [download content for offline consumption](../../learner-experience/pwa-app.md#step-6-download-content-and-continue-learning-offline). This will there by enable learners to consume content even in low/no connectivity scenarios.
 
 ## Search option in Content Marketplace
 
 Administrators can now search through [content available in Marketplace](../../content-management/create-content/create-course-category/create-a-new-course.md#option-2---add-course-via-content-marketplace).
 
-:::image type="content" source="../../media/Search Content Marketplace.png" alt-text="search content marketplace":::
+:::image type="content" source="../../media/Search Content Marketplace.png" alt-text="searchcontentmarketplaceimage":::
 
 ## Supporting Global Content which can be accessed across organization
 
@@ -62,7 +62,7 @@ MCT portal now allows to enable the [download feature for the PDF lessons](../..
 
 Learners on MCT platform can now be able to view lessons in full screen as well as in landscape mode on their Mobile browser. This enables the learners to have more visibility and optimized screen usage while accessing lessons.
 
-:::image type="content" source="../../media/Full screen lesson.png" alt-text="full screen lesson":::
+:::image type="content" source="../../media/Full screen lesson.png" alt-text="full_screen_lessonimg":::
 
 ## Other enhancements/additions
 
@@ -76,13 +76,13 @@ Additionally, the administrators can also control progress retention for a learn
 
 MCT Analytics will now consider only unique users per course for each metric, irrespective of the multiple translations which the user might have completed.
 
-### Change in CSV format for Bulk download for courses with assessment
+### Change in CSV format for Bulk upload & download for courses with assessment
 
 With the addition of new question types there is a change in Bulk upload of courses with assessments i.e change in metadata JSON format
 
 ### Lesson contents can’t be replaced once course is published
 
-Post publishing a course the content of a lesson cannot be changed. All other operations such as creation/deletion of lesson, assessments will be possible as before. 
+Post publishing a course the content of a lesson cannot be changed. All other operations such as creation/deletion of lesson, assessments will be possible as before.
 
 ### Certificates are now being generated asynchronously
 
@@ -92,7 +92,7 @@ Certificate generation flow is now optimized to be in sync with load/traffic on 
 
 Learners will now be able to view and track all their certificates under ‘My Courses’ page ‘My Certificates’ section.
 
-:::image type="content" source="../../media/Separate page for certificates.png" alt-text="separate page for certificates":::
+:::image type="content" source="../../media/Separate page for certificates.png" alt-text="separate_page_for_certificates_img":::
 
 ### New Languages added to platform
 

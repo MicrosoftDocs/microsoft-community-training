@@ -4,7 +4,7 @@ original-url: https://docs.microsoftcommunitytraining.com/docs/content-managemen
 author: nikotha
 ms.author: nikotha
 description: Microsoft Community Training platform allows you to create and manage  content, as well as  it quickly and easily.
-ms.prod: azure
+ms.prod: learning-azure
 ---
 
 # Content Management - Overview

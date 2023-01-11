@@ -13,7 +13,7 @@ Microsoft community training now allows users to import courses to their trainin
 
 ## Content Providers in MCT Content Marketplace
 
-MCT plans to aggregate top content from various providers, currently started with Microsoft Learn training and Digital content, we are planning to gather quality content from more providers in near future.
+MCT plans to aggregate top content from various providers, currently started with Microsoft Learn training and Skills for Job Digital content, we are planning to gather quality content from more providers in near future.
 
 ### Microsoft Learn
 
@@ -21,9 +21,9 @@ MCT plans to aggregate top content from various providers, currently started wit
 
 MS Learn provides role-based training for Azure developers, solution architects, and administrators they also provide role-based training for Microsoft Power BI, PowerApps, Dynamics365, Microsoft365, Office and Visual Studio.
 
-### Microsoft Digital Content
+### Skills for Job
 
-Curated content from Microsoft to enable digital literacy: [**Digital Literacy**](https://www.microsoft.com/digital-literacy) is the ability to navigate our digital world using reading, writing, technical skills, and critical thinking. It’s using technology—like a smartphone, PC, e-reader, and more—to find, evaluate, and communicate information. With Microsoft Digital Literacy classes, you can gain skills needed to effectively explore the Internet.
+Curated content from Microsoft to enable skills required for job: [**Skills for Job**](https://www.microsoft.com/digital-literacy) is the ability to navigate our digital world using reading, writing, technical skills, and critical thinking. It’s using technology—like a smartphone, PC, e-reader, and more—to find, evaluate, and communicate information. With Microsoft Digital Literacy classes, you can gain skills needed to effectively explore the Internet.
 
 Training on Office 365 tools: Collection of training material on Office tools like Excel, Word, Outlook, OneDrive etc.
 

@@ -9,15 +9,18 @@ ms.prod: learning-azure
 
 # Steps to generate a new client secret and link it to key-vault
 
-If users are unable to sign-in in to the portal i.e. they are seeing an error page instead of learner view, one reason could be the expiration of client secret. Here's how you can verify if that is the case and also generate a new client secret in case of Azure AD B2C tenant.
+If users are unable to sign-in in to the portal i.e. they are seeing an error page instead of learner view, one reason could be the expiration of client secret. Here's how you can verify if that is the case and also generate a new client secret in case of Azure AD B2C tenant or Azure AD tenant.
 
 ## Check and update client secret expiration date
 
 1. Login to [**Azure Portal**](https://ms.portal.azure.com/).
 2. Switch to directory which contains your B2C tenant
-3. Search for **‘Azure AD B2C’** and click on it.
+3. Search for **‘Azure AD B2C’(or 'Azure AD' in case of AD tenant)** and click on it.
 
     :::image type="content" source="../media/cs_searchadb2c.png" alt-text="searchadb2c":::
+    
+    For Azure AD tenant scenario:
+    :::image type="content" source="../media/10jan_adser.png" alt-text="ad_search":::
 
 4. Navigate to **‘App Registrations’** and click on your application.
 
@@ -38,9 +41,12 @@ If users are unable to sign-in in to the portal i.e. they are seeing an error pa
 
 1. Navigate to your application's [**Key Vault**](../analytics/custom-reports/database-schema.md#accessing-key-vault).
 
-2. Under Settings click on 'Secrets' and look for **‘AzureADB2CExternalAuthClientSecret’**
+2. Under Settings click on 'Secrets' and look for **‘AzureADB2CExternalAuthClientSecret’** in case of ADB2C tenant. For Azure AD tenant, look for **'AzureADExternalAuthClientSecret'**
 
     :::image type="content" source="../media/cs_kv.png" alt-text="cskv":::
+
+    * For Azure AD tenant scenario :
+    :::image type="content" source="../media/AzureADCS1.png" alt-text="azuread_clientsecret":::
 
 3. Click on **'New Version'**
 
@@ -58,7 +64,10 @@ If users are unable to sign-in in to the portal i.e. they are seeing an error pa
 
 1. Navigate to your [**App Service**](../settings/configurations-on-the-training-platform.md#steps-to-set-the-configurations-on-the-platform) configurations.
 
-2. In the configurations, search for ‘idp:AzureADB2CExternalAuthClientSecret’ and click on it
+2. In the configurations, search for ‘idp:AzureADB2CExternalAuthClientSecret’ and click on it. In case of Azure AD tenant, search for 'idp:AzureADExternalAuthClientSecret' and click on it.
     * Replace the value with secret identifier from step5 of [**update Key-Vault with new client secret**](#update-key-vault-with-new-client-secret) and save the settings.
 
         :::image type="content" source="../media/cs_appconfigcs.png" alt-text="appcongidupdate":::
+
+    * For Azure AD tenant scenario :
+        :::image type="content" source="../media/10jan_ADCon.png" alt-text="aad_con":::

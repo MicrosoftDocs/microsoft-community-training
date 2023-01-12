@@ -11,7 +11,8 @@ ms.prod: learning-azure
 
 In this article, we'll walk you through upscaling your platform resources to meet your scale requirements.
 
->[!NOTE]  
+>[!NOTE]
+>
 > Any changes in configuration and plans may impact your [**azure consumption costs**](../monitor-your-platform-infrastructure/monitor-your-infrastructure.md).
 
 ## Steps to enable Auto-Scale for your instance

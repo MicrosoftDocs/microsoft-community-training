@@ -1,8 +1,8 @@
 ---
 title: Scale up your platform instance configuration
 original-url: https://docs.microsoftcommunitytraining.com/docs/scale-up-instance-configuration
-author: v-gaupathak
-ms.author: v-gaupathak
+author: v-gauravp
+ms.author: v-gauravp
 description: In this article, we'll walk you through upscaling your platform resources to meet your scale requirements.
 ms.prod: learning-azure
 ---

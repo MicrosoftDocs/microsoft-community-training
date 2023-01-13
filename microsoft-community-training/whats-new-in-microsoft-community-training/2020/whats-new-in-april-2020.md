@@ -9,7 +9,7 @@ ms.prod: learning-azure
 
 # What's new in April 2020
 
-We’re excited to share the new product update of Microsoft Community Training with you! These updates will go live on your training platform instance by end of the week. There are some great features in this release designed to help you manage and deliver online learning in a seamless manner to your communities.
+We’re excited to share the new product update of Microsoft Community Training with you! These updates will go live on your training platform instance by end of the week. There are some useful features in this release designed to help you manage and deliver online learning in a seamless manner to your communities.
 
 ## Enforce learners to navigate lessons in a course sequentially
 

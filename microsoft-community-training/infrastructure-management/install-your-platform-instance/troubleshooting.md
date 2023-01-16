@@ -138,3 +138,30 @@ Please follow the steps below to download and run the console app:
 6. Tokens along with their claims would be visible on the screen. Copy all the output claims under the headers “Access Token claims” and “ID Token claims”, share these values with us in [**support request**](https://sangamhelpdesk.microsoftcrmportals.com/SignIn?ReturnUrl=%2Fsupport%2Fcreate-case%2F)
 
 Next > [**Delete the Resource Group**](../../infrastructure-management/configure-your-platform-infrastructure/delete-your-training-instance.md) created for failed deployment and restart the [**installation process**](../../infrastructure-management/install-your-platform-instance/installation-guide-detailed-steps.md) from the beginning.
+
+## Issue 8: Identity provider configuration error
+
+### Problem
+
+User is not able to login and seeing the below error message.  
+
+:::image type="content" source="../../media/10Jan_errorconfig.png" alt-text="Ad_Confiferror":::
+
+### Solution 
+
+####  Case 1 : For work or school account-based authentication (Azure AD)
+
+If you are using work or school account-based authentication as your primary authentication type, it means that the secret that is used by the Azure Active Directory authentication service has expired and a new one needs to be generated.
+
+Follow the steps listed in the below documentation link.
+
+[Steps to generate a new client secret and link it to key-vault](../../frequently-asked-questions/generate-new-clientsecret-link-to-key-vault.md)
+
+#### Case 2: For social account authentication (Azure ADB2C)
+
+If you are using social account authentication as your primary authentication type, then the above error page can be due to several reasons. The first troubleshooting step is to check whether the client secret has expired or not. Please follow the steps in the below documentation link to check it. 
+
+[Steps to generate a new client secret and link it to key-vault](../../frequently-asked-questions/generate-new-clientsecret-link-to-key-vault.md)
+
+If the client secret has not expired, please [raise a support ticket](https://sangamhelpdesk.microsoftcrmportals.com/SignIn?ReturnUrl=%2Fsupport%2Fcreate-case%2F) with the MCT team.
+

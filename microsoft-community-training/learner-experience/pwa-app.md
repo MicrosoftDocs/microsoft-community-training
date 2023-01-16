@@ -87,9 +87,9 @@ This article explains how learners can access the training content using the [PW
 
 ## Step 6: Download content and continue learning offline
 
-1. Tap on the course, select a lesson and click on the **Save icon** to download the lesson.
+1. Tap on the course you would like to download and click save as shown below. Also, you can select a lesson and click on the **Save icon** to download the individual lesson.
 
-    :::image type="content" source="../media/pwaoffdownload.png" alt-text="pwaofflinedownload":::
+    :::image type="content" source="../media/pwa_Ss.png" alt-text="pwaofflinedownload":::
 
 2. To manage your downloads, click on the profile section from top right of the screen.
 
@@ -114,3 +114,5 @@ This article explains how learners can access the training content using the [PW
 > * Meta data for content in 'Recently Deleted' section would be retained for 90 days
 >
 > * Currently MCT supports offline download (in PWA) for PDF, EPUB, video, audio files. Plan to extend support for offline download for other formats (html, docx, xlsx, SCORM etc) is in roadmap.
+>
+> * Only Non-Graded Assessments can be taken and submitted offline. Graded Assessments can only be taken while online.

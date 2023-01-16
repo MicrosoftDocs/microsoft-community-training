@@ -272,3 +272,5 @@
        href: learning-in-offline-mode/azure-IOT-hub-initial-setup.md
      - name: Azure IOT Edge Device Setup
        href: learning-in-offline-mode/azure-IOT-edge-device-setup.md
+     - name: Frequently Asked Questions
+       href: learning-in-offline-mode/frequently-asked-questions.md

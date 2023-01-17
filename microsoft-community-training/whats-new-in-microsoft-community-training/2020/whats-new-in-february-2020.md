@@ -9,7 +9,7 @@ ms.prod: learning-azure
 
 # What's new in February 2020
 
-We’re excited to share the new product update of Microsoft Community Training (formerly Project Sangam) with you! These updates will go live on your training platform instance by end of next week. There are some great features in this release designed to help you manage and deliver online learning in a seamless manner to your community.
+We’re excited to share the new product update of Microsoft Community Training (formerly Project Sangam) with you! These updates will go live on your training platform instance by end of the week. There are some great features in this release designed to help you manage and deliver online learning in a seamless manner to your community.
 
 ## Shuffle questions in an exam
 

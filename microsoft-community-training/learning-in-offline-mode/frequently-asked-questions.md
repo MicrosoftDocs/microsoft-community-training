@@ -44,6 +44,7 @@ We are working on analytics, the change would be part of our future releases.
 ### If there is a limited internet connection, how is the user progress updated?
 
 As long as the device is connected to the internet, content sync will continue to happen.
+
 * Without internet connectivity, the admin can download the user progress from admin view on edge device and upload the same to the corresponding online instance.
 
 >[!Note]
@@ -51,10 +52,12 @@ As long as the device is connected to the internet, content sync will continue t
 
 ### How to add content in a different language locally to support users using a native  language?
 
-Currently the online [parent-child course ](../settings/customize-languages-for-the-learners-on-the-platform.md#customize-languages-on-the-platform) relationship for languages is not supported through content sync. However, the following languages are supported on an edge device (English, French, Dutch, Spanish).
+Currently the online [parent-child course](../settings/customize-languages-for-the-learners-on-the-platform.md#customize-languages-on-the-platform) relationship for languages is not supported through content sync. However, the following languages are supported on an edge device (English, French, Dutch, Spanish).
 
 ### MCT offline had a fault and report an “error 502” what should a user do?
 
-The “error 502” means mctwebsite module is restarting. 
-* Generally, it comes up automatically. 
+The “error 502” means mctwebsite module is restarting.
+
+* Generally it comes up automatically.
+
 * Wait for about 5 minutes and try accessing the page again.

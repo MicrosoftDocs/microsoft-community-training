@@ -13,7 +13,7 @@ ms.prod: learning-azure
 
 ### What is the list of content format supported on offline?
 
-In offline, MCT supports pdf, ePUB, html, 3GP, ogg, mov, m4v, mp4, mp3
+In offline MCT supports pdf, ePUB, html, 3GP, ogg, mov, m4v, mp4, mp3
 
 ### How to sync content in offline?
 
@@ -37,14 +37,6 @@ It is recommended not to upload more than 8gb of content at a single time.
 
 No, but the content sync time will depend on the connection speed.
 
-### Can the edge device be connected only with an ethernet cable?
-
-No 
-
-### Can admin update the box via a mobile phone connection?
-
-No
-
 ### As an admin how will I be able to keep track of user progress analytics?
 
 We are working on analytics, the change would be part of our future releases.
@@ -59,4 +51,10 @@ As long as the device is connected to the internet, content sync will continue t
 
 ### How to add content in a different language locally to support users using a native  language?
 
-Currently the online [parent-child course ](../settings/customize-languages-for-the-learners-on-the-platform.md#customize-languages-on-the-platform) relationship for languages is not supported through content sync. However, the following languages are supported on an edge device:- {English, French, Dutch, Spanish}
+Currently the online [parent-child course ](../settings/customize-languages-for-the-learners-on-the-platform.md#customize-languages-on-the-platform) relationship for languages is not supported through content sync. However, the following languages are supported on an edge device (English, French, Dutch, Spanish).
+
+### MCT offline had a fault and report an “error 502” what should a user do?
+
+The “error 502” means mctwebsite module is restarting. 
+* Generally, it comes up automatically. 
+* Wait for about 5 minutes and try accessing the page again.

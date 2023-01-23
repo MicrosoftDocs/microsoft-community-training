@@ -21,6 +21,8 @@ Admin need to select the `OfflineSync` flag while creating/editing the course fo
 
 * While creating any course, admin will have an option to select offline sync checkbox. If admin selects that checkbox, then all lessons in that course will be synced to an offline device.
 
+    :::image type="content" source="../media/offline-sync.png" alt-text="Select_offline_sync":::
+
 >[!Note]
 >
 >Currently, MCT supports only course level syncing.

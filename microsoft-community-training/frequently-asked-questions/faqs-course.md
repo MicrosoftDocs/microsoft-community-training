@@ -328,7 +328,7 @@ Microsoft community training does not set any numeric limits. Customers can have
 
 ### How to 'Add Tags' after a course is published?
 
-You can add/remove the tags in lesson level, but once you are done you need to click the save option for the changes to replicate.
+You can add/remove the tags even after the course is published, but once you add/remove after publishing the course you need to click the save option for the changes to replicate.
 
  :::image type="content" source="../media/add_tag.png" alt-text="Select_offline_sync":::
 

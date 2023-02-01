@@ -326,6 +326,16 @@ Follow the instructions given in **[this](../content-management/create-content/c
 
 Microsoft community training does not set any numeric limits. Customers can have any number of courses and lessons as required.
 
+### How to 'Add Tags' after a course is published?
+
+You can add/remove the tags even after the course is published, but once you add/remove after publishing the course you need to click the save option for the changes to replicate.
+
+ :::image type="content" source="../media/add_tag.png" alt-text="Select_offline_sync":::
+
+>[!Note]
+>
+>Add Tags field help learners search for the content using relevant keywords. You can add one or more tags for each lesson. For example – Smart Farming, Internet of Things, Precision Farming
+
 ### Can I restrict learners to go through lesson and courses in a particular sequence like a learning path?
 
 You can define learning sequence within a course via restrict  lesson ordering feature.

@@ -13,6 +13,9 @@ Many organizations might want to support multiple authentication options to be a
 
 To be able to configure multiple authentications to your instance you need to first create [**AD B2C**](https://learn.microsoft.com/azure/active-directory-b2c/overview) tenant and register an application. If your instance is already setup to use [**social login**](configure-login-social-work-school-account.md#social-account-or-email-based-authentication) via ADB2C then you can proceed configuring your tenant to add [**phone login**](#add-phone-based-login-to-existing-social-account-login-instance) and [**work email login**](#add-work-email-based-authentication-to-existing-social-account-login-instance) support to your instance.
 
+>[!Note]
+>We would strongly recommend that an MFA (Multi Factor Authentication) or a 2FA (2 Factor Authentication) be implemented, if your instance is using ADB2C based authentication, especially for the Admin accounts. 
+
 ## Add Phone-based login to existing Social Account login Instance
 
 If your instance is already setup to accept [**social login**](configure-login-social-work-school-account.md#social-account-or-email-based-authentication) via AD B2C, below are the steps to configure your AD B2C tenant to be able to support MCT platform's Phone authentication along side your social account login.

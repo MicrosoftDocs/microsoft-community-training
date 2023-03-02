@@ -33,3 +33,9 @@ Microsoft Community Training releases new updates to the platform regularly. For
 ## 2022
 
 [**What’s new in February 2022**](2022/whats-new-in-february-2022.md#whats-new-in-february-2022)
+
+[**What’s new in May 2022**](2022/whats-new-in-may-2022.md#whats-new-in-may-2022)
+
+[**What’s new in August 2022**](2022/whats-new-in-August-2022.md#whats-new-in-August-2022)
+
+[**What’s new in December 2022**](2022/whats-new-in-december-2022.md#whats-new-in-december-2022)

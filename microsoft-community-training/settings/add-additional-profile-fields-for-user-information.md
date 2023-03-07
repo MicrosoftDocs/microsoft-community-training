@@ -156,9 +156,7 @@ For example, if there are two profile fields ‘State’ and ‘City’ and if c
 
 8. Once all associated options added for a dependent profile field, click on Publish.
 
->[!Caution]
->
-> Associated profile fields cannot be edited/updated/deleted once they are published
+
 
 ## Add Privacy Terms and Conditions
 

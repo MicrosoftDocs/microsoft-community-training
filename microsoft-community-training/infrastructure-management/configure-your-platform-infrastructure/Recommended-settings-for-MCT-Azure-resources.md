@@ -17,13 +17,15 @@ Public access for blob should be disabled
 
 1. Go to the storage account of your MCT instance by searching for it in the search box present in home page.
 
-![Kindly open the storage account](https://file%2B.vscode-resource.vscode-cdn.net/c%3A/Users/v-nmadireddi/OneDrive%20-%20Microsoft/microsoft-community-training/microsoft-community-training/media/Azure_res1.png?version%3D1677422954730)
+
+:::image type="content" source="../../media/Azure_res1.PNG" alt-text="Kindly open the storage account":::
+
 
 2. In the storage account page, under settings click on configuration.
 
 3. In configuration, ensure that blob public access is disabled.
 
- ![Please ensure that the blob public access is disabled](https://file%2B.vscode-resource.vscode-cdn.net/c%3A/Users/v-nmadireddi/OneDrive%20-%20Microsoft/microsoft-community-training/microsoft-community-training/media/Azure_res2.png?version%3D1677423248853)
+:::image type="content" source="../../media/Azure_res2.PNG" alt-text="Please ensure that the blob public access is disabled":::
 
 ## Azure Key-vault
 
@@ -35,7 +37,7 @@ Soft delete and purge protection
 
 3. Ensure that soft delete and purge protection is enabled.
 
-![In properties, please enable soft delete and purge](https://file%2B.vscode-resource.vscode-cdn.net/c%3A/Users/v-nmadireddi/OneDrive%20-%20Microsoft/microsoft-community-training/microsoft-community-training/media/Azure_res3.png?version%3D1677423576096)
+:::image type="content" source="../../media/Azure_res3.PNG" alt-text="In properties, please enable soft delete and purge":::
 
 ## Azure SQL
 
@@ -47,7 +49,7 @@ Soft delete and purge protection
 
    c. Ensure that the enablement status shows as enabled.
 
-![The Enablement status should be enabled](https://file%2B.vscode-resource.vscode-cdn.net/c%3A/Users/v-nmadireddi/OneDrive%20-%20Microsoft/microsoft-community-training/microsoft-community-training/media/Azure-res4.png?version%3D1677424210022)
+:::image type="content" source="../../media/Azure-res4.PNG" alt-text="The Enablement status should be enabled":::
 
 2. Have admin for SQL server AD
 
@@ -57,7 +59,8 @@ Soft delete and purge protection
 
    c. Ensure that there is an Azure active directory admin.
 
- ![Ensure that there is an Azure active directory admin](https://file%2B.vscode-resource.vscode-cdn.net/c%3A/Users/v-nmadireddi/OneDrive%20-%20Microsoft/microsoft-community-training/microsoft-community-training/media/Azure_res5.png?version%3D1677424462072)
+:::image type="content" source="../../media/Azure_res5.PNG" alt-text="Ensure that there is an Azure active directory admin":::
+ 
 
 ## App service
 
@@ -71,6 +74,7 @@ Soft delete and purge protection
 
    c. TLS version should be 1.2
 
-![Alt text](https://file%2B.vscode-resource.vscode-cdn.net/c%3A/Users/v-nmadireddi/OneDrive%20-%20Microsoft/microsoft-community-training/microsoft-community-training/media/Azure_res6.png?version%3D1677425891030)
+:::image type="content" source="../../media/Azure_res6.PNG" alt-text="Ensure that there is an Azure active directory admin":::
 
-![Alt text](https://file%2B.vscode-resource.vscode-cdn.net/c%3A/Users/v-nmadireddi/OneDrive%20-%20Microsoft/microsoft-community-training/microsoft-community-training/media/Azure_res7.png?version%3D1677425914954)
+
+:::image type="content" source="../../media/Azure_res7.PNG" alt-text="Ensure that there is an Azure active directory admin":::

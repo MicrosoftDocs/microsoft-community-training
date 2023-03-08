@@ -15,7 +15,8 @@ We are excited to share the new product update of Microsoft Community Training w
 
 Now MCT leverages you to edit the smart group rules as per your need.
 
-![Alt text](https://file%2B.vscode-resource.vscode-cdn.net/c%3A/Users/v-nmadireddi/OneDrive%20-%20Microsoft/microsoft-community-training/microsoft-community-training/media/Smart_group_edit.png?version%3D1678094682697)
+:::image type="content" source="../../media/Smart_group_edit.png" alt-text="Smart group rules can now be edited":::
+
 
 ### HTML and SCORM files can be part of the Bulk upload
 

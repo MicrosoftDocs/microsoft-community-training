@@ -190,6 +190,8 @@
            href: infrastructure-management/configure-your-platform-infrastructure/set-up-custom-homepage-for-your-mct-instance.md
          - name: Add multiple Azure AD in your instance
            href: infrastructure-management/configure-your-platform-infrastructure/Add-multiple-AAD-to-B2C-as-a-social-account.md
+         - name: Recommended settings for MCT Azure resources
+           href: infrastructure-management/configure-your-platform-infrastructure/Recommended-settings-for-MCT-Azure-resources.md
       - name: Monitor your platform Infrastructure
         items:
          - name: Monitor your platform Infrastructure
@@ -264,6 +266,11 @@
            href: whats-new-in-microsoft-community-training/2022/whats-new-in-august-2022.md
          - name: What's new in December 2022
            href: whats-new-in-microsoft-community-training/2022/whats-new-in-december-2022.md
+      - name: 2023
+        items:
+         - name: What's new in March 2023
+           href: whats-new-in-microsoft-community-training/2023/Whats-new-in-march-2023.md
+         
    - name: Learning in Offline Mode
      items:
      - name: Offline Learning with Microsoft Community Training

@@ -28,3 +28,4 @@ In this release we support HTML and SCORM files as part of course bulk upload.
 ### DB Changes
 
 In view of the new features that got added into the platform, we made few changes to our Database Schema. Please refer to [this document](../../analytics/custom-reports/database-schema.md#database-schema-overview) for addition information
+

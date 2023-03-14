@@ -4,7 +4,7 @@ original-url: https://docs.microsoftcommunitytraining.com/docs/database-schema
 author: nikotha
 ms.author: nikotha
 description: Microsoft Community Training platform stores all customer data in the Azure SQL database which is part of customer's Azure Subscription.
-ms.prod: learning-azure
+ms.service: sql-database
 ---
 
 # Database Schema

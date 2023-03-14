@@ -4,7 +4,7 @@ original-url: https://docs.microsoftcommunitytraining.com/docs/restrict-portal-a
 author: nikotha
 ms.author: nikotha
 description: When the platform is setup with Phone Number or Email Address (aka Social Account) as login identity, by default, anyone with a valid phone number or email address can login to the portal and access the learning content.
-ms.prod: learning-azure
+ms.service: azure
 ---
 
 # Restrict portal access to learners outside your training program

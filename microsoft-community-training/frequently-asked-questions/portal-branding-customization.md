@@ -4,7 +4,7 @@ original-url: https://docs.microsoftcommunitytraining.com/docs/portal-branding-c
 author: nikotha
 ms.author: nikotha
 description: Currently, we support 28 languages on the platform.
-ms.prod: learning-azure
+ms.service: azure
 ---
 
 # Portal Branding & Customization

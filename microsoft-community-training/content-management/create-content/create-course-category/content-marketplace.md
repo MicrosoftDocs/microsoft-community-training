@@ -4,7 +4,7 @@ original-url: https://docs.microsoftcommunitytraining.com/docs/content-marketpla
 author: sambati
 ms.author: sambati
 description: Microsoft Community Training helps customers get a head start in their training programs with content marketplace features
-ms.prod: learning-azure
+ms.service: azure
 ---
 
 # Content Marketplace

@@ -4,7 +4,7 @@ original-url: https://docs.microsoftcommunitytraining.com/docs/restrict-content-
 author: nikotha
 ms.author: nikotha
 description: The Microsoft Community Training platform has various levels of access roles for administrators.
-ms.prod: learning-azure
+ms.service: azure
 ---
 
 # Restrict content access to Group Administrators

@@ -4,7 +4,7 @@ original-url: https://docs.microsoftcommunitytraining.com/docs/add-a-single-user
 author: nikotha
 ms.author: nikotha
 description: In this article, you will learn about how to add a single users to a group on the management portal.
-ms.prod: learning-azure
+ms.service: azure
 ---
 
 # Add a single user to the group

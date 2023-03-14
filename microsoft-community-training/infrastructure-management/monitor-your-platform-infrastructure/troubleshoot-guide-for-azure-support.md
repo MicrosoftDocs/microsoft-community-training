@@ -3,7 +3,7 @@ title: Troubleshoot Guide for Azure Support
 author: nikotha
 ms.author: nikotha
 description: This is a troubleshoot guide for the customers of Microsoft Community Training platform. 
-ms.prod: learning-azure
+ms.service: azure
 ---
 
 # Troubleshoot Guide for Azure Support

@@ -4,7 +4,7 @@ original-url: https://docs.microsoftcommunitytraining.com/docs/apis
 author: nikotha
 ms.author: nikotha
 description: Microsoft Community Training platform provides REST APIs to help you integrate the platform with existing system and consume training via custom endpoints such as your own mobile app or website.
-ms.prod: learning-azure
+ms.service: azure
 ---
 
 # Using REST APIs to integrate with existing system

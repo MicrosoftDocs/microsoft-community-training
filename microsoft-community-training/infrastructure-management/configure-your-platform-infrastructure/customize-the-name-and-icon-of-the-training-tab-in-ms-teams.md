@@ -4,7 +4,7 @@ original-url: https://docs.microsoftcommunitytraining.com/docs/customize-the-nam
 author: nikotha
 ms.author: nikotha
 description: This article assumes you have followed the steps outlined in the MS Teams installation (upto Step 2) and received the Team Manifest file from the Customer Support Team.
-ms.prod: learning-azure
+ms.service: azure
 ---
 
 # Customize the name and icon of the training tab in MS Teams

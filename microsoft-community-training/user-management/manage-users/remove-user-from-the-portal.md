@@ -4,7 +4,7 @@ original-url: https://docs.microsoftcommunitytraining.com/docs/remove-user-from-
 author: nikotha
 ms.author: nikotha
 description: "In this topic, you will learn more about how to delete or remove an existing user from the platform."
-ms.prod: learning-azure
+ms.service: azure
 ---
 
 # Delete a user from the platform

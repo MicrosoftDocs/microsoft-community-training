@@ -4,7 +4,7 @@ original-url: https://docs.microsoftcommunitytraining.com/docs/learning-in-offli
 author: sambati
 ms.author: sambati
 description: This article explains how learners can access the training content in offline mode and initial setup of Azure IOT hub
-ms.prod: learning-azure
+ms.service: azure
 ---
 
 # Azure IOT Hub Initial Setup

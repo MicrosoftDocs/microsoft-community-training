@@ -4,7 +4,7 @@ original-url: https://docs.microsoftcommunitytraining.com/docs/azure-front-door-
 author: nikotha
 ms.author: nikotha
 description: As your learners continue learning and improving, your training platform also continues to grow and become better.
-ms.prod: learning-azure
+ms.service: azure
 ---
 
 # Azure Front Door Migration

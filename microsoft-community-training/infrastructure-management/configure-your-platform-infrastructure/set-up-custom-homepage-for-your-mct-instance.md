@@ -4,7 +4,7 @@ original-url: https://docs.microsoftcommunitytraining.com/docs/customize-the-cer
 author: nikotha
 ms.author: nikotha
 description: This document explains the flow to enable a custom homepage for your Microsoft Community Training platform. 
-ms.prod: learning-azure
+ms.service: azure
 ---
 
 # Set up a Custom Homepage for your MCT instance

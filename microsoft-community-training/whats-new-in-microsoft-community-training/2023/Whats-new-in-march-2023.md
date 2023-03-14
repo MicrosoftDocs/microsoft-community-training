@@ -32,7 +32,7 @@ The HTML and SCORM files are now supported as a part of the course bulk upload, 
 
 ### Enhancements to user soft deletion process
 
-In this release we have made improvements on user deletion flow. Now, on performing a **delete user** action, the admin will see the results immediately, where the deleted users will be removed from all admin views and the deleted users will be auto logged out instantaneously. This is an enhancement from the previous versions where some processing time was involved.
+In this release we have made improvements on the user deletion flow. Now, on performing a **delete user** action, the admin will see the results immediately i.e., the deleted users will be removed from all admin views and will be auto logged out instantaneously. This is an enhancement from the previous versions where some processing time was involved.
 
 ### Database Schema Changes
 

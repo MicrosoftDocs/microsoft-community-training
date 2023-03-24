@@ -11,7 +11,7 @@ ms.prod: learning-azure
 
 ## Administrator roles and types
 
-### What administrative controls does Microsoft Community Training provide to the organization?
+### What administrative controls does Community Training provide to the organization?
 
 The platform follows a role-based administration hierarchy. There are four admin roles supported on the portal:
 
@@ -25,9 +25,9 @@ The platform follows a role-based administration hierarchy. There are four admin
 
 For more information, please visit **[this article](../get-started/user-role-and-management-portal-overview.md)**.
 
-### How many administrators can the Microsoft Community Training portal have?
+### How many administrators can the Community Training portal have?
 
-There are no such limitations, the portal can have any number of administrators. Microsoft Community Training management portal provides four types of administrative roles to a user on the portal - Organization Administrator, Category Administrator, Course Administrator and Group Administrator.
+There are no such limitations, the portal can have any number of administrators. Community Training management portal provides four types of administrative roles to a user on the portal - Organization Administrator, Category Administrator, Course Administrator and Group Administrator.
 
 For more information, please visit **[this article](../get-started/user-role-and-management-portal-overview.md)**.
 
@@ -69,15 +69,15 @@ Every user added to the platform will be marked as either Registered or Unregist
 
 **Unregistered User** - Users whose profile information data isn't fully complete are called unregistered users. This is typically th case when admins have bulk upload users on the platform but learners haven't actually logged into the platform yet.
 
-### How can I onboard users to the Microsoft Community Training platform?
+### How can I onboard users to the Community Training platform?
 
-There are 3 ways to onboard users to Microsoft Community Training platform:
+There are 3 ways to onboard users to Community Training platform:
 
 1. **Add a single user manually** - You can add users individually (one by one) on the management portal. Refer **[this article](../user-management/organize-users/add-a-single-user-to-the-group.md)** to learn how.
 
 2. **Add multiple users manually** - You can add multiple users at once by using the bulk upload feature via the CSV file. Refer **[this article](../user-management/organize-users/add-multiple-users-to-the-group.md)** to learn how.
 
-3. **Add users via API** - Microsoft Community Training platform provides APIs to push users to the platform from your existing system. To learn how to leverage APIs, refer **[this article](../infrastructure-management/install-your-platform-instance/apis.md)**.
+3. **Add users via API** - Community Training platform provides APIs to push users to the platform from your existing system. To learn how to leverage APIs, refer **[this article](../infrastructure-management/install-your-platform-instance/apis.md)**.
 
 ### I have a list of users in an excel file. How can I add them to the portal?
 
@@ -87,7 +87,7 @@ You can import users using csv data to our platform. However, there are certain 
 
 ### Will I be able to bulk import users from my existing database?
 
-Yes, you can bulk import existing users to Microsoft community training using our REST APIs.
+Yes, you can bulk import existing users to Community Training using our REST APIs.
 
 ### Bulk upload users feature doesn't seem to be working?
 
@@ -97,7 +97,7 @@ If you see errors while uploading users in bulk, it is possible that your CSV fi
 
 ## Managing groups and users
 
-### How can admin use groups on the Microsoft Community Training platform?
+### How can admin use groups on the Community Training platform?
 
 Groups are a way to help you organize your learners depending on the organization structure and the needs of your training program. Groups make user management easy via bulk user onboarding and automatic enrolment.
 
@@ -124,11 +124,11 @@ Users can be added in groups by two ways:
 
 ### How many users can be in a group?
 
-Microsoft Community Training does not set any numeric limits on the number of people who can be in a group.
+Community Training does not set any numeric limits on the number of people who can be in a group.
 
 ### Can I auto-enroll users to groups based on their profile information?
 
-Microsoft Community Training platform  allows you to automatically add users to the specific group whenever the user's profile information matches the criteria of the rules.
+Community Training platform  allows you to automatically add users to the specific group whenever the user's profile information matches the criteria of the rules.
 
 When a user registers on the portal and completes the profile information, the values entered are compared against the rule applied by administrators for different groups and users are added to all the groups where criteria match.
 
@@ -208,4 +208,4 @@ Courses can be unassigned to learners from Courses tab. To unassign courses for 
 
 There is no UI available for administrators to view and download learners certificates. Currently, only learners can view and download completion certificate on the platform.
 
-However, administrators can contact Microsoft Community Training team via **[HelpDesk](https://go.microsoft.com/fwlink/?linkid=2104630)** for getting access to learners certificate. Our support team will reach out to you in 2-3 business days and help you with your requirements.
+However, administrators can contact Community Training team via **[HelpDesk](https://go.microsoft.com/fwlink/?linkid=2104630)** for getting access to learners certificate. Our support team will reach out to you in 2-3 business days and help you with your requirements.

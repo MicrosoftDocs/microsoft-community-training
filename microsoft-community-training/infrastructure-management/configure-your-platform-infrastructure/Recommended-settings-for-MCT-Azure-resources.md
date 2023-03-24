@@ -9,7 +9,7 @@ ms.prod: learning-azure
 
 # Recommended settings for MCT Azure resources
 
-Microsoft community training recommends few security settings to it's customers for the best use of azure resources.
+Community Training recommends few security settings to it's customers for the best use of azure resources.
 
 ## Azure Storage
 

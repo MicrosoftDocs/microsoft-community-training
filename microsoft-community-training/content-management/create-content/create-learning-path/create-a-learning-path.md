@@ -13,11 +13,11 @@ A **Learning Path** is a defined sequence of courses on the training platform to
 
 A Learning Path references courses from different Categories on the training platform which learners can be optionally enforced to complete in an order. A Learning Path can be assigned by the administrators to a individual or group of users.
 
-In this article, you will learn more about how to create Learning Path(s) on the Microsoft Community Training platform.
+In this article, you will learn more about how to create Learning Path(s) on the Community Training platform.
 
 ## Permissions Level
 
-The Microsoft Community Training management portal provides role-based administration and depending upon the type of access level the administrators can perform an action on the portal. The table below shows administrative role which are allowed to create Learning Paths on the portal:
+The Community Training management portal provides role-based administration and depending upon the type of access level the administrators can perform an action on the portal. The table below shows administrative role which are allowed to create Learning Paths on the portal:
 
 | Access Level  | Create Learning Path |
 | --- | --- |
@@ -30,7 +30,7 @@ The Microsoft Community Training management portal provides role-based administr
 
 ## Steps to create a Learning Path
 
-1. On the Microsoft Community Training portal, [**switch to administrator view**](../../../get-started/step-by-step-configuration-guide.md#step-2--switch-to-administrator-view-of-the-portal) on the portal
+1. On the Community Training portal, [**switch to administrator view**](../../../get-started/step-by-step-configuration-guide.md#step-2--switch-to-administrator-view-of-the-portal) on the portal
 
 2. Select the **Content** menu on the left bar and click on Learning Path tab
 

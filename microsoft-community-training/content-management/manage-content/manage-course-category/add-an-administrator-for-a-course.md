@@ -3,13 +3,13 @@ title: Add an administrator for a course
 original-url: https://docs.microsoftcommunitytraining.com/docs/add-an-administrator-for-a-course
 author: nikotha
 ms.author: nikotha
-description: There are two types of content admin in the Microsoft Community Training  platform – Category administrator and Course administrator.
+description: There are two types of content admin in the Community Training  platform – Category administrator and Course administrator.
 ms.prod: learning-azure
 ---
 
 # Add an administrator for a course
 
-There are two types of content admin in the Microsoft Community Training  platform – Category administrator and Course administrator. There is no limit to the number of Category administrator and Course administrator that you can create on the platform.
+There are two types of content admin in the Community Training  platform – Category administrator and Course administrator. There is no limit to the number of Category administrator and Course administrator that you can create on the platform.
 
 1. **Category administrator** is responsible for content creation and management of all the courses under one or more categories on the portal.
 
@@ -22,7 +22,7 @@ In this article, you will learn more about how to add different types of content
 
 ## Permissions Level
 
-The Microsoft Community Training management portal provides role-based administration and depending upon the type of access level administrator can perform an action on the portal. Table below shows administrative role which are allowed to add category and course admin on the portal:
+The Community Training management portal provides role-based administration and depending upon the type of access level administrator can perform an action on the portal. Table below shows administrative role which are allowed to add category and course admin on the portal:
 
 | Access Level  | Add Category Administrator | Add Course Administrator |
 | --- | --- | --- |
@@ -37,7 +37,7 @@ The Microsoft Community Training management portal provides role-based administr
 
 In this topic, you will learn the simple steps on how to add a category administrator on the portal:
 
-1. On the Microsoft Community Training portal, login and [**switch to administrator view**](../../../get-started/step-by-step-configuration-guide.md#step-2--switch-to-administrator-view-of-the-portal).
+1. On the Community Training portal, login and [**switch to administrator view**](../../../get-started/step-by-step-configuration-guide.md#step-2--switch-to-administrator-view-of-the-portal).
 
 2. Under Course tab, select the **Category** for which you want to add an administrator and click or tap on the **More (...)** icon
 
@@ -58,7 +58,7 @@ In this topic, you will learn the simple steps on how to add a category administ
 
 In this topic, you will learn the simple steps on how to add a course administrator on the portal:
 
-1. On the Microsoft Community Training portal, login and [**switch to administrator view**](../../../get-started/step-by-step-configuration-guide.md#step-2--switch-to-administrator-view-of-the-portal).
+1. On the Community Training portal, login and [**switch to administrator view**](../../../get-started/step-by-step-configuration-guide.md#step-2--switch-to-administrator-view-of-the-portal).
 
 2. Under Course tab, select the **Course** for which you want to add an administrator and click or tap on the **More (...)** icon.
 

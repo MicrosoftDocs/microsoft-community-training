@@ -3,13 +3,13 @@ title: Analytics overview
 original-url: https://docs.microsoftcommunitytraining.com/docs/analytics-overview
 author: nikotha
 ms.author: nikotha
-description: Microsoft Community Training platform provides out of the box rich analytics for tracking progress in learning, course completion and engagement and performance of learners.
+description: Community Training platform provides out of the box rich analytics for tracking progress in learning, course completion and engagement and performance of learners.
 ms.prod: learning-azure
 ---
 
 # Analytics overview
 
-Microsoft Community Training platform provides out of the box rich analytics for tracking progress in learning, course completion and engagement and performance of learners. These insights enable the administrators to monitor progress and improvise training programs. Analytics empower the organization to make improved decisions about their training program which is always supported by data and behavior of users, thus enabling smart program administration.
+Community Training platform provides out of the box rich analytics for tracking progress in learning, course completion and engagement and performance of learners. These insights enable the administrators to monitor progress and improvise training programs. Analytics empower the organization to make improved decisions about their training program which is always supported by data and behavior of users, thus enabling smart program administration.
 
 ![smart program administration](../media/image%28430%29.png)
 
@@ -28,7 +28,7 @@ Here is the high-level comparison of analytics information available to differen
 
 ## In-built analytics report available to administrators
 
-To provide a rich out of the box experience to an admin, Microsoft Community Training platform provides different views, designed to facilitate tracking learner progress and program monitoring at various levels:
+To provide a rich out of the box experience to an admin, Community Training platform provides different views, designed to facilitate tracking learner progress and program monitoring at various levels:
 
 1. [**Overall Summary**](./in-built-reports/overall-summary.md) - Provides a high-level picture of learner enrollments and course completion
 
@@ -42,11 +42,11 @@ To provide a rich out of the box experience to an admin, Microsoft Community Tra
 
 <!-- ## Advanced Search in Analytics
 
-Microsoft Community Training also provides administrators the capability to search for specific records from the entire repository of analytics available in the in-built reports. This is available at various levels - Category View, Course View, Learner View.
+Community Training also provides administrators the capability to search for specific records from the entire repository of analytics available in the in-built reports. This is available at various levels - Category View, Course View, Learner View.
 
 ### Steps to search analytics
 
-1. On the Microsoft Community Training portal, after login switch to administrator view and select Analytics tab from the left navigation panel.
+1. On the Community Training portal, after login switch to administrator view and select Analytics tab from the left navigation panel.
 1. Scroll down to the **Categories/ Courses** section and provide the string to be searched.
 
    > [!NOTE]

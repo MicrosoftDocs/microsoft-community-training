@@ -3,7 +3,7 @@ title: Send announcement to the users
 original-url: https://docs.microsoftcommunitytraining.com/docs/send-announcement-to-the-users
 author: nikotha
 ms.author: nikotha
-description: Microsoft Community Training platform allows administrators to send customize messages, alerts or broadcast information to different group of users via the announcement feature.
+description: Community Training platform allows administrators to send customize messages, alerts or broadcast information to different group of users via the announcement feature.
 ms.prod: learning-azure
 ---
 
@@ -33,7 +33,7 @@ The Community Training management portal provides role-based administration and 
 > [!TIP]
 > Administrators can send the announcement either to the whole group or to a specific set of users in the group as required.
 
-1. On the Microsoft Community Training portal, after login [**switch to administrator view**](../../get-started/step-by-step-configuration-guide.md#step-2--switch-to-administrator-view-of-the-portal).
+1. On the Community Training portal, after login [**switch to administrator view**](../../get-started/step-by-step-configuration-guide.md#step-2--switch-to-administrator-view-of-the-portal).
 
 2. Select a **User Group** under Users tab to whom you want to send announcement
 

@@ -3,13 +3,13 @@ title: Add learners to the platform
 original-url: https://docs.microsoftcommunitytraining.com/docs/add-users-to-the-portal-1
 author: nikotha
 ms.author: nikotha
-description: Microsoft Community Training management portal provides two ways to add learners to the portal.
+description: Community Training management portal provides two ways to add learners to the portal.
 ms.prod: learning-azure
 ---
 
 # Add learners to the platform
 
-Microsoft Community Training management portal provides two ways to add learners to the portal. Administrator can add learners either through a specific group or directly through the **All Users** list. All Users options is available only to the Global Administrators.
+Community Training management portal provides two ways to add learners to the portal. Administrator can add learners either through a specific group or directly through the **All Users** list. All Users options is available only to the Global Administrators.
   
 ## Option 1 – Add Learner via All users
 
@@ -17,7 +17,7 @@ In this topic, you will learn about how to add learner from All Users list.
   
 ### Permissions Level
 
-The Microsoft Community Training management portal provides role-based administration and depending upon the type of access level administrator can perform an action on the portal. Table below shows administrative role which are allowed to add learners from All Users list:
+The Community Training management portal provides role-based administration and depending upon the type of access level administrator can perform an action on the portal. Table below shows administrative role which are allowed to add learners from All Users list:
 
 | Access Level | Add learners via All Users |
 | --- | --- |
@@ -30,7 +30,7 @@ The Microsoft Community Training management portal provides role-based administr
 
 ### Steps to add learners via All Users list
 
-1. On the Microsoft Community Training portal, after login [**switch to administrator view**](../../get-started/step-by-step-configuration-guide.md#step-2--switch-to-administrator-view-of-the-portal)
+1. On the Community Training portal, after login [**switch to administrator view**](../../get-started/step-by-step-configuration-guide.md#step-2--switch-to-administrator-view-of-the-portal)
 
 2. Select **All Users** tab in the left-navigation page from users module
 

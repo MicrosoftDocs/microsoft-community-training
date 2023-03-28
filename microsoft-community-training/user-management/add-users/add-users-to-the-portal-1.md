@@ -58,7 +58,7 @@ In this topic, you will learn how to add learner via specific group.
 
 ### Permission Level
 
-The Microsoft Community Training management portal provides role-based administration and depending upon the type of access level administrator can perform an action on the portal. Table below shows administrative role which are allowed to add learners via Group:
+The Community Training management portal provides role-based administration and depending upon the type of access level administrator can perform an action on the portal. Table below shows administrative role which are allowed to add learners via Group:
 
 | Access Level | Add learners via All Users |
 | --- | --- |
@@ -73,7 +73,7 @@ The Microsoft Community Training management portal provides role-based administr
 
 Before you begin, please create a group using the steps mentioned [**in this article**](./../organize-users/create-a-new-group.md).
 
-1. On the Microsoft Community Training portal, after login [**switch to administrator view**](../../get-started/step-by-step-configuration-guide.md#step-2--switch-to-administrator-view-of-the-portal) and select a specific group under Users tab
+1. On the Community Training portal, after login [**switch to administrator view**](../../get-started/step-by-step-configuration-guide.md#step-2--switch-to-administrator-view-of-the-portal) and select a specific group under Users tab
 
     ![Steps to add learners via Group](../../media/image%2856%29.png)
 

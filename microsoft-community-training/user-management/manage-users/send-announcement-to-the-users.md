@@ -9,7 +9,7 @@ ms.prod: learning-azure
 
 # Send announcement to the users
 
-Microsoft Community Training platform allows administrators to send customize messages, alerts or broadcast information to different group of users via the announcement feature. Users can view these information and updates sent by the administrators  under the **Notice Board section** of the learner experience.
+Community Training platform allows administrators to send customize messages, alerts or broadcast information to different group of users via the announcement feature. Users can view these information and updates sent by the administrators  under the **Notice Board section** of the learner experience.
 
 For example, if there are any courses that administrators would like to remind or encourage the learners to complete sooner,  then administrator can send a customized message (such as ‘You still have not completed the compliance training. Please complete soon to get certified’) as a follow up reminder to the group users and  push for course completion.
 
@@ -17,7 +17,7 @@ In this article, you will learn more about how an administrator can send an anno
 
 ## Permissions Level
 
-The Microsoft Community Training management portal provides role-based administration and depending upon the type of access level administrator can perform an action on the portal. Table below shows administrative role which are allowed to send announcement to group users on the portal:
+The Community Training management portal provides role-based administration and depending upon the type of access level administrator can perform an action on the portal. Table below shows administrative role which are allowed to send announcement to group users on the portal:
 
 | Access Level  | Send Announcement |
 | --- | --- |

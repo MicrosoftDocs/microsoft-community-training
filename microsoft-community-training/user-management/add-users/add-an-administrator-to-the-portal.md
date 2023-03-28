@@ -3,22 +3,22 @@ title: Add administrators to the platform
 original-url: https://docs.microsoftcommunitytraining.com/docs/add-an-administrator-to-the-portal
 author: nikotha
 ms.author: nikotha
-description: "Microsoft Community Training management portal provides six types of administrative role to a user on the portal."
+description: "Community Training management portal provides six types of administrative role to a user on the portal."
 ms.prod: learning-azure
 ---
 
 # Add administrators to the platform
 
-Microsoft Community Training management portal provides six types of administrative role to a user on the portal - Global Administrator, Organization Administrator, Learning Path Administrator, Category Administrator, Course Administrator and Group Administrator. For more details, see this article on [**roles and responsibilities of different administrators**](../../get-started/user-role-and-management-portal-overview.md).
+Community Training management portal provides six types of administrative role to a user on the portal - Global Administrator, Organization Administrator, Learning Path Administrator, Category Administrator, Course Administrator and Group Administrator. For more details, see this article on [**roles and responsibilities of different administrators**](../../get-started/user-role-and-management-portal-overview.md).
 
 > [!NOTE]
-> In case of Microsoft Teams integration, you won't be able to create Group administrator on the platform.  Group admin privileges are automatically assigned to owners of the Teams imported on the Microsoft Community Training platform.
+> In case of Microsoft Teams integration, you won't be able to create Group administrator on the platform.  Group admin privileges are automatically assigned to owners of the Teams imported on the Community Training platform.
 
 In this article, you will learn more about how to assign different administrative roles to a user on the management portal.
 
 ## Permissions Level
 
-The Microsoft Community Training management portal provides role-based administration and depending upon the type of access level admins can perform an action on the portal. Table below shows administrative role which are allowed add different types of administrators on the portal:
+The Community Training management portal provides role-based administration and depending upon the type of access level admins can perform an action on the portal. Table below shows administrative role which are allowed add different types of administrators on the portal:
 
 | Access Level   | Add Global Administrator | Add Organization Administrator | Add Learning Path Administrator | Add Category Administrator | Add Course Administrator | Add Group Administrator  |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -33,7 +33,7 @@ The Microsoft Community Training management portal provides role-based administr
 
 In this topic, you will learn simple steps to add Global Administrator to the portal.
 
-1. On the  Microsoft Community Training portal, after login [**switch to administrator view**](../../get-started/step-by-step-configuration-guide.md#step-2--switch-to-administrator-view-of-the-portal).
+1. On the  Community Training portal, after login [**switch to administrator view**](../../get-started/step-by-step-configuration-guide.md#step-2--switch-to-administrator-view-of-the-portal).
 
 2. Select **Global Administrators** option under Users tab on the top-left of the page.
 

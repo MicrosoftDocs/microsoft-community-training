@@ -50,7 +50,7 @@ The Community Training management portal provides role-based administration and 
 
 ## Option 2 - Steps to edit multiple user profile(s)
 
-1. On the Microsoft Community Training portal, after login [**switch to administrator view**](../../get-started/step-by-step-configuration-guide.md#step-2--switch-to-administrator-view-of-the-portal)
+1. On the Community Training portal, after login [**switch to administrator view**](../../get-started/step-by-step-configuration-guide.md#step-2--switch-to-administrator-view-of-the-portal)
 
 2. Select **All Users** tab in the left-navigation page from Users module
 

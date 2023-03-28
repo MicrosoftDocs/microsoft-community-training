@@ -34,7 +34,7 @@ Here are the steps on [**how to assign global administrator permission to a user
 
 ### 2. Organization Administrator
 
-This role is assigned to owners of a specific organization. An **Organization** on the Microsoft Community Platform is a set of learners and administrators who have a particular purpose or belong to a specific criteria viz. location, job function, interest etc. The organization administrator can use the management portal to manage content and users for its organization.
+This role is assigned to owners of a specific organization. An **Organization** on the Community training Platform is a set of learners and administrators who have a particular purpose or belong to a specific criteria viz. location, job function, interest etc. The organization administrator can use the management portal to manage content and users for its organization.
 
 Here are the steps on [**how to assign organization administrator permission to a user**](../user-management/add-users/add-an-administrator-to-the-portal.md).
 

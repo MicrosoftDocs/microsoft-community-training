@@ -30,8 +30,6 @@ In this article, you will learn more about the platform's database schema and it
 
 * [**Community Training - DB Schema Overview_Oct_2021.pdf**](https://github.com/MicrosoftDocs/microsoft-community-training/files/7581669/MCT_DB_Schema_Oct2021.pdf)
 
-* [**Community Training - DB Schema Overview_Aug_2021.pdf**](C:\Users\v-nmadireddi\OneDrive - Microsoft\microsoft-community-training\MCT_DB Schema_Mar 2023.pdf)
-
 
 ## Accessing Database
 

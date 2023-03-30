@@ -3,20 +3,20 @@ title: Organization Management
 original-url: https://docs.microsoftcommunitytraining.com/docs/organization-management
 author: nikotha
 ms.author: nikotha
-description: Microsoft Community Training supports multiple organizations to be created on the training platform where content and users can be mutually exclusive to each other.
+description: Community Training supports multiple organizations to be created on the training platform where content and users can be mutually exclusive to each other.
 ms.prod: learning-azure
 ---
 # Organization Management
 
-Microsoft Community Training supports multiple organizations to be created on the training platform where content and users can be part of siloed organizations with in same instance.
+Community Training supports multiple organizations to be created on the training platform where content and users can be part of siloed organizations with in same instance.
 
-An **Organization** on the Microsoft Community Platform is a set of learners and administrators who have a particular purpose or belong to a specific criteria viz. location, job function, interest etc. The organization administrator can use the management portal to manage content and users for its organization.
+An **Organization** on the Community Platform is a set of learners and administrators who have a particular purpose or belong to a specific criteria viz. location, job function, interest etc. The organization administrator can use the management portal to manage content and users for its organization.
 
 Global administrators can define the organizations on the training platform based on their specific training requirements. In this topic, you will learn simple steps to create and manage Organizations and Organization Administrators on the training portal.
 
 ## Permissions Level
 
-The Microsoft Community Training management portal provides role-based administration and depending upon the type of access level administrator can perform an action on the portal. Table below shows administrative role which are allowed to create and edit Organizations and Organization Administrators on the platform:
+The Community Training management portal provides role-based administration and depending upon the type of access level administrator can perform an action on the portal. Table below shows administrative role which are allowed to create and edit Organizations and Organization Administrators on the platform:
 
 | Access Level | Create and Edit Organizations |
 | --- | --- |
@@ -33,7 +33,7 @@ The support for Organizations can be enabled on the platform by [enabling the ap
 
 ## Create a New Organization
 
-1. On the  Microsoft Community Training portal, after login [**switch to administrator view**](../get-started/step-by-step-configuration-guide.md#step-2--switch-to-administrator-view-of-the-portal)
+1. On the  Community Training portal, after login [**switch to administrator view**](../get-started/step-by-step-configuration-guide.md#step-2--switch-to-administrator-view-of-the-portal)
 
 2. Click on **Settings** option from the left navigation panel and navigate to **Manage Organizations**.
 
@@ -234,7 +234,7 @@ Learners can be assigned to Organizations on the portal from 'All Users' section
 
 ### Add Single User to Organization
 
-1. On the Microsoft Community Training portal, after login [**switch to administrator view**](../get-started/step-by-step-configuration-guide.md#step-2--switch-to-administrator-view-of-the-portal)
+1. On the Community Training portal, after login [**switch to administrator view**](../get-started/step-by-step-configuration-guide.md#step-2--switch-to-administrator-view-of-the-portal)
 
 2. Select 'All Users' tab in the left-navigation page from users module
 
@@ -253,7 +253,7 @@ Learners can be assigned to Organizations on the portal from 'All Users' section
 > Adding an existing user from a different Organization will lead to loss of course progress made in previous organization
 >
 
-1. On the Microsoft Community Training portal, after login [**switch to administrator view**](../get-started/step-by-step-configuration-guide.md#step-2--switch-to-administrator-view-of-the-portal)
+1. On the Community Training portal, after login [**switch to administrator view**](../get-started/step-by-step-configuration-guide.md#step-2--switch-to-administrator-view-of-the-portal)
 
 2. Select 'All Users' tab in the left-navigation page from users module
 

@@ -3,13 +3,13 @@ title: Learner Experience on PWA based mobile app
 original-url: https://docs.microsoftcommunitytraining.com/docs/pwa-app
 author: v-sambati
 ms.author: v-sambati
-description: This article explains how learners can access the training content using the PWA based Android mobile application for the Microsoft Community Training platform instance setup for your organization.
+description: This article explains how learners can access the training content using the PWA based Android mobile application for the Community Training platform instance setup for your organization.
 ms.prod: learning-azure
 ---
 
 # Learner Experience on (PWA based) mobile app
 
-This article explains how learners can access the training content using the [PWA based Android mobile application](../infrastructure-management/install-your-platform-instance/create-publish-mobile-app.md#option-1-creating-a-progressive-web-application-pwa-for-android) for the Microsoft Community Training platform instance setup for your organization.
+This article explains how learners can access the training content using the [PWA based Android mobile application](../infrastructure-management/install-your-platform-instance/create-publish-mobile-app.md#option-1-creating-a-progressive-web-application-pwa-for-android) for the Community Training platform instance setup for your organization.
 
 ## Step 1: Download the app
 
@@ -22,7 +22,7 @@ This article explains how learners can access the training content using the [PW
 3. Once the app is installed, tap the app icon to launch the app
 
 > [!NOTE]
-> Microsoft Community Training platform lets every organization create a custom white-labelled mobile app. Learners need to get the name of the training app published on the Play Store from the administrator.
+> Community Training platform lets every organization create a custom white-labelled mobile app. Learners need to get the name of the training app published on the Play Store from the administrator.
 
 ### Option 2: Install from browser
 

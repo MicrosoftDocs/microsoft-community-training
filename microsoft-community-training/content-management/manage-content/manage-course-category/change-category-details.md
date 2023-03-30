@@ -3,18 +3,18 @@ title: Change Category details
 original-url: https://docs.microsoftcommunitytraining.com/docs/change-category-details
 author: nikotha
 ms.author: nikotha
-description: Microsoft Community Training platform allows you to edit and delete categories created on the portal.
+description: Community Training platform allows you to edit and delete categories created on the portal.
 ms.prod: learning-azure
 ---
 
 # Change Category details
 
-Microsoft Community Training platform allows you to edit and delete categories created on the portal.
+Community Training platform allows you to edit and delete categories created on the portal.
 In this article, you will learn more about how to edit a category and delete a category in respective sections.
 
 ## Permissions Level
 
-The Microsoft Community Training management portal provides role-based administration and depending upon the type of access level admins can perform an action on the portal. Table below shows the administrative roles which are allowed to edit or delete category:
+The Community Training management portal provides role-based administration and depending upon the type of access level admins can perform an action on the portal. Table below shows the administrative roles which are allowed to edit or delete category:
 
 | Access Level  | Edit Category | Delete Category |
 | --- | --- | --- |

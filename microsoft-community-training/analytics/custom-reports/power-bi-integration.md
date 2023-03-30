@@ -8,12 +8,12 @@ ms.service: power-bi-embedded
 ms.date: 07/21/2021
 ms.topic: conceptual
 ms.custom: internal-contributor-guide
-#<Customer intent: As a customer of Microsoft Community Training platform, I need to know how to use the different capabilities available on the platform for a learner and an administrator.
+#<Customer intent: As a customer of Community Training platform, I need to know how to use the different capabilities available on the platform for a learner and an administrator.
 ---
 
 # Power BI Integration
 
-Microsoft Community Training platform stores all customer data in the Azure SQL database which is part of customer's Azure Subscription. Customers can access the database to build custom reports (using analytics tools such as PowerBI) and run SQL queries for specific operations.
+Community Training platform stores all customer data in the Azure SQL database which is part of customer's Azure Subscription. Customers can access the database to build custom reports (using analytics tools such as PowerBI) and run SQL queries for specific operations.
 
 In this article, you will learn more about connecting Power BI with the Azure SQl Database to build custom reports for your organization.
 
@@ -21,7 +21,7 @@ In this article, you will learn more about connecting Power BI with the Azure SQ
 
 ### Prerequisites  
 
-1. Administrator access to the Azure Portal where the Microsoft Community Training platform is hosted.
+1. Administrator access to the Azure Portal where the Community Training platform is hosted.
 2. Azure SQL server User ID & Password. To view / retrieve your SQL Servers User ID & Password refer to [this document](database-schema.md).  
 3. Storing Client IP to Firewall (If you are using a dynamic IP, make sure to add the same on the fire wall every time when it changes).
 4. Access to Power BI Application in your organization.

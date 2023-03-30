@@ -11,7 +11,7 @@ ms.prod: learning-azure
 
 As your learners continue learning and improving, your training platform also continues to grow and become better.
 
-Starting January, 2021 your Microsoft Community Training instance will utilize the power of Azure Front Door (AFD) to deliver non-video content (ex. PDF, ePub, O365 files etc.). AFD is a global, scalable entry-point that uses the Microsoft global edge network to create fast, secure, and widely scalable web applications.
+Starting January, 2021 your Community Training instance will utilize the power of Azure Front Door (AFD) to deliver non-video content (ex. PDF, ePub, O365 files etc.). AFD is a global, scalable entry-point that uses the Microsoft global edge network to create fast, secure, and widely scalable web applications.
 
 ## Why Azure Front Door (AFD)?
 
@@ -23,9 +23,9 @@ Starting January, 2021 your Microsoft Community Training instance will utilize t
 ## What changes for you?
 
 > [!IMPORTANT]  
-> If you are a new customer deploying the Microsoft Community Training platform in January 2021, you can follow the instructions in the [deployment guide](../../infrastructure-management/install-your-platform-instance/installation-guide-detailed-steps.md). Your new instance will be deployed with all the benefits of Azure Front Door.
+> If you are a new customer deploying the Community Training platform in January 2021, you can follow the instructions in the [deployment guide](../../infrastructure-management/install-your-platform-instance/installation-guide-detailed-steps.md). Your new instance will be deployed with all the benefits of Azure Front Door.
 
-If you are an existing customer of the Microsoft Community Training platform, following are the changes you will observe,  
+If you are an existing customer of the Community Training platform, following are the changes you will observe,  
 
 1. If your learners are accessing azurewebsites URL (ex. Xxxxx.azurewebsites.net) - they will now have to access xxxxx.azurefd.net; if your learners are accessing URL via a custom domain they will see no change
 2. The AFD benefits come at an additional monthly cost of USD 40 which you will observe in your Azure billing
@@ -35,7 +35,7 @@ If you are an existing customer of the Microsoft Community Training platform, fo
 > [!IMPORTANT]  
 > If you are deploying the platform post January 2021, **you do NOT need to follow these steps**, your deployment flow would have already guided you in the right direction.
 
-If your Microsoft Community Training instance was deployed before January 2021, then follow the following steps.
+If your Community Training instance was deployed before January 2021, then follow the following steps.
 
 ### Case 1: Your learners use a custom domain or a vanity URL to access the training instance
 
@@ -49,7 +49,7 @@ Please follow the following steps to update mapping in your DNS provider and add
 
 2. [**Associate the mapped custom domain**](/azure/frontdoor/front-door-custom-domain#associate-the-custom-domain-with-your-front-door), with your new MCT instance's Front Door resource.
 
-3. [**Configure the SSL certificate**](/azure/frontdoor/front-door-custom-domain-https) for your Microsoft Community Training instance.
+3. [**Configure the SSL certificate**](/azure/frontdoor/front-door-custom-domain-https) for your Community Training instance.
 
    Use an [**AFD managed certificate**](/azure/frontdoor/front-door-custom-domain-https#option-1-default-use-a-certificate-managed-by-front-door) for seamless certificate management, including procurement and renewal.
 
@@ -59,7 +59,7 @@ Please follow the following steps to update mapping in your DNS provider and add
 
    Select the WAF policy instance that is deployed in the same resource group.
 
-5. Click on the resource group belonging to your Microsoft Community Training instance.
+5. Click on the resource group belonging to your Community Training instance.
 
 6. Click on the Managed application instance.
 

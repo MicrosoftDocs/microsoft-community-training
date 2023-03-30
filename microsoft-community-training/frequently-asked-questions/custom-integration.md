@@ -3,7 +3,7 @@ title: Platform Extensibility & Integration
 original-url: https://docs.microsoftcommunitytraining.com/docs/custom-integration
 author: nikotha
 ms.author: nikotha
-description: Microsoft Community Training do not inbuilt support for live training sessions.
+description: Community Training do not inbuilt support for live training sessions.
 ms.prod: learning-azure
 ---
 
@@ -11,9 +11,9 @@ ms.prod: learning-azure
 
 ## Live meetings and webinars
 
-### Will I be able to conduct live training sessions using Microsoft Community Training platform?
+### Will I be able to conduct live training sessions using Community Training platform?
 
-Microsoft Community Training do not inbuilt support for live training sessions. However, we recommend customers use third-party applications such as Microsoft teams, Zoom, etc. and embed the meeting link as lesson in the course.
+Community Training do not inbuilt support for live training sessions. However, we recommend customers use third-party applications such as Microsoft teams, Zoom, etc. and embed the meeting link as lesson in the course.
 
 Post session, to mark the completion, you can give learners quizzes which they can attempt in order to validate their training progress and achieve certificate.
 
@@ -23,9 +23,9 @@ Also, you can replace the live training link with the actual recording of the tr
 
 For more details, please reach out to us [**via HelpDesk**](https://go.microsoft.com/fwlink/?linkid=2104630).
 
-### Can I integrate Cisco WebEx, Microsoft Teams, Zoom etc. with Microsoft Community Training for live sessions?
+### Can I integrate Cisco WebEx, Microsoft Teams, Zoom etc. with Community Training for live sessions?
 
-Customers can have the meeting or webinar links added to the Microsoft Community Training platform as external URLs which will allow learners to simply redirect to the respective application such as Microsoft Teams, Zoom, Google Meet, etc. and attend these sessions.
+Customers can have the meeting or webinar links added to the Community Training platform as external URLs which will allow learners to simply redirect to the respective application such as Microsoft Teams, Zoom, Google Meet, etc. and attend these sessions.
 
 Having said that, for Microsoft Teams, the platform can be embedded as a tab where users can easily access the course contents within the team's environment.
 
@@ -33,18 +33,18 @@ For more information on MS Teams integration, [**refer here**](https://community
 
 ### Will I be able to deliver webinar using this platform?
 
-Microsoft Community Training doesn’t provide inbuilt functionalities to host webinars but customers can add the meeting or webinar URLs as an external lesson on our platform. This will allow users to easily redirect to the respective application hosting the webinar and attend the sessions.
+Community Training doesn’t provide inbuilt functionalities to host webinars but customers can add the meeting or webinar URLs as an external lesson on our platform. This will allow users to easily redirect to the respective application hosting the webinar and attend the sessions.
 
 ## Integration with external system
 
 ### Are there any out of the box integration with existing HRMS, CRM, etc. application available in the market?
 
-Microsoft Community Training doesn't come with any out of box integrations with 3rd party HRMS & CRM applications. However, customers and partners can use our APIs to integrate with other systems.
+Community Training doesn't come with any out of box integrations with 3rd party HRMS & CRM applications. However, customers and partners can use our APIs to integrate with other systems.
 
-### Can I embed or integrate Microsoft Community Training to our existing mobile application?
+### Can I embed or integrate Community Training to our existing mobile application?
 
-Yes, Customers can integrate Microsoft Community Training platform to their existing mobile application.  
-For example, you can add a 'Training' button on the home screen and clicking on the button will launch the Microsoft Community Training platform inside the existing app as a web view.
+Yes, Customers can integrate Community Training platform to their existing mobile application.  
+For example, you can add a 'Training' button on the home screen and clicking on the button will launch the Community Training platform inside the existing app as a web view.
 
 #### Embedding webview of MCT in your existing mobile app
 
@@ -84,13 +84,13 @@ MCT allows you to map identity with external portal i.e., if you have an externa
   * Please update the required params in code following the documentation of S2S here Service to [Service Authentication](/azure/industry/training-services/microsoft-community-training/rest-api-management/service-to-service-authentication) and then publish the function app.
 * Here is a [sample recording](https://microsoft.sharepoint.com/:v:/t/BuildingSangam/EQZ7Z2zY7zdAuQY5leNYmwgBO7-ezdGFTUngJWdz70wmsA?e=YIITyN) for your reference.
 
-### Does Microsoft Community Training provide any job matching capabilities? How can I integrate Microsoft community training with external job portals?
+### Does Community Training provide any job matching capabilities? How can I integrate Community Training with external job portals?
 
-Microsoft Community Training does not come with any job matching capabilities out of the box. However, the platform can be integrated with external job portals to push learner progress and course certificate using the REST APIs.
+Community Training does not come with any job matching capabilities out of the box. However, the platform can be integrated with external job portals to push learner progress and course certificate using the REST APIs.
 
 For more information, please reach out to us [**via HelpDesk**](https://go.microsoft.com/fwlink/?linkid=2104630) on how to integrate the platform with external application.
 
-### Is e-commerce and payment integration available on the platform?Can I use Microsoft Community Training platform to sell courses directly to end users?
+### Is e-commerce and payment integration available on the platform?Can I use Community Training platform to sell courses directly to end users?
 
 E-Commerce and Payment  functionalities are not available on our platform out of the box. However, customers can build these functions using our APIs.
 
@@ -112,7 +112,7 @@ For more details, reach out to us [**via HelpDesk**](https://go.microsoft.com/fw
 
 ### Is there a feature to create additional notifications through emails?
 
-Microsoft community training does not have this function out of the box. However, customers can achieve this by using our APIs.
+Community Training does not have this function out of the box. However, customers can achieve this by using our APIs.
 
 For more details, reach out to us [**via HelpDesk**](https://go.microsoft.com/fwlink/?linkid=2104630).
 
@@ -133,13 +133,13 @@ This link obtained above is the deep link of the course and can be shared with t
 
 ### Are there any Rest APIs available for integration with existing systems or applications?
 
-Microsoft Community Training platform provides REST APIs to help organization integrate the platform with the existing system and consume training via custom endpoints such as your own mobile app or website.
+Community Training platform provides REST APIs to help organization integrate the platform with the existing system and consume training via custom endpoints such as your own mobile app or website.
 
 For more information, [**refer here**](../infrastructure-management/install-your-platform-instance/apis.md).
 
-### How can I sync / import users data from my existing system to Microsoft Community Training?
+### How can I sync / import users data from my existing system to Community Training?
 
-Microsoft Community Training platform lets [global administrators](../user-management/add-users/add-an-administrator-to-the-portal.md#add-a-global-administrator-to-the-platform) import user progress from other learning portals which will enable seamless experience for learner.
+Community Training platform lets [global administrators](../user-management/add-users/add-an-administrator-to-the-portal.md#add-a-global-administrator-to-the-platform) import user progress from other learning portals which will enable seamless experience for learner.
 
 #### Pre-requisites
 
@@ -201,7 +201,7 @@ MCT
 
 #### Export Course content to other LMS
 
-Microsoft Community Training platform lets global administrators export course content from MCT to other learning portals enabling reuse of content.
+Community Training platform lets global administrators export course content from MCT to other learning portals enabling reuse of content.
 
 ##### Steps on how to export course content by using API
 

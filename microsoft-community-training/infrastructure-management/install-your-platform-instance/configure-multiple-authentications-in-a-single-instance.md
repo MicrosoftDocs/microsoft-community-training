@@ -3,13 +3,13 @@ title: Configure multiple authentications in a single instance
 original-url: https://docs.microsoftcommunitytraining.com/docs/configure-multi-mode-authentication-for-same-deployment
 author: sambati
 ms.author: sambati
-description: Setup multiple authentication modes in a single instance of Microsoft Community Training platform.
+description: Setup multiple authentication modes in a single instance of Community Training platform.
 ms.prod: learning-azure
 ---
 
 # Configure multiple authentications in a single instance
 
-Many organizations might want to support multiple authentication options to be available for their learners. Microsoft Community Training now supports adding more than one authentication option for a single platform instance.
+Many organizations might want to support multiple authentication options to be available for their learners. Community Training now supports adding more than one authentication option for a single platform instance.
 
 To be able to configure multiple authentications to your instance you need to first create [**AD B2C**](https://learn.microsoft.com/azure/active-directory-b2c/overview) tenant and register an application. If your instance is already setup to use [**social login**](configure-login-social-work-school-account.md#social-account-or-email-based-authentication) via ADB2C then you can proceed configuring your tenant to add [**phone login**](#add-phone-based-login-to-existing-social-account-login-instance) and [**work email login**](#add-work-email-based-authentication-to-existing-social-account-login-instance) support to your instance.
 

@@ -39,7 +39,7 @@ If you have an existing instance, you can enable auto scale-out as mentioned bel
 
    ![Navigate Resource groups](../../media/image%2823%29.png)
 
-3. From the list of resource groups, click on the resource group belonging to your Microsoft Community Training instance
+3. From the list of resource groups, click on the resource group belonging to your Community Training instance
 
 4. From the list of resources, click on the function app resource that has name like `<your portal name>-fa-<random string>`.
 
@@ -86,7 +86,7 @@ If you have auto scale enabled in your instance and you wish to disable, you can
 
    ![Navigate Resource groups](../../media/image%2823%29.png)
 
-3. From the list of resource groups, click on the resource group belonging to your Microsoft Community Training instance
+3. From the list of resource groups, click on the resource group belonging to your Community Training instance
 
 4. From the list of resources, click on the function app resource that has name like `<your portal name>-fa-<random string>`.
 
@@ -112,7 +112,7 @@ Get more CPU, memory, disk space, and extra features like dedicated virtual mach
 
    ![Login Azure portal](../../media/image%28118%29.png)
 
-2. Click on the resource group belonging to your Microsoft Community Training instance.
+2. Click on the resource group belonging to your Community Training instance.
 
 3. Click on the Managed application instance.
 
@@ -142,7 +142,7 @@ Mitigate performance issues by dynamically add more resources to your database w
 
    ![Azure portal](../../media/image%28118%29.png)
 
-2. Click on the resource group belonging to your Microsoft Community Training instance.
+2. Click on the resource group belonging to your Community Training instance.
 
 3. Click on the Managed application instance.
 

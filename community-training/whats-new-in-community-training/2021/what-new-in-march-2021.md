@@ -3,13 +3,13 @@ title: What's new in March 2021
 original-url: https://docs.microsoftcommunitytraining.com/docs/what-new-in-march-2021
 author: nikotha
 ms.author: nikotha
-description: With the world gradually recovering from the effects of the COVID-19 pandemic and adopting the new normal as the way forward, Microsoft Community Training has also worked its way to add more capabilities for customized skilling and better platform management.
+description: With the world gradually recovering from the effects of the COVID-19 pandemic and adopting the new normal as the way forward, Community Training has also worked its way to add more capabilities for customized skilling and better platform management.
 ms.prod: learning-azure
 ---
 
 # What's new in March 2021
 
-With the world gradually recovering from the effects of the COVID-19 pandemic and adopting the new normal as the way forward, Microsoft Community Training has also worked its way to add more capabilities for customized skilling and better platform management. Numerous features have been introduced to ensure improved learner experience and more control on content and user management. We hope you enjoy using the platform!!!
+With the world gradually recovering from the effects of the COVID-19 pandemic and adopting the new normal as the way forward, Community Training has also worked its way to add more capabilities for customized skilling and better platform management. Numerous features have been introduced to ensure improved learner experience and more control on content and user management. We hope you enjoy using the platform!!!
 
 ## Learning Path of courses for learners*
 

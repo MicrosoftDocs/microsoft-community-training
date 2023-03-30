@@ -9,7 +9,7 @@ ms.prod: learning-azure
 
 # What's new in December 2020
 As the COVID-19 pandemic has impacted our day-to-day activities and led to months of “Stay at Home”, the world has committed itself into finding ways to fight the situation and grow at the same time. 
-Keeping the same enthusiasm, Microsoft Community Training has yet again come up with some new product release. The new features have been designed in a way to keep the platform simple and yet offer more flexibility and control to manage communities. We hope you enjoy using the platform with seamless learning experience.
+Keeping the same enthusiasm, Community Training has yet again come up with some new product release. The new features have been designed in a way to keep the platform simple and yet offer more flexibility and control to manage communities. We hope you enjoy using the platform with seamless learning experience.
 
 ## Restricted Course Assignment 
 For large organizations, there are scenarios where the content of one group should not be accessible to others group users because of various security and IP concerns. 

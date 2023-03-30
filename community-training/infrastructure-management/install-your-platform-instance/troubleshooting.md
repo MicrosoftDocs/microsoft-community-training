@@ -27,7 +27,7 @@ Website is typically provisioned 15-20 mins after deployment succeeds. Please ch
 
 ### Problem
 
-You are using a free trial subscription. Microsoft Community Training is not available on a free trial subscription.
+You are using a free trial subscription. Community Training is not available on a free trial subscription.
 
 ### Solution
 
@@ -102,7 +102,7 @@ It is possible that accessing portal gives an error message as "Error 403- This 
 1. Login to [Azure portal](https://portal.azure.com)
 2. From home page, select the app service name from 'Recent Resources'
 3. Click or select 'Start' button from menu on the top
-4. Access Microsoft community training portal from the browser
+4. Access Community training portal from the browser
 
 ## Issue 6: Deployed failed with error “Azure subscription is not registered with CDN Provider”
 
@@ -121,7 +121,7 @@ Please follow the steps mentioned below to manually register the CDN resource pr
 
 ## Issue 7: Azure Active Directory Configuration issue
 
-While trying to deploy MCT with Azure AD configuration there might be some cases where you end up having an issue when overlooked a step in [**setup**](configure-login-social-work-school-account.md#work-or-school-account-based-authentication). In such cases it is suggested to run a Console application and provide us the token and claim information via [**support request**](https://sangamhelpdesk.microsoftcrmportals.com/SignIn?ReturnUrl=%2Fsupport%2Fcreate-case%2F) which will help us to debug your configuration and resolve the issue.
+While trying to deploy CT with Azure AD configuration there might be some cases where you end up having an issue when overlooked a step in [**setup**](configure-login-social-work-school-account.md#work-or-school-account-based-authentication). In such cases it is suggested to run a Console application and provide us the token and claim information via [**support request**](https://sangamhelpdesk.microsoftcrmportals.com/SignIn?ReturnUrl=%2Fsupport%2Fcreate-case%2F) which will help us to debug your configuration and resolve the issue.
 
 Please follow the steps below to download and run the console app:
 
@@ -163,5 +163,5 @@ If you are using social account authentication as your primary authentication ty
 
 [Steps to generate a new client secret and link it to key-vault](../../frequently-asked-questions/generate-new-clientsecret-link-to-key-vault.md)
 
-If the client secret has not expired, please [raise a support ticket](https://sangamhelpdesk.microsoftcrmportals.com/SignIn?ReturnUrl=%2Fsupport%2Fcreate-case%2F) with the MCT team.
+If the client secret has not expired, please [raise a support ticket](https://sangamhelpdesk.microsoftcrmportals.com/SignIn?ReturnUrl=%2Fsupport%2Fcreate-case%2F) with the CT team.
 

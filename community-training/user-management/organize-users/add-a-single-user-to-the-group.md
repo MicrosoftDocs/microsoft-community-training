@@ -13,7 +13,7 @@ In this article, you will learn about how to add a single users to a group on th
 
 ## Permissions Level
 
-The Microsoft Community Training management portal provides role-based administration and depending upon the type of access level administrator can perform an action on the portal. Table below shows administrative role which are allowed to add users to a group on the portal:
+The Community Training management portal provides role-based administration and depending upon the type of access level administrator can perform an action on the portal. Table below shows administrative role which are allowed to add users to a group on the portal:
 
 | Access Level    | Add a single user to a Group |
 | --- | --- |

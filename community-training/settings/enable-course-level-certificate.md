@@ -3,13 +3,13 @@ title: Enable course level certificate
 original-url: https://docs.microsoftcommunitytraining.com/docs/enable-course-level-certificate
 author: nikotha
 ms.author: nikotha
-description: Microsoft community training enables you to create multiple certificates and assign them to the relevant courses.
+description: community training enables you to create multiple certificates and assign them to the relevant courses.
 ms.prod: learning-azure
 ---
 
 # Enable course level certificate
 
-Microsoft community training enables you to create multiple certificates and assign them to the relevant courses.
+community training enables you to create multiple certificates and assign them to the relevant courses.
 
 1. Follow the instructions to [create, customize and add the certificates along with its appropriate language.](../settings/customize-the-certificate-template.md)
 2. In the administrator view select courses and click on the **More (...)** icon on the category list pane and click on edit course details.

@@ -22,7 +22,7 @@ In this article, you'll learn how to customize profile information by creating a
 
 ## Permissions Level
 
-The Microsoft Community Training management portal provides role-based administration and depending upon the type of access level administrator can perform an action on the portal.  Table below shows administrative roles that can customize profile information for learners.
+The Community Training management portal provides role-based administration and depending upon the type of access level administrator can perform an action on the portal.  Table below shows administrative roles that can customize profile information for learners.
 
 |Access Level| Customize profile information |
 |---|---|
@@ -35,7 +35,7 @@ The Microsoft Community Training management portal provides role-based administr
 
 ## Steps to create additional profile fields
 
-1. Login to the Microsoft Community Training portal and [**switch to administrator view**](../get-started/step-by-step-configuration-guide.md#step-2--switch-to-administrator-view-of-the-portal)
+1. Login to the Community Training portal and [**switch to administrator view**](../get-started/step-by-step-configuration-guide.md#step-2--switch-to-administrator-view-of-the-portal)
 
 2. Click on **Settings tab** from the left navigation panel and select  Additional Profile fields options from the list
 
@@ -98,13 +98,13 @@ The Microsoft Community Training management portal provides role-based administr
 
 ## Associated Profile Fields
 
-Microsoft Community Training supports adding associated profile fields. Associated profile fields will help in defining relationship and create dependencies between profile fields. Selection of a particular profile field value will determine the options in dependent profile field.
+Community Training supports adding associated profile fields. Associated profile fields will help in defining relationship and create dependencies between profile fields. Selection of a particular profile field value will determine the options in dependent profile field.
 
 For example, if there are two profile fields ‘State’ and ‘City’ and if city is a dependent on State, then selecting a particular State will show the Cities specific to that State.
 
 ### Steps to create Associated profile fields
 
-1. Login to the Microsoft Community Training portal and [**switch to administrator view**](../get-started/step-by-step-configuration-guide.md#step-2--switch-to-administrator-view-of-the-portal)
+1. Login to the Community Training portal and [**switch to administrator view**](../get-started/step-by-step-configuration-guide.md#step-2--switch-to-administrator-view-of-the-portal)
 
 2. Click on **Settings** tab from the left navigation panel and select ‘Additional Profile fields’ from the list
 
@@ -162,7 +162,7 @@ For example, if there are two profile fields ‘State’ and ‘City’ and if c
 
 You can include a link to privacy terms that will be shown to users on the portal when they view their profile information post login.
 
-1. Login to the Microsoft Community Training portal and [**switch to administrator view**](../get-started/step-by-step-configuration-guide.md#step-2--switch-to-administrator-view-of-the-portal)
+1. Login to the Community Training portal and [**switch to administrator view**](../get-started/step-by-step-configuration-guide.md#step-2--switch-to-administrator-view-of-the-portal)
 
 2. Click on **Settings tab** from the left navigation panel and select **General** from the list
 

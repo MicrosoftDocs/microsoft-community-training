@@ -2,17 +2,17 @@
 title: What's new in March 2023
 author: v-nmadireddi
 ms.author: v-nmadireddi
-description: This document details the new features and capabilities launched on the Microsoft Community Training platform in March 2023. 
+description: This document details the new features and capabilities launched on the Community Training platform in March 2023. 
 ms.prod: learning-azure
 ---
 
 ## What’s new in March 2023
 
-We are excited to share the new product update of Microsoft Community Training with you! These features in this release are designed to enhance the management and delivery of online learning modules in a seamless manner to your community.
+We are excited to share the new product update of Community Training with you! These features in this release are designed to enhance the management and delivery of online learning modules in a seamless manner to your community.
 
 ### Smart group rules can now be edited
 
-In this release, MCT is providing the option to edit the rules for the [Smart Groups](https://learn.microsoft.com/en-us/azure/industry/training-services/microsoft-community-training/user-management/organize-users/setup-automatic-user-enrollment-for-a-group-1#steps-to-add-rule-for-a-group)(automatic user enrolment). This will help organize the users in real-time with the changes to the smart group rules.
+In this release, CT is providing the option to edit the rules for the [Smart Groups](https://learn.microsoft.com/en-us/azure/industry/training-services/microsoft-community-training/user-management/organize-users/setup-automatic-user-enrollment-for-a-group-1#steps-to-add-rule-for-a-group)(automatic user enrolment). This will help organize the users in real-time with the changes to the smart group rules.
 
 Following actions are available for the admin on the smart group rules:
 
@@ -36,7 +36,7 @@ In this release we have made improvements on user the deletion flow. Now, on per
 
 ### Database Schema Changes
 
-A few changes are implemented to the DB Schema, to support the latest features on the MCT. Please refer to this section for additional information. 
+A few changes are implemented to the DB Schema, to support the latest features on the CT. Please refer to this section for additional information. 
 
 The Table Name **CourseUsers** will be deprecated in the release of June’23. It is being replaced with the Table Name **UserCourseEnrollments**. The table **UserCourseEnrollments** will have the info about the admin enrolled courses and self-enrolled courses and will contain the columns **CourseId** and **UserID**.
 Thus, for the purposes of course analytics, (Eg: Analytics on a tool like the PowerBI), a two-step approach is to be taken to get the exhaustive list of users enrolled in a course.

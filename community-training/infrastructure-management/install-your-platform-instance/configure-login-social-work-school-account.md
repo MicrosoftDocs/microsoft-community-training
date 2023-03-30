@@ -3,7 +3,7 @@ title: Configure login identity for the platform
 original-url: https://docs.microsoftcommunitytraining.com/docs/configure-login-social-work-school-account
 author: nikotha
 ms.author: nikotha
-description: Microsoft Community Training platform provides three types of login.
+description: Community Training platform provides three types of login.
 ms.prod: learning-azure
 zone_pivot_groups: "AD-Deployments-Methods"
 ---
@@ -12,7 +12,7 @@ zone_pivot_groups: "AD-Deployments-Methods"
 
 ## Prerequisite
 
-Please follow [**installation article**](../../infrastructure-management/install-your-platform-instance/installation-guide-detailed-steps.md) to Deploy your MCT instance. In the step “**Set up your Login type**”, select the suitable identity type.
+Please follow [**installation article**](../../infrastructure-management/install-your-platform-instance/installation-guide-detailed-steps.md) to Deploy your CT instance. In the step “**Set up your Login type**”, select the suitable identity type.
 
 ![Login Identity types](../../media/LoginIdentity1.png)
 
@@ -20,7 +20,7 @@ and follow the below documentation to configure login identity.
 
 ## Configure login identity
 
-Microsoft Community Training platform provides three types of login:
+Community Training platform provides three types of login:
 
 1. Phone number
 2. Social email-based login via your Microsoft, Google or Facebook account
@@ -46,7 +46,7 @@ Use an existing subscription for login to portal
 #### Step 2 - Create Azure AD application
 
 **Pre-requisite:**
-MCT requires Azure Active Directory application creation and registration. To successfully run the AAD creation script, the following permissions are needed:
+CT requires Azure Active Directory application creation and registration. To successfully run the AAD creation script, the following permissions are needed:
 
 1. Tenant - AAD app creator
 2. Subscription - Owner
@@ -122,7 +122,7 @@ You can create a new Azure Active Directory tenant or use an existing one based 
 
 ### Multi-Tenant support for Azure Active Directory based Authentication
 
-MCT supports login via multiple tenants for AAD authentication. This can be done with few configurations while following steps during AAD set up ([**Configurations on the Training Platform**](../../settings/configurations-on-the-training-platform.md#steps-to-set-the-configurations-on-the-platform)). Follow this documentation to reach App configuration section from your [**Azure portal**](https://www.portal.azure.com/).
+CT supports login via multiple tenants for AAD authentication. This can be done with few configurations while following steps during AAD set up ([**Configurations on the Training Platform**](../../settings/configurations-on-the-training-platform.md#steps-to-set-the-configurations-on-the-platform)). Follow this documentation to reach App configuration section from your [**Azure portal**](https://www.portal.azure.com/).
 
 #### Steps to enable multi-tenant login for an AAD based instance
 
@@ -151,7 +151,7 @@ MCT supports login via multiple tenants for AAD authentication. This can be done
 
     :::image type="content" source="../../media/MultitenantAAD3.png" alt-text="multi tenant authentication":::
 
-8. For first time login using multiple tenants, admin of those tenants needs to approve the client ID of the MCT application by using URL, in below url replace the placeholder with clientID from step 5.
+8. For first time login using multiple tenants, admin of those tenants needs to approve the client ID of the CT application by using URL, in below url replace the placeholder with clientID from step 5.
 
     ```URL
     https://login.microsoftonline.com/common/adminconsent?client_id=<client_ID_of_your_application >
@@ -202,7 +202,7 @@ Here are the steps an create on Azure AD B2C tenant and link the same with your 
     ![Application Claims Login Identity1](../../media/LoginIdentity8.png)
     * Don’t select any Sign-up attributes
     ![User Attributes](../../media/LoginIdentity9.png)
-    * Copy the user-flow(s) name to be required later (These will be required during MCT platform installation)
+    * Copy the user-flow(s) name to be required later (These will be required during CT platform installation)
     >
     > [!NOTE]
     > Setting Password Reset Flow for an Existing Deployment:
@@ -225,7 +225,7 @@ Here are the steps an create on Azure AD B2C tenant and link the same with your 
 
 7. Follow the [**installation article**](../../infrastructure-management/install-your-platform-instance/installation-guide-detailed-steps.md) to complete the Deployment by configuring obtained values as per the below screenshot
 
-    ![Create MCT redirect](../../media/LoginIdentity11.png)
+    ![Create CT redirect](../../media/LoginIdentity11.png)
 
 ### Step 3 - Configure your Identity provider
 

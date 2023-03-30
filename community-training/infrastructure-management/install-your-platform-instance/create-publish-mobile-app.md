@@ -20,7 +20,7 @@ For setting up the mobile app for your training portal, you will need a mobile a
 2. [Requesting a mobile app AAB from the platform team](#option-2-requesting-a-mobile-app-aab-from-the-platform-team)
 
 > [!WARNING]
-> Microsoft Community Training team will soon be deprecating the process of requesting mobile application from the platform and support only progressive web applications (PWA) for both android and iOS.
+> Community Training team will soon be deprecating the process of requesting mobile application from the platform and support only progressive web applications (PWA) for both android and iOS.
 
 ## Steps to create Mobile Application
 
@@ -54,7 +54,7 @@ Since a progressive web app is a type of webpage/website known as a web applicat
 
 #### Step 2: Update Settings in Admin View for Mobile Application
 
-1. Login to your Microsoft Community Training portal and [**switch to administrator view**](../../get-started/step-by-step-configuration-guide.md#step-2--switch-to-administrator-view-of-the-portal)
+1. Login to your Community Training portal and [**switch to administrator view**](../../get-started/step-by-step-configuration-guide.md#step-2--switch-to-administrator-view-of-the-portal)
 
 2. Click on **Settings** option from the left navigation panel and navigate to **Mobile Application** section.
 
@@ -67,21 +67,21 @@ Since a progressive web app is a type of webpage/website known as a web applicat
     | Mobile Application Name | You can specify your Instance name, this name will be used for rendering splash screen (Android), Start menu item (Windows) |
     | Mobile Application Short Name | This will be used to generate the App icon name on the device app tray. You can mention a shorter acronym of your instance name. |
     | Application Background Color | This setting will be used for rendering Splash screen (Android) |
-    | Application Logo (512 px by 512 px) | The logo must be 512x512 pixels, MCT uses this image to render Splash screen, Start menu, App Launcher item for your PWA.  |
+    | Application Logo (512 px by 512 px) | The logo must be 512x512 pixels, CT uses this image to render Splash screen, Start menu, App Launcher item for your PWA.  |
 
 ### Installing PWA on your Desktop and Mobile Device
 
-1. Once the [Installation Requirements](#installation-requirements-for-pwa-mobile-application) for PWA are satisfied, as you login to your MCT instance you will be seeing an icon on the search bar of your browser indicating PWA app is available for installation.
+1. Once the [Installation Requirements](#installation-requirements-for-pwa-mobile-application) for PWA are satisfied, as you login to your CT instance you will be seeing an icon on the search bar of your browser indicating PWA app is available for installation.
 
     :::image type="content" source="../../media/InstallPWA.png" alt-text="installPWAforwebapp":::
 
-2. Users can now install the PWA which renders your MCT webapp as a native application.
+2. Users can now install the PWA which renders your CT webapp as a native application.
 
 3. After successful installation, you can check options to allow the app to pin to taskbar, pin to start, create a Desktop shortcut as per your requirement.
 
     :::image type="content" source="../../media/PWA_installoptions.png" alt-text="installoptionspwa":::
 
-4. For mobile devices (Android), users can install PWA by clicking on the prompt (add to home screen banner) that they receive while browsing your MCT instance or clicking on ‘install app’ from browser options.
+4. For mobile devices (Android), users can install PWA by clicking on the prompt (add to home screen banner) that they receive while browsing your CT instance or clicking on ‘install app’ from browser options.
 
     :::image type="content" source="../../media/Screenshot_20210930-161736_Chrome (3).jpg" alt-text="installpwaonphone":::
 
@@ -100,7 +100,7 @@ As you enabled the PWA, in the backend there will be a [service worker](https://
 
 #### Prerequisites
 
-Raise a [**ticket**](https://sangamhelpdesk.microsoftcrmportals.com/SignIn?ReturnUrl=%2Fsupport%2Fcreate-case%2F) with MCT support team requesting KeyStore file **in case you wanted to have an update for your existing mobile application.**
+Raise a [**ticket**](https://sangamhelpdesk.microsoftcrmportals.com/SignIn?ReturnUrl=%2Fsupport%2Fcreate-case%2F) with CT support team requesting KeyStore file **in case you wanted to have an update for your existing mobile application.**
 
 #### Part 1: Steps to Generate Android App Bundle
 
@@ -130,7 +130,7 @@ Raise a [**ticket**](https://sangamhelpdesk.microsoftcrmportals.com/SignIn?Retur
 
         :::image type="content" source="../../media/PWA_migration.png" alt-text="pwamigration1":::
 
-    5. Scroll to “Signing Key”, choose ‘Use Mine’ and upload the key store file that you received from MCT support team.
+    5. Scroll to “Signing Key”, choose ‘Use Mine’ and upload the key store file that you received from CT support team.
 
         :::image type="content" source="../../media/PWA_Existingapp.png" alt-text="PWA exixting app":::
 
@@ -166,7 +166,7 @@ Raise a [**ticket**](https://sangamhelpdesk.microsoftcrmportals.com/SignIn?Retur
     * Log a [**help desk**](https://sangamhelpdesk.microsoftcrmportals.com/SignIn?ReturnUrl=%2Fsupport%2Fcreate-case%2F) ticket requesting a key store file for your previous android application.
     * In the “Google Play store Options” mention [**Package ID**](https://developers.google.com/android/management/apps#install_apps) of your previously published android application.
     * Click on “All Settings” and increment your App version and App Version Code by 1 from your existing app version.
-    * Scroll to “Signing Key”, choose ‘Use Mine’ and upload the key store file that you received from MCT support team.
+    * Scroll to “Signing Key”, choose ‘Use Mine’ and upload the key store file that you received from CT support team.
 
         :::image type="content" source="../../media/PWA_Existingapp.png" alt-text="PWA exixting app":::
 
@@ -181,7 +181,7 @@ This links protocol & API and enable an app or website to make public, verifiabl
 ##### Steps to Digital Asset Linking
 
 1. Navigate to `<your-website-name>.scm.azurewebsites.net`
-(If your instance url is contosolearning.azurewebsites.net then ‘contosolearning’ is your website name) and enter credentials which you used for azure portal when deploying MCT.
+(If your instance url is contosolearning.azurewebsites.net then ‘contosolearning’ is your website name) and enter credentials which you used for azure portal when deploying CT.
 
 2. From Navigation bar on top, click on 'DebugConsole' and from dropdown click 'CMD'.
 
@@ -202,7 +202,7 @@ This links protocol & API and enable an app or website to make public, verifiabl
 
 ## Option 2: Requesting a mobile app AAB from the platform team
 
-1. Visit [**Microsoft Community Training Helpdesk**](https://go.microsoft.com/fwlink/?linkid=2104630).
+1. Visit [**Community Training Helpdesk**](https://go.microsoft.com/fwlink/?linkid=2104630).
 ![Steps to create Mobile App for the training portal](../../media/image%2876%29.png)
 
 2. Click on **Sign in** on the top-left corner of the homepage. Use your Azure AD or Social accounts to register and sign in.
@@ -275,7 +275,7 @@ This links protocol & API and enable an app or website to make public, verifiabl
 
 9. Click on **Send Invitation**.
 
-10. **Important**: Send an email note to the Microsoft Community Training team that the permission has been shared. You can reply to the  email chain in which AAB file was shared with you.
+10. **Important**: Send an email note to the Community Training team that the permission has been shared. You can reply to the  email chain in which AAB file was shared with you.
 
 > [!NOTE]
 > 

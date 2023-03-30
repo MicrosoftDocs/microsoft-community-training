@@ -3,13 +3,13 @@ title: Configure multiple authentications in a single instance
 original-url: https://docs.microsoftcommunitytraining.com/docs/configure-multi-mode-authentication-for-same-deployment
 author: sambati
 ms.author: sambati
-description: Setup multiple authentication modes in a single instance of Microsoft Community Training platform.
+description: Setup multiple authentication modes in a single instance of Community Training platform.
 ms.prod: learning-azure
 ---
 
 # Configure multiple authentications in a single instance
 
-Many organizations might want to support multiple authentication options to be available for their learners. Microsoft Community Training now supports adding more than one authentication option for a single platform instance.
+Many organizations might want to support multiple authentication options to be available for their learners. Community Training now supports adding more than one authentication option for a single platform instance.
 
 To be able to configure multiple authentications to your instance you need to first create [**AD B2C**](https://learn.microsoft.com/azure/active-directory-b2c/overview) tenant and register an application. If your instance is already setup to use [**social login**](configure-login-social-work-school-account.md#social-account-or-email-based-authentication) via ADB2C then you can proceed configuring your tenant to add [**phone login**](#add-phone-based-login-to-existing-social-account-login-instance) and [**work email login**](#add-work-email-based-authentication-to-existing-social-account-login-instance) support to your instance.
 
@@ -18,11 +18,11 @@ To be able to configure multiple authentications to your instance you need to fi
 
 ## Add Phone-based login to existing Social Account login Instance
 
-If your instance is already setup to accept [**social login**](configure-login-social-work-school-account.md#social-account-or-email-based-authentication) via AD B2C, below are the steps to configure your AD B2C tenant to be able to support MCT platform's Phone authentication along side your social account login.
+If your instance is already setup to accept [**social login**](configure-login-social-work-school-account.md#social-account-or-email-based-authentication) via AD B2C, below are the steps to configure your AD B2C tenant to be able to support CT platform's Phone authentication along side your social account login.
 
 ### Prerequisites
 
-Create a [**MCT support ticket**](https://sangamhelpdesk.microsoftcrmportals.com) requesting for creation of new ClientID and ClientSecret in your [**Key-Vault**](../../analytics/custom-reports/database-schema.md#accessing-key-vault) to be used while configuring New OpenID connect provider.
+Create a [**CT support ticket**](https://sangamhelpdesk.microsoftcrmportals.com) requesting for creation of new ClientID and ClientSecret in your [**Key-Vault**](../../analytics/custom-reports/database-schema.md#accessing-key-vault) to be used while configuring New OpenID connect provider.
 
 * Also mention your [**AD B2C Tenant name**](https://learn.microsoft.com/azure/active-directory-b2c/tenant-management#get-your-tenant-name) in description while creating support ticket.
 
@@ -121,7 +121,7 @@ If your instance is already setup to accept [**social login**](configure-login-s
 
 ## Add Work/Social Account login to Phone-based login instance
 
-As multiple modes of authentication in MCT can only be achieved via AD B2C, you need to first [**create an Azure AD B2C tenant**](configure-login-social-work-school-account.md#social-account-or-email-based-authentication) to support social login and then configure your B2C tenant to support MCT's phone authentication and work email login. Below are the detailed steps
+As multiple modes of authentication in CT can only be achieved via AD B2C, you need to first [**create an Azure AD B2C tenant**](configure-login-social-work-school-account.md#social-account-or-email-based-authentication) to support social login and then configure your B2C tenant to support CT's phone authentication and work email login. Below are the detailed steps
 
 1. [**Configure login identity for the platform by creating an Azure AD B2C tenant**](configure-login-social-work-school-account.md#social-account-or-email-based-authentication). In the document skip point 7 in Step2 as you are not deploying new instance, proceed to Step3 if you need to add local account login support to your instance.
 

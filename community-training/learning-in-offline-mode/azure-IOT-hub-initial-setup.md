@@ -9,7 +9,7 @@ ms.prod: learning-azure
 
 # Azure IOT Hub Initial Setup
 
-Offline Learning platform of Microsoft Community Training uses Azure IoT Hub to create a network of edge devices which can act as individual hubs which learners can connect to and experience online learning in an environment with No internet connection.
+Offline Learning platform of Community Training uses Azure IoT Hub to create a network of edge devices which can act as individual hubs which learners can connect to and experience online learning in an environment with No internet connection.
 
 This document details the steps to setup Azure IoT hub in your Azure subscription. The IoT Hub will be deployed as a new resource in a new resource group. These steps need to be followed on the device which will be used to configure Linux based edge devices which will work in Offline mode. You can run these steps on a device with Windows operating system.
 

@@ -3,7 +3,7 @@ title: Analytics & Reporting
 original-url: https://docs.microsoftcommunitytraining.com/docs/analytics-reporting
 author: nikotha
 ms.author: nikotha
-description: Microsoft Community Training allows organizations to track and stay updated on learner's progress and performance scores through quizzes and exams.
+description: Community Training allows organizations to track and stay updated on learner's progress and performance scores through quizzes and exams.
 ms.prod: learning-azure
 ---
 
@@ -11,9 +11,9 @@ ms.prod: learning-azure
 
 ## Tracking learner progress and course completion
 
-### How to track learner’s progress on the Microsoft Community Training platform?
+### How to track learner’s progress on the Community Training platform?
 
-Microsoft Community Training allows organizations to track and stay updated on learner's progress and performance scores through quizzes and exams. Customers can use the inbuilt analytics to track learners' engagements and progress. Also, individual learner’s progress can be tracked and downloaded.
+Community Training allows organizations to track and stay updated on learner's progress and performance scores through quizzes and exams. Customers can use the inbuilt analytics to track learners' engagements and progress. Also, individual learner’s progress can be tracked and downloaded.
 
 For more information, [**refer here**](../analytics/in-built-reports/overall-summary.md).
 
@@ -23,7 +23,7 @@ Video lessons are marked complete only after the learners have watched the video
 
 ### How does progress tracking work for videos and other content type uploaded on the platform?
 
-Microsoft Community Training provides real-time course progress for both administrators and learners. However, tracking works differently based on the file type as explained below:
+Community Training provides real-time course progress for both administrators and learners. However, tracking works differently based on the file type as explained below:
 
 * **Videos uploaded to the platform** – A video lesson is marked as complete only when a learner watches the entire duration of the video file, skipping or fast forward is restricted.
 
@@ -41,9 +41,9 @@ Learners can view their overall course progress on the home page as shown in Fig
 **For the Administrator**  
 Administrator can view overall learner progress and course completion from the management portal. Check out [**this article**](../analytics/analytics-overview.md) for more details.
 
-### How is the course completion verified on the Microsoft Community Training?
+### How is the course completion verified on the Community Training?
 
-Microsoft Community Training can track when any content is played/consumed and real-time analytics are provided on individual user's engagement and course completion. However, we recommend organizations to have quizzes and final exams to ensure and validate the learner’s understanding and issue certificates based on the assessment passing criteria.
+Community Training can track when any content is played/consumed and real-time analytics are provided on individual user's engagement and course completion. However, we recommend organizations to have quizzes and final exams to ensure and validate the learner’s understanding and issue certificates based on the assessment passing criteria.
 
 ### How learners progress will be tracked when learners are consuming content both of the web and mobile app?
 
@@ -77,7 +77,7 @@ Follow the tips below to improve the completion rate of your learners:
 
 There's no provision to reset a learner's progress. However, you can achieve this by removing the user and enrolling them back to the course again.  This way past user's progress is purged and the user can start afresh.
 
-### If I have previous data on the learner progress, can that be imported to Microsoft Community Training platform?
+### If I have previous data on the learner progress, can that be imported to Community Training platform?
 
 You can import existing learner progress and course completion data using a custom migration script. This feature isn't available out of the box and customers are required to write their own migration script based on their existing platform from where the data are coming. Microsoft can help customer with the migration.
 
@@ -85,9 +85,9 @@ For more information, contact us [**via the HelpDesk**](https://go.microsoft.com
 
 ## Inbuilt analytics and custom reporting
 
-### What are the inbuilt analytical metrics offered by Microsoft community training?
+### What are the inbuilt analytical metrics offered by Community training?
 
-To provide a rich out of the box experience to an admin, Microsoft Community Training platform provides different views, designed to facilitate tracking learner progress and program monitoring at various levels:
+To provide a rich out of the box experience to an admin, Community Training platform provides different views, designed to facilitate tracking learner progress and program monitoring at various levels:
 
 1. [**Overall Summary**](../analytics/in-built-reports/overall-summary.md) - Provides a high-level picture of learner enrollments and course completion
 
@@ -132,7 +132,7 @@ If you observe, that the data fields are not rendering correctly in the CSV down
 
 Please use [this link](https://www.nextofwindows.com/how-to-display-csv-files-with-unicode-utf-8-encoding-in-excel) for details and also the steps to change the settings.
 
-### How to view and export users from Microsoft Community Training platform?
+### How to view and export users from Community Training platform?
 
 You can view and export all users on the portal from the administrator view, click on the user's tab, and select all users. By clicking on the download list, you will be able to export all the users on the portal. Refer below the image for clarity:
 
@@ -146,11 +146,11 @@ For more information, reach out to us [**via HelpDesk**](https://go.microsoft.co
 
 ## Usage report and metrics
 
-### Can I view the data on number of  unique visitors, active users, average time spent by learners  on the Microsoft Community Training platform?
+### Can I view the data on number of  unique visitors, active users, average time spent by learners  on the Community Training platform?
 
-Microsoft Community Training platform leverages [**Azure Application Insights**](/azure/azure-monitor/app/app-insights-overview) to capture telemetry and track aggregate traffic / usage data across all the learners on web and mobile app.  To access these data points:
+Community Training platform leverages [**Azure Application Insights**](/azure/azure-monitor/app/app-insights-overview) to capture telemetry and track aggregate traffic / usage data across all the learners on web and mobile app.  To access these data points:
 
-1. You can login to the [**Azure Portal**](https://portal.azure.com/) can go the Azure Application Insight service created under the resource group where Microsoft Community Training  platform is deployed.
+1. You can login to the [**Azure Portal**](https://portal.azure.com/) can go the Azure Application Insight service created under the resource group where Community Training  platform is deployed.
 
 2. Now open the Application Insights service and start viewing data around user sessions, funnel, etc. You will be able to view and track and view events such as which pages are most popular, at what times of day, and where your users are etc.
 
@@ -158,9 +158,9 @@ For more information, reach out to us [**via HelpDesk**](https://go.microsoft.co
 
 ### Is there a possibility to get statistics to see the “Popular” hours on which the learners frequently access the training portal? I want to know average browsing time and unique users account  every week
 
-Microsoft Community Training platform leverages [**Azure Application Insights**](/azure/azure-monitor/app/app-insights-overview) to capture telemetry and track aggregate traffic / usage data across all the learners on web and mobile app.  To access these data points:
+Community Training platform leverages [**Azure Application Insights**](/azure/azure-monitor/app/app-insights-overview) to capture telemetry and track aggregate traffic / usage data across all the learners on web and mobile app.  To access these data points:
 
-1. You can login to the [**Azure Portal**](https://portal.azure.com/) can go the Azure Application Insight service created under the resource group where Microsoft Community Training platform is deployed.
+1. You can login to the [**Azure Portal**](https://portal.azure.com/) can go the Azure Application Insight service created under the resource group where Community Training platform is deployed.
 
 2. Now open the Application Insights service and start viewing data around user sessions, funnel, etc. You will be able to view and track and view events such as which pages are most popular, at what times of day, and where your users are etc.
 

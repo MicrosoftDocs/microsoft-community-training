@@ -3,17 +3,17 @@ title: Content Marketplace
 original-url: https://docs.microsoftcommunitytraining.com/docs/content-marketplace
 author: sambati
 ms.author: sambati
-description: Microsoft Community Training helps customers get a head start in their training programs with content marketplace features
+description: Community Training helps customers get a head start in their training programs with content marketplace features
 ms.prod: learning-azure
 ---
 
 # Content Marketplace
 
-Microsoft community training now allows users to import courses to their training portal via Content Marketplace available at your fingertips from the admin view. Content Marketplace is a catalogue of top-notch training material from Microsoft ranging from digital literacy, soft skills, Office 365, Azure cloud to latest in-demand technological tools. Take advantage of this high-quality material to get a head start on your training programs.
+Community training now allows users to import courses to their training portal via Content Marketplace available at your fingertips from the admin view. Content Marketplace is a catalogue of top-notch training material from Microsoft ranging from digital literacy, soft skills, Office 365, Azure cloud to latest in-demand technological tools. Take advantage of this high-quality material to get a head start on your training programs.
 
-## Content Providers in MCT Content Marketplace
+## Content Providers in CT Content Marketplace
 
-MCT plans to aggregate top content from various providers, currently started with Microsoft Learn training and Skills for Job Digital content, we are planning to gather quality content from more providers in near future.
+CT plans to aggregate top content from various providers, currently started with Microsoft Learn training and Skills for Job Digital content, we are planning to gather quality content from more providers in near future.
 
 ### Microsoft Learn
 
@@ -31,7 +31,7 @@ Training on Office 365 tools: Collection of training material on Office tools li
 currently available in Microsoft Digital Content section.  
 
 >[!Note]
-> Office 365 courses in marketplace are added as lessons with external links mapping to relevant tutorial video, to have them play inline with MCT you need to [**embed the domain**](../../../settings/configurations-on-the-training-platform.md#allow-external-video-embedding-into-mct) `microsoft.com` in the [**app settings**](../../../settings/configurations-on-the-training-platform.md#steps-to-set-the-configurations-on-the-platform)
+> Office 365 courses in marketplace are added as lessons with external links mapping to relevant tutorial video, to have them play inline with CT you need to [**embed the domain**](../../../settings/configurations-on-the-training-platform.md#allow-external-video-embedding-into-mct) `microsoft.com` in the [**app settings**](../../../settings/configurations-on-the-training-platform.md#steps-to-set-the-configurations-on-the-platform)
 
 >**Next Steps:**
 >

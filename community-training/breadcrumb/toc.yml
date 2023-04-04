@@ -13,6 +13,6 @@
       topicHref: /azure/industry/index
       items:
 
-      - name: Microsoft Community Training
-        tocHref: /azure/industry/training-services/microsoft-community-training/
-        topicHref: /azure/industry/training-services/microsoft-community-training/index  
+      - name: Community Training
+        tocHref: /azure/industry/training-services/community-training/
+        topicHref: /azure/industry/training-services/community-training/index  

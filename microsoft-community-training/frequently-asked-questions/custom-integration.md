@@ -46,9 +46,9 @@ Community Training doesn't come with any out of box integrations with 3rd party 
 Yes, Customers can integrate Community Training platform to their existing mobile application.  
 For example, you can add a 'Training' button on the home screen and clicking on the button will launch the Community Training platform inside the existing app as a web view.
 
-#### Embedding webview of MCT in your existing mobile app
+#### Embedding webview of CT in your existing mobile app
 
-Steps to embed webview of MCT in your custom mobile application in case you have a B2C based [social login](../infrastructure-management/install-your-platform-instance/configure-login-social-work-school-account.md#social-account-or-email-based-authentication) instance.
+Steps to embed webview of CT in your custom mobile application in case you have a B2C based [social login](../infrastructure-management/install-your-platform-instance/configure-login-social-work-school-account.md#social-account-or-email-based-authentication) instance.
 
 1. Set the following [**configurations**](../settings/configurations-on-the-training-platform.md#configurations-on-the-training-platform) in the App Service Configuration, if the secondary navigation bar is needed:
     * Features:Navbar:EnableCustomNavbar => true
@@ -61,7 +61,7 @@ Steps to embed webview of MCT in your custom mobile application in case you have
     * Features:Navbar:EnableLanguageSelection
     * Features:Navbar:EnableCustomProfile
 
-3. In your Android Application, include a WebView element in the activity where you want to show the MCT application. Set the source of the webview as the URL
+3. In your Android Application, include a WebView element in the activity where you want to show the CT application. Set the source of the webview as the URL
     * `https://<DOMAIN>.azurewebsites.net/home/defaultsignin?whr=uri%3aB2C&referrer=basedomain&domain_hint=DOMAIN`
     * Where Domain is name of your instance. eg: if your instance url is `https://contoso.azurewebsites.net` then replace DOMAIN with 'contoso'
 
@@ -69,9 +69,9 @@ Alternatively, you can also use [**REST APIs**](../infrastructure-management/ins
 
 Please  contact us [**via HelpDesk**](https://go.microsoft.com/fwlink/?linkid=2104630) to get help on the integration.
 
-### Identity Mapping between external portal to MCT (via ADB2C)
+### Identity Mapping between external portal to CT (via ADB2C)
 
-MCT allows you to map identity with external portal i.e., if you have an external portal where you want to authenticate users (via email, User name, local IDP) and then have them redirected to MCT. This flow can be acheived via setting up custom policies in your B2C tenant as mentioned in steps below:
+CT allows you to map identity with external portal i.e., if you have an external portal where you want to authenticate users (via email, User name, local IDP) and then have them redirected to CT. This flow can be acheived via setting up custom policies in your B2C tenant as mentioned in steps below:
 
 * Setup [ADB2C tenant](/azure/active-directory-b2c/tutorial-create-tenant)
 * You need to set custom policies in your ADB2C (we are sharing [sample codes](https://github.com/MicrosoftDocs/microsoft-community-training/files/9594393/Sample.NCS.login.usecase.zip) for your reference) please make necessary changes based on your login requirements
@@ -80,11 +80,11 @@ MCT allows you to map identity with external portal i.e., if you have an externa
   * Upload the custom files in the order mentioned [here](/azure/active-directory-b2c/tutorial-create-user-flows?pivots=b2c-custom-policy#upload-the-policies)
 * **Function app**
   * The sample code has feature of updating user’s FirstName and LastName via Service2Service auth on user’s login.
-  * This implies that MCT will always have the same FirstName and LastName of the user as present in your external portal, and it will be updated automatically whenever the user logs in.
+  * This implies that CT will always have the same FirstName and LastName of the user as present in your external portal, and it will be updated automatically whenever the user logs in.
   * Please update the required params in code following the documentation of S2S here Service to [Service Authentication](/azure/industry/training-services/microsoft-community-training/rest-api-management/service-to-service-authentication) and then publish the function app.
 * Here is a [sample recording](https://microsoft.sharepoint.com/:v:/t/BuildingSangam/EQZ7Z2zY7zdAuQY5leNYmwgBO7-ezdGFTUngJWdz70wmsA?e=YIITyN) for your reference.
 
-### Does Community Training provide any job matching capabilities? How can I integrate Community Training with external job portals?
+### Does Community Training provide any job matching capabilities? How can I integrate Community training with external job portals?
 
 Community Training does not come with any job matching capabilities out of the box. However, the platform can be integrated with external job portals to push learner progress and course certificate using the REST APIs.
 
@@ -112,15 +112,15 @@ For more details, reach out to us [**via HelpDesk**](https://go.microsoft.com/fw
 
 ### Is there a feature to create additional notifications through emails?
 
-Community Training does not have this function out of the box. However, customers can achieve this by using our APIs.
+Community training does not have this function out of the box. However, customers can achieve this by using our APIs.
 
 For more details, reach out to us [**via HelpDesk**](https://go.microsoft.com/fwlink/?linkid=2104630).
 
 ### Can the administrators share deep link of courses with the learners?
 
-Yes, the administrators can obtain the deep link of each course on the MCT portal and share the same with the learners. To obtain the deep link of a course, the administrators need to follow the below steps:
+Yes, the administrators can obtain the deep link of each course on the CT portal and share the same with the learners. To obtain the deep link of a course, the administrators need to follow the below steps:
 
-1. Go the Administrator view of your MCT instance.
+1. Go the Administrator view of your CT instance.
 2. Go to the course for which you want to obtain the deep link.
 3. Click on "**View as Learner**" icon on the top-right pane of the course.
 
@@ -143,8 +143,8 @@ Community Training platform lets [global administrators](../user-management/add-
 
 #### Pre-requisites
 
-* Proper mapping of content between MCT and other portal from where user progress needs to be imported.
-  * For e.g.: In the external portal if there is a course with 3 lessons and 5 quizzes (graded or non-graded), then in MCT there should be the course present with same number of lesson / assessment placeholders in the same sequential order.
+* Proper mapping of content between CT and other portal from where user progress needs to be imported.
+  * For e.g.: In the external portal if there is a course with 3 lessons and 5 quizzes (graded or non-graded), then in CT there should be the course present with same number of lesson / assessment placeholders in the same sequential order.
 
 #### Steps to how to integrate APIs to import progress
 
@@ -195,13 +195,13 @@ QuizId can be obtained by Step 1. The specification of the APIs is:
 
 >[!Warning]
 >
-> * If you want Assessments to be evaluated in MCT platform, please provide the Answer Strings in the request body.
+> * If you want Assessments to be evaluated in CT platform, please provide the Answer Strings in the request body.
 > * In case if the Answer Strings is empty, isCorrect would be considered and assessment evaluation won't happen in
-MCT
+CT
 
 #### Export Course content to other LMS
 
-Community Training platform lets global administrators export course content from MCT to other learning portals enabling reuse of content.
+Community Training platform lets global administrators export course content from CT to other learning portals enabling reuse of content.
 
 ##### Steps on how to export course content by using API
 

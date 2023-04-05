@@ -19,13 +19,13 @@ It is available as a [**Managed PaaS offering via Azure Marketplace**](https://a
 
 ### When was Community Training launched?
 
-Community Training was publicly announced on 22nd February 2017. It is currently in Public Preview and planning to become Generally Available by 2022.
+Community training was publicly announced on 22nd February 2017. It is currently in Public Preview and planning to become Generally Available by 2022.
 
-### Is Community Training a Learning Management System?
+### Is Microsoft Community Training a Learning Management System?
 
 Community Training designed for mobile-first and mobile-only audiences. The platform is built and optimized  to work seamlessly on low bandwidth networks and low-end smartphones.
 
-While Community Training is not a traditional Learning Management System (LMS), it does provide organizations to create a full ranged self-pace e-learning environment. Powered by Azure Community Training enables you to share relevant information from a wide variety of sources.
+While Community training is not a traditional Learning Management System (LMS), it does provide organizations to create a full ranged self-pace e-learning environment. Powered by Azure Community training enables you to share relevant information from a wide variety of sources.
 
 ### What are the markets where Community Training is available?
 
@@ -37,9 +37,9 @@ Community Training is built and optimized for large scale community skilling pro
 
 The platform is already being used by number of large enterprises, small and medium businesses, startups, educational institutions, governmental organization and nonprofits.
 
-### What kind of training scenarios I can use the Community Training platform for?
+### What kind of training scenarios I can use the Community training platform for?
 
-Community Training can be leveraged in a wide range of training use cases such as Employee Onboarding, Employee Up-skilling, Mobile workforce training, Partner Training, Customer Training, Community Training, Online Learning Academy and many others.
+Community training can be leveraged in a wide range of training use cases such as Employee Onboarding, Employee Up-skilling, Mobile workforce training, Partner Training, Customer Training, Community Training, Online Learning Academy and many others.
 
 These training use cases are cutting across multiple  verticals such as Banking & Financial Services, Retail, Healthcare, Manufacturing, Government Organizations & Nonprofit.
 
@@ -55,7 +55,7 @@ Here is [**our free content library**](https://sangampartners.azurewebsites.net/
 
 For more details on how to leverage the import these content on your platform instance, reach out to us [**via HelpDesk**](https://go.microsoft.com/fwlink/?linkid=2104630).
 
-### How to create / add a new course on Community Training?
+### How to create / add a new course on Community training?
 
 Courses can be created from the administrator dashboard, for the detailed steps on course creation [refer to this article.](../content-management/create-content/create-course-category/create-a-new-course.md)
 
@@ -97,7 +97,7 @@ If you want access to demo instance, please reach out to us [**via our helpDesk*
 
 ### What type of content format is supported on the platform?
 
-Community Training supports a wide range of formats as listed below:
+Community training supports a wide range of formats as listed below:
 
 * **Video formats**: MP4, 3GP, 3G2, 3GP2, AVI, MPEG, MPG, WMV, VOB, MKV, FLV, DV, TS, ASF, M4V, MOV
 * **Audio formats**: MP3 & OGG
@@ -187,9 +187,9 @@ At present, we don't have  gamification features leadership and badges but organ
 
 Having said that, gamification features are something on our roadmap which should be available soon.
 
-### How to move MCT resources across Azure subscriptions?
+### How to move CT resources across Azure subscriptions?
 
-At present, we do not recommend moving resource group across different Azure subscriptions. Doing so might impact the services and functionalities of your MCT training portal.
+At present, we do not recommend moving resource group across different Azure subscriptions. Doing so might impact the services and functionalities of your CT training portal.
 
 ### Language customization in Azure Active Directory B2C
 

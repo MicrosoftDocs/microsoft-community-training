@@ -19,13 +19,13 @@ In this article, we'll walk you through upscaling your platform resources to mee
 
 ### Pre-requisites
 
-Auto scale-out is only available for MCT **Standard SKU plan**.
+Auto scale-out is only available for CT **Standard SKU plan**.
 
 :::image type="content" source="../../media/10JanStd.png" alt-text="standard":::
 
 ### Option 1 - Enabling  auto scale-out during instance creation
 
-On the azure portal MCT instance creation blade, there will be a checkbox which denotes whether to enable auto-scale out for the instance. Checking the auto scale-out checkbox is enough.
+On the azure portal CT instance creation blade, there will be a checkbox which denotes whether to enable auto-scale out for the instance. Checking the auto scale-out checkbox is enough.
 
 :::image type="content" source="../../media/10JanAuto_1.png" alt-text="autoscaledep":::
 

@@ -46,7 +46,7 @@ The support for Organizations can be enabled on the platform by [enabling the ap
     ![User Management - Add Organization - Create Organization](../media/User%20Management%20-%20Add%20Organization%20-%20Create%20Organization.png)
 
 <!--
-1. On the  Microsoft Community Training portal, after login [**switch to administrator view**](../get-started/step-by-step-configuration-guide.md#step-2--switch-to-administrator-view-of-the-portal).
+1. On the  Community Training portal, after login [**switch to administrator view**](../get-started/step-by-step-configuration-guide.md#step-2--switch-to-administrator-view-of-the-portal).
 
     ![Create a New Organization](../media/image%28421%29.png)
 
@@ -78,7 +78,7 @@ The support for Organizations can be enabled on the platform by [enabling the ap
 >
 > This access is available only to Global Administrators on the platform.
 
-1. On the  Microsoft Community Training portal, after login [**switch to administrator view**](../get-started/step-by-step-configuration-guide.md#step-2--switch-to-administrator-view-of-the-portal)
+1. On the  Community Training portal, after login [**switch to administrator view**](../get-started/step-by-step-configuration-guide.md#step-2--switch-to-administrator-view-of-the-portal)
 
 2. Click on **Settings** option from the left navigation panel and navigate to **Manage Organizations**.
 
@@ -91,7 +91,7 @@ The support for Organizations can be enabled on the platform by [enabling the ap
     ![User Management - Add Organization - Edit Organization](../media/User%20Management%20-%20Add%20Organization%20-%20Edit%20Organization.png)
 
 <!--
-1. On the  Microsoft Community Training portal, after login [**switch to administrator view**](../get-started/step-by-step-configuration-guide.md#step-2--switch-to-administrator-view-of-the-portal).
+1. On the  Community Training portal, after login [**switch to administrator view**](../get-started/step-by-step-configuration-guide.md#step-2--switch-to-administrator-view-of-the-portal).
 
     ![Edit an Existing Organization](../media/image%28421%29.png)
 
@@ -126,14 +126,14 @@ Click on the **Delete** icon from the Manage Organizations panel to Delete an Or
 
 ## Customize look and feel of your Organization(s)
 
-You can customize the look and feel of your learner experience of the Microsoft Community Training platform for each of your [Organization](#create-a-new-organization)
+You can customize the look and feel of your learner experience of the Community Training platform for each of your [Organization](#create-a-new-organization)
 
 >[!Note]
 >
 > * Global Administrators can adjust settings for all Organizations.
 > * Organization Administrators can only adjust these settings on which they are admin.
 
-1. On the  Microsoft Community Training portal, after login [**switch to administrator view**](../get-started/step-by-step-configuration-guide.md#step-2--switch-to-administrator-view-of-the-portal).
+1. On the  Community Training portal, after login [**switch to administrator view**](../get-started/step-by-step-configuration-guide.md#step-2--switch-to-administrator-view-of-the-portal).
 
 2. Click on **Settings** option from the left navigation panel and navigate to **Organization settings**.
 
@@ -164,13 +164,13 @@ You can customize the look and feel of your learner experience of the Microsoft 
         | Mobile Application Name | You can specify your Instance name, this name will be used for rendering splash screen (Android), Start menu item (Windows) |
         | Mobile Application Short Name | This will be used to generate the App icon name on the device app tray. You can mention a shorter acronym of your instance name. |
         | Application Background Color | This setting will be used for rendering Splash screen (Android) |
-        | Application Logo (512 px by 512 px) | The logo must be 512x512 pixels, MCT uses this image to render Splash screen, Start menu, App Launcher item for your PWA.  |
+        | Application Logo (512 px by 512 px) | The logo must be 512x512 pixels, CT uses this image to render Splash screen, Start menu, App Launcher item for your PWA.  |
 
 4. Once the settings are updated, learner (post login) will see the portal customized based on their respective Organization settings to which they belong.
 
 ## Create a New Organization Administrator
 
-1. On the  Microsoft Community Training portal, after login [**switch to administrator view**](../get-started/step-by-step-configuration-guide.md#step-2--switch-to-administrator-view-of-the-portal).
+1. On the  Community Training portal, after login [**switch to administrator view**](../get-started/step-by-step-configuration-guide.md#step-2--switch-to-administrator-view-of-the-portal).
 
     ![Create a New Organization Administrator](../media/image%28421%29.png)
 
@@ -201,7 +201,7 @@ You can customize the look and feel of your learner experience of the Microsoft 
 
 ## Edit an Existing Organization Administrator
 
-1. On the  Microsoft Community Training portal, after login [**switch to administrator view**](../get-started/step-by-step-configuration-guide.md#step-2--switch-to-administrator-view-of-the-portal).
+1. On the  Community Training portal, after login [**switch to administrator view**](../get-started/step-by-step-configuration-guide.md#step-2--switch-to-administrator-view-of-the-portal).
 
 2. Select **Organization Administrators** option under Users tab on the top-left of the page.
 
@@ -276,7 +276,7 @@ Global administrator can update user organization while [**editing learner profi
 
 ## View and Download users in Organization
 
-1. On the Microsoft Community Training portal, after login [**switch to administrator view**](../get-started/step-by-step-configuration-guide.md#step-2--switch-to-administrator-view-of-the-portal)
+1. On the Community Training portal, after login [**switch to administrator view**](../get-started/step-by-step-configuration-guide.md#step-2--switch-to-administrator-view-of-the-portal)
 
 2. Select 'All Users' tab in the left-navigation page from users module
 

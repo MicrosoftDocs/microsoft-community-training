@@ -28,7 +28,7 @@ In this article, you will learn more about connecting Power BI with the Azure SQ
 
 ### Step 1 - Obtaining Server Name
 
-1. From your MCT’s SQL Database click on connection strings.
+1. From your CT’s SQL Database click on connection strings.
 
 2. On the top bar select the option PHP.
 
@@ -36,7 +36,7 @@ In this article, you will learn more about connecting Power BI with the Azure SQ
 
 3. You will be able to view your SQL Databases server name and username (As highlighted in the below screen shoot)
 
-### Step 2 – Connecting Power BI with MCT SQL Database
+### Step 2 – Connecting Power BI with CT SQL Database
 
 1. Open Power BI → click on the get data icon and select more.
 
@@ -70,7 +70,7 @@ To help you get started on creating your own PowerBI reports here are some sampl
 
 The pbix files for the sample reports can be downloaded from here -
 
->[**MCT PowerBI custom Dashboard.zip**](https://github.com/MicrosoftDocs/microsoft-community-training/files/7013084/MCT_Sample.Reports.PowerBI.zip)
+>[**CT PowerBI custom Dashboard.zip**](https://github.com/MicrosoftDocs/microsoft-community-training/files/7013084/MCT_Sample.Reports.PowerBI.zip)
 
 To be able to start using this dashboard you will need to replace the existing data source and connect the .pbix file with your own [**Database**](database-schema.md).
 
@@ -84,7 +84,7 @@ If you already have your credentials for connecting to DB then proceed to step3.
 
 3. Once you have credentials, server name, and database name we can go ahead to replace the data source in the dashboard provided. To do this we need to have [**Power BI**](/power-bi/fundamentals/desktop-getting-started) installed.
 
-4. Open the .pbix file from the [**MCT PowerBI custom Dashboard.zip**](https://github.com/MicrosoftDocs/microsoft-community-training/files/7013084/MCT_Sample.Reports.PowerBI.zip) that you downloaded and open it from your Power BI Desktop and go to ‘File’ from menu bar.
+4. Open the .pbix file from the [**CT PowerBI custom Dashboard.zip**](https://github.com/MicrosoftDocs/microsoft-community-training/files/7013084/MCT_Sample.Reports.PowerBI.zip) that you downloaded and open it from your Power BI Desktop and go to ‘File’ from menu bar.
 
     :::image type="content" source="../../media/BI_file.jpg" alt-text="file":::
 

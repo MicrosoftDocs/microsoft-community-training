@@ -3,21 +3,21 @@ title: Move Course content across training instance
 original-url: https://docs.microsoftcommunitytraining.com/docs/move-course-content-across-training-instance
 author: nikotha
 ms.author: nikotha
-description: If you are managing multiple instances of Community Training platform each catering to different target audiences but with overlapping course content -  there is an easy way for administrator to move content across instances in few simple clicks.
+description: If you are managing multiple instances of Microsoft Community Training platform each catering to different target audiences but with overlapping course content -  there is an easy way for administrator to move content across instances in few simple clicks.
 ms.prod: learning-azure
 ---
 
 # Move Course content across training instance
 
-If you are managing multiple instances of Community Training platform each catering to different target audiences but with overlapping course content -  there is an easy way for administrator to move content across instances in few simple clicks.
+If you are managing multiple instances of Microsoft Community Training platform each catering to different target audiences but with overlapping course content -  there is an easy way for administrator to move content across instances in few simple clicks.
 
-Community Training allows you to download single or multiple courses within a category from one platform instance in a ready to use zip file that can be uploaded on another instance.
+Microsoft Community Training allows you to download single or multiple courses within a category from one platform instance in a ready to use zip file that can be uploaded on another instance.
 
 In this article, you will learn more about how to export course content from one training portal instance and import the same course content to another instance.
 
 ## Step 1 - Export course content from a training portal instance
 
-1. On the Community Training portal instance from where you want to download the course content, after login [**switch to administrator view**](../../../get-started/step-by-step-configuration-guide.md#step-2--switch-to-administrator-view-of-the-portal).
+1. On the Microsoft Community Training portal instance from where you want to download the course content, after login [**switch to administrator view**](../../../get-started/step-by-step-configuration-guide.md#step-2--switch-to-administrator-view-of-the-portal).
 
 2. Under **Courses** tab, select the Category or Course that you want to download.
 
@@ -42,7 +42,7 @@ In this article, you will learn more about how to export course content from one
 
 ## Step 2 - Import the course content to another training portal instance
 
-1. On the Community Training portal instance where you want to upload the course content, after login [**switch to administrator view**](../../../get-started/step-by-step-configuration-guide.md#step-2--switch-to-administrator-view-of-the-portal).
+1. On the Microsoft Community Training portal instance where you want to upload the course content, after login [**switch to administrator view**](../../../get-started/step-by-step-configuration-guide.md#step-2--switch-to-administrator-view-of-the-portal).
 
 2. Under Courses tab, [**create a new category**](../../create-content/create-course-category/create-a-category.md) or select an existing category where you want to upload the content
 

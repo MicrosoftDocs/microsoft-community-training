@@ -30,21 +30,23 @@ In this article, you will learn more about the platform's database schema and it
 
 * [**Community Training - DB Schema Overview_Oct_2021.pdf**](https://github.com/MicrosoftDocs/microsoft-community-training/files/7581669/MCT_DB_Schema_Oct2021.pdf)
 
+* [**Community Training - DB Schema Overview_Aug_2021.pdf**](C:\Users\v-nmadireddi\OneDrive - Microsoft\microsoft-community-training\MCT_DB Schema_Mar 2023.pdf)
+
 
 ## Accessing Database
 
-Following are the two ways to access the MCT Database,
+Following are the two ways to access the CT Database,
 
 ### Method 1: Using Connection string
 
-Go to the MCT portal's SQL database from the Managed resource group (Find the dapclp-db-xxxxxxxxx SQL database).
+Go to the CT portal's SQL database from the Managed resource group (Find the dapclp-db-xxxxxxxxx SQL database).
 Click on Setting > Connection strings to get the connection strings for the SQL database, as in the below image,
 
    ![click on Setting](../../media/image%28346%29.png)
 
 ### Method 2: Use Username and Password (Online Azure query editor)
 
-Go to the MCT portal's SQL database from the Managed resource group (Find the dapclp-db-xxxxxxxxx SQL database).
+Go to the CT portal's SQL database from the Managed resource group (Find the dapclp-db-xxxxxxxxx SQL database).
 
 1. Select Query Editor
 
@@ -57,7 +59,7 @@ Go to the MCT portal's SQL database from the Managed resource group (Find the da
 ## Accessing Key Vault
 
 > [!IMPORTANT]  
-> If you are facing a “Key Vault” issue when trying to get password of Admin user for MCT Database in Azure with the error - "The operation “List” is not enabled in this key vault’s access policy" also please follow the following steps.
+> If you are facing a “Key Vault” issue when trying to get password of Admin user for CT Database in Azure with the error - "The operation “List” is not enabled in this key vault’s access policy" also please follow the following steps.
 
 Go the key vault (login to your [Azure portal](https://ms.portal.azure.com/), search & click on 'Key vaults', click on key vault corresponding to your application's resource group). By default, user does not have access permission to view the keys, secrets and Certificate information stored in Key Vault. To gain access, follow below steps,
 

@@ -27,7 +27,7 @@ If you’re looking to host your Community Training instance on a custom domain 
 1. [**Map the custom DNS name**](/azure/frontdoor/front-door-custom-domain#create-a-cname-dns-record) to point to your Community Training instance, using a CNAME DNS record.
 
 > [!NOTE]
-> Add your **Front Door URL** of your MCT instance wherever specified in the above documentation. It typically looks like *`https://<InstanceName>.azurefd.net/`*
+> Add your **Front Door URL** of your CT instance wherever specified in the above documentation. It typically looks like *`https://<InstanceName>.azurefd.net/`*
 
 2. [**Associate the mapped custom domain**](/azure/frontdoor/front-door-custom-domain#associate-the-custom-domain-with-your-front-door), with your Community Training instance's Front Door resource.
 
@@ -64,7 +64,7 @@ Select the WAF policy instance that is deployed in the same resource group.
 11. Next based on your chosen identity type, follow the steps below:
     * **For Social Accounts or email based authentication** like Google, Microsoft and Facebook [follow these steps](../../infrastructure-management/configure-your-platform-infrastructure/setup-custom-domain-url.md#for-social-accounts-like-google-microsoft-and-facebook)
     * **For Azure Active Directory** (aka Work or School account) [follow these steps](../../infrastructure-management/configure-your-platform-infrastructure/setup-custom-domain-url.md#for-azure-active-directory-work-or-school-account)
-    * **For phone number authentication**, create a support ticket from [Community Training HelpDesk](https://go.microsoft.com/fwlink/?linkid=2104630) using the following values. Our support team will activate your custom URL in 2-3 business days and notify you of the change.
+    * **For phone number authentication**, create a support ticket from [Microsoft Community Training HelpDesk](https://go.microsoft.com/fwlink/?linkid=2104630) using the following values. Our support team will activate your custom URL in 2-3 business days and notify you of the change.
 
         |Field|Description|
         |---|---|

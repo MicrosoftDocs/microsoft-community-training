@@ -58,7 +58,7 @@ You can create, edit or delete a category from the administrator portal. Please 
 
 Community Training provides bulk upload lesson feature to add more than one lesson at a time within a course. [Refer to this article](../content-management/create-content/create-course-category/upload-content-to-a-course.md) for the detailed steps.  
 
-### What is the size of the files I can upload on the MCT platform?
+### What is the size of the files I can upload on the CT platform?
 
 The platform can accept files size depending on the upload size limit as specified below.
 
@@ -85,10 +85,10 @@ Yes, customers can embed videos from any external platforms such as YouTube, Mic
 >[!Note]
 > For Vimeo videos, they do not allow their videos to get embedded directly on any other platform. In order to get the embed URL for any video, you need to follow the below steps:
 >
-> * In your Vimeo video player, click on share button, under Embed section copy the code highlited as below and you can paste this as external url for lesson in MCT
+> * In your Vimeo video player, click on share button, under Embed section copy the code highlited as below and you can paste this as external url for lesson in CT
 > :::image type="content" source="../media/viemoshare.png" alt-text="sharevimeo":::
 >
-> * If receiving any playback error while playing Vimeo video in MCT, you need update [privacy settings](https://vimeo.zendesk.com/hc/en-us/articles/115015677227-Troubleshoot-player-error-messages) in your Vimeo account.
+> * If receiving any playback error while playing Vimeo video in CT, you need update [privacy settings](https://vimeo.zendesk.com/hc/en-us/articles/115015677227-Troubleshoot-player-error-messages) in your Vimeo account.
 
 ### How can I allow external videos to play inside Community Training?
 
@@ -121,7 +121,7 @@ Yes, customers can embed videos from any external platforms such as YouTube, Mic
 
 ### Does Community Training support SCORM content?
 
-Community Training supports for upload of SCORM (version 1.2) package.
+Community training supports for upload of SCORM (version 1.2) package.
 
 SCORM (Sharable Content Object Reference Model) is a set of technical standards for eLearning software products. SCORM tells programmers how to write their code so that it can “play well” with other eLearning software. It is the de facto industry standard for eLearning interoperability. Learn more about [SCORM](https://scorm.com/scorm-explained/one-minute-scorm-overview/)
 
@@ -191,7 +191,7 @@ Yes, you can use audio files for lessons. To learn what other types of content i
 
 ### Can I add multiple language subtitles to a video file?
 
-Community Training allows administrators to add subtitles to videos more than 180 languages. This additional feature is great for multilingual organizations. [**For adding subtitles**](../content-management/create-content/create-course-category/add-subtitles-or-captions-to-video-content.md) to your video, select the language from the drop-down menu and upload the VTT file that includes the subtitles you want to add. Subtitles must be in the VTT format.
+Community training allows administrators to add subtitles to videos more than 180 languages. This additional feature is great for multilingual organizations. [**For adding subtitles**](../content-management/create-content/create-course-category/add-subtitles-or-captions-to-video-content.md) to your video, select the language from the drop-down menu and upload the VTT file that includes the subtitles you want to add. Subtitles must be in the VTT format.
 
 To learn more about the VTT standard, please read it [**here**](https://en.wikipedia.org/wiki/WebVTT).
 
@@ -257,9 +257,9 @@ Video encoding is the process of compressing and potentially changing the format
 
 Uploading video content includes the process of encoding the content and converting it into multiple resolutions to enable playback in low connectivity scenarios. This process usually takes time and partially depends on your internet speed and platform configuration.
 
-#### How to import my existing course content to Community Training?
+#### How to import my existing course content to Community training?
 
-A: You can bulk upload your existing course contents to Community Training.
+A: You can bulk upload your existing course contents to Community training.
 
 For more information, [**refer here**](../content-management/create-content/create-course-category/create-a-new-course.md).
 
@@ -324,7 +324,7 @@ Follow the instructions given in **[this](../content-management/create-content/c
 
 ### How many courses and lessons can I upload on the platform?
 
-Community Training does not set any numeric limits. Customers can have any number of courses and lessons as required.
+Community training does not set any numeric limits. Customers can have any number of courses and lessons as required.
 
 ### How to 'Add Tags' after a course is published?
 
@@ -358,7 +358,7 @@ You will be able to track and view user’s progress from our analytics tab on t
 
 ### How can I add additional resources or exercises as part of a course?
 
-Currently,  Community Training platform doesn't support attaching additional content or  exercises  as part of courses out of the box. However, customers can achieve this by using third-party tools such as Microsoft Forms or attaching exercise files in word and embed them as a lesson in a course.
+Currently, Community Training platform doesn't support attaching additional content or  exercises  as part of courses out of the box. However, customers can achieve this by using third-party tools such as Microsoft Forms or attaching exercise files in word and embed them as a lesson in a course.
 
 Example: You can attach Microsoft Forms as an external URL as a lesson with exercises or assignment questionnaires for your learners. On the form, you can enable file upload as required for learners to  complete their assignments and easily attach their work. Alternatively, you can share instructions via a word document attached as a lesson and ask learners to email their work.
 

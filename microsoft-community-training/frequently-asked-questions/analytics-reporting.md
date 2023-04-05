@@ -85,7 +85,7 @@ For more information, contact us [**via the HelpDesk**](https://go.microsoft.com
 
 ## Inbuilt analytics and custom reporting
 
-### What are the inbuilt analytical metrics offered by Community Training?
+### What are the inbuilt analytical metrics offered by Community training?
 
 To provide a rich out of the box experience to an admin, Community Training platform provides different views, designed to facilitate tracking learner progress and program monitoring at various levels:
 

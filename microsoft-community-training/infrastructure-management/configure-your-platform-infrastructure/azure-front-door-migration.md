@@ -41,13 +41,13 @@ If your Community Training instance was deployed before January 2021, then follo
 
 Please follow the following steps to update mapping in your DNS provider and add the custom domain in AFD resource.  
 
-**Old MCT instance**: https://*websitename*.azurewebsites.net/
+**Old CT instance**: https://*websitename*.azurewebsites.net/
 
-**New MCT instance**: https://*websitename*.azurefd.net/
+**New CT instance**: https://*websitename*.azurefd.net/
 
-1. [**Map the custom DNS name**](/azure/frontdoor/front-door-custom-domain#create-a-cname-dns-record) to point to your new MCT instance, using a CNAME DNS record.
+1. [**Map the custom DNS name**](/azure/frontdoor/front-door-custom-domain#create-a-cname-dns-record) to point to your new CT instance, using a CNAME DNS record.
 
-2. [**Associate the mapped custom domain**](/azure/frontdoor/front-door-custom-domain#associate-the-custom-domain-with-your-front-door), with your new MCT instance's Front Door resource.
+2. [**Associate the mapped custom domain**](/azure/frontdoor/front-door-custom-domain#associate-the-custom-domain-with-your-front-door), with your new CT instance's Front Door resource.
 
 3. [**Configure the SSL certificate**](/azure/frontdoor/front-door-custom-domain-https) for your Community Training instance.
 
@@ -102,7 +102,7 @@ Please follow the following steps to update mapping in your DNS provider and add
 No action item required, your instance will be auto-migrated.
 
 > [!IMPORTANT]  
-> Once, these steps are done, you can start consuming the benefits of Azure Front Door via allowing learners to access MCT instance via https://*websitename*.azurefd.net URL or a custom domain.
+> Once, these steps are done, you can start consuming the benefits of Azure Front Door via allowing learners to access CT instance via https://*websitename*.azurefd.net URL or a custom domain.
 
 > [!NOTE]  
 > For any questions or concerns please reach out to us at sangam-pm@microsoft.com

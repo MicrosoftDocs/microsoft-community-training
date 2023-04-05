@@ -87,7 +87,7 @@ You can import users using csv data to our platform. However, there are certain 
 
 ### Will I be able to bulk import users from my existing database?
 
-Yes, you can bulk import existing users to Community Training using our REST APIs.
+Yes, you can bulk import existing users to Community training using our REST APIs.
 
 ### Bulk upload users feature doesn't seem to be working?
 

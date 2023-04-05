@@ -72,7 +72,7 @@ Groups are managed by group administrators, who can be users in the portal but a
 
 In this topic, you will learn simple steps to add Group Administrator to the portal
 
-1. On the Community Training portal, after login [**switch to administrator view**](../../get-started/step-by-step-configuration-guide.md#step-2--switch-to-administrator-view-of-the-portal) and **select a Group** under the Users tab
+1. On the  Community Training portal, after login [**switch to administrator view**](../../get-started/step-by-step-configuration-guide.md#step-2--switch-to-administrator-view-of-the-portal) and **select a Group** under the Users tab
 
 2. Click or tap **More (...)** icon next to the group name  
 
@@ -91,7 +91,7 @@ Alternatively, you can also **Add Administrator** to the group by clicking on th
 
 ## Adding one or more admins to an organization by Organization Admin
 
-CT now supports an organization administrator to add one or more other administrators, to their respective Organizations
+MCT now supports an organization administrator to add one or more other administrators, to their respective Organizations
 
 ### Steps to add one or more Administrators to an organization, by Organization Administrator
 

@@ -9,7 +9,7 @@ ms.prod: learning-azure
 
 # Learner Experience on (PWA based) mobile app
 
-This article explains how learners can access the training content using the [PWA based Android mobile application](../infrastructure-management/install-your-platform-instance/create-publish-mobile-app.md#option-1-creating-a-progressive-web-application-pwa-for-android) for the Community Training platform instance setup for your organization.
+This article explains how learners can access the training content using the [PWA based Android mobile application](../infrastructure-management/install-your-platform-instance/create-publish-mobile-app.md#option-1-creating-a-progressive-web-application-pwa-for-android) for the Microsoft Community Training platform instance setup for your organization.
 
 ## Step 1: Download the app
 
@@ -26,7 +26,7 @@ This article explains how learners can access the training content using the [PW
 
 ### Option 2: Install from browser
 
-1. For mobile devices (Android), users can install PWA by clicking on the prompt (add to home screen banner) that they receive while browsing your MCT instance or clicking on ‘install app’ from browser options.
+1. For mobile devices (Android), users can install PWA by clicking on the prompt (add to home screen banner) that they receive while browsing your CT instance or clicking on ‘install app’ from browser options.
 
     :::image type="content" source="../media/Screenshot_20210930-161736_Chrome (3).jpg" alt-text="pwainstallimage":::
 
@@ -113,6 +113,6 @@ This article explains how learners can access the training content using the [PW
 >
 > * Meta data for content in 'Recently Deleted' section would be retained for 90 days
 >
-> * Currently MCT supports offline download (in PWA) for PDF, EPUB, video, audio files. Plan to extend support for offline download for other formats (html, docx, xlsx, SCORM etc) is in roadmap.
+> * Currently CT supports offline download (in PWA) for PDF, EPUB, video, audio files. Plan to extend support for offline download for other formats (html, docx, xlsx, SCORM etc) is in roadmap.
 >
 > * Only Non-Graded Assessments can be taken and submitted offline. Graded Assessments can only be taken while online.

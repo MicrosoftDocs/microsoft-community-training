@@ -54,7 +54,7 @@ Currently, there  is no guest user provision on the platform. Every user, depend
 
 ### Is it possible to allow learners to login using either Mobile number or Email address for the same instance?
 
-Yes, MCT will support login via multiple modes for same instance,for that you need to have B2C tenant to which you can add Azure AD, phone auth as IDP.
+Yes, CT will support login via multiple modes for same instance,for that you need to have B2C tenant to which you can add Azure AD, phone auth as IDP.
 
 ### My learners don’t have an email address or mobile number, how can they login and access the training content?
 
@@ -112,13 +112,13 @@ For more information, please contact us [**via HelpDesk**](https://go.microsoft.
 
 ### How can I setup Single Sign On for Community Training platform with an existing identity provider?
 
-Community Training (Community Training) platform supports all the standard OAuth 2.0 and OpenID connect auth service provider and Single Sign-On can be enabled between the existing system and Community Training platform seamlessly. See the [**deployment guide for more details**](../infrastructure-management/install-your-platform-instance/configure-login-social-work-school-account.md#social-account-or-email-based-authentication).
+Community Training (Community training) platform supports all the standard OAuth 2.0 and OpenID connect auth service provider and Single Sign-On can be enabled between the existing system and Microsoft community training platform seamlessly. See the [**deployment guide for more details**](../infrastructure-management/install-your-platform-instance/configure-login-social-work-school-account.md#social-account-or-email-based-authentication).
 
-In case of the existing identity system is not OAuth2.0 / OpenID connect based then enabling Single Sign On between Community Training and the existing system will require custom work as highlighted flow diagram below. Please raise a support ticket for more information and kick start the SSO discussion.
+In case of the existing identity system is not OAuth2.0 / OpenID connect based then enabling Single Sign On between Community training and the existing system will require custom work as highlighted flow diagram below. Please raise a support ticket for more information and kick start the SSO discussion.
 
 For all queries regarding SSO and/or custom login, contact us via  **[HelpDesk](https://sangamhelpdesk.microsoftcrmportals.com/SignIn?ReturnUrl=%2Fsupport%2Fcreate-case%2F)** and leave your requirements in the ticket description.
 
-### I am already using OKTA for managing my workforces. How can I enable SSO with Community Training?
+### I am already using OKTA for managing my workforces. How can I enable SSO with Microsoft Community Training?
 
 Community Training supports single sign on with OKTA. To enable this, you must set up your platform with Azure AD B2C (aka social account login) and add OKTA as IDP provider on your Azure AD B2C tenant. For more details see below article:
 
@@ -159,7 +159,7 @@ Refer **[this article](../settings/restrict-portal-access-to-users-outside-your-
 
 ### Can I pre-register users on the platform and limit portal access to only these users?
 
-You can pre-register users by importing your existing users' database to the Community Training portal.
+You can pre-register users by importing your existing users' database to the Community training portal.
 
 For more information, **[refer here](../settings/restrict-portal-access-to-users-outside-your-organization.md)**.
 
@@ -181,9 +181,9 @@ All the learners data will be stored in Azure SQL DB on customer’s subscriptio
 
 Community Training does not have any limitations on the number of users that be added to the platform. You will be able to have as many users as required.
 
-## Setup Native ADB2C Phone authentication: Custom policies for Phone login through Azure ADB2C For MCT
+## Setup Native ADB2C Phone authentication: Custom policies for Phone login through Azure ADB2C For CT
 
-You can choose to enable phone number as a sign-up option tenant-wide by adding phone sign-up and sign-in to your local account identity provider via ADB2C instead of using MCT phone authentication by defining [Custom policies](https://learn.microsoft.com/azure/active-directory-b2c/custom-policy-overview) which are configuration files that define the behavior of your Azure Active Directory B2C tenant.
+You can choose to enable phone number as a sign-up option tenant-wide by adding phone sign-up and sign-in to your local account identity provider via ADB2C instead of using CT phone authentication by defining [Custom policies](https://learn.microsoft.com/azure/active-directory-b2c/custom-policy-overview) which are configuration files that define the behavior of your Azure Active Directory B2C tenant.
 
 ### Prerequisites
 

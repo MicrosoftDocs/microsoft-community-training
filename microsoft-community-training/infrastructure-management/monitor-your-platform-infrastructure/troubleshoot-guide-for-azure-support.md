@@ -10,19 +10,19 @@ ms.prod: learning-azure
 
 ## Introduction
 
-[Community Training](https://communitytraining.microsoft.com/) (MCT) is an Azure based solution that enables delivery of large-scale, far-spread training programs with high quality and efficiency.
+[Community Training](https://communitytraining.microsoft.com/) (CT) is an Azure based solution that enables delivery of large-scale, far-spread training programs with high quality and efficiency.
 
-The platform within Microsoft is managed by the Azure Global Emerging Markets IDC team. The ICM credentials to log a ticket on the MCT team are –
+The platform within Microsoft is managed by the Azure Global Emerging Markets IDC team. The ICM credentials to log a ticket on the CT team are –
 
 > **Owning Service**: AGEM: Community Training
 
-> **Owning Team**: MCT
+> **Owning Team**: CT
 
-This document walks through root cause and resolution steps for some of the major issues faced by the customers. Please try the resolution steps before logging an ICM ticket to MCT team.
+This document walks through root cause and resolution steps for some of the major issues faced by the customers. Please try the resolution steps before logging an ICM ticket to CT team.
 
-## Brief on MCT Architecture
+## Brief on CT Architecture
 
-Community Training (MCT) platform is available as a [Managed Application](https://learn.microsoft.com/azure/azure-resource-manager/managed-applications/) on the [Azure Marketplace](https://azuremarketplace.microsoft.com/marketplace/apps/project-sangam.microsoft-community-training) for customers. The MCT instance is deployed on customer’s Azure subscriptions and utilizes the following Azure services –
+Community Training (CT) platform is available as a [Managed Application](https://learn.microsoft.com/azure/azure-resource-manager/managed-applications/) on the [Azure Marketplace](https://azuremarketplace.microsoft.com/marketplace/apps/project-sangam.microsoft-community-training) for customers. The CT instance is deployed on customer’s Azure subscriptions and utilizes the following Azure services –
 
 1. Azure App Service
 2. Azure Blob Storage
@@ -43,11 +43,11 @@ Community Training (MCT) platform is available as a [Managed Application](https:
 
 **Resolution**: Go to the app service resource in managed resource group of the deployment and try restarting the app.
 If this does not fix the issue, navigate to diagnose and solve problems >> Diagnostic Tools >> Application Event Logs and check the latest entry with Level Error or Warn.
-If the error is related to failure in accessing certain resources, try restarting that resource. If this does not work reach out to MCT support team.
+If the error is related to failure in accessing certain resources, try restarting that resource. If this does not work reach out to CT support team.
 
 **Root Cause 2**: App service unresponsive because of high resource usage on app service.
 
-**Resolution**: Navigate to App service plan resource on azure portal and check for CPU utilization. If CPU is the bottleneck (greater than 85-90 %) scale up the instance (Note: please don't scale out as there are certain limitations with scale out on MCT side).
+**Resolution**: Navigate to App service plan resource on azure portal and check for CPU utilization. If CPU is the bottleneck (greater than 85-90 %) scale up the instance (Note: please don't scale out as there are certain limitations with scale out on CT side).
 
 **Root Cause 3**: App service unresponsive because of high resource usage on database.
 
@@ -121,7 +121,7 @@ Error: Unable to decrypt the encrypted video source
 
 ### Issue 9: Certificate not generated for learners
 
-**Root Cause 1**: Certificate template PDF file uploaded is corrupted. Most PDF Viewer Software have the ability to fix any corruptions in the PDF when rendering for viewing. However, the MCT service doesn't support this behavior and when trying to generate a certificate using such a corrupted PDF, the operation will fail.
+**Root Cause 1**: Certificate template PDF file uploaded is corrupted. Most PDF Viewer Software have the ability to fix any corruptions in the PDF when rendering for viewing. However, the CT service doesn't support this behavior and when trying to generate a certificate using such a corrupted PDF, the operation will fail.
 
 **Resolution**: We strongly recommend creating the certificate template using the PowerPoint file we provide in the Certificate Templates section in the Administration portal. Exporting the slide as PDF best ensures consistency. On a side note, any template PDF can be tested for certificate generation before using it in courses for learners, by using the preview certificate feature.
 

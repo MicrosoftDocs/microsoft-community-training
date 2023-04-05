@@ -15,7 +15,7 @@ This article explains how learners can access the training content using the web
 
 1. Open the web browser and visit  the Community Training platform instance  setup for your organization. For e.g. [**fabrikamtraining.azurefd.net**](https://fabrikamtraining.azurefd.net/)
 
-    :::image type="content" source="../media/image(173).png" alt-text="Community Training":::
+    :::image type="content" source="../media/image(173).png" alt-text="Microsoft Community Training":::
 
 2. On the home page, click on the **Sign In**  or  **Get Started** button.
 

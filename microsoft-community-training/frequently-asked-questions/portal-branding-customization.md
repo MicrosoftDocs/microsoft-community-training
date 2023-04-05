@@ -127,7 +127,7 @@ Refer **[this article](../settings/customize-the-certificate-template.md)** to l
 
 ### Can i have different certificates created and assigned to courses?
 
-Community Training enables you to create and assign multiple certificates with its preferred type of language and other customizations. For more details [refer here](../settings/enable-course-level-certificate.md)
+Community training enables you to create and assign multiple certificates with its preferred type of language and other customizations. For more details [refer here](../settings/enable-course-level-certificate.md)
 
 ### Is there any restriction on the branding that can be used for the certificate?
 

@@ -59,7 +59,7 @@ This view gives a graphical representation on the growth in the number of course
 
 ## Learner Performance
 
-This section in the course view enables an admin to track learner’s progress and compare performance for a given course. In the table below, for each learner, you can see the completion percentage, no of lessons completed, no of quizzes completed (including exams), average quiz score percentage (including exams).  
+This section in the course view enables an admin to track learner’s progress and compare performance for a given course. In the table below, for each learner, you can see the completion percentage, no of lessons completed, no of assessment completed (including exams), average assessment score percentage (including exams).  
 ![Learner performance](../../media/image%2873%29.png)
 
 > [!NOTE]  
@@ -69,7 +69,7 @@ From the learner performance grid, you can:
 
 1. Click on the respective column headings to sort the rows by any column.
 2. Click **Download List** to download the data into an Excel sheet.
-3. Select a row to view detailed information about individual lesson progress and quiz performance for the course.  
+3. Select a row to view detailed information about individual lesson progress and assessment performance for the course.  
 ![Quizzes](../../media/image%2854%29.png)  
 ![Lessons](../../media/image%2855%29.png)
 
@@ -86,15 +86,15 @@ From the lesson grid, you can:
 1. Click on the respective column headings to sort the rows by any column.
 2. Click **Download List** to download the data into an Excel sheet.
 
-## Quiz grid
+## Assessment grid
 
-This section in the course view provides information about the overall performance of trainees in different quizzes of a course. Including the # of questions in the quiz, average score and difficulty level. In the table below, for each quiz, you can see total # of questions in the quiz, total # of attempts by all learners, average quiz score and difficult level.  
+This section in the course view provides information about the overall performance of trainees in different assessments of a course. Including the # of questions in the assessment, average score and difficulty level. In the table below, for each assessment, you can see total # of questions in the assessment, total # of attempts by all learners, average assessment score and difficult level.  
 ![Quiz score](../../media/image%2875%29.png)
 
 > [!NOTE]  
 > Hover over the column header to view the definition used for column values.
 
-From the quiz grid, you can:  
+From the assessment grid, you can:  
 
 1. Click on the respective column headings to sort the rows by any column.
 2. Click **Download List** to download the data into an Excel sheet.

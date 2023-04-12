@@ -32,7 +32,7 @@ The Community Training management portal provides role-based administration and 
 
 ## Track overall learners progress and performance in a group
 
-On the group details page, admin can view the list of all learners in the group each with course completion , average quiz score, courses enrolled by group admin, certificates received is displayed.
+On the group details page, admin can view the list of all learners in the group each with course completion , average assessment score, courses enrolled by group admin, certificates received is displayed.
 
 * For example, image shows the group analytics details for the employees in Mumbai region
 
@@ -44,7 +44,7 @@ In the grid view, for each learner, group admin can see the following informatio
 
 2. **Course Enrollments**: Total # of courses assigned by the group admin for a participant in the group
 
-3. **Quiz Score**: Average of the quiz score (including exam) of a learner across all the completed courses
+3. **Assessment Score**: Average of the assessment score (including exam) of a learner across all the completed courses
 
 4. **Certificates received**: # of certificates received by a learner for completed courses
 

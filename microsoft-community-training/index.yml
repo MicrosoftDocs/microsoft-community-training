@@ -6,7 +6,6 @@ summary: Microsoft Community Training is a cloud-based solution that enables del
 metadata:
   title: Microsoft Community Training
   description: This site is for administrators of Microsoft Community Training platform to understand the platform and its usage.
-  ms.service: cloud-services
   ms.topic: landing-page
   author: nikotha
   ms.author: nikotha

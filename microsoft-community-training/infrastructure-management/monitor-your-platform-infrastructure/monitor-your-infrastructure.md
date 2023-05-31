@@ -4,7 +4,7 @@ original-url: https://docs.microsoftcommunitytraining.com/docs/monitor-your-infr
 author: nikotha
 ms.author: nikotha
 description: Your training portal is composed of various resources such as Azure SQL, Azure Media Service, Azure App Service etc.
-ms.prod: learning-azure
+ms.service: azure
 ---
 
 # Monitor your platform Infrastructure

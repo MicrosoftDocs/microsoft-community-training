@@ -4,7 +4,7 @@ original-url: https://docs.microsoftcommunitytraining.com/docs/api-documentation
 author: nikotha
 ms.author: nikotha
 description: Microsoft Community Training platform exposes its APIs for integration with another service or application.
-ms.prod: learning-azure
+ms.service: azure
 ---
 
 # Rest API Documentation

@@ -4,7 +4,7 @@ original-url: https://docs.microsoftcommunitytraining.com/docs/troubleshooting
 author: nikotha
 ms.author: nikotha
 description: It is possible that installation may fail for a variety of reasons.
-ms.prod: learning-azure
+ms.service: azure
 ---
 
 # Troubleshooting Guide

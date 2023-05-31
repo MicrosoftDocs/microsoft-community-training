@@ -4,7 +4,7 @@ original-url: https://docs.microsoftcommunitytraining.com/docs/analytics-reporti
 author: nikotha
 ms.author: nikotha
 description: Microsoft Community Training allows organizations to track and stay updated on learner's progress and performance scores through quizzes and exams.
-ms.prod: learning-azure
+ms.service: azure
 ---
 
 # Analytics & Reporting

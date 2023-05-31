@@ -4,7 +4,7 @@ original-url: https://docs.microsoftcommunitytraining.com/docs/customize-the-cer
 author: nikotha
 ms.author: nikotha
 description: This document explains certificate template customization flow on the Microsoft Community Training platform. 
-ms.prod: learning-azure
+ms.service: azure
 ---
 
 # Customize the certificate template for the platform

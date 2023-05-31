@@ -4,7 +4,7 @@ original-url: https://docs.microsoftcommunitytraining.com/docs/configure-the-loo
 author: nikotha
 ms.author: nikotha
 description: You can customize the look and feel of your learner experience of the Microsoft Community Training platform to suit your organization's branding needs.
-ms.prod: learning-azure
+ms.service: azure
 ---
 
 # Customize the look and feel of your portal

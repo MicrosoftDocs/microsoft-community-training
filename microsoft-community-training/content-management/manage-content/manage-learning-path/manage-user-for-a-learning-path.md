@@ -4,7 +4,7 @@ original-url: https://docs.microsoftcommunitytraining.com/docs/manage-user-for-a
 author: nikotha
 ms.author: nikotha
 description: Managing users on a Learning Path can be done by selecting a Learning Path which you have created and using the Manage users option provided.
-ms.prod: learning-azure
+ms.service: azure
 ---
 
 # Manage Users for a Learning Path

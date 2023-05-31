@@ -4,7 +4,7 @@ original-url: https://docs.microsoftcommunitytraining.com/docs/MCT-Azure-resourc
 author: v-nmadireddi
 ms.author: v-nmadireddi
 description: This article helps you configure the recommended azure resource settings for your MCT instance.
-ms.prod: learning-azure
+ms.service: azure
 ---
 
 # Recommended settings for MCT Azure resources

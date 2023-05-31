@@ -4,7 +4,7 @@ original-url: https://docs.microsoftcommunitytraining.com/docs/learning-in-offli
 author: v-nmadireddi
 ms.author:  v-nmadireddi
 description: This article lists FAQ's related to access training content in offline mode
-ms.prod: learning-azure
+ms.service: azure
 ---
 
 # Frequently asked questions - Offline Learning

@@ -15,7 +15,7 @@ In this article, you will learn how to avail Azure credit grant of $3500 per yea
 
 ## Eligibility Criteria
 
-Microsoft offers discounted and donated industry-leading solutions for nonprofits. Nonprofit or non-governmental organizations with recognized legal status in their respective country (equal to 501(c)(3) status under the United States Internal Revenue Code) can register for Microsoft non-profits.
+Microsoft offers discounted and donated industry-leading solutions for nonprofits. Nonprofit or non-governmental organizations with recognized legal status in their respective country/region (equal to 501(c)(3) status under the United States Internal Revenue Code) can register for Microsoft non-profits.
 
 For more details on nonprofit organization eligibility requirements, [**visit this document.**](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE2Gxsp)
 

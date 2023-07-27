@@ -49,7 +49,7 @@ Organizations and Groups are a way to help you organize your learners depending 
 
 ### Sample Scenario 1
 
-Let's say there is a company in South Africa which has employees located across the country who are required to be trained and up-skilled regularly.
+Let's say there is a company in South Africa which has employees located across the country/region who are required to be trained and up-skilled regularly.
 
 - To effectively manage and train their geographically distributed workforce, the company can decide to create **Groups** based on their office locations such as Cape Town, Johannesburg, Port Elizabeth, etc.
 
@@ -57,9 +57,9 @@ Let's say there is a company in South Africa which has employees located across 
 
 ### Sample Scenario 2
 
-Let's say there is a company in United States of America which has employees located in various countries across the world and managed by their own country leadership.
+Let's say there is a company in United States of America which has employees located in various countries/regions across the world and managed by their own country/region leadership.
 
-- In this case, the company may decide to create **Organizations** on the training platform basis country viz. India, Singapore, South Africa etc.
+- In this case, the company may decide to create **Organizations** on the training platform basis country/region viz. India, Singapore, South Africa etc.
 
 - Each of the Organizations can be assigned their own set of Organization Administrator(s) and each learner can belong to one Organization.
     > [!NOTE]

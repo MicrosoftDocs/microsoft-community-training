@@ -42,7 +42,7 @@ This article explains how learners can access the training content using the web
     :::image type="content" source="../media/Profile Field - edit from learner view 2.PNG" alt-text="Edit profile field":::
 
     >[!Tip]
-    >You can now search for the relevant value from a long list of profile field values the Admin has provided. For example, you can search your city name from a list of all cities in your country.
+    >You can now search for the relevant value from a long list of profile field values the Admin has provided. For example, you can search your city name from a list of all cities in your country/region.
 
 3. Click on **Confirm** and **Done**.
 

@@ -6,7 +6,7 @@ description: This document details the new features and capabilities launched on
 ms.prod: learning-azure
 ---
 
-## What’s new in March 2023
+# What’s new in March 2023
 
 We are excited to share the new product update of Microsoft Community Training with you! The features in this release are designed to enhance the management and delivery of online learning modules in a seamless manner to your community.
 
@@ -38,7 +38,7 @@ In this release we have made improvements on the user deletion flow. Now, on per
 
 A few changes are implemented to the DB Schema, to support the latest features on the MCT. Please refer to this section for additional information. 
 
-The Table Name **CourseUsers** will be deprecated in the release of June’23. It is being replaced with the Table Name **UserCourseEnrollments**. The table **UserCourseEnrollments** will have the info about the admin enrolled courses and self-enrolled courses and will contain the columns **CourseId** and **UserID**.
+The Table Name **CourseUsers** will be deprecated in upcoming release. It is being replaced with the Table Name **UserCourseEnrollments**. The table **UserCourseEnrollments** will have the info about the admin enrolled courses and self-enrolled courses and will contain the columns **CourseId** and **UserID**.
 Thus, for the purposes of course analytics, (Eg: Analytics on a tool like the PowerBI), a two-step approach is to be taken to get the exhaustive list of users enrolled in a course.
 
 1. A join of the tables groupUser and CourseGroup will fetch the user IDs associated with the group enrolments for a specified course.

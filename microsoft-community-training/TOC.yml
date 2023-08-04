@@ -1,9 +1,9 @@
-- name: Microsoft Community Training Documentation
+- name: Community Training Documentation
   items:
    - name: Get Started
      items:
-      - name: Welcome to Microsoft Community Training
-        href: get-started/microsoft-community-training-overview.md
+      - name: Welcome to Community Training
+        href: get-started/community-training-overview.md
       - name: User roles and Management portal overview
         href: get-started/user-role-and-management-portal-overview.md
       - name: Step by step configuration guide for platform setup
@@ -232,48 +232,48 @@
         href: frequently-asked-questions/security-and-privacy.md
       - name: Platform Extensibility & Integration
         href: frequently-asked-questions/custom-integration.md
-   - name: What's new in Microsoft Community Training
+   - name: What's new in Community Training
      items:
-      - name: What's new in Microsoft Community Training
-        href: whats-new-in-microsoft-community-training/whats-new-in-microsoft-community-training.md
+      - name: What's new in Community Training
+        href: whats-new-in-community-training/whats-new-in-community-training.md
       - name: 2023
         items:
          - name: What's new in March 2023
-           href: whats-new-in-microsoft-community-training/2023/Whats-new-in-march-2023.md
+           href: whats-new-in-community-training/2023/Whats-new-in-march-2023.md
       - name: 2022
         items:
          - name: What's new in February 2022
-           href: whats-new-in-microsoft-community-training/2022/whats-new-in-february-2022.md
+           href: whats-new-in-community-training/2022/whats-new-in-february-2022.md
          - name: What's new in May 2022
-           href: whats-new-in-microsoft-community-training/2022/whats-new-in-may-2022.md
+           href: whats-new-in-community-training/2022/whats-new-in-may-2022.md
          - name: What's new in August 2022
-           href: whats-new-in-microsoft-community-training/2022/whats-new-in-august-2022.md
+           href: whats-new-in-community-training/2022/whats-new-in-august-2022.md
          - name: What's new in December 2022
-           href: whats-new-in-microsoft-community-training/2022/whats-new-in-december-2022.md
+           href: whats-new-in-community-training/2022/whats-new-in-december-2022.md
       - name: 2021
         items:
          - name: What's new in March 2021
-           href: whats-new-in-microsoft-community-training/2021/what-new-in-march-2021.md
+           href: whats-new-in-community-training/2021/what-new-in-march-2021.md
          - name: What's new in July 2021
-           href: whats-new-in-microsoft-community-training/2021/what-new-in-july-2021.md
+           href: whats-new-in-community-training/2021/what-new-in-july-2021.md
          - name: What's new in October 2021
-           href: whats-new-in-microsoft-community-training/2021/whats-new-in-october-2021.md
+           href: whats-new-in-community-training/2021/whats-new-in-october-2021.md
       - name: 2020
         items:
          - name: What's new in February 2020
-           href: whats-new-in-microsoft-community-training/2020/whats-new-in-february-2020.md
+           href: whats-new-in-community-training/2020/whats-new-in-february-2020.md
          - name: What's new in April 2020
-           href: whats-new-in-microsoft-community-training/2020/whats-new-in-april-2020.md
+           href: whats-new-in-community-training/2020/whats-new-in-april-2020.md
          - name: What's new in June 2020
-           href: whats-new-in-microsoft-community-training/2020/whats-new-in-june-2020.md
+           href: whats-new-in-community-training/2020/whats-new-in-june-2020.md
          - name: What's new in August 2020
-           href: whats-new-in-microsoft-community-training/2020/whats-new-in-august-2020.md
+           href: whats-new-in-community-training/2020/whats-new-in-august-2020.md
          - name: What's new in December 2020
-           href: whats-new-in-microsoft-community-training/2020/whats-new-in-december-2020.md
+           href: whats-new-in-community-training/2020/whats-new-in-december-2020.md
    - name: Learning in Offline Mode
      items:
-     - name: Offline Learning with Microsoft Community Training
-       href: learning-in-offline-mode/offline-learning-with-microsoft-community-training.md
+     - name: Offline Learning with Community Training
+       href: learning-in-offline-mode/offline-learning-with-community-training.md
      - name: Azure IOT Hub Initial Setup
        href: learning-in-offline-mode/azure-IOT-hub-initial-setup.md
      - name: Azure IOT Edge Device Setup

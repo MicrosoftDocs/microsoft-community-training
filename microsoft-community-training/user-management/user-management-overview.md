@@ -3,13 +3,13 @@ title: User Management - Overview
 original-url: https://docs.microsoftcommunitytraining.com/docs/user-management-overview
 author: nikotha
 ms.author: nikotha
-description: "Microsoft Community Training Management portal allows administrators an easy way to delegate/automate administrative tasks like user onboarding, course enrollment, etc. and empower the ground level facilitators/trainers to drive engagement and adoption of the learning program across your training audience."
+description: "Community Training Management portal allows administrators an easy way to delegate/automate administrative tasks like user onboarding, course enrollment, etc. and empower the ground level facilitators/trainers to drive engagement and adoption of the learning program across your training audience."
 ms.prod: learning-azure
 ---
 
 # User Management - Overview
 
-Microsoft Community Training Management portal allows administrators an easy way to delegate/automate administrative tasks like user onboarding, course enrollment, etc. and empower the ground level facilitators/trainers to drive engagement and adoption of the learning program across your training audience.
+Community Training Management portal allows administrators an easy way to delegate/automate administrative tasks like user onboarding, course enrollment, etc. and empower the ground level facilitators/trainers to drive engagement and adoption of the learning program across your training audience.
 
 All the user management functionalities are stacked together in a single panel **under the Users Tab** – a one-stop-shop for administrators to manage users and course enrollments on the management portal. From the users tab, administrators can [**add users**](./add-users/add-users-to-the-portal-1.md) and assign administrative roles, [**create groups**](./organize-users/create-a-new-group.md), assign courses, track progress and much more.
 
@@ -19,7 +19,7 @@ In this article, you will learn how to use the management portal capabilities to
 
 ## Types of Users
 
-In Microsoft Community Training platform, there are two types of users - a Learner and an Administrator.
+In Community Training platform, there are two types of users - a Learner and an Administrator.
 
 ### Learner
 
@@ -110,7 +110,7 @@ Management portal provides real-time analytics and reports to track learners pro
 
 ## Steps to add users and assign content on the portal
 
-Microsoft Community Training platform provides specific set of features to help administrator with activities such as adding learners, creating groups and assigning content. Given below are the simple steps to get started with user management on the management portal:
+Community Training platform provides specific set of features to help administrator with activities such as adding learners, creating groups and assigning content. Given below are the simple steps to get started with user management on the management portal:
 
 1. Create groups on the management portal
 

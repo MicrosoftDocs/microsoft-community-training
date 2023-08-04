@@ -9,7 +9,7 @@ ms.prod: learning-azure
 
 # Group view
 
-Group admin are responsible to drive engagement and monitor course completion for learners on the ground. To support group admins in these tasks, Microsoft Community Training platform provide group level analytics inside the management portal to track learning progress for a cohort of learners and take relevant actions.
+Group admin are responsible to drive engagement and monitor course completion for learners on the ground. To support group admins in these tasks, Community Training platform provide group level analytics inside the management portal to track learning progress for a cohort of learners and take relevant actions.
 
 To access the group view, you need to select a Group from the list of groups under the Users tab in the management portal. On the group details page itself, relevant information about learner’s progress and course completion will be displayed to the administrator.
 
@@ -17,7 +17,7 @@ In this article, you will learn more about different metrics and reports availab
 
 ## Permissions Level
 
-The Microsoft Community Training management portal provides role-based administration and depending upon the type of access level administrator can perform an action on the portal. Table below shows administrative role which can access the group view:  
+The Community Training management portal provides role-based administration and depending upon the type of access level administrator can perform an action on the portal. Table below shows administrative role which can access the group view:  
 
 |Access Level|  Group View|
  |---|---|
@@ -32,7 +32,7 @@ The Microsoft Community Training management portal provides role-based administr
 
 ## Track overall learners progress and performance in a group
 
-On the group details page, admin can view the list of all learners in the group each with course completion , average quiz score, courses enrolled by group admin, certificates received is displayed.
+On the group details page, admin can view the list of all learners in the group each with course completion , average assessment score, courses enrolled by group admin, certificates received is displayed.
 
 * For example, image shows the group analytics details for the employees in Mumbai region
 
@@ -44,7 +44,7 @@ In the grid view, for each learner, group admin can see the following informatio
 
 2. **Course Enrollments**: Total # of courses assigned by the group admin for a participant in the group
 
-3. **Quiz Score**: Average of the quiz score (including exam) of a learner across all the completed courses
+3. **Assessment Score**: Average of the assessment score (including exam) of a learner across all the completed courses
 
 4. **Certificates received**: # of certificates received by a learner for completed courses
 

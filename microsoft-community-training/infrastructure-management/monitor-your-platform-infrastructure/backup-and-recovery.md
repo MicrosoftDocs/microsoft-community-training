@@ -3,13 +3,13 @@ title: Backup and recovery of your platform instance
 original-url: https://docs.microsoftcommunitytraining.com/docs/backup-and-recovery
 author: nikotha
 ms.author: nikotha
-description: As a Microsoft Community Training customer, we can ensure that in case of unforeseen failures and disasters, your data – which includes all your content, user data and other branding assets - is safe and secure.
+description: As a Community Training customer, we can ensure that in case of unforeseen failures and disasters, your data – which includes all your content, user data and other branding assets - is safe and secure.
 ms.prod: learning-azure
 ---
 
 # Backup and recovery of your platform instance
 
-As a Microsoft Community Training customer, we can ensure that in case of unforeseen failures and disasters, your data – which includes all your content, user data and other branding assets - is safe and secure. By default, Backup and Recovery is built-in. Refer [**this article**](/azure/backup/backup-overview) to learn more.
+As a Community Training customer, we can ensure that in case of unforeseen failures and disasters, your data – which includes all your content, user data and other branding assets - is safe and secure. By default, Backup and Recovery is built-in. Refer [**this article**](/azure/backup/backup-overview) to learn more.
 
 ## Azure Key Vault
 

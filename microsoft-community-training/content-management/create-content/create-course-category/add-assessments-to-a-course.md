@@ -3,13 +3,13 @@ title: Add non-graded assessment and graded assessment for a course
 original-url: https://docs.microsoftcommunitytraining.com/docs/add-assessments-to-a-course
 author: nikotha
 ms.author: nikotha
-description: Microsoft Community Training platform allows trainers to add assessments as a way to evaluate learners on their knowledge and proficiency.
+description: Community Training platform allows trainers to add assessments as a way to evaluate learners on their knowledge and proficiency.
 ms.prod: learning-azure
 ---
 
 # Add non-graded and graded assessments to a course
 
-Microsoft Community Training platform allows trainers to add assessments as a way to evaluate learners on their knowledge and proficiency. The platform provides two types of assessments in the form of non-graded assessments and graded assessments containing one or more multiple-choice questions.
+Community Training platform allows trainers to add assessments as a way to evaluate learners on their knowledge and proficiency. The platform provides two types of assessments in the form of non-graded assessments and graded assessments containing one or more multiple-choice questions.
 
 **Non-graded Assessments** - A non-graded assessment serves as a refresher for learners and facilitate revision of a particular lesson. There is no limit to the number of assessments you can add to a course.
 
@@ -19,7 +19,7 @@ In this article, you will learn more about how to add assessments to a course fo
 
 ## Permission Level
 
-The Microsoft Community Training  management portal provides role-based administration and depending upon the type of access level administrators can perform an action on the portal. Table below shows administrative role which are allowed to add non-graded and graded assessments to a course in the portal:
+The Community Training  management portal provides role-based administration and depending upon the type of access level administrators can perform an action on the portal. Table below shows administrative role which are allowed to add non-graded and graded assessments to a course in the portal:
 
 | Access Level  | Add assessments to a course |
 | --- | --- |
@@ -37,7 +37,7 @@ In this article, you will learn about how to add non-graded assessments to a cou
 > [!TIP]
 > Use the non-graded assessments after every 2-3 lessons to help learners retain and revise the learning concept. Keep the questions short and simple.  Answering correctly makes the learner want to go to the next lesson, ensuring higher completion rate of courses.)
 
-1. On the Microsoft Community Training portal, login and [**switch to administrator view**](../../../get-started/step-by-step-configuration-guide.md#step-2--switch-to-administrator-view-of-the-portal).
+1. On the Community Training portal, login and [**switch to administrator view**](../../../get-started/step-by-step-configuration-guide.md#step-2--switch-to-administrator-view-of-the-portal).
 
 2. Under Course tab, select the course under a category in the list to which you want to add a non-graded assessments.
 
@@ -88,7 +88,7 @@ In this article, you will learn about how to add a graded assessment to a course
 > [!TIP]
 > Use the graded assessment to evaluate the knowledge of a learner that is acquired from the course. Keep a fair pass percentage based on the degree of difficulty and number of attempts as required for the role.
 
-1. On the Microsoft Community Training portal, login and [**switch to administrator view**](../../../get-started/step-by-step-configuration-guide.md#step-2--switch-to-administrator-view-of-the-portal).
+1. On the Community Training portal, login and [**switch to administrator view**](../../../get-started/step-by-step-configuration-guide.md#step-2--switch-to-administrator-view-of-the-portal).
 
 2. Under Course tab, select the course under a category in the list to which you want to add an Exam.
 

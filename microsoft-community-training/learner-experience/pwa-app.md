@@ -3,7 +3,7 @@ title: Learner Experience on PWA based mobile app
 original-url: https://docs.microsoftcommunitytraining.com/docs/pwa-app
 author: v-sambati
 ms.author: v-sambati
-description: This article explains how learners can access the training content using the PWA based Android mobile application for the Microsoft Community Training platform instance setup for your organization.
+description: This article explains how learners can access the training content using the PWA based Android mobile application for the Community Training platform instance setup for your organization.
 ms.prod: learning-azure
 ---
 
@@ -22,11 +22,11 @@ This article explains how learners can access the training content using the [PW
 3. Once the app is installed, tap the app icon to launch the app
 
 > [!NOTE]
-> Microsoft Community Training platform lets every organization create a custom white-labelled mobile app. Learners need to get the name of the training app published on the Play Store from the administrator.
+> Community Training platform lets every organization create a custom white-labelled mobile app. Learners need to get the name of the training app published on the Play Store from the administrator.
 
 ### Option 2: Install from browser
 
-1. For mobile devices (Android), users can install PWA by clicking on the prompt (add to home screen banner) that they receive while browsing your MCT instance or clicking on ‘install app’ from browser options.
+1. For mobile devices (Android), users can install PWA by clicking on the prompt (add to home screen banner) that they receive while browsing your CT instance or clicking on ‘install app’ from browser options.
 
     :::image type="content" source="../media/Screenshot_20210930-161736_Chrome (3).jpg" alt-text="pwainstallimage":::
 
@@ -113,6 +113,6 @@ This article explains how learners can access the training content using the [PW
 >
 > * Meta data for content in 'Recently Deleted' section would be retained for 90 days
 >
-> * Currently MCT supports offline download (in PWA) for PDF, EPUB, video, audio files. Plan to extend support for offline download for other formats (html, docx, xlsx, SCORM etc) is in roadmap.
+> * Currently CT supports offline download (in PWA) for PDF, EPUB, video, audio files. Plan to extend support for offline download for other formats (html, docx, xlsx, SCORM etc) is in roadmap.
 >
 > * Only Non-Graded Assessments can be taken and submitted offline. Graded Assessments can only be taken while online.

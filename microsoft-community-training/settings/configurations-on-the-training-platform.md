@@ -3,15 +3,15 @@ title: Configurations on the Training Platform
 original-url: https://docs.microsoftcommunitytraining.com/docs/configurations-on-the-training-platform
 author: nikotha
 ms.author: nikotha
-description: This document details the customizations supported on the Microsoft Community Training platform for administrator and learner capabilities.
+description: This document details the customizations supported on the Community Training platform for administrator and learner capabilities.
 ms.prod: learning-azure
 ---
 
 # Configurations on the Training Platform
 
-You can customize the learner and administrator experience on the Microsoft Community Training platform to fit the needs of your specific training program.
+You can customize the learner and administrator experience on the Community Training platform to fit the needs of your specific training program.
 
-In this article, you will learn about the different configuration options available on the Microsoft Community Training platform and how to enable or disable the configurations.
+In this article, you will learn about the different configuration options available on the Community Training platform and how to enable or disable the configurations.
 
 ## Steps to set the Configurations on the Platform
 
@@ -21,7 +21,7 @@ In this article, you will learn about the different configuration options availa
 
     ![Select App Service.png](../media/Select%20App%20Service%281%29.png)
 
-3. Click on the app service belonging to your Microsoft Community Training instance.
+3. Click on the app service belonging to your Community Training instance.
 
 4. Select Configuration under settings from the left-menu.
 
@@ -108,7 +108,7 @@ By default, this feature remains enabled. But, the administrators have the flexi
 Features:Events
 ```
 
-Microsoft Community Training portal utilizes **Microsoft Azure Service Bus** to integrate with other supporting Azure services (like Azure Storage, Azure Media Service) for enhancing user experience. All events that trigger the service bus can be tracked and further be used for specific actions. You can enable this feature to get updates on specific triggers.
+Community Training portal utilizes **Microsoft Azure Service Bus** to integrate with other supporting Azure services (like Azure Storage, Azure Media Service) for enhancing user experience. All events that trigger the service bus can be tracked and further be used for specific actions. You can enable this feature to get updates on specific triggers.
 
 By default, this feature remains in **disabled** state.
 
@@ -118,7 +118,7 @@ By default, this feature remains in **disabled** state.
 Features:IsMultiOrgDeployment
 ```
 
-Microsoft Community Training portal allows you to [manage the portal with multiple organization](../user-management/organization-management.md). An organization comprises of a group of learners and administrators on your training platform who have a particular purpose or belong to a specific criteria. You can enable/disable this feature depending upon your requirements.
+Community Training portal allows you to [manage the portal with multiple organization](../user-management/organization-management.md). An organization comprises of a group of learners and administrators on your training platform who have a particular purpose or belong to a specific criteria. You can enable/disable this feature depending upon your requirements.
 
 By default, this feature remains disabled with value **False**, therefore not allowing administrators to create multiple organizations.
 
@@ -128,7 +128,7 @@ By default, this feature remains disabled with value **False**, therefore not al
 Features:disableProfileEditForNonSuperAdmin
 ```
 
-MCT allows you to restrict ability of editing learner profiles for administrators other than global admin. If you choose to have only Global admin to edit learner profiles in MCT you can set this value to **true**
+CT allows you to restrict ability of editing learner profiles for administrators other than global admin. If you choose to have only Global admin to edit learner profiles in CT you can set this value to **true**
 
 ## Hide Navigation bar for Learners
 
@@ -136,7 +136,7 @@ MCT allows you to restrict ability of editing learner profiles for administrator
 Features:HideTopNavBarForLearner
 ```
 
-The portal allows you to embed the Microsoft Community Training platform in another application with independent authentication mechanism. In such scenario, the administrator can hide the top navigation bar on the learner's view. You can enable/disable this feature depending upon the specific requirements.
+The portal allows you to embed the Community Training platform in another application with independent authentication mechanism. In such scenario, the administrator can hide the top navigation bar on the learner's view. You can enable/disable this feature depending upon the specific requirements.
 
 By default, this feature is disabled with value as **False**.
 
@@ -152,13 +152,13 @@ The portal allows you to embedded the platform into iFrame or webview so that it
 
 By default, this feature is disabled with the value **False** so that embedding is not supported.
 
-## Allow external video embedding into MCT
+## Allow external video embedding into CT
 
 ```Allow external video embedding
 AllowEmbedDomains
 ```
 
-The portal allows external website's content to play inside Microsoft Community Training portal as inline lesson. You can add different domains, for which content embedding is required.
+The portal allows external website's content to play inside Community Training portal as inline lesson. You can add different domains, for which content embedding is required.
 
 By default, it remains empty. You can add domain names into the **value** field to allow embedding (For Example: dailymotion.com).
 
@@ -192,13 +192,13 @@ By default, this feature is kept disabled with value as **False** for permitting
 Features:AutoEnrollCourseEnabled
 ```
 
-MCT portal allows you to disable marking course as Auto-enroll while creating [**new course**](/azure/industry/training-services/microsoft-community-training/content-management/create-content/create-course-category/create-a-new-course). By default, admin can create auto-enroll courses is enabled and to disable this you need to set the value as **false**
+CT portal allows you to disable marking course as Auto-enroll while creating [**new course**](/azure/industry/training-services/microsoft-community-training/content-management/create-content/create-course-category/create-a-new-course). By default, admin can create auto-enroll courses is enabled and to disable this you need to set the value as **false**
 
 :::image type="content" source="../media/featuredisableautoenrollcourse.png" alt-text="autoenrollcourse":::
 
 ## Enable PDF Download feature in the lessons
 
-MCT portal allows you to enable the Download feature for the PDF lessons in the learner’s view of the platform.
+CT portal allows you to enable the Download feature for the PDF lessons in the learner’s view of the platform.
 
 ```Enable
 EnablePDFLessonDownload
@@ -220,13 +220,13 @@ By default, this feature is kept disabled with value as **False**, ensuring that
 
 ## Link External Website on Learner Homepage
 
-MCT portal allows you to provide a link to an external website on the learner’s homepage for allowing the learners quick access to a preferred website.
+CT portal allows you to provide a link to an external website on the learner’s homepage for allowing the learners quick access to a preferred website.
 
 ``` Website-Name
 Features:ExternalWebsite:Name
 ```
 
-Value: Name you want display (Example – Microsoft Community Training)
+Value: Name you want display (Example – Community Training)
 
 :::image type="content" source="../media/EL5.png" alt-text="External link 5":::
 
@@ -244,7 +244,7 @@ Click or tap on **Save** icon to complete this process.
 
 :::image type="content" source="../media/EL6.png" alt-text="External link 6":::
 
-Switch to the learner’s view on your instance and click on profile picture. Now you would be able to see the external link available on the panel, as shown in image below (**visit Microsoft Community Training**):
+Switch to the learner’s view on your instance and click on profile picture. Now you would be able to see the external link available on the panel, as shown in image below (**visit Community Training**):
 
 :::image type="content" source="../media/el7.png" alt-text="External link 7":::
 
@@ -260,20 +260,20 @@ In Value tab, provide the two letter Alpha-2 country code. Example - For setting
 
 :::image type="content" source="../media/Default country.PNG" alt-text="Def_country":::
 
-## Disable MS Teams integration with MCT
+## Disable MS Teams integration with CT
 
 ```disable MS Teams integration  
 deploymentType
 ```
 
-When setting up the MCT instance, if you had opted for MS Teams integration with MCT by selecting "Yes" under **Enable Microsoft Teams?** and would now like to proceed without MS Teams integration, MCT allows you to disable this deeper teams integration using this Application Configuration.
+When setting up the CT instance, if you had opted for MS Teams integration with CT by selecting "Yes" under **Enable Microsoft Teams?** and would now like to proceed without MS Teams integration, CT allows you to disable this deeper teams integration using this Application Configuration.
 
 To disable this MS Teams integration, update this app setting with **value “0”**
 
 >[!Warning]
 >
->- MS Teams integration comes with MCT instances with authentication type as "Work or School Account".
->- Once you disable the MS Teams integration, you would be able to add users to the platform via MCT Admin UI.
+>- MS Teams integration comes with CT instances with authentication type as "Work or School Account".
+>- Once you disable the MS Teams integration, you would be able to add users to the platform via CT Admin UI.
 
 :::image type="content" source="../media/Disable MS Teams integration.PNG" alt-text="Disable teams integration":::
 
@@ -299,7 +299,7 @@ By default, the application setting is marked as "**False**"i.e. on de-assignmen
 
 ## Mask User details for Admin
 
-MCT platform supports masking of user data, this will help in creating additional security to restrict admin from glancing sensitive user information.
+CT platform supports masking of user data, this will help in creating additional security to restrict admin from glancing sensitive user information.
 
 You can enable masking of your user data by setting Features:Masking:IsProfileFieldsMaskEnabled to **true**
 

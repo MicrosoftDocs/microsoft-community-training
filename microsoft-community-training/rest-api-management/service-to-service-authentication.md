@@ -3,15 +3,15 @@ title: Service to Service Authentication
 original-url: https://docs.microsoftcommunitytraining.com/docs/service-to-service-authentication
 author: nikotha
 ms.author: nikotha
-description: Microsoft Community Training APIs support Service to Service (S2S) authentication to allow any external service to call the APIs without requiring a user to explicitly login to any MCT instance. 
+description: Community Training APIs support Service to Service (S2S) authentication to allow any external service to call the APIs without requiring a user to explicitly login to any CT instance. 
 ms.prod: learning-azure
 ---
 
 # Service to Service Authentication
 
-Microsoft Community Training APIs support Service to Service (S2S) authentication to allow any external service to call the APIs without requiring a user to explicitly login to any MCT instance.
+Community Training APIs support Service to Service (S2S) authentication to allow any external service to call the APIs without requiring a user to explicitly login to any CT instance.
 
-Please follow the following steps to enable any external service to call Microsoft Community Training APIs:
+Please follow the following steps to enable any external service to call Community Training APIs:
 
 ## Step 1:  Register Service Application
 
@@ -22,12 +22,12 @@ Register the service app:
 2. If you have access to multiple tenants, use the **Directory + subscription filter** ![Directory, subscription filter](../media/image%28368%29.png) in the top menu to select the tenant in which you want to register an application.
 
     > [!NOTE]
-    > The Service Application to be registered must be created in the same Azure tenant as that of concerned MCT instance.
+    > The Service Application to be registered must be created in the same Azure tenant as that of concerned CT instance.
 
 3. Search for and select Azure Active Directory.
 4. Under Manage, select App registrations > New registration.
 5. When the Register an application page appears, enter your application's registration information:
-    - In the Name section, enter a meaningful application name that will be displayed to users of the app (e.g. MCT service).
+    - In the Name section, enter a meaningful application name that will be displayed to users of the app (e.g. CT service).
     - Leave Supported account types on the default setting of Accounts in this organizational directory only.
 6. Select Register to create the application.
 7. Select the Expose an API section, and:
@@ -88,7 +88,7 @@ The overview page of registered application looks like:
 
 ## Step 2: Register Client Application(s)
 
-For each of the applications which would call the Microsoft Community Training API’s, follow the steps under **Approach 1** or **Approach 2** below based on the type of application which would call the APIs.
+For each of the applications which would call the Community Training API’s, follow the steps under **Approach 1** or **Approach 2** below based on the type of application which would call the APIs.
 
 ### Approach 1:  If the API calling service is hosted in Azure ([List of the services](/azure/active-directory/managed-identities-azure-resources/services-support-managed-identities))
 
@@ -126,7 +126,7 @@ Follow the steps mentioned below to Register the Client app.
 7. In the list of pages for the app, select **API permissions.**
     - Click the **Add a permission** button and then,
     - Ensure that the **My APIs** tab is selected.
-    - Select the API created in the previous step (e.g. MCT service created in the “Register Service application” step).
+    - Select the API created in the previous step (e.g. CT service created in the “Register Service application” step).
     - In the Application permissions section, ensure that the right permissions are checked (e.g.  S2SAppRole created in “**Register Service application**” step)
     - Select the **Add permissions** button.
 8. At this stage permissions are assigned correctly but the client app does not allow interaction. Therefore, no consent can be presented via a UI and accepted to use the service app. Click the **Grant/revoke admin consent for {tenant}** button, and then select **Yes** when you are asked if you want to grant consent for the requested permissions for all account in the tenant. You need to be an Azure AD tenant admin to do this.
@@ -149,7 +149,7 @@ Follow the steps mentioned below to Register the Client app.
 
 ## Step 3: Configure the Azure App Service
 
-1. Go the resource group created as part of the Microsoft Community Training deployment
+1. Go the resource group created as part of the Community Training deployment
 2. Under the list of resources, go the “App Service” resource
     > [!WARNING]
     > The name of this resource would be the same name which was provided as the Website name at the time of deployment creation.  
@@ -170,4 +170,4 @@ Follow the steps mentioned below to Register the Client app.
 > [!WARNING]
 > While making Service auth calls, add a new header with key: ClientType and value: Service.
 
-The client(s) created above should now be able to call the Microsoft Community Training APIs. Add the token(s) generated above to the [**Rest APIs**](../rest-api-management/api-documentation.md) exposed by the platform.
+The client(s) created above should now be able to call the Community Training APIs. Add the token(s) generated above to the [**Rest APIs**](../rest-api-management/api-documentation.md) exposed by the platform.

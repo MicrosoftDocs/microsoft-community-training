@@ -15,7 +15,7 @@ By default, your training portal is hosted on ***\<name>.azurefd.net***   where 
 
 Some customers may prefer to keep their domain name at different providers for branding and trust purposes. We give you the option to “map” your learning portal to a domain of your choice.
 
-If you’re looking to host your Microsoft Community Training instance on a custom domain of your choice, follow the instructions below.
+If you’re looking to host your Community Training instance on a custom domain of your choice, follow the instructions below.
 
 ## Before you begin
 
@@ -24,21 +24,21 @@ If you’re looking to host your Microsoft Community Training instance on a cust
 
 ## Steps to configure your custom domain URL
 
-1. [**Map the custom DNS name**](/azure/frontdoor/front-door-custom-domain#create-a-cname-dns-record) to point to your Microsoft Community Training instance, using a CNAME DNS record.
+1. [**Map the custom DNS name**](/azure/frontdoor/front-door-custom-domain#create-a-cname-dns-record) to point to your Community Training instance, using a CNAME DNS record.
 
 > [!NOTE]
-> Add your **Front Door URL** of your MCT instance wherever specified in the above documentation. It typically looks like *`https://<InstanceName>.azurefd.net/`*
+> Add your **Front Door URL** of your CT instance wherever specified in the above documentation. It typically looks like *`https://<InstanceName>.azurefd.net/`*
 
-2. [**Associate the mapped custom domain**](/azure/frontdoor/front-door-custom-domain#associate-the-custom-domain-with-your-front-door), with your Microsoft Community Training instance's Front Door resource.
+2. [**Associate the mapped custom domain**](/azure/frontdoor/front-door-custom-domain#associate-the-custom-domain-with-your-front-door), with your Community Training instance's Front Door resource.
 
-3. [**Configure the SSL certificate**](/azure/frontdoor/front-door-custom-domain-https) for your Microsoft Community Training instance.  
+3. [**Configure the SSL certificate**](/azure/frontdoor/front-door-custom-domain-https) for your Community Training instance.  
 Use an [**AFD managed certificate**](/azure/frontdoor/front-door-custom-domain-https#option-1-default-use-a-certificate-managed-by-front-door) for seamless certificate management, including procurement and renewal.
 
 4. Enable Web Application Firewall on your new domain.  
 (the setting is available just below the Custom Domain HTTPS configuration)  
 Select the WAF policy instance that is deployed in the same resource group.
 
-5. Click on the resource group belonging to your Microsoft Community Training instance.
+5. Click on the resource group belonging to your Community Training instance.
 
 6. Click on the Managed application instance.
 

@@ -3,19 +3,19 @@ title: Rest API Documentation
 original-url: https://docs.microsoftcommunitytraining.com/docs/api-documentation
 author: nikotha
 ms.author: nikotha
-description: Microsoft Community Training platform exposes its APIs for integration with another service or application.
+description: Community Training platform exposes its APIs for integration with another service or application.
 ms.prod: learning-azure
 ---
 
 # Rest API Documentation
 
-Microsoft Community Training platform exposes its APIs for integration with another service or application. You can use the APIs to automate flows and build new capabilities on top of the out-of-the-box features part of the training platform.
+Community Training platform exposes its APIs for integration with another service or application. You can use the APIs to automate flows and build new capabilities on top of the out-of-the-box features part of the training platform.
 
 In this article, you will learn more about the API signatures and their authentication flows in respective sections.
 
 ## API Signatures
 
-Apply the following steps to access the Rest API signatures exposed by the Microsoft Community Training platform.
+Apply the following steps to access the Rest API signatures exposed by the Community Training platform.
 
 1. From your [Azure portal](https://ms.portal.azure.com/#home) search for and select App Services, and then select your app.
 
@@ -48,7 +48,7 @@ Apply the following steps to access the Rest API signatures exposed by the Micro
 
 ## API Authentication
 
-A user can authenticate for using the Microsoft Community Training APIs by either of the following methods.
+A user can authenticate for using the Community Training APIs by either of the following methods.
 
 ### Method 1 : Service to Service Authentication
 

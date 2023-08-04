@@ -8,12 +8,12 @@ ms.service: power-bi-embedded
 ms.date: 07/21/2021
 ms.topic: conceptual
 ms.custom: internal-contributor-guide
-#<Customer intent: As a customer of Microsoft Community Training platform, I need to know how to use the different capabilities available on the platform for a learner and an administrator.
+#<Customer intent: As a customer of Community Training platform, I need to know how to use the different capabilities available on the platform for a learner and an administrator.
 ---
 
 # Power BI Integration
 
-Microsoft Community Training platform stores all customer data in the Azure SQL database which is part of customer's Azure Subscription. Customers can access the database to build custom reports (using analytics tools such as PowerBI) and run SQL queries for specific operations.
+Community Training platform stores all customer data in the Azure SQL database which is part of customer's Azure Subscription. Customers can access the database to build custom reports (using analytics tools such as PowerBI) and run SQL queries for specific operations.
 
 In this article, you will learn more about connecting Power BI with the Azure SQl Database to build custom reports for your organization.
 
@@ -21,14 +21,14 @@ In this article, you will learn more about connecting Power BI with the Azure SQ
 
 ### Prerequisites  
 
-1. Administrator access to the Azure Portal where the Microsoft Community Training platform is hosted.
+1. Administrator access to the Azure Portal where the Community Training platform is hosted.
 2. Azure SQL server User ID & Password. To view / retrieve your SQL Servers User ID & Password refer to [this document](database-schema.md).  
 3. Storing Client IP to Firewall (If you are using a dynamic IP, make sure to add the same on the fire wall every time when it changes).
 4. Access to Power BI Application in your organization.
 
 ### Step 1 - Obtaining Server Name
 
-1. From your MCT’s SQL Database click on connection strings.
+1. From your CT’s SQL Database click on connection strings.
 
 2. On the top bar select the option PHP.
 
@@ -36,7 +36,7 @@ In this article, you will learn more about connecting Power BI with the Azure SQ
 
 3. You will be able to view your SQL Databases server name and username (As highlighted in the below screen shoot)
 
-### Step 2 – Connecting Power BI with MCT SQL Database
+### Step 2 – Connecting Power BI with CT SQL Database
 
 1. Open Power BI → click on the get data icon and select more.
 
@@ -70,7 +70,7 @@ To help you get started on creating your own PowerBI reports here are some sampl
 
 The pbix files for the sample reports can be downloaded from here -
 
->[**MCT PowerBI custom Dashboard.zip**](https://github.com/MicrosoftDocs/microsoft-community-training/files/7013084/MCT_Sample.Reports.PowerBI.zip)
+>[**CT PowerBI custom Dashboard.zip**](https://github.com/MicrosoftDocs/microsoft-community-training/files/7013084/MCT_Sample.Reports.PowerBI.zip)
 
 To be able to start using this dashboard you will need to replace the existing data source and connect the .pbix file with your own [**Database**](database-schema.md).
 
@@ -84,7 +84,7 @@ If you already have your credentials for connecting to DB then proceed to step3.
 
 3. Once you have credentials, server name, and database name we can go ahead to replace the data source in the dashboard provided. To do this we need to have [**Power BI**](/power-bi/fundamentals/desktop-getting-started) installed.
 
-4. Open the .pbix file from the [**MCT PowerBI custom Dashboard.zip**](https://github.com/MicrosoftDocs/microsoft-community-training/files/7013084/MCT_Sample.Reports.PowerBI.zip) that you downloaded and open it from your Power BI Desktop and go to ‘File’ from menu bar.
+4. Open the .pbix file from the [**CT PowerBI custom Dashboard.zip**](https://github.com/MicrosoftDocs/microsoft-community-training/files/7013084/MCT_Sample.Reports.PowerBI.zip) that you downloaded and open it from your Power BI Desktop and go to ‘File’ from menu bar.
 
     :::image type="content" source="../../media/BI_file.jpg" alt-text="file":::
 

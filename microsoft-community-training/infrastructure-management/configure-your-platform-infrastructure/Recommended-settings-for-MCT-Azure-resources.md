@@ -1,21 +1,21 @@
 ---
-title: MCT Azure resources settings(recommended)
+title: CT Azure resources settings(recommended)
 original-url: https://docs.microsoftcommunitytraining.com/docs/MCT-Azure-resources-settings-recommended
 author: v-nmadireddi
 ms.author: v-nmadireddi
-description: This article helps you configure the recommended azure resource settings for your MCT instance.
+description: This article helps you configure the recommended azure resource settings for your CT instance.
 ms.prod: learning-azure
 ---
 
-# Recommended settings for MCT Azure resources
+# Recommended settings for CT Azure resources
 
-Microsoft community training recommends few security settings to it's customers for the best use of azure resources.
+Community training recommends few security settings to it's customers for the best use of azure resources.
 
 ## Azure Storage
 
 Public access for blob should be disabled
 
-1. Go to the storage account of your MCT instance by searching for it in the search box present in home page.
+1. Go to the storage account of your CT instance by searching for it in the search box present in home page.
 
 
 :::image type="content" source="../../media/Azure_res1.PNG" alt-text="Kindly open the storage account":::
@@ -31,7 +31,7 @@ Public access for blob should be disabled
 
 Soft delete and purge protection
 
-1. Go to the key-vault of your MCT instance.
+1. Go to the key-vault of your CT instance.
 
 2. In the left menu, under settings click on properties.
 

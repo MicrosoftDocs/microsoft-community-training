@@ -76,7 +76,7 @@ If the sign-in process is successful, your browser is redirected to <https://jwt
 
 ## Step 4: Restart the web application and try to sign in
 
-Similarly, you can add one or more Azure AD(single tenant) to B2C to use those as social account. Once the configuration is successful, you will be able to find the AzureAD tenant as option of signing in to your MCT application.
+Similarly, you can add one or more Azure AD(single tenant) to B2C to use those as social account. Once the configuration is successful, you will be able to find the AzureAD tenant as option of signing in to your CT application.
 
 >[!NOTE]
 >When you are adding more than one tenant, follow the “[**add custom homepage**](set-up-custom-homepage-for-your-mct-instance.md)” document to add a custom homage and avoid any confusion while selecting the tenant.

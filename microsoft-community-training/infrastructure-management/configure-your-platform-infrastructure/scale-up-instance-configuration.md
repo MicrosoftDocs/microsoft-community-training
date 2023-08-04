@@ -19,13 +19,13 @@ In this article, we'll walk you through upscaling your platform resources to mee
 
 ### Pre-requisites
 
-Auto scale-out is only available for MCT **Standard SKU plan**.
+Auto scale-out is only available for CT **Standard SKU plan**.
 
 :::image type="content" source="../../media/10JanStd.png" alt-text="standard":::
 
 ### Option 1 - Enabling  auto scale-out during instance creation
 
-On the azure portal MCT instance creation blade, there will be a checkbox which denotes whether to enable auto-scale out for the instance. Checking the auto scale-out checkbox is enough.
+On the azure portal CT instance creation blade, there will be a checkbox which denotes whether to enable auto-scale out for the instance. Checking the auto scale-out checkbox is enough.
 
 :::image type="content" source="../../media/10JanAuto_1.png" alt-text="autoscaledep":::
 
@@ -39,7 +39,7 @@ If you have an existing instance, you can enable auto scale-out as mentioned bel
 
    ![Navigate Resource groups](../../media/image%2823%29.png)
 
-3. From the list of resource groups, click on the resource group belonging to your Microsoft Community Training instance
+3. From the list of resource groups, click on the resource group belonging to your Community Training instance
 
 4. From the list of resources, click on the function app resource that has name like `<your portal name>-fa-<random string>`.
 
@@ -86,7 +86,7 @@ If you have auto scale enabled in your instance and you wish to disable, you can
 
    ![Navigate Resource groups](../../media/image%2823%29.png)
 
-3. From the list of resource groups, click on the resource group belonging to your Microsoft Community Training instance
+3. From the list of resource groups, click on the resource group belonging to your Community Training instance
 
 4. From the list of resources, click on the function app resource that has name like `<your portal name>-fa-<random string>`.
 
@@ -112,7 +112,7 @@ Get more CPU, memory, disk space, and extra features like dedicated virtual mach
 
    ![Login Azure portal](../../media/image%28118%29.png)
 
-2. Click on the resource group belonging to your Microsoft Community Training instance.
+2. Click on the resource group belonging to your Community Training instance.
 
 3. Click on the Managed application instance.
 
@@ -142,7 +142,7 @@ Mitigate performance issues by dynamically add more resources to your database w
 
    ![Azure portal](../../media/image%28118%29.png)
 
-2. Click on the resource group belonging to your Microsoft Community Training instance.
+2. Click on the resource group belonging to your Community Training instance.
 
 3. Click on the Managed application instance.
 

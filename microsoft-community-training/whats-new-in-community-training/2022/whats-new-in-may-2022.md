@@ -2,17 +2,17 @@
 title: What's new in May 2022
 author: v-sambati
 ms.author: v-sambati
-description: This document details the new features and capabilities launched on the Microsoft Community Training platform in May 2022. 
+description: This document details the new features and capabilities launched on the Community Training platform in May 2022. 
 ms.prod: learning-azure
 ---
 
 # What’s new in May 2022
 
-We are excited to share the new product update of Microsoft Community Training with you! These features in this release are designed to enhance the management and delivery of online learning modules in a seamless manner to your community.
+We are excited to share the new product update of Community Training with you! These features in this release are designed to enhance the management and delivery of online learning modules in a seamless manner to your community.
 
-## SCORM content will now be supported on MCT platform
+## SCORM content will now be supported on CT platform
 
-We are excited to announce that with this release we are starting to support for [uploading SCORM packages](../../content-management/create-content/create-course-category/upload-content-to-a-course.md#option-1-manually-add-content-for-each-lesson-in-a-course) as lessons in MCT.
+We are excited to announce that with this release we are starting to support for [uploading SCORM packages](../../content-management/create-content/create-course-category/upload-content-to-a-course.md#option-1-manually-add-content-for-each-lesson-in-a-course) as lessons in CT.
 
 SCORM (Sharable Content Object Reference Model), is a set of technical standards for eLearning software products. We currently support for SCORM 1.2 version. [Learn more on SCORM](https://scorm.com/). The administrators will now be using the improvised user interface for adding the SCORM content, regular files and the external links.
 
@@ -20,7 +20,7 @@ SCORM (Sharable Content Object Reference Model), is a set of technical standards
 
 ## Assessment will now support some more question formats
 
-With this new release, assessments in MCT platform will now support [Fill Blank](../../content-management/create-content/create-course-category/add-assessments-to-a-course.md#fill-in-the-blank-question), [True/False](../../content-management/create-content/create-course-category/add-assessments-to-a-course.md#truefalse-question) as well as [multi-correct question](../../content-management/create-content/create-course-category/add-assessments-to-a-course.md#multi-choice---multi-correct-question) formats in addition to Single correct MCQs.
+With this new release, assessments in CT platform will now support [Fill Blank](../../content-management/create-content/create-course-category/add-assessments-to-a-course.md#fill-in-the-blank-question), [True/False](../../content-management/create-content/create-course-category/add-assessments-to-a-course.md#truefalse-question) as well as [multi-correct question](../../content-management/create-content/create-course-category/add-assessments-to-a-course.md#multi-choice---multi-correct-question) formats in addition to Single correct MCQs.
 
 :::image type="content" source="../../media/Assessment - question type.PNG" alt-text="question type":::
 
@@ -36,31 +36,31 @@ Administrators can now search through [content available in Marketplace](../../c
 
 ## Supporting Global Content which can be accessed across organization
 
-MCT now supports content that can be accessed globally by all organizations within that instance. This content (aka [Global Content](../../content-management/content-management-overview.md#enabling-global-content-across-organizations)) needs to be created in "Common" organization in order to be accessible.
+CT now supports content that can be accessed globally by all organizations within that instance. This content (aka [Global Content](../../content-management/content-management-overview.md#enabling-global-content-across-organizations)) needs to be created in "Common" organization in order to be accessible.
 
 ## Enhancements to MS Teams based instance with multiple tenants
 
-1. **Content Management:** [Global content](../../content-management/content-management-overview.md#enabling-global-content-across-organizations) can be made accessible to users across Organizations and multiple tenants for Teams based deployments (tenants are mapped to Organizations in MCT)
+1. **Content Management:** [Global content](../../content-management/content-management-overview.md#enabling-global-content-across-organizations) can be made accessible to users across Organizations and multiple tenants for Teams based deployments (tenants are mapped to Organizations in CT)
 
 2. **User Management:** For Teams deployment with multiple tenants, Global Admin would be able to view users across tenants while the Organization (Tenant) Administrators would be able to view users belonging to their tenant.
 
 ## Increase in upload size limit of files
 
-MCT now has increased the upload size limit to 100MB for PPT, PPTX, DOCX files.
+CT now has increased the upload size limit to 100MB for PPT, PPTX, DOCX files.
 
 ## Current Organization Admin can add other admin to the Organization
 
-MCT now allows an organization administrator to [add one or more administrators to their respective Organizations](../../user-management/add-users/add-an-administrator-to-the-portal.md#adding-one-or-more-admins-to-an-organization-by-organization-admin). Also, the Organization Administrators will be able to see the list of admins for their organizations.
+CT now allows an organization administrator to [add one or more administrators to their respective Organizations](../../user-management/add-users/add-an-administrator-to-the-portal.md#adding-one-or-more-admins-to-an-organization-by-organization-admin). Also, the Organization Administrators will be able to see the list of admins for their organizations.
 
 ## Enabling PDF Download feature in learner view
 
-MCT portal now allows to enable the [download feature for the PDF lessons](../../settings/configurations-on-the-training-platform.md#enable-pdf-download-feature-in-the-lessons) in the learner’s view of the platform.
+CT portal now allows to enable the [download feature for the PDF lessons](../../settings/configurations-on-the-training-platform.md#enable-pdf-download-feature-in-the-lessons) in the learner’s view of the platform.
 
 :::image type="content" source="../../media/Enable PDF Download learner view v2.png" alt-text="pdf download":::
 
 ## Optimized Screen Usage in Mobile browser
 
-Learners on MCT platform can now be able to view lessons in full screen as well as in landscape mode on their Mobile browser. This enables the learners to have more visibility and optimized screen usage while accessing lessons.
+Learners on CT platform can now be able to view lessons in full screen as well as in landscape mode on their Mobile browser. This enables the learners to have more visibility and optimized screen usage while accessing lessons.
 
 :::image type="content" source="../../media/Full screen lesson.png" alt-text="full_screen_lessonimg":::
 
@@ -74,7 +74,7 @@ Additionally, the administrators can also control progress retention for a learn
 
 ### Fixed the issue of duplicate entries in Course level analytics
 
-MCT Analytics will now consider only unique users per course for each metric, irrespective of the multiple translations which the user might have completed.
+CT Analytics will now consider only unique users per course for each metric, irrespective of the multiple translations which the user might have completed.
 
 ### Change in CSV format for Bulk upload & download for courses with assessment
 
@@ -96,7 +96,7 @@ Learners will now be able to view and track all their certificates under ‘My C
 
 ### New Languages added to platform
 
-As part of our constant effort in making MCT platform more accessible we added new languages to support localization in MCT. Roma, Bosnian, Romanian, Rusyn, Slovak, Croatian, Bulgarian, Urdu, Punjabi, Gujarati, Marathi, Kannada, Malayalam, Assamese are in the list of recently added languages. [Enable these languages](../../settings/customize-languages-for-the-learners-on-the-platform.md#steps-to-add-languages-on-the-platform) from the settings tab.
+As part of our constant effort in making CT platform more accessible we added new languages to support localization in CT. Roma, Bosnian, Romanian, Rusyn, Slovak, Croatian, Bulgarian, Urdu, Punjabi, Gujarati, Marathi, Kannada, Malayalam, Assamese are in the list of recently added languages. [Enable these languages](../../settings/customize-languages-for-the-learners-on-the-platform.md#steps-to-add-languages-on-the-platform) from the settings tab.
 
 ### API changes for loading of Course and Categories
 
@@ -106,9 +106,9 @@ As part of our constant effort in making MCT platform more accessible we added n
 
 `v1/admin/group/{groupId}/categoriesAndCourse` is the new API that will return category and courses for groups in Users section
 
-### Enhancements in how MCT renders HTML content
+### Enhancements in how CT renders HTML content
 
-MCT now provides an enhanced HTML rendering capability on the platform.
+CT now provides an enhanced HTML rendering capability on the platform.
 
 ### Event related changes
 

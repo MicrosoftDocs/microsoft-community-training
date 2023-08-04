@@ -23,9 +23,9 @@ For security reasons, we have disabled clicking on external links for the PDF do
 
 Learners can change/update profile fields via profile section in the learners portal. Administrator can change these values via the bulk upload functionality. Refer [**this article**](../user-management/organize-users/add-multiple-users-to-the-group.md#steps-to-bulk-upload-users-to-specific-group) for more information.
 
-### Can Microsoft Community Training platform be used in low bandwidth  and no internet connectivity scenarios?
+### Can Community Training platform be used in low bandwidth  and no internet connectivity scenarios?
 
-Microsoft Community Training platform is designed to be lightweight and supports adaptive streaming for seamless content consumption for low network connectivity scenarios:
+Community Training platform is designed to be lightweight and supports adaptive streaming for seamless content consumption for low network connectivity scenarios:
 
 * For video content, it supports streaming under all network speeds – 100 kbps, 256 kbps, 2G as well as 3G.
 
@@ -61,7 +61,7 @@ There are two ways to achieve this:
 
 No. Learners cannot create their own lesson plans. They can only go through course plan and lesson as defined by the trainer and administrator.
 
-### What are the video playback controls available for Microsoft Community Training?
+### What are the video playback controls available for Community Training?
 
 We have the below-mentioned functions which are available on our inbuilt video player,
 
@@ -106,7 +106,7 @@ On the web portal, learners cannot download the lesson content except if it is a
 
 On the mobile app, learners are allowed to download the content for offline consumption. Even after download, learners will have to open the mobile app to consume the training content. They cannot access content outside the app.
 
-Please note  downloaded content can be viewed only from within the Microsoft Community Training mobile app and all the learning progress will be synced whenever device comes back online.
+Please note  downloaded content can be viewed only from within the Community Training mobile app and all the learning progress will be synced whenever device comes back online.
 
 ### Can I disable downloading of video and other course content for the learners on web and mobile app?
 
@@ -166,7 +166,7 @@ Yes, you can disable the comment functionality from the lessons. Once disabled, 
 
 ### Can learners communicate or ask questions with peers and trainers on the platform?
 
-Microsoft Community Training platform has  a functionality called discussion forum which learners can use to ask questions to other participants, trainers or administrator. Anyone who is registered for the course (or admins) can respond to these questions.
+Community Training platform has  a functionality called discussion forum which learners can use to ask questions to other participants, trainers or administrator. Anyone who is registered for the course (or admins) can respond to these questions.
 
 Refer this [**article**](../learner-experience/web-app.md#step-7-discuss-and-share-information-with-peers) for more information.
 
@@ -192,11 +192,11 @@ Every lesson has a dedicated comment section where the learners can place their 
 
 ### As an administrator, can I moderate queries and responses on the discussion forum?
 
-Currently, Microsoft Community Training platform doesn’t support deletion or editing questions & responses posted in the comment section. However, this is something on our roadmap.
+Currently, Community Training platform doesn’t support deletion or editing questions & responses posted in the comment section. However, this is something on our roadmap.
 
 ### Can a learner ask questions to the instructor or subject matter expert in a private chat?
 
-Microsoft Community Training platform doesn’t support private  chat or 1:1 discussion between learners and administrators. However, learners can connect with instructors using tools such as Microsoft Teams, WhatsApp, etc.
+Community Training platform doesn’t support private  chat or 1:1 discussion between learners and administrators. However, learners can connect with instructors using tools such as Microsoft Teams, WhatsApp, etc.
 
 ### When I sent an announcement, will the learners receive notification via email or SMS?
 

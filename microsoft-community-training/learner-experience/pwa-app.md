@@ -105,14 +105,12 @@ This article explains how learners can access the training content using the [PW
 
 2. You can also view the deleted content from recently deleted section in Downloads page.
 
->[!Important]
->
-> * The content downloaded for offline consumption from a PWA based app gets stored in browser storage.
->
-> * Current limit for storage is capped for each lesson at 200MB, over all limit is depended on device storage.
->
-> * Meta data for content in 'Recently Deleted' section would be retained for 90 days
->
-> * Currently MCT supports offline download (in PWA) for PDF, EPUB, video, audio files. Plan to extend support for offline download for other formats (html, docx, xlsx, SCORM etc) is in roadmap.
->
-> * Only Non-Graded Assessments can be taken and submitted offline. Graded Assessments can only be taken while online.
+ * The content downloaded for offline consumption from a PWA based app gets stored in browser storage.
+
+ * Current limit for storage is capped for each lesson at 200MB, over all limit is depended on device storage.
+
+ * Meta data for content in 'Recently Deleted' section would be retained for 90 days
+
+ * Currently MCT supports offline download (in PWA) for .doc, .docx, .ppt, .pptx, .xlx, .xlsxPDF, EPUB, video, audio files and Single HTML files.
+
+ * Only Non-Graded Assessments can be taken and submitted offline. Graded Assessments can only be taken while online.

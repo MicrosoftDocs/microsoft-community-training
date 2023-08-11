@@ -43,3 +43,5 @@ Microsoft Community Training releases new updates to the platform regularly. For
 ## 2023
 
 [**What’s new in March 2023**](2023/Whats-new-in-march-2023.md#Whats-new-in-march-2023)
+
+[**What’s new in August 2023**](2023/Whats-new-in-aug-2023.md#Whats-new-in-aug-2023)

@@ -280,3 +280,8 @@ This links protocol & API and enable an app or website to make public, verifiabl
 > [!NOTE]
 > 
 > If there is any change/update in login type configuration on your instance then the mobile application needs to be updated. 
+
+> [!NOTE]
+> * To use office files in PWA in offline, we will be providing files to publish the application in Google Play store.
+> * Users can request support by raising a ticket [**Microsoft Community Training Helpdesk**](https://go.microsoft.com/fwlink/?linkid=2104630)..
+

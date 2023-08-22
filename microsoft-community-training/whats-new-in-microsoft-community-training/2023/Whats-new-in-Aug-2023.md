@@ -22,7 +22,11 @@ Learners can now continue watching video lessons from where they left off, makin
 
 ### Office Files Support in PWA
 
-Users can now play Office files (.doc, .docx, .ppt, .pptx, .xlx, .xlsx) even in offline mode. For Play App Store installation files, users can request support by raising a ticket.
+Users can now play Office files (.doc, .docx, .ppt, .pptx, .xlx, .xlsx) even in offline mode. 
+
+> [!NOTE]
+> * To use office files in offline, we will be providing files to publish the application in Google Play store.
+> * Users can request support by raising a ticket [**Microsoft Community Training Helpdesk**](https://go.microsoft.com/fwlink/?linkid=2104630)..
 
 ### Notification for Async Jobs
 

@@ -319,3 +319,11 @@ Features:Masking:MaskedProfileFields
 - Use `Contact` to mask EmailId/Phone number/Contact of the user/admin
 - Use `Last Name` to mask last name of the user/admin
 - To mask custom Profile Fields, use actual name of the field Eg: `State`, `SSN`
+
+## Other Flag configurations
+
+| Flag Name | Description |
+| --- | --- |
+| `UserCacheExpiryInHour` | The user cache expiry time in hours. |
+| `Features:AdminNotificationDisabled` | Whether admin notification is enabled or not. |
+| `MaxRetryCountForWebJobs` | Number of retries for web job failure. This is for internal purposes and should not be tweaked by customers unless advised.|

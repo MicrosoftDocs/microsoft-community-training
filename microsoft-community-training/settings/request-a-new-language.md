@@ -9,7 +9,7 @@ ms.prod: learning-azure
 
 # Request a new Language
 
-Microsoft Community Training currently supports 28 languages on the platform:  Albanian, Arabic, Bengali, Chinese (Simplified), Chinese (Traditional, Dutch, English, Finnish, French, Hindi, Kinyarwanda, Kurdish, Lao, Lithuanian, Malay, Oriya, Portuguese, Serbian (Cyrillic), Somali, Spanish, Swedish, Swedish, Tajik, Telugu, Tetum, Thai, Ukrainian, Vietnamese.
+Microsoft Community Training currently supports 28 languages on the platform:  Albanian, Arabic, Bengali, Chinese (Simplified), Chinese (Traditional, Dutch, English, Finnish, French, Hindi, Kinyarwanda, Kurdish, Lao, Lithuanian, Malay, Odia, Portuguese, Serbian (Cyrillic), Somali, Spanish, Swedish, Swedish, Tajik, Telugu, Tetum, Thai, Ukrainian, Vietnamese.
 
 You can raise a request ticket via our Helpdesk to request another language for your platform instance.
 

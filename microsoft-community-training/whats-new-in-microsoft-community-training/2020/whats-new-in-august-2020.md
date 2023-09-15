@@ -34,6 +34,6 @@ In this update, we have added support for localization of the Phone Authenticati
 In this release, we have enabled the profile field and field value drop downs in the ‘Automatically add users’ step of the Smart Group creation. Administrators will now be able to choose the pre-set profile fields and corresponding field values from these drop downs to create smart groups more efficiently. 
 
 ## Support for new languages on the platform  
-Based on customer requirements, we keep adding support for new languages on the platform. This release we have added support for the following languages for the learners – Portuguese, Somali, Kurdish, Oriya, Lao.
+Based on customer requirements, we keep adding support for new languages on the platform. This release we have added support for the following languages for the learners – Portuguese, Somali, Kurdish, Odia, Lao.
 
 Want to learn more? Visit our [product documentation site](../../whats-new-in-microsoft-community-training/2020/whats-new-in-august-2020.md) or [contact us via helpdesk](https://go.microsoft.com/fwlink/?linkid=2104630).

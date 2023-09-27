@@ -21,7 +21,7 @@ If your instance is already setup to accept [**social login**](configure-login-s
 
 Create a [**MCT support ticket**](https://sangamhelpdesk.microsoftcrmportals.com) requesting for creation of new ClientID and ClientSecret in your [**Key-Vault**](../../analytics/custom-reports/database-schema.md#accessing-key-vault) to be used while configuring New OpenID connect provider.
 
-* Also mention your [**AD B2C Tenant name**](https://learn.microsoft.com/azure/active-directory-b2c/tenant-management#get-your-tenant-name) in description while creating support ticket.
+* Also mention your [**AD B2C Tenant name**](https://learn.microsoft.com/en-us/azure/active-directory-b2c/tenant-management-read-tenant-name#get-your-tenant-name) in description while creating support ticket.
 
 * After receiving confirmation (typical wait time is around 2 business days) from our support team you can proceed to next steps adding phone based login.
 

@@ -58,11 +58,14 @@ Get the ownership access to your pay-as-you-go Azure subscription. To learn more
     * ***Managed Resource Group*** - Name of resource group for your managed instance.
 ![Microsoft Community Training](../../media/image%2897%29.png)
 
+> [!NOTE]
+>Service A stores customer data. By default, customer data stays within the region the customer deploys the service instance in. However, the customer can choose to replicate data to a paired region (If Available) for Disaster Recovery purposes. For list of available regions, please refer to this [***link***](https://learn.microsoft.com/en-us/azure/reliability/cross-region-replication-azure#azure-paired-regions).
+
 8. The next section is **Setup your portal details**. Enter values as per the instructions below and click **OK**.
     * ***Website Name*** - The name of your learning portal. For example, if you enter “Contoso”, your learning portal’s website URL will be of the form "https://contoso.azurefd.net". You can map the learning portal to a [**custom domain later**](../../infrastructure-management/configure-your-platform-infrastructure/setup-custom-domain-url.md).
 
-        >[!Note]
-        >Please make sure to have your website name to be minimum of 5 characters in length to meet Azure FD requirement.
+> [!Note]
+>Please make sure to have your website name to be minimum of 5 characters in length to meet Azure FD requirement.
 
     * ***Contact email addresses*** - The email addresses you want to be contacted on for all information regarding getting started, updates to the platform, latest news etc.
 

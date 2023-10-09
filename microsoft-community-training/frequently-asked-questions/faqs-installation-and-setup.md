@@ -61,7 +61,7 @@ If you didn't find the solution in the troubleshooting guide, please contact us 
 
 ### How many languages are supported by Microsoft Community Training?
 
-At present Microsoft Community Training currently supports 28 languages which are Albanian, Arabic, Bengali, Chinese (Simplified), Chinese (Traditional, Dutch, English, Finnish, French, Hindi, Kinyarwanda, Kurdish, Lao, Lithuanian, Malay, Oriya, Portuguese, Serbian (Cyrillic), Somali, Spanish, Swedish, Swedish, Tajik, Telugu, Tetum, Thai, Ukranian, Vietnamese.
+At present Microsoft Community Training currently supports 28 languages which are Albanian, Arabic, Bengali, Chinese (Simplified), Chinese (Traditional, Dutch, English, Finnish, French, Hindi, Kinyarwanda, Kurdish, Lao, Lithuanian, Malay, Odia, Portuguese, Serbian (Cyrillic), Somali, Spanish, Swedish, Swedish, Tajik, Telugu, Tetum, Thai, Ukranian, Vietnamese.
 
 For more information, [**refer here**](../settings/customize-languages-for-the-learners-on-the-platform.md).
 

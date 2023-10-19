@@ -26,7 +26,7 @@ When logging in for the first time, you will be asked to complete your profile i
 > [!TIP]
 > The profile information users need to provide at the time of sign-up can be customized from the management portal.
 
-## Step 2 – Switch to administrator view in the portal
+## Step 2 – Switch to administrator view of the portal
 
 Once you sign in to the portal, by default, you will be shown the learner view. Select the **user icon** on the top right of the screen and select the **View as an administrator** option from the drop-down menu to open the management portal.  
 

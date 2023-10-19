@@ -73,7 +73,7 @@ This article explains how learners can access training content using the Android
 
 2. To add a comment for the lesson, select the  **Discuss** button to the right of the lesson name.
 
-3. Enter your comments and select **Send**to submit comments.
+3. Enter your comments and select **Send** to submit comments.
 ![Send](../media/image%28184%29.png) 
 
 4. You can also view and reply to comments added by others.

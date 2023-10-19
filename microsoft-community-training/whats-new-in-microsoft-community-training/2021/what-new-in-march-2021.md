@@ -19,7 +19,7 @@ This release introduces the [concept of **Learning Path**](../../content-managem
 
 ## Manage the platform more efficiently with the new Administration Hierarchy*
 
-The platform has introduced a [new administrative hierarchy](../../get-started/user-role-and-management-portal-overview.md#types-of-user-personas-in-microsoft-community-training-platform). The complete administrative access of the platform resides with the Global Administrator. Under the Global Administrators, you can have multiple Organization Administrators who can manage both content and users for their respective organization. Under each Organization Administrator, their could be multiple Learning Path Administrators, Category Administrators, Course Administrators and Group Administrators.
+The platform has introduced a [new administrative hierarchy](../../get-started/user-role-and-management-portal-overview.md#types-of-user-personas-in-community-training). The complete administrative access of the platform resides with the Global Administrator. Under the Global Administrators, you can have multiple Organization Administrators who can manage both content and users for their respective organization. Under each Organization Administrator, their could be multiple Learning Path Administrators, Category Administrators, Course Administrators and Group Administrators.
 
 ![GetStarted - Role Hierarchy](../../media/GetStarted%20-%20Role%20Hierarchy.png)
 

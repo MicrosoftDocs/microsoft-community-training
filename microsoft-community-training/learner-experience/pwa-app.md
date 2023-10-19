@@ -1,8 +1,8 @@
 ---
 title: Learner Experience on PWA-based mobile app
 original-url: https://docs.microsoftcommunitytraining.com/docs/pwa-app
-author: v-sambati
-ms.author: v-sambati
+author: nikotha
+ms.author: nikotha
 description: This article explains how learners can access the training content using the PWA-based Android mobile application for the Microsoft Community Training platform instance setup for your organization.
 ms.prod: learning-azure
 ---

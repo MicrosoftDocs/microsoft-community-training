@@ -9,36 +9,38 @@ ms.prod: learning-azure
 
 # Learner Experience on the web portal
 
-This article explains how learners can access the training content using the web portal for your organization's Microsoft Community Training setup.
+This article explains how learners can access the training content using the web portal for your organization's Community Training setup.
 
-## Step 1: Login to your learning portal
+## Step 1: Sign in to your learning portal
 
-1. Open the web browser and visit  the Microsoft Community Training platform instance for your organization. For example, [**fabrikamtraining.azurefd.net**](https://fabrikamtraining.azurefd.net/)
+1. Open the web browser and visit the Community Training platform instance for your organization. For example, [**fabrikamtraining.azurefd.net**](https://fabrikamtraining.azurefd.net/)
 
     :::image type="content" source="../media/image(173).png" alt-text="A screenshot of the home page.":::
 
-2. On the home page, click on the **Sign In**  or  **Get Started** button.
+2. On the home page, select the **Sign In**  or  **Get Started** button.
 
-3. Depending upon the [**login identity setup**](../infrastructure-management/install-your-platform-instance/configure-login-social-work-school-account.md) for the platform, you will be asked to sign in using  your 10-digit mobile number, email address, social account, or Azure Active Directory account.
+3. Depending on the [**login identity setup**](../infrastructure-management/install-your-platform-instance/configure-login-social-work-school-account.md), you'll be asked to sign in using your 10-digit mobile number, email address, social account, or Azure Active Directory account.
 
 ## Step 2: Create your profile
 
 ### For new users
 
-1. When you sign in to the platform for the first time, you will be asked to complete your profile information (at the very least the mandatory fields).
+1. When you sign in to the platform for the first time, you'll be asked to complete your profile information (or at least the mandatory fields).
 
-2. The fields displayed on the profile page  are configured by the administrator. For more details, see [**Customize profile information for learners on the platform**](../settings/add-additional-profile-fields-for-user-information.md).
+2. The fields displayed on the profile page are configured by the administrator. For more information, see [**Customize profile information for learners on the platform**](../settings/add-additional-profile-fields-for-user-information.md).
 
-    :::image type="content" source="../media/MCT Complete your profile.png" alt-text="A screenshot of Microsoft Community Training profile Completion.":::
+    :::image type="content" source="../media/MCT Complete your profile.png" alt-text="A screenshot of Community Training profile completion.":::
 
 3. Complete the profile information and select **Get Started**.
 
 ### For existing users
 
-1. Select the profile icon on top right corner of the learner view page.
+1. Select the profile icon on the top right corner of the learner view page.
+
     :::image type="content" source="../media/Profile Field - edit from learner view 1.PNG" alt-text="A screenshot showing how to edit from learner view.":::
 
 2. Modify the profile field(s) as required.
+
     :::image type="content" source="../media/Profile Field - edit from learner view 2.PNG" alt-text="A screenshot showing how to edit profile fields.":::
 
     >[!Tip]
@@ -48,22 +50,22 @@ This article explains how learners can access the training content using the web
 
 ## Step 3: Choose the language
 
-1. After setting up the profile, you can change the language from the drop down in the navigation bar.
+1. After setting up the profile, you can change the language from the dropdown in the navigation bar.
 
     :::image type="content" source="../media/LearnerLanguage2.jpg" alt-text="Learner language":::
 
-2. Select the drop down and choose a language from the available options.
+2. Select the dropdown and choose a language from the available options.
 
     :::image type="content" source="../media/LearnerLanguage1.jpg" alt-text="Learner language drop down":::
 
-3. Content on the homepage will be updated based on your chosen language. Please refer to [**Course Translations**](../content-management/create-content/create-course-category/create-a-new-course.md#option-4---create-multiple-translations-of-a-course) to understand how language change will impact the learner view.
+3. Content on the homepage will be updated based on your chosen language. Refer to [**Course Translations**](../content-management/create-content/create-course-category/create-a-new-course.md#option-4---create-multiple-translations-of-a-course) to understand how language change impacts the learner view.
 
 >[!NOTE]
 >Only the languages enabled by the Global administrator will be available for selection. The dropdown will not be available to learners if only one language is enabled on the platform.
 
 ## Step 4: Browse and register for courses
 
-1. After sign in, you can see all the registered Learning Paths and Courses and their completion status.
+1. After signing in, you can see all the registered learning paths, Courses, and their completion status.
 
     :::image type="content" source="../media/image(434).png" alt-text="Learning Path / Courses":::
 
@@ -71,28 +73,28 @@ This article explains how learners can access the training content using the web
 
     :::image type="content" source="../media/image(414).png" alt-text="Course Library":::
 
-3. To enroll for a course, select  course item and then select **Register** in the pop-up window.
+3. To enroll for a course, select a course item and then select **Register** in the pop-up window.
 
     :::image type="content" source="../media/image(179).png" alt-text="Pop-up window":::
 
 > [!NOTE]
-> Users can search for courses using the search option in the home page.
+> Users can search for courses using the search option on the home page.
 
 ## Step 5: Access and learn course content
 
-1. On the **My Course** page, select the Learning Path or Course item which you want view and learn.
+1. On the **My Course** page, select the Learning Path or Course item, which you want to view and learn.
 
-2. Every course comprises of a course description, lessons, practice quizzes, and an exam as shown in the course outline. Any completed course item will get a green circled tick mark:
+2. Every course consists of a course description, lessons, practice quizzes, and an exam as shown in the course outline. Any completed course item gets a green circled tick mark:
 
     :::image type="content" source="../media/image(181).png" alt-text="Green circled tick mark":::
 
-3. To view any lesson content or  attempt a practice quiz, select the course item in the outline.
+3. To view any lesson content or attempt a practice quiz, select the course item in the outline.
 
-4. An exam is always the last item in each course and it will be available only when you have completed all the previous course items.
+4. An exam is always the last item in each course and it's available only when you have completed all the previous course items.
 
     :::image type="content" source="../media/image(182).png" alt-text="Previous Course":::
 
-5. On successful completion of the course, you will receive a certificate if enabled by the administrator.
+5. On successful completion of the course, you'll receive a certificate if enabled by the administrator.
 
 ## Step 6: View progress
 
@@ -100,7 +102,7 @@ This article explains how learners can access the training content using the web
 
     :::image type="content" source="../media/image(415).png" alt-text="My Courses":::
 
-2. Below the **My Progress** bar, you can find the Learning Paths with  completion status represented in the form of a percentage and progress bar.
+2. Below the **My Progress** bar, you can find the learning paths with completion status represented in the form of a percentage and progress bar.
 
     :::image type="content" source="../media/image(435).png" alt-text="Progress":::
 
@@ -126,7 +128,7 @@ This article explains how learners can access the training content using the web
 
 ## Step 8: View Notifications
 
-1. On the top right of the screen, you will find the **Notifications** icon.
+1. On the top right of the screen, you'll find the **Notifications** icon.
 
     :::image type="content" source="../media/image(185).png" alt-text="Notifications":::
 
@@ -136,7 +138,7 @@ This article explains how learners can access the training content using the web
 
 ## Step 9: View Notice Board
 
-1. On the top right of the screen, you will find the **Notice Board** icon.  
+1. On the top right of the screen, you'll find the **Notice Board** icon.  
 
     :::image type="content" source="../media/image(187).png" alt-text="Notice Board":::
 

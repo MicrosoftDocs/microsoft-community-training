@@ -102,8 +102,6 @@
      items:
       - name: Learner Experience on the web portal
         href: learner-experience/web-app.md
-      - name: Learner Experience on the mobile app
-        href: learner-experience/mobile.md
       - name: Learner Experience on PWA based mobile app
         href: learner-experience/pwa-app.md  
    - name: Analytics

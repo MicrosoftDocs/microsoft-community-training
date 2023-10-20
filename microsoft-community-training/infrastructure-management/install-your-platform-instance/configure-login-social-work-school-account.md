@@ -20,20 +20,15 @@ and follow the below documentation to configure login identity.
 
 ## Configure login identity
 
-Microsoft Community Training platform provides three types of login:
+Microsoft Community Training platform provides two types of login:
 
-1. Phone number
-2. Social email-based login via your Microsoft, Google or Facebook account
-3. Microsoft Work or School account
+1. Social email-based login via your Microsoft, Google or Facebook account
+2. Microsoft Work or School account
 
 > [!NOTE]
 > Please note this article is in continuation of the [**installation article**](../../infrastructure-management/install-your-platform-instance/installation-guide-detailed-steps.md).
 
 In this article, we will walk you through on how to configure login identity for the platform.
-
-## Phone based authentication
-
-There is no additional configuration needed for phone-based login.
 
 ## Work or School Account based authentication
 

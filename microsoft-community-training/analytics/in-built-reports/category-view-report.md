@@ -17,7 +17,7 @@ In this article, you will learn more about different metrics and reports availab
 
 ## Permissions Level
 
-The Community Training portal provides role-based administration, and depending upon the type of access level an administrator can perform actions on the portal. The table below shows the administrative roles that can access the Category View:  
+The Community Training portal provides role-based administration, and depending upon the type of access level an administrator can perform certain actions on the portal. The table below shows the administrative roles that can access the Category View:  
 
 |Access Level  |Category View|
 |---|---|

@@ -3,7 +3,7 @@ title: Database Schema
 original-url: https://docs.microsoftcommunitytraining.com/docs/database-schema
 author: nikotha
 ms.author: nikotha
-description: Microsoft Community Training platform stores all customer data in the Azure SQL database which is part of customer's Azure Subscription.
+description: Community Training  stores all customer data in the Azure SQL database which is part of customer's Azure Subscription.
 ms.prod: learning-azure
 ---
 
@@ -15,23 +15,23 @@ In this article, you will learn more about the platform's database schema and it
 
 ## Database Schema Overview
 
-[**Microsoft Community Training - DB Schema Overview.pdf**](https://github.com/MicrosoftDocs/microsoft-community-training/files/12378831/Microsoft.Community.Training_DB.Schema_Aug.2023.pdf)
+[**Community Training - DB Schema Overview.pdf**](https://github.com/MicrosoftDocs/microsoft-community-training/files/12378831/Microsoft.Community.Training_DB.Schema_Aug.2023.pdf)
 
 
 ### Previous Versions
 
-* [**Microsoft Community Training - DB Schema Overview_Aug_2023.pdf**](https://github.com/MicrosoftDocs/microsoft-community-training/files/12378831/Microsoft.Community.Training_DB.Schema_Aug.2023.pdf)
+* [**Community Training - DB Schema Overview_Aug_2023.pdf**](https://github.com/MicrosoftDocs/microsoft-community-training/files/12378831/Microsoft.Community.Training_DB.Schema_Aug.2023.pdf)
 
-* [**Microsoft Community Training - DB Schema Overview_Mar_2023.pdf**](https://github.com/MicrosoftDocs/microsoft-community-training/files/10917137/MCT_DB.Schema_Mar.2023.pdf)
+* [**Community Training - DB Schema Overview_Mar_2023.pdf**](https://github.com/MicrosoftDocs/microsoft-community-training/files/10917137/MCT_DB.Schema_Mar.2023.pdf)
 
 
-* [**Microsoft Community Training - DB Schema Overview_Aug_2022.pdf**](https://github.com/MicrosoftDocs/microsoft-community-training/files/9754128/MCT_DB.Schema_Aug2022.pdf)
+* [**Community Training - DB Schema Overview_Aug_2022.pdf**](https://github.com/MicrosoftDocs/microsoft-community-training/files/9754128/MCT_DB.Schema_Aug2022.pdf)
 
-* [**Microsoft Community Training - DB Schema Overview_May_2022.pdf**](https://github.com/MicrosoftDocs/microsoft-community-training/files/8511863/MCT_DB_Schema_Apr2022.pdf)
+* [**Community Training - DB Schema Overview_May_2022.pdf**](https://github.com/MicrosoftDocs/microsoft-community-training/files/8511863/MCT_DB_Schema_Apr2022.pdf)
 
-* [**Microsoft Community Training - DB Schema Overview_Jan_2022.pdf**](https://github.com/MicrosoftDocs/microsoft-community-training/files/7889844/MCT_DB_Schema_Jan2022.pdf)
+* [**Community Training - DB Schema Overview_Jan_2022.pdf**](https://github.com/MicrosoftDocs/microsoft-community-training/files/7889844/MCT_DB_Schema_Jan2022.pdf)
 
-* [**Microsoft Community Training - DB Schema Overview_Oct_2021.pdf**](https://github.com/MicrosoftDocs/microsoft-community-training/files/7581669/MCT_DB_Schema_Oct2021.pdf)
+* [**Community Training - DB Schema Overview_Oct_2021.pdf**](https://github.com/MicrosoftDocs/microsoft-community-training/files/7581669/MCT_DB_Schema_Oct2021.pdf)
 
 ## Accessing Database
 

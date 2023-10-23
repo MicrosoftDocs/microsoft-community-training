@@ -1,15 +1,15 @@
 ---
-title: Course view
+title: Course View
 original-url: https://docs.microsoftcommunitytraining.com/docs/course-view-report
 author: nikotha
 ms.author: nikotha
-description: Similar to the Category View, Course view provides admin a quick glance at the learner enrollments, learner engagement and course completion for a particular course.
+description: Similar to the Category View, Course View provides admin a quick glance at the learner enrollments, learner engagement and course completion for a particular course.
 ms.prod: learning-azure
 ---
 
-# Course view
+# Course View
 
-Similar to the Category View, course view provides admins a quick glance at learner enrollments, learner engagement, and course completion for a particular course. It facilitates comparative analytics for learner performance on a particular course and provides insights into content quality.
+Similar to the Category View, Course View provides admins a quick glance at learner enrollments, learner engagement, and course completion for a particular course. It facilitates comparative analytics for learner performance on a particular course and provides insights into content quality.
 
 To access the Category View, you can either select the **View Analytics option from (…) More menu** for a course under the Courses tab or select a specific row from the courses grid in the Category View page.
 
@@ -17,7 +17,7 @@ In this article, you will learn more about different metrics and reports availab
 
 ## Permissions Level
 
-The Community Training portal provides role-based administration and depending on the access level,  administrators can perform actions on the portal.  The table below shows the administrative roles which can access the course view:  
+The Community Training portal provides role-based administration and depending on the access level,  administrators can perform certain actions on the portal.  The table below shows the administrative roles which can access the Course View:  
 
 |Access Level|  Course View|
 |---|---|
@@ -88,7 +88,7 @@ From the lesson grid, you can:
 
 ## Quiz grid
 
-This section in the course view provides information about the overall performance of trainees in different quizzes of a course. Including the number of questions in the quiz, average score, and difficulty level. In the table below, for each quiz, you can see the total number of questions in the quiz, total number of attempts by all learners, the average quiz score, and difficult level.  
+This section in the Course View provides information about the overall performance of trainees in different quizzes of a course. Including the number of questions in the quiz, average score, and difficulty level. In the table below, for each quiz, you can see the total number of questions in the quiz, total number of attempts by all learners, the average quiz score, and difficult level.  
 ![Quiz score](../../media/image%2875%29.png)
 
 > [!NOTE]  

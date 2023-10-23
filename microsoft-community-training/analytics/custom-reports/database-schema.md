@@ -9,7 +9,7 @@ ms.prod: learning-azure
 
 # Database Schema
 
-Microsoft Community Training platform stores all customer data in the Azure SQL database which is part of customer's Azure Subscription. Customers can access the database to build custom reports (using analytics tools such as PowerBI) and run SQL queries for specific operations.
+Community Training stores all customer data in the Azure SQL database which is part of your Azure Subscription. You can access the database to build custom reports (using analytics tools such as PowerBI) and run SQL queries for specific operations.
 
 In this article, you will learn more about the platform's database schema and its components and usage.
 
@@ -35,74 +35,74 @@ In this article, you will learn more about the platform's database schema and it
 
 ## Accessing Database
 
-Following are the two ways to access the MCT Database,
+The following are the two ways to access the MCT Database:
 
 ### Method 1: Using Connection string
 
-Go to the MCT portal's SQL database from the Managed resource group (Find the dapclp-db-xxxxxxxxx SQL database).
-Click on Setting > Connection strings to get the connection strings for the SQL database, as in the below image,
+Go to the CT portal's SQL database from the Managed resource group (Find the dapclp-db-xxxxxxxxx SQL database).
+Select **Setting > Connection strings** to get the connection strings for the SQL database:
 
    ![click on Setting](../../media/image%28346%29.png)
 
 ### Method 2: Use Username and Password (Online Azure query editor)
 
-Go to the MCT portal's SQL database from the Managed resource group (Find the dapclp-db-xxxxxxxxx SQL database).
+Go to the CT portal's SQL database from the managed resource group (Find the dapclp-db-xxxxxxxxx SQL database).
 
-1. Select Query Editor
+1. Select **Query Editor**.
 
     ![Query Editor](../../media/image%28347%29.png)
 
-2. This query editor will ask for username and password that can be retrieved from key-vault. (Go to resource group and select key vault).
+2. This query editor will ask for a username and password that can be retrieved from the key vault. (Go to the resource group and select your key vault).
 
     ![key-vault](../../media/image%28348%29.png)
 
 ## Accessing Key Vault
 
 > [!IMPORTANT]  
-> If you are facing a “Key Vault” issue when trying to get password of Admin user for MCT Database in Azure with the error - "The operation “List” is not enabled in this key vault’s access policy" also please follow the following steps.
+> If you are facing a key vault issue when trying to get the password of the Admin user for the CT Database in Azure, and you get the error - "The operation “List” is not enabled in this key vault’s access policy"- then perfrom the following steps:
 
-Go the key vault (login to your [Azure portal](https://ms.portal.azure.com/), search & click on 'Key vaults', click on key vault corresponding to your application's resource group). By default, user does not have access permission to view the keys, secrets and Certificate information stored in Key Vault. To gain access, follow below steps,
+Go to the key vault (sign in to your [Azure portal](https://ms.portal.azure.com/), search and select **Key vaults**, and select the key vault corresponding to your application's resource group). By default, the user does not have access permission to view the keys, secrets, and certificate information stored in the key vault. To gain access, do the following:
 
-1. Select Access Policies from the Key Vault resource blade (See below screenshot, In setting Tab there is Access policies)
+1. Select **Access Policies** from the Key Vault resource pane:
 
     ![Select Access Policies](../../media/image%28349%29.png)
 
-2. Click the [+ Add Access Policy] button at the top of the blade
+2. Select **[+ Add Access Policy]** at the top of the pane:
 
     ![access policy 1](../../media/access%20policy%201.png)
 
-3. Select Secret Management” in Configure from template (Optional)
+3. Select **Secret Management** in Configure from the template (optional) pane:
 
     ![access policy secret](../../media/access%20policy%20secret.png)
 
-4. Click Select Principal to select Email address you signed in.
+4. Choose **Select Principal** to select the email address you used to sign in.
 
-5. Save changes
+5. Save changes.
 
-6. Go to the Secrets
+6. Go to Secrets.
 
-7. Find username and password
+7. Find the username and password.
 
-    ![Find username and password](../../media/image%28350%29.png)
+    ![Find the username and password](../../media/image%28350%29.png)
 
-8. Select the password as shown in above screenshot.
+8. Select the password as shown in the above screenshot.
 
-9. Then click on the current version, click on "Show Secret Value" button in the right pane, you can see the Password for the selected item
+9. Select the current version, and select **Show Secret Value** in the right pane. You can then see the Password for the selected item:
 
 **Note**: You may need to add your IP address in Firewall.
 
 ![firewal select](../../media/firewal%20select.png)
 
-To add client IP, click on add client IP and select the save icon
+To add client IP, select **Add client IP** and select the **Save** icon:
 
 ![Save](../../media/FIREWAL.png)
 
 ## Executing SQL Queries
 
-1. To run a SQL query go to your Azure portal and click on **Query editor**
+1. To run a SQL query, go to your Azure portal and select  **Query editor**:
 
     ![Query editor](../../media/image%28353%29.png)
 
-2. The admin to login to the above portal can be obtained from **Key vault**. See [accessing Key vaults](./database-schema.md#accessing-key-vault) section for more details.
+2. The admin to login to the above portal can be obtained from the **Key vault**. See [accessing Key vaults](./database-schema.md#accessing-key-vault) section for more details.
 
     ![See accessing Key vaults](../../media/image%28354%29.png)

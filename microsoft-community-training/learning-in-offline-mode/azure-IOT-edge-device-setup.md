@@ -9,7 +9,7 @@ ms.prod: learning-azure
 
 # Azure IOT Edge Device Setup
 
-Edge devices using Offline Learning with Community Training plaform will act as hub devices for learners. The edge devices must be Linux machines running Ubuntu 18.04 version. The edge devices once set up, can be used for training administration in Offline mode.
+Edge devices using Offline Learning with Community Training will act as hub devices for learners. The edge devices must be Linux machines running Ubuntu 18.04 version. The edge devices once set up, can be used for training administration in Offline mode.
 
 Ensure that you have followed the steps in the [**Azure IOT Hub Initial Setup**](azure-IOT-hub-initial-setup.md) before completing the following steps. The configuration files updated in there will be used when setting up the edge devices.
 

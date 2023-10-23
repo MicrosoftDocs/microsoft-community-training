@@ -1,8 +1,8 @@
 ---
 title: Rest API Documentation
 original-url: https://docs.microsoftcommunitytraining.com/docs/api-documentation
-author: cbms03
-ms.author: cbms03
+author: charan.brahmandam@microsoft.com
+ms.author: charan.brahmandam@microsoft.com
 description: Community Training exposes its APIs for integration with another service or application.
 ms.prod: learning-azure
 ---

@@ -1,8 +1,8 @@
 ---
 title: Service-to-service Authentication
 original-url: https://docs.microsoftcommunitytraining.com/docs/service-to-service-authentication
-author: cbms03
-ms.author: cbms03
+author: charan.brahmandam@microsoft.com
+ms.author: charan.brahmandam@microsoft.com
 description: Community Training APIs support Service to Service (S2S) authentication to allow any external service to call the APIs without requiring a user to explicitly login to any MCT instance. 
 ms.prod: learning-azure
 ---

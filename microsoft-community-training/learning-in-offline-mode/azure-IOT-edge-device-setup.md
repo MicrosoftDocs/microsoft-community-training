@@ -1,8 +1,8 @@
 ---
 title: Azure IOT Edge Device Setup
 original-url: https://docs.microsoftcommunitytraining.com/docs/learning-in-offline-mode
-author: sambati
-ms.author: sambati
+author: cbms03
+ms.author: cbms03
 description: This article explains how to setup IoT edge Device to enable offline learning
 ms.prod: learning-azure
 ---

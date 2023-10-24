@@ -1,6 +1,6 @@
 ---
 title: Reliability in Community Training
-description: Find out about reliability in [Community Training] #Required; 
+description: Find out about reliability in Community Training 
 author: cbrahmandam
 ms.author: cbms03
 ms.topic: reliability-article
@@ -70,6 +70,10 @@ During a zone-wide outage, customers should be prepared to experience a brief in
 
 Regions with paired regions: The control plane will be manually failed over to the paired region in case of a disaster. The service might experience degradation in the time before the failover occurs. After the failover, only read-only operations will be supported until the disaster region is back online. The service will be manually failed back to the original region once it is back online and all operations will resume.
 Regions without paired regions: The product is not available in regions without paired regions.
+
+RPO: 10 minutes
+
+RTO: 24 hours*
 
 ### Data plane:
 Community training offers microsoft managed disaster recovery. Customer has to Enable Disaster Recovery, during Community Training instance creation in Azure.

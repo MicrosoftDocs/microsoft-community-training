@@ -1,13 +1,13 @@
 ---
-title: Reliability in [Community Training] #Required; Must be "Resiliency in *your official service name*"
+title: Reliability in Community Training
 description: Find out about reliability in [Community Training] #Required; 
-author: anaharris-ms #Required; your GitHub user alias, with correct capitalization.
-ms.author: anaharris #Required; Microsoft alias of author; optional team alias.
+author: cbrahmandam
+ms.author: cbms03
 ms.topic: reliability-article
 ms.custom: subject-reliability, references_regions
 ms.prod: non-product-specific
 # ms.service: your-value #Required: your service meta tag goes here. For taxonomies see https://review.learn.microsoft.com/help/platform/metadata-taxonomies?branch=main#msservice
-ms.date: 10/24/2023 #Required; mm/dd/yyyy format.
+ms.date: 10/24/2023
 ---
 
 

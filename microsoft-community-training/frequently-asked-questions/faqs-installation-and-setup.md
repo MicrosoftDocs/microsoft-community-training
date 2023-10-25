@@ -13,7 +13,7 @@ ms.prod: learning-azure
 
 ### What are the prerequisites to deploy the Community Training?
 
-There are a number of prerequisites such as having a valid subscription type, access policy etc. before you can get started with the platform installation and setup.
+There are a number of prerequisites such as having a valid subscription type, access policy, and more you need to consider before you can get started with the platform installation and setup.
 
 To know the list of all the prerequisites **[see this article](../infrastructure-management/install-your-platform-instance/installation-guide-detailed-steps.md#before-you-begin)**.
 
@@ -23,9 +23,9 @@ You can create a new Azure subscription by visiting [**this link**](https://azur
 
 ### Which devices or platforms is Microsoft Community Training available on?
 
-Microsoft Community Training is an end-point agnostic solution that allows learners to consume learning content hosted on the platform in the following manner:
+Microsoft Community Training is an endpoint-agnostic solution that allows learners to consume learning content hosted on the platform in the following manner:
 
-1. For standalone web and mobile applications. [**Click here**](../learner-experience/web-app.md) for more details.
+1. For standalone web and mobile applications [**Click here**](../learner-experience/web-app.md) for more details.
 
     | Device Platform | How to access the portal? |
     | --- | --- |
@@ -33,15 +33,15 @@ Microsoft Community Training is an end-point agnostic solution that allows learn
     | Android | Use the native app or use mobile browser to access the web app|
     |iOS| Use mobile browser to access the web app|  
 
-2. Inside Microsoft Teams. [**Click here**](../infrastructure-management/install-your-platform-instance/create-teams-app-for-your-training-portal.md) for more details.
+2. For inside Microsoft Teams [**Click here**](../infrastructure-management/install-your-platform-instance/create-teams-app-for-your-training-portal.md) for more details.
 
-3. Custom endpoint i.e. to integrate the learner experience inside your own application, refer to**[this](../infrastructure-management/install-your-platform-instance/apis.md)** article to learn more.
+3. Custom endpoint i.e. to integrate the learner experience inside your own application, refer to**[this article](../infrastructure-management/install-your-platform-instance/apis.md)** to learn more.
 
 ### How do I enable Single-Sign-On (SSO) for Community Training? In other words, I wanted my learners to use their existing credentials for logging into the Community Training portal.
 
 Currently, Microsoft Community Training supports SSO out-of-box for scenarios where users are managed via Azure AD or customers are using Azure AD B2C for authentication in their existing system.
 
-However, the platform supports SSO with any OAuth 2.0, OpenID Connect or SAML-based authentication provider. To enable SSO in such scenarios, please contact us via **[Helpdesk](https://go.microsoft.com/fwlink/?linkid=2104630)** and leave your requirements in the ticket description.
+However, the platform supports SSO with any OAuth 2.0, OpenID Connect, or SAML-based authentication provider. To enable SSO in such scenarios, please contact us via **[Helpdesk](https://go.microsoft.com/fwlink/?linkid=2104630)** and leave your requirements in the ticket description.
 
 ### Are there REST APIs available for integration? How can organizations integrate Community Training with their internal systems and existing applications?
 
@@ -61,7 +61,7 @@ If you didn't find the solution in the troubleshooting guide, please contact us 
 
 ### How many languages are supported by Microsoft Community Training?
 
-At present Microsoft Community Training currently supports 28 languages which are Albanian, Arabic, Bengali, Chinese (Simplified), Chinese (Traditional, Dutch, English, Finnish, French, Hindi, Kinyarwanda, Kurdish, Lao, Lithuanian, Malay, Odia, Portuguese, Serbian (Cyrillic), Somali, Spanish, Swedish, Swedish, Tajik, Telugu, Tetum, Thai, Ukrainian, Vietnamese.
+At present Microsoft Community Training supports 28 languages which are Albanian, Arabic, Bengali, Chinese (Simplified), Chinese (Traditional, Dutch, English, Finnish, French, Hindi, Kinyarwanda, Kurdish, Lao, Lithuanian, Malay, Odia, Portuguese, Serbian (Cyrillic), Somali, Spanish, Swedish, Swedish, Tajik, Telugu, Tetum, Thai, Ukrainian, Vietnamese.
 
 For more information, [**refer here**](../settings/customize-languages-for-the-learners-on-the-platform.md).
 
@@ -127,7 +127,7 @@ In case you already have an instance deployed, follow these steps to create the 
 
 ### How can I request for the mobile app? Who publishes the mobile app?
 
-Once your platform instance is deployed, you can request for the mobile app through our help desk. The mobile app must be published from by customers using their own Google Play Store. For more information, [**refer here**](../infrastructure-management/install-your-platform-instance/create-publish-mobile-app.md).
+Once your platform instance is deployed, you can request the mobile app through our help desk. The mobile app must be published by customers using their own Google Play Store. For more information, [**refer here**](../infrastructure-management/install-your-platform-instance/create-publish-mobile-app.md).
 
 Please note: Community Training comes only with a native app for Android. For iOS, we recommend using a mobile browser to access the web app or convert the web app into a native iOS app using [**online tool such as GoNative**](https://gonative.io/).
 
@@ -151,11 +151,11 @@ In the meantime, as a workaround, you can convert our existing mobile-optimized 
 
 While there is no app available for the Windows platform, you can use any web browser such as Microsoft Edge or Google Chrome to access the web portal.
 
-### How to create a Google Store account for uploading an Android app?
+### How to create a Google Store account for uploading an Android app
 
-If you have a Google account, it can be used to sign in with the Google store. For further details [**go here**](https://support.google.com/googleplay/answer/2521798?hl=en).
+If you have a Google account, it can be used to sign in with the Google Store. For further details [**go here**](https://support.google.com/googleplay/answer/2521798?hl=en).
 
-### How to upload my Android app on the Google Play Store?
+### How to upload my Android app on the Google Play Store
 
 [**Here**](../infrastructure-management/install-your-platform-instance/create-publish-mobile-app.md) is a step-by-step guide on publishing your mobile application.  
 

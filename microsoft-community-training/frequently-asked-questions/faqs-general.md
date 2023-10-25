@@ -29,7 +29,7 @@ While Microsoft community training is not a traditional Learning Management Syst
 
 ### What are the markets where Microsoft Community Training is available?
 
-Microsoft Community Training is available in all the countries or regions where Microsoft Azure Marketplace is commercially available. See the [**Azure Marketplace documentation**](/azure/marketplace/marketplace-geo-availability-currencies) for more details.  
+Microsoft Community Training is available in all the countries or regions where the Microsoft Azure Marketplace is commercially available. See the [**Azure Marketplace documentation**](/azure/marketplace/marketplace-geo-availability-currencies) for more details.  
 
 ### Who is the target audience for Microsoft Community Training?
 
@@ -150,7 +150,7 @@ Apart from the inbuilt reports, customers can create dashboards and custom repor
 
 For more information on analytics, check out [**this article**](../analytics/analytics-overview.md).
 
-### How to delete my training portal?
+### How to delete my training portal
 
 When you no longer need your training portal, you can delete it by deleting the resource group from the Azure portal. [Refer to this article](../infrastructure-management/configure-your-platform-infrastructure/delete-your-training-instance.md) for more details.  
 

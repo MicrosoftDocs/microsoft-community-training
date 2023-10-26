@@ -37,7 +37,7 @@ Microsoft Community Training is built and optimized for large-scale community sk
 
 The platform is already being used by the number of large enterprises, small and medium businesses, startups, educational institutions, governmental organizations and nonprofits.
 
-### What kind of training scenarios I can use the Microsoft community training platform for?
+### What kind of training scenarios I can use Community Training for?
 
 Microsoft community training can be leveraged in a wide range of training use cases such as Employee Onboarding, Employee Upskilling, Mobile workforce training, Partner Training, Customer Training, Community Training, Online Learning Academy, and many others.
 
@@ -45,11 +45,11 @@ These training use cases cut across multiple verticals such as Banking & Financi
 
 Microsoft Community Training platform provides organizations to not only share content with the target audience but also allow them to assess and track learner’s progress via quizzes, exams, and real-time analytics.
 
-For more information [**visit our website**.](https://communitytraining.microsoft.com/).
+For more information [**visit the website**.](https://communitytraining.microsoft.com/).
 
 ### Can I use  Community Training to train my employees and partners on Microsoft Products and Technologies?
 
-Organizations can use the Microsoft Community Training platform to host and train their workforces on multiple topics including Microsoft Products & Services. The platform comes with readily available content around Digital Literacy, Office 365, Azure, etc.
+Organizations can use Community Training to host and train their workforces on multiple topics including Microsoft Products & Services. The platform comes with readily available content around Digital Literacy, Office 365, Azure, etc.
 
 Here is [**our free content library**](https://sangampartners.azurewebsites.net/) for your reference. Also, you can host content from [**Microsoft Learn training**](/training/) into the platform to provide one-stop shop for all training courses to your target audience.
 
@@ -79,7 +79,7 @@ So, depending on the use cases, organizations can use Microsoft Community Traini
 
 ### How many organizations are already using Microsoft Community Training platform?
 
-Currently, Microsoft Community Training is being used by hundreds of customers across India, Africa, South East Asia, and Latin America for skilling their workforces or training communities at scale.  For example here are some press release on our partnership with existing customers: [African Development Bank](https://news.microsoft.com/en-xm/2019/12/10/african-development-bank-launches-digital-tool-to-help-african-youth-learn-to-code/), Gauteng Provincial Govt - South Africa, [UNICEF](https://www.unicef.org/press-releases/unicef-and-microsoft-launch-global-learning-platform-help-address-covid-19-education) ,[Ministry of Housing and Urban Affairs - Govt. of India](https://news.microsoft.com/en-in/microsoft-project-sangam-swacch-bharat-mission/).
+Currently, Microsoft Community Training is being used by hundreds of customers across India, Africa, South East Asia, and Latin America for skilling their workforces or training communities at scale.  For example here are some press release on the partnership with existing customers: [African Development Bank](https://news.microsoft.com/en-xm/2019/12/10/african-development-bank-launches-digital-tool-to-help-african-youth-learn-to-code/), Gauteng Provincial Govt - South Africa, [UNICEF](https://www.unicef.org/press-releases/unicef-and-microsoft-launch-global-learning-platform-help-address-covid-19-education) ,[Ministry of Housing and Urban Affairs - Govt. of India](https://news.microsoft.com/en-in/microsoft-project-sangam-swacch-bharat-mission/).
 
 ### Is there any licensing fee for Microsoft Community Training platform?
 
@@ -93,7 +93,7 @@ We have a guided tour available for you to play around and get familiar with the
 
 Alternatively, you can also deploy and set up a platform instance on your Azure subscription from the [**Azure Marketplace**](https://azuremarketplace.microsoft.com/marketplace/apps/project-sangam.microsoft-community-training?tab=Overview).  
 
-If you want access to a demo instance, please reach out to us [**via our helpDesk**](https://go.microsoft.com/fwlink/?linkid=2104630).
+If you want access to a demo instance, please reach out to us [**via the helpDesk**](https://go.microsoft.com/fwlink/?linkid=2104630).
 
 ### What type of content format is supported on the platform?
 
@@ -106,11 +106,11 @@ Microsoft community training supports a wide range of formats as listed below:
 
 For more information, check the article on [**how to manage course content**](../content-management/content-management-overview.md) on Microsoft Community Training platform.  
 
-### Does the Microsoft Community Training platform come with some out-of-the-box content?
+### Does Community Training come with some out-of-the-box content?
 
-Microsoft Community Training offers a wide range of out-of-box video content such as Microsoft Learn, Office products, Computer basics and security, etc. All these contents are free of cost and you can obtain video content by [**contacting our helpDesk**](https://go.microsoft.com/fwlink/?linkid=2104630) post your platform deployment.
+Microsoft Community Training offers a wide range of out-of-box video content such as Microsoft Learn, Office products, Computer basics and security, etc. All these contents are free of cost and you can obtain video content by [**contacting the helpDesk**](https://go.microsoft.com/fwlink/?linkid=2104630) post your platform deployment.
 
-You can check [**our sample content library**](http://sangampartners.azurewebsites.net/) for reference. We constantly keep updating our content library.  
+You can check [**our sample content library**](http://sangampartners.azurewebsites.net/) for reference. We constantly keep updating the content library.  
 
 Please note - all content hosted in the content library is free of charge and provided under a Creative Common license. So, you can tweak and change the content as per your requirements.
 
@@ -120,17 +120,17 @@ Please note - all content hosted in the content library is free of charge and pr
 
    ![Teams manifest](../media/manifest.JPG)
 
-2. Our team will provide you with the Teams app manifest within 2-3 business days.
+2. Microsoft will provide you with the Teams app manifest within 2-3 business days.
 
-### In what languages is the Microsoft Community Training platform available?
+### In what languages is Community Training available?
 
-Microsoft Community Training currently supports 63 languages on the platform:Afrikaans (South Africa), Amharic (Ethiopia), Arabic (Saudi Arabia), Assamese (India), Bulgarian (Bulgaria)Bengali (India), Bosnian (Latin,  Bosnia & Herzegovina), German (Germany), English (United States), Spanish (Spain,  International Sort), Finnish (Finland), Filipino (Philippines), French (France), Gujarati (India), Hebrew (Israel), Hindi (India), Croatian (Croatia), Hungarian (Hungary), Indonesian (Indonesia), Italian (Italy), Japanese (Japan), Kazakh (Kazakhstan), Khmer (Cambodia), Kannada (India), Lao (Laos), Lithuanian (Lithuania), Malayalam (India), Marathi (India), Malay (Malaysia), Dutch (Netherlands), Odia (India), Punjabi (India), Polish (Poland), Portuguese (Brazil), Romanian (Romania), Russian (Russia), Slovak (Slovakia), Albanian (Albania), Serbian (Cyrillic,  Serbia), Serbian (Cyrillic,  Bosnia and Herzegovina), Serbian (Latin,  Serbia), Swedish (Sweden), Tamil (India), Telugu (India), Thai (Thailand), Ukrainian (Ukraine), Urdu (Pakistan), Vietnamese (Vietnam)Chinese (Simplified,  China), Chinese (Traditional,  Taiwan), Uzbek (Latin,  Uzbekistan), Welsh (United Kingdom), Kinyarwanda, Kiswahili (Kenya), Kurdish, Kyrgyz, Pashto (Afghanistan), Persian (Afghanistan), Portuguese (Mozambique), Romansh, Sindhi, Somali, Tajik, Tetum, 
+Microsoft Community Training currently supports 63 languages on the platform:Afrikaans (South Africa), Amharic (Ethiopia), Arabic (Saudi Arabia), Assamese (India), Bulgarian (Bulgaria)Bengali (India), Bosnian (Latin,  Bosnia & Herzegovina), German (Germany), English (United States), Spanish (Spain,  International Sort), Finnish (Finland), Filipino (Philippines), French (France), Gujarati (India), Hebrew (Israel), Hindi (India), Croatian (Croatia), Hungarian (Hungary), Indonesian (Indonesia), Italian (Italy), Japanese (Japan), Kazakh (Kazakhstan), Khmer (Cambodia), Kannada (India), Lao (Laos), Lithuanian (Lithuania), Malayalam (India), Marathi (India), Malay (Malaysia), Dutch (Netherlands), Odia (India), Punjabi (India), Polish (Poland), Portuguese (Brazil), Romanian (Romania), Russian (Russia), Slovak (Slovakia), Albanian (Albania), Serbian (Cyrillic,  Serbia), Serbian (Cyrillic,  Bosnia and Herzegovina), Serbian (Latin,  Serbia), Swedish (Sweden), Tamil (India), Telugu (India), Thai (Thailand), Ukrainian (Ukraine), Urdu (Pakistan), Vietnamese (Vietnam)Chinese (Simplified,  China), Chinese (Traditional,  Taiwan), Uzbek (Latin,  Uzbekistan), Welsh (United Kingdom), Kinyarwanda, Kiswahili (Kenya), Kurdish, Kyrgyz, Pashto (Afghanistan), Persian (Afghanistan), Portuguese (Mozambique), Romansh, Sindhi, Somali, Tajik, Tetum.
 
-For more information, [**refer here**](../settings/customize-languages-for-the-learners-on-the-platform.md).
+For more information, [**go here**](../settings/customize-languages-for-the-learners-on-the-platform.md).
 
 ### How can i raise a new language request?
 
-You can raise a request ticket via our [HelpDesk](https://sangamhelpdesk.microsoftcrmportals.com/) to request another language for your platform instance. Please refer to [this article](../settings/request-a-new-language.md) for more details.
+You can raise a request ticket via the [HelpDesk](https://sangamhelpdesk.microsoftcrmportals.com/) to request another language for your platform instance. Please refer to [this article](../settings/request-a-new-language.md) for more details.
 
 ### Is there support for live classroom training in Microsoft Community Training?
 
@@ -161,7 +161,7 @@ There are two channels available to the customers to seek help during platform s
 1. [**Self-serve documentation website**](/azure/industry/training-services/microsoft-community-training/) which helps customers provide how to guide and explain different capabilities of the platform in detail.
 2. [**24*7 support desk**](https://go.microsoft.com/fwlink/?linkid=2104630) in case customers are not able to find answers to their queries via the documentation site.
 
-### Can we (Microsoft Partner) host this in our Azure subscription tenant and package it as a training platform for existing Office 365 customers? Does the license allow us to do that?
+### Can we (Microsoft Partner) host this in the Azure subscription tenant and package it as a training platform for existing Office 365 customers? Does the license allow us to do that?
 
 Yes, Microsoft Partners can set up the platform in their own subscription or on a customer subscription and provide value services like integration with an existing system, creating a custom dashboard, platform configuration, setup, and more.
 
@@ -175,9 +175,9 @@ There are various ways to invite users and create awareness about the platforms.
 
 * **Email** – Send mass emails to your targeted users with the platform link.
 * **Social Media** – Share details of the platform on your social media pages such as Facebook and WhatsApp groups.
-* **Integrate with the existing portal** – You can integrate our platform with your existing application or portals.
+* **Integrate with the existing portal** – You can integrate the platform with your existing application or portals.
 
-#### How can I provide feedback on the Microsoft Community Training platform and request for new features?
+#### How can I provide feedback on Community Training and request for new features?
 
 Customers can contact us via [**HelpDesk**](https://go.microsoft.com/fwlink/?linkid=2104630) for any issues or new feature requests. Whenever we receive any feedback, we actively work to address the issue or prioritize the feature asked on the product roadmap.
 
@@ -185,11 +185,11 @@ Customers can contact us via [**HelpDesk**](https://go.microsoft.com/fwlink/?lin
 
 At present, we don't have gamification features leadership and badges but organizations can use practice quizzes and completion to drive learner engagement and course completion.
 
-Having said that, gamification features are something on our roadmap which should be available soon.
+Having said that, gamification features are something on the roadmap which should be available soon.
 
-### How to move MCT resources across Azure subscriptions?
+### How to move CT resources across Azure subscriptions?
 
-At present, we do not recommend moving resource group across different Azure subscriptions. Doing so might impact the services and functionalities of your MCT training portal.
+At present, we do not recommend moving resource group across different Azure subscriptions. Doing so might impact the services and functionalities of your CT training portal.
 
 ### Language customization in Azure Active Directory B2C
 

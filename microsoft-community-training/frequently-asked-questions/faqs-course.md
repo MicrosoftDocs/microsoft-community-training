@@ -3,7 +3,7 @@ title: Content and Course management
 original-url: https://docs.microsoftcommunitytraining.com/docs/faqs-course
 author: nikotha
 ms.author: nikotha
-description: Microsoft provides course content around Digital Literacy, Office 365, etc. which organization can upload and use in their Microsoft Community Training platform instance.
+description: Microsoft provides course content around Digital Literacy, Office 365, etc. which organization can upload and use in their Community Training platform instance.
 ms.prod: learning-azure
 ---
 
@@ -35,7 +35,7 @@ If you’d like to avail any of the courses, contact us via **[HelpDesk](https:/
 
 ### Can I upload my own content to be hosted on Microsoft Community Training?
 
-Organizations can upload & host unlimited contents and courses on the Microsoft Community Training platform. This will allow you to utilize the platform as the centralized repository for all your contents.
+Organizations can upload & host unlimited contents and courses on Community Training. This will allow you to utilize the platform as the centralized repository for all your contents.
 
 The platform supports the following types of formats:
 
@@ -44,11 +44,11 @@ The platform supports the following types of formats:
 * **Other formats**: PDF, PPT, PPTX, DOCX, HTML, ePUB
 * **Hyperlinks**: Paste link in the upload lesson dialogue box (Example: Video URLs from YouTube, Microsoft Learn, etc.)
 
-For more information, check the article on [**how to manage course content**](../content-management/content-management-overview.md) on the Microsoft Community Training platform.  
+For more information, check the article on [**how to manage course content**](../content-management/content-management-overview.md) on Community Training.  
 
 ### How to download content from my training portal?
 
-Microsoft Community Training allows administrators to download/export courses and categories as ZIP files. These zip files can be uploaded on the same instance to copy content or to another instance to transfer the content. Refer to [this article](../content-management/manage-content/manage-course-category/move-course-content-across-training-instance.md) to learn more.
+Community Training allows administrators to download/export courses and categories as ZIP files. These zip files can be uploaded on the same instance to copy content or to another instance to transfer the content. Refer to [this article](../content-management/manage-content/manage-course-category/move-course-content-across-training-instance.md) to learn more.
 
 ### How to create a new course category?
 
@@ -56,7 +56,7 @@ You can create, edit, or delete a category from the administrator portal. Please
 
 ### How to bulk upload lessons?
 
-Microsoft Community Training provides a bulk upload lesson feature to add more than one lesson at a time within a course. [Refer to this article](../content-management/create-content/create-course-category/upload-content-to-a-course.md) for the detailed steps.  
+Community Training provides a bulk upload lesson feature to add more than one lesson at a time within a course. [Refer to this article](../content-management/create-content/create-course-category/upload-content-to-a-course.md) for the detailed steps.  
 
 ### What is the size of the files I can upload on the MCT platform?
 
@@ -80,7 +80,7 @@ The platform can accept file sizes depending on the upload size limit as specifi
 
 ### Will I be able to link videos from external platforms like YouTube and Vimeo?
 
-Yes, customers can embed videos from any external platforms such as YouTube, Microsoft Learn, etc. on the Microsoft Community Training portal.  However, learners will not be able to download such content on the mobile app for offline consumption.
+Yes, customers can embed videos from any external platforms such as YouTube, Microsoft Learn, etc. on the Community Training portal.  However, learners will not be able to download such content on the mobile app for offline consumption.
 
 >[!Note]
 > For Vimeo videos, they do not allow their videos to get embedded directly on any other platform. In order to get the embed URL for any video, you need to follow the below steps:
@@ -97,7 +97,7 @@ Yes, customers can embed videos from any external platforms such as YouTube, Mic
 
     ![Select App Service.png](../media/Select%20App%20Service%281%29.png)
 
-3. Select the app service belonging to your Microsoft Community Training instance.
+3. Select the app service belonging to your Community Training instance.
 4. Select Configuration under settings from the left menu.
 
     ![Select Configurations.png](../media/Select%20Configurations%281%29.png)
@@ -119,9 +119,9 @@ Yes, customers can embed videos from any external platforms such as YouTube, Mic
 
     ![Save Application Settings](../media/Save%20Application%20Settings%281%29.png)
 
-### Does Microsoft Community Training support SCORM content?
+### Does Community Training support SCORM content?
 
-Microsoft community training supports uploading SCORM (version 1.2) packages.
+Community Training supports uploading SCORM (version 1.2) packages.
 
 SCORM (Sharable Content Object Reference Model) is a set of technical standards for eLearning software products. SCORM tells programmers how to write their code so that it can “play well” with other eLearning software. It is the de facto industry standard for eLearning interoperability. Learn more about [SCORM](https://scorm.com/scorm-explained/one-minute-scorm-overview/)
 
@@ -129,7 +129,7 @@ SCORM (Sharable Content Object Reference Model) is a set of technical standards 
 
 :::image type="content" source="../media/SCORMupload.png" alt-text="scormuploadimag1":::
 
-### Does Microsoft Community Training support HTML content?
+### Does Community Training support HTML content?
 
 Yes, rich, dynamic, and interactive HTML content is supported on the platform.  
 
@@ -140,7 +140,7 @@ To add **HTML content** as lesson,
 3. All resources referenced in the HTML pages must be relative and point to files included in the ZIP file.
 
     > [!NOTE]  
-    > If interactive content is available as a single HTML file then you directly upload the same to the platform. No need to create a zip file.
+    > If interactive content is available as a single HTML file then you directly upload it to the platform. No need to create a zip file.
 
 You can also host rich, dynamic, and interactive content as a web page and add the external web link as a lesson on the portal.
 
@@ -153,7 +153,7 @@ To add **external web link** as a lesson,
 
 To learn what other types of content are supported, refer to the [**Course Management Overview**](../content-management/content-management-overview.md) article.
 
-### Does Microsoft Community Training support interactive course content?
+### Does Community Training support interactive course content?
 
 Yes, any interactive content in HTML format can be added as a lesson in the platform.
 
@@ -191,19 +191,19 @@ Yes, you can use audio files for lessons. To learn what other types of content a
 
 ### Can I add multiple language subtitles to a video file?
 
-Microsoft community training allows administrators to add subtitles to videos in more than 180 languages. This additional feature is great for multilingual organizations. [**For adding subtitles**](../content-management/create-content/create-course-category/add-subtitles-or-captions-to-video-content.md) to your video, select the language from the drop-down menu and upload the VTT file that includes the subtitles you want to add. Subtitles must be in the VTT format.
+Community Training allows administrators to add subtitles to videos in more than 180 languages. This additional feature is great for multilingual organizations. [**For adding subtitles**](../content-management/create-content/create-course-category/add-subtitles-or-captions-to-video-content.md) to your video, select the language from the drop-down menu and upload the VTT file that includes the subtitles you want to add. Subtitles must be in the VTT format.
 
 To learn more about the VTT standard, please read it [**here**](https://en.wikipedia.org/wiki/WebVTT).
 
 ### What are the different support file formats for video content on the platform?
 
-Microsoft Community Training supports the following file formats for video content:
+Community Training supports the following file formats for video content:
 
 MP4, 3GP, 3G2, 3GP2, AVI, MPEG, MPG, WMV, VOB, MKV, FLV, DV, TS, ASF, M4V, MOV
 
 ### What are the different support file formats for audio content on the platform
 
-Microsoft Community Training supports the following file formats for  audio  content:
+Community Training supports the following file formats for  audio  content:
 
 MP3 & OGG
 
@@ -231,7 +231,7 @@ Unlike practice quizzes, exams are limited to one per course.
 
 You can define the passing percentage and number of attempts a learner can take the exam at the time of creating the exam.
 
-For detailed steps, **[refer here](../content-management/create-content/create-course-category/add-assessments-to-a-course.md)**.
+For detailed steps, **[go here](../content-management/create-content/create-course-category/add-assessments-to-a-course.md)**.
 
 ## Content Download / Upload
 
@@ -261,17 +261,17 @@ Uploading video content includes the process of encoding the content and convert
 
 A: You can bulk upload your existing course contents to Microsoft community training.
 
-For more information, [**refer here**](../content-management/create-content/create-course-category/create-a-new-course.md).
+For more information, [**go here**](../content-management/create-content/create-course-category/create-a-new-course.md).
 
-### How can one bring content from external websites into the Microsoft Community Training platform?
+### How can one bring content from external websites into Community Training?
 
-The recommended approach is to download the content from external websites and upload the same to the Microsoft Community Training instance.
+The recommended approach is to download the content from external websites and upload it to the Community Training instance.
 
 In case, content on the external website is not owned by the organization or cannot be downloaded then you can paste the content URL as a lesson in the platform. The content will then be accessible to learners as follows:
 
-1. If the content is hosted on a video-sharing platform like YouTube and Vimeo, the learners will be able to view the content inline similar to the uploaded content. However, learners will not be able to download this content and administrators will not be able to track consumption as the lesson will be marked as completed as soon as the learner opens the lesson.
+1. If the content is hosted on a video-sharing platform like YouTube and Vimeo, learners will be able to view the content inline similar to the uploaded content. However, learners will not be able to download this content and administrators will not be able to track consumption as the lesson will be marked as completed as soon as the learner opens the lesson.
 
-2. All the other content will open in a new browser window (except in mobile applications, where the content will still open inline). The learners will see the following message on opening the lesson. When they click on **View Lesson**, the content will open in a new browser window. This is the behavior for content from external sources such as [**Microsoft Learn training**](/training/) and [**Khan Academy**](https://www.khanacademy.org/test-prep/iit-jee-subject/iit-jee-topic).
+2. All the other content will open in a new browser window (except in mobile applications, where the content will still open inline). learners will see the following message on opening the lesson. When they click on **View Lesson**, the content will open in a new browser window. This is the behavior for content from external sources such as [**Microsoft Learn training**](/training/) and [**Khan Academy**](https://www.khanacademy.org/test-prep/iit-jee-subject/iit-jee-topic).
 
     ![View lesson](../media/image%28255%29.png)
 
@@ -292,9 +292,9 @@ When content is uploaded to our portal, learners get the advantage of features s
 
 ### How do I show language-specific content for a course to learners?
 
-For scenarios when you have the same course available in multiple languages, you can automatically assign relevant courses to learners based on their preferred language. Please follow the steps mentioned below:
+For scenarios when you have a course available in multiple languages, you can automatically assign relevant courses to learners based on their preferred language. Please follow the steps mentioned below:
 
-1) Create multiple versions of the same course each containing content in a different language.
+1) Create multiple versions of the course each containing content in a different language.
   
 2) Add a custom field as part learner's profile information to capture a learner's preferred language. Learn how to do it from **[this article](../settings/add-additional-profile-fields-for-user-information.md)**.
 
@@ -324,7 +324,7 @@ Follow the instructions given in **[this](../content-management/create-content/c
 
 ### How many courses and lessons can I upload on the platform?
 
-Microsoft community training does not set any numeric limits. Customers can have any number of courses and lessons as required.
+Community Training does not set any numeric limits. Customers can have any number of courses and lessons as required.
 
 ### How to 'Add Tags' after a course is published?
 
@@ -350,7 +350,7 @@ No. There is no limit to the number of categories and courses that the administr
 
 ### How can I assign a due date for a course on the platform?
 
- Currently, the Microsoft Community Training platform doesn’t support the functionality to assign due dates on the platform. But this is something on the product roadmap.
+ Currently, Community Training doesn’t support the functionality to assign due dates on the platform. But this is something on the product roadmap.
 
 #### How can I track and view learner progress on the platform?
 
@@ -358,7 +358,7 @@ You will be able to track and view user progress from our analytics tab on the a
 
 ### How can I add additional resources or exercises as part of a course?
 
-Currently, the Microsoft Community Training platform doesn't support attaching additional content or exercises as part of courses out-of-the-box. However, customers can achieve this by using third-party tools such as Microsoft Forms or attaching exercise files in Word and embedding them as a lesson in a course.
+Currently, Community Training doesn't support attaching additional content or exercises as part of courses out-of-the-box. However, customers can achieve this by using third-party tools such as Microsoft Forms or attaching exercise files in Word and embedding them as a lesson in a course.
 
 Example: You can attach Microsoft Forms as an external URL as a lesson with exercises or assignment questionnaires for your learners. On the form, you can enable file upload as required for learners to complete their assignments and easily attach their work. Alternatively, you can share instructions via a Word document attached as a lesson and ask learners to email their work.
 
@@ -379,9 +379,9 @@ Once the course is published on the platform, you can't unpublish it but you can
 
 ### What happens to existing learners’ certificates when I update content for a course?
 
-When a new lesson is added to a course, the completion percentage of the learners for that course will decrease and their completion status for the course will be changed to ‘not completed’. If the certificate is enabled, then it would have already been generated for the learners who had completed the course before, and they will still be able to see their certificates even after the addition of the new lesson.
+When a new lesson is added to a course, the completion percentage of learners for that course will decrease and their completion status for the course will be changed to ‘not completed’. If the certificate is enabled, then it would have already been generated for learners who had completed the course before, and they will still be able to see their certificates even after the addition of the new lesson.
 
-When a lesson is removed from the course, the completion percentage of the learners for that course will increase and the status of the course will be changed to completed accordingly. If the certificate is enabled, all learners will receive the certificate - if they have completed all the lessons.
+When a lesson is removed from the course, the completion percentage of learners for that course will increase and the status of the course will be changed to completed accordingly. If the certificate is enabled, all learners will receive the certificate - if they have completed all the lessons.
 
 ### How does updating or changing content affect course completion for existing learners?
 

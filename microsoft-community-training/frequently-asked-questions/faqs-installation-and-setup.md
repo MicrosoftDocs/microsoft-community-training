@@ -45,7 +45,7 @@ However, the platform supports SSO with any OAuth 2.0, OpenID Connect, or SAML-b
 
 ### Are there REST APIs available for integration? How can organizations integrate Community Training with their internal systems and existing applications?
 
-Microsoft Community Training platform provides REST APIs to help organizations build custom experiences, integrate the platform with their existing system, or consume training content via custom endpoints.
+Community Training provides REST APIs to help organizations build custom experiences, integrate the platform with their existing system, or consume training content via custom endpoints.
 
 For example, organizations can use Microsoft Flow, Logic Apps, etc. to integrate the platform with their HRMS and CRM systems to import/sync users to the platform or export course progress and completion status.  
 
@@ -63,7 +63,7 @@ If you didn't find the solution in the troubleshooting guide, please contact us 
 
 At present Microsoft Community Training supports 28 languages which are Albanian, Arabic, Bengali, Chinese (Simplified), Chinese (Traditional, Dutch, English, Finnish, French, Hindi, Kinyarwanda, Kurdish, Lao, Lithuanian, Malay, Odia, Portuguese, Serbian (Cyrillic), Somali, Spanish, Swedish, Swedish, Tajik, Telugu, Tetum, Thai, Ukrainian, Vietnamese.
 
-For more information, [**refer here**](../settings/customize-languages-for-the-learners-on-the-platform.md).
+For more information, [**go here**](../settings/customize-languages-for-the-learners-on-the-platform.md).
 
 ### Can I create and maintain more than one instance of Microsoft Community Training for my organization?
 
@@ -81,7 +81,7 @@ Microsoft community training is designed to be easily deployed and managed by th
 
 Your IT admin or cloud administrator responsible for managing the [**Azure Portal**](https://portal.azure.com/) can deploy the platform on your Azure subscription. Once the platform is deployed, the training manager can [**start configuring the platform and upload training content**](../get-started/step-by-step-configuration-guide.md). No coding is required.
 
-You do not need a technical team or a developer to implement the platform unless you want to extend platform capabilities using our APIs or integrate the platform with your existing system.
+You do not need a technical team or a developer to implement the platform unless you want to extend platform capabilities usingtheAPIs or integrate the platform with your existing system.
 
 ### Do you have partners behind the implementation Microsoft community training solution? Which type of partners?
 
@@ -109,9 +109,9 @@ If you need further assistance, reach out to us [**via helpdesk**](https://go.mi
 
 ### How does Microsoft Community Training integration with Microsoft Teams work?
 
-Organizations can enable Microsoft Teams as an endpoint for the Microsoft Community Training platform. Once it is enabled, learners can consume training content within Microsoft Teams (Web, Desktop and Mobile) and no separate application is needed.
+Organizations can enable Microsoft Teams as an endpoint for the Community Training. Once it is enabled, learners can consume training content within Microsoft Teams (Web, Desktop and Mobile) and no separate application is needed.
 
-In the case of a Microsoft Team's setup, all the existing groups/teams will be automatically imported and synced to the Microsoft Community Training platform to make it easy for administrators and Teams owners to assign courses and track completion.
+In the case of a Microsoft Team's setup, all the existing groups/teams will be automatically imported and synced to the Community Training to make it easy for administrators and Teams owners to assign courses and track completion.
 
 For more details, please visit [**teams integration page**](https://communitytraining.microsoft.com/products/teams/).
 
@@ -119,7 +119,7 @@ For more details, please visit [**teams integration page**](https://communitytra
 
 Microsoft Community Training allows organizations to enable self-paced learning inside Microsoft Teams across web, mobile, and desktop apps.
 
-For more details, visit [**our website**](https://communitytraining.microsoft.com/teams/) to know how Community Training platform integrates with Microsoft Teams, visit our website.
+For more details, visit [**our website**](https://communitytraining.microsoft.com/teams/) to know how Community Training platform integrates with Microsoft Teams, visitthewebsite.
 
 In case you already have an instance deployed, follow these steps to create the [**Teams app for your training instance**](../infrastructure-management/install-your-platform-instance/create-teams-app-for-your-training-portal.md).
 
@@ -127,7 +127,7 @@ In case you already have an instance deployed, follow these steps to create the 
 
 ### How can I request for the mobile app? Who publishes the mobile app?
 
-Once your platform instance is deployed, you can request the mobile app through our help desk. The mobile app must be published by customers using their own Google Play Store. For more information, [**refer here**](../infrastructure-management/install-your-platform-instance/create-publish-mobile-app.md).
+Once your platform instance is deployed, you can request the mobile app throughthehelp desk. The mobile app must be published by customers using their own Google Play Store. For more information, [**go here**](../infrastructure-management/install-your-platform-instance/create-publish-mobile-app.md).
 
 Please note: Community Training comes only with a native app for Android. For iOS, we recommend using a mobile browser to access the web app or convert the web app into a native iOS app using [**online tool such as GoNative**](https://gonative.io/).
 
@@ -143,9 +143,9 @@ Here is the minimal device configuration needed for the Microsoft Community Trai
 
 ### Is there an app available for the IOS platform?
 
-Currently, we do not have a native application for the IOS platform, but it is on our product roadmap.
+Currently, we do not have a native application for the IOS platform, but it is ontheproduct roadmap.
 
-In the meantime, as a workaround, you can convert our existing mobile-optimized web app into an iOS app using [**GoNative**](https://gonative.io/).
+In the meantime, as a workaround, you can converttheexisting mobile-optimized web app into an iOS app using [**GoNative**](https://gonative.io/).
 
 ### Is there an app available for the Windows platform?
 

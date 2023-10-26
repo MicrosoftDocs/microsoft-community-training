@@ -17,7 +17,7 @@ It is possible that your infrastructure is unable to handle the high traffic loa
 
 ### I can't open external links embedded inside the PDF document in the platform
 
-For security reasons, we have disabled clicking on external links for the PDF document on the platform. Hence, you should not add any link in the PDF lesson file.
+For security reasons, we have disabled clicking on external links for the PDF document on the platform. Hence, you should not add any links to the PDF lesson file.
 
 ### Can learners change/update user profile fields?
 
@@ -52,10 +52,10 @@ There are two ways to achieve this:
    You can create a custom HTML landing page with a sign-in button. The landing page can be designed to have any information about your organization or training program. When user selects login, you can direct them to our sign-in flo,w and on successful login, users will shown the My Course Page.
 
 2. Mark all the course as admin only by following the below steps  
-   * Login to Management portal as an administrator with access to the courses
+   * Sign in to Management portal as an administrator with access to the courses
    * Select the Course and click More (…)
    * Select Edit course
-   * In ‘Learner Enrollment’ options select ‘Only admin can enroll learners’
+   * In Learner Enrollment options, select **Only admin can enroll learners**
 
 ### Can learners create their own lesson plans?
 
@@ -63,14 +63,14 @@ No. Learners cannot create their own lesson plans. They can only go through cour
 
 ### What are the video playback controls available for Microsoft Community Training?
 
-We have the below-mentioned functions which are available on our inbuilt video player,
+The below-mentioned functions are available on the inbuilt video player:
 
 1. Play & Pause
 2. See Videos Progress
 3. Turn Closed Captions on and off
 4. Volume Adjustments
 5. Setting Video Quality based on the data bandwidth
-6. Viewing video on full screen.
+6. Viewing video on full screen
 
    ![Video on full screen](../media/image%28310%29.png)
 
@@ -102,7 +102,7 @@ Learners can download content only on the mobile app. To download the content, l
 
 ### Can learner download content for offline consumption on their device?
 
-On the web portal, learners cannot download the lesson content except if it is an Office document like Word, PowerPoint, and Excel. For example, if you are uploading Video, PDF, Audio, HTML, or ePUB as lesson content then learners would not be allowed to download the content on their local device.
+On the web portal, learners cannot download the lesson content except if it is an Office document like Word, PowerPoint, or Excel. For example, if you are uploading Video, PDF, Audio, HTML, or ePUB as lesson content then learners would not be allowed to download the content on their local device.
 
 On the mobile app, learners are allowed to download the content for offline consumption. Even after downloading, learners will have to open the mobile app to consume the training content. They cannot access content outside the app.
 
@@ -110,7 +110,7 @@ Please note that downloaded content can be viewed only from within the Microsoft
 
 ### Can I disable the downloading of video and other course content for learners on the web and mobile app?
 
-Learners accessing the platform using a web (PC / Mac) or mobile browser  (Android / iOS) will not be able to download video or audio content that are hosted on the platform; however, they will be able to download certain file types such as Word, and PowerPoint.
+Learners accessing the platform using a web (PC / Mac) or mobile browser  (Android / iOS) will not be able to download video or audio content that is hosted on the platform; however, they will be able to download certain file types such as Word, and PowerPoint.
 
 Learners accessing the platform using our native Android app will be able to download content such as Video, audio & documents. The downloaded content is accessible only via the mobile app and not out of the app, like YouTube, Amazon Prime, Netflix, etc.
 
@@ -142,7 +142,7 @@ As Android platform policies are subject to change, we suggest you refer to [**G
 
 ### How to restrict users from downloading course material on mobile apps
 
-Download functionality on the mobile app is turned on by default and cannot be disabled. However, the downloaded content can only be consumed within the app and are not accessible outside the mobile app. This ensures that learners won’t be able to share content with others.
+Download functionality on the mobile app is turned on by default and cannot be disabled. However, the downloaded content can only be consumed within the app and is not accessible outside the mobile app. This ensures that learners won’t be able to share content with others.
 
 ### Things to remember while migrating from the Native Android app to PWA
 
@@ -174,7 +174,7 @@ Refer this [**article**](../learner-experience/web-app.md#step-7-discuss-and-sha
 
 Discussion Forums enable learners to ask their queries on a specific lesson which can be answered by administrators or interact with peers who are enrolled in the course.  
 
-The forum is open to all learners enrolled in the course where real-time a Q&A can take place.
+The forum is open to all learners enrolled in the course where real-time Q&A can take place.
 
 ### How to access discussion forums on the platform?
 

@@ -43,8 +43,8 @@ Microsoft Community Training doesn't come with any out-of-box integrations with 
 
 ### Can I embed or integrate Microsoft Community Training into an existing mobile application?
 
-Yes, you can integrate the Microsoft Community Training platform to your existing mobile application.  
-For example, you can add a Training button on the home screen, and clicking on the button will launch the Microsoft Community Training platform inside the existing app as a web view.
+Yes, you can integrate Community Training to your existing mobile application.  
+For example, you can add a Training button on the home screen, and clicking on the button will launch Community Training inside the existing app as a web view.
 
 #### Embedding the webview of CT in your existing mobile app
 
@@ -92,9 +92,9 @@ For more information, please reach out to us [**via HelpDesk**](https://go.micro
 
 ### Is e-commerce and payment integration available on the platform? Can I use Microsoft Community Training to sell courses directly to end users?
 
-E-Commerce and Payment functionalities are not available on the platform out of the box. However, customers can build these functions using our APIs.
+E-Commerce and Payment functionalities are not available on the platform out of the box. However, customers can build these functions using the APIs.
 
-Example: You will be able to integrate our APIs with your catalog page, whenever someone purchases a course, the learner can be enrolled in the respective courses.
+Example: You will be able to integrate the APIs with your catalog page, whenever someone purchases a course, the learner can be enrolled in the respective courses.
 
 For more details, reach out to us [**via HelpDesk**](https://go.microsoft.com/fwlink/?linkid=2104630).
 
@@ -104,9 +104,9 @@ For more details, reach out to us [**via HelpDesk**](https://go.microsoft.com/fw
 
 Whenever a new course is assigned or updated to the users by the administrator, an in-app notification is sent which can be viewed by users under the Notifications section identified by the icon.
 
-Periodic email or SMS alerts to users such as information on new course additions or course completion reminders can be sent by integrating our platform with external services like Logic Apps, Microsoft Flow, etc.
+Periodic email or SMS alerts to users such as information on new course additions or course completion reminders can be sent by integrating the platform with external services like Logic Apps, Microsoft Flow, etc.
 
-For example, customers can leverage our APIs and use third-party tools to extend platform capability and send emails to learners as required. These can be welcome emails when they first sign in to the platform or they can be update emails when a new course is assigned to them.
+For example, customers can leverage the APIs and use third-party tools to extend platform capability and send emails to learners as required. These can be welcome emails when they first sign in to the platform or they can be update emails when a new course is assigned to them.
 
 For more details, reach out to us [**via HelpDesk**](https://go.microsoft.com/fwlink/?linkid=2104630).
 
@@ -116,9 +116,9 @@ Microsoft community training does not have this function out of the box. However
 
 For more details, reach out to us [**via HelpDesk**](https://go.microsoft.com/fwlink/?linkid=2104630).
 
-### Can the administrators share a deep link of courses with the learners?
+### Can the administrators share a deep link of courses with learners?
 
-Yes, the administrators can obtain the deep link of each course on the MCT portal and share the same with the learners. To obtain the deep link of a course, the administrators need to follow the below steps:
+Yes, the administrators can obtain the deep link of each course on the CT portal and share it with learners. To obtain the deep link of a course, the administrators need to follow the below steps:
 
 1. Go to the Administrator view of your CT instance.
 2. Go to the course for which you want to obtain the deep link.
@@ -127,7 +127,7 @@ Yes, the administrators can obtain the deep link of each course on the MCT porta
    ![Course options](https://user-images.githubusercontent.com/87796184/158620704-7b4044e3-f46a-4786-80c6-1fb187c4ef8f.PNG)
 4. On this learner's view, copy the URL that is displayed on the browser.
 
-This link obtained above is the deep link of the course and can be shared with the learners.
+This link obtained above is the deep link of the course and can be shared with learners.
 
 ## Rest APIs
 
@@ -135,7 +135,7 @@ This link obtained above is the deep link of the course and can be shared with t
 
 Microsoft Community Training platform provides REST APIs to help you integrate the platform with your existing systems and consume training via custom endpoints such as your own mobile app or website.
 
-For more information, [**refer here**](../infrastructure-management/install-your-platform-instance/apis.md).
+For more information, [**go here**](../infrastructure-management/install-your-platform-instance/apis.md).
 
 ### How can I sync/import users data from my existing system to Microsoft Community Training?
 
@@ -195,9 +195,9 @@ QuizId can be obtained by Step 1. The specification of the APIs is:
 
 >[!Warning]
 >
-> * If you want Assessments to be evaluated in MCT platform, please provide the Answer Strings in the request body.
+> * If you want Assessments to be evaluated in CT platform, please provide the Answer Strings in the request body.
 > * In case if the Answer Strings is empty, isCorrect would be considered and assessment evaluation won't happen in
-MCT
+CT
 
 #### Export Course content to other LMS
 

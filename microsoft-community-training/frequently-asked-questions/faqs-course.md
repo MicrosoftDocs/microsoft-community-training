@@ -33,7 +33,7 @@ If you’d like to avail any of the courses, contact us via **[HelpDesk](https:/
 
 ## Content Format
 
-### Can I upload my own content to be hosted on Microsoft Community Training?
+### Can I upload my own content to be hosted on Community Training?
 
 Organizations can upload & host unlimited contents and courses on Community Training. This will allow you to utilize the platform as the centralized repository for all your contents.
 
@@ -58,7 +58,7 @@ You can create, edit, or delete a category from the administrator portal. Please
 
 Community Training provides a bulk upload lesson feature to add more than one lesson at a time within a course. [Refer to this article](../content-management/create-content/create-course-category/upload-content-to-a-course.md) for the detailed steps.  
 
-### What is the size of the files I can upload on the MCT platform?
+### What is the size of the files I can upload on the CT platform?
 
 The platform can accept file sizes depending on the upload size limit as specified below.
 
@@ -88,9 +88,9 @@ Yes, customers can embed videos from any external platforms such as YouTube, Mic
 > * In your Vimeo video player, click on the share button, under the Embed sectio,n copy the code highlighted as below, and you can paste this as external url for a lesson in CT
 > :::image type="content" source="../media/viemoshare.png" alt-text="sharevimeo":::
 >
-> * If receive any playback error while playing a Vimeo video in MCT, you need to update [privacy settings](https://vimeo.zendesk.com/hc/en-us/articles/115015677227-Troubleshoot-player-error-messages) in your Vimeo account.
+> * If receive any playback error while playing a Vimeo video in CT, you need to update [privacy settings](https://vimeo.zendesk.com/hc/en-us/articles/115015677227-Troubleshoot-player-error-messages) in your Vimeo account.
 
-### How can I allow external videos to play inside Microsoft Community Training?
+### How can I allow external videos to play inside Community Training?
 
 1. Login to the Azure portal.
 2. Go to App Services from the left menu.
@@ -257,9 +257,9 @@ Video encoding is the process of compressing and potentially changing the format
 
 Uploading video content includes the process of encoding the content and converting it into multiple resolutions to enable playback in low connectivity scenarios. This process usually takes time and partially depends on your internet speed and platform configuration.
 
-#### How to import my existing course content to Microsoft community training
+#### How to import my existing course content to Community Training
 
-A: You can bulk upload your existing course contents to Microsoft community training.
+A: You can bulk upload your existing course contents to Community Training.
 
 For more information, [**go here**](../content-management/create-content/create-course-category/create-a-new-course.md).
 
@@ -285,7 +285,7 @@ If the video is hosted on external platforms like YouTube then the below feature
 
 ### What is the difference between uploading content v/s linking content from public resources such as YouTube, Microsoft Learn, etc.?
 
-When content is uploaded to our portal, learners get the advantage of features such as offline consumption on mobile apps, auto-optimization based on data bandwidth, detailed analytics, etc. which are not available for content from external sources. Also, external content is marked as completed once it is opened or redirected.
+When content is uploaded to the portal, learners get the advantage of features such as offline consumption on mobile apps, auto-optimization based on data bandwidth, detailed analytics, etc. which are not available for content from external sources. Also, external content is marked as completed once it is opened or redirected.
 
 > [!NOTE]  
 > Video content from YouTube platform will be embedded and rendered within the application, other external web links such as Microsoft Learn and LinkedIn Learning will open in a new browser window.
@@ -302,7 +302,7 @@ For scenarios when you have a course available in multiple languages, you can au
 
 4) Finally, assign the language-specific course to each group based on that group's preferred language. Refer **[this article](../user-management/manage-users/assign-content-to-group-users.md)** to learn how.
 
-### How can an organization create content for  Microsoft Community Training?
+### How can an organization create content for  Community Training?
 
 You can create content as per the needs of your training program, using any tool of your choice. Microsoft can help you with your content creation by advising you on best practices and tips to create engaging content for your audience.
 
@@ -342,7 +342,7 @@ You can define the learning sequence within a course via the restricted lesson o
 
 By default, learners can jump to any lesson or practice quiz throughout a course freely. But there are often when you may need learners to go through the course items in a sequence. This setting will allow you to restrict lesson ordering when creating or editing a course. This ensures that Learners can only consume lessons in sequence. Skipping will not be permitted.
 
-However, setting sequencing paths across courses is not currently supported on our platform. Example: You can force users to complete Course A before Course B is enabled for consumption. Currently, this is something we have on our product roadmap.
+However, setting sequencing paths across courses is not currently supported on the platform. Example: You can force users to complete Course A before Course B is enabled for consumption. Currently, this is something we have on the product roadmap.
 
 ### Is there any limit to the Categories and Courses that the administrator can create or upload?
 
@@ -354,7 +354,7 @@ No. There is no limit to the number of categories and courses that the administr
 
 #### How can I track and view learner progress on the platform?
 
-You will be able to track and view user progress from our analytics tab on the admin dashboard.  For further information please visit [**this article**](../analytics/analytics-overview.md).
+You will be able to track and view user progress from the analytics tab on the admin dashboard.  For further information please visit [**this article**](../analytics/analytics-overview.md).
 
 ### How can I add additional resources or exercises as part of a course?
 
@@ -368,7 +368,7 @@ Course administrators can have the downloadable links copied to the Word file an
 
 * Upload the necessary course materials to services like One Drive, Google Drive, Dropbox, etc.
 * Copy the respective shareable links and paste them into a Word file.
-* Upload the Word file to our platform as a lesson and title it as Downloadable resources or Exercise file.
+* Upload the Word file to the platform as a lesson and title it as Downloadable resources or Exercise file.
 
 ### Can we unpublish a course?
 
@@ -407,7 +407,7 @@ Yes, you may insert language subtitles in the video itself and upload it as a le
 
 ### Can we set a due date for the course completion?
 
-Currently, the platform doesn't have a concept of assigning a due date for a course but it is on our product roadmap.
+Currently, the platform doesn't have a concept of assigning a due date for a course but it is on the product roadmap.
 
 ### Can we restrict a user from moving from one lesson to the next unless they have finished the previous lesson?
 

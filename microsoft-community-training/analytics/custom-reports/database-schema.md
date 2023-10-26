@@ -35,7 +35,7 @@ In this article, you will learn more about the platform's database schema and it
 
 ## Accessing Database
 
-The following are the two ways to access the MCT Database:
+The following are the two ways to access the CT Database:
 
 ### Method 1: Using Connection string
 

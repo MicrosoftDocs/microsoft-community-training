@@ -50,7 +50,7 @@ This section provides information on the popular courses across categories. This
 
 ## Insights on learner engagement and course completion
 
-This section  enables an admin to view course enrollment and completion over time, and popular courses by completion among the learners :  
+This section  enables an admin to view course enrollment and completion over time, and popular courses by completion among learners :  
 ![Courses completion](../../media/image%2835%29.png)
 
 ### Course enrollment/completion over time

@@ -30,12 +30,12 @@ The Community Training portal provides role-based administration, and depending 
 
 ## Insights on learner’s enrollment and course registration
 
-This section in the Category View enables an admin to view learner enrollment over time and popular courses by enrollment among the learners for a given category. For example, the image below shows the information for a Healthcare category.  
+This section in the Category View enables an admin to view learner enrollment over time and popular courses by enrollment among learners for a given category. For example, the image below shows the information for a Healthcare category.  
 ![Healthcare category](../../media/image%2839%29.png)
 
 ### Learners enrollment over time
 
-The graph provides information about all the learners enrolled for all the courses under a specific category over time. Hover over the title to view the description of this graph.
+The graph provides information about all learners enrolled for all the courses under a specific category over time. Hover over the title to view the description of this graph.
 
 The values that are measured are:  
 
@@ -86,4 +86,4 @@ From the courses grid, you can:
 
 1. Select the respective column headings to sort the rows by any column.
 2. Select **Download List** to download the data into an Excel sheet.
-3. Select a row to [**view detailed information**](./course-view-report.md) about course completion and learner performance for all the learners enrolled for the specific course.
+3. Select a row to [**view detailed information**](./course-view-report.md) about course completion and learner performance for all learners enrolled for the specific course.

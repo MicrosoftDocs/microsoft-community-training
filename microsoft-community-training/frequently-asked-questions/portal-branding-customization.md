@@ -25,7 +25,7 @@ You can customize the name and icon of the training tab in MS Teams as per your 
 
 ### We run programs for different centers in various locations and often need a different front end to match the branding of the specific program. Is this possible?
 
-Microsoft Community Training doesn't support multiple home pages out of the box. However, you can customize and develop multiple standalone HTML pages (one for each program) with a link to sign in to the Learner view. Course assignment can be controlled by prompting the user to choose the employment center/program during the one-time sign-up process.
+Community Training doesn't support multiple home pages out of the box. However, you can customize and develop multiple standalone HTML pages (one for each program) with a link to sign in to the Learner view. Course assignment can be controlled by prompting the user to choose the employment center/program during the one-time sign-up process.
 
 For more information and support on how to enable this, please contact us via [**HelpDesk**](https://go.microsoft.com/fwlink/?linkid=2104630).
 
@@ -55,15 +55,15 @@ You can upload your own privacy statement by logging in as an administrator to t
 2. Enable the Show Privacy Terms toggle button
 3. Add a link to your organization's privacy terms and conditions.
 
-For detailed steps,  [**refer here**](../settings/add-additional-profile-fields-for-user-information.md#add-privacy-terms-and-conditions).
+For detailed steps,  [**go here**](../settings/add-additional-profile-fields-for-user-information.md#add-privacy-terms-and-conditions).
 
 ### How many profile fields can I configure as an administrator to capture learner details?
 
-Microsoft Community Training allows adding up to 15 additional profile fields to capture learner information. The value of these fields can be changed both by learners and administrators.
+Community Training allows adding up to 15 additional profile fields to capture learner information. The value of these fields can be changed both by learners and administrators.
 
 ### Can I customize the profile information I want to capture for each learner?
 
-By default, learners will be asked for their first name, last name, and profile photo on sign-up. As an organization, you can capture additional information at the time of login and display privacy terms and conditions for the learners. This will be useful in managing and organizing users, assigning them courses, and tracking analytics.
+By default, learners will be asked for their first name, last name, and profile photo on sign-up. As an organization, you can capture additional information at the time of login and display privacy terms and conditions for learners. This will be useful in managing and organizing users, assigning them courses, and tracking analytics.
 
 Examples of additional information can be location, job role, language, topics of interest, and more.
 
@@ -111,13 +111,13 @@ The logo can have either a transparent or a solid background.
 
 ### I see the certificate template is predefined. Is there any way for me to customize the logo, signature, etc.?
 
-Microsoft Community Training platform uses a basic template to issue certificates to learners who have completed a course or passed an exam as shown below.
+Community Training uses a basic template to issue certificates to learners who have completed a course or passed an exam as shown below.
 
 ![Certificate for completion](../media/image%2829%29.png)
 
 Organizations can customize the certificate template and put their own branding as required. You can create and assign multiple certificates appropriate to the course. Also, note learners can only receive one Certificate of Completion per course.
 
-For more details, [**refer here**](../settings/customize-the-certificate-template.md).
+For more details, [**go here**](../settings/customize-the-certificate-template.md).
 
 ### How do I customize the certificate template for the portal?
 
@@ -127,7 +127,7 @@ Refer **[this article](../settings/customize-the-certificate-template.md)** to l
 
 ### Can I have different certificates created and assigned to courses?
 
-Microsoft community training enables you to create and assign multiple certificates with its preferred type of language and other customizations. For more details [refer here](../settings/enable-course-level-certificate.md)
+Community Training enables you to create and assign multiple certificates with its preferred type of language and other customizations. For more details [go here](../settings/enable-course-level-certificate.md)
 
 ### Is there any restriction on the branding that can be used for the certificate?
 
@@ -147,6 +147,6 @@ You can change the domain of your portal and use a custom domain that reflects y
 
 ### Is there an inbuilt feature to take feedback from learners or conduct surveys?
 
-Currently, Microsoft Community Training doesn't have an inbuilt feature to create feedback forms or surveys. To collect feedback from the learners or conduct surveys, you can create an online form using tools such as Microsoft Forms, Survey Monkey, Google Forms, etc., and share the form URL via the training portal.
+Currently, Community Training doesn't have an inbuilt feature to create feedback forms or surveys. To collect feedback from learners or conduct surveys, you can create an online form using tools such as Microsoft Forms, Survey Monkey, Google Forms, etc., and share the form URL via the training portal.
 
-The online form can be added directly to the course or shared with the learners via the announcement feature.
+The online form can be added directly to the course or shared with learners via the announcement feature.

@@ -9,11 +9,10 @@ ms.prod: learning-azure
 
 # Frequently asked questions - Offline Learning
 
-## 
 
 ### What is the list of content formats supported offline?
 
-In offline MCT supports pdf, ePUB, html, 3GP, ogg, mov, m4v, mp4, mp3
+In offline CT supports pdf, ePUB, html, 3GP, ogg, mov, m4v, mp4, mp3
 
 ### How to sync content offline?
 
@@ -47,7 +46,7 @@ We are working on analytics, this change will be part of our future releases.
 
 As long as the device is connected to the internet, content sync will continue to happen.
 
-* Without internet connectivity, the admin can download the user progress from the admin view on the edge device and upload the same to the corresponding online instance.
+* Without internet connectivity, the admin can download the user progress from the admin view on the edge device and upload it to the corresponding online instance.
 
 >[!Note]
 >User progress sync will happen only once a day (at 12 AM system time).

@@ -280,3 +280,7 @@
        href: learning-in-offline-mode/azure-IOT-edge-device-setup.md
      - name: Frequently Asked Questions
        href: learning-in-offline-mode/frequently-asked-questions.md
+    - name: Concepts
+      items:
+      -name: Reliability in Community Training
+       href: infrastructure-management\monitor-your-platform-infrastructure\reliability-in-community-training.md #For Anastesia    

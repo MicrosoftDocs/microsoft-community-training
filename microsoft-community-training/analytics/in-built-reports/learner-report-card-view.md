@@ -3,21 +3,21 @@ title: Learner Report Card View
 original-url: https://docs.microsoftcommunitytraining.com/docs/learner-report-card-view
 author: nikotha
 ms.author: nikotha
-description: Learner Report Card View provide administrators to monitor and track each individual learner’s progress and performance across all the enrolled courses.
+description: Learner Report Card View provides administrators the ability to monitor and track each learner's progress and performance across all the enrolled courses.
 ms.prod: learning-azure
 ---
 
 # Learner Report Card View
 
-Learner Report Card View provide administrators to monitor and track each individual learner’s progress and performance across all the enrolled courses. This information helps administrators (specially group admins)  track course completion and follow up with learners to drive adoption of the training program.
+Learner Report Card View allows administrators to monitor and track each   learner’s progress and performance across all the enrolled courses. This information helps administrators (especially group administrators) to track course completion and follow up with learners to drive the adoption of the training program.
 
-To access the Learner Report Card View, you need to select a user from the group details page or All users list page.
+To access the Learner Report Card View, you need to select a user from the group details page or All Users list page.
 
-In this article, you will learn more about different metrics and reports available to the administrator for individual leaner analytics for all the enrolled courses.
+In this article, you will learn more about different metrics and reports available to the administrator for individual learner analytics for all the enrolled courses.
 
 ## Permissions Level
 
-The Microsoft Community Training management portal provides role-based administration and depending upon the type of access level administrator can perform an action on the portal. Table below shows administrative role which can access the group view:  
+The Community Training management portal provides role-based administration and depending on the access level, administrators can perform certain actions. The table below shows the administrative roles that can access the group view:  
 
 |Access Level  |Learner Report Card View|
  |---|---|
@@ -30,33 +30,33 @@ The Microsoft Community Training management portal provides role-based administr
 
 ## Overview metrics
 
-This section of the Learner Report Card View enables admin to get a quick summary of the overall status of the learner progress across all the enrolled courses. As shown in the image below, you will find the following 3 metrics:
+This section of the Learner Report Card View enables the admin to get a quick summary of the overall status of learner progress across all the enrolled courses. As shown in the image below, you will find the following three metrics:
 
-1. **Modules Enrolled**: Show the total number of courses a learner has been enrolled or registered for
+1. **Modules Enrolled**: Shows the total number of courses a learner has been enrolled in or registered for.
 
-2. **Module Completion**:  Show the total number of courses a learner has completed
+2. **Module Completion**:  Shows the total number of courses a learner has completed
 
-3. **Average Quiz Score**: Show the average quiz score across all the courses where learners has attempted the Practice Quiz and Exam
+3. **Average Quiz Score**: Show the average quiz score across all the courses where learners have attempted the Practice Quiz and Exam
 
     ![Average Quiz Score](../../media/image%2846%29.png)
 
 ## Detailed progress and performance on the Enrolled courses
 
-This section of the Learner Report Card View provides details on the learning progress and performance for each individual course in a grid view. As shown in the image below, for each course, you will see the following metrics:
+This section of the Learner Report Card View provides details on the learning progress and performance for each course in a grid view. As shown in the image below, for each course, you will see the following metrics:
 
 1. **Learner Access Restricted to Course** - This lock icon defines if the course is restricted for the learner at that stage because they have not completed other courses. This can happen when course ordering is restricted in a Learning Path.
 
-2. **Module Name** – Name of the course user has been enrolled
+2. **Module Name** – Name of the course the user has been enrolled in.
 
-3. **Average Quiz Score %** - Show the average quiz score across all the Practice Quiz and Exam attempted by the learners. If there are no quizzes/exams in the course, then this column will set to Not Applicable
+3. **Average Quiz Score %** - Show the average quiz score across all the Practice Quizzes and Exams attempted by learners. If there are no quizzes/exams in the course, then this column will be set to Not Applicable.
 
-4. **% Course Progress** – Number of lessons completed by learners for a course
+4. **% Course Progress** – Number of lessons completed by learners for a course.
 
-5. **Quizzes Completed** - Number of quizzes completed by learners for a course
+5. **Quizzes Completed** - Number of quizzes completed by learners for a course.
 
-6. **Enrolled On** – Date on which learner was enrolled for the course
+6. **Enrolled On** – The date on which the learner was enrolled for the course.
 
-7. **Priority** - Priority of the course for the learner: Required, Recommended, Optional or Default. If the learner has been assigned the same course from multiple groups, highest priority is shown here.
+7. **Priority** - Priority of the course for the learner: can be Required, Recommended, Optional or Default. If the learner has been assigned the same course from multiple groups, the highest priority is shown here.
 
     ![Priority of the course](../../media/image%2847%29.png)
 

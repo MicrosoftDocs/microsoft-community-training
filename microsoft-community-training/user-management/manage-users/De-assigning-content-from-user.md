@@ -3,48 +3,48 @@ title: De-assigning content from users
 original-url: https://docs.microsoftcommunitytraining.com/docs/de-assigning-content-from-user
 author: v-samarth
 ms.author: v-samarth
-description: "When the administrator removes learners from Courses/ learning paths/ user groups, in a way it de-assigns the relevant content mapped through these segments to the learner."
+description: "The Community Training platform now allows administrators to remove learners from Courses, Learning Paths, User Groups which will de-assign them from the relevant content mapped through these segments."
 ms.prod: learning-azure
 ---
 
 # De-assignment of Content from the User
 
-Microsoft Community Training platform now allows the administrator to remove learners from Courses/ learning paths/ user groups and therefore de-assign them from the relevant content mapped through these segments. With this, once the learner is de-assigned from a content, he/she will not be able to view that content.
+The Community Training platform now allows administrators to remove learners from Courses, Learning Paths, and User Groups which will de-assign them from the relevant content mapped through these segments. With this, once the learner is de-assigned from a content, he/she will not be able to view that content.
 
->[!Note]
+> [!NOTE]
 >
->* If the learner has completed 100% of a course, he/she cannot be de-assigned from that course and his/her would still be able to see the course and their progress would remain intact.
->* The content de-assignment holds applicable for self-enroll and admin enroll type of courses only. The user remains enrolled in auto enroll courses and there is no effect in that case – the learner progress also remains intact in this case for the auto-enroll course.
+>* If the learner has completed a course, they can't be de-assigned from that course and they would still be able to see the course and their progress would remain intact.
+>* The content de-assignment holds applicable for Self and Admin enrolled course types only. The user remains enrolled in auto enrolled courses and there is no effect in that case – the learner progress also remains intact.
 
-The learner would be de-assigned from the course in the following scenarios:
+The learner will be de-assigned from the course in the following scenarios:
 
 ## User Profile updated
 
-In scenarios where the learner’s profile is update either by the learner himself or by the administrator (via UI or json/csv API) the smart groups associated with that profile field value would be de-assigned and the new groups (if applicable) that are associated with the new value of that profile field would be assigned to the user. This scenario will also be applicable to bulk user profile update.
+In scenarios where the learner’s profile is updated either by the learner himself or by the administrator (via UI or json/csv API), the smart groups associated with that profile will be de-assigned and the new groups (if applicable) that are associated with the updated profile will be assigned to the user. This scenario will also be applicable to bulk user profile updates.
 
 ## Group Deletion
 
-In case the administrator deletes a specific group from the learning instance, the learners association with courses belonging to that group would be lost.
+If the administrator deletes a specific group from the learning instance, the learners association with courses belonging to that group will be lost.
 
-* For those learners who are tagged to a course only via that group, he/she will no longer have the access to that course.
+* Learners who are tagged to a course only via that group will no longer have access to that course.
 
-* For those learners who are tagged to same course via multiple groups would still be able to view content of that course, if any such group still exists.
+* Learners who are tagged to a course via multiple groups will still be able to view the course content whilst any of those groups still exist.
 
-## Admin removes user(s) from group
+## Admin removes user(s) from a group
 
-If the admin removes learner(s) from a specific group, all the association that exists between the learner and Course would be lost and hence the user would be de-assigned from those courses (unless some other association via some other group still exists)
+If an administrator removes a learner from a group, all links between the learner and the course will be lost and the user will be de-assigned from those courses unless a link still exists with another group.
 
-## Admin removes course(s) from group
+## Admin removes course(s) from a group
 
-If the Admin removes course(s) from a group, all the association that exists between the learner and Course would be lost and hence the user would be de-assigned from those courses (unless some other association via some other group still exists)
+If an administrator removes a course from a group, all links between the learners in the group and the course will be lost and the user will be de-assigned from those courses unless a link still exists with another group.
 
-## Admin removes learning path(s) from group
+## Admin removes learning path(s) from a group
 
-If the Administrator removes learning path(s) from a group, all the association that exists between the learner and Course through that learning path would be lost and hence the user would be de-assigned from those courses (unless some other association via some other group still exists)
+If an administrator removes a learning path from a group, all links between the learner and courses in that learning path will be lost and the user will be de-assigned from those courses unless a link still exists with another group.
 
-## Admin removes course(s) from learning path
+## Admin removes course(s) from a learning path
 
-If the Administrator removes course(s) from learning path(s), all the association that exists between the learner and Course through that learning path would be lost and hence the user would be de-assigned from those courses (unless some other association via some other learning path(s) still exists)
+If an administrator removes a course from a learning path, all links between the learner and the course through that learning path will be lost and the user will be de-assigned from those courses unless a link still exists via another learning path.
 
->[!Warning]
->All the language translated courses (sub-courses as shown below) will also be de-assigned to the learner upon de-assignment of the parent course to that learner.
+> [!WARNING]
+> All translated courses and sub-courses will also be de-assigned when a the parent course is de-assigned.

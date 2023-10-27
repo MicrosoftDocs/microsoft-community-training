@@ -3,21 +3,21 @@ title: Add learners to the platform
 original-url: https://docs.microsoftcommunitytraining.com/docs/add-users-to-the-portal-1
 author: nikotha
 ms.author: nikotha
-description: Microsoft Community Training management portal provides two ways to add learners to the portal.
+description: Community Training management portal provides two ways to add learners to the portal.
 ms.prod: learning-azure
 ---
 
 # Add learners to the platform
 
-Microsoft Community Training management portal provides two ways to add learners to the portal. Administrator can add learners either through a specific group or directly through the **All Users** list. All Users options is available only to the Global Administrators.
+The Community Training platform provides two ways to add learners to the portal: Administrators can add learners through a specific group or directly through the **All Users** list. The **All Users** option is available only to Global Administrators.
   
-## Option 1 – Add Learner via All users
+## Option 1 – Add a Learner via All users
 
-In this topic, you will learn about how to add learner from All Users list.
+In this topic, you will learn how to add a learner from the All Users list.
   
 ### Permissions Level
 
-The Microsoft Community Training management portal provides role-based administration and depending upon the type of access level administrator can perform an action on the portal. Table below shows administrative role which are allowed to add learners from All Users list:
+The Community Training management portal provides role-based permission levels. The table below shows which administrative roles can add learners from All Users list:
 
 | Access Level | Add learners via All Users |
 | --- | --- |
@@ -30,35 +30,35 @@ The Microsoft Community Training management portal provides role-based administr
 
 ### Steps to add learners via All Users list
 
-1. On the Microsoft Community Training portal, after login [**switch to administrator view**](../../get-started/step-by-step-configuration-guide.md#step-2--switch-to-administrator-view-of-the-portal)
+1. Log on to the Community Training portal and [**switch to administrator view**](../../get-started/step-by-step-configuration-guide.md#step-2--switch-to-administrator-view-of-the-portal).
 
-2. Select **All Users** tab in the left-navigation page from users module
+1. Select **All Users** in the left-navigation page from the users module.
 
-3. Click or tap the **Add Users** icon on top-right of the details page  
+1. Select **Add Users** from the top-right of the details page.
 
     ![All users main screen](../../media/All%20users%20main%20screen.png)
 
-4. Choose between the following two methods to add users
+1. Choose between the following two methods to add users:
 
-    - **Add Single User** – Use this option to add one user at a time. Click or tap Add Single user, enter the phone number and then click or tap **Add** button  
+    - **Add Single User** – Use this option to add one user at a time. Select **Add Single user**, enter the phone number then select **Add** to confirm.
 
         ![Add single user one](../../media/Add%20single%20user%20one.png)
 
-    - **Bulk upload users** – This option is used to add multiple users at once. For detailed steps, see how to [**structure the csv file and bulk upload users**](../organize-users/add-multiple-users-to-the-group.md) on the portal
+    - **Bulk upload users** – This option is used to add multiple users in one action. For detailed steps, see how to [**structure the csv file and bulk upload users**](../organize-users/add-multiple-users-to-the-group.md).
 
 > [!IMPORTANT]
-> In case, platform is setup with **Social Account** or **Azure Active Directory** as login identity then you will need to enter email address in the above step.
+> If the platform is setup with the login identity **Social Account** or **Azure Active Directory** then you will need to enter an email address in the above step.
 
 ## Option 2 – Add Learner via Groups
 
 > [!NOTE]
-> When same user is added to multiple groups, it won't create duplicate users i.e. there is only 1 user on the platform against 1 email address or phone number.
+> When the same user is added to multiple groups, it won't create a duplicate user i.e. there is only 1 user on the platform against one email address or phone number.
 
-In this topic, you will learn how to add learner via specific group.
+In this topic, you will learn how to add a learner via specific group.
 
 ### Permission Level
 
-The Microsoft Community Training management portal provides role-based administration and depending upon the type of access level administrator can perform an action on the portal. Table below shows administrative role which are allowed to add learners via Group:
+The Community Training management portal provides role-based permission levels. The table below shows which administrative roles can add learners via a Group:
 
 | Access Level | Add learners via All Users |
 | --- | --- |
@@ -69,22 +69,22 @@ The Microsoft Community Training management portal provides role-based administr
 | Course Administrator | No |
 | Group Administrator | Yes |
 
-### Steps to add learners via Group
+### Steps to add learners via a Group
 
 Before you begin, please create a group using the steps mentioned [**in this article**](./../organize-users/create-a-new-group.md).
 
-1. On the Microsoft Community Training portal, after login [**switch to administrator view**](../../get-started/step-by-step-configuration-guide.md#step-2--switch-to-administrator-view-of-the-portal) and select a specific group under Users tab
+1. On the Community Training portal, after login [**switch to administrator view**](../../get-started/step-by-step-configuration-guide.md#step-2--switch-to-administrator-view-of-the-portal) and select a specific group under Users tab
 
     ![Steps to add learners via Group](../../media/image%2856%29.png)
 
-2. Click or tap **Add user** on the group details page to add a user to the group
+1. Select **Add user** on the group details page.
 
-3. Choose between the following two methods to add users
-    - **Add Single User** – Use this option to add one user at a time. Click or tap Add Single user, enter the phone number and then click or tap **Add** button  
+1. Choose between the following two methods:
+    - **Add Single User** – Use this option to add one user at a time. Select **Add Single user**, enter the phone number then select **Add** to confirm.
 
         ![Add single user one](../../media/Add%20single%20user%20one.png)
 
-    - **Bulk upload users** – This option is used to add multiple users at once. For detailed steps, see how to [**structure the csv file and bulk upload users**](../organize-users/add-multiple-users-to-the-group.md) on the portal
+    - **Bulk upload users** – This option is used to add multiple users in one action. For detailed steps, see how to [**structure the csv file and bulk upload users**](../organize-users/add-multiple-users-to-the-group.md).
 
 > [!IMPORTANT]
-> In case, platform is setup with **Social Account** or **Azure Active Directory** as login identity then you will need to enter email address in the above step.
+> If the platform is setup with the login identity **Social Account** or **Azure Active Directory** then you will need to enter an email address in the above step.

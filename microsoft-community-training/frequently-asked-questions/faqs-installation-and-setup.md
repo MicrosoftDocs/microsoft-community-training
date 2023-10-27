@@ -105,6 +105,12 @@ You can reset your database password by visiting the Azure SQL Database resource
 
 If you need further assistance, reach out to us [**via helpdesk**](https://go.microsoft.com/fwlink/?linkid=2104630).
 
+
+### How can I migrate my Community Training installation to a new subscription
+
+Unfortunately, the support for moving the Community Training resource across resource groups and subscriptions is not yet available. We are working to enable this functionality and will make it available to you in our future releases. 
+
+
 ## Teams Integration
 
 ### How does Microsoft Community Training integration with Microsoft Teams work?

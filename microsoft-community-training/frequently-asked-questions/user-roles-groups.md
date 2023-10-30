@@ -15,7 +15,7 @@ ms.prod: learning-azure
 
 The platform follows a role-based administration hierarchy. There are four admin roles supported on the portal:
 
-1. **Organization Administrator** - This role is assigned to decision-makers or program owners who are responsible for the overall execution, monitoring and success of the training program.  The organization administrator can use the management portal to create content, manage users, enroll learners in courses, use reports & analytics, and customize the portal for branding purposes.
+1. **Organization Administrator** - This role is assigned to decision-makers or program owners who are responsible for the overall execution, monitoring, and success of the training program.  The organization administrator can use the management portal to create content, manage users, enroll learners in courses, use reports & analytics, and customize the portal for branding purposes.
 
 2. **Category Administrator** - Category administrators can create a new course and manage all the existing courses for a given category they are assigned as administrators. A user can be a category administrator for one or more categories on the management portal.
 
@@ -33,7 +33,7 @@ For more information, please visit **[this article](../get-started/user-role-and
 
 ### How can I add an administrator to a specific group and restrict access to any other groups and courses?
 
-Group administrators are allowed to manage users in the group, assign courses, and track their completion. By default, they don't have course management access. Refer this [**article**](../user-management/add-users/add-an-administrator-to-the-portal.md) for more information.
+Group administrators are allowed to manage users in the group, assign courses, and track their completion. By default, they don't have course management access. Refer to this [**article**](../user-management/add-users/add-an-administrator-to-the-portal.md) for more information.
 
 ### How to switch between administrator and learner view?
 
@@ -73,11 +73,11 @@ Every user added to the platform will be marked as either Registered or Unregist
 
 There are 3 ways to onboard users to Community Training:
 
-1. **Add a single user manually** - You can add users individually (one by one) on the management portal. Refer **[this article](../user-management/organize-users/add-a-single-user-to-the-group.md)** to learn how.
+1. **Add a single user manually** - You can add users individually (one by one) on the management portal. Refer to **[this article](../user-management/organize-users/add-a-single-user-to-the-group.md)** to learn how.
 
-2. **Add multiple users manually** - You can add multiple users at once by using the bulk upload feature via the CSV file. Refer **[this article](../user-management/organize-users/add-multiple-users-to-the-group.md)** to learn how.
+2. **Add multiple users manually** - You can add multiple users at once by using the bulk upload feature via the CSV file. Refer to **[this article](../user-management/organize-users/add-multiple-users-to-the-group.md)** to learn how.
 
-3. **Add users via API** - Community Training provides APIs to push users to the platform from your existing system. To learn how to leverage APIs, refer **[this article](../infrastructure-management/install-your-platform-instance/apis.md)**.
+3. **Add users via API** - Community Training provides APIs to push users to the platform from your existing system. To learn how to leverage APIs, refer to **[this article](../infrastructure-management/install-your-platform-instance/apis.md)**.
 
 ### I have a list of users in an Excel file. How can I add them to the portal?
 
@@ -107,7 +107,7 @@ For example, let's say there is an organization in South Africa that has employe
 
 * Another way to manage and organize the workforce would be based on the roles and departments such as Sales, Marketing, Human Resources, Operations, etc.
 
-Organizations can use groups to manage different types of learners on the portal and automate user enrolment to the groups based on the skills required, user location, functional domains, role etc. For example, you can [**create groups**](../user-management/organize-users/create-a-new-group.md) and [**set rules to automatically add users**](../user-management/organize-users/setup-automatic-user-enrollment-for-a-group-1.md) to the group whenever they sign up on the platform.
+Organizations can use groups to manage different types of learners on the portal and automate user enrolment to the groups based on the skills required, user location, functional domains, roles, etc. For example, you can [**create groups**](../user-management/organize-users/create-a-new-group.md) and [**set rules to automatically add users**](../user-management/organize-users/setup-automatic-user-enrollment-for-a-group-1.md) to the group whenever they sign up on the platform.
 
 Alternatively, the organization can also [**manually add users**](../user-management/organize-users/add-multiple-users-to-the-group.md) to the group at once.
 
@@ -128,7 +128,7 @@ Community Training does not set any numeric limits on the number of people who c
 
 ### Can I auto-enroll users to groups based on their profile information?
 
-Community Training platform allows you to automatically add users to a specific group whenever the user's profile information matches the criteria of the rules.
+Community Training allows you to automatically add users to a specific group whenever the user's profile information matches the criteria of the rules.
 
 When a user registers on the portal and completes the profile information, the values entered are compared against the rule applied by administrators for different groups, and users are added to all the groups where the criteria match.
 
@@ -136,13 +136,13 @@ You can [**go here**](../user-management/organize-users/setup-automatic-user-enr
 
 ### How can I classify users into multiple groups based on Region, Country, Role, or Department?
 
-You can set rule based group to auto-enroll users based on their role, department, geography, etc. However, there is a prerequisite to achieving this.
+You can set rule-based groups to auto-enroll users based on their role, department, geography, etc. However, there is a prerequisite to achieving this.
 
 You can [**go here**](../user-management/organize-users/setup-automatic-user-enrollment-for-a-group-1.md) for the steps involved.
 
 ### How are users initially invited to the platform to create an account? By an email link?
 
-You can invite users by sending mass emails, SMS, announcements on your existing website, etc. along with the access links to the portal and mobile app.
+You can invite users by sending mass emails, SMS, announcements on your existing website, etc. along with access links to the portal and mobile app.
 
 ### Will my users be able to view or access the group that they are added to?
 
@@ -208,4 +208,4 @@ Courses can be unassigned to learners from the Courses tab. To unassign courses 
 
 There is no UI available for administrators to view and download learners' certificates. Currently, only learners can view and download the completion certificate on the platform.
 
-However, administrators can contact Community Training team via **[HelpDesk](https://go.microsoft.com/fwlink/?linkid=2104630)** to get access to learner certificates. Our support team will reach out to you in 2-3 business days and help you with your requirements.
+However, administrators can contact the Community Training team via **[HelpDesk](https://go.microsoft.com/fwlink/?linkid=2104630)** to get access to learner certificates. Our support team will reach out to you in 2-3 business days and help you with your requirements.

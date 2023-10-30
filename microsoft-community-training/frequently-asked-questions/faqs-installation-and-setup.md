@@ -21,9 +21,9 @@ To know the list of all the prerequisites **[see this article](../infrastructure
 
 You can create a new Azure subscription by visiting [**this link**](https://azure.microsoft.com/pricing/purchase-options/pay-as-you-go/).
 
-### Which devices or platforms is Microsoft Community Training available on?
+### Which devices or platforms is Community Training available on?
 
-Microsoft Community Training is an endpoint-agnostic solution that allows learners to consume learning content hosted on the platform in the following manner:
+Community Training is an endpoint-agnostic solution that allows learners to consume learning content hosted on the platform in the following manner:
 
 1. For standalone web and mobile applications [**Click here**](../learner-experience/web-app.md) for more details.
 
@@ -35,11 +35,11 @@ Microsoft Community Training is an endpoint-agnostic solution that allows learne
 
 2. For inside Microsoft Teams [**Click here**](../infrastructure-management/install-your-platform-instance/create-teams-app-for-your-training-portal.md) for more details.
 
-3. Custom endpoint i.e. to integrate the learner experience inside your own application, refer to**[this article](../infrastructure-management/install-your-platform-instance/apis.md)** to learn more.
+3. Custom endpoint i.e. to integrate the learner experience inside your own application, refer to **[this article](../infrastructure-management/install-your-platform-instance/apis.md)** to learn more.
 
 ### How do I enable Single-Sign-On (SSO) for Community Training? In other words, I wanted my learners to use their existing credentials for logging into the Community Training portal.
 
-Currently, Microsoft Community Training supports SSO out-of-box for scenarios where users are managed via Azure AD or customers are using Azure AD B2C for authentication in their existing system.
+Currently, Community Training supports SSO out-of-box for scenarios where users are managed via Azure AD or customers are using Azure AD B2C for authentication in their existing system.
 
 However, the platform supports SSO with any OAuth 2.0, OpenID Connect, or SAML-based authentication provider. To enable SSO in such scenarios, please contact us via **[Helpdesk](https://go.microsoft.com/fwlink/?linkid=2104630)** and leave your requirements in the ticket description.
 
@@ -49,7 +49,7 @@ Community Training provides REST APIs to help organizations build custom experie
 
 For example, organizations can use Microsoft Flow, Logic Apps, etc. to integrate the platform with their HRMS and CRM systems to import/sync users to the platform or export course progress and completion status.  
 
-For more information, please  **[refer this article](../infrastructure-management/install-your-platform-instance/apis.md)** .
+For more information, please  **[refer to this article](../infrastructure-management/install-your-platform-instance/apis.md)** .
 
 ### I am not able to deploy the application from the Azure Marketplace
 
@@ -59,31 +59,31 @@ Refer to the [**troubleshooting guide**](../infrastructure-management/install-yo
 
 If you didn't find the solution in the troubleshooting guide, please contact us via [**helpdesk**](https://go.microsoft.com/fwlink/?linkid=2104630).
 
-### How many languages are supported by Microsoft Community Training?
+### How many languages are supported by Community Training?
 
-At present Microsoft Community Training supports 28 languages which are Albanian, Arabic, Bengali, Chinese (Simplified), Chinese (Traditional, Dutch, English, Finnish, French, Hindi, Kinyarwanda, Kurdish, Lao, Lithuanian, Malay, Odia, Portuguese, Serbian (Cyrillic), Somali, Spanish, Swedish, Swedish, Tajik, Telugu, Tetum, Thai, Ukrainian, Vietnamese.
+At present Community Training supports 28 languages which are Albanian, Arabic, Bengali, Chinese (Simplified), Chinese (Traditional, Dutch, English, Finnish, French, Hindi, Kinyarwanda, Kurdish, Lao, Lithuanian, Malay, Odia, Portuguese, Serbian (Cyrillic), Somali, Spanish, Swedish, Swedish, Tajik, Telugu, Tetum, Thai, Ukrainian, Vietnamese.
 
 For more information, [**go here**](../settings/customize-languages-for-the-learners-on-the-platform.md).
 
-### Can I create and maintain more than one instance of Microsoft Community Training for my organization?
+### Can I create and maintain more than one instance of Community Training for my organization?
 
 Yes, customers can create multiple instances of Community Training,  and each of them can be configured and managed independently.
 
 ### Does Community Training support multi-tenancy?
 
-Currently, there is no multi-tenant support for Microsoft Community Training. Each instance of the platform is separate (i.e. no sharing of data and compute resources) and deployed on the customer’s own Azure subscription.
+Currently, there is no multi-tenant support for Community Training. Each instance of the platform is separate (i.e. no sharing of data and compute resources) and deployed on the customer’s own Azure subscription.
 
 For more details, please the [**installation overview article**](../infrastructure-management/install-your-platform-instance/installation-overview.md).
 
 ### What kind of technical capability is required to deploy and set up  Community Training? Do I need an implementation partner to help with the platform configuration and setup implementation?
 
-Microsoft community training is designed to be easily deployed and managed by the customers with minimal IT overhead. Customers can [**set up the platform**](../infrastructure-management/install-your-platform-instance/installation-guide-detailed-steps.md) on their Azure subscription on their own in a few simple clicks.
+Community Training is designed to be easily deployed and managed by the customers with minimal IT overhead. Customers can [**set up the platform**](../infrastructure-management/install-your-platform-instance/installation-guide-detailed-steps.md) on their Azure subscription on their own in a few simple clicks.
 
 Your IT admin or cloud administrator responsible for managing the [**Azure Portal**](https://portal.azure.com/) can deploy the platform on your Azure subscription. Once the platform is deployed, the training manager can [**start configuring the platform and upload training content**](../get-started/step-by-step-configuration-guide.md). No coding is required.
 
 You do not need a technical team or a developer to implement the platform unless you want to extend platform capabilities usingtheAPIs or integrate the platform with your existing system.
 
-### Do you have partners behind the implementation Microsoft community training solution? Which type of partners?
+### Do you have partners behind the implementation of Community Training? Which type of partners?
 
 We are building up a community of learning partners who can assist the organizations in implementing and configuring the platform for their training scenarios.
 
@@ -105,27 +105,21 @@ You can reset your database password by visiting the Azure SQL Database resource
 
 If you need further assistance, reach out to us [**via helpdesk**](https://go.microsoft.com/fwlink/?linkid=2104630).
 
-
-### How can I migrate my Community Training installation to a new subscription
-
-Unfortunately, the support for moving the Community Training resource across resource groups and subscriptions is not yet available. We are working to enable this functionality and will make it available to you in our future releases. 
-
-
 ## Teams Integration
 
-### How does Microsoft Community Training integration with Microsoft Teams work?
+### How does Community Training integration with Microsoft Teams work?
 
-Organizations can enable Microsoft Teams as an endpoint for the Community Training. Once it is enabled, learners can consume training content within Microsoft Teams (Web, Desktop and Mobile) and no separate application is needed.
+Organizations can enable Microsoft Teams as an endpoint for the Community Training. Once it is enabled, learners can consume training content within Microsoft Teams (Web, Desktop, and Mobile) and no separate application is needed.
 
 In the case of a Microsoft Team's setup, all the existing groups/teams will be automatically imported and synced to the Community Training to make it easy for administrators and Teams owners to assign courses and track completion.
 
 For more details, please visit [**teams integration page**](https://communitytraining.microsoft.com/products/teams/).
 
-### How do I enable Microsoft Community Training for Learning inside Microsoft Teams?
+### How do I enable Community Training for Learning inside Microsoft Teams?
 
-Microsoft Community Training allows organizations to enable self-paced learning inside Microsoft Teams across web, mobile, and desktop apps.
+Community Training allows organizations to enable self-paced learning inside Microsoft Teams across web, mobile, and desktop apps.
 
-For more details, visit [**our website**](https://communitytraining.microsoft.com/teams/) to know how Community Training platform integrates with Microsoft Teams, visitthewebsite.
+For more details, visit [**our website**](https://communitytraining.microsoft.com/teams/) to know how Community Training platform integrates with Microsoft Teams, visit the website.
 
 In case you already have an instance deployed, follow these steps to create the [**Teams app for your training instance**](../infrastructure-management/install-your-platform-instance/create-teams-app-for-your-training-portal.md).
 
@@ -133,13 +127,13 @@ In case you already have an instance deployed, follow these steps to create the 
 
 ### How can I request for the mobile app? Who publishes the mobile app?
 
-Once your platform instance is deployed, you can request the mobile app throughthehelp desk. The mobile app must be published by customers using their own Google Play Store. For more information, [**go here**](../infrastructure-management/install-your-platform-instance/create-publish-mobile-app.md).
+Once your platform instance is deployed, you can request the mobile app through the help desk. The mobile app must be published by customers using their own Google Play Store. For more information, [**go here**](../infrastructure-management/install-your-platform-instance/create-publish-mobile-app.md).
 
 Please note: Community Training comes only with a native app for Android. For iOS, we recommend using a mobile browser to access the web app or convert the web app into a native iOS app using [**online tool such as GoNative**](https://gonative.io/).
 
 ### What is the minimum device specification required for installing the Android application?
 
-Here is the minimal device configuration needed for the Microsoft Community Training mobile app to run:
+Here is the minimal device configuration needed for the Community Training mobile app to run:
 
 1. Android Version: Android 5.0 and up
 2. App Size: ~ 30 MB
@@ -149,9 +143,9 @@ Here is the minimal device configuration needed for the Microsoft Community Trai
 
 ### Is there an app available for the IOS platform?
 
-Currently, we do not have a native application for the IOS platform, but it is ontheproduct roadmap.
+Currently, we do not have a native application for the IOS platform, but it is on the product roadmap.
 
-In the meantime, as a workaround, you can converttheexisting mobile-optimized web app into an iOS app using [**GoNative**](https://gonative.io/).
+In the meantime, as a workaround, you can convert the existing mobile-optimized web app into an iOS app using [**GoNative**](https://gonative.io/).
 
 ### Is there an app available for the Windows platform?
 

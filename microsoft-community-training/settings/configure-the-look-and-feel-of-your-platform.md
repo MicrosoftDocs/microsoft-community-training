@@ -7,7 +7,7 @@ description: You can customize the look and feel of your learner experience of t
 ms.prod: learning-azure
 ---
 
-# Customize the look and feel of your portal
+# Customize the look and feel of the portal
 
 You can customize the look and feel of your learner experience of the Microsoft Community Training platform to suit your organization's branding needs.
 

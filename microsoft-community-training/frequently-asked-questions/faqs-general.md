@@ -110,7 +110,7 @@ For more information, check the article on [**how to manage course content**](..
 
 Community Training offers a wide range of out-of-box video content such as Microsoft Learn, Office products, Computer basics and security, etc. All these contents are free of cost and you can obtain video content by [**contacting the helpDesk**](https://go.microsoft.com/fwlink/?linkid=2104630) post your platform deployment.
 
-You can check [**our sample content library**](http://sangampartners.azurewebsites.net/) for reference. We constantly keep updating the content library.  
+You can check [**our sample content library**](https://sangampartners.azurewebsites.net/) for reference. We constantly keep updating the content library.  
 
 Please note - all content hosted in the content library is free of charge and provided under a Creative Common license. So, you can tweak and change the content as per your requirements.
 
@@ -165,7 +165,7 @@ There are two channels available to the customers to seek help during platform s
 
 Yes, Microsoft Partners can set up the platform in their own subscription or on a customer subscription and provide value services like integration with an existing system, creating a custom dashboard, platform configuration, setup, and more.
 
-For example, Microsoft Partners can leverage the platform to drive Office 365 training for existing or new customers. For this, they can use the [**existing content**](http://sangampartners.azurewebsites.net/) available in the catalog for free.
+For example, Microsoft Partners can leverage the platform to drive Office 365 training for existing or new customers. For this, they can use the [**existing content**](https://sangampartners.azurewebsites.net/) available in the catalog for free.
 
 For more information and support, please contact us via  **[HelpDesk](https://go.microsoft.com/fwlink/?linkid=2104630)** and leave your requirements in the ticket description.
 

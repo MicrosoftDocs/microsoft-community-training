@@ -31,7 +31,7 @@ The MCT management portal provides role-based permission levels. The table below
 | Course Administrator | Yes |
 | Group Administrator | No |
 
-## Manually add content for each lesson in a course
+## Option 1: Manually add content for each lesson in a course
 
 You can manually upload the required content to a course using the New Lesson option on the course details page.
 
@@ -112,7 +112,7 @@ Once you have completed uploading lessons, you can [**Add assessments**](add-ass
 > [!TIP]
 > Whenever you are uploading content, [**scale up your platform configuration**](../../../infrastructure-management/configure-your-platform-infrastructure/scale-up-instance-configuration.md) to reduce the upload and processing time for the content.
 
-## Bulk Upload lessons
+## Option 2 - Bulk Upload lessons
 
 Similar to the [**Bulk Upload Courses**](create-a-new-course.md#steps-for-bulk-upload-courses-to-the-portal), you can use the Bulk Upload Lessons feature to save time and upload multiple lessons for a course in one action.
 

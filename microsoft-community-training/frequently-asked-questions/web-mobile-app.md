@@ -39,8 +39,6 @@ After successful login, learners can see all the courses for which they have reg
 
 Users can also browse the course library and register for more courses as required.
 
-For further information [**go here**](../learner-experience/mobile.md)
-
 ## Course consumption
 
 ### How to restrict users from viewing the courses until they sign in

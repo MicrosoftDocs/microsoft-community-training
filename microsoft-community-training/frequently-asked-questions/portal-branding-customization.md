@@ -17,7 +17,7 @@ Currently, we support 28 languages on the platform. You can enable languages for
 
 ### How do I change the look and feel of the portal?
 
-You can change the look and feel according to your brand. Refer to **[this article](../settings/configure-the-look-and-feel-of-your-portal.md)** to customize the look and feel of your portal.
+You can change the look and feel according to your brand. Refer to **[this article](../settings/customize-the-look-and-feel-of-your-portal.md)** to customize the look and feel of your portal.
 
 ### How do I customize the name and icon of the training tab in MS Teams?
 
@@ -31,7 +31,7 @@ For more information and support on how to enable this, please contact us via [*
 
 ### Can the landing page or homepage have a different design?
 
-You can customize the landing page with a custom theme color, banner image, and welcome text. Refer [**this article**](../settings/configure-the-look-and-feel-of-your-portal.md) to learn more.
+You can customize the landing page with a custom theme color, banner image, and welcome text. Refer [**this article**](../settings/customize-the-look-and-feel-of-your-portal.md) to learn more.
 
 Alternatively, you can create your own landing page and direct users to the training instance from the landing page.
 

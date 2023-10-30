@@ -13,7 +13,7 @@ ms.prod: learning-azure
 
 ### My organization is not using Microsoft Azure. Can I still use Community Training?
 
-Community Training is built on top of the Azure platform and [**available only on the Azure Marketplace**](https://azuremarketplace.microsoft.com/marketplace/apps/project-sangam.microsoft-community-training?tab=Overview). Our platform is accessible in all the countries or regions where Microsoft Azure Marketplace is commercially available. See the [Azure Marketplace documentation](/azure/marketplace/marketplace-geo-availability-currencies) for more details. 
+Community Training is built on top of the Azure platform and [**available only on the Azure Marketplace**](https://azuremarketplace.microsoft.com/marketplace/apps/project-sangam.microsoft-community-training?tab=Overview). Our platform is accessible in all countries or regions where Microsoft Azure Marketplace is commercially available. See the [Azure Marketplace documentation](/azure/marketplace/marketplace-geo-availability-currencies) for more details. 
 
 If your organization is not using Microsoft Azure, then you can [**create a Microsoft Azure account**](https://azure.microsoft.com/) on your own or [**reach out to a Microsoft Cloud Solution Partner**](https://partner.microsoft.com/membership/cloud-solution-provider/find-a-provider) to procure Microsoft Azure for your organization.
 
@@ -27,9 +27,9 @@ To learn more about how to create a pay-as-you-go subscription, [**refer to this
 
 If you’re a non-profit and would like an Azure grant for using Community Training, you can apply by referring **[this article](../infrastructure-management/install-your-platform-instance/setup-platform-instance-on-azure-subscription-for-nonprofits.md)** and avail the grant subject to eligibility.
 
-### Can nonprofit organizations use their existing Azure Credits towards Community Training hosting cost?
+### Can nonprofit organizations use their existing Azure Credits towards Community Training hosting costs?
 
-Nonprofit organization can receive $3500 worth of Azure credit from Microsoft, which can be used towards hosting the Community Training.
+Nonprofit organizations can receive $ 3,500 worth of Azure credit from Microsoft, which can be used towards hosting the Community Training.
 
 For more details on Microsoft Nonprofit offers, please check  [**this link**](https://nonprofit.microsoft.com/register).
 
@@ -55,7 +55,7 @@ Here is the list of services that are used by the Community Training:
 
 ### How can customers buy Community Training?
 
-Community Training is now available in Public Preview and organizations can deploy the application on their Azure subscription from  Azure Marketplace. Refer **[this article](../infrastructure-management/install-your-platform-instance/installation-overview.md)**  to learn more.
+Community Training is now available in Public Preview and organizations can deploy the application on their Azure subscription from  Azure Marketplace. Refer to **[this article](../infrastructure-management/install-your-platform-instance/installation-overview.md)**  to learn more.
 
 ### How much will I be charged to use Community Training? What is the pricing model?
 
@@ -93,7 +93,7 @@ Yes, this is correct. There are two aspects to the Azure consumption cost when a
 
 For more details on pricing, [**go here**](https://communitytraining.microsoft.com/pricing/).
 
-### When an organization opts for phone-based login, who pays for the SMS charges?
+### When an organization opts for a phone-based login, who pays for the SMS charges?
 
 In the case of phone-based login, the SMS charges with respect to the one-time password sent on the learner's mobile number are borne by Microsoft.  Organizations don't have to pay anything.
 

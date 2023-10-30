@@ -13,11 +13,11 @@ ms.prod: learning-azure
 
 ### How do I customize languages for the platform?
 
-Currently, we support 28 languages on the platform. You can enable languages for your training instance and set a default language, refer **[this article](../settings/customize-languages-for-the-learners-on-the-platform.md)** for the steps to add new languages on the platform.
+Currently, we support 28 languages on the platform. You can enable languages for your training instance and set a default language, refer to **[this article](../settings/customize-languages-for-the-learners-on-the-platform.md)** for the steps to add new languages on the platform.
 
 ### How do I change the look and feel of the portal?
 
-You can change the look and feel according to your brand. Refer **[this article](../settings/configure-the-look-and-feel-of-your-portal.md)** to customize the look and feel of your portal.
+You can change the look and feel according to your brand. Refer to **[this article](../settings/configure-the-look-and-feel-of-your-portal.md)** to customize the look and feel of your portal.
 
 ### How do I customize the name and icon of the training tab in MS Teams?
 
@@ -41,9 +41,9 @@ For more information and support on how to enable this, please contact us via [*
 
 Yes, it is possible and can be achieved in two ways.
 
-* **Method 1** : All the courses enrollment on the portal must be set to “Only admins can enroll users”. This way courses that are set to admin only will not be displayed on the home page.
+* **Method 1**: All the courses enrollment on the portal must be set to “Only admins can enroll users”. This way courses that are set to admin only will not be displayed on the home page.
 
-* **Method 2** : You can have your own custom homepage and simply set redirection triggers to the sign-in page, which allows the customers to bypass our default homepage.
+* **Method 2**: You can have your custom homepage and simply set redirection triggers to the sign-in page, which allows the customers to bypass our default homepage.
 
 For more information and support on how to enable this, please contact us via [**HelpDesk**](https://go.microsoft.com/fwlink/?linkid=2104630).
 
@@ -81,7 +81,7 @@ Learn more in [**this article**](../infrastructure-management/install-your-platf
 
 No, the recommended logo file size is 150*50 px in PNG with a transparent or solid background.
 
-### Can I use a svg file for the logo?
+### Can I use an SVG file for the logo?
 
 No, The recommended logo file size is 150*50 px in PNG with a transparent or solid background.
 
@@ -141,7 +141,7 @@ The size of the certificate is defined in the sample certificate file provided i
 
 ### How do I change the domain of my training portal?
 
-You can change the domain of your portal and use a custom domain that reflects your organization's name or brand. Refer **[this article](../infrastructure-management/configure-your-platform-infrastructure/setup-custom-domain-url.md)** to change the domain of your portal.
+You can change the domain of your portal and use a custom domain that reflects your organization's name or brand. Refer to **[this article](../infrastructure-management/configure-your-platform-infrastructure/setup-custom-domain-url.md)** to change the domain of your portal.
 
 ## Feedback & survey
 

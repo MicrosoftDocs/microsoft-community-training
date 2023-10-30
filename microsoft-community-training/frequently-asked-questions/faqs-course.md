@@ -3,7 +3,7 @@ title: Content and Course management
 original-url: https://docs.microsoftcommunitytraining.com/docs/faqs-course
 author: nikotha
 ms.author: nikotha
-description: Microsoft provides course content around Digital Literacy, Office 365, etc. which organization can upload and use in their Community Training platform instance.
+description: Microsoft provides course content around Digital Literacy, Office 365, etc. which organizations can upload and use in their Community Training platform instance.
 ms.prod: learning-azure
 ---
 
@@ -13,9 +13,9 @@ ms.prod: learning-azure
 
 ### Does the platform come with any out-of-box content for an organization to kickstart the training program?
 
-Microsoft provides course content around Digital Literacy, Office 365, etc. which organizations can upload and use in their Community Training platform instances. For more details, browse the content catalog **[here](https://sangampartners.azurewebsites.net/)**.
+Microsoft provides course content around Digital Literacy, Office 365, etc., which organizations can upload and use in their Community Training platform instances. For more details, browse the content catalog **[here](https://sangampartners.azurewebsites.net/)**.
 
-Please contact us via **[HelpDesk](https://go.microsoft.com/fwlink/?linkid=2104630)** if you’d like to make any courses from the catalog available in your training portal instance.
+Contact us via **[HelpDesk](https://go.microsoft.com/fwlink/?linkid=2104630)** if you’d like to make any courses from the catalog available in your training portal instance.
 
 #### Can we use any of the content from the catalog?
 
@@ -35,7 +35,7 @@ If you’d like to avail any of the courses, contact us via **[HelpDesk](https:/
 
 ### Can I upload my own content to be hosted on Community Training?
 
-Organizations can upload & host unlimited contents and courses on Community Training. This will allow you to utilize the platform as the centralized repository for all your contents.
+Organizations can upload & host unlimited content and courses on Community Training. This will allow you to utilize the platform as the centralized repository for all your content.
 
 The platform supports the following types of formats:
 
@@ -52,7 +52,7 @@ Community Training allows administrators to download/export courses and categori
 
 ### How to create a new course category?
 
-You can create, edit, or delete a category from the administrator portal. Please refer to [this article](../content-management/create-content/create-course-category/create-a-category.md) for the detailed steps.  
+You can create, edit, or delete a category from the administrator portal. Refer to [this article](../content-management/create-content/create-course-category/create-a-category.md) for detailed steps.  
 
 ### How to bulk upload lessons?
 
@@ -243,7 +243,7 @@ Please note that video, audio, and other formats can only be downloaded from the
 
 ### Where can I find the format of Bulk Upload courses?
 
-To use the Bulk Upload course feature, you need to adhere to a specific content structure. Refer **[this article](../content-management/create-content/create-course-category/upload-content-to-a-course.md#option-2---bulk-upload-lessons)** to learn about the format required for Bulk Upload courses.
+To use the Bulk Upload course feature, you need to adhere to a specific content structure. Refer to **[this article](../content-management/create-content/create-course-category/upload-content-to-a-course.md#option-2---bulk-upload-lessons)** to learn about the format required for Bulk Upload courses.
 
 ### What is the maximum video size that one can upload?
 
@@ -267,7 +267,7 @@ For more information, [**go here**](../content-management/create-content/create-
 
 The recommended approach is to download the content from external websites and upload it to the Community Training instance.
 
-In case, content on the external website is not owned by the organization or cannot be downloaded then you can paste the content URL as a lesson in the platform. The content will then be accessible to learners as follows:
+In case the content on the external website is not owned by the organization or cannot be downloaded, then you can paste the content URL as a lesson in the platform. The content will then be accessible to learners as follows:
 
 1. If the content is hosted on a video-sharing platform like YouTube and Vimeo, learners will be able to view the content inline similar to the uploaded content. However, learners will not be able to download this content and administrators will not be able to track consumption as the lesson will be marked as completed as soon as the learner opens the lesson.
 
@@ -298,9 +298,9 @@ For scenarios when you have a course available in multiple languages, you can au
   
 2) Add a custom field as part learner's profile information to capture a learner's preferred language. Learn how to do it from **[this article](../settings/add-additional-profile-fields-for-user-information.md)**.
 
-3) Next, create a group of users corresponding to each language of your content. You can do so by adding a rule while creating the group. Refer **[this article](../user-management/organize-users/setup-automatic-user-enrollment-for-a-group-1.md)** to learn how.
+3) Next, create a group of users corresponding to each language of your content. You can do so by adding a rule while creating the group. Refer to **[this article](../user-management/organize-users/setup-automatic-user-enrollment-for-a-group-1.md)** to learn how.
 
-4) Finally, assign the language-specific course to each group based on that group's preferred language. Refer **[this article](../user-management/manage-users/assign-content-to-group-users.md)** to learn how.
+4) Finally, assign the language-specific course to each group based on that group's preferred language. Refer to **[this article](../user-management/manage-users/assign-content-to-group-users.md)** to learn how.
 
 ### How can an organization create content for  Community Training?
 
@@ -328,7 +328,7 @@ Community Training does not set any numeric limits. Customers can have any numbe
 
 ### How to 'Add Tags' after a course is published?
 
-You can add/remove the tags even after the course is published, but once you add/remove after publishing the course you need to click the save option for the changes to replicate.
+You can add/remove the tags even after the course is published, but once you add/remove after publishing the course, you need to click the save option for the changes to replicate.
 
  :::image type="content" source="../media/add_tag.png" alt-text="Select_offline_sync":::
 

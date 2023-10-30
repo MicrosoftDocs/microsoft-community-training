@@ -19,7 +19,7 @@ Currently, there are 3 forms of login identity supported in the platform out-of-
 
 2. **Personal Email Address** – Learners can choose a personal email address or social account such as Facebook, LinkedIn, etc. to login into the portal. On successful authentication from an identity provider (i.e. Google, FB, or Microsoft), learners are logged into the Community Training portal as well.
 
-3. **Azure Active Directory** -  Learners use their Azure Active Directory (aka Azure AD) credentials to sign in  to the portal.
+3. **Azure Active Directory** -  Learners use their Azure Active Directory (aka Azure AD) credentials to sign in to the portal.
 
 4. **Login via multiple modes** - Community Training supports adding more than one authentication option for a single platform instance. To be able to configure multiple authentications to your instance you need to first create [**AD B2C**](https://learn.microsoft.com/azure/active-directory-b2c/overview) tenant and register an application to later add a Mobile number, Personal Email, Azure AD login support for your instance.
 
@@ -27,10 +27,10 @@ Apart from the out-of-box identities, the platform can integrate with any existi
 
 <!---
 > [!NOTE]  
-> Organization can use only 1 of the identity type for sign in purposes.
+> Organization can use only 1 of the identity type for sign-in purposes.
 --->
 
-### I want to use Community Training for both my internal and external workforces training. How can I configure the platform for such scenarios?
+### I want to use Community Training for both my internal and external workforce training. How can I configure the platform for such scenarios?
 
 The platform can be configured depending upon how internal and external workforce will be accessing the portal as explained below:
 
@@ -70,7 +70,7 @@ Every time a user signs in using their mobile number they will receive a one-tim
 
 ### What makes Community Training secure if anyone with a valid phone number or email address can access the platform? How can I prevent access to course content in such scenarios?
 
-There are often scenarios when an organization wants to restrict portal access only to their internal workforces, identified communities or an existing list of learners.  In such scenarios, admins can use the Restricted User Access setting in the management portal to prevent users outside of the organization from logging into the portal.
+There are often scenarios when an organization wants to restrict portal access only to their internal workforces, identified communities, or an existing list of learners.  In such scenarios, admins can use the Restricted User Access setting in the management portal to prevent users outside of the organization from logging into the portal.
 
 When this setting is enabled, only users who are added or imported to the portal by the organization will be allowed to access the portal. Please refer to [**this article**](../settings/restrict-portal-access-to-users-outside-your-organization.md) to learn how to restrict access to your learning portal.
 
@@ -83,7 +83,7 @@ If the problem persists, you can reach out to us [**via HelpDesk**](https://go.m
 
 ### For mobile-based login, what will happen if a learner has changed their number?
 
-Currently, there is no user-facing interface available for learners to change their phone numbers. In case, the learner has changed their mobile number and wants it to be updated in the portal then they needs to contact the organization admin.
+Currently, there is no user-facing interface available for learners to change their phone numbers. In case, the learner has changed their mobile number and wants it to be updated in the portal then they need to contact the organization admin.
 
 Post which, admins can us [**via HelpDesk**](https://go.microsoft.com/fwlink/?linkid=2104630), and we will help them with updating the details.
 
@@ -114,7 +114,7 @@ For more information, please contact us [**via HelpDesk**](https://go.microsoft.
 
 Community Training (Community Training) platform supports all the standard OAuth 2.0 and OpenID connect auth service providers and Single Sign-On can be enabled between the existing system and Community Training seamlessly. See the [**deployment guide for more details**](../infrastructure-management/install-your-platform-instance/configure-login-social-work-school-account.md#social-account-or-email-based-authentication).
 
-In case of the existing identity system is not OAuth2.0 / OpenID connect-based based then enabling Single Sign On between Community Training and the existing system will require custom work as highlighted flow diagram below. Please raise a support ticket for more information and kick-start the SSO discussion.
+In case the existing identity system is not OAuth2.0 / OpenID connect-based then enabling Single Sign On between Community Training and the existing system will require custom work as highlighted flow diagram below. Please raise a support ticket for more information and kick-start the SSO discussion.
 
 For all queries regarding SSO and/or custom login, contact us via  **[HelpDesk](https://sangamhelpdesk.microsoftcrmportals.com/SignIn?ReturnUrl=%2Fsupport%2Fcreate-case%2F)** and leave your requirements in the ticket description.
 
@@ -135,7 +135,7 @@ To enable OAuth 2.0 or SAML, please contact us [**via HelpDesk**](https://go.mic
 
 ### Can learners create their own accounts and access the courses on the platform without any approval process?
 
-Community Trainings allow two ways of setting up user registration and authentication:
+Community Training allows two ways of setting up user registration and authentication:
 
 1. **Open to Everyone**: In this mode, users can self-register using their phone number or email address and start using the course without any approval process involved.
 
@@ -145,7 +145,7 @@ For more details, checkout **[this article](../settings/restrict-portal-access-t
 
 ### How do we prevent access to the platform once the user leaves the organization?
 
-You can delete a user from the platform once they leaves the organization. Refer [**this article**](../user-management/manage-users/remove-user-from-the-portal.md) to learn how.
+You can delete a user from the platform once they leave the organization. Refer to [**this article**](../user-management/manage-users/remove-user-from-the-portal.md) to learn how.
 
 ### Can a non-signed-in user view my course content?
 
@@ -155,7 +155,7 @@ No, Community Training requires users to be logged in to the portal before they 
 
 You can restrict users from the platform.
 
-Refer **[this article](../settings/restrict-portal-access-to-users-outside-your-organization.md)** to learn how.
+Refer to **[this article](../settings/restrict-portal-access-to-users-outside-your-organization.md)** to learn how.
 
 ### Can I pre-register users on the platform and limit portal access to only these users?
 

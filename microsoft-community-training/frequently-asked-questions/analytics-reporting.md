@@ -134,7 +134,7 @@ Please use [this link](https://www.nextofwindows.com/how-to-display-csv-files-wi
 
 ### How to view and export users from Community Training
 
-You can view and export all users on the portal from the administrator view, select the user's tab, and select all users. By selecting the download list, you will be able to export all the users on the portal. Refer to the below image for clarity:
+You can view and export all users on the portal from the administrator view, select the user's tab, and select all users. By selecting the download list, you will be able to export all the users on the portal. Refer to the below image for an example:
 
 ![View and export users](../media/image%28319%29.png)
 

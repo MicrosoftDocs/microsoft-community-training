@@ -145,7 +145,7 @@ For more details, checkout **[this article](../settings/restrict-portal-access-t
 
 ### How do we prevent access to the platform once the user leaves the organization?
 
-You can delete a user from the platform once they leave the organization. Refer to [**this article**](../user-management/manage-users/remove-user-from-the-portal.md) to learn how.
+You can delete a user from the platform once they leave the organization. Refer to [**this article**](../user-management/manage-users/remove-user-from-the-platform.md) to learn how.
 
 ### Can a non-signed-in user view my course content?
 

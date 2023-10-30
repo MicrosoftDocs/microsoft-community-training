@@ -47,8 +47,6 @@ Community Training provides REST APIs to help organizations build custom experie
 
 For example, organizations can use Microsoft Flow, Logic Apps, etc. to integrate the platform with their HRMS and CRM systems to import/sync users to the platform or export course progress and completion status.  
 
-For more information, please  **[refer to this article](../infrastructure-management/install-your-platform-instance/apis.md)** .
-
 ### I am not able to deploy the application from the Azure Marketplace
 
 The [**platform deployment**](../infrastructure-management/install-your-platform-instance/installation-overview.md) can fail for multiple reasons such as incorrect details entered during setup, invalid subscription, azure services not available in the chosen data center, and many more.  

@@ -35,8 +35,6 @@ Community Training is an endpoint-agnostic solution that allows learners to cons
 
 2. For inside Microsoft Teams [**Click here**](../infrastructure-management/install-your-platform-instance/create-teams-app-for-your-training-portal.md) for more details.
 
-3. Custom endpoint i.e. to integrate the learner experience inside your own application, refer to **[this article](../infrastructure-management/install-your-platform-instance/apis.md)** to learn more.
-
 ### How do I enable Single-Sign-On (SSO) for Community Training? In other words, I wanted my learners to use their existing credentials for logging into the Community Training portal.
 
 Currently, Community Training supports SSO out-of-box for scenarios where users are managed via Azure AD or customers are using Azure AD B2C for authentication in their existing system.

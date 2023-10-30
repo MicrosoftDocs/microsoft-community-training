@@ -41,4 +41,4 @@ The Community Training portal provides role-based permission levels. The table b
     ![Delete user from group](../../media/Delet%20user%20from%20group.png)
 
 > [!IMPORTANT]
-> Deleting a user from a group only removes a user from the selected group. To delete a user from the platform, please see the [**detailed steps here**](../manage-users/remove-user-from-the-portal.md).
+> Deleting a user from a group only removes a user from the selected group. To delete a user from the platform, please see the [**detailed steps here**](remove-user-from-the-platform.md).

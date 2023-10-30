@@ -69,8 +69,8 @@ The Community Training portal provides role-based permission levels. The table b
 >1. Remove Word Wrap formatting from the tool bar - Format > Word Wrap.
 >1. Verify the structure of the file is correct by ensuring the following things:
 >
-    >* For each user row, the number of commas (,) is one less than the number of columns i.e. Don't use commas (,) for values in the cell when updating the sample CSV file in Excel.
-    >* For each user, there should not be any line breaks i.e. one user must be contained in a single row.
-    >* For each user, there is no blank values for the choices.
+> - For each user row, the number of commas (,) is one less than the number of columns i.e. Don't use commas (,) for values in the cell when updating the sample CSV file in Excel.
+> - For each user, there should not be any line breaks i.e. one user must be contained in a single row.
+> - For each user, there is no blank values for the choices.
 >
->1. If you find any issues with the file, edit and correct the structure as described in the previous steps.
+>If you find any issues with the file, edit and correct the structure as described in the previous steps.

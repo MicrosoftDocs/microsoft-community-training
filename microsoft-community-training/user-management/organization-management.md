@@ -142,16 +142,16 @@ You can customize the look and feel of your learner experience on the Community 
 1. Choose the Organization you want to update from the drop down. Here you can update the following:
 
     1. **General**
-        1. [Set your portal name](../settings/configure-the-look-and-feel-of-your-portal.md#set-your-portal-name)
-        1. [Set your privacy terms](../settings/configure-the-look-and-feel-of-your-portal.md#set-your-privacy-terms)
-        1. [Enable languages on the portal](../settings/configure-the-look-and-feel-of-your-portal.md#enable-languages-on-the-portal)
+        1. [Set your portal name](../settings/configure-the-look-and-feel-of-your-platform.md#set-your-portal-name)
+        1. [Set your privacy terms](../settings/configure-the-look-and-feel-of-your-platform.md#set-your-privacy-terms)
+        1. [Enable languages on the portal](../settings/configure-the-look-and-feel-of-your-platform.md#enable-languages-on-the-portal)
 
     1. **Branding**
-        1. [Set the logo](../settings/configure-the-look-and-feel-of-your-portal.md#set-the-logo)
-        1. [Set the banner image](../settings/configure-the-look-and-feel-of-your-portal.md#set-the-banner-image)
-        1. [Set the welcome text](../settings/configure-the-look-and-feel-of-your-portal.md#set-the-welcome-text)
-        1. [Set the brand color](../settings/configure-the-look-and-feel-of-your-portal.md#set-the-brand-color)
-        1. [Set the footer title and message](../settings/configure-the-look-and-feel-of-your-portal.md#set-the-footer-title-and-message)
+        1. [Set the logo](../settings/configure-the-look-and-feel-of-your-platform.md#set-the-logo)
+        1. [Set the banner image](../settings/configure-the-look-and-feel-of-your-platform.md#set-the-banner-image)
+        1. [Set the welcome text](../settings/configure-the-look-and-feel-of-your-platform.md#set-the-welcome-text)
+        1. [Set the brand color](../settings/configure-the-look-and-feel-of-your-platform.md#set-the-brand-color)
+        1. [Set the footer title and message](../settings/configure-the-look-and-feel-of-your-platform.md#set-the-footer-title-and-message)
 
     1. **Mobile Application**
     * You can create [Progressive Web Application (PWA)](../infrastructure-management/install-your-platform-instance/create-publish-mobile-app.md#option-1-creating-a-progressive-web-application-pwa-for-android) for your instance for which you need to meet the [installation requirements](../infrastructure-management/install-your-platform-instance/create-publish-mobile-app.md#installation-requirements-for-pwa-mobile-application).
@@ -313,7 +313,7 @@ The API signature that assigns learners to Organizations is given below.
    > [!NOTE]
    > Global, Organization, and Learning Path Administrators can enroll existing users in platform to Learning path.
 
-1. [Add Learner via All users](add-users/add-users-to-the-portal-1.md#option-1--add-learner-via-all-users) requires an organization to be selected.
+1. [Add Learner via All users](add-users/add-users-to-the-portal-1.md#option-1--add-a-learner-via-all-users) requires an organization to be selected.
 
     > [!NOTE]
     > Global and Organization Administrtors can add users via the All Users section.

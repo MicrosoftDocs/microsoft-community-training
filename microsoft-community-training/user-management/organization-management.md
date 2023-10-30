@@ -313,7 +313,7 @@ The API signature that assigns learners to Organizations is given below.
    > [!NOTE]
    > Global, Organization, and Learning Path Administrators can enroll existing users in platform to Learning path.
 
-1. [Add Learner via All users](add-users/add-users-to-the-portal-1.md#option-1--add-learner-via-all-users) requires an organization to be selected.
+1. [Add Learner via All users](add-users/add-users-to-the-portal-1.md#option-1--add-a-learner-via-all-users) requires an organization to be selected.
 
     > [!NOTE]
     > Global and Organization Administrtors can add users via the All Users section.

@@ -21,7 +21,7 @@ Currently, there are 3 forms of login identity supported in the platform out-of-
 
 3. **Azure Active Directory** -  Learners use their Azure Active Directory (aka Azure AD) credentials to sign in to the portal.
 
-4. **Login via multiple modes** - Community Training supports adding more than one authentication option for a single platform instance. To be able to configure multiple authentications to your instance you need to first create [**AD B2C**](https://learn.microsoft.com/azure/active-directory-b2c/overview) tenant and register an application to later add a Mobile number, Personal Email, Azure AD login support for your instance.
+4. **Login via multiple modes** - Community Training supports adding more than one authentication option for a single platform instance. To be able to configure multiple authentications to your instance you need to first create [**AD B2C**](/azure/active-directory-b2c/overview) tenant and register an application to later add a Mobile number, Personal Email, Azure AD login support for your instance.
 
 Apart from the out-of-box identities, the platform can integrate with any existing OAuth 2.0, OpenID Connect, or SAML-based authenticate service for login. For more information, reach out to us [**via HelpDesk**](https://go.microsoft.com/fwlink/?linkid=2104630).
 

@@ -36,7 +36,7 @@ In this section, you will learn how to create a single course in the Community T
 
 1. Click the :::image type="icon" source="../../../media/Plus icon.png" border="false"::: on the category list pane to create course under a category.
 
-    :::image type="content" source="../../../media/New course drop down menu.png" alt-text="Select plus icon to add new course to a category":::
+    :::image type="content" source="../../../media/New course drop down menu(1).png" alt-text="Select plus icon to add new course to a category":::
 
 1. Enter the **Course Name**. This is the title learners will see on the web portal and mobile app.  For example: *AI for Agriculture.*
 

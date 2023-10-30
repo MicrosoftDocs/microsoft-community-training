@@ -55,6 +55,6 @@ The Community Training platform provides role-based permission levels.  The tabl
 ![Default](../media/image%28275%29.png)
 
 1. You will also be able to access the administrator view of the platform in any of the languages selected in Step 3 above.
-    :::image type="content" source="../media/Admin UI Localization.PNG" alt-text="Admin localization":::
+    :::image type="content" source="../media/admin_UI.PNG" alt-text="Admin localization":::
 
 1. If the language of your choice is not available on the platform follow the steps in [**this article**](../settings/request-a-new-language.md) to add new languages for your platform instance

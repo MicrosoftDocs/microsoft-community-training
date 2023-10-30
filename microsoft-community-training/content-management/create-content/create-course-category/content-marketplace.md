@@ -34,4 +34,4 @@ A list of courses currently available in Microsoft Digital Content section can b
 
  [**Create a new category to import courses from Content Marketplace**](create-a-category.md#create-a-new-category).
 
- [**Import a course from content marketplace to an existing category**](create-a-new-course.md#option-2---add-course-via-content-marketplace).
+ [**Import a course from content marketplace to an existing category**](create-a-new-course.md#add-course-via-content-marketplace).

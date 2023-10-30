@@ -36,7 +36,7 @@ In this section, you will learn how to create a single course in the Community T
 
 1. Click the :::image type="icon" source="../../../media/Plus icon.png" border="false"::: on the category list pane to create course under a category.
 
-    :::image type="content" source="../../../media/New course option.png" alt-text="Select plus icon to add new course to a category":::
+    :::image type="content" source="../../../media/New course drop down menu.png" alt-text="Select plus icon to add new course to a category":::
 
 1. Enter the **Course Name**. This is the title learners will see on the web portal and mobile app.  For example: *AI for Agriculture.*
 
@@ -128,7 +128,8 @@ The course content must be structured correctly and available in the required fi
 
 ### Steps for bulk upload courses to the portal
 
-1. Find the catgory you want to add a course to and click :::image type="icon" source="../../../media/More options.png" border="false":::..
+1. Find the catgory you want to add a course to and click **Bulk Upload Courses**.
+1. 
     ![Bulk upload courses drop down](../../../media/Bulk%20uplod%20courses%20drop%20down.png)
 
 2. Click **Bulk Upload Course (Preview)** from the drop-down menu.

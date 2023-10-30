@@ -17,7 +17,7 @@ In this article, you will learn how to add subtitles for a video content on the 
 
 ## Steps to upload a subtitle or caption file to a video lesson
 
-1. Add the video content for a lesson. [**See detailed steps**](../../../content-management/create-content/create-course-category/upload-content-to-a-course.md#option-1-manually-add-content-for-each-lesson-in-a-course) on how to add content to a course.
+1. Add the video content for a lesson. [**See detailed steps**](../../../content-management/create-content/create-course-category/upload-content-to-a-course.md#manually-add-content-for-each-lesson-in-a-course) on how to add content to a course.
 
 1. Below the Upload button, you can see the **Add Subtitle** button. Click on + Add Subtitle button.
 

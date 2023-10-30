@@ -146,11 +146,11 @@ Download functionality on the mobile app is turned on by default and cannot be d
 
 If you have an existing native Android application and planning to migrate to PWA then these are things to be noted before migration:
 
-1. Send a communication via [in-app](https://learn.microsoft.com/azure/industry/training-services/microsoft-community-training/user-management/manage-users/send-announcement-to-the-users) or by email/phone to all the users on the platform to have their progress that they would've made offline synced with web apps by staying connected to internet for 5-10 min.
+1. Send a communication via [in-app](/azure/industry/training-services/microsoft-community-training/user-management/manage-users/send-announcement-to-the-users) or by email/phone to all the users on the platform to have their progress that they would've made offline synced with web apps by staying connected to internet for 5-10 min.
    * Make sure you send this notification before updating the app in the Play Store.
 2. As you update your existing native app with PWA in your Play Store, based on the end user's device settings, the update would automatically happen or they've to manually update it from Play Store.
    * If you have users installing PWA from the browser instead of Play Store, where you previously have a native application, above step 1 remains the same.
-3. Once updated, learner can now again [download content](https://learn.microsoft.com/azure/industry/training-services/microsoft-community-training/learner-experience/pwa-app) for their offline consumption. 
+3. Once updated, learner can now again [download content](/azure/industry/training-services/microsoft-community-training/learner-experience/pwa-app) for their offline consumption.
 
 ## Discussion forum & announcement
 

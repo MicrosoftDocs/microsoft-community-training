@@ -11,7 +11,7 @@ ms.prod: learning-azure
 
 If users are unable to sign in to the portal i.e. they are seeing an error page instead of learner view, one reason could be the expiration of the client secret. Here's how you can verify if that is the case and also generate a new client secret in case of Azure AD B2C tenant or Azure AD tenant.
 
-## Check and update the client's secret expiration date
+## Check update the client secret expiration date
 
 1. Login to [**Azure Portal**](https://ms.portal.azure.com/).
 2. Switch to the directory which contains your B2C tenant

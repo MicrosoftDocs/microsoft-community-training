@@ -193,4 +193,4 @@ At present, we do not recommend moving resource groups across different Azure su
 
 ### Language customization in Azure Active Directory B2C
 
-[**Language customization in Azure Active Directory B2C (Azure AD B2C)**](https://learn.microsoft.com/azure/active-directory-b2c/language-customization?pivots=b2c-user-flow#support-requested-languages-for-ui_locales) allows your user flow to accommodate different languages to suit your customer needs. 
+[**Language customization in Azure Active Directory B2C (Azure AD B2C)**](/azure/active-directory-b2c/language-customization?pivots=b2c-user-flow#support-requested-languages-for-ui_locales) allows your user flow to accommodate different languages to suit your customer needs. 

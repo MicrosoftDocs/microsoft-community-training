@@ -133,13 +133,12 @@ The content for the lessons must be structured correctly and available in the re
 
 ### Steps for bulk upload lessons for a course
 
-1. Login  to the MCP portal and [**switch to administrator view**](../../../get-started/step-by-step-configuration-guide.md#step-2--switch-to-administrator-view-of-the-portal).
+1. Login  to the CT portal and [**switch to administrator view**](../../../get-started/step-by-step-configuration-guide.md#step-2--switch-to-administrator-view-of-the-portal).
 
-1. Click :::image type="icon" source="../../../media/More options.png" border="false":::  to the right of the course name.
-
-    ![Bulk upload lesson drop down](../../../media/Bulk%20uplod%20lesson%20drop%20down.png)
+1. Select the **More (...)** icon to the right of the course name to bulk upload lessons for a course.
 
 1. Select **Bulk Upload Lessons (Preview)** from the drop-down menu.
+    ![Bulk upload lesson drop down](../../../media/Bulk%20uplod%20lesson%20drop%20down.png)
 
 1. Using the file picker, select the ZIP file which contains the content to upload.
 

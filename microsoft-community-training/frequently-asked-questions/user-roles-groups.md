@@ -71,13 +71,11 @@ Every user added to the platform will be marked as either Registered or Unregist
 
 ### How can I onboard users to Community Training?
 
-There are 3 ways to onboard users to Community Training:
+There are different ways to onboard users to Community Training:
 
 1. **Add a single user manually** - You can add users individually (one by one) on the management portal. Refer to **[this article](../user-management/organize-users/add-a-single-user-to-the-group.md)** to learn how.
 
 2. **Add multiple users manually** - You can add multiple users at once by using the bulk upload feature via the CSV file. Refer to **[this article](../user-management/organize-users/add-multiple-users-to-the-group.md)** to learn how.
-
-3. **Add users via API** - Community Training provides APIs to push users to the platform from your existing system. To learn how to leverage APIs, refer to **[this article](../infrastructure-management/install-your-platform-instance/apis.md)**.
 
 ### I have a list of users in an Excel file. How can I add them to the portal?
 

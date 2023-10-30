@@ -65,8 +65,6 @@ Here are the steps to embed the webview of CT in your custom mobile application 
     * `https://<DOMAIN>.azurewebsites.net/home/defaultsignin?whr=uri%3aB2C&referrer=basedomain&domain_hint=DOMAIN`
     * Where Domain is name of your instance. eg: if your instance url is `https://contoso.azurewebsites.net` then replace DOMAIN with 'contoso'
 
-Alternatively, you can also use [**REST APIs**](../infrastructure-management/install-your-platform-instance/apis.md) to create your own learning experience within your existing app/service.
-
 Contact us [**via HelpDesk**](https://go.microsoft.com/fwlink/?linkid=2104630) to get help on the integration.
 
 ### Identity Mapping between external portal to CT (via ADB2C)

@@ -17,9 +17,6 @@ In this release, we have added [support for admins to issue localized certificat
 
 ![Localization of learner certificates on the platform](../../media/image%28336%29.png)
 
-## Service to Service Authentication
-In this release, we have enabled [service to service (S2S) authentication](../../rest-api-management/service-to-service-authentication.md) to allow any external service to call Community Training APIs without requiring any user to explicitly login to a platform instance. 
-
 ## Support for hidden and read-only profile fields
 In this release, we have [enhanced the additional profile fields feature](../../settings/add-additional-profile-fields-for-user-information.md) on the platform to support hidden and read-only fields in addition to the mandatory fields. We have also increased the number of supported profile fields to 15.
 

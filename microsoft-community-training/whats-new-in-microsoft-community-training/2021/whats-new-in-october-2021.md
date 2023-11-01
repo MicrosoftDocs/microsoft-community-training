@@ -38,7 +38,7 @@ With this new release,  Community Training allows administrators to [edit the ru
 ## Localization of administrator portal
 
 In our efforts to make the platform more inclusive, we now also support the localization of the administrator portal by allowing the administrators to choose one of the languages enabled by the Global Administrator after switching to the administrator portal.
-:::image type="content" source="../../media/admin ui localization.png" alt-text="admin platform localization":::
+:::image type="content" source="../../media/admin_UI.png" alt-text="admin platform localization":::
 
 ## Launch of progressive web application
 

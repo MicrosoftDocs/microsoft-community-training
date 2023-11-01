@@ -14,7 +14,7 @@ Today, we are excited to share the new Community Training product update with yo
 
 ## Content Localization
 
-Course translations are an important tool for administrators when the same content can be made available to the learners in their language of choice. This release will enable the administrators to [create course translations](../../content-management/create-content/create-course-category/create-a-new-course.md#option-4---create-multiple-translations-of-a-course) in different languages.
+Course translations are an important tool for administrators when the same content can be made available to the learners in their language of choice. This release will enable the administrators to [create course translations](../../content-management/create-content/create-course-category/create-a-new-course.md#option-4---create-multiple-translations-for-a-course) in different languages.
 
 :::image type="content" source="../../media/ContentLocalization1.png" alt-text="Content Localization New Feature":::
 

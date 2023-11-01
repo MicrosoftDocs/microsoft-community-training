@@ -12,7 +12,7 @@ We are excited to share the new product update of Community Training with you! T
 
 ### Smart group rules can now be edited
 
-In this release, CT provides the option to edit the rules for the [Smart Groups](https://learn.microsoft.com/en-us/azure/industry/training-services/microsoft-community-training/user-management/organize-users/setup-automatic-user-enrollment-for-a-group-1#steps-to-add-rule-for-a-group)(automatic user enrolment). This will help organize the users in real-time with the changes to the smart group rules.
+In this release, CT provides the option to edit the rules for the [Smart Groups](/azure/industry/training-services/microsoft-community-training/user-management/organize-users/setup-automatic-user-enrollment-for-a-group-1#steps-to-add-rule-for-a-group)(automatic user enrolment). This will help organize the users in real-time with the changes to the smart group rules.
 
 The following actions are available for the admin on the smart group rules:
 

@@ -36,12 +36,12 @@ Community Training gets new updates regularly. For a detailed review of the enha
 
 [**What’s new in May 2022**](2022/whats-new-in-may-2022.md#whats-new-in-may-2022)
 
-[**What’s new in August 2022**](2022/whats-new-in-August-2022.md#whats-new-in-August-2022)
+[**What’s new in August 2022**](2022/whats-new-in-August-2022.md#whats-new-in-august-2022)
 
 [**What’s new in December 2022**](2022/whats-new-in-december-2022.md#whats-new-in-december-2022)
 
 ## 2023
 
-[**What’s new in March 2023**](2023/Whats-new-in-march-2023.md#Whats-new-in-march-2023)
+[**What’s new in March 2023**](2023/Whats-new-in-march-2023.md#whats-new-in-march-2023)
 
-[**What’s new in August 2023**](2023/Whats-new-in-aug-2023.md#Whats-new-in-aug-2023)
+[**What’s new in August 2023**](2023/Whats-new-in-aug-2023.md#whats-new-in-aug-2023)

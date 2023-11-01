@@ -21,7 +21,7 @@ For more details on nonprofit organization eligibility requirements, [**visit th
 
 ## Step 1  - Register for a Microsoft nonprofit grant
 
-If you are already registered for Microsoft grant for non-profit then go to [step 2](#step-2---activate-the-microsoft-nonprofit-grant).
+If you are already registered for Microsoft grant for non-profit then go to [step 2](#step-2----activate-the-microsoft-nonprofit-grant).
 
 1. Visit the [**Microsoft for Nonprofits registration**](https://nonprofit.microsoft.com/register) portal and select **Register**.
 ![Register button](../../media/image%28121%29.png)

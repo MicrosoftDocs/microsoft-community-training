@@ -9,62 +9,57 @@ ms.prod: learning-azure
 
 # Setup custom domain URL
 
-By default, your training portal is hosted on ***\<name>.azurefd.net***   where ***\<name>**** is the website name entered by administrator at the time of platform deployment and installation.
+By default, your training portal is hosted on ***\<name>.azurefd.net*** where ***\<name>*** is the website entered by the administrator when the platform is deployed.
 
 ## Why configure a Custom Domain?
 
-Some customers may prefer to keep their domain name at different providers for branding and trust purposes. We give you the option to “map” your learning portal to a domain of your choice.
-
-If you’re looking to host your Microsoft Community Training instance on a custom domain of your choice, follow the instructions below.
+Some customers may prefer to keep their domain name with an existing provider for branding and security purposes. We give you the option to map your learning portal to a domain of your choice, follow the instructions below to configure these settings.
 
 ## Before you begin
 
-1. Make sure you’ve purchased a domain name of your choice from your domain provider (such as Namecheap, GoDaddy).
-2. Make sure you have access to the DNS registry for your domain provider. For example, to add DNS entries for *contoso.com* and *`www.contoso.com`*, you must be able to configure the DNS settings for the *contoso.com*  root domain.
+1. Make sure you’ve purchased the domain name of your choice from your domain provider (such as Namecheap, GoDaddy).
+1. You will need access to the DNS registry for your domain provider. For example, to add DNS entries for *contoso.com* and *`www.contoso.com`*, you must be able to configure the DNS settings for the *contoso.com*  root domain.
 
 ## Steps to configure your custom domain URL
 
-1. [**Map the custom DNS name**](/azure/frontdoor/front-door-custom-domain#create-a-cname-dns-record) to point to your Microsoft Community Training instance, using a CNAME DNS record.
+1. [**Map the custom DNS name**](/azure/frontdoor/front-door-custom-domain#create-a-cname-dns-record) to point to your Community Training instance, using a CNAME DNS record.
 
 > [!NOTE]
-> Add your **Front Door URL** of your MCT instance wherever specified in the above documentation. It typically looks like *`https://<InstanceName>.azurefd.net/`*
+> Add the **Front Door URL** of your Community Training instance wherever specified in the above section. It typically looks like *`https://<InstanceName>.azurefd.net/`*
 
-2. [**Associate the mapped custom domain**](/azure/frontdoor/front-door-custom-domain#associate-the-custom-domain-with-your-front-door), with your Microsoft Community Training instance's Front Door resource.
+1. [**Associate the mapped custom domain**](/azure/frontdoor/front-door-custom-domain#associate-the-custom-domain-with-your-front-door), with your Community Training instance's Front Door resource.
 
-3. [**Configure the SSL certificate**](/azure/frontdoor/front-door-custom-domain-https) for your Microsoft Community Training instance.  
+1. [**Configure the SSL certificate**](/azure/frontdoor/front-door-custom-domain-https) for your Community Training instance.  
 Use an [**AFD managed certificate**](/azure/frontdoor/front-door-custom-domain-https#option-1-default-use-a-certificate-managed-by-front-door) for seamless certificate management, including procurement and renewal.
 
-4. Enable Web Application Firewall on your new domain.  
-(the setting is available just below the Custom Domain HTTPS configuration)  
-Select the WAF policy instance that is deployed in the same resource group.
+1. Enable the Web Application Firewall on your new domain (the setting is available just below the Custom Domain HTTPS configuration).
+Select the WAF policy instance that is deployed in the same resource group belonging to your Community Training instance.
 
-5. Click on the resource group belonging to your Microsoft Community Training instance.
-
-6. Click on the Managed application instance.
+1. Select the Managed application instance.
 
    ![Managed application](../../media/image%2890%29.png)
 
-7. Click on **Managed resource group** link.
+1. Select the **Managed resource group** link.
 
    ![Managed resource group](../../media/image%2889%29.png)
 
-8. Select the resource for your App Service.
+1. Select the resource for your App Service.
 
-9. From the left-menu, under Settings, click on **Configuration**.
+1. Select **Configuration** from the left-menu, under Settings.
 
    ![Configuration](../../media/image%2894%29.png)
 
-10. Update the [configuration setting](../../settings/configurations-on-the-training-platform.md#steps-to-set-the-configurations-on-the-platform) **ContentEndpoint** with your custom domain name, followed by the path "/storage". *For example - `https://contosolearning.contoso.com/storage`*.
+1. Update the [configuration setting](../../settings/configurations-on-the-training-platform.md#steps-to-set-the-configurations-on-the-platform) **ContentEndpoint** with your custom domain name, followed by the path "/storage", for example - *https://contosolearning.contoso.com/storage*.
 
     :::image type="content" source="../../media/custom domain endpoint setting.png" alt-text="Custom Domain Storage Endpoint":::
 
-    >[!Important]
-    >The above setting is required to be configured with the **new custom domain** you have created else it might generate issues.
+    > [!IMPORTANT]
+    >The above setting must be configured with the **new custom domain** you have created else it might generate issues.
 
-11. Next based on your chosen identity type, follow the steps below:
-    * **For Social Accounts or email based authentication** like Google, Microsoft and Facebook [follow these steps](../../infrastructure-management/configure-your-platform-infrastructure/setup-custom-domain-url.md#for-social-accounts-like-google-microsoft-and-facebook)
-    * **For Azure Active Directory** (aka Work or School account) [follow these steps](../../infrastructure-management/configure-your-platform-infrastructure/setup-custom-domain-url.md#for-azure-active-directory-work-or-school-account)
-    * **For phone number authentication**, create a support ticket from [Microsoft Community Training HelpDesk](https://go.microsoft.com/fwlink/?linkid=2104630) using the following values. Our support team will activate your custom URL in 2-3 business days and notify you of the change.
+1. Next, based on your chosen identity type, follow the steps below:
+    * **For Social Accounts or email based authentication** like Google, Microsoft and Facebook [follow this link](../../infrastructure-management/configure-your-platform-infrastructure/setup-custom-domain-url.md#for-social-accounts-like-google-microsoft-and-facebook).
+    * **For Azure Active Directory** (aka Work or School account) [follow this link](../../infrastructure-management/configure-your-platform-infrastructure/setup-custom-domain-url.md#for-azure-active-directory-work-or-school-account).
+    * **For phone number authentication**, create a support ticket from the [Community Training HelpDesk](https://go.microsoft.com/fwlink/?linkid=2104630) using the following values and your custom URL will be activated in 2-3 business days.  You will be notified when the change is complete.
 
         |Field|Description|
         |---|---|
@@ -74,88 +69,84 @@ Select the WAF policy instance that is deployed in the same resource group.
         |Description|Provide your existing URL and new custom URL|
 
 > [!IMPORTANT]  
-> Before raising the support ticket for an instance **enabled with Phone number authentication**, please make sure your training portal is accessible with the configured custom domain. After opening the website, when you click on the **SIGN IN** the login page should return an error.
+> Before raising the support ticket for an instance **enabled with Phone number authentication**, please make sure your training portal is accessible with the configured custom domain. After opening the website, when you select **SIGN IN**, the login page should return an error.
 
 ## For Social Accounts like Google, Microsoft and Facebook
 
 ### For Production Slot URL
 
-1. Open B2C Tenant resource from Resource group.
+1. Open the B2C Tenant resource from Resource group.
 
-2. Select Azure Active Directory B2C Settings
+1. Select **Azure Active Directory B2C Settings**.
 
-3. Select Applications under Manage and select the application
+1. Select **Applications** under Manage and select the application.
 
-4. Under reply URL, please add your new custom domain URL in the format, "https:// {custom domain} /signin-b2c". For example, "https://contosolearning.contoso.com/signin-b2c".
+1. Under reply URL, please add your new custom domain URL in the format, *https:// {custom domain} /signin-b2c*, for example, *https://contosolearning.contoso.com/signin-b2c*.
 
    > [!NOTE]  
    > Please ensure the case for "/signin-b2c" is exactly as mentioned since the URL is case sensitive.  
 
-5. Click on Save.
+1. Select **Save**.
 
 ### For Staging Slot URL
 
 1. Open B2C Tenant resource from Resource group.
 
-2. Select Azure Active Directory B2C Settings
+1. Select **Azure Active Directory B2C Settings**.
 
-3. Create a new application. (+ Add)
+1. Create a new application (+ Add).
 
-4. Enter the name of the application.
+1. Enter the name of the application.
 
-5. Switch on “Web App / Web API”
+1. Switch on “Web App / Web API”
 
-6. Make sure “Allow implicit flow” is turned off and “Native Client” is turned off.  
+1. Make sure “Allow implicit flow” is turned off and “Native Client” is turned off.  
 
-7. Set the reply URI for Azure AD B2C as \<basedomain>/signin-b2c (e.g.: 'https://\<name>-staging.azurewebsites.net/signin-b2c'. This URL will serve as a temporary testing URL on which the website will be deployed before moving to production.
+1. Set the reply URI for Azure AD B2C as *\<basedomain>/signin-b2c* (e.g.: *https://\<name>-staging.azurewebsites.net/signin-b2c*. This URL will serve as a temporary testing URL on which the website will be deployed before moving to production.
    > [!NOTE]  
    > Please ensure the case for "/signin-b2c" is exactly as mentioned since the URL is case sensitive.  
 
-8. Click on Create
+1. Select **Create**.
 
 ## For Azure Active Directory (Work or School account)
 
 ### For Production Slot URL
 
-1. In Azure portal, select Azure Active Directory.
+1. In Azure portal, select **Azure Active Directory** then **App registrations**.
 
-2. Then select App registrations.
+1. Select the application from list of registered apps.
 
-3. Select the application from list of registered apps.
+1. Select **Authentication**.
 
-4. Select Authentication.
-
-5. Now add the redirect URL in following format,"https:// {customdomain} /signin-azureAD"  (e.g.: "https://contosolearning.contoso.com/signin-azureAD")
+1. Now add the redirect URL in the following format, *"https:// {customdomain} /signin-azureAD"*  (e.g.: "https://contosolearning.contoso.com/signin-azureAD")
    > [!NOTE]  
    > Please ensure the case for "/azureAD" is exactly as mentioned since the URL is case sensitive.  
 
-6. Click on Save.
+1. Select **Save**.
 
 ### For Staging Slot URL
 
-1. In Azure portal, select Azure Active Directory.
+1. In Azure portal, select **Azure Active Directory** then select **App registrations**.
 
-2. Then select App registrations.
+1. Select **+ New application registration**.
 
-3. Click + New application registration.
+1. Enter the name of the application, select Application type as “Web app/API”.
 
-4. Enter Name of the application, select Application type “Web app/API”
-
-5. Now add the redirect URL in following format, "https:// {websitename}-staging /signin-azureAD" (e.g  "https://contosolearning-staging.azurewebsites.net/signin-azureAD")
+1. Now add the redirect URL in following format, "https:// {websitename}-staging /signin-azureAD" (e.g  "https://contosolearning-staging.azurewebsites.net/signin-azureAD")
    > [!NOTE]  
    > Please ensure the case for "/azureAD" is exactly as mentioned since the URL is case sensitive.  
 
-6. Click on Create
+1. Select **Create**.
 
 ## Troubleshoot for Custom Domain URL Setup
 
-Following are some troubleshooting steps for the scenario when your website is not reachable even after following all of the above mentioned steps,
+If your website is unreachable even after following all of the above mentioned steps try the following troubleshooting steps:
 
 ![Troubleshoot for Custom Domain URL Setup](../../media/image%28341%29.png)
 
 Check the DNS entry is propagated by any online tool available. [Example](https://mxtoolbox.com/DNSLookup.aspx).
 
-There can be 2 cases:  
+There can be two cases:  
 
 1. **No entry is present**
 
@@ -163,16 +154,16 @@ There can be 2 cases:
 
       **Steps to mitigate**
 
-      Update dns record in corresponding DNS provider. In the above case, the domain was purchased from Microsoft 365, so you will need to follow this [documentation](/microsoft-365/admin/dns/update-dns-records-to-retain-current-hosting-provider?view=o365-worldwide&preserve-view=true).
+      Update the DNS record in corresponding DNS provider. In the above case, the domain was purchased from Microsoft 365, so you will need to follow this [documentation](/microsoft-365/admin/dns/update-dns-records-to-retain-current-hosting-provider?view=o365-worldwide&preserve-view=true).
 
-      Every dns provider will have similar documentations. This is one more example from [Godaddy](https://in.godaddy.com/help/change-an-a-record-19239)  
+      Every DNS provider will have similar documentations. This is an example from [Godaddy](https://in.godaddy.com/help/change-an-a-record-19239).  
 
-2. **DNS entry is wrong**
+1. **DNS entry is wrong**
 
    ![DNS entry is wrong](../../media/image%28343%29.png)
 
     **Steps to mitigate**
 
-    The domain record should point to the correct AzureFD url (***\<name>.azurefd.net*** ). For example,
+    The domain record should point to the correct AzureFD url (***\<name>.azurefd.net*** ), for example,
 
     ![AzureFD url](../../media/image%28344%29.png)

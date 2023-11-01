@@ -30,13 +30,13 @@ The table below shows which administrative roles can create courses.
 | Category Administrator  | Yes |
 | Group Administrator | No |
 
-## Create a single course in a category
+## Option 1 - Create a single course in a category
 
 In this section, you will learn how to create a single course in the Community Training platform. You will need to [**View as an administrator**](../../../get-started/step-by-step-configuration-guide.md#step-2--switch-to-administrator-view-of-the-portal) on the training portal.
 
 1. Click the :::image type="icon" source="../../../media/Plus icon.png" border="false"::: on the category list pane to create course under a category.
 
-    :::image type="content" source="../../../media/New course option.png" alt-text="Select plus icon to add new course to a category":::
+    :::image type="content" source="../../../media/New course drop down menu(1).png" alt-text="Select plus icon to add new course to a category":::
 
 1. Enter the **Course Name**. This is the title learners will see on the web portal and mobile app.  For example: *AI for Agriculture.*
 
@@ -78,7 +78,7 @@ In this section, you will learn how to create a single course in the Community T
 > [!TIP]
 > Use numbering as prefix like  01, 02, 03, 04, 05 etc in the course name as they are alphabetically stacked. Order of courses can be changed by editing the name or numbers in edit course dialogue box.
 
-## Add Course via Content Marketplace
+## Option 2 - Add Course via Content Marketplace
 
 In this topic, you will learn to import courses from the Content Marketplace.
 
@@ -99,7 +99,7 @@ In this topic, you will learn to import courses from the Content Marketplace.
 1. The course will be imported to selected category as shown.
     :::image type="content" source="../../../media/marketplaceimg5.png" alt-text="imagemarketplace5":::
 
-## Create multiple courses in a category
+## Option 3 - Create multiple courses in a category
 
 The easiest way to create courses and upload content in the learning portal is to use the **Bulk Upload Courses**  feature which allows you to create multiple courses and upload the content together.
 
@@ -128,7 +128,8 @@ The course content must be structured correctly and available in the required fi
 
 ### Steps for bulk upload courses to the portal
 
-1. Find the catgory you want to add a course to and click :::image type="icon" source="../../../media/More options.png" border="false":::..
+1. Find the catgory you want to add a course to and click **Bulk Upload Courses**.
+1. 
     ![Bulk upload courses drop down](../../../media/Bulk%20uplod%20courses%20drop%20down.png)
 
 2. Click **Bulk Upload Course (Preview)** from the drop-down menu.
@@ -174,7 +175,7 @@ Alternatively, you can check the step by step video tutorial for bulk upload con
  @(Embed)(../../../media/Bulk%20Upload%20Content(1).mp4) 
 --->
 
-## Create multiple translations for a Course
+## Option 4 - Create multiple translations for a Course
 
 You can create multiple translations for a course once it has been created either as a single course or as part of a bulk course upload.  This functionality is not available for content uploaded from the Marketplace.
 

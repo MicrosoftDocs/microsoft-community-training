@@ -39,8 +39,6 @@ In this topic, you will learn how to **Create a Category** in the platform.
 
 1. Enter the **Category name**. For example, *AI for agriculture.*
 
-    :::image type="content" source="../../../media/New Category box.png" alt-text="Illustration of New Category dialogue box.":::
-
 1. Choose **Upload** option to browse and select an image file as **Category Thumbnail.**
 
     > [!TIP]

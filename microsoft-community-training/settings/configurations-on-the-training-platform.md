@@ -99,7 +99,7 @@ By default, this feature is **Disabled** with value as **False** so that learner
 Features:CommentDisabled
 ```
 
-The Platform comes with a functionality where [learners can comment](../learner-experience/mobile.md) on different lessons and initiate a discussion.
+The Platform comes with a functionality where on different lessons and initiate a discussion.
 By default, this feature remains enabled but, you have the flexibility to disable this function to avoid peer-to-peer interaction over platform. Once disabled, learners will not be allowed to post comment.
 
 ## Learner Action Events

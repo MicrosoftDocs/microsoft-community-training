@@ -11,9 +11,9 @@ ms.prod: learning-azure
 
 ## Learner experience
 
-### It takes too much time to open the website on my browser/portal is responding very slowly
+### It takes too much time to open the website on my browser/portal and is responding very slowly
 
-It is possible that your infrastructure is unable to handle the high traffic load. Refer **[this article](../infrastructure-management/configure-your-platform-infrastructure/scale-up-instance-configuration.md)** to upscale your platform and meet your growing needs.
+It is possible that your infrastructure is unable to handle the high traffic load. Refer to **[this article](../infrastructure-management/configure-your-platform-infrastructure/scale-up-instance-configuration.md)** to upscale your platform and meet your growing needs.
 
 ### I can't open external links embedded inside the PDF document in the platform
 
@@ -21,7 +21,7 @@ For security reasons, we have disabled clicking on external links for the PDF do
 
 ### Can learners change/update user profile fields?
 
-Learners can change/update profile fields via the profile section in learners portal. Administrators can change these values via the bulk upload functionality. Refer [**this article**](../user-management/organize-users/add-multiple-users-to-the-group.md#steps-to-bulk-upload-users-to-specific-group) for more information.
+Learners can change/update profile fields via the profile section in the portal. Administrators can change these values via the bulk upload functionality. Refer to [**this article**](../user-management/organize-users/add-multiple-users-to-the-group.md#steps-to-bulk-upload-users-to-specific-group) for more information.
 
 ### Can Community Training be used in low bandwidth and no internet connectivity scenarios?
 
@@ -38,8 +38,6 @@ Community Training is designed to be lightweight and supports adaptive streaming
 After successful login, learners can see all the courses for which they have registered and their completion status.
 
 Users can also browse the course library and register for more courses as required.
-
-For further information [**go here**](../learner-experience/mobile.md)
 
 ## Course consumption
 
@@ -70,7 +68,7 @@ The below-mentioned functions are available on the inbuilt video player:
 3. Turn Closed Captions on and off
 4. Volume Adjustments
 5. Setting Video Quality based on the data bandwidth
-6. Viewing video on full screen
+6. Viewing video on fullscreen
 
    ![Video on full screen](../media/image%28310%29.png)
 
@@ -148,11 +146,11 @@ Download functionality on the mobile app is turned on by default and cannot be d
 
 If you have an existing native Android application and planning to migrate to PWA then these are things to be noted before migration:
 
-1. Send a communication via [in-app](https://learn.microsoft.com/azure/industry/training-services/microsoft-community-training/user-management/manage-users/send-announcement-to-the-users) or by email/phone to all the users on the platform to have their progress that they would've made offline synced with web apps by staying connected to internet for 5-10 min.
+1. Send a communication via [in-app](/azure/industry/training-services/microsoft-community-training/user-management/manage-users/send-announcement-to-the-users) or by email/phone to all the users on the platform to have their progress that they would've made offline synced with web apps by staying connected to internet for 5-10 min.
    * Make sure you send this notification before updating the app in the Play Store.
 2. As you update your existing native app with PWA in your Play Store, based on the end user's device settings, the update would automatically happen or they've to manually update it from Play Store.
    * If you have users installing PWA from the browser instead of Play Store, where you previously have a native application, above step 1 remains the same.
-3. Once updated, learner can now again [download content](https://learn.microsoft.com/azure/industry/training-services/microsoft-community-training/learner-experience/pwa-app) for their offline consumption. 
+3. Once updated, learner can now again [download content](/azure/industry/training-services/microsoft-community-training/learner-experience/pwa-app) for their offline consumption.
 
 ## Discussion forum & announcement
 
@@ -182,7 +180,7 @@ Discussion Forums can be accessed from the course details page. By tapping the a
 
 ![Access discussion forums](../media/image%28321%29.png)
 
-### Who all can post questions or respond to queries in the discussion forum?
+### Who can post questions or respond to queries in the discussion forum?
 
 All the enrolled learners for the course and course administrators will be able to post and respond to queries on the discussion forum.
 
@@ -200,6 +198,6 @@ Community Training doesn’t support private chat or 1:1 discussion between lear
 
 ### When I send an announcement, will learners receive notification via email or SMS?
 
-When an announcement is sent by the administrators there messages appear on the Notice Board for the learner experience. In order to have additional functionalities such as SMS or Email , customers can leverage the APIs to build these functionalities using Logic Apps, Microsoft Flow, etc.
+When an announcement is sent by the administrators there messages appear on the Notice Board for the learner experience. In order to have additional functionalities such as SMS or Email, customers can leverage the APIs to build these functionalities using Logic Apps, Microsoft Flow, etc.
 
 For more information contact us **[via HelpDesk](https://go.microsoft.com/fwlink/?linkid=2104630)**.

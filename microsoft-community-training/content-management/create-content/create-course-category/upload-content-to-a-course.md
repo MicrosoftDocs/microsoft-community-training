@@ -31,7 +31,7 @@ The MCT management portal provides role-based permission levels. The table below
 | Course Administrator | Yes |
 | Group Administrator | No |
 
-## Manually add content for each lesson in a course
+## Option 1: Manually add content for each lesson in a course
 
 You can manually upload the required content to a course using the New Lesson option on the course details page.
 
@@ -112,7 +112,7 @@ Once you have completed uploading lessons, you can [**Add assessments**](add-ass
 > [!TIP]
 > Whenever you are uploading content, [**scale up your platform configuration**](../../../infrastructure-management/configure-your-platform-infrastructure/scale-up-instance-configuration.md) to reduce the upload and processing time for the content.
 
-## Bulk Upload lessons
+## Option 2 - Bulk Upload lessons
 
 Similar to the [**Bulk Upload Courses**](create-a-new-course.md#steps-for-bulk-upload-courses-to-the-portal), you can use the Bulk Upload Lessons feature to save time and upload multiple lessons for a course in one action.
 
@@ -133,13 +133,12 @@ The content for the lessons must be structured correctly and available in the re
 
 ### Steps for bulk upload lessons for a course
 
-1. Login  to the MCP portal and [**switch to administrator view**](../../../get-started/step-by-step-configuration-guide.md#step-2--switch-to-administrator-view-of-the-portal).
+1. Login  to the CT portal and [**switch to administrator view**](../../../get-started/step-by-step-configuration-guide.md#step-2--switch-to-administrator-view-of-the-portal).
 
-1. Click :::image type="icon" source="../../../media/More options.png" border="false":::  to the right of the course name.
-
-    ![Bulk upload lesson drop down](../../../media/Bulk%20uplod%20lesson%20drop%20down.png)
+1. Select the **More (...)** icon to the right of the course name to bulk upload lessons for a course.
 
 1. Select **Bulk Upload Lessons (Preview)** from the drop-down menu.
+    ![Bulk upload lesson drop down](../../../media/Bulk%20uplod%20lesson%20drop%20down.png)
 
 1. Using the file picker, select the ZIP file which contains the content to upload.
 

@@ -11,14 +11,14 @@ ms.prod: learning-azure
 
 If users are unable to sign in to the portal i.e. they are seeing an error page instead of learner view, one reason could be the expiration of the client secret. Here's how you can verify if that is the case and also generate a new client secret in case of Azure AD B2C tenant or Azure AD tenant.
 
-## Check and update the client's secret expiration date
+## Check and update client secret expiration date
 
 1. Login to [**Azure Portal**](https://ms.portal.azure.com/).
 2. Switch to the directory which contains your B2C tenant
 3. Search for **‘Azure AD B2C’(or 'Azure AD' in case of AD tenant)** and click on it.
 
     :::image type="content" source="../media/cs_searchadb2c.png" alt-text="searchadb2c":::
-    
+
     For Azure AD tenant scenario:
     :::image type="content" source="../media/10jan_adser.png" alt-text="ad_search":::
 
@@ -48,7 +48,7 @@ If users are unable to sign in to the portal i.e. they are seeing an error page 
     * For Azure AD tenant scenario :
     :::image type="content" source="../media/AzureADCS1.png" alt-text="azuread_clientsecret":::
 
-3. Click on **'New Version'**
+3. Click on **'New Version'**.
 
     :::image type="content" source="../media/cs_kv_new.png" alt-text="cs_kvnewimage":::
 
@@ -64,7 +64,7 @@ If users are unable to sign in to the portal i.e. they are seeing an error page 
 
 1. Navigate to your [**App Service**](../settings/configurations-on-the-training-platform.md#steps-to-set-the-configurations-on-the-platform) configurations.
 
-2. In the configurations, search for ‘idp:AzureADB2CExternalAuthClientSecret’ and click on it. In case of an Azure AD tenant, search for 'idp:AzureADExternalAuthClientSecret' and click on it.
+2. In the configurations, search for ‘idp:AzureADB2CExternalAuthClientSecret’ and click on it. In the case of an Azure AD tenant, search for 'idp:AzureADExternalAuthClientSecret' and click on it.
     * Replace the value with secret identifier from step5 of [**update Key-Vault with new client secret**](#update-key-vault-with-new-client-secret) and save the settings.
 
         :::image type="content" source="../media/cs_appconfigcs.png" alt-text="appcongidupdate":::

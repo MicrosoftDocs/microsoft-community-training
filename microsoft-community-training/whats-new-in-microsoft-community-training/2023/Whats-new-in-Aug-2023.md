@@ -2,13 +2,13 @@
 title: What's new in August 2023
 author: v-nmadireddi
 ms.author: v-nmadireddi
-description: This document details the new features and capabilities launched on the Microsoft Community Training platform in August 2023. 
+description: This document details the new features and capabilities launched on Community Training in August 2023. 
 ms.prod: learning-azure
 ---
 
 # What’s new in August 2023
 
-We are excited to share the new product update of Microsoft Community Training with you! The features in this release are designed to enhance the management and delivery of online learning modules in a seamless manner to your community.
+We are excited to share the new product update of Community Training with you! The features in this release are designed to enhance the management and delivery of online learning modules seamlessly to your community.
 
 ## Features and Enhancements
 
@@ -25,8 +25,8 @@ Learners can now continue watching video lessons from where they left off, makin
 Users can now play Office files (.doc, .docx, .ppt, .pptx, .xlx, .xlsx) even in offline mode. 
 
 > [!NOTE]
-> * To use office files in offline, we will be providing files to publish the application in Google Play store.
-> * Users can request support by raising a ticket [**Microsoft Community Training Helpdesk**](https://go.microsoft.com/fwlink/?linkid=2104630)..
+> * To use office files offline, we will be providing files to publish the application in the Google Play store.
+> * Users can request support by raising a ticket [**Community Training Helpdesk**](https://go.microsoft.com/fwlink/?linkid=2104630)..
 
 ### Notification for Async Jobs
 

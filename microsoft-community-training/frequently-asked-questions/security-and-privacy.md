@@ -17,29 +17,29 @@ Community Training can only be hosted and run on Microsoft Azure Cloud.  It cann
 
 ### Where is Community Training data stored?
 
-Community Training is hosted on customers’ Azure subscription. Customers can decide the Azure data center region of their choice for hosting the application and storing the training content and consumption data. So, customers have complete data ownership.
+Community Training is hosted on customers’ Azure subscriptions. Customers can decide on the Azure data center region of their choice for hosting the application and storing the training content and consumption data. So, customers have complete data ownership.
 
-For example, in India there are three data centers. These are Central, West, and South where the platform can be hosted.
+For example, in India, there are three data centers. These are Central, West, and South where the platform can be hosted.
 
 ### Where will the user identity data be stored?
 
 Community Training does not store any user password. We only store the user ID which can be a phone number, email address, etc. depending upon the primary identity set up for the platform.
 
-In the Community Training, user ID and other information are stored in the Azure SQL database. The connection string and sign in credentials for Azure SQL DB are stored in the Key Vault.
+In the Community Training, user ID and other information are stored in the Azure SQL database. The connection string and sign-in credentials for Azure SQL DB are stored in the Key Vault.
 
 ### How to create a backup of the Community Training instance?
 
 Community Training can ensure that in case of unforeseen failures and disasters, your data – which includes all your content, user data, and other branding assets - is safe and secure.
 
-Since Community Training is a managed application, backup and replication is not enabled by default. Customers can enable backup/replication of the data to the data center region of their choice
+Since Community Training is a managed application, backup and replication are not enabled by default. Customers can enable backup/replication of the data to the data center region of their choice
 
 Refer to [**this article**](../infrastructure-management/configure-your-platform-infrastructure/business-continuity-and-disaster-recovery-for-your-platform-instance.md) to learn more.
 
 ### What is the backup policy?
 
-Customers can configure the **[backup frequency and policy](/azure/backup/backup-azure-manage-vms#manage-backup-policy-for-a-vm)**. From the product team perspective, we recommend customers to do daily a backup.  
+Customers can configure the **[backup frequency and policy](/azure/backup/backup-azure-manage-vms#manage-backup-policy-for-a-vm)**. From the product team perspective, we recommend customers do daily a backup.  
 
-### What is the committed Recovery Time Objective (RTO) and Recovery Point Objective (RPO)?
+### What are the committed Recovery Time Objective (RTO) and Recovery Point Objective (RPO)?
 
 Customers can configure the geo-replication, automatic failover, etc. for business continuity scenarios as their business requirements. For example, for Azure SQL Database, geo-restore from geo-replicated backups is RTO - 12 hours and RPO – 6 hours.
 
@@ -62,11 +62,11 @@ All the content downloaded on the mobile app for offline consumption is stored i
 
 ### How is the content secured and protected on the platform from unauthorized access?
 
-Community Training program uses the state of art CDN services powered by Azure. With robust security such as SAS token and inbuilt lossless compression standards, Azure CDN ensures content is protected without any impact on application performance. It also helps you to reduce bandwidth costs and provide a responsive experience to users.
+Community Training uses the state of art CDN services powered by Azure. With robust security such as SAS token and inbuilt lossless compression standards, Azure CDN ensures content is protected without any impact on application performance. It also helps you to reduce bandwidth costs and provide a responsive experience to users.
 
 ## Technical architecture & platform security
 
-### What are the various technical components and Azure Services used in the Microsoft Community platform?
+### What are the various technical components and Azure Services used in Community Training?
 
 Here is the high-level architecture diagram of the Community Training:
 
@@ -80,7 +80,7 @@ Here is the high-level architecture diagram of the Community Training:
 
 4. **Azure Media Services** - We leverage Azure Media Services to provide low-network bandwidth support along with encoding and streaming capabilities for video content.
 
-5. **Identity** - Community Training supports multiple identity providers which are configurable. For example, in the case of phone authentication, the service sends an OTP and after the user inputs the same, it is subsequently validated on the service side.
+5. **Identity** - Community Training supports multiple identity providers that are configurable. For example, in the case of phone authentication, the service sends an OTP and after the user provides the right code, it is subsequently validated on the service side.
 
 6. **Mobile app** - The mobile app is built using Xamarin Forms and leverages the .NET framework to build a secure and high-quality app for ease of use by the end-user.
 
@@ -98,7 +98,7 @@ However, since we are in public preview there is no committed SLA provided for C
 
 All the Azure components are hosted within the customer’s Azure subscription whereby the data is fully secure and owned by the customer. The contents of the resources are hosted only on the geographical premises as chosen by the customer.
 
-Customer content on the Azure blob storage and Azure SQL databases are highly secure and the credentials of the same are also secured and stored in the Azure Key Vault. Again, all of this is owned by the customer.
+Customer content on the Azure blob storage and Azure SQL databases are highly secure and the credentials are also secured and stored in the Azure Key Vault. Again, all of this is owned by the customer.
 
 Lastly, Azure web apps are secured against external attacks by following best practices in building scalable server applications.
 

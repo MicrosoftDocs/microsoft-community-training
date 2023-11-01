@@ -1,8 +1,8 @@
 ---
 title: Add multiple Azure AD(single tenant) to B2C as social account
 original-url: https://docs.microsoftcommunitytraining.com/docs/
-author: v-samarth
-ms.author: v-samarth
+author: nikotha
+ms.author: nikotha
 description: Enable sign-in for users from a multiple Azure AD organization using a user flow in Azure AD B2C.
 ms.prod: learning-azure
 ---

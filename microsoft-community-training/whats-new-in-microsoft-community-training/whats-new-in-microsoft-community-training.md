@@ -1,14 +1,14 @@
 ---
-title: What's new in Microsoft Community Training
+title: What's new in Community Training
 original-url: https://docs.microsoftcommunitytraining.com/docs/whats-new-in-microsoft-community-training
 author: v-nmadireddi
 ms.author: v-nmadireddi
-description: Microsoft Community Training releases new updates to the platform regularly. For a detailed review of the enhancements please check the What's New articles.
+description: Community Training gets new updates regularly. For a detailed review of the enhancements please check the What's New articles.
 ms.prod: learning-azure
 ---
-# What's new in Microsoft Community Training
+# What's new in Community Training
 
-Microsoft Community Training releases new updates to the platform regularly. For a detailed review of the enhancements please check the What's New articles.
+Community Training gets new updates regularly. For a detailed review of the enhancements please check the What's New articles.
 
 ## 2020
 

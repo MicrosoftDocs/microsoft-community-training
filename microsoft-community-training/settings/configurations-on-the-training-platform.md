@@ -3,7 +3,7 @@ title: Configurations on the Training Platform
 original-url: https://docs.microsoftcommunitytraining.com/docs/configurations-on-the-training-platform
 author: nikotha
 ms.author: nikotha
-description: This document details the customizations supported on the Microsoft Community Training platform for administrator and learner capabilities.
+description: This document details the customizations supported on the Community Training platform for administrator and learner capabilities.
 ms.prod: learning-azure
 ---
 
@@ -152,7 +152,7 @@ You can embed the platform into iFrame or webview so that it can be integrated w
 
 By default, this feature is disabled with the value **False** so that embedding is not supported, set to **True** if the platform is to be embedded into different application.
 
-## Allow external video embedding into MCT
+## Allow external video embedding into CT
 
 ```Allow external video embedding
 AllowEmbedDomains
@@ -234,7 +234,7 @@ In **Value** provide the two letter Alpha-2 country code, for example: to set de
 
 :::image type="content" source="../media/Default country.PNG" alt-text="Def_country":::
 
-## Disable MS Teams integration with MCT
+## Disable MS Teams integration with CT
 
 ```disable MS Teams integration  
 deploymentType
@@ -246,8 +246,8 @@ To disable this MS Teams integration, update this app setting with **Value = '0'
 
 > [!WARNING]
 >
->- MS Teams integration comes with MCT instances with authentication type as "Work or School Account".
->- Once you disable the MS Teams integration, you would be able to add users to the platform via MCT Admin UI.
+>- MS Teams integration comes with CT instances with authentication type as "Work or School Account".
+>- Once you disable the MS Teams integration, you would be able to add users to the platform via CT Admin UI.
 
 :::image type="content" source="../media/Disable MS Teams integration.PNG" alt-text="Disable teams integration":::
 

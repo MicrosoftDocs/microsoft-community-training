@@ -20,7 +20,7 @@ When this setting is enabled, only users that are added or imported to the porta
 
 ## Change Restricted User Access settings  
 
-1. Log in to the Microsoft Community Training portal and [**switch to administrator view**](../get-started/step-by-step-configuration-guide.md#step-2--switch-to-administrator-view-of-the-portal).
+1. Log in to the Community Training portal and [**switch to administrator view**](../get-started/step-by-step-configuration-guide.md#step-2--switch-to-administrator-view-of-the-portal).
 
 1. Select **Settings** on the left-navigation panel.  
 

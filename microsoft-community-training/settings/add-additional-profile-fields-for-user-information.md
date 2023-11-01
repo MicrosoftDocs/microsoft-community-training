@@ -22,7 +22,7 @@ In this article, you'll learn how to customize profile information by creating a
 
 ## Permissions Level
 
-The Microsoft Community Training management portal provides role-based permission levels.  The table below shows which administrative roles can customize profile information for learners.
+The Community Training management portal provides role-based permission levels.  The table below shows which administrative roles can customize profile information for learners.
 
 |Access Level| Customize profile information |
 |---|---|
@@ -35,7 +35,7 @@ The Microsoft Community Training management portal provides role-based permissio
 
 ## Steps to create additional profile fields
 
-1. Login to the Microsoft Community Training portal and [**switch to administrator view**](../get-started/step-by-step-configuration-guide.md#step-2--switch-to-administrator-view-of-the-portal)
+1. Login to the Community Training portal and [**switch to administrator view**](../get-started/step-by-step-configuration-guide.md#step-2--switch-to-administrator-view-of-the-portal)
 
 1. Select **Settings** from the left navigation panel then **Additional Profile fields** from the list.
 
@@ -104,7 +104,7 @@ For example, if there are two profile fields ‘State’ and ‘City’ and if c
 
 ### Steps to create Associated profile fields
 
-1. Login to the Microsoft Community Training portal and [**switch to administrator view**](../get-started/step-by-step-configuration-guide.md#step-2--switch-to-administrator-view-of-the-portal)
+1. Login to the Community Training portal and [**switch to administrator view**](../get-started/step-by-step-configuration-guide.md#step-2--switch-to-administrator-view-of-the-portal)
 
 1. Select **Settings** from the left navigation panel then **Additional Profile fields** from the list.
 
@@ -157,7 +157,7 @@ For example, if there are two profile fields ‘State’ and ‘City’ and if c
 
 You can include a link to your privacy terms and conditions that will be shown to users when they view their profile information.
 
-1. Login to the Microsoft Community Training portal and [**switch to administrator view**](../get-started/step-by-step-configuration-guide.md#step-2--switch-to-administrator-view-of-the-portal).
+1. Login to the Community Training portal and [**switch to administrator view**](../get-started/step-by-step-configuration-guide.md#step-2--switch-to-administrator-view-of-the-portal).
 
 1. Select **Settings** from the left navigation panel then **General** from the list.
 

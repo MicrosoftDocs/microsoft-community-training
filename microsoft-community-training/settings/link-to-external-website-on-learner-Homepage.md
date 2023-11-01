@@ -2,7 +2,7 @@
 title: Link to External Website on Learner Home page
 author: nikotha
 ms.author: nikotha
-description: This document details the flow to add a link to an external website on learner's home page on the Microsoft Community Training platform.  
+description: This document details the flow to add a link to an external website on learner's home page on the Community Training platform.  
 ms.prod: learning-azure
 ---
 
@@ -31,7 +31,7 @@ Community Training enables you to provide a link to an external website on the l
 1. Select **New application setting** and enter the following values in the corresponding text boxes:
 
     * Name: **Features:ExternalWebsite:Name**
-    * Value: Any name you want display (Example – Microsoft Community Training)
+    * Value: Any name you want display (Example – Community Training)
 
     :::image type="content" source="../media/EL5.png" alt-text="External link 5":::
 
@@ -46,8 +46,8 @@ Community Training enables you to provide a link to an external website on the l
 
     :::image type="content" source="../media/EL6.png" alt-text="External link 6":::
 
-1. Switch to the learner’s view on your instance and select the profile picture: you will be able to see the external link available on the panel as illustrated below (**visit Microsoft Community Training**).
+1. Switch to the learner’s view on your instance and select the profile picture: you will be able to see the external link available on the panel as illustrated below (**visit Community Training**).
 
     :::image type="content" source="../media/el7.png" alt-text="External link 7":::
 
-1. Select the available link (**Microsoft Community Training**, as in the example above) and the web site opens up instantly as a new tab on your screen.
+1. Select the available link (**Community Training**, as in the example above) and the web site opens up instantly as a new tab on your screen.

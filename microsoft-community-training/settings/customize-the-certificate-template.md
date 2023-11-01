@@ -3,7 +3,7 @@ title: Customize the certificate template for the platform
 original-url: https://docs.microsoftcommunitytraining.com/docs/customize-the-certificate-template
 author: nikotha
 ms.author: nikotha
-description: This document explains certificate template customization flow on the Microsoft Community Training platform. 
+description: This document explains certificate template customization flow on the Community Training platform. 
 ms.prod: learning-azure
 ---
 
@@ -19,7 +19,7 @@ In this article, you will learn how to customize the certificate template on the
 
 To customize the certificate template on the platform follow these steps:
 
-1. Login to the Microsoft Community Training portal and [**switch to administrator view**](../get-started/step-by-step-configuration-guide.md#step-2--switch-to-administrator-view-of-the-portal)
+1. Login to the Community Training portal and [**switch to administrator view**](../get-started/step-by-step-configuration-guide.md#step-2--switch-to-administrator-view-of-the-portal)
 
 1. Select **Settings** from the left navigation panel then **Certificate Templates** followed by **New Template**.
 
@@ -48,7 +48,7 @@ To customize the certificate template on the platform follow these steps:
 1. You can add multiple certificates as required and assign them to specific courses. [Click here](../settings/enable-course-level-certificate.md) to learn more on enabling course level certificates.
 
 > [!NOTE]
-> Please visit [**Microsoft Community Training Help desk**](https://go.microsoft.com/fwlink/?linkid=2104630) to log a support ticket if you wish to edit the templates of previously issued certificates.
+> Please visit [**Community Training Help desk**](https://go.microsoft.com/fwlink/?linkid=2104630) to log a support ticket if you wish to edit the templates of previously issued certificates.
 
 > [!TIP]
 > We recommend using separate templates for Course and Learning Path when using custom certificates.

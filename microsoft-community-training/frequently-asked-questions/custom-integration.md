@@ -133,7 +133,7 @@ This link obtained above is the deep link of the course and can be shared with l
 
 Community Training  provides REST APIs to help you integrate the platform with your existing systems and consume training via custom endpoints such as your own mobile app or website.
 
-### How can I sync/import users data from my existing system to Microsoft Community Training?
+### How can I sync/import users data from my existing system to Community Training?
 
 Community Training  lets [global administrators](../user-management/add-users/add-an-administrator-to-the-portal.md#add-a-global-administrator-to-the-platform) import user progress from other learning portals which will enable a seamless experience for the learner.
 

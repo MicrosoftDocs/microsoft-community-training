@@ -3,7 +3,7 @@ title: Request a new Language
 original-url: https://docs.microsoftcommunitytraining.com/docs/request-a-new-language
 author: nikotha
 ms.author: nikotha
-description: Microsoft Community Training currently supports 28 languages.
+description: Community Training currently supports 28 languages.
 ms.prod: learning-azure
 ---
 
@@ -17,7 +17,7 @@ In this article, you'll learn how request a new languages for your platform inst
 
 ## Steps to request a new language for the platform
 
-1. Visit [**Microsoft Community Training Helpdesk**](https://go.microsoft.com/fwlink/?linkid=2104630/).
+1. Visit the [**Community Training Helpdesk**](https://go.microsoft.com/fwlink/?linkid=2104630/).
 
 1. Sign in using your Azure AD or Social account.
 

@@ -44,4 +44,4 @@ Community Training gets new updates regularly. For a detailed review of the enha
 
 [**What’s new in March 2023**](2023/Whats-new-in-march-2023.md#whats-new-in-march-2023)
 
-[**What’s new in August 2023**](2023/Whats-new-in-aug-2023.md#whats-new-in-aug-2023)
+[**What’s new in August 2023**](2023/Whats-new-in-aug-2023.md#whats-new-in-august-2023)

@@ -40,4 +40,4 @@ Learners can take advantage of category filters on the My Course page to quickly
 With the new release, we have made a bunch of improvements to our User Management module to enable group admins to easily monitor learner progress and course completion for their groups. Now, group admins can search for a learner in the group or track completion status for a specific course for all the group users. For more details, check out [**this article**](../../analytics/in-built-reports/group-view-report.md).
 ![Group analytics improvement](../../media/image%28215%29.png)
 
-Want to learn more? Visit our [**product documentation site**](https://learn.microsoft.com/azure/industry/training-services/microsoft-community-training/) or [contact us via HelpDesk](https://go.microsoft.com/fwlink/?linkid=2104630).
+Want to learn more? Visit our [**product documentation site**](/azure/industry/training-services/microsoft-community-training/) or [contact us via HelpDesk](https://go.microsoft.com/fwlink/?linkid=2104630).

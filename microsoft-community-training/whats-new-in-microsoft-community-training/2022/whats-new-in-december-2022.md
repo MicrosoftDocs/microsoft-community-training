@@ -1,7 +1,7 @@
 ---
 title: What's new in December 2022
-author: v-gaupathak
-ms.author: v-gaupathak
+author: nikotha
+ms.author: nikotha
 description: This document details the new features and capabilities launched on Community Training in December 2022. 
 ms.prod: learning-azure
 ---

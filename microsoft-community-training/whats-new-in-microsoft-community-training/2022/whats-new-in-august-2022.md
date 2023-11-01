@@ -1,7 +1,7 @@
 ---
 title: What's new in August 2022
-author: v-sambati
-ms.author: v-sambati
+author: nikotha
+ms.author: nikotha
 description: This document details the new features and capabilities launched on Community Training in August 2022. 
 ms.prod: learning-azure
 ---

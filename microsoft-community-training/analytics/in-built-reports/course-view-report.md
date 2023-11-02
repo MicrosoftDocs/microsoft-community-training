@@ -11,7 +11,7 @@ ms.prod: learning-azure
 
 Similar to the Category View, Course View provides admins a quick glance at learner enrollments, learner engagement, and course completion for a particular course. It facilitates comparative analytics for learner performance on a particular course and provides insights into content quality.
 
-To access the Category View, you can either select the **View Analytics option from (…) More menu** for a course under the Courses tab or select a specific row from the courses grid in the Category View page.
+To access the Course View, you can either select a specific row from the courses grid in the Category View page.
 
 In this article, you will learn more about different metrics and reports available to the administrator as part of learner analytics for a specific course:
 
@@ -69,9 +69,7 @@ From the learner performance grid, you can:
 
 1. Select the respective column headings to sort the rows by any column.
 2. Select **Download List** to download the data into an Excel sheet.
-3. Select a row to view detailed information about individual lesson progress and quiz performance for the course.  
-![Quizzes](../../media/image%2854%29.png)  
-![Lessons](../../media/image%2855%29.png)
+3. Select a row to view detailed information about individual lesson progress.
 
 ## Lesson grid
 
@@ -86,15 +84,3 @@ From the lesson grid, you can:
 1. Select the respective column headings to sort the rows by any column.
 2. Select **Download List** to download the data into an Excel sheet.
 
-## Quiz grid
-
-This section in the Course View provides information about the overall performance of trainees in different quizzes of a course. Including the number of questions in the quiz, average score, and difficulty level. In the table below, for each quiz, you can see the total number of questions in the quiz, total number of attempts by all learners, the average quiz score, and difficult level.  
-![Quiz score](../../media/image%2875%29.png)
-
-> [!NOTE]  
-> Hover over the column header to view the definition used for column values.
-
-From the quiz grid, you can:  
-
-1. Select the respective column headings to sort the rows by any column.
-2. Select**Download List** to download the data into an Excel sheet.

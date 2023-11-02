@@ -28,22 +28,17 @@ The Community Training management portal provides role-based administration. Dep
 |Course Administrator|No|
 |Group Administrator|No|
 
-## Insights on learner’s enrollment and course registration
+## Insights on learner registration and course completion
 
 This section enables an admin to view learner enrollment over time and popular courses by enrollment among learners:  
 ![learner enrollment](../../media/image%2831%29.png)
 
-### Learners enrollment over time
-
-The graph provides information about all the learners enrolled for all courses across all the categories over time. Hover over the title to view the description of this graph. The values that are measured are:
+The graph provides information about all the learners enrolled for all courses across all the categories over time. Hover over the title to view the description of the graph. The values that are measured are:
 
 * x-axis — Timeline
 * y-axis — Number of unique learners across categories
 
-As shown in the image below, there are 142 unique learners enrolled on the portal as of 23rd June.  
-![Enrollment graph](../../media/image%2833%29.png)
-
-### Top Courses by Enrollments / Courses with No Enrollments
+### Top courses by registration and courses with no enrollments
 
 This section provides information on the popular courses across categories. This comparative insight helps the admins to take further action to improve the course content or to engage learners effectively. As shown in the image below, Simple diagnostics has the most numbers of users enrolled and there are 11 courses qwith no user enrollments.  
 ![All Courses](../../media/image%2834%29.png)
@@ -53,19 +48,16 @@ This section provides information on the popular courses across categories. This
 This section  enables an admin to view course enrollment and completion over time, and popular courses by completion among learners :  
 ![Courses completion](../../media/image%2835%29.png)
 
-### Course enrollment/completion over time
+### Course registration/completion over time
 
 The graph provides information about total course enrollment and course completion across all the categories over time. Hover over the title to view the description of this graph. The values that are measured are:  
 
 * x-axis — Timeline
-* y-axis — Total number of course enrollments and completion across categories
-
-As shown in the image below, there are 1078 course enrollments on the portal as of June 2019.  
-![Courses completion graph](../../media/image%2836%29.png)
+* y-axis — Total number of course registrations and completion across categories
 
 This view gives a graphical representation of the growth in the number of course enrollments and course completions for all courses across categories over a period. The data presented can help take corrective measures if the course completion curve falls below the course enrolment curve by a wide margin.
 
-### Top Courses by Completion  and Courses with No Completion
+### Top courses by completion  and courses with no completion
 
 This section provides a breakdown of the popular courses by completion across categories. This comparative insight helps the admins to take further action to improve the course content or to engage learners effectively. Looking at the image below, Community Farming has the most number of learner completion and there are 12 courses with no completion.  
 ![Top Courses](../../media/image%2837%29.png)

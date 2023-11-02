@@ -32,27 +32,27 @@ The Community Training management portal provides role-based administration and 
 
 This section of the Learner Report Card View enables the admin to get a quick summary of the overall status of learner progress across all the enrolled courses. As shown in the image below, you will find the following three metrics:
 
-1. **Modules Enrolled**: Shows the total number of courses a learner has been enrolled in or registered for.
+1. **Course Registrations**: Shows the total number of courses a learner has been enrolled in or registered for.
 
-2. **Module Completion**:  Shows the total number of courses a learner has completed
+2. **Course Completion**:  Shows the total number of courses a learner has completed.
 
-3. **Average Quiz Score**: Show the average quiz score across all the courses where learners have attempted the Practice Quiz and Exam
+3. **Average assessment Score**: Show the average assessment score across all the courses where learners have attempted the non-graded and graded assessments.
 
-    ![Average Quiz Score](../../media/image%2846%29.png)
+    ![Average assessment Score](../../media/image%2846%29.png)
 
-## Detailed progress and performance on the Enrolled courses
+## Detailed progress and performance on registred courses
 
 This section of the Learner Report Card View provides details on the learning progress and performance for each course in a grid view. As shown in the image below, for each course, you will see the following metrics:
 
 1. **Learner Access Restricted to Course** - This lock icon defines if the course is restricted for the learner at that stage because they have not completed other courses. This can happen when course ordering is restricted in a Learning Path.
 
-2. **Module Name** – Name of the course the user has been enrolled in.
+2. **Course Name** – Name of the course the user has been enrolled in.
 
-3. **Average Quiz Score %** - Show the average quiz score across all the Practice Quizzes and Exams attempted by learners. If there are no quizzes/exams in the course, then this column will be set to Not Applicable.
+3. **Average Assessment Score** - Show the average assessment score across all the assessments attempted by learners. If there are no assessments in the course, then this column will be set to Not Applicable.
 
 4. **% Course Progress** – Number of lessons completed by learners for a course.
 
-5. **Quizzes Completed** - Number of quizzes completed by learners for a course.
+5. **Assessment Completed** - Number of assessments completed by learners for a course.
 
 6. **Enrolled On** – The date on which the learner was enrolled for the course.
 

@@ -45,7 +45,7 @@ The values that are measured are:
 As shown in the image below, there were 39 unique learners enrolled on the portal in June.  
 ![Healthcare Graph](../../media/image%2866%29.png)
 
-### Top Courses by registration and courses with no enrollments
+### Top courses by registration and courses with no enrollments
 
 This section provides a breakdown of the popular courses under a category.
 ![No courses with zero enrollments](../../media/image%2867%29.png)
@@ -63,7 +63,7 @@ As shown in the image below, there are four course completions for the courses i
 
 This view gives a graphical representation of the growth in the number of course enrollments and course completions for all courses for a given category over a period. The data presented can help take corrective measures if the course completion curve falls below the course enrolment curve by a wide margin.
 
-### Top Courses by Completion / Courses with No Completion
+### Top courses by completion
 
 This section provides information on popular courses by completions for a given category. This comparative insight helps the admins to take further action to improve the course content or to engage learners effectively.  
 ![Top Courses by Completion](../../media/image%2870%29.png)

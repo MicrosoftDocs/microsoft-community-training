@@ -17,7 +17,7 @@ MCT currently includes content from **Microsoft Learn** and **Skills for Job**.
 
 ### Microsoft Learn
 
-[**Microsoft Learn training**](https://learn.microsoft.com/training/support/faq?pivots=general) is a free, online training platform that provides interactive learning for Microsoft products to help you become proficient on Microsoft technologies and learn more skills with interactive content that's specific to your role and goals.
+[**Microsoft Learn training**](/training/support/faq?pivots=general) is a free, online training platform that provides interactive learning for Microsoft products to help you become proficient on Microsoft technologies and learn more skills with interactive content that's specific to your role and goals.
 
 ### Skills for Job
 
@@ -28,7 +28,7 @@ Training on Office 365 tools: Collection of training material on Office tools li
 A list of courses currently available in Microsoft Digital Content section can be found [here](https://github.com/MicrosoftDocs/microsoft-community-training/files/8229076/MS_Digitalcontent_Courselist_Feb2022.csv).
 
 > [!NOTE]
-> Office 365 courses are added in marketplace as lessons with external links mapping to the relevant tutorial video, to have them play inline with MCT you need to [**embed the domain**](../../../settings/configurations-on-the-training-platform.md#allow-external-video-embedding-into-mct) `microsoft.com` in the [**app settings**](../../../settings/configurations-on-the-training-platform.md#steps-to-set-the-configurations-on-the-platform).
+> Office 365 courses are added in marketplace as lessons with external links mapping to the relevant tutorial video, to have them play inline with MCT you need to [**embed the domain**](../../../settings/configurations-on-the-training-platform.md#allow-external-video-embedding-into-ct) `microsoft.com` in the [**app settings**](../../../settings/configurations-on-the-training-platform.md#steps-to-set-the-configurations-on-the-platform).
 
 **Next Steps:**
 

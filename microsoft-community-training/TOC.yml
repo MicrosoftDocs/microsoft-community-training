@@ -1,8 +1,8 @@
-- name: Microsoft Community Training Documentation
+- name: Community Training Documentation
   items:
    - name: Get Started
      items:
-      - name: Welcome to Microsoft Community Training
+      - name: Welcome to Community Training
         href: get-started/microsoft-community-training-overview.md
       - name: User roles and Management portal overview
         href: get-started/user-role-and-management-portal-overview.md
@@ -43,7 +43,7 @@
          - name: Delete a user from the group
            href: user-management/manage-users/remove-user-from-group.md
          - name: Delete a user from the platform
-           href: user-management/manage-users/remove-user-from-the-portal.md
+           href: user-management/manage-users/remove-user-from-the-platform.md
    - name: Content Management
      items:
       - name: Content Management - Overview
@@ -129,7 +129,7 @@
    - name: Settings
      items:
       - name: Customize the look and feel of your portal
-        href: settings/configure-the-look-and-feel-of-your-portal.md
+        href: settings/customize-the-look-and-feel-of-your-portal.md
       - name: Restrict portal access to learners outside your training program
         href: settings/restrict-portal-access-to-users-outside-your-organization.md
       - name: Customize profile information for the learners on the platform
@@ -160,8 +160,6 @@
            href: infrastructure-management/install-your-platform-instance/configure-multiple-authentications-in-a-single-instance.md   
          - name: Create and Publish your Mobile App
            href: infrastructure-management/install-your-platform-instance/create-publish-mobile-app.md  
-         - name: Using REST APIs to integrate with existing system
-           href: infrastructure-management/install-your-platform-instance/apis.md
          - name: Setup Microsoft Teams as learner endpoint for the platform
            href: infrastructure-management/install-your-platform-instance/create-teams-app-for-your-training-portal.md
          - name: Troubleshooting Guide
@@ -198,12 +196,6 @@
            href: infrastructure-management\monitor-your-platform-infrastructure\reliability-in-community-training.md
          - name: Troubleshoot Guide for Azure Support
            href: infrastructure-management/monitor-your-platform-infrastructure/troubleshoot-guide-for-azure-support.md
-   - name: Rest API Management
-     items:
-     - name: Rest API Management
-       href: rest-api-management/api-documentation.md
-     - name: Service to Service Authentication
-       href: rest-api-management/service-to-service-authentication.md
    - name: Frequently Asked Questions
      items:
       - name: General FAQs
@@ -230,9 +222,9 @@
         href: frequently-asked-questions/security-and-privacy.md
       - name: Platform Extensibility & Integration
         href: frequently-asked-questions/custom-integration.md
-   - name: What's new in Microsoft Community Training
+   - name: What's new in Community Training
      items:
-      - name: What's new in Microsoft Community Training
+      - name: What's new in Community Training
         href: whats-new-in-microsoft-community-training/whats-new-in-microsoft-community-training.md
       - name: 2023
         items:
@@ -272,7 +264,7 @@
            href: whats-new-in-microsoft-community-training/2020/whats-new-in-december-2020.md
    - name: Learning in Offline Mode
      items:
-     - name: Offline Learning with Microsoft Community Training
+     - name: Offline Learning with Community Training
        href: learning-in-offline-mode/offline-learning-with-microsoft-community-training.md
      - name: Azure IOT Hub Initial Setup
        href: learning-in-offline-mode/azure-IOT-hub-initial-setup.md

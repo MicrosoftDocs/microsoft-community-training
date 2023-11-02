@@ -1,9 +1,9 @@
 ---
 title: Portal Branding & Customization
 original-url: https://docs.microsoftcommunitytraining.com/docs/portal-branding-customization
-author: nikotha
-ms.author: nikotha
-description: Currently, we support 28 languages on the platform.
+author: Charan Brahmandam
+ms.author: cbms03
+description: Currently, we support 60+ languages on the platform.
 ms.prod: learning-azure
 ---
 
@@ -13,7 +13,7 @@ ms.prod: learning-azure
 
 ### How do I customize languages for the platform?
 
-Currently, we support 28 languages on the platform. You can enable languages for your training instance and set a default language, refer to **[this article](../settings/customize-languages-for-the-learners-on-the-platform.md)** for the steps to add new languages on the platform.
+Currently, we support 60+ languages on the platform. You can enable languages for your training instance and set a default language, refer to **[this article](../settings/customize-languages-for-the-learners-on-the-platform.md)** for the steps to add new languages on the platform.
 
 ### How do I change the look and feel of the portal?
 

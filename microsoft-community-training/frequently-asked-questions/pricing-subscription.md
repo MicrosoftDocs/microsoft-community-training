@@ -1,9 +1,9 @@
 ---
 title: Pricing & Subscription
 original-url: https://docs.microsoftcommunitytraining.com/docs/pricing-subscription
-author: nikotha
-ms.author: nikotha
-description: Community Training is built on top of Azure platform and available only on the Azure Marketplace.
+author: Charan Brahmandam
+ms.author: cbms03
+description: Community Training is built on top of Azure platform and available only on the Azure portal.
 ms.prod: learning-azure
 ---
 
@@ -13,8 +13,7 @@ ms.prod: learning-azure
 
 ### My organization is not using Microsoft Azure. Can I still use Community Training?
 
-Community Training is built on top of the Azure platform and [**available only on the Azure Marketplace**](https://azuremarketplace.microsoft.com/marketplace/apps/project-sangam.microsoft-community-training?tab=Overview). Our platform is accessible in all countries or regions where Microsoft Azure Marketplace is commercially available. See the [Azure Marketplace documentation](/azure/marketplace/marketplace-geo-availability-currencies) for more details. 
-
+Community Training is built on top of the Azure portal.
 If your organization is not using Microsoft Azure, then you can [**create a Microsoft Azure account**](https://azure.microsoft.com/) on your own or [**reach out to a Microsoft Cloud Solution Partner**](https://partner.microsoft.com/membership/cloud-solution-provider/find-a-provider) to procure Microsoft Azure for your organization.
 
 ### Can I use the free Microsoft Azure subscription for deploying the platform?

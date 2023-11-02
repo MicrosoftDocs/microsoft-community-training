@@ -1,8 +1,8 @@
 ---
 title: Platform Extensibility & Integration
 original-url: https://docs.microsoftcommunitytraining.com/docs/custom-integration
-author: nikotha
-ms.author: nikotha
+author: Charan Brahmandam
+ms.author: cbms03
 description: Community Training do not inbuilt support for live training sessions.
 ms.prod: learning-azure
 ---
@@ -50,11 +50,11 @@ For example, you can add a Training button on the home screen, and clicking on t
 
 Here are the steps to embed the webview of CT in your custom mobile application in case you have a B2C-based [social login](../infrastructure-management/install-your-platform-instance/configure-login-social-work-school-account.md#social-account-or-email-based-authentication) instance.
 
-1. Set the following [**configurations**](../settings/configurations-on-the-training-platform.md#configurations-on-the-training-platform) in the App Service Configuration, if the secondary navigation bar is needed:
+1. Set the following **configurations** in the Settings section on the application, if the secondary navigation bar is needed:
     * Features:Navbar:EnableCustomNavbar => true
     * Features:Navbar:EnableProfile => false
 
-2. Set the following feature [**configurations**](../settings/configurations-on-the-training-platform.md#configurations-on-the-training-platform) to true only if that specific functionality needs to be provided, else set it to false explicitly.
+2. Set the following **configurations** in the Settings section on the application to true only if that specific functionality needs to be provided, else set it to false explicitly.
 
     * Features:Navbar:EnableLogo
     * Features:Navbar:EnableSearch
@@ -76,25 +76,31 @@ CT allows you to map identity with an external portal i.e. if you have an extern
 * **ADB2C Policies**
   * The sign-in page provides the option to sign in via a custom id
   * Upload the custom files in the order mentioned [here](/azure/active-directory-b2c/tutorial-create-user-flows?pivots=b2c-custom-policy#upload-the-policies)
-* **Function app**
+* 
+<!---
+**Function app**
   * The sample code has a feature to update a user’s FirstName and LastName via Service2Service auth on the user’s login.
   * This implies that CT will always have the same FirstName and LastName of the user as present in your external portal, and it will be updated automatically whenever the user logs in.
   * Please update the required params in the code following the documentation of S2S here[ Service-to-Service Authentication](/azure/industry/training-services/microsoft-community-training/rest-api-management/service-to-service-authentication) and then publish the function app.
 * Here is a [sample recording](https://microsoft.sharepoint.com/:v:/t/BuildingSangam/EQZ7Z2zY7zdAuQY5leNYmwgBO7-ezdGFTUngJWdz70wmsA?e=YIITyN) for your reference.
 
+NOTE: THIS SECTION IS HIDDEN UNTIL THE S2S BECOMES AVAILABLE AGAIN
+--> 
+
 ### Does Community Training provide any job-matching capabilities? How can I integrate Community Training with external job portals?
 
-Community Training does not come with any job-matching capabilities out of the box. However, it can be integrated with external job portals to push learner progress and course certificates using the REST APIs.
+Community Training does not come with any job-matching capabilities out of the box. 
+
+<!--However, it can be integrated with external job portals to push learner progress and course certificates using the REST APIs.
 
 For more information, please reach out to us [**via HelpDesk**](https://go.microsoft.com/fwlink/?linkid=2104630) on how to integrate the platform with external application.
 
+NOTE: THIS SECTION IS HIDDEN UNTIL THE APIs BECOME AVAILABLE
+-->
+
 ### Is e-commerce and payment integration available on the platform? Can I use Community Training to sell courses directly to end users?
 
-E-Commerce and Payment functionalities are not available on the platform out of the box. However, customers can build these functions using the APIs.
-
-Example: You will be able to integrate the APIs with your catalog page, whenever someone purchases a course, the learner can be enrolled in the respective courses.
-
-For more details, reach out to us [**via HelpDesk**](https://go.microsoft.com/fwlink/?linkid=2104630).
+E-Commerce and Payment functionalities are not available on the platform out of the box.
 
 ## Alerts and reminders
 
@@ -104,15 +110,13 @@ Whenever a new course is assigned or updated to the users by the administrator, 
 
 Periodic email or SMS alerts to users such as information on new course additions or course completion reminders can be sent by integrating the platform with external services like Logic Apps, Microsoft Flow, etc.
 
-For example, customers can leverage the APIs and use third-party tools to extend platform capability and send emails to learners as required. These can be welcome emails when they first sign in to the platform or they can be update emails when a new course is assigned to them.
-
+<!--For example, customers can leverage the APIs and use third-party tools to extend platform capability and send emails to learners as required. These can be welcome emails when they first sign in to the platform or they can be update emails when a new course is assigned to them.
+-->
 For more details, reach out to us [**via HelpDesk**](https://go.microsoft.com/fwlink/?linkid=2104630).
 
 ### Is there a feature to create additional notifications through emails?
 
-Community Training does not have this function out of the box. However, customers can achieve this by using our APIs.
-
-For more details, reach out to us [**via HelpDesk**](https://go.microsoft.com/fwlink/?linkid=2104630).
+Community Training does not have this function out of the box. 
 
 ### Can the administrators share a deep link of courses with learners?
 
@@ -126,6 +130,12 @@ Yes, the administrators can obtain the deep link of each course on the CT portal
 4. On this learner's view, copy the URL that is displayed on the browser.
 
 This link obtained above is the deep link of the course and can be shared with learners.
+
+<!--
+
+NOTE: THE BELOW SECTION IS HIDDEN UNTIL APIs ARE AVAILABLE
+
+
 
 ## Rest APIs
 
@@ -210,3 +220,4 @@ Course content export can be done with the help of the API below. The specificat
 | Request header contract | Json: <br />“cookie”: [Required.Always] <br /> “requestVerificationToken”: [Required.Always] <br />OR <br/> S2S Token |
 | Response body contract | Json: <br /> “commaSeparatedIds”: [Required.Always] (CSV of course Ids)
 | Response contract | 200 for successful response. <br/>400, 429, 403, 500, 503 for various error response. |
+-->

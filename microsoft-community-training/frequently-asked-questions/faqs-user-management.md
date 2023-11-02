@@ -1,9 +1,9 @@
 ---
 title: Login Types and User Identity
 original-url: https://docs.microsoftcommunitytraining.com/docs/faqs-user-management
-author: nikotha
-ms.author: nikotha
-description: Currently, there are 3 forms of login identity supported in the platform out of box i.e. Mobile Number, Personal Email Address (or  Social Account) and Azure AD.
+author: Charan Brahmandam
+ms.author: cbms03
+description: Currently, there are 3 forms of login identity supported in the platform  i.e. Mobile Number (Via ADB2C), Personal Email Address (or  Social Account) and Azure AD.
 ms.prod: learning-azure
 ---
 
@@ -13,9 +13,9 @@ ms.prod: learning-azure
 
 ### What kind of login identity is supported by Community Training?
 
-Currently, there are 3 forms of login identity supported in the platform out-of-the-box i.e. Mobile Number, Personal Email Address (or  Social Account), and Azure AD. The customer can choose any one of the above methods as an authentication method or any combination of above mentioned 3 forms of login identity for learners on the portal as explained below:
+Currently, there are 3 forms of login identity supported in the platform i.e. Mobile Number (Via ADB2C Setup), Personal Email Address (or  Social Account), and Azure AD. The customer can choose any one of the above methods as an authentication method or any combination of above mentioned 3 forms of login identity for learners on the portal as explained below:
 
-1. **Mobile Number** - Learners receive a one-time-password on the mobile no. which is entered at the time signing in. On successful verification, learners can access the portal.
+1. **Mobile Number** - You can configure your choise of mobile OTP provider via [**AD B2C**](https://learn.microsoft.com/en-us/azure/active-directory-b2c/phone-authentication-user-flows) setup. Learners receive a one-time-password on the mobile no. which is entered at the time signing in. On successful verification, learners can access the portal.
 
 2. **Personal Email Address** – Learners can choose a personal email address or social account such as Facebook, LinkedIn, etc. to login into the portal. On successful authentication from an identity provider (i.e. Google, FB, or Microsoft), learners are logged into the Community Training portal as well.
 
@@ -54,7 +54,12 @@ Currently, there is no guest user provision on the platform. Every user, dependi
 
 ### Is it possible to allow learners to sign using either a mobile number or email address for the same instance?
 
-Yes, CT will support login via multiple modes for the same instance, for that you need to have a B2C tenant to which you can add Azure AD, and phone auth as IDP.
+Yes, CT will support login via multiple modes for the same instance, for that you need to have a B2C tenant to which you can add Azure AD, and phone auth.
+
+>[!Note]
+>
+>You will have to procure a phone auth service provider and configure the serice on ADB2C tenant. Please refer to this [**link: Set up phone sign-up and sign-in for user flows **](https://learn.microsoft.com/en-us/azure/active-directory-b2c/phone-authentication-user-flows) for the process to set it up. 
+
 
 ### My learners don’t have an email address or mobile number, how can they sign in and access the training content?
 
@@ -78,14 +83,6 @@ When this setting is enabled, only users who are added or imported to the portal
 
 Depending upon the network operator, it can take up to a minute to receive a One-Time-Password, learners can request to resend OTP via the resend dialog and try again.  
 ![Phone base login](../media/image%28317%29.png)
-
-If the problem persists, you can reach out to us [**via HelpDesk**](https://go.microsoft.com/fwlink/?linkid=2104630).
-
-### For mobile-based login, what will happen if a learner has changed their number?
-
-Currently, there is no user-facing interface available for learners to change their phone numbers. In case, the learner has changed their mobile number and wants it to be updated in the portal then they need to contact the organization admin.
-
-Post which, admins can us [**via HelpDesk**](https://go.microsoft.com/fwlink/?linkid=2104630), and we will help them with updating the details.
 
 ## Email address sign-in
 
@@ -137,7 +134,7 @@ To enable OAuth 2.0 or SAML, please contact us [**via HelpDesk**](https://go.mic
 
 Community Training allows two ways of setting up user registration and authentication:
 
-1. **Open to Everyone**: In this mode, users can self-register using their phone number or email address and start using the course without any approval process involved.
+1. **Open to Everyone**: In this mode, users can self-register using their phone number (if configured) or email address and start using the course without any approval process involved.
 
 2. **Restrict to your community or organization**: In this mode, organizations can decide who can access the platform and restrict platform access to only a known list of users. 
 
@@ -163,11 +160,11 @@ You can pre-register users by importing your existing users' database to the Com
 
 For more information, **[go here](../settings/restrict-portal-access-to-users-outside-your-organization.md)**.
 
-### I have a list of users in my database and I want to restrict my training portal to only this list of users
+### I have a list of users and I want to restrict my training portal to only this list of users
 
 Organizations can restrict portal access only to their internal workforces, identified communities, or an existing list of learners.
 
-For example, a large manufacturing company has created product training courses for its sales and services workforce in the organization. They have set up the platform with a phone number as an identity for the training program.
+For example, a large manufacturing company has created product training courses for its sales and services workforce in the organization. They have set up the platform with AD as an identity for the training program.
 
 Since these training courses are meant only for internal employees, admins can use the Restricted User Access setting in the management portal to prevent users outside of the organization from logging into the portal. When this setting is enabled, only users who are added or imported to the portal by the organization will be allowed to access the portal.
 
@@ -175,7 +172,7 @@ For more information, **[go here](../settings/restrict-portal-access-to-users-ou
   
 ### Where is learner data such as name, email ID & phone number saved?
 
-All the learner data will be stored in Azure SQL DB on customer’s subscriptions. You can choose your preferred data center region at the time of deployment.
+All the learner data will be stored in Azure SQL DB setup in the region you choose when installing the platform.
 
 ### How many users does the Community Training support?
 
@@ -183,7 +180,7 @@ Community Training does not have any limitations on the number of users that are
 
 ## Setup Native ADB2C Phone authentication: Custom policies for Phone login through Azure ADB2C For CT
 
-You can choose to enable phone number as a sign-up option tenant-wide by adding phone sign-up and sign-in to your local account identity provider via ADB2C instead of using CT phone authentication by defining [Custom policies](/azure/active-directory-b2c/custom-policy-overview) which are configuration files that define the behavior of your Azure Active Directory B2C tenant.
+You can choose to enable phone number as a sign-up option tenant-wide by adding phone sign-up and sign-in to your local account identity provider via ADB2C defining [Custom policies](/azure/active-directory-b2c/custom-policy-overview) which are configuration files that define the behavior of your Azure Active Directory B2C tenant.
 
 ### Prerequisites
 

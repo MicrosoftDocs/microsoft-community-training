@@ -1,8 +1,8 @@
 ---
 title: Content and Course management
 original-url: https://docs.microsoftcommunitytraining.com/docs/faqs-course
-author: nikotha
-ms.author: nikotha
+author: Charan Brahmandam
+ms.author: cbms03
 description: Microsoft provides course content around Digital Literacy, Office 365, etc. which organizations can upload and use in their Community Training platform instance.
 ms.prod: learning-azure
 ---
@@ -19,15 +19,17 @@ Contact us via **[HelpDesk](https://go.microsoft.com/fwlink/?linkid=2104630)** i
 
 #### Can we use any of the content from the catalog?
 
-Yes, all the content hosted in [**our course catalog**](https://sangampartners.azurewebsites.net/) is available for customers to use in their own training platform instance.
+Yes, all the content hosted in our course catalog is available for customers to use in their own training platform instance.
 
-You can contact us via **[HelpDesk](https://go.microsoft.com/fwlink/?linkid=2104630)** if you’d like to make any courses from the catalog available in your training portal instance.
+You can contact us via **[HelpDesk](https://go.microsoft.com/fwlink/?linkid=2104630)** if you have any questions on how to make any courses from the catalog available in your training portal instance.
 
 Please note - all content hosted in the content library is free of charge and provided under a Creative Common license. So, you can tweak and change the content as per your requirements.
 
+<!-- MAY BE CREATE AN INSTANCE WHERE WE LIST ALL AVAILABE COURSES-->
+
 #### How can customers get access to free content on Digital Literacy and Office 365?
 
-Our [**content library**](https://sangampartners.azurewebsites.net/) has content on topics like Digital Literacy, Office 365, etc. which customers can use for free.
+Our content library has content on topics like Digital Literacy, Office 365, etc. which customers can use for free.
 
 If you’d like to avail any of the courses, contact us via **[HelpDesk](https://go.microsoft.com/fwlink/?linkid=2104630)** .
 
@@ -90,8 +92,12 @@ Yes, customers can embed videos from any external platforms such as YouTube, Mic
 >
 > * If receive any playback error while playing a Vimeo video in CT, you need to update [privacy settings](https://vimeo.zendesk.com/hc/en-us/articles/115015677227-Troubleshoot-player-error-messages) in your Vimeo account.
 
+
 ### How can I allow external videos to play inside Community Training?
 
+Please reach out to our **[HelpDesk](https://go.microsoft.com/fwlink/?linkid=2104630)** for support on this request. 
+
+<!--
 1. Login to the Azure portal.
 2. Go to App Services from the left menu.
 
@@ -118,6 +124,8 @@ Yes, customers can embed videos from any external platforms such as YouTube, Mic
 7. Click on save.
 
     ![Save Application Settings](../media/Save%20Application%20Settings%281%29.png)
+
+    -->
 
 ### Does Community Training support SCORM content?
 
@@ -211,21 +219,18 @@ MP3 & OGG
 
 ### What is the difference between practice quizzes and exams?
 
-The platform provides two types of assessments in the form of a Practice Quiz and an Exam containing one or more multiple-choice questions.
+The platform provides two types of assessments in the form of a graded and non-graded assessment containing one or more multiple-choice questions, fill the blanks, true or false or multi answer, multiple choice questions.
 
-**Practice quiz** - A practice quiz serves as a refresher for learners and facilitates revision of a particular lesson. There is no limit to the number of practice quizzes you can add to a course.
+**Non-Graded Assessment** - A practice quiz serves as a refresher for learners and facilitates revision of a particular lesson. There is no limit to the number of practice quizzes you can add to a course.
 
-**Exam** - An Exam is used to evaluate learners on their proficiency and knowledge in a particular course to measure learning outcomes. Unlike a practice quiz, an exam has a limited number of attempts and a passing percentage as specified by the trainer.
+**Graded Assessment** - An Exam is used to evaluate learners on their proficiency and knowledge in a particular course to measure learning outcomes. Unlike a practice quiz, an exam has a limited number of attempts and a passing percentage as specified by the trainer.
 
 Learn more [**here**](../content-management/create-content/create-course-category/add-assessments-to-a-course.md).
 
-### How many practice quizzes can be there for a course?
+### How many Graded and Non Graded Assessments can be there for a course?
 
-There is no limit to the number of Practice Quizzes you can add to a course.
+There is no limit to the number of Quizzes you can add to a course.
 
-### How many exams can be there for a course?
-
-Unlike practice quizzes, exams are limited to one per course.
 
 ### Can we set passing criteria and limit the number of attempts for assessments?
 
@@ -399,7 +404,7 @@ Yes, you can change the order of the lessons by using drag and drop functionalit
 
 ### Can I add content in multiple languages for the same course on the platform?
 
-As of now, we do not have support for adding the same content in multiple languages in a course. You will need to create a separate course for each language.
+Yes, you can upload the content in more than one language to make it available for the learner in the language they desire. 
 
 ### Can we use language subtitles in a video lesson?
 

@@ -1,8 +1,8 @@
 ---
 title: Analytics & Reporting
 original-url: https://docs.microsoftcommunitytraining.com/docs/analytics-reporting
-author: nikotha
-ms.author: nikotha
+author: Charan Brahmandam
+ms.author: cbms03
 description: Community Training allows organizations to track and stay updated on learner's progress and performance scores through quizzes and exams.
 ms.prod: learning-azure
 ---
@@ -144,6 +144,7 @@ You can create reports and dashboards using visualization tools such as Power BI
 
 For more information, reach out to us [**via HelpDesk**](https://go.microsoft.com/fwlink/?linkid=2104630).
 
+<!--
 ## Usage report and metrics
 
 ### Can I view the data on number of  unique visitors, active users, average time spent by learners  on the Community Training?
@@ -165,3 +166,7 @@ Community Training leverages [**Azure Application Insights**](/azure/azure-monit
 2. Now open the Application Insights service and start viewing data around user sessions, funnel, etc. You will be able to view and track and view events such as which pages are most popular, at what times of day, where your users are, and more.
 
 For more information, reach out to us [**via helpdesk**](https://go.microsoft.com/fwlink/?linkid=2104630).
+
+NOTE: APPLICATION INSIGHTS IS REMOVED. THIS SECTION WILL BE REWORDED LATER
+
+-->

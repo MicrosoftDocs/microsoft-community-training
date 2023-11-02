@@ -1,8 +1,8 @@
 ---
 title: Platform Setup and Installation
 original-url: https://docs.microsoftcommunitytraining.com/docs/faqs-installation-and-setup
-author: nikotha
-ms.author: nikotha
+author: Charan Brahmandam
+ms.author: cbms03
 description: There are a number of prerequisites such as having a valid subscription type, access policy etc. before you can get started with the platform installation and setup.
 ms.prod: learning-azure
 ---
@@ -43,9 +43,7 @@ However, the platform supports SSO with any OAuth 2.0, OpenID Connect, or SAML-b
 
 ### Are there REST APIs available for integration? How can organizations integrate Community Training with their internal systems and existing applications?
 
-Community Training provides REST APIs to help organizations build custom experiences, integrate the platform with their existing system, or consume training content via custom endpoints.
-
-For example, organizations can use Microsoft Flow, Logic Apps, etc. to integrate the platform with their HRMS and CRM systems to import/sync users to the platform or export course progress and completion status.  
+The REST APIs are under development and will be made available soon, broadly expanding the capabilites of the Community Training.
 
 ### I am not able to deploy the application from the Azure Marketplace
 
@@ -57,7 +55,9 @@ If you didn't find the solution in the troubleshooting guide, please contact us 
 
 ### How many languages are supported by Community Training?
 
-At present Community Training supports 28 languages which are Albanian, Arabic, Bengali, Chinese (Simplified), Chinese (Traditional, Dutch, English, Finnish, French, Hindi, Kinyarwanda, Kurdish, Lao, Lithuanian, Malay, Odia, Portuguese, Serbian (Cyrillic), Somali, Spanish, Swedish, Swedish, Tajik, Telugu, Tetum, Thai, Ukrainian, Vietnamese.
+At present Community Training supports 60+ languages.
+
+*Afrikaans (South Africa), *Amharic (Ethiopia), *Arabic (Saudi Arabia), *Assamese (India), *Bulgarian (Bulgaria)Bengali (India), *Bosnian (Latin,  Bosnia & Herzegovina), *German (Germany), *English (United States), *Spanish (Spain,  International Sort), *Finnish (Finland), *Filipino (Philippines), *French (France), *Gujarati (India), *Hebrew (Israel), *Hindi (India), *Croatian (Croatia), *Hungarian (Hungary), *Indonesian (Indonesia), *Italian (Italy), *Japanese (Japan), *Kazakh (Kazakhstan), *Khmer (Cambodia), *Kannada (India), *Lao (Laos), *Lithuanian (Lithuania), *Malayalam (India), *Marathi (India), *Malay (Malaysia), *Dutch (Netherlands), *Odia (India), *Punjabi (India), *Polish (Poland), *Portuguese (Brazil), *Romanian (Romania), *Russian (Russia), *Slovak (Slovakia), *Albanian (Albania), *Serbian (Cyrillic,  Serbia), *Serbian (Cyrillic,  Bosnia and Herzegovina), *Serbian (Latin,  Serbia), *Swedish (Sweden), *Tamil (India), *Telugu (India), *Thai (Thailand), *Ukrainian (Ukraine), *Urdu (Pakistan), *Vietnamese (Vietnam)Chinese (Simplified,  China), *Chinese (Traditional,  Taiwan), *Uzbek (Latin,  Uzbekistan), *Welsh (United Kingdom), *Kinyarwanda, Kiswahili (Kenya), *Kurdish, *Kyrgyz, *Pashto (Afghanistan), *Persian (Afghanistan), *Portuguese (Mozambique), *Romansh, Sindhi, Somali, Tajik, Tetum
 
 For more information, [**go here**](../settings/customize-languages-for-the-learners-on-the-platform.md).
 
@@ -95,11 +95,6 @@ Before deleting the resource group, we recommend you create a copy of content an
 
 When new features and security updates are available, Microsoft will push the updates to the web portal and mobile app at a regular cadence without any manual intervention from the customers. Customers will be notified via e-mail with regards to the update. We will also be constantly publishing new rollouts on [**our documentation portal**](../whats-new-in-microsoft-community-training/whats-new-in-microsoft-community-training.md).
 
-### How can I change or reset by Azure SQL Database password for the application?
-
-You can reset your database password by visiting the Azure SQL Database resource in the Azure Portal created during installation.  
-
-If you need further assistance, reach out to us [**via helpdesk**](https://go.microsoft.com/fwlink/?linkid=2104630).
 
 ## Teams Integration
 
@@ -125,7 +120,6 @@ In case you already have an instance deployed, follow these steps to create the 
 
 Once your platform instance is deployed, you can request the mobile app through the help desk. The mobile app must be published by customers using their own Google Play Store. For more information, [**go here**](../infrastructure-management/install-your-platform-instance/create-publish-mobile-app.md).
 
-Please note: Community Training comes only with a native app for Android. For iOS, we recommend using a mobile browser to access the web app or convert the web app into a native iOS app using [**online tool such as GoNative**](https://gonative.io/).
 
 ### What is the minimum device specification required for installing the Android application?
 
@@ -139,10 +133,11 @@ Here is the minimal device configuration needed for the Community Training mobil
 
 ### Is there an app available for the IOS platform?
 
-Currently, we do not have a native application for the IOS platform, but it is on the product roadmap.
+Currently, we do not have a native application for the IOS platform,however, the application can be accessed on the iOS devices by accessing via the browser.
 
+<!-->
 In the meantime, as a workaround, you can convert the existing mobile-optimized web app into an iOS app using [**GoNative**](https://gonative.io/).
-
+-->
 ### Is there an app available for the Windows platform?
 
 While there is no app available for the Windows platform, you can use any web browser such as Microsoft Edge or Google Chrome to access the web portal.

@@ -51,7 +51,7 @@ Refer to the [**restrict user access article**](../settings/restrict-portal-acce
 
 ## Restrict course assignment access to the portal
 
-Refer ro the [restrict course assignment article](../settings/restrict-content-access-to-group-administrators.md) to learn more about this functionality and how to enable it.
+Refer to the [restrict course assignment article](../settings/restrict-content-access-to-group-administrators.md) to learn more about this functionality and how to enable it.
 
 ## Set the logo
 

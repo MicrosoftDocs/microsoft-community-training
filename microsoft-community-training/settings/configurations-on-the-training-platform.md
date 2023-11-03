@@ -158,7 +158,7 @@ By default, this feature is disabled with the value **False** so that embedding 
 AllowEmbedDomains
 ```
 
-The portal can play external website's content as an inline lesson from different domains.
+The portal can play external website content as an inline lesson from different domains.
 
 By default, it remains empty. You can add domain names into the **Value** field to allow embedding (For Example: dailymotion.com).
 
@@ -172,7 +172,7 @@ Features:HideCoursesInLandingPage
 
 The landing page for learners shows the names and description of the self-enroll and auto-enroll courses before logging in on the platform. This can be avoided by setting the configuration to **True** to allowing courses to be viewed only after log in.
 
-By default, this feature is disabled with value as **False** allowing learners to view the self-enroll and auto-enroll courses before they log in to the training portal.
+By default, this feature is disabled with value as **False**, allowing learners to view the self-enroll and auto-enroll courses before they log in to the training portal.
 
 ![Hide landing page](../media/image%28465%29.png)
 

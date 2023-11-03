@@ -1,8 +1,8 @@
 ---
 title: Detailed step by step installation guide
 original-url: https://docs.microsoftcommunitytraining.com/docs/installation-guide-detailed-steps
-author: nikotha
-ms.author: nikotha
+author: Charan
+ms.author: cbms03                                                                                                                                                                                                                                                                                                                                                                   
 description: In this article, you’ll learn how to install and deploy Microsoft Community Training platform on your Azure subscription.
 ms.prod: learning-azure
 ---
@@ -24,7 +24,7 @@ If you have a free trial Azure subscription, please upgrade to a Pay-as-you-go A
 
 ### 2. Get the right ownership access
 
-Get the ownership access to your pay-as-you-go Azure subscription. To learn more about how to get access, refer [**this article**](/azure/role-based-access-control/overview) on Azure documentation.
+Get the **owner** access to your pay-as-you-go Azure subscription. To learn more about how to get access, refer [**this article**](/azure/role-based-access-control/overview) on Azure documentation.
 
 ### 3. Create a Google Play Account
 
@@ -33,65 +33,100 @@ Get the ownership access to your pay-as-you-go Azure subscription. To learn more
 > [!NOTE]
 > This step may be done later after installation.
 
-## Steps to deploy platform from Azure Marketplace  
+## Steps to deploy platform from Azure portal  
 
 1. Ensure you are completed all the pre-requisites.
 
 2. Login to [**Azure portal**](https://portal.azure.com/) using your credentials.
 
-3. In the upper-left corner of the Azure portal, select **Create a resource.**  
-![Create a resource](../../media/image%2813%29.png)
+3. Under "All Services", locate **Community Training** under **Web & Mobile** and click on it.
 
-4. In the **Search the Marketplace** box, enter **Microsoft Community Training**.
-![Search the Marketplace](../../media/image%2896%29.png)
+    ![Locate Community Training](../../media/Detailed_Installation_Steps/Detailed_Installation_Guide_Step1.png)
 
-5. From the Results, select **Microsoft Community Training**.
+4. Click on **Create Community Training** to start the deployment process.
+    >NOTE: If you already have an instance of the Community Training and would like to create a second one, click on create to the top left of the screen.
 
-6. Select a software plan of your choice from the dropdown: **Basic** or **Standard**. Click the **Create** button that appears next to it.
-![Software plan](../../media/image%2898%29.png)
 
-7. On the **Create Microsoft Community Training** page, the first section is **Basics**. Enter the values as per the instructions below and click **OK**.
-    * ***Subscription*** - Select the subscription that you created when you signed up for a pay-as-you-go account.
-    * ***Resource group*** - A new resource group name or an existing one from your subscription.
-    * ***Location*** - Location for the resources of your learning portal.
-    * ***Application Name*** - Name of your learning portal.
-    * ***Managed Resource Group*** - Name of resource group for your managed instance.
-![Microsoft Community Training](../../media/image%2897%29.png)
+    ![Initiate Deployment Process](../../media/Detailed_Installation_Steps/Detailed_Installation_Guide_Step2.png)
+
+    [!Note]
+    >Over the next few screens, you will enter the information required to set the platform. 
+
+5. On the Basic information page, select the subscription ID associated with your account. If you have a resource group, please select. OR, click on "Create New" to create a new resouce group. Also select the SKU and the pricing tier.
+
+    ![Basic Information Page](../../media/Detailed_Installation_Steps/Detailed_Installation_Guide_Step3.png)
+
+    > [!Note]
+    >Community Training offers two SKUs with license fees in addition to an Azure infrastructure fee for cloud services consumers.
+    >1. Non-profit
+    >2. Commercial   
+ For more information on the pricing, please visit the [**Pricing and Subscription**](../../frequently-asked-questions/pricing-subscription.md)
+
+    [!Note]
+    >Community Training Installations are offered in two pricing tiers.
+    >1. Standard
+    >2. Premium  
+    >For more information on the pricing, please visit the [**Pricing and Subscription**](../../frequently-asked-questions/pricing-subscription.md)
+
+    
+    Once done, click on **Next**
+
+6. Slect the type of **Authentication** you would like to have on your platform. The choices are between:
+        
+    i. Social or Phone Login  
+    ii. Work or School Account
+
+    **i. Social or Phone Login**  
+    
+    This option allows you to use a Google or Facebook based login to Community Training. For Phone based login, please refer to this [**link**](https://azure.microsoft.com/en-us/pricing/details/active-directory-external-identities/) for pricing and setup.
+
+    > [!Note]  
+    >You will need Azure Active Directory, also known as Azure Entra ID to be setup to choose either option. Please refer to the documentation [**here**](https://learn.microsoft.com/en-us/entra/external-id/).
+
+    ![Social_Phone_Login](../../media/Detailed_Installation_Steps/Detailed_Installation_Guide_Step4a.png)
+
+    **ii. Work or School Account**  
+
+    This option allows you to use existing work or school account lo login to the Community Training. You will need to provide a contact who will act as the Global Admin on the Community Training.  
+
+    You also have the option to connect your MS Teams subscription to the Community Training instance.
+
+    ![Work_School_Login](../../media/Detailed_Installation_Steps/Detailed_Installation_Guide_Step4b.png)
+
+
+Once you have made a choice of authenticated and entered corresponding information, click on **Next**
+
+
+7. On this screen, you will select the data resiliency and disaster recovery options.
+
+> [!Note]
+> The Disaster Recovery options come at a cost. Please refer to the [**pricing Calculator**] (https://communitytraining.microsoft.com/pricing/)to get an estimate of the cost.
+
+> [!Note]
+> The decision to have a disaster recovery needs to be made at installation. This option can **NOT** be changed later. 
+
+![DR_Options](../../media/Detailed_Installation_Steps/Detailed_Installation_Guide_Step5.png)
 
 > [!NOTE]
 >Service A stores customer data. By default, customer data stays within the region the customer deploys the service instance in. However, the customer can choose to replicate data to a paired region (If Available) for Disaster Recovery purposes. For list of available regions, please refer to this [***link***](https://learn.microsoft.com/en-us/azure/reliability/cross-region-replication-azure#azure-paired-regions).
 
-8. The next section is **Setup your portal details**. Enter values as per the instructions below and click **OK**.
-    * ***Website Name*** - The name of your learning portal. For example, if you enter “Contoso”, your learning portal’s website URL will be of the form "https://contoso.azurefd.net". You can map the learning portal to a [**custom domain later**](../../infrastructure-management/configure-your-platform-infrastructure/setup-custom-domain-url.md).
+Once you have made your selection, click on **Next** or **Review + Create**
 
-> [!Note]
->Please make sure to have your website name to be minimum of 5 characters in length to meet Azure FD requirement.
+8. On the next screen, verify the values entered are correct and click **Create**.
 
-    * ***Contact email addresses*** - The email addresses you want to be contacted on for all information regarding getting started, updates to the platform, latest news etc.
+![Create_Step](../../media/Detailed_Installation_Steps/Detailed_Installation_Guide_Step6.png)
 
-        ![Setup your portal details](../../media/image%28357%29.png)
 
-9. The next section is **Setup your login type** . Select Login type for your training portal.  Based on your selection, enter the following values:
-    * Select **Mobile** if you want your learners to login using their mobile number. Enter org administrator’s mobile number in the input field . You’ll use it to login for the first time.
-    * Select **Social Account** if you want your learners to login using their Facebook, Microsoft or Google account. Refer to the instructions from [**social account configuration guide**](../../infrastructure-management/install-your-platform-instance/configure-login-social-work-school-account.md#social-account-or-email-based-authentication) to enter the values requested.
-    * Select **Work or School Account** if you want your learners to login using their work or school account. Refer to the instructions from [**work or school account configuration guide**](../../infrastructure-management/install-your-platform-instance/configure-login-social-work-school-account.md#work-or-school-account-based-authentication) to enter the values requested.
-![Setup your login type](../../media/image%2899%29.png)
+Congratulations, you have configured the installation of the Community Training on your instace. 
 
-10. Verify the values entered are correct and click **Review + Create**.
+Once the deployment is complete and the website is up, refer to the [**getting started guide**](../../get-started/step-by-step-configuration-guide.md) to start configuring your learning portal.
 
-11. In **Review + Create**, check and ensure your details are correct while we perform a basic validation.
+Below are few additional resources to help you with the setup. 
 
-12. Click on **Terms of Use** and **Privacy Policy**. Select all the check boxes to accept the terms and conditions.
+* [**social account configuration guide**](../../infrastructure-management/install-your-platform-instance/configure-login-social-work-school-account.md#social-account-or-email-based-authentication) to enter the values requested.
 
-13. Click **Create** to deploy Microsoft Community Training.
+* [**work or school account configuration guide**](../../infrastructure-management/install-your-platform-instance/configure-login-social-work-school-account.md#work-or-school-account-based-authentication) to enter the values requested.
 
-      > [!NOTE]
-      > Deployment takes about 20 minutes. Click on the **Notification** icon on the top-right of toolbar to monitor the deployment process.
+To setup a mobile app for your instance, follow the instructions given in the [**create and publish your Mobile App**](../../infrastructure-management/install-your-platform-instance/create-publish-mobile-app.md) article.
 
-14. To enable more than one mode of authentication on your deployment, refer to the [Configure multiple authentications in a single instance](configure-multiple-authentications-in-a-single-instance.md) for step by step instructions.
-
-15. Once the deployment is complete and the website is up, refer to the [**getting started guide**](../../get-started/step-by-step-configuration-guide.md) to start configuring your learning portal.
-
-16. To setup a mobile app for your instance, follow the instructions given in the [**create and publish your Mobile App**](../../infrastructure-management/install-your-platform-instance/create-publish-mobile-app.md) article.
-
-17. To setup Teams for your instance , follow the instructions given in the [**setup Microsoft Teams as learner's endpoint**](../../infrastructure-management/install-your-platform-instance/create-teams-app-for-your-training-portal.md) for the platform article.
+To setup Teams for your instance , follow the instructions given in the [**setup Microsoft Teams as learner's endpoint**](../../infrastructure-management/install-your-platform-instance/create-teams-app-for-your-training-portal.md) for the platform article.

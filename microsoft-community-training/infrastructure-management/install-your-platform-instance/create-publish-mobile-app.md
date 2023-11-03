@@ -283,5 +283,5 @@ This links protocol & API and enable an app or website to make public, verifiabl
 
 > [!NOTE]
 > * To use office files in PWA in offline, we will be providing files to publish the application in Google Play store.
-> * Users can request support by raising a ticket [**Microsoft Community Training Helpdesk**](https://go.microsoft.com/fwlink/?linkid=2104630)..
+> * Users can request support by raising a ticket [**Microsoft Community Training Helpdesk**](https://go.microsoft.com/fwlink/?linkid=2104630).
 

@@ -19,15 +19,15 @@ It is available as an **Offering via Azure portal** that customers can easily de
 
 ### When was Community Training launched?
 
-Community Training was publicly announced on 22nd February 2017 and is generally available since December 2023.
+Community Training was publicly announced on 22nd February 2017 and is generally available since 9th December 2023.
 
 ### Is Community Training a Learning Management System?
 
 Community Training is designed for mobile-first and mobile-only audiences. The platform is built and optimized to work seamlessly on low-bandwidth networks and low-end smartphones.
 
-While Community Training is not a traditional Learning Management System (LMS), it does allow organizations to create a full-ranged self-paced e-learning environment. Powered by Azure Community Training enables you to share relevant information from a wide variety of sources.
+While Community Training is not a traditional Learning Management System (LMS), it does allow organizations to create a full-ranged self-paced e-learning environment, allowing you to deliver the content from wide range of sources. Powered by Azure, Community Training enables you to share relevant information from a wide variety of sources.
 
-### What are the markets where Community Training is available?
+### What are the regions where Community Training is available?
 
 Community Training is available in the following Azure regions:
 1. West US 2
@@ -44,21 +44,21 @@ Community Training is available in the following Azure regions:
 
 ### Who is the target audience for Community Training?
 
-Community Training is built and optimized for large-scale community skilling programs (i.e. volunteers, program beneficiaries, etc.) and extended enterprise training (i.e. first-line workers, suppliers, distributors, retailers, and more.). The platform is designed for mobile-first and mobile-only audiences and supports learning even on low-bandwidth networks and low-end smartphones.
+Community Training is built and optimized for large-scale community skilling programs, specially for the not for profit organizations, PubSec, such as volunteers, program beneficiaries, etc.) . The platform is designed for mobile-first and mobile-only audiences and supports learning even on low-bandwidth networks and low-end smartphones.
 
-The platform is already being used by a number of large enterprises, small and medium businesses, startups, educational institutions, governmental organizations, and nonprofits.
+The platform is already being used by a number of large organizations, small and medium businesses, startups, educational institutions, governmental organizations, and nonprofits.
 
 ### What kind of training scenarios I can use Community Training for?
 
-Community Training can be leveraged in a wide range of training use cases such as Employee Onboarding, Employee Upskilling, Mobile workforce training, Partner Training, Customer Training, Community Training, Online Learning Academy, and many others.
+Community Training can be leveraged in a wide range of training use cases such as Mobile workforce training, Partner Training, Customer Training, Community Training, Online Learning Academy, and many others.
 
-These training use cases cut across multiple verticals such as Banking & Financial Services, Retail, Healthcare, Manufacturing, Government Organizations, and Nonprofits.
+These training use cases cut across multiple verticals such as Non Profits,Government,Retail, Healthcare, Education Organizations.
 
 Community Training provides organizations to not only share content with the target audience but also allow them to assess and track learner’s progress via quizzes, exams, and real-time analytics.
 
 For more information [**visit the website**.](https://communitytraining.microsoft.com/).
 
-### Can I use  Community Training to train my employees and partners on Microsoft Products and Technologies?
+### Can I use  Community Training to train my partners on Microsoft Products and Technologies?
 
 Organizations can use Community Training to host and train their workforces on multiple topics including Microsoft Products & Services. The platform comes with readily available content around Digital Literacy, Office 365, Azure, etc.
 
@@ -80,10 +80,12 @@ Community Training supports personalized learning for large-scale mobile-based w
 * Empower managers, trainers, and facilitators on the ground to easily reach out to the far-spread training audience and drive adoption of the learning program
 * Customize the look and feel of the platform and select leaner endpoints for content consumption as per your organization's needs
 * Track learning progress and measure outcomes using rich out-of-box reports or create custom dashboards to monitor health and measure overall program success
+
+<!--
 * Leverage APIs to create your own training experience or integrate it into your existing systems.
 
 So, depending on the use cases, organizations can use Community Training in either of the following manner:
-
+-->
 * **If an organization already has an LMS in place** – Organizations can use this platform for unmanaged audiences like first-line workers, extended workforces, partner ecosystem, volunteer networks, program beneficiaries, etc. who need to access content via mobile number or personal email address.
 
 * **If an organization has no LMS** - Organizations can use this platform for both internal as well as external audiences.
@@ -152,7 +154,7 @@ You can raise a request ticket via the [HelpDesk](https://sangamhelpdesk.microso
 
 Currently, Community Training is optimized for self-paced learning where learners can enroll for courses on their own and access content from anywhere, anytime. We don't have built-in support for live classrooms.
 
-However, we recommend customers use third-party applications such as Microsoft Teams, Zoom, etc., and embed the meeting link as a lesson in the course.  Post-session, to mark the course completion, you can give learners quizzes that they can attempt to validate their training progress and achieve a certificate.
+However, we recommend customers use third-party applications such as Microsoft Teams, and embed the meeting link as a lesson in the course.  Post-session, to mark the course completion, you can give learners quizzes that they can attempt to validate their training progress and achieve a certificate.
 
 Also, you can replace the live training URL with the actual recording of the training session on the platform for people to view and consume the content later.
 
@@ -182,7 +184,7 @@ There are two channels available to the customers to seek help during platform s
 2. [**24*7 support desk**](https://go.microsoft.com/fwlink/?linkid=2104630) in case customers are not able to find answers to their queries via the documentation site.
 
 ### Can we (Microsoft Partner) host this in the Azure subscription tenant and package it as a training platform for existing Office 365 customers? Does the license allow us to do that?
-
+<!-- CHECK WITH KASHYAP ON THIS. PARTNERS NEED ROLE ACCESS-->
 Yes, Microsoft Partners can set up the platform in their own subscription or on a customer subscription and provide value services like integration with an existing system, creating a custom dashboard, platform configuration, setup, and more.
 
 For example, Microsoft Partners can leverage the platform to drive Office 365 training for existing or new customers. For this, they can use the [**existing content**](https://sangampartners.azurewebsites.net/) available in the catalog for free.

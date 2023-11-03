@@ -1,8 +1,8 @@
 ---
 title: Backup, Security & Privacy
 original-url: https://docs.microsoftcommunitytraining.com/docs/security-and-privacy
-author: nikotha
-ms.author: nikotha
+author: Charan Brahmandam
+ms.author: cbms03
 description: Community Training can only be hosted and run on Microsoft Azure Cloud.  It cannot be deployed on other public cloud providers or on-premise data center.
 ms.prod: learning-azure
 ---
@@ -17,9 +17,9 @@ Community Training can only be hosted and run on Microsoft Azure Cloud.  It cann
 
 ### Where is Community Training data stored?
 
-Community Training is hosted on customers’ Azure subscriptions. Customers can decide on the Azure data center region of their choice for hosting the application and storing the training content and consumption data. So, customers have complete data ownership.
+Community Training is hosted on Microsoft's subscription and the data is stored in the region you choose when instannling the platform.
 
-For example, in India, there are three data centers. These are Central, West, and South where the platform can be hosted.
+For example, in India, there are three data centers. These are Central, West, and South where the your instance's data can be hosted.
 
 ### Where will the user identity data be stored?
 
@@ -64,8 +64,12 @@ All the content downloaded on the mobile app for offline consumption is stored i
 
 Community Training uses the state of art CDN services powered by Azure. With robust security such as SAS token and inbuilt lossless compression standards, Azure CDN ensures content is protected without any impact on application performance. It also helps you to reduce bandwidth costs and provide a responsive experience to users.
 
-## Technical architecture & platform security
 
+
+## Technical architecture & platform security
+<!--
+
+HIDING THIS AS THE PLATFORM IS NOW IN HOBO AND ITS RECOMMENDED THAT THE ARCHITECTURE SHOULD NOT BE EXPOSED
 ### What are the various technical components and Azure Services used in Community Training?
 
 Here is the high-level architecture diagram of the Community Training:
@@ -84,15 +88,19 @@ Here is the high-level architecture diagram of the Community Training:
 
 6. **Mobile app** - The mobile app is built using Xamarin Forms and leverages the .NET framework to build a secure and high-quality app for ease of use by the end-user.
 
+-->
 ### What level of security and compliance does Community Training support?
 
 Community Training uses various Azure services and stores customer data in Microsoft Azure data centers (as decided by the customer). These data centers adhere to industry-standard security and compliance certifications. Also, the data is encrypted in transit and at rest. The platform also adheres to GDPR compliance standards.
 
+
+<!--
 ### What is the service level agreement (SLA) provided by Community Training?
 
 Community Training uses Azure services which provide robust, resilient, and failover mechanisms to provide high availability to users. The services are hosted in world-class Microsoft Azure data centers.
 
 However, since we are in public preview there is no committed SLA provided for Community Training.
+-->
 
 ### What are the different components used to secure the Community Training from DDOS, man-in-the-middle attacks, etc.?
 

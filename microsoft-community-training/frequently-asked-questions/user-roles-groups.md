@@ -1,8 +1,8 @@
 ---
 title: User Roles & Groupsn
 original-url: https://docs.microsoftcommunitytraining.com/docs/user-roles-groups
-author: nikotha
-ms.author: nikotha
+author: Charan Brahmandam
+ms.author: cbms03
 description: The platform follows a role-based administration hierarchy.
 ms.prod: learning-azure
 ---
@@ -85,7 +85,7 @@ You can import users using CSV data to the platform. However, there are certain 
 
 ### Will I be able to bulk import users from my existing database?
 
-Yes, you can bulk import existing users to Community Training using our REST APIs.
+We are working to make the REST APIs available for you. Once available, the users can be imported from your exising list. Until then, you can bulk upload using CSV files.
 
 ### Bulk upload users feature doesn't seem to be working.
 

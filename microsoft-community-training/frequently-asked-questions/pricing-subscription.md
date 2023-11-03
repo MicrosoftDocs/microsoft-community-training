@@ -36,7 +36,7 @@ To redeem the Azure grant and deploy the platform on a sponsored subscription fo
 
 ### For how long is the Microsoft Azure grant for nonprofits valid? Do we get it every year?
 
-Azure credit for nonprofits is an annual grant - every year the organization receives $ 3,500 worth of Azure credit.  
+Azure credit for nonprofits is an annual grant.
 
 ### What are the Azure Services used by Community Training?
 
@@ -54,29 +54,34 @@ Here is the list of services that are used by the Community Training:
 
 ### How can customers buy Community Training?
 
-Community Training is now available in Public Preview and organizations can deploy the application on their Azure subscription from  Azure Marketplace. Refer to **[this article](../infrastructure-management/install-your-platform-instance/installation-overview.md)**  to learn more.
+Community Training is now attained general availability and organizations can deploy the application on their Azure subscription from  Azure portal. Refer to **[this article](../infrastructure-management/install-your-platform-instance/installation-overview.md)**  to learn more.
 
 ### How much will I be charged to use Community Training? What is the pricing model?
 
-Community Training doesn't charge any licensing fee, customers only need to pay for the cloud services billed (i.e. Azure consumption) when learners actually use the platform. The Azure consumption cost depends on various factors like # of users, volume of content hosted, and content consumed every month on the platform.
+Community Training offers two SKUs with license fees in addition to an Azure infrastructure fee for cloud services consumers.
+* Non-profit SKU - Eligible nonprofit organizations can get Community Training at the nonprofit discount of $400 USD per instance, per month.
 
-Refer to this [**pricing calculator**](https://communitytraining.microsoft.com/pricing/) for more details.
+* Commercial SKU- For Commercial organization, license fees will be  $800 USD per instance, per month.
+For azure infra cost details refer to this [**pricing calculator**](https://communitytraining.microsoft.com/pricing/)
 
-### What is the difference between basic and standard plans for Community Training?
+### What is the difference between Standard and premium plans for Community Training?
 
 You will get the same set of features irrespective of the configuration and plan you choose. The plan with determine the hardware configuration that will be used to run the platform on the Azure cloud and differences will only be concerning the application performance. Here is our recommendation on when to use each plan:
 
-**Basic plan** is used when you have lower traffic requirements and limited training content on the platform.
+**Standard plan** is used when you have lower traffic requirements and limited training content on the platform.
 
-**Standard plan** is used when you have higher traffic requirements and want to provide a smooth user experience at scale
+**Premium plan** is used when you have higher traffic requirements and want to provide a smooth user experience at scale
 
-> [!WARNING]  
+> [!NOTE]  
 > We recommend customers opt-in for a standard plan for superior user experience and application performance.
+
+<!--
+NOTE: HIDING THIS AS THE QUESTION IS ANSWERED IN THE QUESTION ABOVE
 
 ### Will I be charged a license fee for Community Training in the future?
 
 Community Training is in public preview right now. Currently, there are no plans to charge any licensing fee for the solution to existing or new customers.
-
+-->
 ### How will the Azure consumption charges be wary when users download data on the mobile device?
 
 When a user downloads content for offline consumption there are no charges applicable to the organization’s end. However, mobile data charges are applicable for learners while downloading the content based on their ISP.
@@ -94,7 +99,7 @@ For more details on pricing, [**go here**](https://communitytraining.microsoft.c
 
 ### When an organization opts for a phone-based login, who pays for the SMS charges?
 
-In the case of phone-based login, the SMS charges with respect to the one-time password sent on the learner's mobile number are borne by Microsoft.  Organizations don't have to pay anything.
+In the case of phone-based login, the SMS charges with respect to the one-time password sent on the learner's mobile number will be borne by you. Microsoft provides a medium for you to setup a phone based login. You will have to procure the services of a phone auth OTP provider and configure it via ADB2C.
 
 Even learners are not charged anything when they receive a one-time password via SMS. However, in case mobile network operators are charging for incoming messages then they will have to bear the cost for it.
 

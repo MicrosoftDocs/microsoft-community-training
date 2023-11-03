@@ -51,7 +51,7 @@ The Community Training platform provides role-based permission levels.  The tabl
       > [!CAUTION]
       > Ensure you click on Apply Changes. Otherwise, the changes you made will be lost.
 
-1. The choosen languages will be available for learners to select before logging on. The "**Default**" language will be the first language in the list and the portal will be viewable to the learner initially in that language.
+1. The chosen languages will be available for learners to select before logging in. The "**Default**" language will be the first language in the list and the portal will be viewable to the learner initially in that language.
 ![Default](../media/image%28275%29.png)
 
 1. You will also be able to access the administrator view of the platform in any of the languages selected in Step 3 above.

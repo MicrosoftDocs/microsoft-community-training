@@ -80,14 +80,23 @@ Get the **owner** access to your pay-as-you-go Azure subscription. To learn more
     
     This option allows you to use a Google or Facebook based login to Community Training. For Phone based login, please refer to this [**link**](https://azure.microsoft.com/en-us/pricing/details/active-directory-external-identities/) for pricing and setup.
 
-    > [!Note]  
-    >You will need Azure Active Directory, also known as Azure Entra ID to be setup to choose either option. Please refer to the documentation [**here**](https://learn.microsoft.com/en-us/entra/external-id/).
+    https://learn.microsoft.com/en-us/azure/active-directory-b2c/phone-authentication-user-flows
+    
+    >[!Note]
+    > * Please refer to this documentation for [**social account configuration guide**](../../infrastructure-management/install-your-platform-instance/configure-login-social-work-school-account.md#social-account-or-email-based-authentication)  
+    >* Please refer to this documentation for [**Phone Account Setup Guide**](https://learn.microsoft.com/en-us/azure/active-directory-b2c/phone-authentication-user-flows)  
+    > Please refer to this [**link**](https://azure.microsoft.com/en-us/pricing/details/active-directory-external-identities/#resources) for pricing information.
 
     ![Social_Phone_Login](../../media/Detailed_Installation_Steps/Detailed_Installation_Guide_Step4a.png)
 
     **ii. Work or School Account**  
 
     This option allows you to use existing work or school account lo login to the Community Training. You will need to provide a contact who will act as the Global Admin on the Community Training.  
+    
+    > [!Note]  
+    >You will need Azure Active Directory , also known as Azure Entra ID to be setup to choose either option.  
+    >* Please refer to this [**link**](https://azure.microsoft.com/en-us/pricing/details/active-directory-external-identities/#resources) for pricing.  
+    >* Please refer to this link [**work or school account configuration guide**](../../infrastructure-management/install-your-platform-instance/configure-login-social-work-school-account.md#work-or-school-account-based-authentication) for help with setup. 
 
     You also have the option to connect your MS Teams subscription to the Community Training instance.
 
@@ -123,9 +132,9 @@ Once the deployment is complete and the website is up, refer to the [**getting s
 
 Below are few additional resources to help you with the setup. 
 
-* [**social account configuration guide**](../../infrastructure-management/install-your-platform-instance/configure-login-social-work-school-account.md#social-account-or-email-based-authentication) to enter the values requested.
+* [**social account configuration guide**](../../infrastructure-management/install-your-platform-instance/configure-login-social-work-school-account.md#social-account-or-email-based-authentication).
 
-* [**work or school account configuration guide**](../../infrastructure-management/install-your-platform-instance/configure-login-social-work-school-account.md#work-or-school-account-based-authentication) to enter the values requested.
+* [**work or school account configuration guide**](../../infrastructure-management/install-your-platform-instance/configure-login-social-work-school-account.md#work-or-school-account-based-authentication).
 
 To setup a mobile app for your instance, follow the instructions given in the [**create and publish your Mobile App**](../../infrastructure-management/install-your-platform-instance/create-publish-mobile-app.md) article.
 

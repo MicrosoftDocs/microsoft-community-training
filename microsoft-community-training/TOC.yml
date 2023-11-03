@@ -190,12 +190,8 @@
            href: infrastructure-management/configure-your-platform-infrastructure/Recommended-settings-for-MCT-Azure-resources.md
       - name: Monitor your platform Infrastructure
         items:
-         - name: Monitor your platform Infrastructure
-           href: infrastructure-management/monitor-your-platform-infrastructure/monitor-your-infrastructure.md
          - name: Reliability in Community Training
            href: infrastructure-management\monitor-your-platform-infrastructure\reliability-in-community-training.md
-         - name: Troubleshoot Guide for Azure Support
-           href: infrastructure-management/monitor-your-platform-infrastructure/troubleshoot-guide-for-azure-support.md
    - name: Frequently Asked Questions
      items:
       - name: General FAQs

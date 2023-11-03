@@ -62,7 +62,7 @@ The Community Training management portal provides role-based permission levels. 
     3. **Regular Expression**: This format allows the Administrator to define the validation criteria from his end using the regular expression format.
     > [!NOTE]
     > * Each criteria will allow the Administrator to enter the **description** in various languages. This description  is shown to the users in the text field input box in the profile panel.
-    > * Each criteria will allow the Administrator to enter the **error messages** in various languages. This message will be shown to the users if they input any value that does not fulfil the validation criteria.
+    > * The administrator can also enter **error messages** in various languages. This message will be shown to the users if they input any value that does not fulfil the validation criteria.
 
     > :::image type="content" source="../media/Profile Field - error message and description.PNG" alt-text="error msg and description":::
 
@@ -84,11 +84,11 @@ The Community Training management portal provides role-based permission levels. 
 1. Toggle the required option to mark each profile field as either,
    1. **Mandatory**: Learners are compulsorily required to fill in mandatory fields after logging in.
    1. **Hidden**: Learners will not be able to view this field, such fields can be used by administrators for internal management.
-   1. **Read-only**: Learners will be able to view the profile field but not edit it.
-   ![Read-only](../media/image%28327%29.png)
+   1. **Non-editable**: Learners will be able to view the profile field but not edit it.
+   ![Non-editable](../media/image%28327%29.png)
    > [!NOTE]
    > Any change in a new or existing profile field will be applicable to new and existing learners on the platform.
-select
+
 1. Once you have added the fields, click on **Publish**. You’ll be asked to confirm by typing Publish again.
 
 > [!CAUTION]

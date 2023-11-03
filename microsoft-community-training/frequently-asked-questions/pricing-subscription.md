@@ -66,14 +66,16 @@ For azure infra cost details refer to this [**pricing calculator**](https://comm
 
 ### What is the difference between Standard and premium plans for Community Training?
 
-You will get the same set of features irrespective of the configuration and plan you choose. The plan with determine the hardware configuration that will be used to run the platform on the Azure cloud and differences will only be concerning the application performance. Here is our recommendation on when to use each plan:
+You will get the same set of features on the platform irrespective of the configuration and plan you choose. The plan will determine the hardware configuration that will be used to run the platform on the Azure cloud and differences will only be concerning the application performance. Here is our recommendation on when to use each plan:
 
-**Standard plan** is used when you have lower traffic requirements and limited training content on the platform.
+* Standard plan is used when you have lower traffic requirements and limited training content on the platform. 
 
-**Premium plan** is used when you have higher traffic requirements and want to provide a smooth user experience at scale
+* Premium plan is used when you have higher traffic requirements and want to provide a smooth user experience at scale. 
 
 > [!NOTE]  
 > We recommend customers opt-in for a standard plan for superior user experience and application performance.
+
+Please reach out to us if you have additional questions on the hardware configuration selected for each of the plans.[**Microsoft Community Training Helpdesk**](https://go.microsoft.com/fwlink/?linkid=2104630).
 
 <!--
 NOTE: HIDING THIS AS THE QUESTION IS ANSWERED IN THE QUESTION ABOVE
@@ -88,20 +90,18 @@ When a user downloads content for offline consumption there are no charges appli
 
 Example: Let's assume an organization named Contoso is using  Community Training to upskill their employees. Cathy an employee of Contoso uses the mobile app for consuming training content and downloading videos for offline consumption. During this process, Contoso is not charged any video streaming cost when Cathy is viewing video content downloaded on the mobile app.
 
-### Community Training charges based on Azure usage which is dependent upon consumption of courses on the platform. Right?
+### What are the fixed and variable costs on the Community Training
 
-Yes, this is correct. There are two aspects to the Azure consumption cost when an organization uses the platform.  
 
-* **Fixed Cost** : This component consists of Azure SQL Database and Azure Web App services used to run the portal, and store user and course information. The cost for these services is fixed for a given configuration and charged on a monthly basis irrespective of platform usage.
+* **Fixed Cost** :  The monthly licensing fee for the platform. 
+
 * **Variable Cost** : This component consists of Azure Storage, Media Services, and Content Delivery Cost services used to store actual course content and stream content on the learner's device. The cost for these services is variable and depends upon the actual usage such as the amount of content stored, minutes of video content watched, etc.
 
 For more details on pricing, [**go here**](https://communitytraining.microsoft.com/pricing/).
 
 ### When an organization opts for a phone-based login, who pays for the SMS charges?
 
-In the case of phone-based login, the SMS charges with respect to the one-time password sent on the learner's mobile number will be borne by you. Microsoft provides a medium for you to setup a phone based login. You will have to procure the services of a phone auth OTP provider and configure it via ADB2C.
-
-Even learners are not charged anything when they receive a one-time password via SMS. However, in case mobile network operators are charging for incoming messages then they will have to bear the cost for it.
+The configuration of the phone based login is done via **ADB2C** tenant and the associated costs can be checked [**here**](https://azure.microsoft.com/en-us/pricing/details/active-directory-external-identities/#resources).  There could be carrier charges associated with the incoming SMS messaged.
 
 ### Are there any charges for course content streamed via external websites such as YouTube?
 

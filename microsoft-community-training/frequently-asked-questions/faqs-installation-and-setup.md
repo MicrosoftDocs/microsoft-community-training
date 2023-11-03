@@ -30,7 +30,7 @@ Community Training is an endpoint-agnostic solution that allows learners to cons
     | Device Platform | How to access the portal? |
     | --- | --- |
     | PC (Windows or Mac) | Use browser to access the web app |
-    | Android | Use the native app or use mobile browser to access the web app|
+    | Android | Use the PWA app or use mobile browser to access the web app|
     |iOS| Use mobile browser to access the web app|  
 
 2. For inside Microsoft Teams [**Click here**](../infrastructure-management/install-your-platform-instance/create-teams-app-for-your-training-portal.md) for more details.
@@ -44,14 +44,6 @@ However, the platform supports SSO with any OAuth 2.0, OpenID Connect, or SAML-b
 ### Are there REST APIs available for integration? How can organizations integrate Community Training with their internal systems and existing applications?
 
 The REST APIs are under development and will be made available soon, broadly expanding the capabilites of the Community Training.
-
-### I am not able to deploy the application from the Azure Marketplace
-
-The [**platform deployment**](../infrastructure-management/install-your-platform-instance/installation-overview.md) can fail for multiple reasons such as incorrect details entered during setup, invalid subscription, azure services not available in the chosen data center, and many more.  
-
-Refer to the [**troubleshooting guide**](../infrastructure-management/install-your-platform-instance/troubleshooting.md) and see how to fix the common deployment error.
-
-If you didn't find the solution in the troubleshooting guide, please contact us via [**helpdesk**](https://go.microsoft.com/fwlink/?linkid=2104630).
 
 ### How many languages are supported by Community Training?
 
@@ -67,7 +59,9 @@ Yes, customers can create multiple instances of Community Training,  and each of
 
 ### Does Community Training support multi-tenancy?
 
-Currently, there is no multi-tenant support for Community Training. Each instance of the platform is separate (i.e. no sharing of data and compute resources) and deployed on the customer’s own Azure subscription.
+Currently, there is no multi-tenant support for Community Training. Each instance of the platform is separate (i.e. no sharing of data and compute resources) and deployed on the customer’s own Azure subscription. You can use the Organizations feature for achieving this
+
+<!--ADD ORG FEature link-->
 
 For more details, please the [**installation overview article**](../infrastructure-management/install-your-platform-instance/installation-overview.md).
 
@@ -77,7 +71,8 @@ Community Training is designed to be easily deployed and managed by the customer
 
 Your IT admin or cloud administrator responsible for managing the [**Azure Portal**](https://portal.azure.com/) can deploy the platform on your Azure subscription. Once the platform is deployed, the training manager can [**start configuring the platform and upload training content**](../get-started/step-by-step-configuration-guide.md). No coding is required.
 
-You do not need a technical team or a developer to implement the platform unless you want to extend platform capabilities usingtheAPIs or integrate the platform with your existing system.
+You do not need a technical team or a developer to implement the platform.
+<!-- unless you want to extend platform capabilities usingtheAPIs or integrate the platform with your existing system. HIDING UNTIL APIs are available-->
 
 ### Do you have partners behind the implementation of Community Training? Which type of partners?
 
@@ -87,7 +82,7 @@ For further information on the partner ecosystem, please reach out to us [**via 
 
 ### What should I do if I no longer need the platform? How can I download the training content and data before terminating?
 
-Since there is no licensing fee and customers are only paying for the Azure consumptions, you just need to go ahead and delete the resource group where the platform is deployed.  
+You can delete the resource group where the platform is deployed.  
 
 Before deleting the resource group, we recommend you create a copy of content and user data from the Azure portal.
 

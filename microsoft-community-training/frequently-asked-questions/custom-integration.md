@@ -33,13 +33,13 @@ For more information on MS Teams integration, [**go here**](https://communitytra
 
 ### Will I be able to deliver a webinar using this platform?
 
-Community Training doesn’t provide inbuilt functionalities to host webinars but customers can add the meeting or webinar URLs as an external lesson on the platform. This will allow users to easily redirect to the respective application hosting the webinar and attend sessions.
+Community Training doesn’t provide inbuilt functionalities to host webinars but customers can add the meeting or webinar URLs as an external lesson on the platform. This will allow users to easily redirect to the respective application hosting the webinar and attend sessions. Refer to this documentation on [**setting up Webinars using MS Teams**](https://support.microsoft.com/en-us/office/schedule-a-webinar-in-microsoft-teams-0719a9bd-07a0-47fd-8415-6c576860f36a#:~:text=Create%20a%20webinar%201%20In%20the%20Teams%20calendar%2C,event%2C%20invites%20will%20be%20sent%20to%20attendees%20automatically.)
 
 ## Integration with external system
 
 ### Are there any out-of-the-box integrations with existing HRMS, CRM, etc. applications available in the market?
 
-Community Training doesn't come with any out-of-box integrations with third-party HRMS & CRM applications. However, customers and partners can use its APIs to integrate with other systems.
+Community Training doesn't come with any out-of-box integrations with third-party HRMS & CRM applications. 
 
 ### Can I embed or integrate Community Training into an existing mobile application?
 

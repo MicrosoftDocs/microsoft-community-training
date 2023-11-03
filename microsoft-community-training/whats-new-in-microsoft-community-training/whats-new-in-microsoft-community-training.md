@@ -10,6 +10,7 @@ ms.prod: learning-azure
 
 Community Training gets new updates regularly. For a detailed review of the enhancements please check the What's New articles.
 
+<!--
 ## 2020
 
 [**What's new in February 2020**](../whats-new-in-microsoft-community-training/2020/whats-new-in-february-2020.md)
@@ -39,9 +40,11 @@ Community Training gets new updates regularly. For a detailed review of the enha
 [**What’s new in August 2022**](2022/whats-new-in-August-2022.md#whats-new-in-august-2022)
 
 [**What’s new in December 2022**](2022/whats-new-in-december-2022.md#whats-new-in-december-2022)
-
+-->
 ## 2023
 
+<!--
 [**What’s new in March 2023**](2023/Whats-new-in-march-2023.md#whats-new-in-march-2023)
 
 [**What’s new in August 2023**](2023/Whats-new-in-aug-2023.md#whats-new-in-august-2023)
+-->

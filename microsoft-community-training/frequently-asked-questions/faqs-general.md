@@ -13,19 +13,19 @@ ms.prod: learning-azure
 
 Community Training is an Azure-powered online learning platform that enables organizations of all sizes and types to run large-scale training programs for their internal and external communities such as first-line workers, extended workforces, partner ecosystems, volunteer networks, program beneficiaries, and more.
 
-It is available as an **Offering via Azure portal** that customers can easily deploy in their subscriptions.
+It is available as an offering via the Azure portal that customers can easily deploy in their subscriptions.
 
 [**Click here**](../get-started/microsoft-community-training-overview.md) to learn more about the platform.
 
 ### When was Community Training launched?
 
-Community Training was publicly announced on 22nd February 2017 and is generally available since 9th December 2023.
+Community Training was publicly announced on 22nd February 2017 and has been generally available since December 2023.
 
 ### Is Community Training a Learning Management System?
 
 Community Training is designed for mobile-first and mobile-only audiences. The platform is built and optimized to work seamlessly on low-bandwidth networks and low-end smartphones.
 
-While Community Training is not a traditional Learning Management System (LMS), it does allow organizations to create a full-ranged self-paced e-learning environment, allowing you to deliver the content from wide range of sources. Powered by Azure, Community Training enables you to share relevant information from a wide variety of sources.
+While Community Training is not a traditional Learning Management System (LMS), it does allow organizations to create a full-ranged self-paced e-learning environment. Powered by Azure, Community Training enables you to share relevant information from a wide variety of sources.
 
 ### What are the regions where Community Training is available?
 
@@ -54,49 +54,47 @@ Community Training can be leveraged in a wide range of training use cases such a
 
 These training use cases cut across multiple verticals such as Non Profits,Government,Retail, Healthcare, Education Organizations.
 
-Community Training provides organizations to not only share content with the target audience but also allow them to assess and track learner’s progress via quizzes, exams, and real-time analytics.
+Community Training enables organizations to not only share content with the target audience but also allows them to assess and track learner’s progress via non-graded assessments, graded assessments, and real-time analytics.
 
 For more information [**visit the website**.](https://communitytraining.microsoft.com/).
 
 ### Can I use  Community Training to train my partners on Microsoft Products and Technologies?
 
-Organizations can use Community Training to host and train their workforces on multiple topics including Microsoft Products & Services. The platform comes with readily available content around Digital Literacy, Office 365, Azure, etc.
+Organizations can use Community Training to host and train their workforces on multiple topics including Microsoft Products & Services. The platform comes with readily available content around Digital Literacy, Office 365, Azure, and more.
 
 Here is [**our free content library**](https://sangampartners.azurewebsites.net/) for your reference. Also, you can host content from [**Microsoft Learn training**](/training/) into the platform to provide a one-stop shop for all training courses to your target audience.
 
 For more details on how to leverage the import of this content on your platform instance, reach out to us [**via HelpDesk**](https://go.microsoft.com/fwlink/?linkid=2104630).
 
-### How to create/add a new course on Community Training?
+### How to create/add a new course on Community Training
 
 Courses can be created from the administrator dashboard, for the detailed steps on course creation [refer to this article.](../content-management/create-content/create-course-category/create-a-new-course.md)
 
 ### I already have a Learning Management System (LMS) implemented for my organization. Will Community Training replace my existing LMS or is it going to complement my existing system?
 
-Traditionally LMS software is focused on knowledge workers and workforces managed by the organization. But every organization often has a huge number of frontline workers (contractors, vendors, external staff, etc.) or extended partner networks (distributors, suppliers, retailers, etc.) who are not managed by the organization i.e. there is no organization email address provided. These audiences are typically mobile-first users with low technology capability and usually require an online learning solution that is designed and optimized for shared low-bandwidth mobile device usage.
+Traditionally LMS software is focused on knowledge workers and workforces managed by the organization. But every organization often has a huge number of frontline workers (contractors, vendors, external staff, etc.) or extended partner networks (distributors, suppliers, retailers, etc.) who are not managed by the organization, which means there is no organization email address provided. These audiences are typically mobile-first users with low technology capability and usually require an online learning solution that is designed and optimized for shared low-bandwidth mobile device usage.
 
-Community Training supports personalized learning for large-scale mobile-based workforces and communities. It is affordable, easy to manage, and provides robust security and privacy protection. Organizations can leverage the Community Training to:
+Community Training supports personalized learning for large-scale mobile-based workforces and communities. It is affordable, easy to manage, and provides robust security and privacy protection. Organizations can leverage Community Training to:
 
-* Manage courses, users, and analytics all in one place with the management portal
-* Empower managers, trainers, and facilitators on the ground to easily reach out to the far-spread training audience and drive adoption of the learning program
-* Customize the look and feel of the platform and select leaner endpoints for content consumption as per your organization's needs
-* Track learning progress and measure outcomes using rich out-of-box reports or create custom dashboards to monitor health and measure overall program success
-
-<!--
+* Manage courses, users, and analytics all in one place with the management portal.
+* Empower managers, trainers, and facilitators on the ground to easily reach out to the far-spread training audience and drive adoption of the learning program.
+* Customize the look and feel of the platform and select learner endpoints for content consumption as per your organization's needs
+* Track learning progress and measure outcomes using rich out-of-box reports or create custom dashboards to monitor health and measure overall program success.
 * Leverage APIs to create your own training experience or integrate it into your existing systems.
 
-So, depending on the use cases, organizations can use Community Training in either of the following manner:
--->
+So, depending on the use cases, organizations can use Community Training in either of the following ways:
+
 * **If an organization already has an LMS in place** – Organizations can use this platform for unmanaged audiences like first-line workers, extended workforces, partner ecosystem, volunteer networks, program beneficiaries, etc. who need to access content via mobile number or personal email address.
 
 * **If an organization has no LMS** - Organizations can use this platform for both internal as well as external audiences.
 
 ### How many organizations are already using Community Training?
 
-Currently, Community Training is being used by hundreds of customers across India, Africa, South East Asia, and Latin America for skilling their workforces or training communities at scale.  For example here are some press releases on the partnership with existing customers: [African Development Bank](https://news.microsoft.com/en-xm/2019/12/10/african-development-bank-launches-digital-tool-to-help-african-youth-learn-to-code/), Gauteng Provincial Govt - South Africa, [UNICEF](https://www.unicef.org/press-releases/unicef-and-microsoft-launch-global-learning-platform-help-address-covid-19-education) ,[Ministry of Housing and Urban Affairs - Govt. of India](https://news.microsoft.com/en-in/microsoft-project-sangam-swacch-bharat-mission/).
+Currently, Community Training is being used by hundreds of customers across India, Africa, South East Asia, and Latin America to enable skilling their workforces or training communities at scale.  For example here are some press releases on the partnership with existing customers: [African Development Bank](https://news.microsoft.com/en-xm/2019/12/10/african-development-bank-launches-digital-tool-to-help-african-youth-learn-to-code/), Gauteng Provincial Govt - South Africa, [UNICEF](https://www.unicef.org/press-releases/unicef-and-microsoft-launch-global-learning-platform-help-address-covid-19-education) ,[Ministry of Housing and Urban Affairs - Govt. of India](https://news.microsoft.com/en-in/microsoft-project-sangam-swacch-bharat-mission/).
 
 ### Is there any licensing fee for Community Training?
 
-Community Training is offered in two plans Standard and Premium . The pricing varies based on the type of customer - Not for profit or Enterprise.
+Community Training is offered in two plans Standard and Premium . The pricing varies based on the type of customer, which can be Not for profit, or Enterprise.
 
 <!---Refer to this [**pricing calculator**](https://communitytraining.microsoft.com/pricing/) for more details.*/ 
 
@@ -123,9 +121,9 @@ Community Training supports a wide range of formats as listed below:
 
 For more information, check the article on [**how to manage course content**](../content-management/content-management-overview.md) on Community Training.  
 
-### Does Community Training come with some out-of-the-box content?
+### Does Community Training come with out-of-the-box content?
 
-Community Training offers a wide range of out-of-box video content such as Microsoft Learn, Office products, Computer basics and security, etc. All these contents are free of cost and you can obtain video content post your platform deployment, by viewing this article:[**Create content from Conten Marketplace**](../content-management\create-content\create-course-category\content-marketplace.md).
+Community Training offers a wide range of out-of-box video content such as Microsoft Learn, Office products, Computer basics and security, etc. All this content is free of cost and you can obtain video content post your platform deployment, by going to this article: [**Create content from Conten Marketplace**](../content-management\create-content\create-course-category\content-marketplace.md).
 
 <!---
 You can check [**our sample content library**](https://sangampartners.azurewebsites.net/) for reference. We constantly keep updating the content library.  
@@ -134,7 +132,7 @@ Please note - all content hosted in the content library is free of charge and pr
 
 ### How do I request a Microsoft Teams manifest file?
 
-1. Create a support ticket on [Community Training HelpDesk](https://sangamhelpdesk.microsoftcrmportals.com/SignIn?ReturnUrl=%2Fsupport%2Fcreate-case%2F) for a Microsoft Teams app manifest for your training platform instance in the following format,
+1. Create a support ticket on [Community Training HelpDesk](https://sangamhelpdesk.microsoftcrmportals.com/SignIn?ReturnUrl=%2Fsupport%2Fcreate-case%2F) for a Microsoft Teams app manifest for your training platform instance in the following format:
 
    ![Teams manifest](../media/manifest.JPG)
 
@@ -146,7 +144,7 @@ Community Training currently supports 63 languages on the platform:*Afrikaans (S
 
 For more information, [**go here**](../settings/customize-languages-for-the-learners-on-the-platform.md).
 
-### How can i raise a new language request?
+### How can I raise a new language request?
 
 You can raise a request ticket via the [HelpDesk](https://sangamhelpdesk.microsoftcrmportals.com/) to request another language for your platform instance. Please refer to [this article](../settings/request-a-new-language.md) for more details.
 
@@ -154,7 +152,7 @@ You can raise a request ticket via the [HelpDesk](https://sangamhelpdesk.microso
 
 Currently, Community Training is optimized for self-paced learning where learners can enroll for courses on their own and access content from anywhere, anytime. We don't have built-in support for live classrooms.
 
-However, we recommend customers use third-party applications such as Microsoft Teams, and embed the meeting link as a lesson in the course.  Post-session, to mark the course completion, you can give learners quizzes that they can attempt to validate their training progress and achieve a certificate.
+However, we recommend customers use third-party applications such as Microsoft Teams, Zoom, etc., and embed the meeting link as a lesson in the course.  After the session, to mark the course completion, you can give learners assessements that they can attempt to validate their training progress and achieve a certificate.
 
 Also, you can replace the live training URL with the actual recording of the training session on the platform for people to view and consume the content later.
 
@@ -162,7 +160,7 @@ For more details, please reach out to us [**via HelpDesk**](https://go.microsoft
 
 ### Does Community Training have any learner-tracking capability?
 
-Yes,  Community Training comes with exhaustive instrumentation and inbuilt analytics that allow you to track learner progress, perform assessments, and measure learning outcomes as per your needs.
+Yes,  Community Training comes with exhaustive instrumentation and built-in analytics that allow you to track learner progress, perform assessments, and measure learning outcomes as per your needs.
 
 <!---
 Apart from the inbuilt reports, customers can create dashboards and custom reports using third-party visualization tools such as Power BI.
@@ -172,7 +170,7 @@ For more information on analytics, check out [**this article**](../analytics/ana
 NOTE FOR DOCUMENTATION TEAM : THIS IS HIDDEN UNTIL THE FUNCTIONALITY IS RELEASED
 --->
 
-### How to delete my training portal
+### How to delete the training portal
 
 When you no longer need your training portal, you can delete it by deleting the resource group from the Azure portal. [Refer to this article](../infrastructure-management/configure-your-platform-infrastructure/delete-your-training-instance.md) for more details.  
 
@@ -191,7 +189,7 @@ For example, Microsoft Partners can leverage the platform to drive Office 365 tr
 
 For more information and support, please contact us via  **[HelpDesk](https://go.microsoft.com/fwlink/?linkid=2104630)** and leave your requirements in the ticket description.
 
-### How to invite learners to the training portal instance?
+### How to invite learners to the training portal instance
 
 There are various ways to invite users and create awareness about the platforms.
 
@@ -205,11 +203,11 @@ Customers can contact us via [**HelpDesk**](https://go.microsoft.com/fwlink/?lin
 
 ### Does the platform provide gamification capabilities to incentivize learners to complete course content?
 
-At present, we don't have gamification features leadership and badges but organizations can use practice quizzes and completion to drive learner engagement and course completion.
+At present, we don't have gamification features such as ranking and badges but organizations can use non-graded assessements and completion to drive learner engagement and course completion.
 
 Having said that, gamification features are something on the roadmap which should be available soon.
 
-### How to move CT resources across Azure subscriptions?
+### How to move Community Training resources across Azure subscriptions
 
 At present, we do not recommend moving resource groups across different Azure subscriptions. Doing so might impact the services and functionalities of your CT training portal.
 

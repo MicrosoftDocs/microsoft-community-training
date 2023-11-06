@@ -217,13 +217,13 @@ MP3 & OGG
 
 ## Practice Quiz and Exam
 
-### What is the difference between practice quizzes and exams?
+### What is the difference between practice quizzes and graded assessments?
 
-The platform provides two types of assessments in the form of a graded and non-graded assessment containing one or more multiple-choice questions, fill the blanks, true or false or multi answer, multiple choice questions.
+The platform provides two types of assessments in the form of a graded and non-graded assessment containing one or more multiple-choice questions, fill the blanks, true or false or multi answer, multiple choice questions:
 
-**Non-Graded Assessment** - A practice quiz serves as a refresher for learners and facilitates revision of a particular lesson. There is no limit to the number of practice quizzes you can add to a course.
+- **Non-Graded Assessment** - This serves as a refresher for learners and facilitates revision of a particular lesson. There is no limit to the number of practice quizzes you can add to a course.
 
-**Graded Assessment** - An Exam is used to evaluate learners on their proficiency and knowledge in a particular course to measure learning outcomes. Unlike a practice quiz, an exam has a limited number of attempts and a passing percentage as specified by the trainer.
+- **Graded Assessment** - This is used to evaluate learners on their proficiency and knowledge in a particular course to measure learning outcomes. Unlike a practice quiz, a graded assessment has a limited number of attempts and a passing percentage as specified by the trainer.
 
 Learn more [**here**](../content-management/create-content/create-course-category/add-assessments-to-a-course.md).
 
@@ -234,7 +234,7 @@ There is no limit to the number of Quizzes you can add to a course.
 
 ### Can we set passing criteria and limit the number of attempts for assessments?
 
-You can define the passing percentage and number of attempts a learner can take the exam at the time of creating the exam.
+You can define the passing percentage and number of attempts a learner can take the assessment at the time of creation.
 
 For detailed steps, **[go here](../content-management/create-content/create-course-category/add-assessments-to-a-course.md)**.
 

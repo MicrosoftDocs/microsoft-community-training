@@ -84,13 +84,13 @@ This article explains how learners can access the training content using the web
 
 1. On the **My Course** page, select the Learning Path or Course item, which you want to view and learn.
 
-2. Every course consists of a course description, lessons, practice quizzes, and an exam as shown in the course outline. Any completed course item gets a green circled tick mark:
+2. Every course consists of a course description, lessons, practice quizzes, and a graded assessment as shown in the course outline. Any completed course item gets a green circled tick mark:
 
     :::image type="content" source="../media/image(181).png" alt-text="Green circled tick mark":::
 
 3. To view any lesson content or attempt a practice quiz, select the course item in the outline.
 
-4. An exam is always the last item in each course and it's available only when you have completed all the previous course items.
+4. An assessment is always the last item in each course and it's available only when you have completed all the previous course items.
 
     :::image type="content" source="../media/image(182).png" alt-text="Previous Course":::
 

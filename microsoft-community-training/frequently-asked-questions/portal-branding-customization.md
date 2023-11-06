@@ -111,7 +111,7 @@ The logo can have either a transparent or a solid background.
 
 ### I see the certificate template is predefined. Is there any way for me to customize the logo, signature, etc.?
 
-Community Training uses a basic template to issue certificates to learners who have completed a course or passed an exam as shown below.
+Community Training uses a basic template to issue certificates to learners who have completed a course or passed an assessment as shown below.
 
 ![Certificate for completion](../media/image%2829%29.png)
 

@@ -129,7 +129,7 @@ The content for the lessons must be structured correctly and available in the re
 1. Ensure there are no folders and unsupported content files inside the ZIP file
 
 > [!NOTE]
-> Assessments can't be added to the course via bulk upload functionality unless [**you are exporting courses from one instance to another**](../../../content-management/manage-content/manage-course-category/move-course-content-across-training-instance.md). You will need to add them via [**add quiz and exam workflow**](../../../content-management/create-content/create-course-category/add-assessments-to-a-course.md).
+> Assessments can't be added to the course via bulk upload functionality unless [**you are exporting courses from one instance to another**](../../../content-management/manage-content/manage-course-category/move-course-content-across-training-instance.md). You will need to add them via [**an assessement workflow**](../../../content-management/create-content/create-course-category/add-assessments-to-a-course.md).
 
 ### Steps for bulk upload lessons for a course
 

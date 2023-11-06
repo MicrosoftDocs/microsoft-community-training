@@ -55,7 +55,7 @@ You can personalize the training portal by configuring various elements of the i
 
 Community Training is optimized for learning with videos for mobile devices – even on low-bandwidth or while offline. It provides an easy way for your organization to create and manage online courses, and offer a seamless learning experience.
 
-Courses in Community Training are created under categories. These categories can be based on topics, professions, skills, and more. Courses on the portal will have one or more lessons, practice quizzes, exams, and certifications.
+Courses in Community Training are created under categories. These categories can be based on topics, professions, skills, and more. Courses on the portal will have one or more lessons, practice quizzes, graded assessments, and certifications.
 
 ![Upload content to portal](../media/Upload%20content%20to%20portal.png)
 
@@ -67,7 +67,7 @@ To add learning material to your training portal, you need to [**define a catego
 
 3. Upload a customized image relating to the course topic to provide a visual cue to learners. Try to create different thumbnails for each course, to the avoid redundancy of using the same image.
 
- Once you have created the courses, [**add learning materials**](../content-management/create-content/create-course-category/upload-content-to-a-course.md) like videos, PDF files, PowerPoint files, YouTube links, and more. Additionally, [**manage the course options**](../content-management/manage-content/manage-course-category/manage-users-for-a-course.md) according to your needs. Lastly, [**add practice quizes and exams**](../content-management/create-content/create-course-category/add-assessments-to-a-course.md) before [**publishing the course**](../content-management/create-content/create-course-category/publishing-course.md) for your learners.
+ Once you have created the courses, [**add learning materials**](../content-management/create-content/create-course-category/upload-content-to-a-course.md) like videos, PDF files, PowerPoint files, YouTube links, and more. Additionally, [**manage the course options**](../content-management/manage-content/manage-course-category/manage-users-for-a-course.md) according to your needs. Lastly, [**add assessments**](../content-management/create-content/create-course-category/add-assessments-to-a-course.md) before [**publishing the course**](../content-management/create-content/create-course-category/publishing-course.md) for your learners.
 
  ![create course gif](../media/create-course-gif.gif)
 

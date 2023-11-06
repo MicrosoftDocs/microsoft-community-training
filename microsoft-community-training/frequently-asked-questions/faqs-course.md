@@ -215,22 +215,21 @@ Community Training supports the following file formats for  audio  content:
 
 MP3 & OGG
 
-## Practice Quiz and Exam
+## Non-graded assessments and graded assessments
 
-### What is the difference between practice quizzes and graded assessments?
+### What is the difference between non-graded assessments and graded assessments?
 
 The platform provides two types of assessments in the form of a graded and non-graded assessment containing one or more multiple-choice questions, fill the blanks, true or false or multi answer, multiple choice questions:
 
-- **Non-Graded Assessment** - This serves as a refresher for learners and facilitates revision of a particular lesson. There is no limit to the number of practice quizzes you can add to a course.
+- **Non-Graded Assessment** - This serves as a refresher for learners and facilitates revision of a particular lesson. There is no limit to the number of non-graded assessments you can add to a course.
 
-- **Graded Assessment** - This is used to evaluate learners on their proficiency and knowledge in a particular course to measure learning outcomes. Unlike a practice quiz, a graded assessment has a limited number of attempts and a passing percentage as specified by the trainer.
+- **Graded Assessment** - This is used to evaluate learners on their proficiency and knowledge in a particular course to measure learning outcomes. Unlike a non-graded assessment, a graded assessment has a limited number of attempts and a passing percentage as specified by the trainer.
 
 Learn more [**here**](../content-management/create-content/create-course-category/add-assessments-to-a-course.md).
 
-### How many Graded and Non Graded Assessments can be there for a course?
+### How many graded and non-graded assessments can be there for a course?
 
-There is no limit to the number of Quizzes you can add to a course.
-
+There is no limit to the number of non-graded assessments you can add to a course.
 
 ### Can we set passing criteria and limit the number of attempts for assessments?
 
@@ -345,7 +344,7 @@ You can add/remove the tags even after the course is published, but once you add
 
 You can define the learning sequence within a course via the restricted lesson ordering feature.
 
-By default, learners can jump to any lesson or practice quiz throughout a course freely. But there are often when you may need learners to go through the course items in a sequence. This setting will allow you to restrict lesson ordering when creating or editing a course. This ensures that Learners can only consume lessons in sequence. Skipping will not be permitted.
+By default, learners can jump to any lesson or assessments throughout a course freely. But there are often when you may need learners to go through the course items in a sequence. This setting will allow you to restrict lesson ordering when creating or editing a course. This ensures that Learners can only consume lessons in sequence. Skipping will not be permitted.
 
 However, setting sequencing paths across courses is not currently supported on the platform. Example: You can force users to complete Course A before Course B is enabled for consumption. Currently, this is something we have on the product roadmap.
 

@@ -53,7 +53,7 @@ The portal is designed based on role-based access control. This means that acces
 
 ## Learner experience
 
-Community Training is made for learning on the go. The user experience is optimized for learning with videos and quizzes – even on low bandwidth or while offline. While accessing the course content, your learners can connect and interact with peers and experts in the communities to enable social learning.  
+Community Training is made for learning on the go. The user experience is optimized for learning with videos and assessments – even on low bandwidth or while offline. While accessing the course content, your learners can connect and interact with peers and experts in the communities to enable social learning.  
 
 Lastly, learners can also use the platform to track activities and stay updated on the important updates sent by the administrators.
 

@@ -62,7 +62,7 @@ A **Lesson** is a single unit of learning in the form of Audio, Video, PDF, Word
 
 A **Non-graded Assessment** provides a refresher for learners and facilitates revision of a particular lesson. It encourages and motivates the learner to go to the next lesson.
 
-For example, a learner who has seen three lessons takes an assessment and finds that he has got two out of three questions correct. He can go back to the lesson, view it again and repeat the quiz till he fully understands the subject.
+For example, a learner who has seen three lessons takes an assessment and finds that they've got two out of three questions correct. They can go back to the lesson, view it again and repeat the assessment till they fully understands the subject.
 
 #### Graded Assessment
 

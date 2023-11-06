@@ -55,7 +55,7 @@ You can personalize the training portal by configuring various elements of the i
 
 Community Training is optimized for learning with videos for mobile devices – even on low-bandwidth or while offline. It provides an easy way for your organization to create and manage online courses, and offer a seamless learning experience.
 
-Courses in Community Training are created under categories. These categories can be based on topics, professions, skills, and more. Courses on the portal will have one or more lessons, practice quizzes, graded assessments, and certifications.
+Courses in Community Training are created under categories. These categories can be based on topics, professions, skills, and more. Courses on the portal will have one or more lessons, non-graded assessments, graded assessments, and certifications.
 
 ![Upload content to portal](../media/Upload%20content%20to%20portal.png)
 

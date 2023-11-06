@@ -15,7 +15,7 @@ ms.prod: learning-azure
 
 Community Training does not have built-in support for live training sessions. However, we recommend customers use third-party applications such as Microsoft Teams, Zoom, etc., and embed the meeting link as a lesson in the course.
 
-Post-session, to mark the completion, you can give learners quizzes that they can attempt in order to validate their training progress and achieve a certificate.
+Post-session, to mark the completion, you can give learners assessment that they can attempt in order to validate their training progress and achieve a certificate.
 
 ![Achieve certificate](../media/image%28323%29.png)
 

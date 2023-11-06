@@ -9,7 +9,7 @@ ms.prod: learning-azure
 
 # Create a category
 
-A **category** is a collection of courses on a specific topic helpinghelp you organize your learning content for different learners. You can create a new category and add courses with lessons, practice quizzes and graded assessments.
+A **category** is a collection of courses on a specific topic helpinghelp you organize your learning content for different learners. You can create a new category and add courses with lessons, non-graded assessments and graded assessments.
 In this article, you will learn more about how to create a category, edit a category and delete a category in respective sections.
 
 ## Permissions Level

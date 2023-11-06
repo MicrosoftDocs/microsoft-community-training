@@ -3,7 +3,7 @@ title: Analytics & Reporting
 original-url: https://docs.microsoftcommunitytraining.com/docs/analytics-reporting
 author: Charan Brahmandam
 ms.author: cbms03
-description: Community Training allows organizations to track and stay updated on learner's progress and performance scores through quizzes and graded assessments.
+description: Community Training allows organizations to track and stay updated on learner's progress and performance scores through non-graded assessments and graded assessments.
 ms.prod: learning-azure
 ---
 
@@ -13,7 +13,7 @@ ms.prod: learning-azure
 
 ### How to track learners’ progress on the Community Training
 
-Community Training allows organizations to track and stay updated on learners' progress and performance scores through quizzes and graded assessments. Customers can use the inbuilt analytics to track learners' engagements and progress. Also, individual learner’s progress can be tracked and downloaded.
+Community Training allows organizations to track and stay updated on learners' progress and performance scores through non-graded assessments and graded assessments. Customers can use the inbuilt analytics to track learners' engagements and progress. Also, individual learner’s progress can be tracked and downloaded.
 
 For more information, [**go here**](../analytics/in-built-reports/overall-summary.md).
 
@@ -43,7 +43,7 @@ Administrators can view overall learner progress and course completion from the 
 
 ### How is the course completion verified on the Community Training?
 
-Community Training can track when any content is played/consumed and real-time analytics are provided on individual user's engagement and course completion. However, we recommend organizations have quizzes and final graded assessments to ensure and validate the learner’s understanding and issue certificates based on the assessment passing criteria.
+Community Training can track when any content is played/consumed and real-time analytics are provided on individual user's engagement and course completion. However, we recommend organizations have non-graded assessments and final graded assessments to ensure and validate the learner’s understanding and issue certificates based on the assessment passing criteria.
 
 ### How will learner progress be tracked when learners are consuming content both on the web and mobile app?
 
@@ -52,12 +52,12 @@ Learner's progress is seamlessly tracked and synced across devices both on the w
 **Web App**  
 Learner using the platform via the web are tracked in real-time as their course progresses.
 
-Example: When a learner uses the platform via the web, learners will be able to see their course progression percentage in real-time, also organizations will be able to track and view learner progress and quiz results.
+Example: When a learner uses the platform via the web, learners will be able to see their course progression percentage in real-time, also organizations will be able to track and view learner progress and assessment results.
 
 **Mobile App**  
 While the mobile platform works like the web, there are few changes to the tracking progress when learners download the video and consume then offline. The learner’s offline progress is stored locally and pushed to the server once they get connected to the internet.
 
-Example: When a learner downloads the course content and consumes it offline, all the course progress which includes quizzes and graded assessments is stored locally on the learner's mobile storage. Once the learner gets connected to the internet all his stored progress gets synced with the platform.
+Example: When a learner downloads the course content and consumes it offline, all the course progress which includes non-graded assessments and graded assessments is stored locally on the learner's mobile storage. Once the learner gets connected to the internet all his stored progress gets synced with the platform.
 
 ### How do I increase the completion rate for my learners?
 
@@ -107,16 +107,16 @@ To access the course and category analytics, you can either select the **View An
 
 For more information, please [**go here**](../analytics/analytics-overview.md).
 
-### How to view an individual learner's average quiz scores, courses enrolled, and completed?
+### How to view an individual learner's average assessment scores, courses enrolled, and completed?
 
-From the group view grid, you will be able to see the user’s progress and quiz scores. Please [**go here**](../analytics/in-built-reports/group-view-report.md) for more information.
+From the group view grid, you will be able to see the user’s progress and assessment scores. Please [**go here**](../analytics/in-built-reports/group-view-report.md) for more information.
 
 ### How is the course completion percentage computed for a learner?
 
-Course completion percentage is computed based on the course items (including lessons, quizzes, and graded assessments) completed for a given course by learners. For example, if we have five lessons in a course, then post-completion of each lesson course progress will be increased by 20%.
+Course completion percentage is computed based on the course items (including lessons, non-graded assessments, and graded assessments) completed for a given course by learners. For example, if we have five lessons in a course, then post-completion of each lesson course progress will be increased by 20%.
 
 > [!NOTE]  
-> Every course item in a course has equal weightage i.e. if there are 20 items for a course (including lessons, practice quizzes, and graded assessments) then completion of each item will increase the course completion by 5%.
+> Every course item in a course has equal weightage i.e. if there are 20 items for a course (including lessons, non-graded assessments, and graded assessments) then completion of each item will increase the course completion by 5%.
 
 ### How to view and download individual learners' progress?
 

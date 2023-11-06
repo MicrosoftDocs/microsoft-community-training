@@ -41,7 +41,7 @@ Think of it as a book in a traditional education system. For each course, you ca
 
 Every course may also include a certificate that will be awarded to the learner on either a successful completion of the course or passing the graded assessment.  
 
-For example, an organization has a technical course on Washing Machine installation with a total duration of 20 minutes from start to finish. We can divide the video into segments of 2 to 3 minutes resulting in 6-10 lessons and add an exam towards the end to assess and certify the learners.  
+For example, an organization has a technical course on Washing Machine installation with a total duration of 20 minutes from start to finish. We can divide the video into segments of 2 to 3 minutes resulting in 6-10 lessons and add an assessment towards the end to assess and certify the learners.  
 
 ### Lessons
 
@@ -62,7 +62,7 @@ A **Lesson** is a single unit of learning in the form of Audio, Video, PDF, Word
 
 A **Non-graded Assessment** provides a refresher for learners and facilitates revision of a particular lesson. It encourages and motivates the learner to go to the next lesson.
 
-For example, a learner who has seen three lessons takes an assessment and finds that he has got two out of three questions correct. He can go back to the lesson, view it again and repeat the quiz till he fully understands the subject.
+For example, a learner who has seen three lessons takes an assessment and finds that they've got two out of three questions correct. They can go back to the lesson, view it again and repeat the assessment till they fully understands the subject.
 
 #### Graded Assessment
 
@@ -70,7 +70,7 @@ For example, a learner who has seen three lessons takes an assessment and finds 
 
 The Graded Assessment is always at the end of the course and can be attempted only when all the lessons and assessments in the course have been completed.  
 
-For example, an organization who wants to certify their technicians on Washing Machine installation can put an exam at the end with a passing percentage to assess the technicians knowledge and provide certification accordingly.  
+For example, an organization who wants to certify their technicians on Washing Machine installation can put an assessment at the end with a passing percentage to assess the technicians knowledge and provide certification accordingly.  
 
 #### Difference between non-graded and graded assessments
 

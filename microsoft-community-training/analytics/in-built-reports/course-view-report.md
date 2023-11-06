@@ -59,7 +59,7 @@ This view gives a graphical representation of the growth in the number of course
 
 ## Learner performance
 
-This section in the Course View enables an admin to track the learner’s progress and compare performance for a given course. In the table below, for each learner, you can see the completion percentage, number of lessons completed, number of quizzes completed (including exams), and average quiz score percentage (including exams).  
+This section in the Course View enables an admin to track the learner’s progress and compare performance for a given course. In the table below, for each learner, you can see the completion percentage, number of lessons completed, number of assessments completed (including graded assessments), and average assessment score percentage (including graded assessment).  
 ![Learner performance](../../media/image%2873%29.png)
 
 > [!NOTE]  

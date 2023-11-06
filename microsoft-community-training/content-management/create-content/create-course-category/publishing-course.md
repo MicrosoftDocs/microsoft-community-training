@@ -9,7 +9,7 @@ ms.prod: learning-azure
 
 # Publish a course on the training portal
 
-Any new course created on the Community Training management portal will not be accessible to the learners until it is published. This also means that any changes made to the course content (i.e. adding a new lesson, quizzes and exam) will not come into effect until the new content is published.
+Any new course created on the Community Training management portal will not be accessible to the learners until it is published. This also means that any changes made to the course content (i.e. adding a new lesson, non-graded assessment, and graded assessment) will not come into effect until the new content is published.
 
 In this article, you will learn how to publish a course on the management portal and what is required in preparation.
 

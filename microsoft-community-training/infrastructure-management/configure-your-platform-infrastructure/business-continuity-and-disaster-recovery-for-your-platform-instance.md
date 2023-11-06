@@ -59,7 +59,7 @@ To set up for Business Continuity and Disaster Recovery, following are the step 
 
 8. Azure media service does not support reading from Geo Redundant Storage, so the media assets from primary storage account must be copied to the new secondary storage account as per this [document](/azure/media-services/previous/media-services-implement-failover). And then same origin locator ID must be set for every asset.
 
-   For Example,
+   For example:
 
    **New**: `https://demoenveus2amsbkaqcmuvy3-use2.streaming.media.azure.net/b81f3e36-2347-4e4e-a08a-e5ece1c0b372/Nature Beautiful short video 720.ism/manifest`
 

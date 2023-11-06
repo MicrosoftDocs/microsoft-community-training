@@ -75,7 +75,7 @@ Course Completion Event
 "CourseName" : String, // Name of the course
 "CourseId" : Integer, // Id of the course
 "CompletionDate": String, // Course completion date
-"ExamPercentage": String, // Exam percentage, "Not Applicable" if no exam present.
+"ExamPercentage": String, // assessment percentage, "Not Applicable" if no assessment present.
 }
 ```
 
@@ -86,21 +86,21 @@ Course Completion Event
 Microsoft Community Training has enabled 4 types of events for customers to track dynamic learner actions on their training instance,  
 
 1. **Login Event**: This will be called when the user explicitly signs in by clicking the Sign In URL in MCT during On-boarding or the AD B2C token of the learner is expired (generally every 90 days) when accessing via the Driver’s app.
-2. **Course Start Event**: This will be called when a learner starts a course, this is same as lesson starting since Grab only has 1 video lesson in the system (at least with the current migration)
-3. **Module Completion**: This will be the completion of either the lesson or the exam in the course
-4. **Course Completion**: This will be the Course Completion event sent once the Exam is passed
+2. **Course Start Event**: This will be called when a learner starts a course, this is same as lesson starting since Grab only has 1 video lesson in the system (at least with the current migration).
+3. **Module Completion**: This will be the completion of either the lesson or the assessment in the course.
+4. **Course Completion**: This will be the Course Completion event sent once the graded assessment is passed.
 
 ### Sample Sequence of Events
 
 Following will be the sequence of event for a learner accessing a course in MCT with 1 video and 1 lesson.
 
-1. LOGIN: When the learner clicks on Sign In button in MCT explicitly
+1. LOGIN: When the learner clicks on Sign In button in MCT explicitly.
 2. COURSE_START: Start of the Course which is equivalent to start of the Lesson or the Exam
-3. MODULE_COMPLETION: End of Video Completion
-4. MODULE_COMPLETION: Exam completed
-5. COURSE_COMPLETION: Course completed
-6. COURSE_START: UI re-rendering post exam completion
-7. COURSE_START: UI re-rendering post course completion
+3. MODULE_COMPLETION: End of Video Completion.
+4. MODULE_COMPLETION: Graded assessment completed.
+5. COURSE_COMPLETION: Course completed.
+6. COURSE_START: UI re-rendering post-assessment completion.
+7. COURSE_START: UI re-rendering post course completion.
 
 Sample Events in Sequence
 

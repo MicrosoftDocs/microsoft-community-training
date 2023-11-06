@@ -30,7 +30,7 @@ Community Training provides role-based administration and depending on the acces
 
 ## Track overall learner progress and performance in a group
 
-On the group details page, admins can view the list of all learners in a group along with course completion, average quiz score, courses enrolled by group admin, and certificates received.
+On the group details page, admins can view the list of all learners in a group along with course completion, average assessment score, courses enrolled by group admin, and certificates received.
 
 * For example, the image shows the group analytics details for  employees in Digital Marketing:
 
@@ -42,7 +42,7 @@ In the grid view, for each learner, the group administrator can see the followin
 
 2. **Course Registrations**: Total number of courses assigned by the group administrator for a participant in the group.
 
-3. **Assessment Score**: Average of the quiz score (including exam) of a learner across all the completed courses.
+3. **Assessment Score**: Average of the assessment score (including graded-assessment) of a learner across all the completed courses.
 
 4. **Certificates received**: number of certificates received by a learner for completed courses.
 

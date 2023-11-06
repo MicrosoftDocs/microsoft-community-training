@@ -64,7 +64,7 @@ In this section, you will learn how to add non-graded assessments to a course:
 
     A non-graded assessment might typically look like this:
 
-     :::image type="content" source="../../../media/Assessment - New AssessmentQuiz.PNG" alt-text="Quiz question details":::
+     :::image type="content" source="../../../media/Assessment - New AssessmentQuiz.PNG" alt-text="Assessment question details":::
 
     > [!NOTE]
     > If only two possible options are needed use the **Delete** button next to the option field to remove it. To add more options use the **Add Option** button to increase choices for the question.
@@ -88,22 +88,22 @@ In this section, you will learn how to add a graded assessment to a course.
 
 1. On the Community Training portal, login and [**switch to administrator view**](../../../get-started/step-by-step-configuration-guide.md#step-2--switch-to-administrator-view-of-the-portal).
 
-1. Under the Course tab, select the course under a category in the list to which you want to add an Exam.
+1. Under the Course tab, select the course under a category in the list to which you want to add an assessment.
 
 1. Click or tap on the **New Assessment** button and select the **Graded assessment** option from the drop-down menu.
 
     :::image type="content" source="../../../media/Assessment - New AssessmentFinalExam.PNG" alt-text="New assessment for graded assessment":::
 
 1. Enter details for the **graded assessment** on the portal as below:
-    * Enable the **shuffle mode** for the exam questions/answer options if required. This will ensure that learners will always be offered a different version of the assessment so you can be sure that answers cannot be memorized for subsequent attempts or copied from others.
-    * Define the **passing percentage** and **number of attempts** a learner can take the exam based on the degree of difficulty.
+    * Enable the **shuffle mode** for the questions/answer options if required. This will ensure that learners will always be offered a different version of the assessment so you can be sure that answers cannot be memorized for subsequent attempts or copied from others.
+    * Define the **passing percentage** and **number of attempts** a learner can take the assessment based on the degree of difficulty.
     * Enable the **Show answers to learner** if you would like to add answer explanation which would be shown to the learner once he/she completes the assessment and are viewing their answers/scores.
-    * Enter **Graded Assessment Title**. The graded assessment title is the name for the exam displayed to the learners on the web portal and mobile application. For example: *Final Exam*
+    * Enter **Graded Assessment Title**. The graded assessment title is the name for the assessment displayed to the learners on the web portal and mobile application. For example: *Final Assessment*
 
         :::image type="content" source="../../../media/Assessment - graded question.PNG" alt-text="graded assessment":::
 
     > [!NOTE]
-    > All the questions in the exam carry equal weightage. And **Exam** is always the last segment of the course.
+    > All the questions in the assessment carry equal weightage. And an **assessment** is always the last segment of the course.
 
 1. Enter details for **Question 1** on the portal as below:
     * Question Type dropdown - Select the format that you would like to use for this question. You can select:
@@ -128,12 +128,12 @@ In this section, you will learn how to add a graded assessment to a course.
 
     :::image type="content" source="../../../media/Assessment - answer explanantion.PNG" alt-text="answer explanation":::
 
-1. Click or tap **Add Question**, to add more questions in the **Exam** and repeat Step 5.
+1. Click or tap **Add Question**, to add more questions in the assessment and repeat Step 5.
 
-1. Once you have finished adding questions, click or tap the **Save** icon to the right-end of the assessment title to upload the exam to the portal.
+1. Once you have finished adding questions, click or tap the **Save** icon to the right-end of the assessment title to upload the assessment to the portal.
 
 > [!TIP]
-> Use the [**bulk upload questions feature**](add-assessments-to-a-course.md#bulk-upload-questions-for-a-non-graded-assessment-or-graded-assessment) to seamlessly import your existing questions list for an Exam.
+> Use the [**bulk upload questions feature**](add-assessments-to-a-course.md#bulk-upload-questions-for-a-non-graded-assessment-or-graded-assessment) to seamlessly import your existing questions list for an assessment.
 
 ## Bulk upload questions for a non-graded assessment or graded assessment
 

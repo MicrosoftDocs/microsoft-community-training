@@ -52,4 +52,4 @@ In this article, you will learn how to export course content from one training p
 
 1. Next, locate and open the downloaded zip file then select **Upload**.  As with the download, the time taken to upload will vary depending on the file size and internet speed.
 
-1. Once the courses are imported successfully, you will see the courses in the new instance as an exact replica of the courses in the previous instance i.e. for each course, all the course details (like description, thumbnails, enrollment type, etc.) as well as the content (like lessons, practice quiz and exam) will be same.
+1. Once the courses are imported successfully, you will see the courses in the new instance as an exact replica of the courses in the previous instance i.e. for each course, all the course details (like description, thumbnails, enrollment type, etc.) as well as the content (like lessons, non-graded assessments and graded assessments) will be same.

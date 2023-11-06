@@ -57,7 +57,7 @@ All APIs now provide detailed error messages about the failure, simplifying the 
 
 * Courses can now be bulk-uploaded with their logos.
 
-* Deleting lessons or quizzes concurrently no longer affects course completion.
+* Deleting lessons or assessments concurrently no longer affects course completion.
 
 * The flow for adding and updating subtitles has been fixed.
 

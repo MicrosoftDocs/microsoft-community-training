@@ -58,7 +58,7 @@ This article explains how learners can access the training content using the web
 
     :::image type="content" source="../media/LearnerLanguage1.jpg" alt-text="Learner language drop down":::
 
-3. Content on the homepage will be updated based on your chosen language. Refer to [**Course Translations**](../content-management/create-content/create-course-category/create-a-new-course.md#option-4---create-multiple-translations-of-a-course) to understand how language change impacts the learner view.
+3. Content on the homepage will be updated based on your chosen language. Refer to [**Course Translations**](../content-management/create-content/create-course-category/create-a-new-course.md#option-4---create-multiple-translations-for-a-course) to understand how language change impacts the learner view.
 
 >[!NOTE]
 >Only the languages enabled by the Global administrator will be available for selection. The dropdown will not be available to learners if only one language is enabled on the platform.
@@ -84,13 +84,13 @@ This article explains how learners can access the training content using the web
 
 1. On the **My Course** page, select the Learning Path or Course item, which you want to view and learn.
 
-2. Every course consists of a course description, lessons, practice quizzes, and an exam as shown in the course outline. Any completed course item gets a green circled tick mark:
+2. Every course consists of a course description, lessons, non-graded assessments and a graded assessment as shown in the course outline. Any completed course item gets a green circled tick mark:
 
     :::image type="content" source="../media/image(181).png" alt-text="Green circled tick mark":::
 
-3. To view any lesson content or attempt a practice quiz, select the course item in the outline.
+3. To view any lesson content or attempt a non-graded assessment, select the course item in the outline.
 
-4. An exam is always the last item in each course and it's available only when you have completed all the previous course items.
+4. An assessment is always the last item in each course and it's available only when you have completed all the previous course items.
 
     :::image type="content" source="../media/image(182).png" alt-text="Previous Course":::
 

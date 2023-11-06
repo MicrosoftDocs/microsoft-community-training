@@ -43,7 +43,7 @@ The management portal provides all the administrative functions like course mana
 
 You can personalize the training portal by configuring various elements of the interface and user settings. To do so, use the **Settings** tab in the management portal:
 
-* You can customize the [**look and feel of the portal**](../settings/configure-the-look-and-feel-of-your-portal.md)  to reflect your organization’s branding including the portal name, logos, color themes, banners, and messaging.
+* You can customize the [**look and feel of the portal**](../settings/customize-the-look-and-feel-of-your-portal.md)  to reflect your organization’s branding including the portal name, logos, color themes, banners, and messaging.
 
 * You can also [**create additional profile fields**](../settings/add-additional-profile-fields-for-user-information.md) to capture user information at the time of sign-up.
 

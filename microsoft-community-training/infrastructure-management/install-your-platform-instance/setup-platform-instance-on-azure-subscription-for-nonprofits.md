@@ -9,9 +9,11 @@ ms.prod: learning-azure
 
 # Setup platform instance on Azure subscription for Nonprofits
 
-If you are a non-profit organization, you can apply for Azure credit grant of $3500 per year which can be used to setup and run an instance of the Community Training platform for your organization.
+•	If your organization has already completed our nonprofit eligibility check, and your organization has been confirmed, you can apply for the $2,000 annual Azure grant and apply that to the cost of Community Training, if your organization chooses to do so. Review eligibility requirements [**here**](https://www.microsoft.com/en-us/nonprofits/eligibility?activetab=pivot1%3aprimaryr4).  
+•	If you chose to use the Azure grants for this service and spend beyond the $2,000 annual Azure grant, you will convert to pay-as-you-go and the credit card tied to your account will be charged.
 
-In this article, you will learn how to avail the Azure credit grant of $3500 per year for non-profits and create a pay-as-you-go subscription to get started with the deployment of the Community Training platform.
+
+In this article, you will learn how to avail the Azure credit grant of $2000 per year for non-profits and create a pay-as-you-go subscription to get started with the deployment of the Community Training platform.
 
 ## Eligibility Criteria
 

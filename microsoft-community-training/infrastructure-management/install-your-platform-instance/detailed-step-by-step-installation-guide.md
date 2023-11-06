@@ -9,7 +9,7 @@ ms.prod: learning-azure
 
 # Detailed step by step installation guide
 
-In this article, you’ll learn how to install and deploy Microsoft Community Training platform on your Azure subscription.
+In this article, you’ll learn how to install and deploy the Community Training platform on your Azure subscription.
 
 ## Before you begin
 
@@ -26,7 +26,29 @@ If you have a free trial Azure subscription, please upgrade to a Pay-as-you-go A
 
 Get the **owner** access to your pay-as-you-go Azure subscription. To learn more about how to get access, refer [**this article**](/azure/role-based-access-control/overview) on Azure documentation.
 
-### 3. Create a Google Play Account
+You will require **Owner** or **Contributor** role on the subscription to go through these steps.  
+
+ Along with these,you will need to have:
+
+* **"Application Administrator" + "External ID User Flow Administrator" OR "Global Administrator" access - for Azure AD B2C**
+* **"Application Administrator" OR "Global Administrator" - for Microsoft Entra ID**
+
+### 3. Get the required information
+
+Based on the authentication type (Phone/Social login OR Work/School Account), you will need to have the following information handy.
+| **Key**                               | **Phone/Social Login (ADB2C)**                                                                                                                                                                                                                                                                                                                      | **Work/School Account (MS Entra ID)**                   |
+|---------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------|
+| **Global Admin Contact**              | The emailID /phone number of the Global Admin on the Community Training portal                                                                                                
+| **Tenant Identifier**                 | The tenant id of your Azure Active Directory B2C tenant                                                                                                                                                                                                                                                                                             | The tenant id of your Microsoft Entra ID tenant         |
+| **Client Identifier**                 | Client id of your Azure Active Directory B2C application                                                                                                                                                                                                                                                                                            | Client ID of the Microsoft Entra ID application         |
+| **Client Secret**                     | Client Secret Key of your Azure Active Directory B2C application                                                                                                                                                                                                                                                                                    | Client Secret Key of the Microsoft Entra ID application |
+| **User Flow Name**                    | Name of the user-flow configured in your Azure Active Directory B2C tenan                                                                                                                                                                                                                                                                           | N/A                                                     |
+| **Password Resetr Policy (Optional)** | The password Reset Policy for the ADB2C Tenant. Please refer to this [**link**](https://learn.microsoft.com/en-us/azure/industry/training-services/microsoft-community-training/infrastructure-management/install-your-platform-instance/configure-login-social-work-school-account?WT.mc_id=Portal-Microsoft_Azure_CommunityTraining#social-account-or-email-based-authentication) | N/A                                                     |
+| **Tenant Name**                       | Tenant name of your Azure Active Directory B2C tenant                                                                                                                                                                                                                                                                                               | Tenant name of your Microsoft EntraID tenant            |
+
+
+
+### 4. Create a Google Play Account
 
 [**Sign up on Google Play console**](https://play.google.com/apps/publish/signup/)  in order to publish your app on the Google Play Store.  This is required only if you require mobile app for Microsoft Community Training instance.
 

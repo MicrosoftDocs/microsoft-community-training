@@ -52,14 +52,14 @@ Go to the CT portal's SQL database from the managed resource group (Find the dap
 
     ![Query Editor](../../media/image%28347%29.png)
 
-2. This query editor will ask for a username and password that can be retrieved from the key vault. (Go to the resource group and select your key vault).
+2. This query editor will ask for a username and password that can be retrieved from the key vault. Go to the resource group and select your key vault.
 
     ![key-vault](../../media/image%28348%29.png)
 
 ## Accessing Key Vault
 
 > [!IMPORTANT]  
-> If you are facing a key vault issue when trying to get the password of the Admin user for the CT Database in Azure, and you get the error - "The operation “List” is not enabled in this key vault’s access policy"- then perfrom the following steps:
+> If you are facing a key vault issue when trying to get the password of the Admin user for the CT Database in Azure, and you get the error - "The operation “List” is not enabled in this key vault’s access policy"- then perform the following steps:
 
 Go to the key vault (sign in to your [Azure portal](https://ms.portal.azure.com/), search and select **Key vaults**, and select the key vault corresponding to your application's resource group). By default, the user does not have access permission to view the keys, secrets, and certificate information stored in the key vault. To gain access, do the following:
 
@@ -67,7 +67,7 @@ Go to the key vault (sign in to your [Azure portal](https://ms.portal.azure.com/
 
     ![Select Access Policies](../../media/image%28349%29.png)
 
-2. Select **[+ Add Access Policy]** at the top of the pane:
+2. Select **+ Add Access Policy** at the top of the pane:
 
     ![access policy 1](../../media/access%20policy%201.png)
 
@@ -89,20 +89,20 @@ Go to the key vault (sign in to your [Azure portal](https://ms.portal.azure.com/
 
 9. Select the current version, and select **Show Secret Value** in the right pane. You can then see the Password for the selected item:
 
-**Note**: You may need to add your IP address in Firewall.
+    **Note**: You may need to add your IP address in Firewall.
 
-![firewal select](../../media/firewal%20select.png)
+    ![firewal select](../../media/firewal%20select.png)
 
-To add client IP, select **Add client IP** and select the **Save** icon:
+10. To a add client IP, select **Add client IP** and select **Save**:
 
-![Save](../../media/FIREWAL.png)
-
+    ![Save](../../media/FIREWAL.png)
+    
 ## Executing SQL Queries
 
 1. To run a SQL query, go to your Azure portal and select  **Query editor**:
 
     ![Query editor](../../media/image%28353%29.png)
 
-2. The admin to login to the above portal can be obtained from the **Key vault**. See [accessing Key vaults](./database-schema.md#accessing-key-vault) section for more details.
+2. The admin login to the above portal can be obtained from the **Key vault**. See [accessing Key vaults](./database-schema.md#accessing-key-vault) section for more details.
 
     ![See accessing Key vaults](../../media/image%28354%29.png)

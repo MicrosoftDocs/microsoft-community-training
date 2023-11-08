@@ -9,7 +9,7 @@ ms.prod: learning-azure
 
 # Category View
 
-Similar to the overall summary view, Category View provides admins a quick glance at the learner registrations, and course completion for a particular category. It provides insights on content quality, facilitates comparative analytics across courses in a category, and enables admins to notice things that require attention.
+Similar to the overall summary view, Category View provides admins a quick glance at learner registrations, and course completion for a particular category. It provides insights on content quality, facilitates comparative analytics across courses in a category, and enables admins to notice things that require attention.
 
 To access the Category View, you can select a specific row from the category grid in the overall summary view page.
 
@@ -17,7 +17,7 @@ In this article, you will learn more about different metrics and reports availab
 
 ## Permissions Level
 
-The Community Training portal provides role-based administration, and depending upon the type of access level an administrator can perform certain actions on the portal. The table below shows the administrative roles that can access the Category View:  
+The Community Training portal provides role-based administration, and depending on the type of access level, an administrator can perform certain actions on the portal. The table below shows the administrative roles that can access the Category View:  
 
 |Access Level  |Category View|
 |---|---|
@@ -51,12 +51,12 @@ This section provides a breakdown of the popular courses under a category.
 ![No courses with zero enrollments](../../media/image%2867%29.png)
  This comparative insight helps admins to take further action to improve the course content or to engage learners effectively.
 
-### Course registration/completion over time
+### Course registration and completion over time
 
 The graph provides information about total course enrollment and course completion across all the courses under a given category over time. Hover over the title to view the description of this graph. The values that are measured are:
 
 * x-axis — Timeline
-* y-axis — Total no of course registrations/completion across all courses under a category
+* y-axis — Total number of course registrations/completion across all courses under a category
 
 As shown in the image below, there are four course completions for the courses in the Healthcare category.  
 ![4 course completion in the Healthcare](../../media/image%2869%29.png)
@@ -65,7 +65,7 @@ This view gives a graphical representation of the growth in the number of course
 
 ### Top courses by completion
 
-This section provides information on popular courses by completions for a given category. This comparative insight helps the admins to take further action to improve the course content or to engage learners effectively.  
+This section provides information on popular courses by completions for a given category. This comparative insight helps admins to take further action to improve the course content or to engage learners effectively.  
 ![Top Courses by Completion](../../media/image%2870%29.png)
 
 ## Comparative insights on course registration and completion for a given category

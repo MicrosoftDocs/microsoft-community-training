@@ -47,9 +47,7 @@ This article explains how learners can access training content using the [Progre
 
 ## Step 3: Choose language
 
-1. After setting up the profile, you can choose to change the language from the dropdown in the profile section.
-
-    :::image type="content" source="../media/pwaofflang.png" alt-text="offlinelanguage" lightbox="../media/pwaofflang.png":::
+1. After setting up the profile, you can choose to change the language from the dropdown at the top of the portal.
 
 2. Content on the home page will be updated based on your chosen language. Refer to [**Course Translations**](../content-management/create-content/create-course-category/create-a-new-course.md#option-4---create-multiple-translations-for-a-course) to understand how language change impacts your learner view.
 
@@ -75,9 +73,9 @@ This article explains how learners can access training content using the [Progre
 
 1. On the **My Course** page, select the Course item which you want to view and learn.
 
-2. Every course consists of a course description, lessons, and assessments (graded or non-graded) as shown in the course outline. You will see a green circled tick mark once a course item is completed:
-
     :::image type="content" source="../media/pwaoffvoureview.png" alt-text="pwaofflinecourseview":::
+
+2. Every course consists of a course description, lessons, and assessments (graded or non-graded). You will see a green circled tick mark once a course item is completed.
 
 3. To view any lesson content or attempt an assessment, select the course item in the outline.
 
@@ -97,18 +95,19 @@ This article explains how learners can access training content using the [Progre
 
 ## Step 7: Delete downloaded content to free up space
 
-1. On the **Downloads** page, tap on the **Delete** option to the right of the content.
+1. On the **Downloads** page, select the **Delete** option to the right of the content.
 
     :::image type="content" source="../media/pwaoffdelete.png" alt-text="pwaofflinedelete" lightbox="../media/pwaoffdelete.png" :::
 
 2. You can also view the deleted content from the **Recently Deleted** section on the Downloads page.
 
- * The content downloaded for offline consumption from a PWA-based app gets stored in browser storage.
-
- * The current limit for storage is capped for each lesson at 200 MB, overall limit is dependent on device storage.
-
- * Metadata for content in **Recently Deleted** section will be retained for 90 days.
-
- * Currently Community Training supports offline download (in PWA) for the following file types: .doc, .docx, .ppt, .pptx, .xlx, .xlsxPDF, EPUB, video, audio files, and single HTML files.
-
- * Only Non-Graded Assessments can be taken and submitted offline. Graded Assessments can only be taken while online.
+> [!NOTE]
+>  * The content downloaded for offline consumption from a PWA-based app gets stored in browser storage.
+> 
+>  * The current limit for storage is capped for each lesson at 200 MB, overall limit is dependent on device storage.
+> 
+>  * Metadata for content in **Recently Deleted** section will be retained for 90 days.
+> 
+>  * Currently, Community Training supports offline download (in PWA) for the following file types: .doc, .docx, .ppt, .pptx, .xlx, .xlsxPDF, EPUB, video, audio files, and single HTML files.
+> 
+>  * Only non-graded Assessments can be taken and submitted offline. Graded assessments can only be taken while online.

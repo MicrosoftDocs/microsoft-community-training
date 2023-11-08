@@ -13,7 +13,7 @@ The overall Summary View is designed to give the admin a quick glance at learner
 
 To access the overall Summary View, you need to select the **Analytics option** on the left navigation panel.
 
-In this article, you will learn more about different metrics and reports available to administrators, so they can monitor the overall health and success of the training program:
+In this article, you will learn more about different metrics and reports available to administrators, so they can monitor the overall health and success of the training program.
 
 ## Permissions Level
 
@@ -40,7 +40,8 @@ The graph provides information about all the learners enrolled for all courses a
 
 ### Top courses by registration and courses with no enrollments
 
-This section provides information on the popular courses across categories. This comparative insight helps the admins to take further action to improve the course content or to engage learners effectively. As shown in the image below, Simple diagnostics has the most numbers of users enrolled and there are 11 courses qwith no user enrollments.  
+This section provides information on the popular courses across categories. This comparative insight helps the admins to take further action to improve the course content or to engage learners effectively. It also shows any courses with no registrations.
+
 ![All Courses](../../media/image%2834%29.png)
 
 ## Insights on learner engagement and course completion
@@ -59,7 +60,7 @@ This view gives a graphical representation of the growth in the number of course
 
 ### Top courses by completion  and courses with no completion
 
-This section provides a breakdown of the popular courses by completion across categories. This comparative insight helps the admins to take further action to improve the course content or to engage learners effectively. Looking at the image below, Community Farming has the most number of learner completion and there are 12 courses with no completion.  
+This section provides a breakdown of the popular courses by completion across categories. This comparative insight helps the admins to take further action to improve the course content or to engage learners effectively. Looking at the image below, Community Farming has the most number of learner completion and there are 51 courses with no completion.  
 ![Top Courses](../../media/image%2837%29.png)
 
 ## Comparative insights on course enrollment and completion across categories

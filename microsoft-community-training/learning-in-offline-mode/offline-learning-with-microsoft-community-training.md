@@ -9,9 +9,9 @@ ms.prod: learning-azure
 
 # Offline Learning with Community Training
 
-The Community Training team is working to enable online learning in offline mode.
+The Community Training team is working to enable learning in offline mode.
 
-Offline learning is currently in private preview state and is being continuously built, please connect with **sangam-pm@microsoft.com** if you intend to become an early adopter of the platform.
+Offline learning is currently in private preview and is in active progress, please connect with **sangam-pm@microsoft.com** if you intend to become an early adopter of the platform.
 
 ## Platform Vision
 

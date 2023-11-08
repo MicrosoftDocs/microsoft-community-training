@@ -9,11 +9,11 @@ ms.prod: learning-azure
 
 # Learner Experience on the web portal
 
-This article explains how learners can access the training content using the web portal for your organization's Community Training setup.
+This article explains how learners can access training content using the web portal for your organization's Community Training setup.
 
 ## Step 1: Sign in to your learning portal
 
-1. Open the web browser and visit the Community Training platform instance for your organization. For example, [**fabrikamtraining.azurefd.net**](https://fabrikamtraining.azurefd.net/)
+1. Open the web browser and visit the Community Training platform instance for your organization. For example: [**fabrikamlearning.azurewebsites.net/**](https://fabrikamlearning.azurewebsites.net/)
 
     :::image type="content" source="../media/image(173).png" alt-text="A screenshot of the home page.":::
 
@@ -64,7 +64,7 @@ This article explains how learners can access the training content using the web
 
 ## Step 4: Browse and register for courses
 
-1. After signing in, you can see all the registered learning paths, Courses, and their completion status.
+1. After signing in, you can see all the registered courses and their completion status.
 
     :::image type="content" source="../media/image(434).png" alt-text="Learning Path / Courses":::
 
@@ -81,15 +81,15 @@ This article explains how learners can access the training content using the web
 
 ## Step 5: Access and learn course content
 
-1. On the **My Course** page, select the Learning Path or Course item, which you want to view and learn.
+1. On the **My Course** page, select the course item which you want to view and learn.
 
-2. Every course consists of a course description, lessons, practice quizzes, and an exam as shown in the course outline. Any completed course item gets a green circled tick mark:
+2. Every course consists of a course description, lessons, and assessments as shown in the course outline. Any completed course item gets a green circled tick mark:
 
     :::image type="content" source="../media/image(181).png" alt-text="Green circled tick mark":::
 
-3. To view any lesson content or attempt a practice quiz, select the course item in the outline.
+3. To view any lesson content or attempt an assessmenet select the course item in the outline.
 
-4. An exam is always the last item in each course and it's available only when you have completed all the previous course items.
+4. A graded assessment is always the last item in each course and it's available only when you have completed all the previous course items.
 
     :::image type="content" source="../media/image(182).png" alt-text="Previous Course":::
 

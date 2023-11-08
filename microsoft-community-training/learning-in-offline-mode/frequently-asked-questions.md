@@ -12,11 +12,11 @@ ms.prod: learning-azure
 
 ### What is the list of content formats supported offline?
 
-In offline CT supports pdf, ePUB, html, 3GP, ogg, mov, m4v, mp4, mp3
+Offline, CT supports pdf, ePUB, html, 3GP, ogg, mov, m4v, mp4, and mp3.
 
-### How to sync content offline?
+### How to sync content offline
 
-The admin needs to select the `OfflineSync` flag while creating/editing the course for syncing the course to offline devices.
+The admin needs to select the `OfflineSync` flag while creating/editing the course or syncing the course to offline devices.
 
 * While creating a course, the admin will have the option to select the **Offline sync** checkbox. If the admin selects that checkbox, then all lessons in that course will be synced to an offline device.
 
@@ -51,7 +51,7 @@ As long as the device is connected to the internet, content sync will continue t
 >[!Note]
 >User progress sync will happen only once a day (at 12 AM system time).
 
-### How to add content in a different language locally to support users using a native language?
+### Adding content in a different language locally to support users using a native language
 
 Currently, the online [parent-child course](../settings/customize-languages-for-the-learners-on-the-platform.md#customize-languages-on-the-platform) relationship for languages is not supported through content sync. However, the following languages are supported on an edge device (English, French, Dutch, Spanish).
 

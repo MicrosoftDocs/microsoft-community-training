@@ -13,7 +13,7 @@ ms.custom: internal-contributor-guide
 
 # Power BI Integration
 
-Community Training stores all customer data in the Azure SQL database which is part of your Azure Subscription. You can access the database to build custom reports (using analytics tools such as PowerBI) and run SQL queries for specific operations.
+Community Training stores all customer data in the Azure SQL database which is part of your Azure Subscription. You can access the database to build custom reports (using analytics tools such as Power BI) and run SQL queries for specific operations.
 
 In this article, you will learn more about connecting Power BI with Azure SQL Database to build custom reports for your organization.
 
@@ -21,16 +21,16 @@ In this article, you will learn more about connecting Power BI with Azure SQL Da
 
 ### Prerequisites  
 
-1. Administrator who can access the Azure Portal where Community Training is hosted.
+1. An Administrator who can access the Azure Portal where Community Training is hosted.
 2. Azure SQL server User ID & Password. To view/retrieve your SQL Servers User ID & Password, refer to [this document](database-schema.md).  
 3. Store Client IP to Firewall (if you are using a dynamic IP, make sure to add the same one on the firewall whenever it changes).
 4. Access to the Power BI Application in your organization.
 
 ### Step 1 - Obtaining Server Name
 
-1. From your CT’s SQL Database select connection strings.
+1. Go to your Community Training SQL Database, and select **connection strings**.
 
-2. On the top bar select the PHP option.
+2. On the top bar select the **PHP** option.
 
     :::image type="content" source="../../media/image%28361%29.png" alt-text="select PHP on the nav bar":::
 
@@ -38,7 +38,7 @@ In this article, you will learn more about connecting Power BI with Azure SQL Da
 
 ### Step 2 – Connecting Power BI with CT SQL Database
 
-1. Open Power BI → select the **Get data** icon and select **More**.
+1. Open Power BI, select the **Get data** icon thenn select **More**.
 
     :::image type="content" source="../../media/image%28362%29.png" alt-text="Open Power BI, click on the get data icon and select more":::
 
@@ -60,21 +60,21 @@ In this article, you will learn more about connecting Power BI with Azure SQL Da
 
 6. All your selected tables will be imported into Power BI, and become available under fields:
 
-    :::image type="content" source="../../media/image%28367%29.png" alt-text="Loaded tables will be imported to PowerBI":::
+    :::image type="content" source="../../media/image%28367%29.png" alt-text="Loaded tables will be imported to Power BI":::
 
 7. Use the database schema from [this document](database-schema.md) to build relations required for your custom reporting requirements.
 
-## Sample PowerBI Reports
+## Sample Power BI Reports
 
-To help you get started on creating your own PowerBI reports here are some samples. These sample reports with their interactive visualizations can be used to create further customized reports for your specific requirements.
+To help you get started on creating your own Power BI reports here are some samples. These sample reports with their interactive visualizations can be used to create further customized reports for your specific requirements.
 
 The pbix files for the sample reports can be downloaded from here:
 
->[**CT PowerBI custom Dashboard.zip**](https://github.com/MicrosoftDocs/microsoft-community-training/files/7013084/MCT_Sample.Reports.PowerBI.zip)
+>[**CT Power BI custom Dashboard.zip**](https://github.com/MicrosoftDocs/microsoft-community-training/files/7013084/MCT_Sample.Reports.Power BI.zip)
 
 To be able to start using this dashboard you will need to replace the existing data source and connect the .pbix file with your own [**Database**](database-schema.md).
 
-### Steps to replace data source in the PowerBI dashboard
+### Steps to replace data source in the Power BI dashboard
 
 If you already have your credentials for connecting to DB then proceed to step 3.
 
@@ -82,9 +82,9 @@ If you already have your credentials for connecting to DB then proceed to step 3
 
 2. Obtain your password by [**Accessing Key Vault**](database-schema.md#accessing-key-vault).
 
-3. Once you have credentials, server name, and database name, you can go ahead to replace the data source in the dashboard provided. To do this you need to have [**Power BI**](/power-bi/fundamentals/desktop-getting-started) installed.
+3. Once you have credentials, server name, and database name, you can go ahead and replace the data source in the dashboard provided. To do this you need to have [**Power BI**](/power-bi/fundamentals/desktop-getting-started) installed.
 
-4. Open the .pbix file from the [**MCT PowerBI custom Dashboard.zip**](https://github.com/MicrosoftDocs/microsoft-community-training/files/7013084/MCT_Sample.Reports.PowerBI.zip) that you downloaded and open it from your Power BI Desktop and select **File** from menu bar.
+4. Open the .pbix file from the [**MCT Power BI custom Dashboard.zip**](https://github.com/MicrosoftDocs/microsoft-community-training/files/7013084/MCT_Sample.Reports.Power BI.zip) that you downloaded and open it from your Power BI Desktop and select **File** from menu bar.
 
     :::image type="content" source="../../media/BI_file.jpg" alt-text="file":::
 

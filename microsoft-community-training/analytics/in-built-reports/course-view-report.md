@@ -11,13 +11,13 @@ ms.prod: learning-azure
 
 Similar to the Category View, Course View provides admins a quick glance at learner enrollments, learner engagement, and course completion for a particular course. It facilitates comparative analytics for learner performance on a particular course and provides insights into content quality.
 
-To access the Course View, you can either select a specific row from the courses grid in the Category View page.
+To access the Course View, you can select a specific row from the courses grid in the Category View page.
 
-In this article, you will learn more about different metrics and reports available to the administrator as part of learner analytics for a specific course:
+In this article, you will learn more about different metrics and reports available to administrators as part of learner analytics for a specific course:
 
 ## Permissions Level
 
-The Community Training portal provides role-based administration and depending on the access level,  administrators can perform certain actions on the portal.  The table below shows the administrative roles which can access the Course View:  
+The Community Training portal provides role-based administration, and depending on the access level,  administrators can perform certain actions on the portal.  The table below shows the administrative roles which can access the Course View:  
 
 |Access Level|  Course View|
 |---|---|
@@ -50,7 +50,7 @@ The image below shows unique learners enrolled on the portal for the course.
 The graph provides information about total course enrollment and course completion across all the courses under a given category over time. Hover over the title to view the description of this graph. The values that are measured are:
 
 * x-axis — Timeline
-* y-axis — Total no. of course registrations/completion across for a particular course
+* y-axis — Total number of course registrations/completion across for a particular course
 
 The image below shows unique learners who completed the course on the portal.  
 ![1 unique user](../../media/image%2872%29.png)
@@ -59,7 +59,7 @@ This view gives a graphical representation of the growth in the number of course
 
 ## Learner performance
 
-This section in the Course View enables an admin to track the learner’s progress and compare performance for a given course. In the table below, for each learner, you can see the completion percentage, number of lessons completed, number of assessments completed (including graded assessments), and average assessment score percentage (including graded assessment).  
+This section in the Course View enables an admin to track the learner’s progress and compare performance for a given course. In the table below, for each learner, you can see the completion percentage, number of lessons completed, number of assessments completed (including graded assessments), and average assessment score percentage.  
 ![Learner performance](../../media/image%2873%29.png)
 
 > [!NOTE]  
@@ -71,7 +71,7 @@ From the learner performance grid, you can:
 2. Select **Download List** to download the data into an Excel sheet.
 3. Select a row to view detailed information about individual lesson progress.
 
-## Lesson grid
+## Lessons grid
 
 This section in the Course View provides information on the number of learners who have completed a particular lesson in the course. In the table below, for each lesson, you can see the number of times the lesson has been completed.  
 ![Times the lesson has been completed](../../media/image%2874%29.png)

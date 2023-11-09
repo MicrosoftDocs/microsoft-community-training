@@ -147,6 +147,6 @@ You can change the domain of your portal and use a custom domain that reflects y
 
 ### Is there an inbuilt feature to take feedback from learners or conduct surveys?
 
-Currently, Community Training doesn't have an inbuilt feature to create feedback forms or surveys. To collect feedback from learners or conduct surveys, you can create an online form using tools such as Microsoft Forms, Survey Monkey, Google Forms, etc., and share the form URL via the training portal.
+Community Training supports collecting user feedback at a course level via a _pre-filled Google Forms or Surveymonkey_ links. Please refer to this article on  [*adding a feedback form to a course*](../content-management/create-content/create-course-category/add-feedback-form-for-a-course.md)
 
 The online form can be added directly to the course or shared with learners via the announcement feature.

@@ -11,12 +11,24 @@
       "type_mapping": {
         "Conceptual": "Content"
       },
+      {
+        "docset_name": "community-training",
+        "build_source_folder": "community-training",
+        "build_output_subfolder": "community-training",
+        "locale": "en-us",
+        "monikers": [],
+        "moniker_ranges": [],
+        "open_to_public_contributors": false,
+        "type_mapping": {
+          "Conceptual": "Content"
+        },
       "build_entry_point": "docs",
       "template_folder": "_themes"
     }
   ],
   "notification_subscribers": [
-    "gkamthan@microsoft.com"
+    "gkamthan@microsoft.com",
+    "cbrahmandam@microsoft.com"
   ],
   "sync_notification_subscribers": [],
   "branches_to_filter": [],

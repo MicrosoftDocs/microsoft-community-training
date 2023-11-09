@@ -12,7 +12,7 @@ zone_pivot_groups: "AD-Deployments-Methods"
 
 ## Prerequisite
 
-Please follow [**installation article**](../../infrastructure-management/install-your-platform-instance/installation-guide-detailed-steps.md) to Deploy your CT instance. In the step “**Set up your Login type**”, select the suitable identity type.
+Please follow [**installation article**](../../infrastructure-management/install-your-platform-instance/detailed-step-by-step-installation-guide.md) to Deploy your CT instance. In the step “**Set up your Login type**”, select the suitable identity type.
 
 ![Login Identity types](../../media/LoginIdentity1.png)
 
@@ -26,7 +26,7 @@ Microsoft Community Training platform provides two types of login:
 2. Microsoft Work or School account
 
 > [!NOTE]
-> Please note this article is in continuation of the [**installation article**](../../infrastructure-management/install-your-platform-instance/installation-guide-detailed-steps.md).
+> Please note this article is in continuation of the [**installation article**](../../infrastructure-management/install-your-platform-instance/detailed-step-by-step-installation-guide.md).
 
 In this article, we will walk you through on how to configure login identity for the platform.
 
@@ -108,7 +108,7 @@ You can create a new Azure Active Directory tenant or use an existing one based 
     * Enter the description and expiry time of the secret (recommended to select maximum allowed time for expiry) and click on Save button. A value would be shown. Save this Client secret value.
     :::image type="content" source="../../media/Obtain clientsecret value.PNG" alt-text="Image showing how to obtain Client Secret value ":::
 
-1. Note the values and follow [**installation article**](../../infrastructure-management/install-your-platform-instance/installation-guide-detailed-steps.md) to complete the deployment using the reatined values as below.
+1. Note the values and follow [**installation article**](../../infrastructure-management/install-your-platform-instance/detailed-step-by-step-installation-guide.md) to complete the deployment using the reatined values as below.
 
     ![Enter clientId, secret,tenantId,Name](../../media/LoginIdentity6.png)
 
@@ -216,7 +216,7 @@ Here are the steps an create on Azure AD B2C tenant and link it to your training
 
 ![App Service](../../media/image%28355%29.png)
 
-1. Follow the [**installation article**](../../infrastructure-management/install-your-platform-instance/installation-guide-detailed-steps.md) to complete the Deployment by configuring obtained values as per the below screenshot:
+1. Follow the [**installation article**](../../infrastructure-management/install-your-platform-instance/detailed-step-by-step-installation-guide.md) to complete the Deployment by configuring obtained values as per the below screenshot:
 
     ![Create MCT redirect](../../media/LoginIdentity11.png)
 

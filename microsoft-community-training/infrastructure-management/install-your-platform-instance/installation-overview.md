@@ -37,7 +37,7 @@ Once you have decided your preferred endpoint and login type, follow the steps b
 
 **Step 1:** [**Get an Azure subscription**](https://azure.microsoft.com/pricing/purchase-options/pay-as-you-go/) 
 
-**Step 2:** [**Install from Azure Marketplace**](../../infrastructure-management/install-your-platform-instance/installation-guide-detailed-steps.md)
+**Step 2:** [**Install from Azure Marketplace**](../../infrastructure-management/install-your-platform-instance/detailed-step-by-step-installation-guide.md)
 
 **Step 3:** [**Create the Mobile App and Publish**](../../infrastructure-management/install-your-platform-instance/create-publish-mobile-app.md)
 

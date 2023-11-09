@@ -15,7 +15,7 @@ ms.date: 10/24/2023
 
 Community Training is a cloud-based solution that enables delivery of large-scale, far-spread training programs with high quality and efficiency. Community Training is an Azure-powered online learning platform to enable organizations of all sizes and types to run large scale training programs for their internal and external communities such as first line workers, extended workforces, partner ecosystem, volunteer network, program beneficiaries, etc.
 
-This article describes reliability support in Community Training, and covers  both regional resiliency with [availability zones](https://learn.microsoft.com/en-us/azure/reliability/availability-zones-overview?tabs=azure-clit) and [disaster recovery and business continuity](https://learn.microsoft.com/en-us/azure/reliability/disaster-recovery-overview). For a more detailed overview of a reliability principles in Azure, see [Azure reliability](https://learn.microsoft.com/en-us/azure/reliability/overview).
+This article describes reliability support in Community Training, and covers  both regional resiliency with [availability zones](/azure/reliability/availability-zones-overview?tabs=azure-clit) and [disaster recovery and business continuity](/azure/reliability/disaster-recovery-overview). For a more detailed overview of a reliability principles in Azure, see [Azure reliability](/azure/reliability/overview).
 
 ## Availability zone support
 
@@ -24,7 +24,7 @@ The control plane is zone redundant in the primary regions of availability.
 
 ### Data Plane
 Azure availability zones are physical locations within an Azure region that provide increased high availability and protection against datacenter failures. Each zone is made up of one or more datacenters with independent power, cooling, and networking.
-Reference: https://learn.microsoft.com/en-us/azure/reliability/availability-zones-overview.
+Reference: https://learn.microsoft.com/azure/reliability/availability-zones-overview.
 
 Community Training uses Azure availability zones to provide high availability and fault tolerance within an Azure region.
 It offers both Zonal and zone-redundant high availability. Customer can choose either of the redundancy options.
@@ -86,7 +86,7 @@ Once the customer enables eisaster recovery, we keep the backup of storage and d
 >
 >RTO depends on database and storage size, latency between the paired region, database or storage VM capacity (SKU).
 >
->RPO of community training dependends on underlying azure resources like Azure SQL and Azure storage. Reference: https://learn.microsoft.com/en-us/azure/azure-sql/database/recovery-using-backups?view=azuresql&tabs=azure-portal#geo-restore-considerations.
+>RPO of community training dependends on underlying azure resources like Azure SQL and Azure storage. Reference: https://learn.microsoft.com/azure/azure-sql/database/recovery-using-backups?view=azuresql&tabs=azure-portal#geo-restore-considerations&preserve-view=true.
 
 Once we detect an Community Training instance is down in any region, we take customer consent for failover to a paired region, explaining the list of features availabe during the disaster recovery. Once we get consent from the customer, their Community Training instance is failed over to paired the region.
 

@@ -89,7 +89,7 @@ To deploy the Community Training platform, you will need to add payment informat
 1. Complete the *About you* and *Payment Information* asked in the next page
 ![Payment information](../../media/image%28131%29.png)
 
-1. Once created, you can start deploying the Community Training platform on the subscription. See [**detailed steps here**](../../infrastructure-management/install-your-platform-instance/installation-guide-detailed-steps.md).
+1. Once created, you can start deploying the Community Training platform on the subscription. See [**detailed steps here**](../../infrastructure-management/install-your-platform-instance/detailed-step-by-step-installation-guide.md).
 
 > [!NOTE]
 > Adding payment details for your Azure subscription is mandatory to setup and install the Community Training platform. Once the Azure Sponsorship grant is consumed (i.e. $3500 of Azure service are billed), payment will be processed from the Credit or Debit card details provided.

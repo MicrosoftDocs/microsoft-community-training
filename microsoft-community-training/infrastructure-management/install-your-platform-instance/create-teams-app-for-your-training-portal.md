@@ -15,7 +15,7 @@ In this article, we will describe the steps required to configure your instance 
 
 ## Before you begin
 
-This article assumes you have followed the steps outlined in the [**installation article**](../../infrastructure-management/install-your-platform-instance/installation-guide-detailed-steps.md) and enabled Microsoft Teams as an endpoint during deployment from the marketplace.
+This article assumes you have followed the steps outlined in the [**installation article**](../../infrastructure-management/install-your-platform-instance/detailed-step-by-step-installation-guide.md) and enabled Microsoft Teams as an endpoint during deployment from the marketplace.
 
 If you haven't, please follow the Installation steps first and then refer this article to configure Microsoft Teams for your instance. Make sure you have the teams app package.
 

@@ -15,7 +15,7 @@ To make it simple for new users to get started with Community Training, you can 
 
 ## Step 1 – Sign in to the portal
 
-Select the **Get Started** or **Sign In** button to create an account or sign in. You can sign in with your mobile number, social account (email address), or Azure Active Directory account as defined at the time the platform is [**deployed**](../infrastructure-management/install-your-platform-instance/installation-guide-detailed-steps.md) from Azure marketplace.  
+Select the **Get Started** or **Sign In** button to create an account or sign in. You can sign in with your mobile number, social account (email address), or Azure Active Directory account as defined at the time the platform is deployed from Azure marketplace.  
 
 ![sign in](../media/sign-in.png)
 

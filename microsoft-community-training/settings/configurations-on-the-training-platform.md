@@ -13,7 +13,7 @@ You can customize the learner and administrator experience on the Community Trai
 
 In this article, you will learn about the different configuration options available on the Community Training platform and how to enable or disable the configurations.
 
-## Steps to set the configurations
+## Steps to set the configurations on the platform
 
 1. Sign in to [Azure portal](https://www.portal.azure.com/).
 

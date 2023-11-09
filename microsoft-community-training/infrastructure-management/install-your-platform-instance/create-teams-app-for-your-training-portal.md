@@ -23,7 +23,7 @@ If you haven't, please follow the Installation steps first and then refer this a
 
 ### Step 1 - Delegate permissions on your Azure AD application setup for Microsoft Community Training
 
-1. Login to the [Azure Portal](https://portal.azure.com/) with admin credentials
+1. Login to the [Azure Portal](https://portal.azure.com/) with admin credentials.
 
 1. Select **Directory + Subscription** in the portal toolbar then the directory that contains your Azure AD tenant or **search for and select Azure Active Directory**.
 
@@ -58,11 +58,11 @@ If you haven't, please follow the Installation steps first and then refer this a
 
 1. Unzip the file [**steps_to_create_manifest_file.zip**](https://github.com/MicrosoftDocs/microsoft-community-training/files/10336214/steps_to_create_manifest_file.zip).
 
-<!---
-1. Unzip the file [Manifest file setup.zip](https://github.com/MicrosoftDocs/microsoft-community-training/files/7755254/Manifest.file.setup.zip)
--->
+    <!---
+    1. Unzip the file [Manifest file setup.zip](https://github.com/MicrosoftDocs/microsoft-community-training/files/7755254/Manifest.file.setup.zip)
+    -->
 
-2. Open the PDF document "**Steps to create a MS Teams file.pdf**".
+1. Open the PDF document "**Steps to create a MS Teams file.pdf**".
 
 1. Follow the steps in the word file and make the necessary changes (as suggested in document) with reference to your CT instance.
 
@@ -89,7 +89,7 @@ If you haven't, please follow the Installation steps first and then refer this a
 
     ![Select Setup policies](../../media/image%28200%29.png)
 
-1. Next select the **Add Apps** button and search for the training application uploaded in the previous Step 3.
+1. Next select the **Add Apps** button and search for the training application uploaded in Step 3 - Install the Microsoft Teams App for your organization.
 
 1. Add the training application as a pinned application.
 

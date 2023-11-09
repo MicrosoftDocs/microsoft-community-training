@@ -13,7 +13,7 @@ This article shows you how to enable sign-in for users from a specific Azure AD 
 
 ## Step:1 Register an Azure AD app
 
-To enable sign-in for users with an Azure AD account from a specific Azure AD organization, in Azure Active Directory B2C (Azure AD B2C), you need to create an application in [**Azure portal**](https://portal.azure.com/). For more information, see [Register an application with the Microsoft identity platform](/azure/active-directory/develop/quickstart-register-app).
+To enable sign-in for users with an Azure AD account from a specific Azure AD organization,  you need to create an application in [**Azure portal**](https://portal.azure.com/) from your Azure Active Directory B2C account (Azure AD B2C). For more information, see [Register an application with the Microsoft identity platform](/azure/active-directory/develop/quickstart-register-app).
 
 1. Sign in to the [**Azure portal**](https://portal.azure.com/).
 1. Make sure you're using the directory that contains your organizational Azure AD tenant (for example, contoso.com). Select the **Directory + subscription filter** in the top menu, and then choose the directory that contains your Azure AD tenant.
@@ -27,7 +27,7 @@ To enable sign-in for users with an Azure AD account from a specific Azure AD or
 
      If you use a [custom domain](setup-custom-domain-url.md), enter `https://your-domain-name/your-tenant-name.onmicrosoft.com/oauth2/authresp`. Replace ***your-domain-name*** with your custom domain, and ***your-tenant-name*** with the name of your tenant.
 1. Select **Register** and record the **Application (client) ID** for use in a later step.
-1. Select **Certificates & secrets**, then select **New client secret**.
+1. Select **Certificates & secrets**, then **New client secret**.
 1. Enter a **Description** for the secret, select an expiration, then select **Add** and record the **Value** of the secret for use in a later step.
 
 ## Step 2: Configure Azure AD as an identity provider

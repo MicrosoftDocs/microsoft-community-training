@@ -118,7 +118,7 @@ Select the WAF policy instance that is deployed in the same resource group belon
 
 1. Select **Authentication**.
 
-1. Now add the redirect URL in the following format, *"https:// {customdomain} /signin-azureAD"*  (e.g.: "https://contosolearning.contoso.com/signin-azureAD")
+1. Now add the redirect URL in the following format, *"https:// {customdomain} /signin-azureAD"*  (e.g.: "https://contosolearning.contoso.com/signin-azureAD").
    > [!NOTE]  
    > Please ensure the case for "/azureAD" is exactly as mentioned since the URL is case sensitive.  
 
@@ -132,7 +132,7 @@ Select the WAF policy instance that is deployed in the same resource group belon
 
 1. Enter the name of the application, select Application type as “Web app/API”.
 
-1. Now add the redirect URL in following format, "https:// {websitename}-staging /signin-azureAD" (e.g  "https://contosolearning-staging.azurewebsites.net/signin-azureAD")
+1. Now add the redirect URL in following format, "https:// {websitename}-staging /signin-azureAD" (e.g  "https://contosolearning-staging.azurewebsites.net/signin-azureAD").
    > [!NOTE]  
    > Please ensure the case for "/azureAD" is exactly as mentioned since the URL is case sensitive.  
 
@@ -144,7 +144,7 @@ If your website is unreachable even after following all of the above mentioned s
 
 ![Troubleshoot for Custom Domain URL Setup](../../media/image%28341%29.png)
 
-Check the DNS entry is propagated by any online tool available. [Example](https://mxtoolbox.com/DNSLookup.aspx).
+Check the DNS entry is propagated by any online tool available, [for example](https://mxtoolbox.com/DNSLookup.aspx).
 
 There can be two cases:  
 

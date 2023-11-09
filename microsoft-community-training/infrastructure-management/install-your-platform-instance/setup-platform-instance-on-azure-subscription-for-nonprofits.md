@@ -3,23 +3,21 @@ title: Setup platform instance on Azure subscription for Nonprofits
 original-url: https://docs.microsoftcommunitytraining.com/docs/setup-platform-instance-on-azure-subscription-for-nonprofits
 author: nikotha
 ms.author: nikotha
-description: If you are a non-profit organization, you can apply for Azure credit grant of $2000 per year which can be used to setup and run an instance of the Community Training platform for your organization.
+description: If you are a non-profit organization, you can apply for Azure credit grant of $3500 per year which can be used to setup and run an instance of the Community Training platform for your organization.
 ms.prod: learning-azure
 ---
 
 # Setup platform instance on Azure subscription for Nonprofits
 
-•	If your organization has already completed our nonprofit eligibility check, and your organization has been confirmed, you can apply for the $2,000 annual Azure grant and apply that to the cost of Community Training, if your organization chooses to do so. Review eligibility requirements [**here**](https://www.microsoft.com/en-us/nonprofits/eligibility?activetab=pivot1%3aprimaryr4).  
-•	If you chose to use the Azure grants for this service and spend beyond the $2,000 annual Azure grant, you will convert to pay-as-you-go and the credit card tied to your account will be charged.
+If you are a non-profit organization, you can apply for Azure credit grant of $3500 per year which can be used to setup and run an instance of the Community Training platform for your organization.
 
-
-In this article, you will learn how to avail the Azure credit grant of $2000 per year for non-profits and create a pay-as-you-go subscription to get started with the deployment of the Community Training platform.
+In this article, you will learn how to avail the Azure credit grant of $3500 per year for non-profits and create a pay-as-you-go subscription to get started with the deployment of the Community Training platform.
 
 ## Eligibility Criteria
 
 Microsoft offers discounted and donated industry-leading solutions for nonprofits. Nonprofit or non-governmental organizations with recognized legal status in their respective country/region (equal to 501(c)(3) status under the United States Internal Revenue Code) can register for Microsoft non-profits.
 
-For more details on nonprofit organization eligibility requirements, [**visit this site.**](https://www.microsoft.com/en-us/nonprofits/eligibility?activetab=pivot1%3aprimaryr4)
+For more details on nonprofit organization eligibility requirements, [**visit this document.**](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE2Gxsp)
 
 ## Step 1  - Register for a Microsoft nonprofit grant
 
@@ -44,7 +42,7 @@ If you are already registered for Microsoft grant for non-profit then go to [ste
 
 1. Finish the registration process by selecting **Create my account**.
 
-For more information on the nonprofit grant and registration, please visit the [**Microsoft Nonprofits FAQs**](https://www.microsoft.com/en-us/nonprofits/faq).
+For more information on the nonprofit grant and registration, please visit the [**Microsoft Nonprofits FAQs**](https://www.microsoft.com/nonprofits/faq).
 
 ## Step 2  - Activate the Microsoft nonprofit grant
 
@@ -62,7 +60,7 @@ For more information on the nonprofit grant and registration, please visit the [
 1. Once you are connected, you will see all the eligible offers for your organization
 ![Eligible offers](../../media/image%28128%29.png)
 
-1. Select **Azure credits** from the list of offers to claim the $2000 azure credits for your organization.
+1. Select **Azure credits** from the list of offers to claim the $3500 azure credits for your organization.
 ![Azure credits](../../media/image%28129%29.png)
 
 1. To confirm Azure credits redemption for your organization, please visit [**Microsoft Azure Sponsorship**](https://www.microsoftazuresponsorships.com/) site to check your balance.
@@ -94,7 +92,7 @@ To deploy the Community Training platform, you will need to add payment informat
 1. Once created, you can start deploying the Community Training platform on the subscription. See [**detailed steps here**](../../infrastructure-management/install-your-platform-instance/installation-guide-detailed-steps.md).
 
 > [!NOTE]
-> Adding payment details for your Azure subscription is mandatory to setup and install the Community Training platform. Once the Azure Sponsorship grant is consumed (i.e. $2000 of Azure service are billed), payment will be processed from the Credit or Debit card details provided.
+> Adding payment details for your Azure subscription is mandatory to setup and install the Community Training platform. Once the Azure Sponsorship grant is consumed (i.e. $3500 of Azure service are billed), payment will be processed from the Credit or Debit card details provided.
 
 ## Step 4 - Confirm platform is deployed on Microsoft sponsored Azure subscription
 

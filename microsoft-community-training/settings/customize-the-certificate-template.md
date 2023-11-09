@@ -9,7 +9,7 @@ ms.prod: learning-azure
 
 # Customize the certificate template for the platform
 
-By default, Community Training uses a basic template to issue certificates to learners who have completed a course as shown below. Organization can customize the certificate template and put their own branding as required. You can create and assign multiple certificates appropriate to the course.
+By default, Community Training uses a basic template to issue certificates to learners who have completed a course. Organization can customize the certificate template and put their own branding as required. You can create and assign multiple certificates appropriate to the course. Here's an example of a certificate:
 
 ![Multiple certificates](../media/image%28324%29.png)
 
@@ -19,13 +19,13 @@ In this article, you will learn how to customize the certificate template on the
 
 To customize the certificate template on the platform follow these steps:
 
-1. Login to the Community Training portal and [**switch to administrator view**](../get-started/step-by-step-configuration-guide.md#step-2--switch-to-administrator-view-of-the-portal)
+1. Sign in to the Community Training portal and [**switch to administrator view**](../get-started/step-by-step-configuration-guide.md#step-2--switch-to-administrator-view-of-the-portal)
 
 1. Select **Settings** from the left navigation panel then **Certificate Templates** followed by **New Template**.
 
     ![certificate selection](../media/certificate%20selection.png)
 
-1. Enter a name for the certificate template then select the language from the *Select Language* dropdown list. The content printed by the platform will be made available in the selected language (default certificate language is "English").
+1. Enter a name for the certificate template then select the language from the **Select Language** dropdown list. The content printed by the platform will be made available in the selected language (default certificate language is "English").
 
 1. Select **Download PowerPoint template** under Certificate Template to download the certificate template and open the template in PowerPoint. [sample-certificate-template (6).pptx](https://github.com/MicrosoftDocs/microsoft-community-training/files/6938903/sample-certificate-template.6.pptx)
 

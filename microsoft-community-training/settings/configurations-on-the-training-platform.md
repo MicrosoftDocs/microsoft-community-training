@@ -7,15 +7,15 @@ description: This document details the customizations supported on the Community
 ms.prod: learning-azure
 ---
 
-# Configurations on the Training Platform
+# Configurations on the training platform
 
 You can customize the learner and administrator experience on the Community Training platform to fit the needs of your specific training program.
 
 In this article, you will learn about the different configuration options available on the Community Training platform and how to enable or disable the configurations.
 
-## Steps to set the Configurations on the Platform
+## Steps to set the configurations
 
-1. Login to [Azure portal](https://www.portal.azure.com/).
+1. Sign in to [Azure portal](https://www.portal.azure.com/).
 
 1. Select **App Services** from the left-menu.
 
@@ -41,7 +41,7 @@ In this article, you will learn about the different configuration options availa
 
     ![Save Application Settings.png](../media/Save%20Application%20Settings%281%29.png)
 
-## Certificates Received Metric
+## Certificates Received metric
 
 ```Certificates Received Metric
 Features:CertificatesEarnedMetricsEnabled
@@ -52,7 +52,7 @@ The portal allows you to customize the **Certificate received** metric of the le
 
 By default, this metric is kept enabled with value as **True**.
 
-## Courses Completed Today Metric
+## Courses Completed Today metric
 
 ```Courses Completed Today Metric
 Features:CourseCompletionsTodayMetricsEnabled
@@ -89,9 +89,9 @@ By default, this feature is disabled with value as **False** and therefore all c
 Features:NotificationDisabled
 ```
 
-In the learner's view, the portal provides a [Notification icon](../learner-experience/web-app.md#step-8-view-notifications) which notifies the learner of any new course being assigned to the learner. You have the flexibility to disable this features depending upon the scenario.
+In the learner's view, the portal provides a [Notification icon](../learner-experience/web-app.md#step-8-view-notifications) which notifies the learner of any new courses being assigned to the learner. You have the flexibility to disable this features depending upon the scenario.
 
-By default, this feature is **Disabled** with value as **False** so that learners gets notifications in real-time.
+By default, this feature is **Disabled** with value as **False** so that learners get notifications in real-time.
 
 ## Learner Comments
 
@@ -99,8 +99,8 @@ By default, this feature is **Disabled** with value as **False** so that learner
 Features:CommentDisabled
 ```
 
-The Platform comes with a functionality where on different lessons and initiate a discussion.
-By default, this feature remains enabled but, you have the flexibility to disable this function to avoid peer-to-peer interaction over platform. Once disabled, learners will not be allowed to post comment.
+This enables discussions.
+By default, this feature remains enabled but you have the flexibility to disable this function to avoid peer-to-peer interaction. Once disabled, learners will not be allowed to post comments.
 
 ## Learner Action Events
 
@@ -112,17 +112,17 @@ The Community Training portal utilizes **Microsoft Azure Service Bus** to integr
 
 By default, this feature remains in **disabled** state.
 
-## Enabling Organizations on the Platform
+## Enabling organizations on the platform
 
 ```Enable Organizations on the Platform
 Features:IsMultiOrgDeployment
 ```
 
-The Community Training portal allows you to [manage the portal with multiple organization](../user-management/organization-management.md). An organization comprises of a group of learners and administrators on your training platform who have a particular purpose or belong to a specific criteria. You can enable/disable this feature depending upon your requirements.
+The Community Training portal allows you to [manage the portal with multiple organizations](../user-management/organization-management.md). An organization comprises of a group of learners and administrators on your training platform who have a particular purpose or belong to a specific criteria. You can enable/disable this feature depending upon your requirements.
 
-By default, this feature remains disabled with value **False**, therefore not allowing administrators to create multiple organizations.
+By default, this feature remains disabled with value **False**, which blocks administrators from creating multiple organizations.
 
-## Restricting ability to edit Learner profile for non-Global admin
+## Restricting the ability to edit the learner profile for non-global admin
 
 ```Disable profile edit for non-global admin
 Features:disableProfileEditForNonSuperAdmin
@@ -130,7 +130,7 @@ Features:disableProfileEditForNonSuperAdmin
 
 Community Training allows you to restrict editing learner profiles to Global Administrators, set this value to **True** to activate this feature.
 
-## Hide Navigation bar for Learners
+## Hide Navigation bar for learners
 
 ```Hide Navigation bar for Learners
 Features:HideTopNavBarForLearner
@@ -170,9 +170,9 @@ By default, it remains empty. You can add domain names into the **Value** field 
 Features:HideCoursesInLandingPage
 ```
 
-The landing page for learners shows the names and description of the self-enroll and auto-enroll courses before logging in on the platform. This can be avoided by setting the configuration to **True** to allowing courses to be viewed only after log in.
+The landing page for learners shows the names and description of the self-enroll and auto-enroll courses before logging in on the platform. This can be avoided by setting the configuration to **True** to allow courses to be viewed only after log in.
 
-By default, this feature is disabled with value as **False**, allowing learners to view the self-enroll and auto-enroll courses before they log in to the training portal.
+By default, this feature is disabled with value as **False**, allowing learners to view the self-enroll and auto-enroll courses before they sign in to the training portal.
 
 ![Hide landing page](../media/image%28465%29.png)
 
@@ -196,15 +196,15 @@ The Community Training portal allows you to disable marking a course as Auto-enr
 
 :::image type="content" source="../media/featuredisableautoenrollcourse.png" alt-text="autoenrollcourse":::
 
-## Enable PDF Download feature in the lessons
+## Enable PDF Download feature in lessons
 
-The Community Training portal allows you to enable the Download feature for the PDF lessons in the learner’s view of the platform.
+The Community Training portal allows you to enable the Download feature for PDF lessons in the learner’s view of the platform.
 
 ```Enable
 EnablePDFLessonDownload
 ```
 
-By default this feature is not enabled, you need to add the above configuration and enable this feature by setting value to **True**. To disable this feature, set the value should be set to **False**.
+By default this feature is not enabled, you need to add the above configuration and enable this feature by setting value to **True**. To disable this feature, set the value to **False**.
 
 :::image type="content" source="../media/Enable PDF Download.png" alt-text="pdfdownload":::
 
@@ -222,9 +222,9 @@ By default, this feature is kept disabled with value as **False**, ensuring that
 
 The Community Training portal allows you to provide a link to an external website on the learner’s homepage to allow quick access to a preferred website.  Refer to [Steps to configure external website link and name](link-to-external-website-on-learner-Homepage.md#steps-to-configure-external-website-link-and-name) for further details .
 
-## Steps to set Default Country for Phone based login
+## Steps to set Default Country for phone based login
 
-If your instance has phone based authentication and you want to set a default country flag in the login page, you will need to provide the [**Alpha-2 ISO code**](https://en.wikipedia.org/wiki/List_of_ISO_3166_country_codes) for the country you want as the value in the **DefaultCountry** application setting.
+If your instance has phone based authentication and you want to set a default country flag in the sign page, you will need to provide the [**Alpha-2 ISO code**](https://en.wikipedia.org/wiki/List_of_ISO_3166_country_codes) for the country you want as the value in the **DefaultCountry** application setting.
 
 ```Default Flag
 DefaultCountry
@@ -267,13 +267,13 @@ By default, this feature is disabled with the value **False**.
 UserProgressRetentionEnabled
 ```
 
-You can enable this application setting with the value **True** to retain a user's progress for the content even if content is de-assigned to that user. That means, if a learner is removed from a course and then re-enrolled to the same course, the earlier progress would be retained.
+You can enable this application setting with the value **True** to retain a user's progress for the content even if the content is de-assigned from that user. That means, if a learner is removed from a course and then re-enrolled to the same course, previous progress would be retained.
 
-By default, the application setting is marked as **False**, i.e. on de-assignment, all the progress of that learner will be deleted from that course.
+By default, the application setting is marked as **False**. All the progress of that learner will be deleted from that course.
 
-## Mask User details for Admin
+## Mask user details for admin
 
-The Community Training platform supports masking of user data, this will help in creating additional security to restrict admin from glancing sensitive user information.
+The Community Training platform supports masking of user data, this helps provide additional security by restricting admin from glancing sensitive user information.
 
 You can enable masking of your user data by setting Features:Masking:IsProfileFieldsMaskEnabled to **True**.
 
@@ -289,12 +289,12 @@ Features:Masking:MaskedProfileFields
 
 :::image type="content" source="../media/doc_3_1.png" alt-text="maskthefields":::
 
-- Use `First Name` as a field in app settings to mask first name of the user/admin.
-- Use `Contact` to mask EmailId/Phone number/Contact of the user/admin.
-- Use `Last Name` to mask last name of the user/admin.
+- Use `First Name` as a field in app settings to mask first name of the user or admin.
+- Use `Contact` to mask EmailId/Phone number/Contact of the user or admin.
+- Use `Last Name` to mask last name of the user or admin.
 - To mask custom Profile Fields, use actual name of the field Eg: `State`, `SSN`.
 
-## Other Flag configurations
+## Other flag configurations
 
 | Flag Name | Description |
 | --- | --- |

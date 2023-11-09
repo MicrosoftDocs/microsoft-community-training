@@ -16,7 +16,7 @@
     },
 
     {
-      "docset_name": "community-training",
+      "docset_name": "microsoft-community-training",
       "build_source_folder": "community-training",
       "build_output_subfolder": "community-training",
       "locale": "en-us",

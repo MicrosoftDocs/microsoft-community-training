@@ -12,19 +12,19 @@ Community Training enables you to provide a link to an external website on the l
 
 ## Steps to configure external website link and name
 
-1. Login to [Azure portal](https://www.portal.azure.com/) using your credentials.
+1. Sign in to [Azure portal](https://www.portal.azure.com/) using your credentials.
 
-1. Select the **App Services** icon from the left side menu.
+1. Select **App Services** from the left side menu.
 
     :::image type="content" source="../media/EL-1.png" alt-text="External link 1":::
 
-1. Select **App Services** for to your Community Training instance.
+1. Select **App Services** for your Community Training instance.
 
 1. Select **Configuration** under the **Settings** section from the available left side menu.
 
     :::image type="content" source="../media/EL2.png" alt-text="External link 2":::
 
-1. Select **Applications Settings** on the left side of the new panel.
+1. Select the **Applications Settings** tab on the left side of the new pane.
 
     :::image type="content" source="../media/EL3.png" alt-text="External link 3":::
 
@@ -35,19 +35,19 @@ Community Training enables you to provide a link to an external website on the l
 
     :::image type="content" source="../media/EL5.png" alt-text="External link 5":::
 
-1. Select **Ok** to proceed.
+1. Select **OK** to proceed.
 
-1. Again, select **New application setting** and provide the following values in the corresponding boxes:
+1. Select **New application setting** again, and provide the following values in the corresponding boxes:
 
     * Name: **Features:ExternalWebsite:URL**
     * Value: Provide the link to which it will be redirected (Example – [https://communitytraining.microsoft.com/](https://communitytraining.microsoft.com/))
 
-1. Select **Ok** to proceed then **Save**  to complete this process.
+1. Select **OK** to proceed then **Save**  to complete this process.
 
     :::image type="content" source="../media/EL6.png" alt-text="External link 6":::
 
-1. Switch to the learner’s view on your instance and select the profile picture: you will be able to see the external link available on the panel as illustrated below (**visit Community Training**).
+1. Switch to the learner view on your instance and select the profile picture: you will be able to see the external link available on the panel as illustrated below (**visit Community Training**).
 
     :::image type="content" source="../media/el7.png" alt-text="External link 7":::
 
-1. Select the available link (**Community Training**, as in the example above) and the web site opens up instantly as a new tab on your screen.
+1. Select the available link (**Community Training**, as in the example above) and the web site opens as a new tab on your screen.

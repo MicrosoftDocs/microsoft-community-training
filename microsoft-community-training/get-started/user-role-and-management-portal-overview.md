@@ -27,7 +27,7 @@ To carry out these activities, Community Training provides a role-based hierarch
 
 This role is assigned to decision-makers or program owners who are responsible for the overall execution, monitoring, and success of the training program. The Global Administrator can use the management portal to create content, manage users, enroll learners in to courses, use reports & analytics, and customize the portal for branding purposes.
 
-Here are the steps on [**how to assign global administrator permission to a user**](../user-management/add-users/add-an-administrator-to-the-portal.md)
+Here are the steps on [**how to assign global administrator permission to a user**](../user-management/add-users/add-an-administrator-to-the-portal.md).
 
 > [!IMPORTANT]
 > Except for portal branding and profile page customization, the global administrator can delegate all the other activities like content management and user management to other administrators on the portal.

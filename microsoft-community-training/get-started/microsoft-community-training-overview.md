@@ -31,9 +31,9 @@ Community Training supports personalized learning for large-scale mobile-based c
 
 5. Leverage APIs to create your own training experience or integrate it into your existing systems.
 
-### For  Learners
+### For  learners
 
-The user experiences on the platform are optimized for mobile-first and mobile-only users and are kept simple and visual to ease adoption. Your users can access courses anytime, anywhere from their choice of devices. Your organization can deliver training to the learners through the following means:
+The user experiences on the platform are optimized for mobile-first and mobile-only users and are kept simple and visual to ease adoption. Your users can access courses any time, anywhere from their choice of devices. Your organization can deliver training to learners through the following means:
 
 1. A white-labeled responsive web app - optimized for mobile devices.
 
@@ -43,7 +43,7 @@ The user experiences on the platform are optimized for mobile-first and mobile-o
 
 4. API integration into customer-owned apps - available on request.
 
-## Management Portal
+## Management portal
 
 The management portal is a one-stop shop for all administrative functions like uploading and managing courses, adding and organizing users, assigning courses and tracking completion, platform settings, and more.
 
@@ -53,9 +53,9 @@ The portal is designed based on role-based access control. This means that acces
 
 ## Learner experience
 
-Community Training is made for learning on the go. The user experience is optimized for learning with videos and assessments – even on low bandwidth or while offline. While accessing the course content, your learners can connect and interact with peers and experts in the communities to enable social learning.  
+Community Training is made for learning on the go. The user experience is optimized for learning with videos and assessments – even on low bandwidth or while offline. While accessing the course content, your learners can connect and interact with peers and experts in communities to enable social learning.  
 
-Lastly, learners can also use the platform to track activities and stay updated on the important updates sent by the administrators.
+Lastly, learners can also use the platform to track activities and stay updated on important updates from administrators.
 
 ![Overview article - learners](../media/overview%20article%20-%20learners.png)
 

@@ -13,7 +13,7 @@ ms.prod: learning-azure
 
 You can raise a request ticket via our Helpdesk to request another language for your platform instance.
 
-In this article, you'll learn how request a new languages for your platform instance.
+In this article, you'll learn how request new languages for your platform instance.
 
 ## Steps to request a new language for the platform
 
@@ -21,13 +21,13 @@ In this article, you'll learn how request a new languages for your platform inst
 
 1. Sign in using your Azure AD or Social account.
 
-1. Click on **Create Support Ticket** and enter the following values:
+1. Select **Create Support Ticket** and enter the following values:
 
     |Field|Description|
     |---|---|
-    |Title|Enter "Request a language"|
-    |Type|Select "Request"|
-    |Subject |Under Portal Settings, select "Request a language for your portal"|
+    |Title|Enter **Request a language**|
+    |Type|Select **Request**|
+    |Subject |Under Portal Settings, select **Request a language for your portal**|
     |Description|Enter the languages you need. |
 
 1. Submit the form.

@@ -9,7 +9,7 @@ ms.prod: learning-azure
 
 # Learner Report Card View
 
-Learner Report Card View allows administrators to monitor and track each   learner’s progress and performance across all the enrolled courses. This information helps administrators (especially group administrators) to track course completion and follow up with learners to drive the adoption of the training program.
+The Learner Report Card View allows administrators to monitor and track each   learner’s progress and performance across all the enrolled courses. This information helps administrators (especially group administrators) to track course completion and follow up with learners to drive the adoption of the training program.
 
 To access the Learner Report Card View, you need to select a user from the group details page or All Users list page.
 
@@ -17,7 +17,7 @@ In this article, you will learn more about different metrics and reports availab
 
 ## Permissions Level
 
-The Community Training management portal provides role-based administration and depending on the access level, administrators can perform certain actions. The table below shows the administrative roles that can access the group view:  
+The Community Training management portal provides role-based administration, and depending on the access level, administrators can perform certain actions. The table below shows the administrative roles that can access the  view:  
 
 |Access Level  |Learner Report Card View|
  |---|---|
@@ -36,7 +36,7 @@ This section of the Learner Report Card View enables the admin to get a quick su
 
 2. **Course Completion**:  Shows the total number of courses a learner has completed.
 
-3. **Average assessment Score**: Show the average assessment score across all the courses where learners have attempted the non-graded and graded assessments.
+3. **Average assessment Score**: Show the average assessment score across all the courses where learners have attempted non-graded and graded assessments.
 
     ![Average assessment Score](../../media/image%2846%29.png)
 

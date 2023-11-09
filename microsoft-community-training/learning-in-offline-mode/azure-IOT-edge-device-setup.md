@@ -9,7 +9,7 @@ ms.prod: learning-azure
 
 # Azure IOT Edge Device Setup
 
-Edge devices using Offline Learning with Community Training will act as hub devices for learners. The edge devices must be Linux machines running Ubuntu 18.04 version. The edge devices once set up, can be used for training administration in Offline mode.
+Edge devices using Offline Learning with Community Training will act as hub devices for learners. These devices must be Linux machines running Ubuntu 18.04 version. Once set up, they can be used for training administration in Offline mode.
 
 Ensure that you have followed the steps in the [**Azure IOT Hub Initial Setup**](azure-IOT-hub-initial-setup.md) before completing the following steps. The configuration files updated in there will be used when setting up the edge devices.
 
@@ -23,7 +23,7 @@ Perform [**the steps to install Azure IoT on a Linux device**](/azure/iot-edge/h
 
 ## Step 3: Generate Certificate
 
-This step is required for generating SSL certificates for successful HTTPS connections.
+This step is required for generating SSL certificates for successful HTTPS connections:
 
 1. The corresponding certificate files need to be named as certificate.cert and certificate.key.
 2. A third file named password.txt also needs to be present which contains the password for the certificate.
@@ -47,7 +47,7 @@ Perform the steps to [**Deploy Azure IoT Edge modules with Azure CLI**](/azure/i
 
 ## Step 5: Ensure Successful Deployment
 
-Wait until the deployment is successful. The device status for the deployment can be checked using Azure IoT hub in the Azure portal. All 7 modules should be visible under the device created above. Some devices might not be in the running state initially. After a couple of minutes, all 7 modules should be running to ensure successful deployment.
+Wait until the deployment is successful. The device status for the deployment can be checked using Azure IoT Hub in the Azure portal. All seven modules should be visible under the device created above. Some devices might not be in the running state initially. After a couple of minutes, all seven modules should be running to ensure successful deployment.
 
 :::image type="content" source="../media/image(449).png" alt-text="Dep1":::
 

@@ -9,11 +9,11 @@ ms.prod: learning-azure
 
 # Learner Experience on the web portal
 
-This article explains how learners can access the training content using the web portal for your organization's Community Training setup.
+This article explains how learners can access training content using the web portal for your organization's Community Training setup.
 
 ## Step 1: Sign in to your learning portal
 
-1. Open the web browser and visit the Community Training platform instance for your organization. For example, [**fabrikamtraining.azurefd.net**](https://fabrikamtraining.azurefd.net/)
+1. Open the web browser and visit the Community Training platform instance for your organization. For example: [**fabrikamlearning.azurewebsites.net/**](https://fabrikamlearning.azurewebsites.net/)
 
     :::image type="content" source="../media/image(173).png" alt-text="A screenshot of the home page.":::
 
@@ -35,8 +35,9 @@ This article explains how learners can access the training content using the web
 
 ### For existing users
 
-1. Select the profile icon on the top right corner of the learner view page.
+1. Select the profile icon on the top right corner of the learner view page. Then select **My profile**.
 
+    :::image type="content" source="../media/Profile Field - edit from learner view 0.PNG" alt-text="A screenshot showing how to select the profile icon.":::
     :::image type="content" source="../media/Profile Field - edit from learner view 1.PNG" alt-text="A screenshot showing how to edit from learner view.":::
 
 2. Modify the profile field(s) as required.
@@ -52,11 +53,9 @@ This article explains how learners can access the training content using the web
 
 1. After setting up the profile, you can change the language from the dropdown in the navigation bar.
 
-    :::image type="content" source="../media/LearnerLanguage2.jpg" alt-text="Learner language":::
+    :::image type="content" source="../media/LearnerLanguage1.png" alt-text="Learner language drop down":::
 
 2. Select the dropdown and choose a language from the available options.
-
-    :::image type="content" source="../media/LearnerLanguage1.jpg" alt-text="Learner language drop down":::
 
 3. Content on the homepage will be updated based on your chosen language. Refer to [**Course Translations**](../content-management/create-content/create-course-category/create-a-new-course.md#option-4---create-multiple-translations-for-a-course) to understand how language change impacts the learner view.
 
@@ -65,7 +64,7 @@ This article explains how learners can access the training content using the web
 
 ## Step 4: Browse and register for courses
 
-1. After signing in, you can see all the registered learning paths, Courses, and their completion status.
+1. After signing in, you can see all the registered courses and their completion status.
 
     :::image type="content" source="../media/image(434).png" alt-text="Learning Path / Courses":::
 
@@ -82,15 +81,15 @@ This article explains how learners can access the training content using the web
 
 ## Step 5: Access and learn course content
 
-1. On the **My Course** page, select the Learning Path or Course item, which you want to view and learn.
+1. On the **My Course** page, select the course item which you want to view and learn.
 
-2. Every course consists of a course description, lessons, non-graded assessments and a graded assessment as shown in the course outline. Any completed course item gets a green circled tick mark:
+2. Every course consists of a course description, lessons, and assessments as shown in the course outline. Any completed course item gets a green circled tick mark:
 
     :::image type="content" source="../media/image(181).png" alt-text="Green circled tick mark":::
 
-3. To view any lesson content or attempt a non-graded assessment, select the course item in the outline.
+3. To view any lesson content or attempt an assessmenet select the course item in the outline.
 
-4. An assessment is always the last item in each course and it's available only when you have completed all the previous course items.
+4. A graded assessment is always the last item in each course and it's available only when you have completed all the previous course items.
 
     :::image type="content" source="../media/image(182).png" alt-text="Previous Course":::
 
@@ -102,15 +101,11 @@ This article explains how learners can access the training content using the web
 
     :::image type="content" source="../media/image(415).png" alt-text="My Courses":::
 
-2. Below the **My Progress** bar, you can find the learning paths with completion status represented in the form of a percentage and progress bar.
+2. Below the **My Progress** bar, you can find courses with completion status represented in the form of a percentage and progress bar.
 
     :::image type="content" source="../media/image(435).png" alt-text="Progress":::
 
-3. If you scroll down, for each course item displayed, you can also see a completion status represented in the form of a percentage and progress bar.
-
-    :::image type="content" source="../media/image(183).png" alt-text="Completions status":::
-
-4. All the completed courses are stacked together at the bottom of the page.
+3. All the completed courses are stacked together at the bottom of the page.
 
 ## Step 7: Discuss and share information with peers
 
@@ -120,9 +115,7 @@ This article explains how learners can access the training content using the web
 
     :::image type="content" source="../media/image(163).png" alt-text="Comment":::
 
-3. Enter your comments and select the **Send** button to submit the comments:
-
-     :::image type="content" source="../media/image%28184%29.png" alt-text="Add a comment":::
+3. Enter your comments and select the **Send** button to submit the comments.
 
 4. You can also view and reply to the comments added by other learners.
 
@@ -130,18 +123,15 @@ This article explains how learners can access the training content using the web
 
 1. On the top right of the screen, you'll find the **Notifications** icon.
 
-    :::image type="content" source="../media/image(185).png" alt-text="Notifications":::
+    :::image type="content" source="../media/image(186).png" alt-text="replies to your comments":::
 
 2. Select the icon to open the Notification drawer and get updates on new courses assigned to you, replies to your comments, and more.
-
-    :::image type="content" source="../media/image(186).png" alt-text="replies to your comments":::
 
 ## Step 9: View Notice Board
 
 1. On the top right of the screen, you'll find the **Notice Board** icon.  
 
-    :::image type="content" source="../media/image(187).png" alt-text="Notice Board":::
+    :::image type="content" source="../media/image(188).png" alt-text="announcements by admin":::
 
 2. Select the icon to open the Notice Board and read all announcements posted by the administrator.
 
-    :::image type="content" source="../media/image(188).png" alt-text="announcements by admin":::

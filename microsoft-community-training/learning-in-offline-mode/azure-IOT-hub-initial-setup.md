@@ -21,29 +21,29 @@ Download the setup files from [**this link**](https://sangamapps2.blob.core.wind
 
 1. [**Install docker on a machine**](https://docs.docker.com/desktop/#download-and-install). This machine could be running on any operating system such as Windows, or Linux. You will not need to repeat this step when setting up edge devices going forward.
 
-2. Open command prompt and browse to the folder path: ` /windows-server/administration/windows-commands/cd)` containing these images. For example: “cd C:\mctimages” on Windows.
+2. Open command prompt and browse to the folder path: ` /windows-server/administration/windows-commands/cd)` containing these images. For example: `cd C:\ctimages` on Windows.
 
 3. Perform the steps to [**Create a container registry in Azure**](/azure/container-registry/container-registry-get-started-portal) and upload the above 3 images onto the container registry.
 
-4. The following is a sample of the above steps required to load and push an image. These need to be done for each of the 3 images.
+4. The following is a sample of the above steps required to load and push an image. These need to be done for each of the three images.
 
     :::image type="content" source="../media/image(445).png" alt-text="container":::
 
     >[!note]
-    > The steps need to be followed for all 3 images:
+    > The steps need to be followed for all three images:
     >
     >```info
     > 1. <ContainerRegistryName>.azurecr.io/mctwebsite:1.0
     > 2. <ContainerRegistryName>.azurecr.io/loginserver:1.0
     > 3. < ContainerRegistryName >.azurecr.io/server:1.0
 
-5. After the images are loaded into the Azure container registry,  the Azure container registry will look as follows:
+5. After the images are loaded into the Azure Container Registry,  the Azure Container Registry will look as follows:
 
     :::image type="content" source="../media/image(446).png" alt-text="Azurecontainerregistry":::
 
 ## Step 2: Azure IoT Hub Setup
 
-Follow the steps to [**Create an Azure IoT Hub**](/azure/iot-hub/iot-hub-create-through-portal) . Note that you only need to follow the steps under the Create an IoT hub sub-heading from this link.
+Follow the steps to [**Create an Azure IoT Hub**](/azure/iot-hub/iot-hub-create-through-portal) . Note that you only need to follow the steps under the Create an IoT Hub sub-heading from this link.
 
 ## Step 3: Configure  Deployment File
 
@@ -60,7 +60,7 @@ Perform the steps in [**this article**](/azure/container-registry/container-regi
 
 ### Step 3.2: Configure Azure SQL Edge
 
-Create a password of your choice and update its value against <SQL_PASSWORD> in the deployment file. Ensure that the password is greater than 8 characters and meets [**these requirements**](/sql/relational-databases/security/password-policy?view=sql-server-ver15).
+Create a password of your choice and update its value against <SQL_PASSWORD> in the deployment file. Ensure that the password is greater than eight characters and meets [**these requirements**](/sql/relational-databases/security/password-policy?view=sql-server-ver15).
 
 ### Step 3.3: Configure Azure Blob Storage on IoT Edge (BlobEdge)
 
@@ -82,7 +82,7 @@ Update the following values in the loginserver section of the deployment file.
 
 Update the following values in the mctwebsite section of the deployment file.
 
-1. <REGISTRY_NAME>: Name of the Azure container registry as configured above.
+1. <REGISTRY_NAME>: Name of the Azure Container Registry as configured above.
 
 2. <MCTWEBSITE_SQL_CONNECTION_STRING> : Replace this value with the following string, replacing the value of <SQL_PASSWORD> as configured in Step 3.2: Configure Azure SQL Edge.
 
@@ -98,14 +98,14 @@ Update the following values in the mctwebsite section of the deployment file.
 
 4. <ADMIN_DETAILS>: Replace this value with the admin details which will be assigned as the deployment administrator. The value will be a pair of id-password. For example:  "1111111111-000000" where 1111111111 is the username which needs to be entered on the first screen, and 000000 is the password which needs to be entered on the second screen while signing in.
 
-5. <SQL_USERNAME>:Username configured in sqledge
+5. <SQL_USERNAME>: Username configured in sqledge
 
-6. <SQL_PASSWORD>:Same as <SQL_PASSWORD> configured in sqledge
+6. <SQL_PASSWORD>: Same as <SQL_PASSWORD> configured in sqledge
 
 ### Step 3.6: Configure server Section
 
 Update the following values in the server section of the deployment file.
 
-1. <REGISTRY_NAME> : Name of the Azure container registry as configured above.
+1. <REGISTRY_NAME> : Name of the Azure Container Registry as configured above.
 
 2. < USERNAME > : Replace this value with the computer name when deploying on the device.

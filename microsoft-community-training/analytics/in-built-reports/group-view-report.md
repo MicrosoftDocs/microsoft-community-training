@@ -7,11 +7,11 @@ description: Group admin are responsible to drive engagement and monitor course 
 ms.prod: learning-azure
 ---
 
-# Group view
+# Group View
 
 Group admins are responsible for driving engagement and monitoring course completion for learners on the ground. To support Group admins in these tasks,  Community Training provides group-level analytics to track learning progress for a cohort of learners and take relevant actions.
 
-To access the Group View, you need to select a group from the list of groups under the Users tab in the portal. On the group details page itself, relevant information about learners' progress and course completion will be displayed to the administrator.
+To access the Group View, you need to select a group from the list of groups under the Users tab in the portal. On the group details page, relevant information about learners' progress and course completion will be displayed to the administrator.
 
 In this article, you will learn more about different metrics and reports available to Group administrators for all the participants in a group:
 
@@ -36,7 +36,7 @@ On the group details page, admins can view the list of all learners in a group a
 
     ![Group analytics](../../media/image%2845%29.png)
 
-In the grid view, for each learner, the group administrator can see the following information. You can hover over the column header to view the column definition.
+In the grid view, for each learner, the group administrator can see the following information. You can hover over the column header to view the column definition:
 
 1. **Course Completions**: Total number of courses completed by a learner from the list of courses assigned by the group administrator.
 
@@ -44,7 +44,7 @@ In the grid view, for each learner, the group administrator can see the followin
 
 3. **Assessment Score**: Average of the assessment score (including graded-assessment) of a learner across all the completed courses.
 
-4. **Certificates received**: number of certificates received by a learner for completed courses.
+4. **Certificates received**: Number of certificates received by a learner for completed courses.
 
 > [!NOTE]  
 > The group details page shows the learner progress only for the courses assigned by the Group Admin. For example, suppose a learner has self-enrolled into some courses on the platform (not assigned by the administrator) then progress for such courses won’t be shown in the group details.

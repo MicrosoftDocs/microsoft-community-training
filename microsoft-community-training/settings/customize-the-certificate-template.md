@@ -25,9 +25,9 @@ To customize the certificate template on the platform follow these steps:
 
     ![certificate selection](../media/certificate%20selection.png)
 
-1. Enter a name for the certificate template then select the language from the **Select Language** dropdown list. The content printed by the platform will be made available in the selected language (default certificate language is "English").
+1. Enter a name for the certificate template then select the language from the **Select Language** dropdown list. The content printed by the platform will be made available in the selected language (the default certificate language is English).
 
-1. Select **Download PowerPoint template** under Certificate Template to download the certificate template and open the template in PowerPoint. [sample-certificate-template (6).pptx](https://github.com/MicrosoftDocs/microsoft-community-training/files/6938903/sample-certificate-template.6.pptx)
+1. Select **Download PowerPoint template** under Certificate Template to download the certificate template and open the template in PowerPoint. Here's a sample file: [sample-certificate-template (6).pptx](https://github.com/MicrosoftDocs/microsoft-community-training/files/6938903/sample-certificate-template.6.pptx)
 
 1. Follow the instructions on the first slide of the PowerPoint template to edit the certificate.
 
@@ -38,12 +38,12 @@ To customize the certificate template on the platform follow these steps:
     > [!WARNING]
     > The maximum size for a certificate template PDF file is 1MB.
 
-1. Click on Customize Certificate Text to add custom text on the certificate. The [certificate text can be customized](#customize-certificate-text) to include standard and custom profile fields, course completion details and platform details.
+1. Select **Customize Certificate Text** to add custom text on the certificate. The [certificate text can be customized](#customize-certificate-text) to include standard and custom profile fields, course completion details and platform details.
 
-1. Select **Preview** to view a sample of the certificate with the uploaded template then **Save**.
+1. Select **Preview** to view a sample of the certificate with the uploaded template then select **Save**.
 
     > [!CAUTION]
-    > Ensure you click on the **Save button**. Otherwise, the changes you made will be lost.
+    > Ensure you select the **Save** button. Otherwise, the changes you made will be lost.
 
 1. You can add multiple certificates as required and assign them to specific courses. [Click here](../settings/enable-course-level-certificate.md) to learn more on enabling course level certificates.
 
@@ -51,11 +51,11 @@ To customize the certificate template on the platform follow these steps:
 > Please visit [**Community Training Help desk**](https://go.microsoft.com/fwlink/?linkid=2104630) to log a support ticket if you wish to edit the templates of previously issued certificates.
 
 > [!TIP]
-> We recommend using separate templates for Course and Learning Path when using custom certificates.
+> We recommend using separate templates for Courses when using custom certificates.
 
 ## Customize Certificate Text
 
-The above default certificate text HTML can be customized to alter the text, existing data fields and including custom profile fields. The default certificate text on the platform is as follows,
+The above default certificate text HTML can be customized to alter the text, existing data fields and including custom profile fields. The default certificate text on the platform is as follows:
 
 ```Default Certificate Text
 <div style='text-align:center;font-size:1em;line-height:1.7em'>
@@ -75,7 +75,7 @@ This is to certify that
 
 ### Standard Placeholders
 
-The Standard Placeholders are the data fields that can be used by default on any instance of the platform. The fields enabled for the certificate template are,
+The Standard Placeholders are the data fields that can be used by default on any instance of the platform. The fields enabled for the certificate template are:
 
 |Placeholders for Course certificate| Placeholders for Learning Path certificate|
 |---|---|
@@ -90,7 +90,7 @@ The Standard Placeholders are the data fields that can be used by default on any
 
 ### Custom Placeholders
 
-The Custom Placeholders are the data fields for the Additional Profile fields that are created on any instance of the platform.
+The Custom Placeholders are the data fields for the Additional Profile fields that are created on an instance of the platform.
 
 To include **additional profile fields**, the placeholder should be as **[Field:{Additional Profile field name}]**. For example: For the profile field name "Country", the placeholder should be [Field:Country]
 

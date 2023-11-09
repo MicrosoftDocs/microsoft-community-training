@@ -125,7 +125,7 @@ You're able to use a custom certificate template of your choice. The certificate
 
 Refer **[this article](../settings/customize-the-certificate-template.md)** to learn how to customize the certificate template.
 
-### Can I have different certificates created and assigned to courses?
+### Can I have different certificates created and assigned to the courses?
 
 Community Training enables you to create and assign multiple certificates with its preferred type of language and other customizations. For more details [go here](../settings/enable-course-level-certificate.md)
 

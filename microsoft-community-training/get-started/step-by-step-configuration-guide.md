@@ -19,7 +19,7 @@ Select the **Get Started** or **Sign In** button to create an account or sign in
 
 ![sign in](../media/sign-in.png)
 
-When logging in for the first time, you will be asked to complete your profile information.
+When signing in for the first time, you will be asked to complete your profile information.
 
 ![create profile](../media/create-profile.gif)
 
@@ -65,7 +65,7 @@ To add learning material to your training portal, you need to [**define a catego
 
 2. Write a description so your users will have a clear idea of what they will learn in each course.
 
-3. Upload a customized image relating to the course topic to provide a visual cue to learners. Try to create different thumbnails for each course, to the avoid redundancy of using the same image.
+3. Upload a customized image relating to the course topic to provide a visual cue to learners. Try to create different thumbnails for each course, to the avoid the redundancy of using the same image.
 
  Once you have created the courses, [**add learning materials**](../content-management/create-content/create-course-category/upload-content-to-a-course.md) like videos, PDF files, PowerPoint files, YouTube links, and more. Additionally, [**manage the course options**](../content-management/manage-content/manage-course-category/manage-users-for-a-course.md) according to your needs. Lastly, [**add assessments**](../content-management/create-content/create-course-category/add-assessments-to-a-course.md) before [**publishing the course**](../content-management/create-content/create-course-category/publishing-course.md) for your learners.
 
@@ -108,7 +108,7 @@ Here are some checklists for you to complete before you proceed with the rollout
 
 Once the platform is rolled out to the target audience, you can start publishing the portal for your learners by doing the following:
 
-1. Create and display posters with a QR code in office areas or near the lifts.  
+1. Create and display posters with a QR code in office areas or near lifts.  
 
 2. Broadcast information via email or social media networks (such as WhatsApp messages) with a link to the app.
 

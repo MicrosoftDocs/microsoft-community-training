@@ -28,13 +28,13 @@ The Community Training portal provides role-based permissionn levels.  The table
 
 ## Before you begin
 
-Login to your Community Training portal and [**switch to administrator view**](../get-started/step-by-step-configuration-guide.md#step-2--switch-to-administrator-view-of-the-portal) then select **Settings** from the left navigation panel.
+Sign in to your Community Training portal and [**switch to administrator view**](../get-started/step-by-step-configuration-guide.md#step-2--switch-to-administrator-view-of-the-portal) then select **Settings** from the left navigation panel.
 
 ![Settings option](../media/image%28379%29.png)
 
 ## Set your portal name
 
-Select **General** and enter the name under the Portal name field. Your portal name will appear on the title bar of your browser.
+Select **General** and enter the name under the portal name field. Your portal name will appear on the title bar of your browser.
 ![Set your portal name](../media/image%28263%29.png)
 
 ## Set your privacy terms
@@ -55,10 +55,10 @@ Refer to the [restrict course assignment article](../settings/restrict-content-a
 
 ## Set the logo
 
-A Logo represents your training program and forms the most important component of your branding. Your logo will appear on all the pages on the top-left corner of your learning portal.
+A logo represents your training program and forms the most important component of your branding. Your logo will appear on all the pages on the top-left corner of your learning portal.
 
 - Select **Branding** and upload your logo.
-- Recommended logo file size is 150*50 px in PNG with transparent or solid background
+- Recommended logo file size is 150*50 px in PNG with a transparent or solid background.
 ![Set the logo](../media/image%28265%29.png)
 
 > [!NOTE]

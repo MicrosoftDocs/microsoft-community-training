@@ -9,7 +9,7 @@ ms.prod: learning-azure
 
 # Azure Front Door Migration
 
-As your learners continue to learn and improve, your training platform also continues to grow and become better.
+As your learners continue to improve, your training platform also continues to grow and become better.
 
 Starting January, 2021 your Community Training (CT) instance will utilize the power of Azure Front Door (AFD) to deliver non-video content (e.g.: PDF, ePub, Office 365 files etc.). AFD is a global, scalable entry-point that uses the Microsoft global edge network to create fast, secure, and widely scalable web applications.
 
@@ -23,7 +23,7 @@ Starting January, 2021 your Community Training (CT) instance will utilize the po
 ## What changes for you?
 
 > [!IMPORTANT]  
-> If you are a new customer deploying the Community Training platform in January 2021, you can follow the instructions in the [deployment guide](../../infrastructure-management/install-your-platform-instance/installation-guide-detailed-steps.md). Your new instance will be deployed with all the benefits of Azure Front Door.
+> If you are a new customer deploying the Community Training platform in January 2021, you can follow the instructions in the [deployment guide](../../infrastructure-management/install-your-platform-instance/detailed-step-by-step-installation-guide.md). Your new instance will be deployed with all the benefits of Azure Front Door.
 
 If you are an existing customer of the Community Training platform, you will see the following changes:  
 

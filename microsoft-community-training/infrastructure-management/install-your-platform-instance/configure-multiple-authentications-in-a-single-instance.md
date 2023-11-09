@@ -11,7 +11,7 @@ ms.prod: learning-azure
 
 Many organizations might want to support multiple authentication options to be available for their learners. Community Training now supports adding more than one authentication option for a single platform instance.
 
-To be able to configure multiple authentications to your instance you need to first create [**AD B2C**](https://learn.microsoft.com/azure/active-directory-b2c/overview) tenant and register an application. If your instance is already setup to use [**social login**](configure-login-social-work-school-account.md#social-account-or-email-based-authentication) via ADB2C then you can proceed configuring your tenant to add [**phone login**](#add-phone-based-login-to-existing-social-account-login-instance) and [**work email login**](#add-work-email-based-authentication-to-existing-social-account-login-instance) support to your instance.
+To be able to configure multiple authentications to your instance you need to first create [**AD B2C**](/azure/active-directory-b2c/overview) tenant and register an application. If your instance is already setup to use [**social login**](configure-login-social-work-school-account.md#social-account-or-email-based-authentication) via ADB2C then you can proceed configuring your tenant to add [**phone login**](#add-phone-based-login-to-existing-social-account-login-instance) and [**work email login**](#add-work-email-based-authentication-to-existing-social-account-login-instance) support to your instance.
 
 > [!NOTE]
 >We strongly recommend that an MFA (Multi Factor Authentication), or a 2FA (2 Factor Authentication) be implemented, if your instance is using ADB2C based authentication, especially for the Admin accounts.
@@ -24,7 +24,7 @@ If your instance is already setup to accept [**social login**](configure-login-s
 
 Create a [**support ticket**](https://sangamhelpdesk.microsoftcrmportals.com) requesting for creation of new ClientID and ClientSecret in your [**Key-Vault**](../../analytics/custom-reports/database-schema.md#accessing-key-vault) to be used while configuring New OpenID connect provider.
 
-* Also mention your [**AD B2C Tenant name**](https://learn.microsoft.com/azure/active-directory-b2c/tenant-management#get-your-tenant-name) in description while creating support ticket.
+* Also mention your [**AD B2C Tenant name**](/azure/active-directory-b2c/tenant-management#get-your-tenant-name) in description while creating support ticket.
 
 * After receiving confirmation (typical wait time is around two business days) from our support team you can proceed to next steps adding phone based login.
 
@@ -33,8 +33,8 @@ Create a [**support ticket**](https://sangamhelpdesk.microsoftcrmportals.com) re
 If your instance is already setup to accept [**social login**](configure-login-social-work-school-account.md#social-account-or-email-based-authentication) via AD B2C, below are the steps to add Azure Active Directory/Work email based authentication along side social account login by configuring your existing Azure ADB2C tenant.
 
 1. Login to your [**Azure portal**](https://portal.azure.com/)
-1. Note down your [**AD B2C tenant’s name**](https://learn.microsoft.com/azure/active-directory-b2c/tenant-management#get-your-tenant-name), for example, if the default domain for your Azure AD B2C tenant is contoso.onmicrosoft.com, then contoso is your tenant’s name.
-1. Create an Azure Active Directory App (can be from different tenant) [**configure login identity for the platform by creating Azure AD application**](configure-login-social-work-school-account.md#step-2---create-azure-ad-application), copy your Client ID, Client Secret and [**Tenant ID**](https://learn.microsoft.com/azure/active-directory/fundamentals/active-directory-how-to-find-tenant).
+1. Note down your [**AD B2C tenant’s name**](/azure/active-directory-b2c/tenant-management#get-your-tenant-name), for example, if the default domain for your Azure AD B2C tenant is contoso.onmicrosoft.com, then contoso is your tenant’s name.
+1. Create an Azure Active Directory App (can be from different tenant) [**configure login identity for the platform by creating Azure AD application**](configure-login-social-work-school-account.md#step-2---create-azure-ad-application), copy your Client ID, Client Secret and [**Tenant ID**](/azure/active-directory/fundamentals/active-directory-how-to-find-tenant).
 1. While in your AAD app, select **Authentication** to add your Reply URL `https://<adb2c_tenant_name>.b2clogin.com/<adb2c_tenant_name>.onmicrosoft.com/oauth2/authresp` replace <adb2c_tenant_name> with your AD B2C tenant name from Step 2.
 
     :::image type="content" source="../../media/AddingredirectURLinAAD_app.png" alt-text="add redirect url":::

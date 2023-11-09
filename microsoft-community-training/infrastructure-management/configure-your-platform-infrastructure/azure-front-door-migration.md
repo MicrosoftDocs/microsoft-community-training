@@ -23,7 +23,7 @@ Starting January, 2021 your Community Training (CT) instance will utilize the po
 ## What changes for you?
 
 > [!IMPORTANT]  
-> If you are a new customer deploying the Community Training platform in January 2021, you can follow the instructions in the [deployment guide](../../infrastructure-management/install-your-platform-instance/installation-guide-detailed-steps.md). Your new instance will be deployed with all the benefits of Azure Front Door.
+> If you are a new customer deploying the Community Training platform in January 2021, you can follow the instructions in the [deployment guide](../../infrastructure-management/install-your-platform-instance/detailed-step-by-step-installation-guide.md). Your new instance will be deployed with all the benefits of Azure Front Door.
 
 If you are an existing customer of the Community Training platform, you will see the following changes:  
 

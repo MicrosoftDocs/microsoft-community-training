@@ -24,7 +24,7 @@ The control plane is zone redundant in the primary regions of availability.
 
 ### Data Plane
 Azure availability zones are physical locations within an Azure region that provide increased high availability and protection against datacenter failures. Each zone is made up of one or more datacenters with independent power, cooling, and networking.
-Reference: https://learn.microsoft.com/azure/reliability/availability-zones-overview.
+[Go here for further details](/azure/reliability/availability-zones-overview).
 
 Community Training uses Azure availability zones to provide high availability and fault tolerance within an Azure region.
 It offers both Zonal and zone-redundant high availability. Customer can choose either of the redundancy options.
@@ -86,7 +86,7 @@ Once the customer enables eisaster recovery, we keep the backup of storage and d
 >
 >RTO depends on database and storage size, latency between the paired region, database or storage VM capacity (SKU).
 >
->RPO of community training dependends on underlying azure resources like Azure SQL and Azure storage. Reference: https://learn.microsoft.com/azure/azure-sql/database/recovery-using-backups?view=azuresql&tabs=azure-portal#geo-restore-considerations&preserve-view=true.
+>RPO of community training dependends on underlying azure resources like Azure SQL and Azure storage. [Go here for further details](/azure/azure-sql/database/recovery-using-backups?view=azuresql&tabs=azure-portal).
 
 Once we detect an Community Training instance is down in any region, we take customer consent for failover to a paired region, explaining the list of features availabe during the disaster recovery. Once we get consent from the customer, their Community Training instance is failed over to paired the region.
 

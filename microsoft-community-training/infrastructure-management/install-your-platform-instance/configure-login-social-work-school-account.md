@@ -64,7 +64,7 @@ The Community Training portal requires Azure Active Directory application creati
       * Azure AD’s Tenant Domain Name: Azure AD’s tenant domain name. For example: contoso.onmicrosoft.com
 
 The AAD script takes about two minutes to run and outputs four values on screen: Client ID, Client Secret, Tenant Id, and Tenant name. Make a note of these values as they will be needed in next step. If someone else ran the script, ask them to share this output.
-A new app is created. If an app already exists with the same name, the script will delete the existing app and create a new app. In case of facing any issues after deployment please refer this [**guide**](troubleshooting.md#issue-7-azure-active-directory-configuration-issue).
+A new app is created. If an app already exists with the same name, the script will delete the existing app and create a new app.
 
 ### **Option 2** - Follow the Manual steps to Configure a Work or School account for your training portal by following the instructions below.
 
@@ -77,7 +77,7 @@ You can create a new Azure Active Directory tenant or use an existing one based 
 
 #### Step 2 - Create an Azure AD application
 
-1. Create a new Azure AD application by following [**this article**](https://learn.microsoft.com/azure/active-directory/develop/quickstart-register-app). You only need to follow the section titled **Register an application**. Please ensure you set the Redirect URIs as per below:
+1. Create a new Azure AD application by following [**this article**](/azure/active-directory/develop/quickstart-register-app). You only need to follow the section titled **Register an application**. Please ensure you set the Redirect URIs as per below:
 
     **Redirect URIs**
 
@@ -112,16 +112,13 @@ You can create a new Azure Active Directory tenant or use an existing one based 
 
     ![Enter clientId, secret,tenantId,Name](../../media/LoginIdentity6.png)
 
-> [!NOTE]
->If you are facing any issues while Deploying your AD instance, please follow the header "Azure Active Directory Configuration issue" under [**troubleshooting document**](troubleshooting.md) and send us the required output.
-
 ### Multi-Tenant support for Azure Active Directory based Authentication
 
 CT supports login via multiple tenants for AAD authentication. This can be done during AAD set up ([**Configurations on the Training Platform**](../../settings/configurations-on-the-training-platform.md#steps-to-set-the-configurations-on-the-platform)). Follow this documentation to reach App configuration section from your [**Azure portal**](https://www.portal.azure.com/).
 
 #### Steps to enable multi-tenant login for an AAD based instance
 
-1. Login to your [**Azure portal**](https://www.portal.azure.com/)
+1. Log in to your [**Azure portal**](https://www.portal.azure.com/)
 1. Navigate to [**Configurations on the Training Platform**](../../settings/configurations-on-the-training-platform.md#steps-to-set-the-configurations-on-the-platform)
 1. Search for **idp:AzureADExternalAuthTenantIds**.
     <!--

@@ -160,8 +160,6 @@
            href: infrastructure-management/install-your-platform-instance/setup-platform-instance-on-azure-subscription-for-nonprofits.md
       - name: Configure your platform infrastructure
         items:
-         - name: Setup custom domain URL
-           href: infrastructure-management/configure-your-platform-infrastructure/setup-custom-domain-url.md
          - name: Delete your training platform instance
            href: infrastructure-management/configure-your-platform-infrastructure/delete-your-training-instance.md
          - name: Customize the name and icon of the training tab in MS Teams

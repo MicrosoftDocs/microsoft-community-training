@@ -31,7 +31,7 @@ The Community Training management portal provides role-based administration. Dep
 ## Insights on learner registration and course completion
 
 This section enables an admin to view learner enrollment over time and popular courses by enrollment among learners:  
-![learner enrollment](../../media/image%2831%29.png)
+![A screenshot showing learner enrollment.](../../media/image%2831%29.png)
 
 The graph provides information about all the learners enrolled for all courses across all the categories over time. Hover over the title to view the description of the graph. The values that are measured are:
 
@@ -42,12 +42,12 @@ The graph provides information about all the learners enrolled for all courses a
 
 This section provides information on the popular courses across categories. This comparative insight helps the admins to take further action to improve the course content or to engage learners effectively. It also shows any courses with no registrations.
 
-![All Courses](../../media/image%2834%29.png)
+![A screenshot showing all courses.](../../media/image%2834%29.png)
 
 ## Insights on learner engagement and course completion
 
 This section  enables an admin to view course enrollment and completion over time, and popular courses by completion among learners :  
-![Courses completion](../../media/image%2835%29.png)
+![A screenshot showing courses completion.](../../media/image%2835%29.png)
 
 ### Course registration/completion over time
 
@@ -61,14 +61,14 @@ This view gives a graphical representation of the growth in the number of course
 ### Top courses by completion  and courses with no completion
 
 This section provides a breakdown of the popular courses by completion across categories. This comparative insight helps the admins to take further action to improve the course content or to engage learners effectively. Looking at the image below, Community Farming has the most number of learner completion and there are 51 courses with no completion.  
-![Top Courses](../../media/image%2837%29.png)
+![A screenshot showing top courses.](../../media/image%2837%29.png)
 
 ## Comparative insights on course enrollment and completion across categories
 
 This section enables an admin to compare learner’s enrollment and course completion across all the categories.
 
 In the table below, for each category, you can see the number of courses, the unique number of learners enrolled, and the number of course completions with course completion percentage.  
-![Categories](../../media/image%2838%29.png)
+![A screenshot showing categories.](../../media/image%2838%29.png)
 
 > [!NOTE]
 > Hover over the column header to view the definition of the column in the table.

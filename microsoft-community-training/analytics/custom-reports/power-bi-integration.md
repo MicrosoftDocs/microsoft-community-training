@@ -32,7 +32,7 @@ In this article, you will learn more about connecting Power BI with Azure SQL Da
 
 2. On the top bar select the **PHP** option.
 
-    :::image type="content" source="../../media/image%28361%29.png" alt-text="select PHP on the nav bar":::
+    :::image type="content" source="../../media/image%28361%29.png" alt-text="A screenshot showing how to select PHP on the nav bar.":::
 
 3. You will be able to view your SQL Databases server name and username.
 
@@ -40,19 +40,19 @@ In this article, you will learn more about connecting Power BI with Azure SQL Da
 
 1. Open Power BI, select the **Get data** icon thenn select **More**.
 
-    :::image type="content" source="../../media/image%28362%29.png" alt-text="Open Power BI, click on the get data icon and select more":::
+    :::image type="content" source="../../media/image%28362%29.png" alt-text="A screenshot showing how to open Power BI, click on the get data icon and select more.":::
 
 2. Search and select **Azure SQL database** then select **Connect** .
 
-    :::image type="content" source="../../media/image%28363%29.png" alt-text="Search and select Azure SQL database and click on the connect button":::
+    :::image type="content" source="../../media/image%28363%29.png" alt-text="A screenshot showing how to search and select Azure SQL database and click on the connect button.":::
 
 3. Enter your SQL DB server details and select **OK**.
 
-    :::image type="content" source="../../media/image%28364%29.png" alt-text="Enter your SQL DB server details and click on ok button":::
+    :::image type="content" source="../../media/image%28364%29.png" alt-text="A screenshot showing how to enter your SQL DB server details and click on ok button.":::
 
 4. Enter your database user name, and password then select **Connect**.
 
-    :::image type="content" source="../../media/image%28365%29.png" alt-text="Enter your database user name, and password and click on the connect button":::
+    :::image type="content" source="../../media/image%28365%29.png" alt-text="A screenshot showing how to enter your database user name, and password and click on the connect button.":::
 
 5. Select the tables that you want to be imported and select **Load**. You may refer to the [Database schema](database-schema.md) for the entity relationship.
 
@@ -60,7 +60,7 @@ In this article, you will learn more about connecting Power BI with Azure SQL Da
 
 6. All your selected tables will be imported into Power BI, and become available under fields:
 
-    :::image type="content" source="../../media/image%28367%29.png" alt-text="Loaded tables will be imported to Power BI":::
+    :::image type="content" source="../../media/image%28367%29.png" alt-text="A screenshot showing how to loaded tables imported to Power BI.":::
 
 7. Use the database schema from [this document](database-schema.md) to build relations required for your custom reporting requirements.
 
@@ -86,33 +86,33 @@ If you already have your credentials for connecting to DB then proceed to step 3
 
 4. Open the .pbix file from the [**MCT Power BI custom Dashboard.zip**](https://github.com/MicrosoftDocs/microsoft-community-training/files/7013084/MCT_Sample.Reports.Power BI.zip) that you downloaded and open it from your Power BI Desktop and select **File** from menu bar.
 
-    :::image type="content" source="../../media/BI_file.jpg" alt-text="file":::
+    :::image type="content" source="../../media/BI_file.jpg" alt-text="A screenshot showing the file.":::
 
 5. Select **Options and Settings > Data Source Settings**.
 
-    :::image type="content" source="../../media/BI_settings.jpg" alt-text="settings":::
+    :::image type="content" source="../../media/BI_settings.jpg" alt-text="A screenshot showing settings.":::
 
 6. Select the data source that you want to replace, and select **Change Source**.
 
-    :::image type="content" source="../../media/BI_source.jpg" alt-text="source":::
+    :::image type="content" source="../../media/BI_source.jpg" alt-text="A screenshot showing data source.":::
 
 7. Fill in your server name and database name.
 
-    :::image type="content" source="../../media/BI_server.jpg" alt-text="server":::
+    :::image type="content" source="../../media/BI_server.jpg" alt-text="A screenshot showing a server.":::
 
 8. Provide your login credentials that you collected from Azure Key vault, and make sure you have your server name selected from the **Select which level to apply these settings to** dropdown :
 
-    :::image type="content" source="../../media/BI_credentials.jpg" alt-text="cred":::
+    :::image type="content" source="../../media/BI_credentials.jpg" alt-text="A screenshot showing credentials.":::
 
 9. Once connected, you need to apply pending changes and select refresh for the dashboard to reflect the newly connected data source.
 
-    :::image type="content" source="../../media/BI_Refresh.jpg" alt-text="refresh":::
+    :::image type="content" source="../../media/BI_Refresh.jpg" alt-text="A screenshot showing the refresh option.":::
 
 >[!Note]
 >If you receive a firewall error while replacing a data source, you may need to add your IP address to the firewall.
 >
->![firewall select](../../media/firewal%20select.png)
+>![A screenshot showing firewall selection.](../../media/firewal%20select.png)
 >
 >To add client IP, click on add client IP and select the save icon.
 >
->![Save](../../media/FIREWAL.png)
+>![A screenshot showing how to save.](../../media/FIREWAL.png)

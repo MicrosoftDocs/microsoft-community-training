@@ -42,7 +42,7 @@ The following are the two ways to access the CT Database:
 Go to the CT portal's SQL database from the Managed resource group (Find the dapclp-db-xxxxxxxxx SQL database).
 Select **Setting > Connection strings** to get the connection strings for the SQL database:
 
-   ![click on Setting](../../media/image%28346%29.png)
+   ![A screenshot of Settings.](../../media/image%28346%29.png)
 
 ### Method 2: Use Username and Password (Online Azure query editor)
 
@@ -50,11 +50,11 @@ Go to the CT portal's SQL database from the managed resource group (Find the dap
 
 1. Select **Query Editor**.
 
-    ![Query Editor](../../media/image%28347%29.png)
+    ![A screenshot of the Query Editor.](../../media/image%28347%29.png)
 
 2. This query editor will ask for a username and password that can be retrieved from the key vault. Go to the resource group and select your key vault.
 
-    ![key-vault](../../media/image%28348%29.png)
+    ![A screenshot of key vault.](../../media/image%28348%29.png)
 
 ## Accessing Key Vault
 
@@ -65,15 +65,15 @@ Go to the key vault (sign in to your [Azure portal](https://ms.portal.azure.com/
 
 1. Select **Access Policies** from the Key Vault resource pane:
 
-    ![Select Access Policies](../../media/image%28349%29.png)
+    ![A screenshot of Access Policies.](../../media/image%28349%29.png)
 
 2. Select **+ Add Access Policy** at the top of the pane:
 
-    ![access policy 1](../../media/access%20policy%201.png)
+    ![A screenshot of access policy.](../../media/access%20policy%201.png)
 
 3. Select **Secret Management** in Configure from the template (optional) pane:
 
-    ![access policy secret](../../media/access%20policy%20secret.png)
+    ![A screenshot of access policy secret.](../../media/access%20policy%20secret.png)
 
 4. Choose **Select Principal** to select the email address you used to sign in.
 
@@ -83,7 +83,7 @@ Go to the key vault (sign in to your [Azure portal](https://ms.portal.azure.com/
 
 7. Find the username and password.
 
-    ![Find the username and password](../../media/image%28350%29.png)
+    ![A screenshot of how to find the username and password.](../../media/image%28350%29.png)
 
 8. Select the password as shown in the above screenshot.
 
@@ -91,18 +91,18 @@ Go to the key vault (sign in to your [Azure portal](https://ms.portal.azure.com/
 
     **Note**: You may need to add your IP address in Firewall.
 
-    ![firewal select](../../media/firewal%20select.png)
+    ![A screenshot of firewall selection.](../../media/firewal%20select.png)
 
 10. To a add client IP, select **Add client IP** and select **Save**:
 
-    ![Save](../../media/FIREWAL.png)
-    
+    ![A screenshot shoiwng how to safe.](../../media/FIREWAL.png)
+
 ## Executing SQL Queries
 
 1. To run a SQL query, go to your Azure portal and select  **Query editor**:
 
-    ![Query editor](../../media/image%28353%29.png)
+    ![A screenshot of the Query Editor.](../../media/image%28353%29.png)
 
-2. The admin login to the above portal can be obtained from the **Key vault**. See [accessing Key vaults](./database-schema.md#accessing-key-vault) section for more details.
+2. The admin login to the above portal can be obtained from the **Key vault**. See [A screenshot showing how to access Key vault.](./database-schema.md#accessing-key-vault) section for more details.
 
-    ![See accessing Key vaults](../../media/image%28354%29.png)
+    ![A screenshot showing how to access Key vault.](../../media/image%28354%29.png)

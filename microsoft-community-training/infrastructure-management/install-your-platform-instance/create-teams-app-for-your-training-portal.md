@@ -3,7 +3,7 @@ title: Setup Microsoft Teams as learner's endpoint for the platform
 original-url: https://docs.microsoftcommunitytraining.com/docs/create-teams-app-for-your-training-portal
 author: nikotha
 ms.author: nikotha
-description: Community Training allows organization to enable online learning inside Microsoft Teams across web, mobile and desktop app.
+description: Microsoft Community Training allows organization to enable online learning inside Microsoft Teams across web, mobile and desktop app.
 ms.prod: learning-azure
 ---
 
@@ -21,7 +21,7 @@ If you haven't, please follow the Installation steps first and then refer this a
 
 ## Steps to enable learning inside Microsoft Teams
 
-### Step 1 - Delegate permissions on your Azure AD application setup for Community Training
+### Step 1 - Delegate permissions on your Azure AD application setup for Microsoft Community Training
 
 1. Login to the [Azure Portal](https://portal.azure.com/) with admin credentials.
 
@@ -29,32 +29,32 @@ If you haven't, please follow the Installation steps first and then refer this a
 
 1. Select the **App Registration** option from the left panel.
 
-    ![Click App Registration](../../media/image%28194%29.png)
+    ![CMenu showing App Registration selected.](../../media/image%28194%29.png)
 
 1. On the App registrations page, search for and select the Azure AD application created for the Community Training instance during the installation process.
 
-    ![Azure AD application](../../media/image%28195%29.png)
+    ![Azure AD application.](../../media/image%28195%29.png)
 
 1. On the application details, select the **API permissions** option on the left panel.
 
 1. Select **Add Permission** and select **Microsoft Graph** from the right panel.
 
-    ![select Microsoft Graph option](../../media/image%28196%29.png)
+    ![Image showing Microsoft Graph API.](../../media/image%28196%29.png)
 
 1. Next, in Delegated permissions and Application permissions check the following options:
     * Under Delegated permissions - **Directory.Read.All, Group.Read.All, User.Read.All, Member.Read.Hidden**
     * Under Application permissions - **Directory.Read.All, Group.Read.All, User.Read.All, Member.Read.Hidden**
 
-    ![Delegated and Application permissions](../../media/image%28197%29.png)
+    ![Image of Request API permissions page. permissions](../../media/image%28197%29.png)
 
 1. Select **Grant admin consent** then **Yes** to confirm.
 
-    :::image type="content" source="../../media/teamsapipermissions.png" alt-text="teamspermissions":::
+    :::image type="content" source="../../media/teamsapipermissions.png" alt-text="Screenshot of permissions to grant.":::
 
 > [!NOTE]
 > Please ensure all the values marked with a red rectangle are correctly set.
 
-### Step 2 - Generate a Teams Manifest File (Microsoft Teams App) for your Community Training instance
+### Step 2 - Generate a Teams Manifest File (Microsoft Teams App) for your Microsoft Community Training instance
 
 1. Unzip the file [**steps_to_create_manifest_file.zip**](https://github.com/MicrosoftDocs/microsoft-community-training/files/10336214/steps_to_create_manifest_file.zip).
 
@@ -78,7 +78,7 @@ If you haven't, please follow the Installation steps first and then refer this a
 
 1. Upload the manifest file (.zip file) created in the **Step 2** above as a custom app for organization in Teams.
 
-    ![Upload the manifest](../../media/image%28199%29.png)
+    ![Screenshot showing selecting manifest file to upload.](../../media/image%28199%29.png)
 
 > [!NOTE]
 > For more details on how to publish apps in the Microsoft Teams Tenant Apps Catalog, [**see this article**](/microsoftteams/tenant-apps-catalog-teams#publish-an-app-in-the-tenant-apps-catalog-from-the-teams-client).
@@ -87,7 +87,7 @@ If you haven't, please follow the Installation steps first and then refer this a
 
 1. Visit [**Teams Admin portal**](https://admin.teams.microsoft.com/) and **select Setup policies** option under Teams apps in the left navigation panel.
 
-    ![Select Setup policies](../../media/image%28200%29.png)
+    ![Screenshot selecting Setup policies.](../../media/image%28200%29.png)
 
 1. Next select the **Add Apps** button and search for the training application uploaded in Step 3 - Install the Microsoft Teams App for your organization.
 
@@ -101,13 +101,13 @@ If you haven't, please follow the Installation steps first and then refer this a
 
 1. Go to **App Services** on the left-menu.
 
-    ![Select App Service.png](../../media/Select%20App%20Service%281%29.png)
+    ![Select App Service from menu.](../../media/Select%20App%20Service%281%29.png)
 
 1. Select the app service belonging to your Community Training instance.
 
 1. Select **Configuration** under settings from the left-menu.
 
-    ![Select Configurations.png](../../media/Select%20Configurations%281%29.png)
+    ![Select Configuration settings.](../../media/Select%20Configurations%281%29.png)
 
 1. Go to the **Applications Settings** tab.
 
@@ -115,11 +115,11 @@ If you haven't, please follow the Installation steps first and then refer this a
 
 1. Select the setting **Features:AllowSiteEmbedding** and update it with value **“true”**, select **OK** to confirm.
 
-    ![Features:AllowSiteEmbedding](../../media/image%28436%29.png)
+    ![screen shot of setting for Features:AllowSiteEmbedding](../../media/image%28436%29.png)
 
 1. Select **Save**.
 
-    ![Save Application Settings.png](../../media/Save%20Application%20Settings%281%29.png)
+    ![Save Application Settings.](../../media/Save%20Application%20Settings%281%29.png)
 
 ## Multi-Tenant support for Azure Active Directory based Authentication in Teams
 
@@ -133,30 +133,28 @@ In this article, you will learn about how to setup Teams SSO to support multiple
 
 1. Go to **App Services** from the left-menu and select the app service belonging to your Community Training instance.
 
-    :::image type="content" source="../../media/Teams SSO MultiTenant 1.png" alt-text="Teams SSO MultiTenant1":::
+    :::image type="content" source="../../media/Teams SSO MultiTenant 1.png" alt-text="Select App Services from menu.":::
 
 1. Select **Configuration** under settings from the left-menu.
 
-    :::image type="content" source="../../media/Teams SSO MultiTenant 2.png" alt-text="Teams SSO 2":::
+    :::image type="content" source="../../media/Teams SSO MultiTenant 2.png" alt-text="Selecting Configuration option from Settings menu.":::
 
-1. Go to the **Applications Settings** tab
-
-    :::image type="content" source="../../media/Teams SSO MultiTenant 3.png" alt-text="Teams SSO 3":::
+1. Go to the **Applications Settings** tab.
 
 1. Search for `Features:IsMultiOrgDeployment`, add this if it does not exist, set the **value** to *True*, then select **Ok** to confirm.
 1. Next, search for `idp:AzureADExternalAuthTenantId`, add this application setting if it does not exist using **New application setting** option.
 1. Set the **value** to *common* replacing the existing Tenant ID keeping a copy of your original Tenant ID value as a reference, then select **Ok**.
 
-    :::image type="content" source="../../media/Teams SSO MultiTenant 4.png" alt-text="Teams SSO4":::
+    :::image type="content" source="../../media/Teams SSO MultiTenant 4.png" alt-text="Screen shot of Add/Edit application setting.":::
 
 1. Whilst in the Configurations section, search for `idp:AzureADExternalAuthTenant` and note the Tenant name then search for `idp:AzureADExternalAuthClientId` and note the Client ID.
 1. Navigate to your tenant (tenant name that you noted from Step 9) where your AAD exists, select **App registrations** then search for the application which corresponds to your Client ID noted from Step 10.
 
-    :::image type="content" source="../../media/Teams SSO MultiTenant 5.png" alt-text="Teams SSO 5":::
+    :::image type="content" source="../../media/Teams SSO MultiTenant 5.png" alt-text="Screen shot of App registration page.":::
 
 1. Select the application, navigate to ‘Authentication’ then select *Accounts in any organizational directory (Any Azure AD directory - Multitenant)* under **Supported account types** and select **Save**.
 
-    :::image type="content" source="../../media/Teams SSO MultiTenant 6.png" alt-text="Teams SSO 6":::
+    :::image type="content" source="../../media/Teams SSO MultiTenant 6.png" alt-text="Screen shot of Teams authentication.":::
 
 1. For each tenant follow these steps:
 
@@ -172,7 +170,7 @@ In this article, you will learn about how to setup Teams SSO to support multiple
 
 1. The users belonging to multiple tenants will now be able to access Community Training through Teams.
 
-    :::image type="content" source="../../media/Teams SSO MultiTenant 7.png" alt-text="Teams SSO 7":::
+    :::image type="content" source="../../media/Teams SSO MultiTenant 7.png" alt-text="Screen shot of Community Traing accessed via Teams.":::
 
 ## Creating Organizations for Each Tenant
 
@@ -186,15 +184,15 @@ Creating Organizations for each tenant is an important step. Unless you create a
 1. In Admin View, go to the Users tab.
 1. Select **Organization Administrators** then **Manage Organizations**.
 
-    :::image type="content" source="../../media/Add Organization in MultiTenant.png" alt-text="Create Orn in MultiTenant1":::
+    :::image type="content" source="../../media/Add Organization in MultiTenant.png" alt-text="Manage Organizations in MultiTenant.":::
 
 1. Select **Add Organization**.
 
-    :::image type="content" source="../../media/Add Organization2 Multi Tenant.png" alt-text="Add Org to Multi Tenant 2":::
+    :::image type="content" source="../../media/Add Organization2 Multi Tenant.png" alt-text="Add Organization to Multi Tenant button":::
 
 1. Enter **Organization Name** and **Organization Description** then provide the **TenantId** ([Steps to find TenantId](/azure/active-directory/fundamentals/active-directory-how-to-find-tenant)) of the respective tenant to be added.
 
-    :::image type="content" source="../../media/Add tenant ID Organization.png" alt-text="Add Org to Multi Tenant 3":::
+    :::image type="content" source="../../media/Add tenant ID Organization.png" alt-text="Add Organization details to Multi Tenant":::
 
 1. Select **Create**.
 1. Repeat the above steps to create organizations for the all tenants requiring access.
@@ -205,7 +203,7 @@ The Community Training platform allows Administrators to set-up and schedule mee
 
 In this article, you will learn how to setup your instance to allow Administrators to set-up a Microsoft Teams meeting for a Course, Learning Path, and User Group.
 
-### Steps to configure Microsoft Teams Meeting Scheduling in CT
+### Steps to configure Microsoft Teams Meeting Scheduling in MCT
 
 Follow the steps below that refer to the login identity used on your instance.
 
@@ -251,19 +249,19 @@ Follow only **Step 1** on [this link](#step-1---delegate-permissions-on-your-azu
 
     :::image type="content" source="../../media/Blended Learning 1.png" alt-text="Select App registrations":::
 
-1. On the App registrations page, search for and select the Azure AD application created for the Community Training Instance during the installation process.
-    :::image type="content" source="../../media/Blended Learning 2.png" alt-text="Select the app registered for the CT instance":::
+1. On the App registrations page, search for and select the Azure AD application created for the Microsoft Community Training Instance during the installation process.
+    :::image type="content" source="../../media/Blended Learning 2.png" alt-text="Select the app registered for the CT instance.":::
 
 1. Select **Authentication** from the left panel
-    :::image type="content" source="../../media/Blended Learning 3.png" alt-text="Select Authentication":::
+    :::image type="content" source="../../media/Blended Learning 3.png" alt-text="Select Authentication option on menu.":::
 
 1. On the Authentication page, search for and select **Add a platform**
 
-    :::image type="content" source="../../media/Blended Learning 4.png" alt-text="Select add a platform":::
+    :::image type="content" source="../../media/Blended Learning 4.png" alt-text="Screen shot showing 'Aadd a platform' button.":::
 
 1. Select the **Single-page application** option on the configure platforms panel presented.
 
-    :::image type="content" source="../../media/Blended Learning 5.png" alt-text="Select single-page application":::
+    :::image type="content" source="../../media/Blended Learning 5.png" alt-text="Screen shot showing the 'Single-page application'option.":::
 
 1. On the configure single page application page, enter `https://<yourinstanceurl>/meeting`. Please note that you need to add both **.azurefd.net** and **.azurewebsites.net** URL.
 For example:
@@ -272,7 +270,7 @@ For example:
 
     Select **Configure** after typing the URL.
 
-    :::image type="content" source="../../media/Blended Learning 6.png" alt-text="Type URL and click configure":::
+    :::image type="content" source="../../media/Blended Learning 6.png" alt-text="Image of area to type URL and Configure button.":::
 
 1. On the Authentication page from point 5 of the list, scroll down to **Supported account types**. Select the option **‘Accounts in any organizational directory (Any Azure AD directory – Multitenant)**
 
@@ -280,7 +278,7 @@ For example:
 
 1. Select **Save** to confirm the configuration.
 
-    :::image type="content" source="../../media/Blended Learning 8.png" alt-text="Select save":::
+    :::image type="content" source="../../media/Blended Learning 8.png" alt-text="Image showing Save button":::
 
 ##### Step 4
 
@@ -304,31 +302,31 @@ Once you have configured Microsoft Teams Meeting Scheduling in CT, the administr
 1. Go to the respective Course, Learning Path or User Group you want to schedule a meeting for.
 1. Select the MS Teams option:
     * For **Course/ Learning Path**, click or tap the MS Teams icon on top-right of the details page.
-    :::image type="content" source="../../media/Blended Learning 9.png" alt-text="Course/ Learning path icon":::
+    :::image type="content" source="../../media/Blended Learning 9.png" alt-text="Course/ Learning path icon.":::
     * For **User Groups**, click on “Create a meeting” icon as shown below.
-    :::image type="content" source="../../media/Blended Learning 10.png" alt-text="groups icon":::
+    :::image type="content" source="../../media/Blended Learning 10.png" alt-text="groups icon.":::
 
 1. Select **Create meeting link** Ton the pop-up window.
-    :::image type="content" source="../../media/Blended Learning 11.png" alt-text="Create Meeting link":::
+    :::image type="content" source="../../media/Blended Learning 11.png" alt-text="Screen shot of page showing Create Meeting link.":::
 
 1. On the “**New Meeting**” page presented, enter the details required for the meeting:
     * Meeting Title.
-    * The attendees data will be auto-filled from the data you had selected in CT portal.
+    * The attendees data will be auto-filled from the data you had selected in MCT portal.
     * Select a range of time in the calendar i.e. Date & Time of Start and End of the meeting.
     * Enter the details for this meeting like agenda etc.
 
-    :::image type="content" source="../../media/Blended Learning 12.png" alt-text="New Meeting Details":::
+    :::image type="content" source="../../media/Blended Learning 12.png" alt-text="New Meeting Details dialogue box.":::
 
 1. Select **Create**.
 
 1. A new pop-up window will open sharing the meeting details along with the meeting link that can be shared with the users.
 
-    :::image type="content" source="../../media/Blended Learning 13.png" alt-text="Meeting Created":::
+    :::image type="content" source="../../media/Blended Learning 13.png" alt-text="Screen shot showing confirmation of created meeting.":::
 
 > [!NOTE]
 >
 >* For **Work or School based instance** and **Social email-based login**, the learner will get an email as well as the meeting notification in his calendar.
->:::image type="content" source="../../media/Blended Learning 19.PNG" alt-text="Learner experience":::
+>:::image type="content" source="../../media/Blended Learning 19.PNG" alt-text="Meeting shown in Learner's calendar.":::
 >* For **Phone authentication based instance**, the learner will not receive any notification and the admin needs to inform the learners explicitly.
 
 ### Edit MS teams meeting scheduled in CT
@@ -339,13 +337,13 @@ You may edit the details of the meeting organized in the CT platform from:
 
 1. Once the meeting is created click on the pencil icon on the pop-up window (as shown below).
 
-    :::image type="content" source="../../media/Blended Learning 18.png" alt-text="Edit Meeting":::
+    :::image type="content" source="../../media/Blended Learning 18.png" alt-text="Screen shot of Meeting confirmation showing edit option.":::
 
 1. In the Edit meeting pop-up you can modify the title of the meeting.
     > [!NOTE]
     >You will not be able to modify the invitee list and the meeting details.
 
-    :::image type="content" source="../../media/Blended Learning 14.png" alt-text="Edit meeting":::
+    :::image type="content" source="../../media/Blended Learning 14.png" alt-text="Edit meeting options.":::
 
 1. Select **Update** to save your changes.
 
@@ -355,10 +353,10 @@ You may edit the details of the meeting organized in the CT platform from:
 1. Open your Microsoft Teams and select **Calendar**.
 1. Click once on the meeting appointment and select **Edit**.
 
-    :::image type="content" source="../../media/Blended Learning 15.png" alt-text="Edit meeting from MS Teams":::
+    :::image type="content" source="../../media/Blended Learning 15.png" alt-text="Edit meeting from MS Teams.":::
 
 1. Select **Show meeting info**.
 
-    :::image type="content" source="../../media/Blended Learning 16.png" alt-text="Meeting Info":::
+    :::image type="content" source="../../media/Blended Learning 16.png" alt-text="Meeting Info from calendar entry.":::
 1. Edit the details from the page and select **Send update**.
-    :::image type="content" source="../../media/Blended Learning 17.png" alt-text="Send Update":::
+    :::image type="content" source="../../media/Blended Learning 17.png" alt-text="Screen shot showing option to Send Update after editing meeting details.":::

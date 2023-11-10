@@ -19,24 +19,16 @@ In this article, you will learn how to add subtitles for a video content on the 
 
 1. Add the video content for a lesson. [**See detailed steps**](../../../content-management/create-content/create-course-category/upload-content-to-a-course.md#option-1-manually-add-content-for-each-lesson-in-a-course) on how to add content to a course.
 
-1. Below the Upload button, you can see the **Add Subtitle** button. Click on + Add Subtitle button.
+1. Below the Upload button, you can see the **Add Subtitle** button. Click on + Add Subtitle button. :::image type="content" source="../../../media/image(204).png" alt-text="Add subtitle.":::
 
-    ![Add Subtitle](../../../media/image%28204%29.png)
+1. Next click on **Select a language** menu and choose the language for which you want to add the subtitles. :::image type="content" source="../../../media/image(205).png" alt-text="Select a language.":::
 
-1. Next click on **Select a language** menu and choose the language for which you want to add the subtitles.
-
-    ![Select a language](../../../media/image%28205%29.png)
-
-1. Next click on the **Select Subtitle File** button to add subtitle file (.vtt format).
-
-    ![Select Subtitle File](../../../media/image%28207%29.png)
+1. Next click on the **Select Subtitle File** button to add subtitle file (.vtt format). :::image type="content" source="../../../media/image(207).png" alt-text="Select VTT file for subtitles.":::
 
     > [!NOTE]
     > In case subtitle files are not in **VTT format**, then use a suitable software to convert the subtitle files. For e.g. [**here**](https://www.webvtt.org/) is the web application available to convert subtitles from SRT to VTT format.
 
-1. Click on **Done** to save the newly added subtitle file for the video.
-
-    ![Click on Done](../../../media/image%28208%29.png)
+1. Click on **Done** to save the newly added subtitle file for the video. :::image type="content" source="../../../media/image(208).png" alt-text="Select Done to confirm.":::
 
 1. Repeat Step 2 to 5 to add subtitles in additional languages.
 
@@ -46,8 +38,6 @@ Once the subtitles or captions are added to the video lessons, it can be viewed 
 
 1. On the video player, Click on **Subtitle/Captions** icon.
 
-1. On the pop-up menu, select the subtitle language
-
-    ![Pop-up menu](../../../media/image%28209%29.png)
+1. On the pop-up menu, select the subtitle language. :::image type="content" source="../../../media/image(209).png" alt-text="Popup to select language.":::
 
 1. Captions will be seen on the video in the language that you select

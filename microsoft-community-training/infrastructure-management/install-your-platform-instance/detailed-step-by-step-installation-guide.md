@@ -35,8 +35,7 @@ You will require **Owner** or **Contributor** role on the subscription to go thr
 
 ### 3. Get the required information
 
-Based on the authentication type (Phone/Social login OR Work/School Account), you will need to have the following information handy.  
-
+Based on the authentication type (Phone/Social login OR Work/School Account), you will need to have the following information handy.
 | **Key**                               | **Phone/Social Login (ADB2C)**                                                                                                                                                                                                                                                                                                                      | **Work/School Account (MS Entra ID)**                   |
 |---------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------|
 | **Global Admin Contact**              | The emailID /phone number of the Global Admin on the Community Training portal                                                                                                
@@ -64,37 +63,36 @@ Based on the authentication type (Phone/Social login OR Work/School Account), yo
 
 3. Under "All Services", locate **Community Training** under **Web & Mobile** and click on it.
 
-    ![Locate Community Training](../../media/Detailed_Installation_Steps/Detailed_Installation_Guide_Step1.png)
+    ![Locate Community Training.](../../media/Detailed_Installation_Steps/Detailed_Installation_Guide_Step1.png)
 
 4. Click on **Create Community Training** to start the deployment process.
-    >NOTE: If you already have an instance of the Community Training and would like to create a second one, click on create to the top left of the screen.
 
+    If you already have an instance of the Community Training and would like to create a second one, click on create to the top left of the screen.
+    >![Screen shot of Community Training instance.](../../media/Detailed_Installation_Steps/Detailed_Installation_Guide_Step2.png)
 
-    ![Initiate Deployment Process](../../media/Detailed_Installation_Steps/Detailed_Installation_Guide_Step2.png)
-
-    [!Note]
+    > [!NOTE]
     >Over the next few screens, you will enter the information required to set the platform. 
 
 5. On the Basic information page, select the subscription ID associated with your account. If you have a resource group, please select. OR, click on "Create New" to create a new resouce group. Also select the SKU and the pricing tier.
 
     ![Basic Information Page](../../media/Detailed_Installation_Steps/Detailed_Installation_Guide_Step3.png)
 
-    > [!Note]
+    > [!NOTE]
     >Community Training offers two SKUs with license fees in addition to an Azure infrastructure fee for cloud services consumers.
     >1. Non-profit
-    >2. Commercial   
- For more information on the pricing, please visit the [**Pricing and Subscription**](../../frequently-asked-questions/pricing-subscription.md)
+    >2. Commercial
+     >
+    >For more information on the pricing, please visit the [**Pricing and Subscription**](../../frequently-asked-questions/pricing-subscription.md)
 
-    [!Note]
+    > [!NOTE]
     >Community Training Installations are offered in two pricing tiers.
     >1. Standard
     >2. Premium  
     >For more information on the pricing, please visit the [**Pricing and Subscription**](../../frequently-asked-questions/pricing-subscription.md)
 
-    
     Once done, click on **Next**
 
-6. Slect the type of **Authentication** you would like to have on your platform. The choices are between:
+6. Select the type of **Authentication** you would like to have on your platform. The choices are between:
         
     i. Social or Phone Login  
     ii. Work or School Account
@@ -105,7 +103,7 @@ Based on the authentication type (Phone/Social login OR Work/School Account), yo
 
     https://learn.microsoft.com/en-us/azure/active-directory-b2c/phone-authentication-user-flows
     
-    >[!Note]
+    > [!NOTE]
     > * Please refer to this documentation for [**social account configuration guide**](../../infrastructure-management/install-your-platform-instance/configure-login-social-work-school-account.md#social-account-or-email-based-authentication)  
     >* Please refer to this documentation for [**Phone Account Setup Guide**](https://learn.microsoft.com/en-us/azure/active-directory-b2c/phone-authentication-user-flows)  
     > Please refer to this [**link**](https://azure.microsoft.com/en-us/pricing/details/active-directory-external-identities/#resources) for pricing information.
@@ -116,40 +114,40 @@ Based on the authentication type (Phone/Social login OR Work/School Account), yo
 
     This option allows you to use existing work or school account lo login to the Community Training. You will need to provide a contact who will act as the Global Admin on the Community Training.  
     
-    > [!Note]  
+    > [!NOTE]  
     >You will need Azure Active Directory , also known as Azure Entra ID to be setup to choose either option.  
     >* Please refer to this [**link**](https://azure.microsoft.com/en-us/pricing/details/active-directory-external-identities/#resources) for pricing.  
     >* Please refer to this link [**work or school account configuration guide**](../../infrastructure-management/install-your-platform-instance/configure-login-social-work-school-account.md#work-or-school-account-based-authentication) for help with setup. 
 
     You also have the option to connect your MS Teams subscription to the Community Training instance.
 
-    ![Work_School_Login](../../media/Detailed_Installation_Steps/Detailed_Installation_Guide_Step4b.png)
+    ![Connect Work or School log in to your CT instance.](../../media/Detailed_Installation_Steps/Detailed_Installation_Guide_Step4b.png)
 
 
-Once you have made a choice of authenticated and entered corresponding information, click on **Next**
+    Once you have made a choice of authenticated and entered corresponding information, click on **Next**
 
 
 7. On this screen, you will select the data resiliency and disaster recovery options.
 
-> [!Note]
+> [!NOTE]
 > The Disaster Recovery options come at a cost. Please refer to the [**pricing Calculator**] (https://communitytraining.microsoft.com/pricing/)to get an estimate of the cost.
 
-> [!Note]
+> [!NOTE]
 > The decision to have a disaster recovery needs to be made at installation. This option can **NOT** be changed later. 
 
-![DR_Options](../../media/Detailed_Installation_Steps/Detailed_Installation_Guide_Step5.png)
+![Image of Disaster Recovery options._Options](../../media/Detailed_Installation_Steps/Detailed_Installation_Guide_Step5.png)
 
 > [!NOTE]
 >Service A stores customer data. By default, customer data stays within the region the customer deploys the service instance in. However, the customer can choose to replicate data to a paired region (If Available) for Disaster Recovery purposes. For list of available regions, please refer to this [***link***](https://learn.microsoft.com/en-us/azure/reliability/cross-region-replication-azure#azure-paired-regions).
 
-Once you have made your selection, click on **Next** or **Review + Create**
+    Once you have made your selection, click on **Next** or **Review + Create**
 
 8. On the next screen, verify the values entered are correct and click **Create**.
 
-![Create_Step](../../media/Detailed_Installation_Steps/Detailed_Installation_Guide_Step6.png)
+![Confirm creation.](../../media/Detailed_Installation_Steps/Detailed_Installation_Guide_Step6.png)
 
 
-Congratulations, you have configured the installation of the Community Training on your instace. 
+Congratulations, you have configured the installation of the Community Training on your instance. 
 
 Once the deployment is complete and the website is up, refer to the [**getting started guide**](../../get-started/step-by-step-configuration-guide.md) to start configuring your learning portal.
 

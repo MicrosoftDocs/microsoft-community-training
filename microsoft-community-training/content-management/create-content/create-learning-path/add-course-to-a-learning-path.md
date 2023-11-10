@@ -32,19 +32,13 @@ The Community Training portal provides role-based permission levels. The table b
 
 1. Log on to the Community Training portal and [**switch to administrator view**](../../../get-started/step-by-step-configuration-guide.md#step-2--switch-to-administrator-view-of-the-portal).
 
-1. Select the **Content** tile on the left bar and click the Learning Paths tab.
-
-    ![Select Content](../../../media/image%28388%29.png)
+1. Select the **Content** tile on the left bar and click the Learning Paths tab. :::image type="content" source="../../../media/image(388).png" alt-text="Select Learning path view.":::
 
 1. From the **Learning Paths** tab, select the Learning Path in the list to which you want to add courses.
 
-1. Select **Add Categories** to view all published Courses in the Categories
+1. Select **Add Categories** to view all published Courses in the Categories. :::image type="content" source="../../../media/image(392).png" alt-text="Add category.":::
 
-    ![Add Categories](../../../media/image%28392%29.png)
-
-1. From the right panel, select the Courses you want to add to the Learning Path.
-
-    ![Courses from right panel](../../../media/image%28393%29.png)
+1. From the right panel, select the Courses you want to add to the Learning Path. :::image type="content" source="../../../media/image(393).png" alt-text="Image showing New Course selection for category.":::
 
     > [!TIP]
     >You can also unselect Courses which will **remove content** from the Learning Path. Learners will not be able to view that content anymore. For more information, refer [this document](../../../user-management/manage-users/De-assigning-content-from-user.md).

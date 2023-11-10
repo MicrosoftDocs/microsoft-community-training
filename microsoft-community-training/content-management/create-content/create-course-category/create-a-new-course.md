@@ -34,7 +34,7 @@ The table below shows which administrative roles can create courses.
 
 In this section, you will learn how to create a single course in the Community Training platform. You will need to [**View as an administrator**](../../../get-started/step-by-step-configuration-guide.md#step-2--switch-to-administrator-view-of-the-portal) on the training portal.
 
-1. Click the :::image type="icon" source="../../../media/Plus icon.png" border="false"::: on the category list pane to create course under a category.
+1. Click the :::image type="icon" source="../../../media/Plus icon.png" border="false"alt-text="Create New Category."::: on the category list pane to create course under a category.
 
     :::image type="content" source="../../../media/New course drop down menu(1).png" alt-text="Select plus icon to add new course to a category":::
 
@@ -85,19 +85,19 @@ In this topic, you will learn to import courses from the Content Marketplace.
 1. Log in to the Community Training portal and [**View as an administrator**](../../../get-started/step-by-step-configuration-guide.md#step-2--switch-to-administrator-view-of-the-portal).
 1. Select the Content icon on the left bar then  **Categories**.
 1. Select **Marketplace** on the bottom-left of the page.
-    :::image type="content" source="../../../media/marketplace1.png" alt-text="marketplace1img":::
+    :::image type="content" source="../../../media/marketplace1.png" alt-text="Button to select Marketplace option.":::
 
 1. Choose from the content available, selecting the provider and using the search facility to find the course you require if necessary.
-    :::image type="content" source="../../../media/marketplacesearch.png" alt-text="imagemarketplacesearch":::
+    :::image type="content" source="../../../media/marketplacesearch.png" alt-text="Search marketplace.":::
 
 1. When you have located the content required, click on **Import course** button on the course panel.
-    :::image type="content" source="../../../media/marketplaceimg3.png" alt-text="marketplace3img":::
+    :::image type="content" source="../../../media/marketplaceimg3.png" alt-text="Select Import course.":::
 
 1. Choose the category you want to import the course to using the search facility if necessary.
-    :::image type="content" source="../../../media/marketplaceimg4.png" alt-text="img4marketplace":::
+    :::image type="content" source="../../../media/marketplaceimg4.png" alt-text="Choose category to import.":::
 
 1. The course will be imported to selected category as shown.
-    :::image type="content" source="../../../media/marketplaceimg5.png" alt-text="imagemarketplace5":::
+    :::image type="content" source="../../../media/marketplaceimg5.png" alt-text="Image showing course imported to category.":::
 
 ## Option 3 - Create multiple courses in a category
 
@@ -115,9 +115,7 @@ The course content must be structured correctly and available in the required fi
 
 1. Repeat steps 1 and 2 for each course to be uploaded multiple courses together.
 
-1. Ensure that there are no sub-folders inside any folder with course names. Folders with course names should only contain lessons files as shown in the image below:
-
-    ![Course format](../../../media/Course%20format.png)
+1. Ensure that there are no sub-folders inside any folder with course names. Folders with course names should only contain lessons files as shown in the image below: :::image type="content" source="../../../media/Course format.png" alt-text="EImage showing example of course bulk upload.":::
 
 1. Select all the folders you want to upload and compress them into a ZIP file. **Right click > Send to > Compressed (zipped) folder**.
 
@@ -128,34 +126,28 @@ The course content must be structured correctly and available in the required fi
 
 ### Steps for bulk upload courses to the portal
 
-1. Find the catgory you want to add a course to and click **Bulk Upload Courses**.
-1. 
-    ![Bulk upload courses drop down](../../../media/Bulk%20uplod%20courses%20drop%20down.png)
+1. Find the catgory you want to add a course to and click **Bulk Upload Courses**. :::image type="content" source="../../../media/Bulk uplod courses drop down.png" alt-text="Image showing Bulk Upload Course option.":::
 
-2. Click **Bulk Upload Course (Preview)** from the drop-down menu.
+1. Click **Bulk Upload Course (Preview)** from the drop-down menu.
 
-3. Using the file picker, **select the ZIP** file which contains your course content.
-    ![Upload course window](../../../media/Upload%20course%20window.png)
+1. Using the file picker, **select the ZIP** file which contains your course content.:::image type="content" source="../../../media/Upload course window.png" alt-text="Image showing course upload browser.":::
 
-4. Wait for file upload operation to be completed. **Do not close the browser window at this point**.
-    ![Upload complete course](../../../media/Upload%20complete%20course.png)
+1. Wait for file upload operation to be completed. **Do not close the browser window at this point**. :::image type="content" source="../../../media/Upload%20complete%20course.png" alt-text="Course upload complete.":::
 
     > [!NOTE]
     > Depending upon your network connectivity and size of the ZIP file, it can take some time to complete the upload operation.
 
-5. You will see the following message on the top-right corner indicating that the content file was successfully uploaded to the portal for processing.
-
-    ![Bulk upload successful](../../../media/Bulk%20upload%20successful.png)
+1. You will see the following message on the top-right corner indicating that the content file was successfully uploaded to the portal for processing. :::image type="content" source="../../../media/Upload%20successful.png" alt-text="Course upload complete.":::
 
     > [!WARNING]
     > If there are issues with the content or structure of the zip file then the upload operation will fail.
 
-6. On the course details page, progress status will be updated at regular interval. Refresh the page (Press F5) in case you don't see the newly uploaded courses on the portal.
+1. On the course details page, progress status will be updated at regular interval. Refresh the page (Press F5) in case you don't see the newly uploaded courses on the portal.
 
     > [!NOTE]
     > For video content, processing can take hours depending upon the number of videos, their size and the configuration of the media service end point. This processing is a non-blocking operation and admins are allowed to do other tasks.
 
-7. Once the content is processed, you can add a course description, change the enrollment type, enable certificates, etc. as required. By default, course details are set to the following:
+1. Once the content is processed, you can add a course description, change the enrollment type, enable certificates, etc. as required. By default, course details are set to the following:
     1. Course Name – Folder Name
     1. Lesson Name – File Name
     1. Course Description – Null
@@ -210,16 +202,12 @@ Let us assume that a course is created in *English* and its subsequent translati
 
 In this topic, you will learn how to translate a course in the Community Training Platform. Log in to the portal and [**switch to administrator view**](../../../get-started/step-by-step-configuration-guide.md#step-2--switch-to-administrator-view-of-the-portal).
 
-1. To create a translation for a course, click on **+ Add course in a different language**.
-
-    ![Add course in a different language](../../../media/image%28472%29.png)
+1. To create a translation for a course, click on **+ Add course in a different language**. :::image type="content" source="../../../media/image%28472%29.png" alt-text="Add course in new language..":::
 
     > [!WARNING]
     > Courses with enrollment type **Automatically enroll all learners** can NOT be translated.
 
-1. Enter the **Course Name**. The course name is the course translation's title that learners would see on the web portal and mobile app.  For example: *AI for Agriculture - Spanish.*
-
-    ![Course name for translation](../../../media/image%28473%29.png)
+1. Enter the **Course Name**. The course name is the course translation's title that learners would see on the web portal and mobile app.  For example: *AI for Agriculture - Spanish.*  :::image type="content" source="../../../media/image%28473%29.png" alt-text="Add course translation selection..":::
 
 1. Enter the **Course Description**. The course description is a short summary which informs a learner about course content at the time of registration. For example: *Italian translation for the course AI for Agriculture*.
 
@@ -228,9 +216,7 @@ In this topic, you will learn how to translate a course in the Community Trainin
     > [!TIP]
     > You can create certificate templates in different languages and enable them basis the course language.
 
-1. Choose **Course Language**. This is the language in which the course will be translated.
-
-    ![Course language for translation](../../../media/image%28474%29.png)
+1. Choose **Course Language**. This is the language in which the course will be translated. :::image type="content" source="../../../media/image%28474%29.png" alt-text="Course translation selection completed..":::
 
 > [!IMPORTANT]
 > The following details will be used as that of the default version of the course:

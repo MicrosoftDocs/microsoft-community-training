@@ -13,7 +13,7 @@ When you no longer need your training portal, you can delete it by deleting the 
 
 1. In the Azure portal, navigate to Resource groups in the left navigation pane.
 
-   ![Navigate Resource groups](../../media/image%2823%29.png)
+   ![Navigate to Resource groups.](../../media/image%2823%29.png)
 
 1. Select the resource group belonging to your Community Training instance rom the list.
 
@@ -33,7 +33,7 @@ When you no longer need your training portal, you can delete it by deleting the 
 
 1. Select **Delete resource group** and verify deletion by entering the resource group name, then select **Delete**.
 
-   ![Delete resource group](../../media/image%2887%29.png)
+   ![Delete resource group.](../../media/image%2887%29.png)
 
 > [!WARNING]  
 > Once you delete your learning portal resource group, you will lose all data and it cannot be recovered.

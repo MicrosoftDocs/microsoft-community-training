@@ -39,13 +39,13 @@ In this topic, you will learn how to enroll users directly to a course.
 
 1. Select **Manage Users** on the top-right of the course details page.
 
-    ![Manage user](../../../media/image%2851%29.png)
+    ![Manage user icon ](../../../media/image%2851%29.png)
 
 1. You can choose between the following two methods to enroll users for the course.
     * **Add users** – This option is used to add one user to the course at a time. Select **Add User**, enter the phone number, then select **Add**.
     * **Bulk upload users** – This option is used to add multiple users to the course. Select **Bulk upload users** then locate the CSV file containing the list of users and select **Upload**. To structure the CSV file in the correct format - [**Click here to see detailed steps**](../../../user-management/organize-users/create-a-new-group.md).
 
-        ![Manage users](../../../media/Manage%20users.png)
+        ![Manage users selection.](../../../media/Manage%20users.png)
 
 > [!NOTE]
 > If the platform has been setup with the login identity as *Social Account* or *Azure Active Directory*, you will need to enter an email address in the above step.
@@ -62,15 +62,15 @@ In this topic, you will learn how to remove user enrollment from a course.
 
 1. Select **Manage Users** on top-right of the course details page.
 
-    ![CLick Manage Users](../../../media/image%2851%29.png)
+    ![Select the Manage Users icon.](../../../media/image%2851%29.png)
 
-1. Select ![Remove icon](../../../media/Remove%20icon.png) to remove a user from the course. The remove icon is shown only when you place your mouse over it.
+1. Select ![Remove User icon.](../../../media/Remove%20icon.png) to remove a user from the course. The remove icon is shown only when you place your mouse over it.
 
-    ![Manage Users](../../../media/Manage%20Users.png)
+    ![Manage Users dialogue box.](../../../media/Manage%20Users.png)
 
 1. On the confirmation dialog, press **Ok** to confirm and complete removal.
 
-    ![Delete course registration](../../../media/Delete%20course%20registration.png)
+    ![Delete User from course registration.](../../../media/Delete%20course%20registration.png)
 
     > [!WARNING]
     > When you remove a user's registration (or enrollment) from a course, all the course tracking and progress for the learner is also deleted from the portal.

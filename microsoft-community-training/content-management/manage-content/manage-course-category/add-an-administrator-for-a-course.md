@@ -39,17 +39,12 @@ In this topic, you will learn how to add a category administrator.
 
 1. Log in to the Community Training portal and [**switch to administrator view**](../../../get-started/step-by-step-configuration-guide.md#step-2--switch-to-administrator-view-of-the-portal).
 
-1. Under the **Course** tab, select the category you want to add an administrator to and select **More (...)**.
+1. Under the **Course** tab, select the category you want to add an administrator to and select **More (...)**. :::image type="content" source="../../../media/Manage admin drop down.png" alt-text="Add Administrator to course.":::
 
-    ![Manage admin drop down](../../../media/Manage%20admin%20drop%20down.png)
+1. Select **Manage administrators** in the pop-up menu. :::image type="content" source="../../../media/Add cat admin.png" alt-text="Add Administrators pop-up menu.":::
 
-1. Select **Manage administrators** in the pop-up menu.
 
-    ![Add cat admin](../../../media/Add%20cat%20admin.png)
-
-1. In the flyout, select **Add Administrator**, enter a valid phone number and then select **Add**.
-
-    ![Add administrator phone number\(1\)](../../../media/Add%20administrator%20phone%20number%281%29.png)
+1. In the flyout, select **Add Administrator**, enter a valid phone number and then select **Add**. :::image type="content" source="../../../media/Add administrator phone number(1).png" alt-text="Add Administrator by phone number .":::
 
     > [!NOTE]
     > If the platform has been setup with *Social Account* or *Azure Active Directory* as the login identity then you will need to enter an email address in the above step.
@@ -60,17 +55,11 @@ In this topic, you will learn how to add a course administrator.
 
 1. Log in to the Community Training portal and [**switch to administrator view**](../../../get-started/step-by-step-configuration-guide.md#step-2--switch-to-administrator-view-of-the-portal).
 
-1. Under the **Course** tab, select the course you want to add an administrator to and select the **More (...)**.
+1. Under the **Course** tab, select the course you want to add an administrator to and select the **More (...)**. :::image type="content" source="../../../media/Manage admn drop down.png" alt-text="Manage administrators.":::
 
-    ![Manage Admin drop down](../../../media/Manage%20Admn%20drop%20down.png)
+1. Select **Manage administrators** to add a course administrator. :::image type="content" source="../../../media/Manage Admin_add.png" alt-text="Add Administrators to course.":::
 
-1. Select **Manage administrators** to add a course administrator.
-
-    ![Manage Admin_add](../../../media/Manage%20Admin_add.png)
-
-1. In the flyout window, select **Add Administrator**, enter a valid phone number then select **Add**.
-
-    ![Add administrator phone number](../../../media/Add%20administrator%20phone%20number.png)
+1. In the flyout window, select **Add Administrator**, enter a valid phone number then select **Add**.  :::image type="content" source="../../../media/Add administrator phone number.png" alt-text="Add Administrator by email address.":::
 
     > [!NOTE]
     > If the platform has been setup with *Social Account* or *Azure Active Directory* as the login identity then you will need to enter an email address in the above step.

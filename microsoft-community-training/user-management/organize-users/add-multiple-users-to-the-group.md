@@ -36,7 +36,7 @@ Before you start the bulk upload, ensure the users list is structured in the rig
 
 1. In the bulk upload users panel, download the sample comma separated values (CSV) file.
 
-    ![sample CVS](../../media/sample%20CVS.png)
+    ![Example CVS file.](../../media/sample%20CVS.png)
 
 #### Step 2 - Edit the sample CSV file to create your list
 
@@ -56,7 +56,7 @@ Before you start the bulk upload, ensure the users list is structured in the rig
         ![user details](../../media/image%2857%29.png)
 
 > [!NOTE]
-> If the portal is setup with the login identity as **Social Account** or **Entra ID (Azure Active Directory)**  you will need to enter email address in the above step.
+> If the portal is setup with the login identity as **Social Account** or **Azure Active Directory**  you will need to enter email address in the above step.
 
 #### Step 3 – Add User Profile Data (optional)
 
@@ -87,19 +87,19 @@ Before you start the bulk upload, ensure the users list is structured in the rig
 
 1. Edit and correct any errors you find in the structure as described in the previous steps. Below is a screenshot of how a correct CSV file will look in Notepad
 
-    ![How a correct CSV](../../media/image%2864%29.png)
+    ![Example of how a correctly formatted CSV will look.](../../media/image%2864%29.png)
 
 ## Steps to bulk upload users to specific group
 
 1. From the group details page, select **Bulk Upload Users** from the **Add User** drop-down menu.
 
-    ![Steps to bulk upload users to specific group](../../media/image%2858%29.png)
+    ![Screen shot showing option to Bulk Upload Users.](../../media/image%2858%29.png)
 
 1. Alternatively, select **More (...)** to the right of the group name then **Bulk upload users** from the drop-down menu.
 
 1. Select **Browse** and locate the CSV file containing the users list from your local machine.
 
-    ![Users list from your local machine](../../media/image%2859%29.png)
+    ![Image of Browse window to upload CSV file.](../../media/image%2859%29.png)
 
     > [!NOTE]
     > Before you begin this step, please ensure that user list is in correct format. See detailed steps on [**how to a create user list**](#prerequisite-for-using-bulk-upload-users-feature).

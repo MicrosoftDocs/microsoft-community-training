@@ -17,7 +17,7 @@ In this article, you will learn how to create and enable feedback forms for the 
 
 The feedback form is added as a link while creating or editing a course. The feedback form can be created on any of the external survey websites, including Microsoft Form, Google Form and Survey Monkey. Once enabled, it is available to learners when they attempt a course.
 
-:::image type="content" source="../../../media/image(476).png" alt-text="Feedback form for learners":::
+:::image type="content" source="../../../media/image(476).png" alt-text="Feedback form for learners.":::
 
 ## Pre-filling the Feedback Form
 

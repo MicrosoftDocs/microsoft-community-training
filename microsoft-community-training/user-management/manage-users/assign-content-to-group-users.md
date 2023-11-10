@@ -39,7 +39,7 @@ The Community Training portal provides role-based permission levels. The table b
 
 1. Select **Content** from group details page.
 
-    ![User Management - Manage User - Content Tab](../../media/User%20Management%20-%20Manage%20User%20-%20Content%20Tab.png)
+    ![User Management - Manage User - Content Tab.](../../media/User%20Management%20-%20Manage%20User%20-%20Content%20Tab.png)
 
 1. Select **Assign Content** to see the list of courses which can be assigned to the group.  
 
@@ -48,7 +48,7 @@ The Community Training portal provides role-based permission levels. The table b
 
 1. From the left panel, select **Learning Paths** then the Learning Paths you want to assign to the groupnby selecting **Courses** and choosing the courses you want.  
 
-    ![User Management - Manage User - Add LP](../../media/User%20Management%20-%20Manage%20User%20-%20Add%20LP.png)
+    ![User Management - Manage User - Add LP.](../../media/User%20Management%20-%20Manage%20User%20-%20Add%20LP.png)
 
     > [!NOTE]
     >
@@ -58,7 +58,7 @@ The Community Training portal provides role-based permission levels. The table b
 
 1. Optionally, you can also define the **Priority** for each assigned course. The highest priority for any course is *Required*, followed by *Recommended*, *Optional* and, lastly, *Default*. The defined priority will be applicable to all the existing and future learners of the group and **can be edited at any stage by an administrator**.
 
-    ![User Management - Manage User - Add Priority1](../../media/User%20Management%20-%20Manage%20User%20-%20Add%20Priority1.png)
+    ![User Management - Manage User - Add Priority.](../../media/User%20Management%20-%20Manage%20User%20-%20Add%20Priority1.png)
 
     > [!TIP]
     > **Priority** can be used to communicate the urgency of a course to the learners. Priority defined from the portal will be shown to learners on the home page.

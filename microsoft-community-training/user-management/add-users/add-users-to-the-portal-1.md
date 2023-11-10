@@ -36,13 +36,13 @@ The Community Training management portal provides role-based permission levels. 
 
 1. Select **Add Users** from the top-right of the details page.
 
-    ![All users main screen](../../media/All%20users%20main%20screen.png)
+    ![Image of all users main screen.](../../media/All%20users%20main%20screen.png)
 
 1. Choose between the following two methods to add users:
 
     - **Add Single User** – Use this option to add one user at a time. Select **Add Single user**, enter the phone number then select **Add** to confirm.
 
-        ![Add single user one](../../media/Add%20single%20user%20one.png)
+        ![Add single user by phone number.](../../media/Add%20single%20user%20one.png)
 
     - **Bulk upload users** – This option is used to add multiple users in one action. For detailed steps, see how to [**structure the csv file and bulk upload users**](../organize-users/add-multiple-users-to-the-group.md).
 
@@ -75,14 +75,14 @@ Before you begin, please create a group using the steps mentioned [**in this art
 
 1. On the Community Training portal, after login [**switch to administrator view**](../../get-started/step-by-step-configuration-guide.md#step-2--switch-to-administrator-view-of-the-portal) and select a specific group under Users tab
 
-    ![Steps to add learners via Group](../../media/image%2856%29.png)
+    ![Image of Group Users showing Add User option.](../../media/image%2856%29.png)
 
 1. Select **Add user** on the group details page.
 
 1. Choose between the following two methods:
     - **Add Single User** – Use this option to add one user at a time. Select **Add Single user**, enter the phone number then select **Add** to confirm.
 
-        ![Add single user one](../../media/Add%20single%20user%20one.png)
+        ![Add user by phonr number.](../../media/Add%20single%20user%20one.png)
 
     - **Bulk upload users** – This option is used to add multiple users in one action. For detailed steps, see how to [**structure the csv file and bulk upload users**](../organize-users/add-multiple-users-to-the-group.md).
 

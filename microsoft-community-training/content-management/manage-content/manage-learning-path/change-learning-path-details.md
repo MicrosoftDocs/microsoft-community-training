@@ -31,17 +31,17 @@ The Community Training portal provides role-based permission levels. The table b
 
 1. Select the **Content** tile on the left then the **Learning Path** tab.
 
-    ![Click Learning Path from Content](../../../media/image%28388%29.png)
+    ![Select Learning Path from Content.](../../../media/image%28388%29.png)
 
 1. Select the **Learning Path** you want to edit.
 
 1. Select **More (…)** to the right of Learning Path name then **Edit Learning Path**.
 
-    ![Edit Learning Path](../../../media/image%28409%29.png)
+    ![Select Edit Learning Path.](../../../media/image%28409%29.png)
 
 1. Enter the new **Learning Path Name**
 
-    ![Learning Path Name](../../../media/image%28410%29.png)
+    ![Enter Learning Path Name.](../../../media/image%28410%29.png)
 
 1. Enter the new **Learning Path Description**.
 
@@ -51,11 +51,11 @@ The Community Training portal provides role-based permission levels. The table b
 
 1. If your instance has [multiple languages](../../../settings/customize-languages-for-the-learners-on-the-platform.md#customize-languages-on-the-platform) enabled then you can add and edit translations of your Learning path fields.
 
-    :::image type="content" source="../../../media/LPlocedit.png" alt-text="LPlocalizationcreate":::
+    :::image type="content" source="../../../media/LPlocedit.png" alt-text="Add course localization.":::
 
     * You can select the language and add the translated name, description and also assign a new certificate template.
 
-    :::image type="content" source="../../../media/LPloccreateadd.png" alt-text="LPlocacreate":::
+    :::image type="content" source="../../../media/LPloccreateadd.png" alt-text="Create course in new language.":::
 
 ## Steps to delete a Learning Path
 
@@ -63,14 +63,14 @@ The Community Training portal provides role-based permission levels. The table b
 
 1. Select the **Content** tile on the left then the **Learning Path** tab.
 
-    ![Click Learning Path](../../../media/image%28388%29.png)
+    ![Select Learning Path.](../../../media/image%28388%29.png)
 
 1. Under the **Learning Path** tab, select the Learning Path you want to delete.
 
 1. Select **More (…)** to the right of the Learning Path name and select **Delete Learning Path**.
 
-    ![Delete Learning Path](../../../media/image%28411%29.png)
+    ![Delete Learning Path.](../../../media/image%28411%29.png)
 
 1. Select **Ok** to finish.
 
-    ![Click OK](../../../media/image%28412%29.png)
+    ![Confirm deletion of Learning Path.](../../../media/image%28412%29.png)

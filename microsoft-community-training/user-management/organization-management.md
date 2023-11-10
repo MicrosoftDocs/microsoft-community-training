@@ -29,16 +29,7 @@ The Community Training portal provides role-based permission levels. The table b
 
 ## Enabling Organizations on the Platform
 
-The support for Organizations can be enabled on the platform by:
-
-1. Login to the administrator view on the platform as a **Global Adminsitrator**
-2. Navigate to **Settings** on the left pane and click on **General** under **Global Settings**.
-3. Under **"Admin Settings"** category, toggle **"Allow Content to be accessible across organizations"** to **"Enable"**
-4. Refresh the page
-
-![Feature_Toggle](../media/Feature_Toggle_Old_General.png)
-
-Please refer to this [**article**](../settings/configurations-on-the-training-platform.md#enabling-organizations-on-the-platform) on how to set the configuration keys on the product.
+The support for Organizations can be enabled on the platform by [enabling the application configuration for **Features:IsMultiOrgDeployment**](../settings/configurations-on-the-training-platform.md#enabling-organizations-on-the-platform).
 
 ## Create a New Organization
 
@@ -46,13 +37,13 @@ Please refer to this [**article**](../settings/configurations-on-the-training-pl
 
 1. Select **Settings** from the left navigation panel then **Manage Organizations**.
 
-    :::image type="content" source="../media/manageorg.png" alt-text="manageorganizations":::
+    :::image type="content" source="../media/manageorg.png" alt-text="Image of Manage Organizations menu.":::
 
 1. Select **Add Organization**.
 
 1. Enter the Organization name and description (optional) and click **Create**.
 
-    ![User Management - Add Organization - Create Organization](../media/User%20Management%20-%20Add%20Organization%20-%20Create%20Organization.png)
+    ![Image of dialog box to add New Organization.](../media/User%20Management%20-%20Add%20Organization%20-%20Create%20Organization.png)
 
 <!--
 1. On the  Community Training portal, after login [**switch to administrator view**](../get-started/step-by-step-configuration-guide.md#step-2--switch-to-administrator-view-of-the-portal).
@@ -92,11 +83,11 @@ Please refer to this [**article**](../settings/configurations-on-the-training-pl
 
 1. From the **Manage Organizations** panel, select the **pencil icon** next to the respective Organization name.
 
-    :::image type="content" source="../media/Orgbrandedit.png" alt-text="brandedit":::
+    :::image type="content" source="../media/Orgbrandedit.png" alt-text="Image of option to Manage Organization settings.":::
 
 1. Edit the Organization name and/or description and select **Update** to confirm.
 
-    ![User Management - Add Organization - Edit Organization](../media/User%20Management%20-%20Add%20Organization%20-%20Edit%20Organization.png)
+    ![Image of Edit Organization dialog box.](../media/User%20Management%20-%20Add%20Organization%20-%20Edit%20Organization.png)
 
 <!--
 1. On the  Community Training portal, after login [**switch to administrator view**](../get-started/step-by-step-configuration-guide.md#step-2--switch-to-administrator-view-of-the-portal).
@@ -131,14 +122,14 @@ If an Organization is deleted, all content, users and user groups of the Organiz
 
 * Select **Delete** from the Manage Organizations panel to Delete an Organization.
 
-![User Management - Add Organization - Manage Organization](../media/User%20Management%20-%20Add%20Organization%20-%20Manage%20Organization.png)
+![Image of options to Manage Organization.](../media/User%20Management%20-%20Add%20Organization%20-%20Manage%20Organization.png)
 
 ## Customize look and feel of your Organization(s)
 
 You can customize the look and feel of your learner experience on the Community Training platform for each of your [Organizations](#create-a-new-organization)
 
 > [!NOTE]
-
+>
 >* Global Administrators can adjust the settings for all Organizations.
 >* Organization Administrators can only adjust these settings for the organizations won which they are administrators.
 
@@ -146,7 +137,7 @@ You can customize the look and feel of your learner experience on the Community 
 
 1. Select **Settings** from the left navigation panel then **Organization settings**.
 
-    :::image type="content" source="../media/Orgbrandsettings.png" alt-text="brandsettings":::
+    :::image type="content" source="../media/Orgbrandsettings.png" alt-text="Image showing Settings menu options.":::
 
 1. Choose the Organization you want to update from the drop down. Here you can update the following:
 
@@ -179,11 +170,11 @@ You can customize the look and feel of your learner experience on the Community 
 
 1. Log on to the Community Training portal and [**switch to administrator view**](../get-started/step-by-step-configuration-guide.md#step-2--switch-to-administrator-view-of-the-portal).
 
-    ![Create a New Organization Administrator](../media/image%28421%29.png)
+    ![Image of User Management menu options.](../media/image%28421%29.png)
 
 1. Select **Organization Administrators**  from the **Users** tab.
 
-    ![User Management - Organization Administrator](../media/User%20Management%20-%20Organization%20Administrator.png)
+    ![User Management - Organization Administrator.](../media/User%20Management%20-%20Organization%20Administrator.png)
 
     > [!NOTE]
     >
@@ -192,11 +183,11 @@ You can customize the look and feel of your learner experience on the Community 
 
 1. To **create a new** Organization Administrator, click on **Add Administrator**
 
-    ![User Management - Add Organization - Add Administrator Button](../media/User%20Management%20-%20Add%20Organization%20-%20Add%20Administrator%20Button.png)
+    ![Image of Add Administrator Button.](../media/User%20Management%20-%20Add%20Organization%20-%20Add%20Administrator%20Button.png)
 
 1. In the **New Organization Administrator** popup, enter the contact details for the Organization Administrator and Select the organization(s) to which you want the Organization Administrator to have access
 
-    ![User Management - Add Organization - Organization Administrator](../media/User%20Management%20-%20Add%20Organization%20-%20Organization%20Administrator.png)
+    ![Add Organization Administrator by phone number.](../media/User%20Management%20-%20Add%20Organization%20-%20Organization%20Administrator.png)
 
     > [!NOTE]
     > The Organization Administrator will have all the rights as that of a Global Administrator in the context of its assigned Organizations.
@@ -212,7 +203,7 @@ You can customize the look and feel of your learner experience on the Community 
 
 1. Select **Organization Administrators** from the **Users** tab.
 
-    ![User Management - Organization Administrator](../media/User%20Management%20-%20Organization%20Administrator.png)
+    ![User Management - Organization Administrator.](../media/User%20Management%20-%20Organization%20Administrator.png)
 
     > [!NOTE]
     > This access is available only to Global Administrators on the platform.
@@ -222,7 +213,7 @@ You can customize the look and feel of your learner experience on the Community 
     1. Click on the **cross icon** against the Organization whose access you want to revoke from the Organization Administrator.
     1. **Select and add** the Organization whose access you want to provide to the Organization Administrator.
 
-     ![User Management - Add Organization - Organization Administrator - Edit](../media/User%20Management%20-%20Add%20Organization%20-%20Organization%20Administrator%20-%20Edit.png)
+     ![Image of Edit Organization Administrator dialog.](../media/User%20Management%20-%20Add%20Organization%20-%20Organization%20Administrator%20-%20Edit.png)
 
 ## Delete an Organization Administrator
 
@@ -230,7 +221,7 @@ If an Organization administrator's access is revoked from an Organization, they 
 
 Select **Delete** against the Organization Administrator to delete.
 
- ![User Management - Add Organization - Organization Administrator](../media/User%20Management%20-%20Add%20Organization%20-%20Organization%20Administrator.png)
+ ![User Management - Add Organization - Organization Administrator.](../media/User%20Management%20-%20Add%20Organization%20-%20Organization%20Administrator.png)
 
 ## Assign learners to Organizations
 
@@ -247,11 +238,11 @@ Learners can be assigned to Organizations on the portal from the 'All Users' sec
 
 1. Select **Add Users** on top-right of the details page then **Add Single User**
 
-    :::image type="content" source="../media/Allusersorg.png" alt-text="Allusersorganization":::
+    :::image type="content" source="../media/Allusersorg.png" alt-text="Option to add single user to organization.":::
 
 1. Add the User contact and choose the Organization in which you want to place the user.
 
-    :::image type="content" source="../media/orgcontactadd.png" alt-text="addcontacttoOrg":::
+    :::image type="content" source="../media/orgcontactadd.png" alt-text="Dialog box to add single user to organization.":::
 
 ### Bulk upload users to Organization
 
@@ -270,13 +261,13 @@ Learners can be assigned to Organizations on the portal from the 'All Users' sec
     1. Download the sample csv to add user information
     1. Now click on Upload
 
-    :::image type="content" source="../media/bulkuserorg.png" alt-text="bulkuploadusertoOrg":::
+    :::image type="content" source="../media/bulkuserorg.png" alt-text="Image of window to Bulk Upload Users to an Organization.":::
 
 ## Edit Organization of Learner
 
 Global administrator can update user organization while [**editing learner profile**](manage-users/edit-user-profile-on-the-platform.md#option-1---steps-to-edit-a-single-user-profile).
 
->[!warning]
+> [!WARNING]
 >
 > Adding an existing user from a different Organization will lead to loss of course progress made in previous organization.
 >
@@ -289,7 +280,7 @@ Global administrator can update user organization while [**editing learner profi
 
 1. Filter for Organization you want to view users from and download the list.
     1. By default 'All Organization' is selected and when you click download, you will get a zipped folder with a  .csv file for each organization
-    :::image type="content" source="../media/filterorg.png" alt-text="filterfroorganization":::
+    :::image type="content" source="../media/filterorg.png" alt-text="Image of Organization filtering..":::
 
 <!---
 Learners can be assigned to Organizations on the portal using API call. You can refer to [**REST API documentation**](../rest-api-management/api-documentation.md) to learn more about accessing API Signatures.

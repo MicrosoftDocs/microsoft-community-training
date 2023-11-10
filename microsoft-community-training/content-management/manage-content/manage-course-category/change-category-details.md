@@ -29,13 +29,9 @@ The Community Training management portal provides role-based permission levels. 
 
 In this section, you will learn how to edit an existing category.
 
-1. Select **More (...)** to the right of the category name then select **Edit Category details** option from the overflow menu.
+1. Select **More (...)** to the right of the category name then select **Edit Category details** option from the overflow menu. :::image type="content" source="../../../media/image(386).png" alt-text="Edit Category details for More.":::
 
-    ![Edit Category details fro More](../../../media/image%28386%29.png)
-
-1. Select **Edit Category details** to edit a category.
-
-    ![Edit Category](../../../media/image%28387%29.png)
+1. Select **Edit Category details** to edit a category. :::image type="content" source="../../../media/image(387).png" alt-text="Edit Category.":::
 
 1. Enter the **Category name** you want to change. For example, *Course on Microsoft Excel*.
 
@@ -43,11 +39,11 @@ In this section, you will learn how to edit an existing category.
 
 1. If your instance has [multiple languages](../../../settings/customize-languages-for-the-learners-on-the-platform.md#customize-languages-on-the-platform) enabled then you can add and edit translations of your category name.
 
-    :::image type="content" source="../../../media/Categorylocedit.png" alt-text="editingloc":::
+    :::image type="content" source="../../../media/Categorylocedit.png" alt-text="Editing category localization.":::
 
     * You can add or edit translations from the panel as shown below.
 
-    :::image type="content" source="../../../media/Categoryloceditaddlang.png" alt-text="createlocalizationadding":::
+    :::image type="content" source="../../../media/Categoryloceditaddlang.png" alt-text="Create new localization.":::
 
 ## Delete a category
 
@@ -55,11 +51,11 @@ In this topic, you will learn how to delete an existing category in the platform
 
 1. Select **More (...)** to the right of the category name you want to delete.
 
-    ![Delete Category drop-down](../../../media/Delete%20Category%20drop-down.png)
+    ![Delete Category drop-down menu.](../../../media/Delete%20Category%20drop-down.png)
 
 1. Select **Delete Category**  then **Ok**, the category is deleted.
 
-    ![Delete Category pop up\(1\)](../../../media/Delete%20Category%20pop%20up%281%29.png)
+    ![Confirm Category deletion pop up dialogue box.](../../../media/Delete%20Category%20pop%20up%281%29.png)
 
     > [!WARNING]
     > When you delete a category, all the courses under the category will also be deleted.

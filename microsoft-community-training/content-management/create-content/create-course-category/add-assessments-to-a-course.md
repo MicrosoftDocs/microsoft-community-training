@@ -9,7 +9,7 @@ ms.prod: learning-azure
 
 # Add non-graded and graded assessments to a course
 
-Community Training (CT) platform allows trainers to add assessments as a way to evaluate learners on their knowledge and proficiency. The platform provides two types of assessments in the form of non-graded assessments and graded assessments containing one or more multiple-choice questions.
+Community Training (MCT) platform allows trainers to add assessments as a way to evaluate learners on their knowledge and proficiency. The platform provides two types of assessments in the form of non-graded assessments and graded assessments containing one or more multiple-choice questions.
 
 **Non-graded Assessments** - A Non-graded Assessment serves as a refresher for learners and facilitates revision of a particular lesson. There is no limit to the number of assessments you can add to a course.
 
@@ -52,7 +52,7 @@ In this section, you will learn how to add non-graded assessments to a course:
         * Fill in the blanks
         * True and False
 
-        :::image type="content" source="../../../media/Assessment - question type.PNG" alt-text="Question type":::
+        :::image type="content" source="../../../media/Assessment - question type.PNG" alt-text="Question type.":::
 
     > [!Note]
     > You can not change the question type once you have saved the assessment.
@@ -64,7 +64,7 @@ In this section, you will learn how to add non-graded assessments to a course:
 
     A non-graded assessment might typically look like this:
 
-     :::image type="content" source="../../../media/Assessment - New AssessmentQuiz.PNG" alt-text="Assessment question details":::
+     :::image type="content" source="../../../media/Assessment - New AssessmentQuiz.PNG" alt-text="Assessment question details.":::
 
     > [!NOTE]
     > If only two possible options are needed use the **Delete** button next to the option field to remove it. To add more options use the **Add Option** button to increase choices for the question.
@@ -100,7 +100,7 @@ In this section, you will learn how to add a graded assessment to a course.
     * Enable the **Show answers to learner** if you would like to add answer explanation which would be shown to the learner once he/she completes the assessment and are viewing their answers/scores.
     * Enter **Graded Assessment Title**. The graded assessment title is the name for the assessment displayed to the learners on the web portal and mobile application. For example: *Final Assessment*
 
-        :::image type="content" source="../../../media/Assessment - graded question.PNG" alt-text="graded assessment":::
+        :::image type="content" source="../../../media/Assessment - graded question.PNG" alt-text="Graded assessment.":::
 
     > [!NOTE]
     > All the questions in the assessment carry equal weightage. And an **assessment** is always the last segment of the course.
@@ -112,8 +112,8 @@ In this section, you will learn how to add a graded assessment to a course.
         * Fill in the blanks
         * True and False
 
-        :::image type="content" source="../../../media/Assessment - question type.PNG" alt-text="Question type":::
-    > [!Note]
+        :::image type="content" source="../../../media/Assessment - question type.PNG" alt-text="Question type.":::
+    > [!NOTE]
     >You can not change the question type once you have saved the assessment.
     * Question Title – add your question in this field. Check [**sample questions**](#question-types-for-any-assessment) to know more about the types of questions you can create on the portal.  
     * Options – add one or more options as possible answers for the question.  Check the **checkbox/radio button** to the left of the text field to select the correct answer.
@@ -126,7 +126,7 @@ In this section, you will learn how to add a graded assessment to a course.
   
 1. To add answer explanation, first enable the toggle near assessment title and then click on the **Add explanation** icon beside the option text field and provide the relevant details in the text box.
 
-    :::image type="content" source="../../../media/Assessment - answer explanantion.PNG" alt-text="answer explanation":::
+    :::image type="content" source="../../../media/Assessment - answer explanantion.PNG" alt-text="Answer explanation.":::
 
 1. Click or tap **Add Question**, to add more questions in the assessment and repeat Step 5.
 
@@ -145,12 +145,10 @@ Before starting the bulk upload you need to make sure the question list is struc
 
 #### Step 1 - Download the sample CSV file
 
-1. Click or tap on the **Import CSV** icon to the top right of the assessment.
+1. Click or tap on the **Import CSV** icon to the top right of the assessment. :::image type="content" source="../../../media/Import CSV icon.png" alt-text="Import CSV icon.":::
 
-    ![Import CSV icon](../../../media/Import%20CSV%20icon.png)
+1. In the bulk upload panel, download the sample CSV and save on your local machine. :::image type="content" source="../../../media/Import CSV bar.png" alt-text="Import CSV bar.":::
 
-1. In the bulk upload panel, download the sample CSV and save on your local machine.
-![Import CSV bar](../../../media/Import%20CSV%20bar.png)
 
 #### Step 2 – Edit the sample CSV file to create question list
 
@@ -170,12 +168,12 @@ Before starting the bulk upload you need to make sure the question list is struc
     | Fill blanks | Entire question body with blanks depicted by pipe delimiter | Not applicable | Correct answer(s) for a blank to be separated by semi-colon. Correct Answer(s) for multiple blank separated via pipe delimiter | Add answer explanation for each option separated by semi-colon | Add the Match type (Contains/ Exact Match) for each blank separated by pipe delimiter |
     | True false | Entire question body | Only choice 1,2 can be filled | Add "TRUE" or "FALSE" | Not applicable | Not applicable |
 
-    :::image type="content" source="../../../media/Assessment - csv sample upload v2.PNG" alt-text="csv upload":::
+    :::image type="content" source="../../../media/Assessment - csv sample upload v2.PNG" alt-text="CSV upload.":::
 
-    > [!Note]
-    > A **sample CSV file** is available for quick reference ([here](https://github.com/MicrosoftDocs/microsoft-community-training/files/8556647/Sample.CSV.-.Assessment.csv). 
+    > [!NOTE]
+    > A **sample CSV file** is available for quick reference ([here](https://github.com/MicrosoftDocs/microsoft-community-training/files/8556647/Sample.CSV.-.Assessment.csv).
 
-    :::image type="content" source="../../../media/Assessment - csv upload.PNG" alt-text="csv upload/sample csv download":::
+    :::image type="content" source="../../../media/Assessment - csv upload.PNG" alt-text="CSV upload/sample CSV download.":::
 
 1. Rename and save the edited file once you have finished creating the question list. When editing the CSV file, please take care of the following things:
     * Do not add **comma (,)** in the question or choices when editing the sample file
@@ -202,13 +200,9 @@ Before starting the bulk upload you need to make sure the question list is struc
 
 ### Steps for bulk upload questions for a non-graded or graded assessment
 
-1. Click or tap on the **Import CSV** icon to the top right of non-graded assessment or graded assessment.
+1. Click or tap on the **Import CSV** icon to the top right of non-graded assessment or graded assessment. :::image type="content" source="../../../media/Import CSV icon.png" alt-text="Import CSV icon.":::
 
-    ![Import CSV icon](../../../media/Import%20CSV%20icon.png)
-
-1. In the bulk upload panel, choose the Upload option and select the csv file containing the question list.  
-
-    ![Upload option & select CSV](../../../media/image%2850%29.png)
+1. In the bulk upload panel, choose the Upload option and select the csv file containing the question list. :::image type="content" source="../../../media/image(50).png" alt-text="Upload and select CSV.":::  
 
 1. Click or tap on the **Done** button to begin bulk upload questions operation.
 
@@ -244,20 +238,20 @@ To create a single choice question,
 
     This question will appear like this for the learners
 
-    :::image type="content" source="../../../media/image(227).png" alt-text="Question Sample":::
+    :::image type="content" source="../../../media/image(227).png" alt-text="Question Sample.":::
 
 ### Multi Choice - Multi Correct Question
 
 This type of question can be created by selecting **MCQ - Multiple correct answers**. This will allow the Administrator to select multiple correct answers to that question - hence making the question multiple-choice multi-correct type.
 
-:::image type="content" source="../../../media/Assessment - multi-correct detailed.PNG" alt-text="multiple correct":::
+:::image type="content" source="../../../media/Assessment - multi-correct detailed.PNG" alt-text="Multiple correct.":::
 
->[!Note]
+> [!NOTE]
 > The change in type of question cannot be done once the assessment is saved as the question type dropdown will disappear from the question box.
 
 ### True/False Question
 
-:::image type="content" source="../../../media/Assessment - TrueFalse.PNG" alt-text="TrueFalse":::
+:::image type="content" source="../../../media/Assessment - TrueFalse.PNG" alt-text="True/False.":::
 
 For this type of question, learners can choose only one amongst the two available options of true and false.
 
@@ -268,11 +262,11 @@ To create a True/False question,
 
 The question will appear like this for the learners –
 
-:::image type="content" source="../../../media/Assessment - TrueFalse Learner.PNG" alt-text="TrueFalse Learner":::
+:::image type="content" source="../../../media/Assessment - TrueFalse Learner.PNG" alt-text="True/False Learner.":::
 
 ### Fill in the Blank Question
 
-:::image type="content" source="../../../media/Assessment - FillBlank.PNG" alt-text="FillBlank Admin":::
+:::image type="content" source="../../../media/Assessment - FillBlank.PNG" alt-text="Admin view of blank fields.":::
 
 For this type of question, learners can choose only one answer among the available options which fills the blank in the question to complete the phrase.
 
@@ -285,11 +279,11 @@ To create a Fill in the Blank question,
 
 The question will appear like this for the learners –
 
-:::image type="content" source="../../../media/Assessment - FillBlank Learner.PNG" alt-text="Fill Blank Learner":::
+:::image type="content" source="../../../media/Assessment - FillBlank Learner.PNG" alt-text="Learner view of blank fields.":::
 
 ### Chronological Question
 
-![Chronological Question](../../../media/image%28237%29.png)
+:::image type="content" source="../../../media/image(237).png" alt-text="Admin view of a chronological question.":::
 
 For this type of question, learners need to decide on the correct chronological order for the objects in the question.
 
@@ -300,28 +294,25 @@ To create a chronological question,
 3. Select the correct order by checking the radio button left of the answer text field
 
 The question will appear like this for the learners -
-
-![Chronological Question sample](../../../media/image%28238%29.png)
+:::image type="content" source="../../../media/image(238).png" alt-text="Learner view of a chronological question.":::
 
 ### Numerical Question
 
-![Numerical Question](../../../media/image%28239%29.png)
+:::image type="content" source="../../../media/image(239).png" alt-text="Admin view of Numerical question.":::
 
 For this type of question, learners can answer to the nearest possible numerical answer option based on their mathematical computation.
 
-To create a numerical question,
+To create a numerical question, follow these steps:
 
 1. Add the computation question mentioning the precision scale required for the answer
 2. Complex equations can be included in the question and answers by inserting them as images
 3. Add the answer options and select the correct answer by checking the radio button on the left
 
-The question will appear like this for the learners –
-
-![Numerical Question sample](../../../media/image%28240%29.png)
+The question will appear like this for the learners: :::image type="content" source="../../../media/image(240).png" alt-text="Learner view of numerical question.":::
 
 ### Association Question
 
-![Association Question](../../../media/image%28241%29.png)
+:::image type="content" source="../../../media/image(241).png" alt-text="Admin view of an Association question.":::
 
 For this type of question, learners can define associations between the elements of two lists.
 
@@ -331,6 +322,4 @@ To create an association or matching question,
 2. Add the answer options with possible matches (including the correct match)
 3. Select the correct order by checking the radio button left of the answer text field  
 
-The question will appear like this for the learners –
-
-![Association Question sample](../../../media/image%28243%29.png)
+The question will appear like this for the learners: :::image type="content" source="../../../media/image(243).png" alt-text="Learner view of an Association question.":::

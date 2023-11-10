@@ -37,11 +37,11 @@ In this topic, you will learn how to add a Global Administrator.
 
 1. Select **Global Administrators** from the **Users** tab on the top-left of the page.
 
-    ![User Management - Add Users - Add Administrators\(1\)](../../media/User%20Management%20-%20Add%20Users%20-%20Add%20Administrators%281%29.png)
+    ![image of User Management - Add Users - Add Administrators.](../../media/User%20Management%20-%20Add%20Users%20-%20Add%20Administrators%281%29.png)
 
 1. Select **Global Administrator** on the details page to add new global administrator and enter the contact details of the user.
 
-    ![User Management - Add Users - Add Global Admin-border](../../media/User%20Management%20-%20Add%20Users%20-%20Add%20Global%20Admin-border.png)
+    ![Image of Add Global Administrator by phone number.](../../media/User%20Management%20-%20Add%20Users%20-%20Add%20Global%20Admin-border.png)
 
 1. Select **Add** to add the user as an global administrator.
 
@@ -74,11 +74,11 @@ In this topic, you will learn how to add a Group Administrator.
 
 1. Select **More (...)** next to the group name.
 
-    ![Add user drop down](../../media/Add%20user%20drop%20down.png)
+    ![Add user drop down menu.](../../media/Add%20user%20drop%20down.png)
 
 1. Select **Add Administrator** from the drop-down menu then enter a valid phone number to add user.
 
-    ![Add administrator](../../media/Add%20administrator.png)
+    ![Add administrator by phone number.](../../media/Add%20administrator.png)
 
 > [!IMPORTANT]
 > If the portal is setup with **Social Account or Azure Active Directory** as login identity then you will need to enter email address in the above step.
@@ -98,17 +98,17 @@ The Community Training platform now supports an organization administrator to ad
 
 1. Click on "Add Administrators”
 
-    :::image type="content" source="../../media/Add Admin by Org Admin.png" alt-text="Add admin option to Org Administrator":::
+    :::image type="content" source="../../media/Add Admin by Org Admin.png" alt-text="Add admin option to Org Administrator.":::
 
     > [!NOTE]
     > "Manage Organizations" option is greyed-out for Organization admin and will only be accessible to Global Administrator
 1. In the pop-up box, add the user detail to whom the organization admin access is to be given
 
-    :::image type="content" source="../../media/Add Admin by Org Admin 2.png" alt-text="Choose Organization details":::
+    :::image type="content" source="../../media/Add Admin by Org Admin 2.png" alt-text="Add Organization Administrator by phone number.":::
 
 1. Then select the **Organization** to which the user must be added as Organization Administrator
 
-    :::image type="content" source="../../media/Org Admin addition.png" alt-text="Org Admin addition list":::
+    :::image type="content" source="../../media/Org Admin addition.png" alt-text="Choose Organization.":::
 
     > [!NOTE]
     > An Organization administrator can see the list of Organizations only for which they are administrator.

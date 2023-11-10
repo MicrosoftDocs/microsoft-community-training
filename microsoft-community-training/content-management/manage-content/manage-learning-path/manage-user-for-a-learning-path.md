@@ -32,17 +32,17 @@ The Community Training portal provides role-based permission levels. The table b
 
 1. Select the **Content** tile on the left then select the **Learning Path** tab.
 
-    ![Learning Path from Content](../../../media/image%28388%29.png)
+    ![Select Learning Path from Content.](../../../media/image%28388%29.png)
 
 1. From the **Learning Path** tab, select the Learning Path you want to add the users to.
 
 1. Select **More (…)** to the right of the Learning Path name and select **Manage users**.
 
-    ![Manage users from More](../../../media/image%28403%29.png)
+    ![Manage users from More.](../../../media/image%28403%29.png)
 
 1. Select **Add User** then enter the contact details of the user you want to add and select **Add**.
 
-    ![Add](../../../media/image%28405%29.png)
+    ![Add User dialogue box.](../../../media/image%28405%29.png)
 
     > [!IMPORTANT]
     > If the authorization mode is through Work email account (Azure AD) or Social email account (Azure AD B2C), enter the email address of the administrator.
@@ -55,7 +55,7 @@ The Community Training portal provides role-based permission levels. The table b
 
 1. Select the **Content** tile on the left then the **Learning Path** tab.
 
-    ![CLick Learning Path from Content](../../../media/image%28388%29.png)
+    ![Select Learning Path from Content.](../../../media/image%28388%29.png)
 
 1. Select the Learning Path you want to delete the users from.
 
@@ -65,8 +65,8 @@ The Community Training portal provides role-based permission levels. The table b
 
 1. Hover the mouse over the user to be deleted and select the delete icon as shown below.
 
-    ![Delete icon](../../../media/image%28407%29.png)
+    ![Delete User icon](../../../media/image%28407%29.png)
 
 1. Select **Ok** to confirm the deletion.
 
-    ![Delete and Okay](../../../media/image%28408%29.png)
+    ![Confirm Deletion](../../../media/image%28408%29.png)

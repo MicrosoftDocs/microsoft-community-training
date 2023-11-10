@@ -37,13 +37,11 @@ You can manually upload the required content to a course using the New Lesson op
 
 1. Log in to the Community Training portal and [**switch to administrator view**](../../../get-started/step-by-step-configuration-guide.md#step-2--switch-to-administrator-view-of-the-portal).
 
-1. Under the **Course** tab, select the course from the category you want to upload content to.
-
-    ![course selection](../../../media/course%20selection.png)
+1. Under the **Course** tab, select the course from the category you want to upload content to. :::image type="content" source="../../../media/course selection.png" alt-text="Image of menu showing Course selection.":::
 
 1. Select **New Lesson**, to create a new lesson for the course.
 
-    :::image type="content" source="../../../media/New Lesson v2.PNG" alt-text="New lesson":::
+    :::image type="content" source="../../../media/New Lesson v2.PNG" alt-text="Adding a New lesson.":::
 
 1. Enter the title of the lesson as the **Lesson Name**, for example, *What is Smart Farming?*.
 
@@ -53,23 +51,19 @@ You can manually upload the required content to a course using the New Lesson op
     1. **For embedding external web link** - Paste the URL of the web page in the textbox available. The web page can be a YouTube video link or any other web link. For example: [Sample YouTube Video](https://youtu.be/hWY8t_QSOU4). **Learners will not be able to download this content from mobile app.**
 
     >[!NOTE]
-    >You can also **upload a SCORM file** in .zip format. After attaching the zip file for the SCORM content, please mark the check box as well to ensure successful validation of the file.:::image type="content" source="../../../media/New Lesson SCORM.PNG" alt-text="SCORM upload":::
+    >You can also **upload a SCORM file** in .zip format. After attaching the zip file for the SCORM content, please mark the check box as well to ensure successful validation of the file.:::image type="content" source="../../../media/New Lesson SCORM.PNG" alt-text="SCORM upload file selection.":::
 
 1. Enter tags in the **Add Tags** field to help learners search for the content using relevant keywords. You can add one or more tags for each lesson. For example – *Smart Farming, Internet of Things, Precision Farming*
 
 1. If you have uploaded content from your computer, the files would be visible in the **Attached files** section. You can click on **Replace file** if you wish to upload another file.
-:::image type="content" source="../../../media/New Lesson replace file.PNG" alt-text="replace uploaded content":::
+:::image type="content" source="../../../media/New Lesson replace file.PNG" alt-text="Replace uploaded content.":::
 
-1. Click or tap **Save**  icon the to upload the content for the lesson.
-
-    ![Upload progress](../../../media/Upload%20progress.png)
+1. Click or tap **Save**  icon the to upload the content for the lesson. :::image type="content" source="../../../media/Upload progress.png" alt-text="Image showing upload progress window.":::
 
     > [!IMPORTANT]
     > Click or tap the **Save** button to complete the add lesson operation. If you perform any other activity before clicking on the Save button, then all your progress will be lost.
 
-1. For video content, after upload is completed, the system will start the encoding process to create multiple copies to optimize streaming on different devices and network quality. You can check the encoding status on the course page as shown below.
-
-    ![Encoding status on the course page](../../../media/image%2849%29.png)
+1. For video content, after upload is completed, the system will start the encoding process to create multiple copies to optimize streaming on different devices and network quality. You can check the encoding status on the course page as shown below. :::image type="content" source="../../../media/image(49).png" alt-text="Progress bar for encoding.":::
 
     > [!NOTE]
     > Depending upon the video size, it can take upto 20 minutes to complete the encoding process.
@@ -85,8 +79,8 @@ The following formats are supported:
 >*  **SCORM content**: Content compliant to  ***SCORM v1.2*** is supported on the platform. Make sure your folder is .zip and it also has **`imsmanifest.xml`** file
 
 Community Training does not have [file size restrictions on upload](../../../frequently-asked-questions/faqs-course.md) for most formats but the [App Service plan](https://azure.microsoft.com/pricing/details/app-service/windows/) for your instance might restrict the total upload size (multiple uploads across different devices for the same instance) at a time:
-* Standard - maximum upload size is 18GB
-* Premium - maximum upload size is 56GB
+* P1V2 - maximum upload size is 18GB
+* P2V2 - maximum upload size is 56GB
 
 Refer [here](https://github.com/projectkudu/kudu/wiki/Understanding-the-Azure-App-Service-file-system) for more information.
 > [!NOTE]
@@ -137,23 +131,16 @@ The content for the lessons must be structured correctly and available in the re
 
 1. Select the **More (...)** icon to the right of the course name to bulk upload lessons for a course.
 
-1. Select **Bulk Upload Lessons (Preview)** from the drop-down menu.
-    ![Bulk upload lesson drop down](../../../media/Bulk%20uplod%20lesson%20drop%20down.png)
+1. Select **Bulk Upload Lessons (Preview)** from the drop-down menu. :::image type="content" source="../../../media/Bulk uplod lesson drop down.png" alt-text="Image showing Bulk Upload Lessons menu option.":::
 
-1. Using the file picker, select the ZIP file which contains the content to upload.
+1. Using the file picker, select the ZIP file which contains the content to upload. :::image type="content" source="../../../media/Bulk uplod lesson window.png" alt-text="Image of Bulk upload lesson selection.":::
 
-    ![Bulk upload lesson window](../../../media/Bulk%20uplod%20lesson%20window.png)
-
-1. Wait for file upload operation to be completed. **Do not close the browser window at this point.**
-
-    ![Upload successful](../../../media/Upload%20successful.png)
+1. Wait for file upload operation to be completed. **Do not close the browser window at this point.**  :::image type="content" source="../../../media/Upload successful.png" alt-text="Image showing successful upload.":::
 
     > [!NOTE]
     > Depending upon your network connectivity and size of the ZIP file, it can take some time to complete the upload operation.
 
-1. After upload, you will see the following message on the top-right corner which indicates that content file was successfully uploaded to the portal for processing.
-
-    ![Bulk upload successful](../../../media/Bulk%20upload%20successful.png)
+1. After upload, you will see the following message on the top-right corner which indicates that content file was successfully uploaded to the portal for processing.  :::image type="content" source="../../../media/Upload successful.png" alt-text="Image showing successful upload.":::
 
     > [!WARNING]
     > If there are issues with the content format or structure of the ZIP file then the system will throw an error message.

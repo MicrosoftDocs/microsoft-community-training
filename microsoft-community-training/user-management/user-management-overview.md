@@ -13,7 +13,7 @@ The Community Training portal allows administrators an easy way to delegate and 
 
 All the user management functionalities are stacked together in a single panel under the **Users** tile – a one-stop-shop for administrators to manage users and course enrollments on the management portal. From the users tab, administrators can [**add users**](./add-users/add-users-to-the-portal-1.md) and assign administrative roles, [**create groups**](./organize-users/create-a-new-group.md), assign courses, track progress and much more.
 
-![User Management - Overview](../media/image%28421%29.png)
+![Image of User Management Overview.](../media/image%28421%29.png)
 
 In this article, you will learn how to use the management portal capabilities to create and manage your users and facilitate effective training administration.
 
@@ -74,7 +74,7 @@ Let's say there is a company in United States of America which has employees loc
 **Organizations** can be used on the training platform to create virtual boundaries where content and users of an organization is accessible only within the organization.
 Global administrators can define Organization and [**assign Organization Administrator role**](./organization-management.md) from the management portal.
 
-Learners are by default part of the Default Organization. The Global admins and ORg admins can change this for a user from the admin pages.
+Learners are by default part of the Default Organization and API calls can be made to the training platform to change their Organization.
 
 > [!IMPORTANT]
 > Typically, Organizations should be set up on the training portal ONLY IF there is a requirement that users and content relevant to one organization should not be accessible by another organization.

@@ -39,22 +39,18 @@ You will need a custom home page designed to be linked to your CT instance. Here
     1. In the **Index document name** field, specify a default index page of index.html. **(This index.html should be same as home page of your static website)**.
     1. In the **Error document path** field, specify a default error page of 404.html.
     1. Select **Save**. The Azure portal will display your static website endpoint.
-        :::image type="content" source="../../media/image(460).png" alt-text="Static website endpoint":::
+        :::image type="content" source="../../media/image(460).png" alt-text="Static website endpoint.":::
 
 1. Deploy the custom home page in the storage account configured above.
 
     1. Create an empty folder named "mywebsite" on your local file system.
-    1. Launch Visual Studio Code and open the folder that you just created from the **Explorer** panel.
-
-        :::image type="content" source="../../media/image(461).png" alt-text="Visual studio code":::
-    1. Create the default index file in the "mywebsite" folder and name it index.html.
-
-        :::image type="content" source="../../media/image(462).png" alt-text="Default index file":::
+    1. Launch Visual Studio Code and open the folder that you just created from the **Explorer** panel. :::image type="content" source="../../media/image(461).png" alt-text="Visual studio code Explorer.":::
+    1. Create the default index file in the "mywebsite" folder and name it index.html. :::image type="content" source="../../media/image(462).png" alt-text="Add default index file.":::
     1. Copy all the files for the Custom home page.
     1. Your Home page should be named as ‘index.html’.
     1. Edit ‘index.html’ and replace all CTA links (e.g. ‘Registration’) with the CT sign in Link. You can get a CT sign link by hovering over ‘SignIn’ in the CT website. Please refer below screenshot. The CT login URL must be in the following format: https://<**AzurewebistesORfdBaseURL**>/home/defaultsignin?whr=uri%3aPhoneAuth&referrer=basedomain.
 
-        :::image type="content" source="../../media/image(463).png" alt-text="MCT Sign in Link":::
+        :::image type="content" source="../../media/image(463).png" alt-text="Community Training Sign in Link.":::
 
     1. Create the default error file and name it 404.html (or any other name as needed).
     1. Open 404.html in the editor. Paste the code into the file, and save it (Sample code for reference is given below):
@@ -89,7 +85,7 @@ Track the number of users signing in to CT through a custom home page can be ach
 
 You need to update **Instrumentation Key** as shown below for your Azure subscription having CT and custom home page deployed. The Instrumentation Key can be found in AppInsights section in Azure portal:
 
-:::image type="content" source="../../media/image(464).png" alt-text="App Insights in Azure Portal":::
+:::image type="content" source="../../media/image(464).png" alt-text="App Insights in Azure Portal.":::
 
 ```Instrumentation Key
 <script type="text/javascript">

@@ -21,13 +21,13 @@ In this article, you will learn how to export course content from one training p
 
 1. Under the **Courses** tab, select the Category or Course that you want to download.
 
-    ![Under courses tab](../../../media/image%28219%29.png)
+    ![Select courses or category content tab.](../../../media/image%28219%29.png)
 
 1. Select **(...) More** and choose **Download category/course content** from the pop-up menu.
 
 1. On the file explorer, rename the zip file and click on the Save button to start the download progress. The time taken to download will vary depending on the file size and internet speed.
 
-    ![Save](../../../media/image%28220%29.png)
+    ![Save.](../../../media/image%28220%29.png)
 
 > [!TIP]
 > Best Practices
@@ -38,7 +38,7 @@ In this article, you will learn how to export course content from one training p
 > [!WARNING]
 > Please do not edit the downloaded file as this can inadvertently corrupt the course content. Here is sample format of the zip file:
 >
-> ![Sample zip](../../../media/image%28221%29.png)
+> ![Select zip file.](../../../media/image%28221%29.png)
 
 ## Step 2 - Import the course content to another training portal instance
 
@@ -48,7 +48,7 @@ In this article, you will learn how to export course content from one training p
 
 1. Select **(...) More** then **Bulk Upload courses** from the pop-up menu.
 
-    ![Bulk Upload courses](../../../media/image%28222%29.png)
+    ![Bulk Upload courses].(../../../media/image%28222%29.png)
 
 1. Next, locate and open the downloaded zip file then select **Upload**.  As with the download, the time taken to upload will vary depending on the file size and internet speed.
 

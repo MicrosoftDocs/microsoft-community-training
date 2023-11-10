@@ -13,7 +13,7 @@ The Community Training platform allows you to create and manage content. You can
 
 All the management functionalities are stacked together in a single panel under the **Content Tab**: from here administrators can create Categories, Courses and Learning Paths; upload and manage course materials; and configure course settings.
 
-![managing course and learning path](../media/image%28427%29.png)
+![Managing course and learning path.](../media/image%28427%29.png)
 
 In this section, you will learn how to create and manage your online learning content.
 
@@ -21,7 +21,7 @@ In this section, you will learn how to create and manage your online learning co
 
 The Community Training platform provides the following learning taxonomy to categories and structure content:
 
-![Course Management - Course and Category](../media/Course%20Management%20-%20Course%20and%20Category.png)
+![Course Management - Course and Category.](../media/Course%20Management%20-%20Course%20and%20Category.png)
 
 ### Category  
 
@@ -141,24 +141,27 @@ Community Training allows you to create a common repository of content called **
 
     Follow these steps to enable MS Teams Integration [Multi-Tenant support for Azure Active Directory based Authentication in Teams](../infrastructure-management/install-your-platform-instance/create-teams-app-for-your-training-portal.md#multi-tenant-support-for-azure-active-directory-based-authentication-in-teams), if this feature is available.
 
-1. Login to the administrator view on the platform as a **Global Adminsitrator**
-2. Navigate to **Settings** on the left pane and click on **General** under **Global Settings**.
-3. Under **"Admin Settings"** category, toggle **"Allow Content to be accessible across organizations"** to **"Enable"**
-4. Refresh the page
+1. Login to [**Azure portal**](https://ms.portal.azure.com/#home)
 
-![Feature_Toggle](image.png)
+1. Navigate to [App Services](../settings/configurations-on-the-training-platform.md#steps-to-set-the-configurations-on-the-platform) to configure the platform.
+
+1. Create/Update the App settings as follows:
+
+   `Features:IsGlobalContentEnabled`, set the **value** as `true`, then click ‘Ok’
+
+    :::image type="content" source="../media/Global Content Configuration.png" alt-text="Configuration value for Global content.":::
 
 1. Now, **"Common"** will be available as an Organization.
 1. while creating Categories/Learning Paths. Any content created under **Common** will be available for assignment to all admins.
 
-![After_Common_Content_Enabled](<../media/After Common Content Enabled.png>)
+    :::image type="content" source="../media/After Common Content Enabled.png" alt-text="Common content Enabled.":::
 
 ## View content analytics to track and measure effectiveness
 
 The Community Training platform provides rich analytics for organizations to track overall learner’s enrollmentc, completion for different courses, measure learner’s performance, and ensure quality of content meets the success criteria set by the organization.
 The management portal has content and user related reports built in at [**category level**](../analytics/in-built-reports/category-view-report.md) to help administrators track and measure the effectiveness of the learning content.
 
-![Track analytics](../media/Track%20analytics.png)
+![Track analytics.](../media/Track%20analytics.png)
 
 ## Best practices to create courses on the portal
 

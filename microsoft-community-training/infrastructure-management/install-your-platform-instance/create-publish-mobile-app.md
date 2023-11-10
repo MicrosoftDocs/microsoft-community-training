@@ -3,24 +3,24 @@ title: Create and Publish your Mobile App
 original-url: https://docs.microsoftcommunitytraining.com/docs/create-publish-mobile-app
 author: nikotha
 ms.author: nikotha
-description: In this article, we will learn about how to create and publish the Mobile App (available only for Android platform) for your training portal.
+description: In this article, you will learn how to create and publish the Mobile App (available only for Android) for your training portal.
 ms.prod: learning-azure
 ---
 
 # Create and Publish your Mobile App
 
-In this article, we will learn about how to create and publish the Mobile App (available only for Android platform) for your training portal.  
+In this article, you will learn how to create and publish the Mobile App (available only for Android platform) for your training portal.  
 
 ![Create and Publish your Mobile App](../../media/image%2877%29.png)
 
-For setting up the mobile app for your training portal, you will need a mobile app APK/AAB file and setup your Google PlayStore account. The APK/AAB file can be generated in two ways,
+To set up the mobile app for your training portal, you will need a mobile app APK/AAB file and a Google PlayStore account. The APK/AAB file can be generated in two ways:
 
 1. [Creating a progressive web application (PWA) for android](#option-1-creating-a-progressive-web-application-pwa-for-android)
 
-2. [Requesting a mobile app AAB from the platform team](#option-2-requesting-a-mobile-app-aab-from-the-platform-team)
+1. [Requesting a mobile app AAB from the platform team](#option-2-requesting-a-mobile-app-aab-from-the-platform-team)
 
 > [!WARNING]
-> Community Training team will soon be deprecating the process of requesting mobile application from the platform and support only progressive web applications (PWA) for both android and iOS.
+> The Community Training team will soon be deprecating the process of requesting mobile applications from the platform and support only progressive web applications (PWA) for both android and iOS.
 
 ## Steps to create Mobile Application
 
@@ -36,7 +36,7 @@ The qualities of a PWA combine the best of the web and compiled apps. PWAs run i
 
 When installed, PWAs are just like other apps on Windows or Android. They can be added to the Start Menu, pinned to the Taskbar, handle files, run on user login on Desktop and in Android PWA will added as native application in app tray.
 
-Since a progressive web app is a type of webpage/website known as a web application, they do not require separate bundling or distribution. By following simple [**Installation Requirements**](#installation-requirements-for-pwa-mobile-application) as mentioned below, administrators can enable PWA to be available for learners to install on their devices. With [**PWA Builder**](#generate-android-app-bundle-using-pwa-builder), you can then build android app for you PWA enabled instance.
+Since a progressive web app is a type of webpage/website known as a web application, it doesn't require separate bundling or distribution. By following simple [**Installation Requirements**](#installation-requirements-for-pwa-mobile-application) as mentioned below, administrators can enable PWA to be available for learners to install on their devices. With [**PWA Builder**](#generate-android-app-bundle-using-pwa-builder), you can then build android app for you PWA enabled instance.
 
 ### Installation Requirements for PWA mobile application
 
@@ -44,23 +44,23 @@ Since a progressive web app is a type of webpage/website known as a web applicat
 
 1. Login to [**Azure portal**](https://www.portal.azure.com/).
 
-2. Navigate to [**Application Settings**](../../settings/configurations-on-the-training-platform.md#steps-to-set-the-configurations-on-the-platform) from your instance's app service.
+1. Navigate to [**Application Settings**](../../settings/configurations-on-the-training-platform.md#steps-to-set-the-configurations-on-the-platform) from your instance's app service.
 
-3. Under Application settings tab, filter for **Features:EnableWebAppInstall** and set the Value as ‘**true**’
-    * If this setting was not found then click on ‘New application setting’, provide **Features:EnableWebAppInstall** under Name and Value as ‘**true**’ as shown below.
+1. Under **Application settings**, filter for **Features:EnableWebAppInstall** and set the Value to ‘**true**’
+    * If this setting was not found then click on ‘New application setting’, provide **Features:EnableWebAppInstall** under Name and Value to ‘**true**’ as shown below.
 
-        :::image type="content" source="../../media/PWAAppsetting.png" alt-text="App setting_PWA":::
-    * Click OK and then Save the changes.
+        :::image type="content" source="../../media/PWAAppsetting.png" alt-text="Application setting for PWA.":::
+    * Select **OK** and Save your changes.
 
 #### Step 2: Update Settings in Admin View for Mobile Application
 
-1. Login to your Community Training portal and [**switch to administrator view**](../../get-started/step-by-step-configuration-guide.md#step-2--switch-to-administrator-view-of-the-portal)
+1. Login to your Community Training portal and [**switch to administrator view**](../../get-started/step-by-step-configuration-guide.md#step-2--switch-to-administrator-view-of-the-portal).
 
-2. Click on **Settings** option from the left navigation panel and navigate to **Mobile Application** section.
+1. Select **Settings** from the left panel and navigate to **Mobile Application**.
 
-    :::image type="content" source="../../media/MobApplication_setting.png" alt-text="Mobile app settings":::
+    :::image type="content" source="../../media/MobApplication_setting.png" alt-text="Mobile application option in the Settings menu.":::
 
-3. Under Mobile Application setting you need to specify following information:
+1. Select **Mobile Application** from Settings and specify following information:
 
     | Setting | Description |
     | --- | --- |
@@ -71,28 +71,28 @@ Since a progressive web app is a type of webpage/website known as a web applicat
 
 ### Installing PWA on your Desktop and Mobile Device
 
-1. Once the [Installation Requirements](#installation-requirements-for-pwa-mobile-application) for PWA are satisfied, as you login to your MCT instance you will be seeing an icon on the search bar of your browser indicating PWA app is available for installation.
+1. Once the [Installation Requirements](#installation-requirements-for-pwa-mobile-application) for PWA are satisfied, as you login to your CT instance you will see an icon on the search bar of your browser indicating PWA app is available for installation.
 
-    :::image type="content" source="../../media/InstallPWA.png" alt-text="installPWAforwebapp":::
+    :::image type="content" source="../../media/InstallPWA.png" alt-text="Installing PWA for web app.":::
 
-2. Users can now install the PWA which renders your MCT webapp as a native application.
+1. Users can now install the PWA which renders your webapp as a native application.
 
-3. After successful installation, you can check options to allow the app to pin to taskbar, pin to start, create a Desktop shortcut as per your requirement.
+1. After successful installation, you can choose options to allow the app to pin to taskbar, pin to start, create a Desktop shortcut as per your requirement.
 
-    :::image type="content" source="../../media/PWA_installoptions.png" alt-text="installoptionspwa":::
+    :::image type="content" source="../../media/PWA_installoptions.png" alt-text="Installation options for PWA.":::
 
-4. For mobile devices (Android), users can install PWA by clicking on the prompt (add to home screen banner) that they receive while browsing your MCT instance or clicking on ‘install app’ from browser options.
+1. For mobile devices (Android), users can install PWA by clicking on the prompt (add to home screen banner) that they receive while browsing your CT instance or selecting ‘install app’ from the browser options.
 
-    :::image type="content" source="../../media/Screenshot_20210930-161736_Chrome (3).jpg" alt-text="installpwaonphone":::
+    :::image type="content" source="../../media/Screenshot_20210930-161736_Chrome (3).jpg" alt-text="Instaling PWA on a phone.":::
 
-> [!Note]
+> [!NOTE]
 > **Devices & Browser Compatibility:**
 >
 > * The PWA flow works as expected when using chromium-based browsers such as Microsoft Edge, Google Chrome.
 >
-> * For Firefox browser in desktop, the PWA install icon will not be seen on the URL bar, however the [service workers](https://developers.google.com/web/fundamentals/primers/service-workers) will be installed. In Mobile Firefox browser, you will have Add to home screen option that can install PWA.
+> * For Firefox in desktop, the PWA install icon will not be seen on the URL bar, however the [service workers](https://developers.google.com/web/fundamentals/primers/service-workers) will be installed. In Mobile Firefox, you will see the **Add to home screen** option that can install PWA.
 >
-> * Safari on iOS doesn’t support add to home screen banner, however the option is visible in the browser menu. You might notice some inconsistencies with PWA on iOS.
+> * Safari on iOS doesn’t support the **Add to home screen** banner, however the option is visible in the browser menu. You might notice some inconsistencies with PWA on iOS.
 
 ### Generate Android App Bundle using PWA Builder
 
@@ -100,57 +100,57 @@ As you enabled the PWA, in the backend there will be a [service worker](https://
 
 #### Prerequisites
 
-Raise a [**ticket**](https://sangamhelpdesk.microsoftcrmportals.com/SignIn?ReturnUrl=%2Fsupport%2Fcreate-case%2F) with MCT support team requesting KeyStore file **in case you wanted to have an update for your existing mobile application.**
+Raise a [**ticket**](https://sangamhelpdesk.microsoftcrmportals.com/SignIn?ReturnUrl=%2Fsupport%2Fcreate-case%2F) with the CT support team requesting KeyStore file **if you want to have an update for your existing mobile application.**
 
 #### Part 1: Steps to Generate Android App Bundle
 
 1. Open [**PWABuilder**](https://www.pwabuilder.com/)
 
-2. In the text box on homepage of PWA builder, enter your instance URL (eg: contosolearning.azurewebsites.net) and click ‘Start’. In the backend PWABuilder will verify if you have a service worker and manifest available for your PWA.
+1. In the text box on the homepage, enter the URL (eg: contosolearning.azurewebsites.net) for your CT instance and select **Start**. In the backend PWABuilder will verify if you have a service worker and manifest available for your PWA.
 
-    :::image type="content" source="../../media/PWA_android.png" alt-text="PWAAndroidinsert":::
+    :::image type="content" source="../../media/PWA_android.png" alt-text="PWA Android insert web address..":::
 
-3. Click Next on the PWA’s report card page, score 130 and above suggests that you have met requirements by PWABuilder.
+1. Select **Next** on the PWA’s report card page, a score of 130 and above indicates that you have met requirements by PWABuilder.
 
-    :::image type="content" source="../../media/PWA_android2.png" alt-text="PWAScore":::
+    :::image type="content" source="../../media/PWA_android2.png" alt-text="Image showing PWA Score.":::
 
-4. You will be redirected to page where you can generate Android App bundle, to the right in Android section, click on "Store package".
+1. You will be redirected to a page where you can generate an Android App bundle. Select **Store package** to the right of the Android section.
 
-    :::image type="content" source="../../media/PWA_android3.png" alt-text="PWABuildpackage":::
+    :::image type="content" source="../../media/PWA_android3.png" alt-text="PWA Build Store Package.":::
 
-5. In 'Android App Options' window:
+1. In the **Android App Options** window:
 
-    1. If you want to update an existing application then mention [**Package ID**](https://developers.google.com/android/management/apps#install_apps) of your previously published android app.
+    1. If you want to update an existing application then enter the [**Package ID**](https://developers.google.com/android/management/apps#install_apps) of your previously published android app.
 
-    2. If creating application for first time, you can choose to leave it with pre-populated ID.
+    1. If creating the application for first time, you can choose to leave it with the pre-populated ID.
 
-    3. Provide App name and Launcher name for your application. **If creating application for the first time, then you can proceeed to Step 6 generating your app bundle**
+    1. Provide the App name and Launcher name for your application. **If creating application for the first time, then you can proceeed to Step 6 - Generating your app bundle**
 
-    4. Click on “All Settings” and increment your App version and App Version Code by 1 from the version of your existing app, if creating the app for first time do not increment the value.
+    1. Select **All Settings** and increment your App version and App Version Code by 1 from the version of your existing app, if creating the app for first time do not increment the value.
 
-        :::image type="content" source="../../media/PWA_migration.png" alt-text="pwamigration1":::
+        :::image type="content" source="../../media/PWA_migration.png" alt-text="PWA migration options.":::
 
-    5. Scroll to “Signing Key”, choose ‘Use Mine’ and upload the key store file that you received from MCT support team.
+    1. Scroll to **Signing Key**, choose ‘Use Mine’ and upload the key store file that you received from CT support team.
 
-        :::image type="content" source="../../media/PWA_Existingapp.png" alt-text="PWA exixting app":::
+        :::image type="content" source="../../media/PWA_Existingapp.png" alt-text="Installing existing PWA app":::
 
-    6. Download your application bundle.
+    1. Download your application bundle.
 
-6. Finish the process by running a script with steps as mentioned in this [document](https://github.com/MicrosoftDocs/microsoft-community-training/files/8222196/PWA.Migration.docx) that will allow you for [Digital Asset linking](https://developers.google.com/digital-asset-links/v1/getting-started).
+1. Finish the process by running a script with steps as mentioned in this [document](https://github.com/MicrosoftDocs/microsoft-community-training/files/8222196/PWA.Migration.docx) that will allow you for [Digital Asset linking](https://developers.google.com/digital-asset-links/v1/getting-started).
 
 > [!NOTE]
 >
 > 1. **Difference between installing PWA from browser and installing from Play Store?**
->    * There will be no difference in learning experience. However, with Play Store you can have access to analytics and ability to choose who can download the application. As Play Store certifies the application, it is more secure.
+>    * There will be no difference in learning experience however, with Play Store you can have access to analytics and the ability to choose who can download the application. As Play Store certifies the application, it is more secure.
 >
-> 2. **Advantages of PWA over Native application**
+> 2. **Advantages of PWA over a Native application**
 >    * PWAs are light weight applications when compared to Native applications, therefore they occupy less space (typically less than 10 MB).
 >
->    * Easy to maintain, as PWA is essentially a browser page running as Native application it would be at-par with updates released for web application.
+>    * Easy to maintain, as PWA is essentially a browser page running as a Native application it is at-par with updates released for the web application.
 >
->    * Any updates sent to web application would be automatically synced with your PWA.
+>    * Any updates sent to he web application would be automatically synced with your PWA.
 > 3. **Things to remember when migrating from Native application to PWA**
->    * If you have updated your native application in Play Store with PWA then app gets automatically updated to user based on their device settings, else user needs to manually update the application from Play Store.
+>    * If you have updated your native application in Play Store with PWA then the app is automatically updated to users based on their device settings, otherwise user needs to manually update the application from Play Store.
 >
 >    * Downloaded content will not be migrated from Native to PWA application. Learner needs to download the content again for offline consumption.
 
@@ -202,12 +202,12 @@ This links protocol & API and enable an app or website to make public, verifiabl
 
 ## Option 2: Requesting a mobile app AAB from the platform team
 
-1. Visit [**Community Training Helpdesk**](https://go.microsoft.com/fwlink/?linkid=2104630).
-![Steps to create Mobile App for the training portal](../../media/image%2876%29.png)
+1. Visit the [**Community Training Helpdesk**](https://go.microsoft.com/fwlink/?linkid=2104630).
+![Image showing Community Training HelpDesk homepage.](../../media/image%2876%29.png)
 
-2. Click on **Sign in** on the top-left corner of the homepage. Use your Azure AD or Social accounts to register and sign in.
+1. Select **Sign in** on the top-left corner of the homepage. Use your Azure AD or Social accounts to register and sign in.
 
-3. Click on **Create Support Ticket** and enter the following values:
+1. Select **Create Support Ticket** and enter the following values:
 
     | Field       | Description                 |
     | ----------- | ----------------------------|
@@ -216,28 +216,28 @@ This links protocol & API and enable an app or website to make public, verifiabl
     | Subject     |Select "Mobile App"          |
     | Description |Check Step 4                 |
 
-4. Provide the following information in the **Description** section of the **Support Ticket** -
+1. Provide the following information in the **Description** section of the **Support Ticket** -
     * Application Color Code (HEX format) - This color will be used in the mobile app as shown in the image at the start of the article. For eg, Orange
     * Portal URL - This is the instance of the platform for which the mobile app will be generated
     * Application Name - This is the name of the mobile app when published on playStore
     * Supported Languages - This is the list of languages supported in the mobile app
 
-        >**Sample Description Content**
-        >
-        >1. Application Color Code - #FFA500
-        >2. Portal URL - <https://contoso.azurefd.net/>
-        >3. Application Name - Contoso Learning Center  
-        >4. Language - English, Spanish, Telugu
-        >
+    > [!NOTE]
+    >**Sample Description Content**
+    >
+    > 1. Application Color Code - #FFA500
+    > 2. Portal URL - <https://contoso.azurefd.net/>
+    > 3. Application Name - Contoso Learning Center  
+    > 4. Language - English, Spanish, Telugu
 
-5. Create a zip file with the following assets and attach it to the form.
+1. Create a zip file with the following assets and attach it to the form.
     * App icon with the following dimensions (in pixels): 24x24, 36x36, 48x48, 72x72, 96x96, 144x144. The icon on the phone screen used to launch the app is the app icon. **App icon must have transparent background**.
     * Splash screen logo with the following dimensions (in pixels): 150x150, 225x225, 300x300, 450x450. The screen that appears when the app opens is the splash screen, shown below.
 
-        ![Create a zip file](../../media/image%2821%29.png)
+        ![Image of Mobile phone.](../../media/image%2821%29.png)
     * Here is sample zip file for reference: [MobileApp_Assets.zip](https://github.com/MicrosoftDocs/microsoft-community-training/files/6968287/MobileApp_Assets.zip)
 
-6. That's all! You’ll receive a link on your contact email address to download the mobile AAB & APK files from our support team (in 4-5 business days).
+1. That's all! You’ll receive a link on your contact email address to download the mobile AAB & APK files from our support team (in 4-5 business days).
 
 ### Steps to publish your mobile app to the playStore
 
@@ -245,43 +245,42 @@ This links protocol & API and enable an app or website to make public, verifiabl
 
 1. Follow the steps above for creating your mobile app and ensure you have received the download link to your Mobile APK & AAB files from Microsoft.
 
-2. We provide two files i.e., the APK & AAB file, you can use the APK file to test your app before publishing and to publish you may use the AAB bundle which contains support to multiple android versions and supports 32 & 64 bit.
+1. We provide two files i.e., the APK & AAB file, you can use the APK file to test your app before publishing then use the AAB bundle to publish which contains support to multiple android versions and supports 32 & 64 bit.
 
-3. [**Sign up on Google Play**](https://play.google.com/apps/publish/signup/) console in order to publish your app on  Google PlayStore.  
+1. [**Sign up on Google Play**](https://play.google.com/apps/publish/signup/) console in order to publish your app on Google PlayStore.  
 
 #### Steps to publish your mobile app
 
 1. Download the AAB file to your computer from the email you received from our support team, after creating your Mobile App.
 
-2. Follow the instructions given [**here**](https://support.google.com/googleplay/android-developer/answer/113469?hl=en&ref_topic=7072031) to upload and publish your APK on the Google Play Store.
+1. Follow the instructions given [**here**](https://support.google.com/googleplay/android-developer/answer/113469?hl=en&ref_topic=7072031) to upload and publish your APK on the Google Play Store.
 
     > [!NOTE]
     > The steps to publish AAB files are similar to the steps used in publishing an APK file.
 
-3. Once you have uploaded and published your AAB file, navigate to **Settings -> Users & Permissions**.
-![Users & Permissions](../../media/image%2878%29.png)
+1. Once you have uploaded and published your AAB file, navigate to **Settings -> Users & Permissions**.
+![Image of Google Play Console](../../media/image%2878%29.png)
 
-4. Click on “**Invite New User**”.
-![Invite New User](../../media/image%2885%29.png)
+1. Select “**Invite New User**”.
+![Image of Users & permissions.](../../media/image%2885%29.png)
 
-5. Enter the email address as **sangamdeployments@gmail.com**.
-![Email address](../../media/image%2886%29.png)
+1. Enter the email address as **sangamdeployments@gmail.com**.
+![Add user options.](../../media/image%2886%29.png)
 
-6. Leave Access Expiry date as **Never**.
+1. Leave Access Expiry date as **Never**.
 
-7. Select the role as **Release Manager**.
+1. Select the role as **Release Manager**.
 
-8. Choose your mobile app from **Choose an App** dropdown.
+1. Choose your mobile app from **Choose an App** dropdown.
 
-9. Click on **Send Invitation**.
+1. Select **Send Invitation**.
 
-10. **Important**: Send an email note to the Community Training team that the permission has been shared. You can reply to the  email chain in which AAB file was shared with you.
-
-> [!NOTE]
-> 
-> If there is any change/update in login type configuration on your instance then the mobile application needs to be updated. 
+1. **Important**: Send an email note to the Microsoft Community Training team that the permission has been shared. You can reply to the  email chain in which AAB file was shared with you.
 
 > [!NOTE]
-> * To use office files in PWA in offline, we will be providing files to publish the application in Google Play store.
-> * Users can request support by raising a ticket [**Community Training Helpdesk**](https://go.microsoft.com/fwlink/?linkid=2104630).
+>
+> If there is any change/update in login type configuration on your instance then the mobile application needs to be updated.
 
+> [!NOTE]
+> * To use office files in PWA offline, we will be providing files to publish the application in Google Play store.
+> * Users can request support by raising a ticket [**Microsoft Community Training Helpdesk**](https://go.microsoft.com/fwlink/?linkid=2104630).

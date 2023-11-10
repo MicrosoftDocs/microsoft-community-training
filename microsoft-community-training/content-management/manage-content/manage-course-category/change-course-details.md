@@ -34,11 +34,11 @@ The Community Training portal provides role-based permission levels. The table b
 
 1. Select **More (…)** to the right of the course name and select **Edit course details**.
 
-    ![Edit course details drop down](../../../media/Edit%20course%20details%20drop%20down.png)
+    ![Edit course details drop down menu.](../../../media/Edit%20course%20details%20drop%20down.png)
 
 1. Edit the course name, course description and thumbnail as required.
 
-    ![Edit course](../../../media/image%28254%29.png)
+    ![Edit course details.](../../../media/image%28254%29.png)
 
     > [!IMPORTANT]
     > Recommended size for the thumbnail image is 320 * 180 px.
@@ -67,11 +67,11 @@ The Community Training portal provides role-based permission levels. The table b
 
 1. Select **More (…)** to the right of the course name and select **Delete course** from the menu presented.
 
-    ![Delete course drop down](../../../media/Delete%20course%20drop%20down.png)
+    ![Delete course drop down menu.](../../../media/Delete%20course%20drop%20down.png)
 
 1. Select **Ok** to delete the course.
 
-    ![Delete a course](../../../media/Delete%20a%20course.png)
+    ![Confirm course deletion a course.](../../../media/Delete%20a%20course.png)
 
     > [!WARNING]
     > When an administrator deletes a course, the user enrollment details and learner progress are also removed from the portal.

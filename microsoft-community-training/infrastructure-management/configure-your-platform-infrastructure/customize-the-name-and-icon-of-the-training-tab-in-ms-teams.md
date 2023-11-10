@@ -19,7 +19,7 @@ This article assumes you have completed the steps outlined in the [MS Teams inst
 
 1. Unzip the manifest file (.zip file) provided by the customer support team earlier for this instance. There should be following three files once you unzip
 
-   ![3 files](../../media/image%28358%29.png)
+   ![Image of the three files.](../../media/image%28358%29.png)
 
 1. Replace the files color.png and outline.png with your customized icon.
 
@@ -30,7 +30,7 @@ This article assumes you have completed the steps outlined in the [MS Teams inst
 
 1. Open *manifest.json* in any editor (here NotePad ++) and edit the highlighted details in to represent your AzureFD (***\<name>.azurefd.net***) instance and the required name of the Tab.
 
-   ![Represent your AzureFD](../../media/image%28359%29.png)
+   ![Representation of your AzureFD.](../../media/image%28359%29.png)
 
 2. Save your changes in the manifest.json file.
 

@@ -32,21 +32,21 @@ The Community Training portal provides role-based permission levels. The table b
 
 1. Select the **Content** tile on the left then select the **Learning Path** tab.
 
-    ![Learning Path from Content](../../../media/image%28388%29.png)
+    ![Select Learning Path from Content.](../../../media/image%28388%29.png)
 
 1. Select the Learning Path in the list to which you want to add the administrator.
 
 1. Select **More** (…) to the right of Learning Path name and select **Manage administrators** option
 
-    ![Click Manage administrators from More](../../../media/image%28429%29.png)
+    ![Select Manage administrators from More.](../../../media/image%28429%29.png)
 
 1. Select **Add Administrators**.
 
-    ![Add Administrators](../../../media/image%28397%29.png)
+    ![Add Administrators button.](../../../media/image%28397%29.png)
 
 1. Enter the **contact details** of the administrator in the space provided then select **Add**
 
-    ![contact details fro admin](../../../media/image%28399%29.png)
+    ![Add contact details for admin by phone number.](../../../media/image%28399%29.png)
 
     > [!NOTE]
     > If the authorization mode is through Azure AD/ADB2C, you need to enter the email address of the administrator.
@@ -59,18 +59,18 @@ The Community Training portal provides role-based permission levels. The table b
 
 1. Select the **Content** tile on the left then the **Learning Path** tab.
 
-    ![Learning Path from Content](../../../media/image%28388%29.png)
+    ![Learning Path from Content.](../../../media/image%28388%29.png)
 
 1. Select the Learning Path in the list to which you want to add the administrator.
 
 1. Select **More (…)** to the right of Learning Path name and select **Manage administrators**.
 
-    ![Manage administrators from More](../../../media/image%28400%29.png)
+    ![Manage administrators from More.](../../../media/image%28400%29.png)
 
 1. Hover the mouse cursor over the administrator to be deleted and you will see the delete icon as shown below.
 
-    ![Delete icon](../../../media/image%28401%29.png)
+    ![Delete Administrator icon](../../../media/image%28401%29.png)
 
 1. Select **Delete** then **Ok** to confirm the deletion.
 
-    ![Delete & ok](../../../media/image%28402%29.png)
+    ![Confirm deletion dialogue](../../../media/image%28402%29.png)

@@ -13,7 +13,7 @@ A user's profile on the training platform consists of the mandatory fields first
 In this topic, you will learn how to edit single and multiple user profiles on the platform.
 
 > [!WARNING]
-> Once the administrator edits the profile field of any learner (via UI or csv), the smart groups associated with that profile field value will be de-assigned and the new groups (if applicable) that are associated with the new value will be assigned, therefore, the content assigned to the learner will change as defined in [this document](De-assigning-content-from-user.md).
+> Once the administrator edits the profile field of any learner (via UI or json/csv API), the smart groups associated with that profile field value will be de-assigned and the new groups (if applicable) that are associated with the new value will be assigned, therefore, the content assigned to the learner will change as defined in [this document](De-assigning-content-from-user.md).
 
 ## Permissions Level
 
@@ -35,13 +35,13 @@ The Community Training portal provides role-based permission levels. The table b
 1. Select **All Users** or a **Group** in the left-navigation page from the Users module.
 
 1. Hover over any user in the list to see the pencil icon for **Edit Profile**.
-:::image type="content" source="../../media/image(483).png" alt-text="Hover over user list":::
+:::image type="content" source="../../media/image(483).png" alt-text="Hover over user list.":::
 
 1. Select the pencil icon to see the user's profile data. Edit the values as required and select **Save**.
-:::image type="content" source="../../media/image(484).png" alt-text="Click on the pencil icon":::
+:::image type="content" source="../../media/image(484).png" alt-text="Click on the pencil icon.":::
 
 1. Select **Save** in the pop up to confirm.
-:::image type="content" source="../../media/image(486).png" alt-text="Confirm the profile edit":::
+:::image type="content" source="../../media/image(486).png" alt-text="Confirm the profile edit.s":::
 
 > [!NOTE]
 > The changes in the profile field will reflect in all places on the administrator and learner portal.

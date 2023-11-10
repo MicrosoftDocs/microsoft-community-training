@@ -55,21 +55,21 @@ Follow these steps to update mapping in your DNS provider and add the custom dom
 
 1. Enable Web Application Firewall on your new domain, (the setting is available just below the Custom Domain HTTPS configuration) and select the WAF policy instance that is deployed in the same resource group.
 
-1. Click on the resource group belonging to your Microsoft Community Training instance.
+1. Select the resource group belonging to your Microsoft Community Training instance.
 
-1. Click on the Managed application instance.
+1. Select the Managed application instance.
 
-   ![Managed application instance](../../media/image%2890%29.png)
+   ![Managed application instance.](../../media/image%2890%29.png)
 
 1. Click on **Managed resource group** link.
 
-   ![Managed resource group](../../media/image%2889%29.png)
+   ![Managed resource group.](../../media/image%2889%29.png)
 
 1. Select the resource for your App Service.
 
 1. Select **Configuration** under **Settings** on the left-menu.
 
-   ![Configuration under Settings](../../media/image%2894%29.png)
+   ![Configuration under Settings.](../../media/image%2894%29.png)
 
 1. Update the setting **ContentEndpoint** with your custom domain name, followed by the path "/storage". *For example - `https://contosolearning.contoso.com/storage`*.
 

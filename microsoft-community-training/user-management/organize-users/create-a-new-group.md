@@ -14,7 +14,9 @@ A Group is a key feature in the Community Training platform. It enables you to d
 Groups make user management easy via automatic enrollment, bulk user onboarding, course assignments, announcements and monitoring learner progress.
 
 > [!NOTE]
-> If your platform is setup with **Microsoft Entra ID (Azure AD) as login identity *and* Microsoft Teams as an end point**, you won't be allowed to create groups from the management portal. All the user management activities have to be performed inside Microsoft Teams.
+> If your platform is setup with **Azure AD as login identity *and* Microsoft Teams as an end point**, you won't be allowed to create groups from the management portal. All the user management activities have to be performed inside Microsoft Teams.
+
+In this article, you will learn how to create a new group on the management portal.
 
 ## Permissions Level
 
@@ -35,21 +37,21 @@ The Community Training portal provides role-based permision level. The table bel
 
 1. To add a new group, Select **New Group** on the bottom-left of the page.
 
-    ![New Group](../../media/New%20Group.png)
+    ![New Group icon.](../../media/New%20Group.png)
 
 1. Enter the group name, group administrator information (optional), Organization (optional) then select **Add** to confirm the details entered.
 
-    ![User Management - Organize Users - New Group](../../media/User%20Management%20-%20Organize%20Users%20-%20New%20Group.png)
+    ![Dialogue box to add a New Group.](../../media/User%20Management%20-%20Organize%20Users%20-%20New%20Group.png)
 
     > [!NOTE]
     > When a group is created, by default, the user who created the group will be the group administrator.
 
     > [!NOTE]
-    > If Organizations are NOT defined on the training platform, the **Organization** field in Group creation will be disabled. However, if the Organizations are defined, the Organization field in Group creation will be mandatory.
+    > If Organizations are NOT defined on the training platform, the Organization field in Group creation will be disabled. However, if the Organizations are defined, the Organization field in Group creation will be mandatory.
 
 1. From **Add Users** pop-up, you can choose [**Manually add users**](#manually-add-users-to-group-during-creation-time) or [**Automatically add users**](#automatically-add-users-to-group-during-creation) to add users at the time of group creation and follow the instructions shown.
 
-    ![User Management - Organize Users - New Group Options](../../media/User%20Management%20-%20Organize%20Users%20-%20New%20Group%20Options.png)
+    ![Screen shot of Add User options.](../../media/User%20Management%20-%20Organize%20Users%20-%20New%20Group%20Options.png)
 
     > [!IMPORTANT]
     > The option to **Automatically add users** will be available only to Global administrators and Organization administrators.
@@ -63,7 +65,7 @@ The Community Training portal provides role-based permision level. The table bel
     - **Add Single User** – Use this option to add one user at a time. Select **Add Single User**, enter the phone number then select **Add** to confirm.  
     - **Bulk Upload Users** – This option is used to add multiple users at once. For detailed steps, see how to [**structure the csv file and bulk upload users**](../organize-users/add-multiple-users-to-the-group.md) on the portal
 
-    ![User Management - Organize Users - New Manual Group](../../media/User%20Management%20-%20Organize%20Users%20-%20New%20Manual%20Group.png)
+    ![Screen shot of options to add users manually.](../../media/User%20Management%20-%20Organize%20Users%20-%20New%20Manual%20Group.png)
 
 1. Click on **Skip** if you want to add users to the group later
 

@@ -33,9 +33,7 @@ In this topic, you will learn how to **Create a Category** in the platform.
 
 1. Select the **Content** menu on the left and select the **Categories** tab
 
-1. Select **New Category**, on the bottom-left of the page.
-
-    ![New category button](../../../media/New%20category%20button.png)
+1. Select **New Category**, on the bottom-left of the page. :::image type="content" source="../../../media/New category button.png" alt-text="New category button.":::
 
 1. Enter the **Category name**. For example, *AI for agriculture.*
 
@@ -53,7 +51,7 @@ In this topic, you will learn how to **Create a Category** in the platform.
 
 1. Once the category is created, you will see this window to choose from options to create course.
 
-    :::image type="content" source="../../../media/marketplaceall.png" alt-text="overview_marketplace":::
+    :::image type="content" source="../../../media/marketplaceall.png" alt-text="Overview of new content options.":::
 
     * You can choose [**Add new course**](create-a-new-course.md#option-1---create-a-single-course-in-a-category) under the category and upload content for the learning program.
     * You can [**Bulk Upload**](create-a-new-course.md#option-3---create-multiple-courses-in-a-category) under the category and upload multiple courses at once to save time.
@@ -63,7 +61,5 @@ In this topic, you will learn how to **Create a Category** in the platform.
 
 If you have [multiple languages](../../../settings/customize-languages-for-the-learners-on-the-platform.md#customize-languages-on-the-platform) enabled for your instance, then you can add translations for your Category fields.
 
-1. While creating a [new category](#create-a-category) you can select the language from dropdown to add translations.
-
-    :::image type="content" source="../../../media/Categorylocalizationcreate.png" alt-text="catloccreate":::
+1. While creating a [new category](#create-a-category) you can select the language from dropdown to add translations. :::image type="content" source="../../../media/Categorylocalizationcreate.png" alt-text="Category localization.":::
 1. Now based on language selection in learner view the category name would be translated.

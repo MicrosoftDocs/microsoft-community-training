@@ -32,21 +32,15 @@ The Community Training portal provides role-based permission levels. The table b
 
 1. Log on to the Community Training portal and [**view as andministrator**](../../../get-started/step-by-step-configuration-guide.md#step-2--switch-to-administrator-view-of-the-portal).
 
-1. Select the **Content** menu on the left bar and click on the  **Learning Path** tab
+1. Select the **Content** menu on the left bar and click on the  **Learning Path** tab. :::image type="content" source="../../../media/image(388).png" alt-text="Select Learning Path view.":::
 
-    ![Content on left bar](../../../media/image%28388%29.png)
+1. Select **New Learning path** on the bottom-left of the page. :::image type="content" source="../../../media/image(390).png" alt-text="Select New Learning Path.":::
 
-1. Select **New Learning path** on the bottom-left of the page.
-
-    ![Select New Learning Path](../../../media/image%28390%29.png)
-
-1. Enter the **Learning Path Name**. This is the title that learners will see on the web portal and mobile app. For example: Microsoft Office.
-
-    :::image type="content" source="../../../media/LP_cert.PNG" alt-text="LearningPathCertificate":::
+1. Enter the **Learning Path Name**. This is the title that learners will see on the web portal and mobile app. For example: Microsoft Office. :::image type="content" source="../../../media/LP_cert.PNG" alt-text="Enter New Learning Path details.":::
 
     1. If you have [multiple languages](../../../settings/customize-languages-for-the-learners-on-the-platform.md#customize-languages-on-the-platform) enabled for your instance, then you can add translations for your Learning Path fields.
 
-        :::image type="content" source="../../../media/LPloccreate.png" alt-text="LPlocalization":::
+        :::image type="content" source="../../../media/LPloccreate.png" alt-text="Select language for Learning Path localization.":::
 
 1. Enter the **Learning Path Description**, a short summary to inform learners about course content at the time of registration.
 
@@ -54,14 +48,14 @@ The Community Training portal provides role-based permission levels. The table b
 
 1. Choose **Enable certificate**. This option enables the administrator to award certificate to learners after completing the learning path.
 
-    >[!Note]
+    > [!NOTE]
     >Administrator can [**customize the certificate template**](../../../settings/customize-the-certificate-template.md#customize-the-certificate-template-for-the-platform) awarded to the learners.
 
 1. Choose **Restrict Ordering** to forces the learners to complete the courses in Learning Path in a specific order. Learners will NOT be allowed to skip courses within a Learning Path if this option is enabled.
 
 1. Select the **Organization** for the Learning Path to assign to a different organization from the default.
 
-    > [!Note]
+    > [!NOTE]
     > If your instance is Multi-Tenant enabled, refer [Enabling Global Content across organizations](../../content-management-overview.md#enabling-global-content-across-organizations), to have common Learning paths enabled across organizations.
 
 1. Click or tap **Create** button to create the Learning Path.

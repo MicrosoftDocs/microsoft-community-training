@@ -34,9 +34,9 @@ The Community Training portal provides role-based permission levels. The table b
 
 1. Enter the phone number of the user you want to add to the group.
 
-    ![Add single user one](../../media/Add_Single_User.png))
+    ![Add single user one](../../media/Add%20single%20user%20one.png)
 
     > [!IMPORTANT]
-    > If the portal is setup with the login identity as **Social Account** or **Entra ID (Azure Active Directory)** then you will need to enter an email address in the above step.
+    > If the portal is setup with the login identity as **Social Account** or **Azure Active Directory** then you will need to enter an email address in the above step.
 
 1. Select **Add** to confirm the addition.

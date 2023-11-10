@@ -55,7 +55,7 @@ To enable sign-in for users with an Azure AD account from a specific Azure AD or
     - **Surname**: *family_name*
     - **Email**: *preferred_username*
 
-    ![Configure custom IDP](../../media/MultipleAAD1.png)
+    ![Configure custom IDP.](../../media/MultipleAAD1.png)
 1. Select **Save**.
 
 ## Step 3: Add Azure AD identity provider to a user flow
@@ -65,7 +65,7 @@ At this point, the Azure AD identity provider has been set up but is not availab
 1. In your Azure AD B2C tenant, select **User flows**.
 1. Select the user flow that you want to add to the Azure AD identity provider.
 1. Under **Identity providers**, select the Social and Custom Identity Providers required. Refer to the below screenshot.
-    ![Social Identity Providers](../../media/MultipleAAD2.png)
+    ![Social Identity Providers.](../../media/MultipleAAD2.png)
 1. Select **Save**.
 1. To test your policy, select **Run user flow**.
 1. For **Application**, select the web application that you previously registered.

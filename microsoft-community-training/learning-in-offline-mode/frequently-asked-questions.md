@@ -20,7 +20,7 @@ The admin needs to select the `OfflineSync` flag while creating/editing the cour
 
 * While creating a course, the admin will have the option to select the **Offline sync** checkbox. If the admin selects that checkbox, then all lessons in that course will be synced to an offline device.
 
-    :::image type="content" source="../media/offline-sync.png" alt-text="Select_offline_sync":::
+    :::image type="content" source="../media/offline-sync.png" alt-text="A screenshot showing how to select offline sync.":::
 
 >[!Note]
 >

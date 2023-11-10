@@ -132,7 +132,7 @@ The course content must be structured correctly and available in the required fi
 
 1. Using the file picker, **select the ZIP** file which contains your course content.:::image type="content" source="../../../media/Upload course window.png" alt-text="Image showing course upload browser.":::
 
-1. Wait for file upload operation to be completed. **Do not close the browser window at this point**. :::image type="content" source="../../../media/Upload%20complete%20course.png" alt-text="Course upload complete.":::
+1. Wait for file upload operation to be completed. **Do not close the browser window at this point**. :::image type="content" source="../../../media/Upload%20complete%20course.png" alt-text="A screenshot showing course upload complete.":::
 
     > [!NOTE]
     > Depending upon your network connectivity and size of the ZIP file, it can take some time to complete the upload operation.

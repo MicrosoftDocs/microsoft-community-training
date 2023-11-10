@@ -43,7 +43,7 @@ Based on the authentication type (Phone/Social login OR Work/School Account), yo
 | **Client Identifier**                 | Client id of your Azure Active Directory B2C application                                                                                                                                                                                                                                                                                            | Client ID of the Microsoft Entra ID application         |
 | **Client Secret**                     | Client Secret Key of your Azure Active Directory B2C application                                                                                                                                                                                                                                                                                    | Client Secret Key of the Microsoft Entra ID application |
 | **User Flow Name**                    | Name of the user-flow configured in your Azure Active Directory B2C tenan                                                                                                                                                                                                                                                                           | N/A                                                     |
-| **Password Resetr Policy (Optional)** | The password Reset Policy for the ADB2C Tenant. Please refer to this [**link**](https://learn.microsoft.com/en-us/azure/industry/training-services/microsoft-community-training/infrastructure-management/install-your-platform-instance/configure-login-social-work-school-account?WT.mc_id=Portal-Microsoft_Azure_CommunityTraining#social-account-or-email-based-authentication) | N/A                                                     |
+| **Password Resetr Policy (Optional)** | The password Reset Policy for the ADB2C Tenant. Please refer to this [**link**](/azure/industry/training-services/microsoft-community-training/infrastructure-management/install-your-platform-instance/configure-login-social-work-school-account?WT.mc_id=Portal-Microsoft_Azure_CommunityTraining#social-account-or-email-based-authentication) | N/A                                                     |
 | **Tenant Name**                       | Tenant name of your Azure Active Directory B2C tenant                                                                                                                                                                                                                                                                                               | Tenant name of your Microsoft EntraID tenant            |
 
 
@@ -99,14 +99,14 @@ Based on the authentication type (Phone/Social login OR Work/School Account), yo
 
     **i. Social or Phone Login**  
     
-    This option allows you to use a Google or Facebook based login to Community Training. For Phone based login, please refer to this [**link**](https://azure.microsoft.com/en-us/pricing/details/active-directory-external-identities/) for pricing and setup.
-
-    https://learn.microsoft.com/en-us/azure/active-directory-b2c/phone-authentication-user-flows
+    This option allows you to use a Google or Facebook based login to Community Training. For Phone based login, please refer to this [**link**](https://azure.microsoft.com/pricing/details/active-directory-external-identities/) for pricing and setup.
+    Follow [this link](/azure/active-directory-b2c/phone-authentication-user-flows) for phone authentication.
+    
     
     > [!NOTE]
     > * Please refer to this documentation for [**social account configuration guide**](../../infrastructure-management/install-your-platform-instance/configure-login-social-work-school-account.md#social-account-or-email-based-authentication)  
-    >* Please refer to this documentation for [**Phone Account Setup Guide**](https://learn.microsoft.com/en-us/azure/active-directory-b2c/phone-authentication-user-flows)  
-    > Please refer to this [**link**](https://azure.microsoft.com/en-us/pricing/details/active-directory-external-identities/#resources) for pricing information.
+    >* Please refer to this documentation for [**Phone Account Setup Guide**](/azure/active-directory-b2c/phone-authentication-user-flows)  
+    > Please refer to this [**link**](https://azure.microsoft.com/pricing/details/active-directory-external-identities/#resources) for pricing information.
 
     ![Social_Phone_Login](../../media/Detailed_Installation_Steps/Detailed_Installation_Guide_Step4a.png)
 
@@ -116,7 +116,7 @@ Based on the authentication type (Phone/Social login OR Work/School Account), yo
     
     > [!NOTE]  
     >You will need Azure Active Directory , also known as Azure Entra ID to be setup to choose either option.  
-    >* Please refer to this [**link**](https://azure.microsoft.com/en-us/pricing/details/active-directory-external-identities/#resources) for pricing.  
+    >* Please refer to this [**link**](https://azure.microsoft.com/pricing/details/active-directory-external-identities/#resources) for pricing.  
     >* Please refer to this link [**work or school account configuration guide**](../../infrastructure-management/install-your-platform-instance/configure-login-social-work-school-account.md#work-or-school-account-based-authentication) for help with setup. 
 
     You also have the option to connect your MS Teams subscription to the Community Training instance.
@@ -138,9 +138,9 @@ Based on the authentication type (Phone/Social login OR Work/School Account), yo
 ![Image of Disaster Recovery options._Options](../../media/Detailed_Installation_Steps/Detailed_Installation_Guide_Step5.png)
 
 > [!NOTE]
->Service A stores customer data. By default, customer data stays within the region the customer deploys the service instance in. However, the customer can choose to replicate data to a paired region (If Available) for Disaster Recovery purposes. For list of available regions, please refer to this [***link***](https://learn.microsoft.com/en-us/azure/reliability/cross-region-replication-azure#azure-paired-regions).
+>Service A stores customer data. By default, customer data stays within the region the customer deploys the service instance in. However, the customer can choose to replicate data to a paired region (If Available) for Disaster Recovery purposes. For list of available regions, please refer to this [***link***](/azure/reliability/cross-region-replication-azure#azure-paired-regions).
 
-    Once you have made your selection, click on **Next** or **Review + Create**
+Once you have made your selection, click on **Next** or **Review + Create**.
 
 8. On the next screen, verify the values entered are correct and click **Create**.
 

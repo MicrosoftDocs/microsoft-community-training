@@ -32,6 +32,6 @@ It is good prctice to go through the following checklist before publishing a cou
 
 1. Select  :::image type="icon" source="../../../media/View.png" border="false" alt-text="View as Learner icon":::  **View as Learner** icon on top right of the course details page to get a preview and experience how the learners would see and consume the course content whenever they login.  
 
-1. Review the structure of the course and lesson sequence and rearrange, if necessary, by draging and droping the lessons into the required sequence. :::image type="complex" source="../../../media/move-courses-final.gif" alt-text="Video showing process of reordering courses. ":::
+1. Review the structure of the course and lesson sequence and rearrange, if necessary, by draging and droping the lessons into the required sequence. :::image source="../../../media/move-courses-final.gif" alt-text="Video showing process of reordering courses. ":::
 
 1. Select **Publish** on right-navigation of the page to publish the course to the learners.

@@ -23,7 +23,7 @@ In the Community Training platform, there are two types of users: a Learner and 
 
 ### Learner
 
-A Learner is the default role assigned to any user added to the platform. Learners can view and consume courses uploaded by the administrators. While accessing the training content, learners can use discussion forums to [**add/share comments**](../learner-experience/mobile.md) with others and stay informed on the important updates sent by the trainers.
+A Learner is the default role assigned to any user added to the platform. Learners can view and consume courses uploaded by the administrators. While accessing the training content, learners can use discussion forums to add/share comments with others and stay informed on the important updates sent by the trainers.
 
 ### Administrator
 

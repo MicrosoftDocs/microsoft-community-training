@@ -85,11 +85,11 @@ This article explains how learners can access training content using the [Progre
 
 1. Tap on the course item you would like to download and select the **Download** button:
 
-    :::image type="content" source="../media/pwa_Ss.png" alt-text="A screenshot showing download." lightbox="../media/pwa_Ss.png" :::
+    :::image type="content" source="../media/pwa_Ss.png" alt-text="A screenshot showing how to download." lightbox="../media/pwa_Ss.png" :::
 
 2. To manage your downloads, select the profile section from the top right of the screen, then select **My Downloads**.
 
-    :::image type="content" source="../media/pwa_Ss_2.png" alt-text="A screenshot showing download." lightbox="../media/pwa_Ss_2.png" :::
+    :::image type="content" source="../media/pwa_Ss_2.png" alt-text="A screenshot showing My Download." lightbox="../media/pwa_Ss_2.png" :::
 
 3. While offline, you can access the downloaded content by selecting the specific course items that you downloaded from the course player page.
 

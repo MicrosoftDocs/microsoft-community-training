@@ -50,7 +50,7 @@ Go to the CT portal's SQL database from the managed resource group (Find the dap
 
 1. Select **Query Editor**.
 
-    ![A screenshot of the Query Editor.](../../media/image%28347%29.png)
+    ![A screenshot showing the Query Editor.](../../media/image%28347%29.png)
 
 2. This query editor will ask for a username and password that can be retrieved from the key vault. Go to the resource group and select your key vault.
 

@@ -57,6 +57,6 @@ Community Training is made for learning on the go. The user experience is optimi
 
 Lastly, learners can also use the platform to track activities and stay updated on important updates from administrators.
 
-![Overview article - learners](../media/overview%20article%20-%20learners.png)
+![A diagram showing the learning experience.](../media/overview%20article%20-%20learners.png)
 
 **Next>** Learn about different [**user personas and their roles and responsibilities**](../get-started/user-role-and-management-portal-overview.md).

@@ -29,6 +29,6 @@ To cater to this need, **Global Administrators** can enable the Restricted Cours
 1. Select **General** from the settings list.
 1. Toggle the Restricted Course Assignment Access settings flag. The default value for this setting is set to **Disabled**.
 
-      ![Restrict Course.png](../media/Restrict%20Course.png)
+      ![A screenshot showing the Restrict Course Assignment Access option.](../media/Restrict%20Course.png)
 
 1. Select **Apply Changes** to commit the change.

@@ -19,27 +19,27 @@ In this article, you will learn about the different configuration options availa
 
 1. Select **App Services** from the left-menu.
 
-    ![Select App Service.png](../media/Select%20App%20Service%281%29.png)
+    ![A screenshot showing how to select App Service.](../media/Select%20App%20Service%281%29.png)
 
 1. Select the application service belonging to your Community Training instance.
 
 1. Select **Configuration** under *Settings* from the left-menu.
 
-    ![Select Configurations.png](../media/Select%20Configurations%281%29.png)
+    ![A screenshot showing how to select configurations.](../media/Select%20Configurations%281%29.png)
 
 1. Go to **Applications Settings**.
 
-    ![Select Application Settings.png](../media/Select%20Application%20Settings.png)
+    ![A screenshot showing how to select Application Settings.](../media/Select%20Application%20Settings.png)
 
 1. Select the setting you want to edit, for example: If you want to disable learner comments, use the setting **Features:CommentDisabled** and update it with value **True**.
 
-    ![Comment Disabled](../media/CommentDisabled.png)
+    ![A screenshot showing CommentsDisabled.](../media/CommentDisabled.png)
 
-    ![Comment Disabled Editing](../media/CommentDisabledEditing.png)
+    ![A screenshot showing CommentDisabled editing.](../media/CommentDisabledEditing.png)
 
 1. Select **Save**.
 
-    ![Save Application Settings.png](../media/Save%20Application%20Settings%281%29.png)
+    ![A screenshot showing how to save Application Settings.](../media/Save%20Application%20Settings%281%29.png)
 
 ## Certificates Received metric
 
@@ -48,7 +48,7 @@ Features:CertificatesEarnedMetricsEnabled
 ```
 
 The portal allows you to customize the **Certificate received** metric of the learner dashboard available in the learner's view. You can enable/disable the metric that shows the total certificates received by the learner.
-![Total certificates received by the learner](../media/image%28418%29.png)
+![A screenshot showing total certificates received by the learner.](../media/image%28418%29.png)
 
 By default, this metric is kept enabled with value as **True**.
 
@@ -59,7 +59,7 @@ Features:CourseCompletionsTodayMetricsEnabled
 ```
 
 The portal allows you to customize the **Course completed today** metric of the learner dashboard available in the learner's view. You can enable/disable the metric that shows the total number of courses the learner completed on that day (as per UTC time zone).
-![Course completed today](../media/image%28419%29.png)
+![A screenshot showing courses completed today.](../media/image%28419%29.png)
 
 By default, this metric is kept disabled with value as **False**.
 
@@ -140,7 +140,7 @@ You can embed the Community Training platform in another application with indepe
 
 By default, this feature is disabled with value as **False**.
 
-![False value](../media/image%28432%29.png)
+![A screenshot showing the feature disabled.](../media/image%28432%29.png)
 
 ## Allow platform embedding
 
@@ -162,7 +162,7 @@ The portal can play external website content as an inline lesson from different 
 
 By default, it remains empty. You can add domain names into the **Value** field to allow embedding (For Example: dailymotion.com).
 
-![Allow embedding](../media/image%28433%29.png)
+![A screenshot showing how to allow embedding.](../media/image%28433%29.png)
 
 ## Hide landing page courses
 
@@ -174,7 +174,7 @@ The landing page for learners shows the names and description of the self-enroll
 
 By default, this feature is disabled with value as **False**, allowing learners to view the self-enroll and auto-enroll courses before they sign in to the training portal.
 
-![Hide landing page](../media/image%28465%29.png)
+![A screenshot showing how to hide landing page.](../media/image%28465%29.png)
 
 ## Hide Course Library
 
@@ -194,7 +194,7 @@ Features:AutoEnrollCourseEnabled
 
 The Community Training portal allows you to disable marking a course as Auto-enroll whilst creating a [**new course**](/azure/industry/training-services/microsoft-community-training/content-management/create-content/create-course-category/create-a-new-course). By default, this feature is enabled and to disable this you need to set the value as **False**
 
-:::image type="content" source="../media/featuredisableautoenrollcourse.png" alt-text="autoenrollcourse":::
+:::image type="content" source="../media/featuredisableautoenrollcourse.png" alt-text="A screenshot showing how to auto enroll course.":::
 
 ## Enable PDF Download feature in lessons
 
@@ -206,7 +206,7 @@ EnablePDFLessonDownload
 
 By default this feature is not enabled, you need to add the above configuration and enable this feature by setting value to **True**. To disable this feature, set the value to **False**.
 
-:::image type="content" source="../media/Enable PDF Download.png" alt-text="pdfdownload":::
+:::image type="content" source="../media/Enable PDF Download.png" alt-text="A screenshot showing how to  pdf download.":::
 
 ## Allow learners to skip videos
 
@@ -232,7 +232,7 @@ DefaultCountry
 
 In **Value** provide the two letter Alpha-2 country code, for example: to set default country as **India**, provide the value **IN**.
 
-:::image type="content" source="../media/Default country.PNG" alt-text="Def_country":::
+:::image type="content" source="../media/Default country.PNG" alt-text="A screenshot showing how to default country.":::
 
 ## Disable MS Teams integration with CT
 
@@ -249,7 +249,7 @@ To disable this MS Teams integration, update this app setting with **Value = '0'
 >- MS Teams integration comes with CT instances with authentication type as "Work or School Account".
 >- Once you disable the MS Teams integration, you would be able to add users to the platform via CT Admin UI.
 
-:::image type="content" source="../media/Disable MS Teams integration.PNG" alt-text="Disable teams integration":::
+:::image type="content" source="../media/Disable MS Teams integration.PNG" alt-text="A screenshot showing how to disable teams integration.":::
 
 ## Enable PWA Mobile App
 
@@ -287,7 +287,7 @@ Once the masking feature is enabled, you can choose which user information will 
 Features:Masking:MaskedProfileFields
 ```
 
-:::image type="content" source="../media/doc_3_1.png" alt-text="maskthefields":::
+:::image type="content" source="../media/doc_3_1.png" alt-text="A screenshot showing how to mask fields.":::
 
 - Use `First Name` as a field in app settings to mask first name of the user or admin.
 - Use `Contact` to mask EmailId/Phone number/Contact of the user or admin.

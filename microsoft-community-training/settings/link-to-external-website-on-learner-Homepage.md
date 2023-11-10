@@ -16,24 +16,24 @@ Community Training enables you to provide a link to an external website on the l
 
 1. Select **App Services** from the left side menu.
 
-    :::image type="content" source="../media/EL-1.png" alt-text="External link 1":::
+    :::image type="content" source="../media/EL-1.png" alt-text="A screenshot showing how to select app services.":::
 
 1. Select **App Services** for your Community Training instance.
 
 1. Select **Configuration** under the **Settings** section from the available left side menu.
 
-    :::image type="content" source="../media/EL2.png" alt-text="External link 2":::
+    :::image type="content" source="../media/EL2.png" alt-text="A screenshot showing how to select configuration.":::
 
 1. Select the **Applications Settings** tab on the left side of the new pane.
 
-    :::image type="content" source="../media/EL3.png" alt-text="External link 3":::
+    :::image type="content" source="../media/EL3.png" alt-text="A screenshot showing how to select application settings.":::
 
 1. Select **New application setting** and enter the following values in the corresponding text boxes:
 
     * Name: **Features:ExternalWebsite:Name**
     * Value: Any name you want display (Example – Community Training)
 
-    :::image type="content" source="../media/EL5.png" alt-text="External link 5":::
+    :::image type="content" source="../media/EL5.png" alt-text="A screenshot showing how to add new application seting.":::
 
 1. Select **OK** to proceed.
 
@@ -42,12 +42,12 @@ Community Training enables you to provide a link to an external website on the l
     * Name: **Features:ExternalWebsite:URL**
     * Value: Provide the link to which it will be redirected (Example – [https://communitytraining.microsoft.com/](https://communitytraining.microsoft.com/))
 
-1. Select **OK** to proceed then **Save**  to complete this process.
+1. Select **OK** to proceed then **Save** to complete this process.
 
-    :::image type="content" source="../media/EL6.png" alt-text="External link 6":::
+    :::image type="content" source="../media/EL6.png" alt-text="A screenshot showing how to save.":::
 
 1. Switch to the learner view on your instance and select the profile picture: you will be able to see the external link available on the panel as illustrated below (**visit Community Training**).
 
-    :::image type="content" source="../media/el7.png" alt-text="External link 7":::
+    :::image type="content" source="../media/el7.png" alt-text="A screenshot showing the newly added link in the portal.":::
 
 1. Select the available link (**Community Training**, as in the example above) and the web site opens as a new tab on your screen.

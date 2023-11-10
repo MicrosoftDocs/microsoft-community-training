@@ -13,7 +13,7 @@ In this article, we'll walk you through upscaling your platform resources to mee
 
 >[!NOTE]
 >
-> Any changes in configuration and plans may impact your [**azure consumption costs**](../monitor-your-platform-infrastructure/monitor-your-infrastructure.md).
+> Any changes in configuration and plans may impact your **azure consumption costs**
 
 ## Steps to enable Auto-Scale for your instance
 

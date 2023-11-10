@@ -120,12 +120,6 @@
            href: analytics/in-built-reports/group-view-report.md
          - name: Learner Report Card View
            href: analytics/in-built-reports/learner-report-card-view.md
-      - name: Custom Reports
-        items:
-         - name: Power BI Integration
-           href: analytics/custom-reports/power-bi-integration.md
-         - name: Database Schema
-           href: analytics/custom-reports/database-schema.md
    - name: Settings
      items:
       - name: Customize the look and feel of your portal
@@ -168,10 +162,6 @@
         items:
          - name: Setup custom domain URL
            href: infrastructure-management/configure-your-platform-infrastructure/setup-custom-domain-url.md
-         - name: Scale up your platform instance configuration
-           href: infrastructure-management/configure-your-platform-infrastructure/scale-up-instance-configuration.md
-         - name: Business Continuity and Disaster Recovery for your Platform Instance
-           href: infrastructure-management/configure-your-platform-infrastructure/business-continuity-and-disaster-recovery-for-your-platform-instance.md
          - name: Delete your training platform instance
            href: infrastructure-management/configure-your-platform-infrastructure/delete-your-training-instance.md
          - name: Customize the name and icon of the training tab in MS Teams
@@ -210,12 +200,6 @@
         href: frequently-asked-questions/security-and-privacy.md
       - name: Platform Extensibility & Integration
         href: frequently-asked-questions/custom-integration.md
-   - name: What's new in Community Training
-     items:
-      - name: What's new in Community Training
-        href: whats-new-in-microsoft-community-training/whats-new-in-microsoft-community-training.md
-      - name: 2023
-        items:
    - name: Learning in Offline Mode
      items:
      - name: Offline Learning with Community Training

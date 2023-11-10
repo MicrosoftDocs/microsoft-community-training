@@ -20,7 +20,7 @@ For setting up the mobile app for your training portal, you will need a mobile a
 2. [Requesting a mobile app AAB from the platform team](#option-2-requesting-a-mobile-app-aab-from-the-platform-team)
 
 > [!WARNING]
-> Microsoft Community Training team will soon be deprecating the process of requesting mobile application from the platform and support only progressive web applications (PWA) for both android and iOS.
+> Community Training team will soon be deprecating the process of requesting mobile application from the platform and support only progressive web applications (PWA) for both android and iOS.
 
 ## Steps to create Mobile Application
 
@@ -54,7 +54,7 @@ Since a progressive web app is a type of webpage/website known as a web applicat
 
 #### Step 2: Update Settings in Admin View for Mobile Application
 
-1. Login to your Microsoft Community Training portal and [**switch to administrator view**](../../get-started/step-by-step-configuration-guide.md#step-2--switch-to-administrator-view-of-the-portal)
+1. Login to your Community Training portal and [**switch to administrator view**](../../get-started/step-by-step-configuration-guide.md#step-2--switch-to-administrator-view-of-the-portal)
 
 2. Click on **Settings** option from the left navigation panel and navigate to **Mobile Application** section.
 
@@ -202,7 +202,7 @@ This links protocol & API and enable an app or website to make public, verifiabl
 
 ## Option 2: Requesting a mobile app AAB from the platform team
 
-1. Visit [**Microsoft Community Training Helpdesk**](https://go.microsoft.com/fwlink/?linkid=2104630).
+1. Visit [**Community Training Helpdesk**](https://go.microsoft.com/fwlink/?linkid=2104630).
 ![Steps to create Mobile App for the training portal](../../media/image%2876%29.png)
 
 2. Click on **Sign in** on the top-left corner of the homepage. Use your Azure AD or Social accounts to register and sign in.
@@ -275,7 +275,7 @@ This links protocol & API and enable an app or website to make public, verifiabl
 
 9. Click on **Send Invitation**.
 
-10. **Important**: Send an email note to the Microsoft Community Training team that the permission has been shared. You can reply to the  email chain in which AAB file was shared with you.
+10. **Important**: Send an email note to the Community Training team that the permission has been shared. You can reply to the  email chain in which AAB file was shared with you.
 
 > [!NOTE]
 > 
@@ -283,5 +283,5 @@ This links protocol & API and enable an app or website to make public, verifiabl
 
 > [!NOTE]
 > * To use office files in PWA in offline, we will be providing files to publish the application in Google Play store.
-> * Users can request support by raising a ticket [**Microsoft Community Training Helpdesk**](https://go.microsoft.com/fwlink/?linkid=2104630).
+> * Users can request support by raising a ticket [**Community Training Helpdesk**](https://go.microsoft.com/fwlink/?linkid=2104630).
 

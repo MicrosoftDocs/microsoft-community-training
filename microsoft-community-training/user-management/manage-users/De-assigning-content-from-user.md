@@ -20,7 +20,7 @@ The learner will be de-assigned from the course in the following scenarios:
 
 ## User Profile updated
 
-In scenarios where the learner’s profile is updated either by the learner himself or by the administrator (via UI or json/csv API), the smart groups associated with that profile will be de-assigned and the new groups (if applicable) that are associated with the updated profile will be assigned to the user. This scenario will also be applicable to bulk user profile updates.
+In scenarios where the learner’s profile is updated either by the learner himself or by the administrator (via UI or csv), the smart groups associated with that profile will be de-assigned and the new groups (if applicable) that are associated with the updated profile will be assigned to the user. This scenario will also be applicable to bulk user profile updates.
 
 ## Group Deletion
 

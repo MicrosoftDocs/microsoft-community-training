@@ -3,7 +3,7 @@ title: Setup Microsoft Teams as learner's endpoint for the platform
 original-url: https://docs.microsoftcommunitytraining.com/docs/create-teams-app-for-your-training-portal
 author: nikotha
 ms.author: nikotha
-description: Microsoft Community Training allows organization to enable online learning inside Microsoft Teams across web, mobile and desktop app.
+description: Community Training allows organization to enable online learning inside Microsoft Teams across web, mobile and desktop app.
 ms.prod: learning-azure
 ---
 
@@ -21,7 +21,7 @@ If you haven't, please follow the Installation steps first and then refer this a
 
 ## Steps to enable learning inside Microsoft Teams
 
-### Step 1 - Delegate permissions on your Azure AD application setup for Microsoft Community Training
+### Step 1 - Delegate permissions on your Azure AD application setup for Community Training
 
 1. Login to the [Azure Portal](https://portal.azure.com/) with admin credentials
 
@@ -54,7 +54,7 @@ If you haven't, please follow the Installation steps first and then refer this a
 > [!NOTE]
 > Please ensure all the values marked with a red rectangle are correctly set.
 
-### Step 2 - Generate a Teams Manifest File (Microsoft Teams App) for your Microsoft Community Training instance
+### Step 2 - Generate a Teams Manifest File (Microsoft Teams App) for your Community Training instance
 
 1. Unzip the file [**steps_to_create_manifest_file.zip**](https://github.com/MicrosoftDocs/microsoft-community-training/files/10336214/steps_to_create_manifest_file.zip).
 
@@ -131,7 +131,7 @@ In this article, you will learn about how to setup Teams SSO to support multiple
 
 1. Login to [**Azure portal**](https://ms.portal.azure.com/#home).
 
-1. Go to **App Services** from the left-menu and select the app service belonging to your Microsoft Community Training instance.
+1. Go to **App Services** from the left-menu and select the app service belonging to your Community Training instance.
 
     :::image type="content" source="../../media/Teams SSO MultiTenant 1.png" alt-text="Teams SSO MultiTenant1":::
 
@@ -205,7 +205,7 @@ The Community Training platform allows Administrators to set-up and schedule mee
 
 In this article, you will learn how to setup your instance to allow Administrators to set-up a Microsoft Teams meeting for a Course, Learning Path, and User Group.
 
-### Steps to configure Microsoft Teams Meeting Scheduling in MCT
+### Steps to configure Microsoft Teams Meeting Scheduling in CT
 
 Follow the steps below that refer to the login identity used on your instance.
 
@@ -251,8 +251,8 @@ Follow only **Step 1** on [this link](#step-1---delegate-permissions-on-your-azu
 
     :::image type="content" source="../../media/Blended Learning 1.png" alt-text="Select App registrations":::
 
-1. On the App registrations page, search for and select the Azure AD application created for the Microsoft Community Training Instance during the installation process.
-    :::image type="content" source="../../media/Blended Learning 2.png" alt-text="Select the app registered for the MCT instance":::
+1. On the App registrations page, search for and select the Azure AD application created for the Community Training Instance during the installation process.
+    :::image type="content" source="../../media/Blended Learning 2.png" alt-text="Select the app registered for the CT instance":::
 
 1. Select **Authentication** from the left panel
     :::image type="content" source="../../media/Blended Learning 3.png" alt-text="Select Authentication":::
@@ -313,7 +313,7 @@ Once you have configured Microsoft Teams Meeting Scheduling in CT, the administr
 
 1. On the “**New Meeting**” page presented, enter the details required for the meeting:
     * Meeting Title.
-    * The attendees data will be auto-filled from the data you had selected in MCT portal.
+    * The attendees data will be auto-filled from the data you had selected in CT portal.
     * Select a range of time in the calendar i.e. Date & Time of Start and End of the meeting.
     * Enter the details for this meeting like agenda etc.
 

@@ -141,20 +141,17 @@ Community Training allows you to create a common repository of content called **
 
     Follow these steps to enable MS Teams Integration [Multi-Tenant support for Azure Active Directory based Authentication in Teams](../infrastructure-management/install-your-platform-instance/create-teams-app-for-your-training-portal.md#multi-tenant-support-for-azure-active-directory-based-authentication-in-teams), if this feature is available.
 
-1. Login to [**Azure portal**](https://ms.portal.azure.com/#home)
+1. Login to the administrator view on the platform as a **Global Adminsitrator**
+2. Navigate to **Settings** on the left pane and click on **General** under **Global Settings**.
+3. Under **"Admin Settings"** category, toggle **"Allow Content to be accessible across organizations"** to **"Enable"**
+4. Refresh the page
 
-1. Navigate to [App Services](../settings/configurations-on-the-training-platform.md#steps-to-set-the-configurations-on-the-platform) to configure the platform.
-
-1. Create/Update the App settings as follows:
-
-   `Features:IsGlobalContentEnabled`, set the **value** as `true`, then click ‘Ok’
-
-    :::image type="content" source="../media/Global Content Configuration.png" alt-text="Configuration value for Global content":::
+![Feature_Toggle](image.png)
 
 1. Now, **"Common"** will be available as an Organization.
 1. while creating Categories/Learning Paths. Any content created under **Common** will be available for assignment to all admins.
 
-    :::image type="content" source="../media/After Common Content Enabled.png" alt-text="Common content Enabled":::
+![After_Common_Content_Enabled](<../media/After Common Content Enabled.png>)
 
 ## View content analytics to track and measure effectiveness
 

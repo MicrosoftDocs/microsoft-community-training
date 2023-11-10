@@ -14,9 +14,7 @@ A Group is a key feature in the Community Training platform. It enables you to d
 Groups make user management easy via automatic enrollment, bulk user onboarding, course assignments, announcements and monitoring learner progress.
 
 > [!NOTE]
-> If your platform is setup with **Azure AD as login identity *and* Microsoft Teams as an end point**, you won't be allowed to create groups from the management portal. All the user management activities have to be performed inside Microsoft Teams.
-
-In this article, you will learn how to create a new group on the management portal.
+> If your platform is setup with **Microsoft Entra ID (Azure AD) as login identity *and* Microsoft Teams as an end point**, you won't be allowed to create groups from the management portal. All the user management activities have to be performed inside Microsoft Teams.
 
 ## Permissions Level
 
@@ -47,7 +45,7 @@ The Community Training portal provides role-based permision level. The table bel
     > When a group is created, by default, the user who created the group will be the group administrator.
 
     > [!NOTE]
-    > If Organizations are NOT defined on the training platform, the Organization field in Group creation will be disabled. However, if the Organizations are defined, the Organization field in Group creation will be mandatory.
+    > If Organizations are NOT defined on the training platform, the **Organization** field in Group creation will be disabled. However, if the Organizations are defined, the Organization field in Group creation will be mandatory.
 
 1. From **Add Users** pop-up, you can choose [**Manually add users**](#manually-add-users-to-group-during-creation-time) or [**Automatically add users**](#automatically-add-users-to-group-during-creation) to add users at the time of group creation and follow the instructions shown.
 

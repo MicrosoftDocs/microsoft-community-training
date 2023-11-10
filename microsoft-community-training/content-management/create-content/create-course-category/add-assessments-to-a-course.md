@@ -9,7 +9,7 @@ ms.prod: learning-azure
 
 # Add non-graded and graded assessments to a course
 
-Community Training (MCT) platform allows trainers to add assessments as a way to evaluate learners on their knowledge and proficiency. The platform provides two types of assessments in the form of non-graded assessments and graded assessments containing one or more multiple-choice questions.
+Community Training (CT) platform allows trainers to add assessments as a way to evaluate learners on their knowledge and proficiency. The platform provides two types of assessments in the form of non-graded assessments and graded assessments containing one or more multiple-choice questions.
 
 **Non-graded Assessments** - A Non-graded Assessment serves as a refresher for learners and facilitates revision of a particular lesson. There is no limit to the number of assessments you can add to a course.
 

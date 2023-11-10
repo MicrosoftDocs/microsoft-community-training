@@ -105,5 +105,11 @@ As shown in the image below, there are two **IF** fields - *‘Country’*, set 
 
 1. Select **Rules applied** on the details page to view the existing rules.
 
-> [!NOTE]
-> **Rules cannot be edited or deleted**. To update an existing rule, a new group must be created and new rules set to the new group.
+## Delete/Edit existing rules
+
+You can edit or remove the conditions set in the rules by hovring your mouse over the field and clicking on the track icon to the right or remove a confition value by clicking on the 'x' next the value.
+
+![Edit Smartgroup Rules](../../media/Edit_SmartGroup_Rules.png)
+
+[!TIP]
+> Editing Smart Group rules, when large number of learners exist is a resource intensive operation and might take time to complete. If it is taking too long to import users, please [**scale up your platform instance**](../../infrastructure-management/configure-your-platform-infrastructure/scale-up-instance-configuration.md).

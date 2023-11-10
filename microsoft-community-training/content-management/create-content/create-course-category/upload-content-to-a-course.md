@@ -20,7 +20,7 @@ In this article, you will learn how to upload content to a course on the managem
 
 ## Permissions Level
 
-The MCT management portal provides role-based permission levels. The table below shows which administrative roles can upload content to a course in the portal.
+The CT management portal provides role-based permission levels. The table below shows which administrative roles can upload content to a course in the portal.
 
 | Access Level  | Upload content to a course |
 | --- | --- |
@@ -85,8 +85,8 @@ The following formats are supported:
 >*  **SCORM content**: Content compliant to  ***SCORM v1.2*** is supported on the platform. Make sure your folder is .zip and it also has **`imsmanifest.xml`** file
 
 Community Training does not have [file size restrictions on upload](../../../frequently-asked-questions/faqs-course.md) for most formats but the [App Service plan](https://azure.microsoft.com/pricing/details/app-service/windows/) for your instance might restrict the total upload size (multiple uploads across different devices for the same instance) at a time:
-* P1V2 - maximum upload size is 18GB
-* P2V2 - maximum upload size is 56GB
+* Standard - maximum upload size is 18GB
+* Premium - maximum upload size is 56GB
 
 Refer [here](https://github.com/projectkudu/kudu/wiki/Understanding-the-Azure-App-Service-file-system) for more information.
 > [!NOTE]

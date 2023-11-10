@@ -13,7 +13,7 @@ A user's profile on the training platform consists of the mandatory fields first
 In this topic, you will learn how to edit single and multiple user profiles on the platform.
 
 > [!WARNING]
-> Once the administrator edits the profile field of any learner (via UI or json/csv API), the smart groups associated with that profile field value will be de-assigned and the new groups (if applicable) that are associated with the new value will be assigned, therefore, the content assigned to the learner will change as defined in [this document](De-assigning-content-from-user.md).
+> Once the administrator edits the profile field of any learner (via UI or csv), the smart groups associated with that profile field value will be de-assigned and the new groups (if applicable) that are associated with the new value will be assigned, therefore, the content assigned to the learner will change as defined in [this document](De-assigning-content-from-user.md).
 
 ## Permissions Level
 

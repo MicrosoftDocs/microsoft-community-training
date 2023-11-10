@@ -35,7 +35,8 @@ You will require **Owner** or **Contributor** role on the subscription to go thr
 
 ### 3. Get the required information
 
-Based on the authentication type (Phone/Social login OR Work/School Account), you will need to have the following information handy.
+Based on the authentication type (Phone/Social login OR Work/School Account), you will need to have the following information handy.  
+
 | **Key**                               | **Phone/Social Login (ADB2C)**                                                                                                                                                                                                                                                                                                                      | **Work/School Account (MS Entra ID)**                   |
 |---------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------|
 | **Global Admin Contact**              | The emailID /phone number of the Global Admin on the Community Training portal                                                                                                

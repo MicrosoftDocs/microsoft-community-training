@@ -56,7 +56,7 @@ Before you start the bulk upload, ensure the users list is structured in the rig
         ![user details](../../media/image%2857%29.png)
 
 > [!NOTE]
-> If the portal is setup with the login identity as **Social Account** or **Azure Active Directory**  you will need to enter email address in the above step.
+> If the portal is setup with the login identity as **Social Account** or **Entra ID (Azure Active Directory)**  you will need to enter email address in the above step.
 
 #### Step 3 – Add User Profile Data (optional)
 

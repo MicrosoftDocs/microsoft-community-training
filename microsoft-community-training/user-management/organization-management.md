@@ -29,7 +29,16 @@ The Community Training portal provides role-based permission levels. The table b
 
 ## Enabling Organizations on the Platform
 
-The support for Organizations can be enabled on the platform by [enabling the application configuration for **Features:IsMultiOrgDeployment**](../settings/configurations-on-the-training-platform.md#enabling-organizations-on-the-platform).
+The support for Organizations can be enabled on the platform by:
+
+1. Login to the administrator view on the platform as a **Global Adminsitrator**
+2. Navigate to **Settings** on the left pane and click on **General** under **Global Settings**.
+3. Under **"Admin Settings"** category, toggle **"Allow Content to be accessible across organizations"** to **"Enable"**
+4. Refresh the page
+
+![Feature_Toggle](../media/Feature_Toggle_Old_General.png)
+
+Please refer to this [**article**](../settings/configurations-on-the-training-platform.md#enabling-organizations-on-the-platform) on how to set the configuration keys on the product.
 
 ## Create a New Organization
 

@@ -109,5 +109,7 @@ To deploy the Community Training platform, you will need to add payment informat
 1. If the subscription IDs are different then raise a support ticket to convert the existing subscription into an Azure sponsored subscription as shown below:
 
 * Select the Help + Support option at the bottom-left on the navigation panel.
-* Raise a ticket and provide details of both the subscriptions.
+* Raise a ticket and provide details of both the subscriptions.  
+
+
     ![Subscriptions](../../media/image%28132%29.png)

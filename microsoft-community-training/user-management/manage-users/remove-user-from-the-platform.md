@@ -34,7 +34,7 @@ The Community Training portal provides role-based permission levels. The table b
 
 1. Select **Remove users** on the top-right of the details page.
 
-    ![Delete user from platform](../../media/Delet%20user%20from%20platform.png)
+    ![Delete user from platform](../../media/RemoveUsers.png)
 
 1. Select **Ok** to confirm deletion of the selected users from the platform.
 

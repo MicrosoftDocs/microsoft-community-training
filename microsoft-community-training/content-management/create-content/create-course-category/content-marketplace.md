@@ -9,11 +9,11 @@ ms.prod: learning-azure
 
 # Content Marketplace
 
-**Community Training (MCT)** allows users to import courses to their training portal via the Content Marketplace. Content Marketplace is a catalogue of top-notch training material from Microsoft available at your fingertips from the admin view.  It includes material on digital literacy, soft skills, Office 365, Azure cloud to the latest in-demand technological tools.
+**Community Training (CT)** allows users to import courses to their training portal via the Content Marketplace. Content Marketplace is a catalogue of top-notch training material from Microsoft available at your fingertips from the admin view.  It includes material on digital literacy, soft skills, Office 365, Azure cloud to the latest in-demand technological tools.
 
-## Content Providers in MCT Content Marketplace
+## Content Providers in CT Content Marketplace
 
-MCT currently includes content from **Microsoft Learn** and **Skills for Job**.
+CT currently includes content from **Microsoft Learn** and **Skills for Job**.
 
 ### Microsoft Learn
 
@@ -28,7 +28,7 @@ Training on Office 365 tools: Collection of training material on Office tools li
 A list of courses currently available in Microsoft Digital Content section can be found [here](https://github.com/MicrosoftDocs/microsoft-community-training/files/8229076/MS_Digitalcontent_Courselist_Feb2022.csv).
 
 > [!NOTE]
-> Office 365 courses are added in marketplace as lessons with external links mapping to the relevant tutorial video, to have them play inline with MCT you need to [**embed the domain**](../../../settings/configurations-on-the-training-platform.md#allow-external-video-embedding-into-ct) `microsoft.com` in the [**app settings**](../../../settings/configurations-on-the-training-platform.md#steps-to-set-the-configurations-on-the-platform).
+> Office 365 courses are added in marketplace as lessons with external links mapping to the relevant tutorial video, to have them play inline with CT you need to [**embed the domain**](../../../settings/configurations-on-the-training-platform.md#allow-external-video-embedding-into-ct) `microsoft.com` in the [**app settings**](../../../settings/configurations-on-the-training-platform.md#steps-to-set-the-configurations-on-the-platform).
 
 **Next Steps:**
 

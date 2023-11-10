@@ -196,10 +196,9 @@ Here are the steps an create on Azure AD B2C tenant and link the same with your 
     * Copy the user-flow(s) name to be required later (These will be required during CT platform installation)
     >
 
-    <!--
-    ################################
+<!--
     NOTE TO DOCUMENTATION WRITERS: THIS IS REMOVED AS IT IS NO LONGER NEEDED. KEEPING IT HERE, JUST IN CASE IT IS REQUIRED IN FUTURE.
-    ################################
+   
 
     > [!NOTE]
     > Setting Password Reset Flow for an Existing Deployment:
@@ -219,9 +218,9 @@ Here are the steps an create on Azure AD B2C tenant and link the same with your 
         > * idp:AzureADB2CPasswordResetPolicy
         >
         >![App Service](../../media/image%28355%29.png)
+ -->   
     
-    
-    -->
+   
 7. Follow the [**installation article**](../../infrastructure-management/install-your-platform-instance/installation-guide-detailed-steps.md) to complete the Deployment by configuring obtained values as per the below screenshot
 
  ![Social_Phone_Login](../../media/Detailed_Installation_Steps/Detailed_Installation_Guide_Step4a.png)
@@ -245,7 +244,4 @@ Here are the steps to create policies based on the Identity Provider:
         ![Application Claims Local Account1](../../media/4.jpg)
 
     5. Select User Attributes and ensure no options are selected.
-    6. Restart the training portal App service.
-        ![Restart App Service.png](../../media/LoginIdentity14.png)
-
-    7. Once the app successfully restarts, verify if user can login using local account.
+    6. The portal automatically restarts and the changes take effect.

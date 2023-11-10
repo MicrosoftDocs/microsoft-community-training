@@ -153,21 +153,21 @@ CT supports login via multiple tenants for AAD authentication. This can be done 
 
 You can configure social account for your training portal by following the instructions below:  
 
-### Step 1 - Setup your Microsoft EntraID (Azure AD) B2C
+### Step 1 - Setup your Azure AD B2C
 
-You can create a new Microsoft EntraID (Azure AD) B2C tenant or create an existing one based on your organization requirement.
+You can create a new Azure AD B2C tenant or create an existing one based on your organization requirement.
 
 1. Login to [**Azure portal**](https://portal.azure.com/).
 
-2. Create a new [**Microsoft EntraID (Azure AD) B2C**](/azure/active-directory-b2c/tutorial-create-tenant)  tenant.
+2. Create a new [**Azure AD B2C**](/azure/active-directory-b2c/tutorial-create-tenant)  tenant.
 
-3. Link the Microsoft EntraID (Azure AD) B2C tenant just created to your Azure subscription.  
+3. Link the Azure AD B2C tenant just created to your Azure subscription.  
 
-### Step 2 - Create Microsoft EntraID (Azure AD) B2C application
+### Step 2 - Create Azure AD B2C application
 
-Here are the steps an create on Microsoft EntraID (Azure AD) B2C tenant and link the same with your training portal instance:
+Here are the steps an create on Azure AD B2C tenant and link the same with your training portal instance:
 
-1. Create a new Microsoft EntraID (Azure AD) B2C application by following [**this article**](/azure/active-directory-b2c/tutorial-register-applications). Please ensure application properties are set as following:
+1. Create a new Azure AD B2C application by following [**this article**](/azure/active-directory-b2c/tutorial-register-applications). Please ensure application properties are set as following:
     1. Web app / Web API - set to "Yes"
     2. Allow implicit flow - set to "No"
     3. Add following to **Reply URL**
@@ -195,9 +195,15 @@ Here are the steps an create on Microsoft EntraID (Azure AD) B2C tenant and link
     ![User Attributes](../../media/LoginIdentity9.png)
     * Copy the user-flow(s) name to be required later (These will be required during CT platform installation)
     >
+
+    <!--
+    ################################
+    NOTE TO DOCUMENTATION WRITERS: THIS IS REMOVED AS IT IS NO LONGER NEEDED. KEEPING IT HERE, JUST IN CASE IT IS REQUIRED IN FUTURE.
+    ################################
+
     > [!NOTE]
     > Setting Password Reset Flow for an Existing Deployment:
-    > If you are setting up the **Password reset flow** on an existing deployment with Microsoft EntraID (Azure AD) B2C authentication:
+    > If you are setting up the **Password reset flow** on an existing deployment with Azure AD B2C authentication:
     >
     > 1. Set Userflow Name as **pwd_reset** (Step #1 in Create Flow using steps in [**this article**](/azure/active-directory-b2c/tutorial-create-user-flows)
     >
@@ -213,7 +219,9 @@ Here are the steps an create on Microsoft EntraID (Azure AD) B2C tenant and link
         > * idp:AzureADB2CPasswordResetPolicy
         >
         >![App Service](../../media/image%28355%29.png)
-
+    
+    
+    -->
 7. Follow the [**installation article**](../../infrastructure-management/install-your-platform-instance/installation-guide-detailed-steps.md) to complete the Deployment by configuring obtained values as per the below screenshot
 
  ![Social_Phone_Login](../../media/Detailed_Installation_Steps/Detailed_Installation_Guide_Step4a.png)
@@ -226,7 +234,7 @@ Here are the steps to create policies based on the Identity Provider:
 
 2. **Configure you Local Account** - You can configure local account for your training portal by following the instructions below:
 
-    1. Navigate to the Microsoft EntraID (Azure AD) B2C tenant.
+    1. Navigate to the Azure AD B2C tenant.
     2. Under Policies select User Flow and click on the required User Flow from the populated list.
     3. Under Settings, select Identity Providers and check whether the configuration matches exactly as below.
 

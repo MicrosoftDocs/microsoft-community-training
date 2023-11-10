@@ -9,9 +9,7 @@ ms.prod: learning-azure
 
 # Request a new Language
 
- Community Training currently supports 63+ languages on the platform.
-
- *Afrikaans (South Africa), *Amharic (Ethiopia), *Arabic (Saudi Arabia), *Assamese (India), *Bulgarian (Bulgaria)Bengali (India), *Bosnian (Latin, Bosnia & Herzegovina), *German (Germany), *English (United States), *Spanish (Spain, International Sort), *Finnish (Finland), *Filipino (Philippines), *French (France), *Gujarati (India), *Hebrew (Israel), *Hindi (India), *Croatian (Croatia), *Hungarian (Hungary), *Indonesian (Indonesia), *Italian (Italy), *Japanese (Japan), *Kazakh (Kazakhstan), *Khmer (Cambodia), *Kannada (India), *Lao (Laos), *Lithuanian (Lithuania), *Malayalam (India), *Marathi (India), *Malay (Malaysia), *Dutch (Netherlands), *Odia (India), *Punjabi (India), *Polish (Poland), *Portuguese (Brazil), *Romanian (Romania), *Russian (Russia), *Slovak (Slovakia), *Albanian (Albania), *Serbian (Cyrillic, Serbia), *Serbian (Cyrillic, Bosnia and Herzegovina), *Serbian (Latin, Serbia), *Swedish (Sweden), *Tamil (India), *Telugu (India), *Thai (Thailand), *Ukrainian (Ukraine), *Urdu (Pakistan), *Vietnamese (Vietnam)Chinese (Simplified, China), *Chinese (Traditional, Taiwan), *Uzbek (Latin, Uzbekistan), *Welsh (United Kingdom), *Kinyarwanda, Kiswahili (Kenya), *Kurdish, *Kyrgyz, *Pashto (Afghanistan), *Persian (Afghanistan), *Portuguese (Mozambique), *Romansh, *Sindhi, *Somali, *Tajik, *Tetum
+ Community Training currently supports 28 languages on the platform:  Albanian, Arabic, Bengali, Chinese (Simplified), Chinese (Traditional), Dutch, English, Finnish, French, Hindi, Kinyarwanda, Kurdish, Lao, Lithuanian, Malay, Odia, Portuguese, Serbian (Cyrillic), Somali, Spanish, Swedish, Tajik, Telugu, Tetum, Thai, Ukrainian, and Vietnamese.
 
 You can raise a request ticket via our Helpdesk to request another language for your platform instance.
 

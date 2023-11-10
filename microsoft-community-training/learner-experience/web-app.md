@@ -53,7 +53,7 @@ This article explains how learners can access training content using the web por
 
 1. After setting up the profile, you can change the language from the dropdown in the navigation bar.
 
-    :::image type="content" source="../media/LearnerLanguage1.png" alt-text="Learner language drop down":::
+    :::image type="content" source="../media/LearnerLanguage1.png" alt-text="A screenshot showing Learner language dropdown.":::
 
 2. Select the dropdown and choose a language from the available options.
 
@@ -66,15 +66,15 @@ This article explains how learners can access training content using the web por
 
 1. After signing in, you can see all the registered courses and their completion status.
 
-    :::image type="content" source="../media/image(434).png" alt-text="Learning Path / Courses":::
+    :::image type="content" source="../media/image(434).png" alt-text="A screenshot showing courses.":::
 
 2. You can also browse the course library and register for more courses as required. Select the **Course Library** button and filter the list by selecting an individual category.
 
-    :::image type="content" source="../media/image(414).png" alt-text="Course Library":::
+    :::image type="content" source="../media/image(414).png" alt-text="A screenshot showing Course Library.":::
 
 3. To enroll for a course, select a course item and then select **Register** in the pop-up window.
 
-    :::image type="content" source="../media/image(179).png" alt-text="Pop-up window":::
+    :::image type="content" source="../media/image(179).png" alt-text="A screenshot showing a pop-up window.":::
 
 > [!NOTE]
 > Users can search for courses using the search option on the home page.
@@ -85,13 +85,13 @@ This article explains how learners can access training content using the web por
 
 2. Every course consists of a course description, lessons, and assessments as shown in the course outline. Any completed course item gets a green circled tick mark:
 
-    :::image type="content" source="../media/image(181).png" alt-text="Green circled tick mark":::
+    :::image type="content" source="../media/image(181).png" alt-text="A screenshot showing a list of courses.":::
 
 3. To view any lesson content or attempt an assessmenet select the course item in the outline.
 
 4. A graded assessment is always the last item in each course and it's available only when you have completed all the previous course items.
 
-    :::image type="content" source="../media/image(182).png" alt-text="Previous Course":::
+    :::image type="content" source="../media/image(182).png" alt-text="A screenshot showing course items.":::
 
 5. On successful completion of the course, you'll receive a certificate if enabled by the administrator.
 
@@ -99,11 +99,11 @@ This article explains how learners can access training content using the web por
 
 1. On the **My Courses** page,  you can view your overall progress on the portal.
 
-    :::image type="content" source="../media/image(415).png" alt-text="My Courses":::
+    :::image type="content" source="../media/image(415).png" alt-text="A screenshot showing the My Courses page.":::
 
 2. Below the **My Progress** bar, you can find courses with completion status represented in the form of a percentage and progress bar.
 
-    :::image type="content" source="../media/image(435).png" alt-text="Progress":::
+    :::image type="content" source="../media/image(435).png" alt-text="A screenshot showing progress.":::
 
 3. All the completed courses are stacked together at the bottom of the page.
 
@@ -113,7 +113,7 @@ This article explains how learners can access training content using the web por
 
 2. To add a comment for a lesson, select the  **Add a comment** button in the top-right of the page.
 
-    :::image type="content" source="../media/image(163).png" alt-text="Comment":::
+    :::image type="content" source="../media/image(163).png" alt-text="A screenshot showing Comments.":::
 
 3. Enter your comments and select the **Send** button to submit the comments.
 
@@ -123,7 +123,7 @@ This article explains how learners can access training content using the web por
 
 1. On the top right of the screen, you'll find the **Notifications** icon.
 
-    :::image type="content" source="../media/image(186).png" alt-text="replies to your comments":::
+    :::image type="content" source="../media/image(186).png" alt-text="A screenshot showing replies to comments.":::
 
 2. Select the icon to open the Notification drawer and get updates on new courses assigned to you, replies to your comments, and more.
 
@@ -131,7 +131,7 @@ This article explains how learners can access training content using the web por
 
 1. On the top right of the screen, you'll find the **Notice Board** icon.  
 
-    :::image type="content" source="../media/image(188).png" alt-text="announcements by admin":::
+    :::image type="content" source="../media/image(188).png" alt-text="A screenshot showing notice board.":::
 
 2. Select the icon to open the Notice Board and read all announcements posted by the administrator.
 

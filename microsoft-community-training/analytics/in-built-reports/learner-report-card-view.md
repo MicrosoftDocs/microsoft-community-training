@@ -38,7 +38,7 @@ This section of the Learner Report Card View enables the admin to get a quick su
 
 3. **Average assessment Score**: Show the average assessment score across all the courses where learners have attempted non-graded and graded assessments.
 
-    ![Average assessment Score](../../media/image%2846%29.png)
+    ![A screenshot showing average assessment score.](../../media/image%2846%29.png)
 
 ## Detailed progress and performance on registred courses
 
@@ -58,7 +58,7 @@ This section of the Learner Report Card View provides details on the learning pr
 
 7. **Priority** - Priority of the course for the learner: can be Required, Recommended, Optional or Default. If the learner has been assigned the same course from multiple groups, the highest priority is shown here.
 
-    ![Priority of the course](../../media/image%2847%29.png)
+    ![A screenshot showing priority of a course.](../../media/image%2847%29.png)
 
 > [!TIP]  
 > You can **download the report card** in a CSV format for further analysis.

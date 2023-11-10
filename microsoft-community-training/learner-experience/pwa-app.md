@@ -37,13 +37,13 @@ This article explains how learners can access training content using the [Progre
 
 2. Depending on the [**login identity setup**](../infrastructure-management/install-your-platform-instance/configure-login-social-work-school-account.md), you'll need to sign in using your email address, social account, or Azure Active Directory account.
 
-    :::image type="content" source="../media/image(189).png" alt-text="Login-identity" lightbox="../media/image(189).png":::
+    :::image type="content" source="../media/image(189).png" alt-text="A screenshot showing login identity." lightbox="../media/image(189).png":::
 
 3. After sign-in, you'll need to complete your profile information including first name, last name, profile picture, and more.  
 
 4. The fields displayed on the profile page are configured by the administrator. For more information, see [**Customize profile information for learners**](../settings/add-additional-profile-fields-for-user-information.md).
 
-    :::image type="content" source="../media/pwaofflogin.png" alt-text="pwaofflinelogin":::
+    :::image type="content" source="../media/pwaofflogin.png" alt-text="A screenshot showing offline login.":::
 
 ## Step 3: Choose language
 
@@ -58,13 +58,13 @@ This article explains how learners can access training content using the [Progre
 
 1. After signing in, you can see all the registered learning paths and  Courses along with their completion status.
 
-    :::image type="content" source="../media/pwaoffhomepage.png" alt-text="pwaoffllinehomepage" lightbox="../media/pwaoffhomepage.png":::
+    :::image type="content" source="../media/pwaoffhomepage.png" alt-text="A screenshot showing offline homepage." lightbox="../media/pwaoffhomepage.png":::
 
 2. You can also browse the course library and register for more courses as required. Select the **Course Library** button and filter the list by choosing an individual category.
 
 3. To enroll for a course, select the course item and select the **Register** option in the pop-up window:
 
-    :::image type="content" source="../media/image(179).png" alt-text="pop-up window":::
+    :::image type="content" source="../media/image(179).png" alt-text="A screenshot showing the pop-up window.":::
 
 > [!NOTE]
 > Users can search for courses using the search option on the home page.
@@ -73,7 +73,7 @@ This article explains how learners can access training content using the [Progre
 
 1. On the **My Course** page, select the Course item which you want to view and learn.
 
-    :::image type="content" source="../media/pwaoffvoureview.png" alt-text="pwaofflinecourseview":::
+    :::image type="content" source="../media/pwaoffvoureview.png" alt-text="A screenshot showing course view.":::
 
 2. Every course consists of a course description, lessons, and assessments (graded or non-graded). You will see a green circled tick mark once a course item is completed.
 
@@ -85,11 +85,11 @@ This article explains how learners can access training content using the [Progre
 
 1. Tap on the course item you would like to download and select the **Download** button:
 
-    :::image type="content" source="../media/pwa_Ss.png" alt-text="pwaofflinedownload" lightbox="../media/pwa_Ss.png" :::
+    :::image type="content" source="../media/pwa_Ss.png" alt-text="A screenshot showing download." lightbox="../media/pwa_Ss.png" :::
 
 2. To manage your downloads, select the profile section from the top right of the screen, then select **My Downloads**.
 
-    :::image type="content" source="../media/pwa_Ss_2.png" alt-text="pwaofflinedownload" lightbox="../media/pwa_Ss_2.png" :::
+    :::image type="content" source="../media/pwa_Ss_2.png" alt-text="A screenshot showing download." lightbox="../media/pwa_Ss_2.png" :::
 
 3. While offline, you can access the downloaded content by selecting the specific course items that you downloaded from the course player page.
 
@@ -97,7 +97,7 @@ This article explains how learners can access training content using the [Progre
 
 1. On the **Downloads** page, select the **Delete** option to the right of the content.
 
-    :::image type="content" source="../media/pwaoffdelete.png" alt-text="pwaofflinedelete" lightbox="../media/pwaoffdelete.png" :::
+    :::image type="content" source="../media/pwaoffdelete.png" alt-text="A screenshot showing delete." lightbox="../media/pwaoffdelete.png" :::
 
 2. You can also view the deleted content from the **Recently Deleted** section on the Downloads page.
 

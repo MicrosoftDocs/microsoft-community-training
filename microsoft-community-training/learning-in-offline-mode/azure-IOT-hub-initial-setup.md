@@ -27,7 +27,7 @@ Download the setup files from [**this link**](https://sangamapps2.blob.core.wind
 
 4. The following is a sample of the above steps required to load and push an image. These need to be done for each of the three images.
 
-    :::image type="content" source="../media/image(445).png" alt-text="container":::
+    :::image type="content" source="../media/image(445).png" alt-text="A screenshot showing a container in a terminal.":::
 
     >[!note]
     > The steps need to be followed for all three images:
@@ -39,7 +39,7 @@ Download the setup files from [**this link**](https://sangamapps2.blob.core.wind
 
 5. After the images are loaded into the Azure Container Registry,  the Azure Container Registry will look as follows:
 
-    :::image type="content" source="../media/image(446).png" alt-text="Azurecontainerregistry":::
+    :::image type="content" source="../media/image(446).png" alt-text="A screenshot showing Azure Container Registry.":::
 
 ## Step 2: Azure IoT Hub Setup
 
@@ -56,7 +56,7 @@ The zip file downloaded in the pre-requisites section of this document contains 
 
 Perform the steps in [**this article**](/azure/container-registry/container-registry-authentication) to retrieve the username and password for Azure Container Registry created in Step 2 and edit the following values in the deployment file.
 
- :::image type="content" source="../media/image(447).png" alt-text="Configure Azure":::
+ :::image type="content" source="../media/image(447).png" alt-text="A screenshot showing the values to edit. These are the registry_username, registry_password, and registry_name.":::
 
 ### Step 3.2: Configure Azure SQL Edge
 

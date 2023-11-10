@@ -11,7 +11,7 @@ ms.prod: learning-azure
 
 Community Training provides out-of-the-box rich analytics for tracking progress in learning, course completion, and engagement and performance of learners. These insights enable administrators to monitor progress and improvise training programs. Analytics empower the organization to make improved decisions about their training program which is always supported by data and behavior of users, and in turn, this enables intelligent program administration.
 
-![smart program administration](../media/image%28430%29.png)
+![A screenshot showing smart program administration.](../media/image%28430%29.png)
 
 ## Role-based admin access to analytics
 
@@ -22,9 +22,9 @@ For example, the Global Admin can access all the learner analytics on the portal
 Here is a high-level comparison of analytics information available to different admins:
 
 [comment]: <* [Analytics Topics](../media/Analytics%20Topics.pdf) >
-[Analytics Admin Permission](https://github.com/MicrosoftDocs/microsoft-community-training/files/6915937/Analytics.Admin.Permission.pdf)
+[A screenshot showing analytics admin permission.](https://github.com/MicrosoftDocs/microsoft-community-training/files/6915937/Analytics.Admin.Permission.pdf)
 
-![Analytics Admin Permission](https://user-images.githubusercontent.com/88087980/127873799-0f25e9a7-bed3-4064-9018-6e470126a334.jpg)
+![A screenshot showing analytics admin permission.](https://user-images.githubusercontent.com/88087980/127873799-0f25e9a7-bed3-4064-9018-6e470126a334.jpg)
 
 ## Built-in analytics report available to administrators
 

@@ -39,7 +39,7 @@ The Community Training management portal provides role-based permission levels. 
 
 1. Select **Settings** from the left navigation panel then **Additional Profile fields** from the list.
 
-    :::image type="content" source="../media/Additional Profil Field - Main screen.PNG" alt-text="Add profile field":::
+    :::image type="content" source="../media/Additional Profil Field - Main screen.PNG" alt-text="A screenshot showing how to add profile field.":::
 
 1. Select the type of profile field to add. Profile fields can be of three types:
    1. **Text field** - Use this type of field to capture details which are unique to every learner such as email address, phone number,  employee/student ID, and more. You may add validation as well to this profile field value.
@@ -54,7 +54,7 @@ The Community Training management portal provides role-based permission levels. 
 
 1. **Set validation criteria** - This option is only available for the **Text field** type of profile field.
 
-    :::image type="content" source="../media/Profile Field - set validation.PNG" alt-text="set validation":::
+    :::image type="content" source="../media/Profile Field - set validation.PNG" alt-text="A screenshot showing how to set validation.":::
 
     There are three validation criteria that can be selected using this option:
     1. **Date**: This criteria will restrict the learner to add values only in the format DD/MM/YYYY.
@@ -65,19 +65,19 @@ The Community Training management portal provides role-based permission levels. 
     > * Each element of criteria will allow the administrator to enter the **description** in various languages. This description  is shown to the users in the text field input box in the profile panel.
     > * The administrator can also enter **error messages** in various languages. This message will be shown to the users if they input any value that does not fulfil the validation criteria.
 
-    > :::image type="content" source="../media/Profile Field - error message and description.PNG" alt-text="error msg and description":::
+    > :::image type="content" source="../media/Profile Field - error message and description.PNG" alt-text="A screenshot showing an error message and description.":::
 
 1. **Add localization to Profile field name** - You can add translations to the profile field name using the *Edit* option to the right side of the profile field.
 
-    :::image type="content" source="../media/Profile Field - name translation.PNG" alt-text="Edit name":::
+    :::image type="content" source="../media/Profile Field - name translation.PNG" alt-text="A screenshot showing how to edit name.":::
 
     Enter the translated string along with the language.
 
-    :::image type="content" source="../media/Profile Field - save translation.PNG" alt-text="enter translation":::
+    :::image type="content" source="../media/Profile Field - save translation.PNG" alt-text="A screenshot showing how to save translations.":::
 
 1. **Upload/Download List** - This option is only available for **Single Choice** and **Multiple choice** type of profile fields. Use this option to add a large number of values to any specific profile field.
 
-    :::image type="content" source="../media/Profile Field - download-upload list.PNG" alt-text="upload-download-list":::
+    :::image type="content" source="../media/Profile Field - download-upload list.PNG" alt-text="A screenshot showing the upload-download list.":::
 
     > [!NOTE]
     > You can download the sample .csv file using the download list option and modify the file and upload it with the new values.
@@ -86,7 +86,7 @@ The Community Training management portal provides role-based permission levels. 
    1. **Mandatory**: Learners are required to fill in mandatory fields after logging in.
    1. **Hidden**: Learners will not be able to view this field, such fields can be used by administrators for internal management.
    1. **Non-editable**: Learners will be able to view the profile field but not edit it.
-   ![Non-editable](../media/image%28327%29.png)
+   ![A screenshot showing the non-editable option.](../media/image%28327%29.png)
    > [!NOTE]
    > Any change in a new or existing profile field will be applicable to new and existing learners on the platform.
 
@@ -114,7 +114,7 @@ For example, if there are two profile fields **State** and **City** and if City 
     1. Select an existing profile field or [create new additional profile fields](#steps-to-create-additional-profile-fields)
     1. Check the **Add Dependency** checkbox.
 
-    :::image type="content" source="../media/assocfiled.png" alt-text="Associatedfiled":::
+    :::image type="content" source="../media/assocfiled.png" alt-text="A screenshot showing an associated field.":::
 
     > [!WARNING]
     >
@@ -122,7 +122,7 @@ For example, if there are two profile fields **State** and **City** and if City 
 
 1. From the **Choose dependency** dropdown list, select the profile field which this profile field should be dependent on.
 
-    :::image type="content" source="../media/choosedep.png" alt-text="choosingdependency":::
+    :::image type="content" source="../media/choosedep.png" alt-text="A screenshot showing how to choose dependency.":::
 
     > [!NOTE]
     >
@@ -136,16 +136,16 @@ For example, if there are two profile fields **State** and **City** and if City 
 
 1. After selecting the dependent profile field, choose the profile field option from the dropdown list to add associated field options.
 
-    :::image type="content" source="../media/depchooseoptions.png" alt-text="chooseoptions":::
+    :::image type="content" source="../media/depchooseoptions.png" alt-text="A screenshot showing how to choose an option.":::
 
     > [!NOTE]
     >
     >Associated field options can also be added through bulk upload flow via a .csv file with the options listed as example format given below for associating State with Country.
-    > :::image type="content" source="../media/depassocupload.png" alt-text="uploaddependency":::
+    > :::image type="content" source="../media/depassocupload.png" alt-text="A screenshot showing how to add dependency.":::
 
 1. Add the associated profile field option(s) under the selected dependency profile field option, select **Add Option**.
 
-    :::image type="content" source="../media/depassocaddoption.png" alt-text="uploadoption":::
+    :::image type="content" source="../media/depassocaddoption.png" alt-text="A screenshot showing the add option.":::
 
     > [!CAUTION]
     >
@@ -165,7 +165,7 @@ You can include a link to your privacy terms and conditions that will be shown t
 
 1. Select the **Show Privacy Terms** toggle and add a link to your organizations privacy terms and conditions. An example of Microsoft's privacy terms is [**here**](https://privacy.microsoft.com/privacystatement).
 
-      ![Show Privacy Terms](../media/image%28381%29.png)
+      ![A screenshot showing privacy terms.](../media/image%28381%29.png)
 
 1. Once you have made the changes, select **Publish**. You’ll be asked to confirm by typing Publish again in the prompt.
 
@@ -173,4 +173,4 @@ You can include a link to your privacy terms and conditions that will be shown t
       > Ensure you click on Publish. Otherwise, the changes you made will be lost.
 
 1. Learners can access the privacy terms along with the profile fields selecting the User Image on top right corner and selecting **My Profile**
-  ![My Profile](../media/image%28271%29.png)
+  ![A screenshot showing the My Profile option.](../media/image%28271%29.png)

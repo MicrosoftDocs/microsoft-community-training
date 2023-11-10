@@ -17,11 +17,11 @@ To make it simple for new users to get started with Community Training, you can 
 
 Select the **Get Started** or **Sign In** button to create an account or sign in. You can sign in with your mobile number, social account (email address), or Azure Active Directory account as defined at the time the platform is deployed from Azure marketplace.  
 
-![sign in](../media/sign-in.png)
+![A screenshot showing sign-in.](../media/sign-in.png)
 
 When signing in for the first time, you will be asked to complete your profile information.
 
-![create profile](../media/create-profile.gif)
+![A screenshot showing how to create profile.](../media/create-profile.gif)
 
 > [!TIP]
 > The profile information users need to provide at the time of sign-up can be customized from the management portal.
@@ -30,11 +30,11 @@ When signing in for the first time, you will be asked to complete your profile i
 
 Once you sign in to the portal, by default, you will be shown the learner view. Select the **user icon** on the top right of the screen and select the **View as an administrator** option from the drop-down menu to open the management portal.  
 
-![View as admin](../media/View%20as%20admin.png)
+![A screenshot showing how to view as admin.](../media/View%20as%20admin.png)
 
 The management portal provides all the administrative functions like course management, user management, tracking and monitoring through analytics, portal settings, and more. It is designed based on [**role-based access control**](../get-started/user-role-and-management-portal-overview.md). This means that features are only available to users based on whether they have been granted the right permissions.
 
-![Role-based access](../media/image%28426%29.png)
+![A screenshot showing Role-based access.](../media/image%28426%29.png)
 
 > [!Tip]
 > After logging into the management portal, it is recommended to [**add administrators**](../user-management/add-users/add-an-administrator-to-the-portal.md) and delegate portal management and configuration to other users in the organization.
@@ -49,7 +49,7 @@ You can personalize the training portal by configuring various elements of the i
 
 * Lastly, you can [**restrict portal access**](../settings/restrict-portal-access-to-users-outside-your-organization.md) to  unauthorized users and protect your training content.
 
-![settings overview](../media/settings-overview.gif)
+![A screenshot showing settings overview.](../media/settings-overview.gif)
 
 ## Step 4 – Upload training content to the portal  
 
@@ -57,7 +57,7 @@ Community Training is optimized for learning with videos for mobile devices – 
 
 Courses in Community Training are created under categories. These categories can be based on topics, professions, skills, and more. Courses on the portal will have one or more lessons, non-graded assessments, graded assessments, and certifications.
 
-![Upload content to portal](../media/Upload%20content%20to%20portal.png)
+![A screenshot showing how to upload content to portal.](../media/Upload%20content%20to%20portal.png)
 
 To add learning material to your training portal, you need to [**define a category**](../content-management/create-content/create-course-category/create-a-category.md)  and [**create courses under that category**](../content-management/create-content/create-course-category/create-a-category.md). You can do this from the **Content Tab** in the management portal. When you create a new course, remember the following:
 
@@ -69,7 +69,7 @@ To add learning material to your training portal, you need to [**define a catego
 
  Once you have created the courses, [**add learning materials**](../content-management/create-content/create-course-category/upload-content-to-a-course.md) like videos, PDF files, PowerPoint files, YouTube links, and more. Additionally, [**manage the course options**](../content-management/manage-content/manage-course-category/manage-users-for-a-course.md) according to your needs. Lastly, [**add assessments**](../content-management/create-content/create-course-category/add-assessments-to-a-course.md) before [**publishing the course**](../content-management/create-content/create-course-category/publishing-course.md) for your learners.
 
- ![create course gif](../media/create-course-gif.gif)
+ ![An animated screenshot showing how to create course.](../media/create-course-gif.gif)
 
 > [!TIP]
 > Use [**bulk upload course**](../content-management/create-content/create-course-category/create-a-new-course.md#option-3---create-multiple-courses-in-a-category) to quickly upload your training content on the portal.
@@ -80,7 +80,7 @@ Go to the **Users** tab in the management portal to start onboarding learners to
 
 In case you have to onboard and manage a large user base, you should also [**create groups**](../user-management/organize-users/create-a-new-group.md) to organize your users based on their job profile, location, designation, and more. Additionally, [**add users**](../user-management/organize-users/create-a-new-group.md#manually-add-users-to-group-during-creation-time) manually into these groups. Once you have added users to a group, you can [**assign courses**](../user-management/manage-users/assign-content-to-group-users.md) to it.
 
-![user group bulk upload](../media/user-group-bulkupload.gif)
+![An animated screenshot showing how to use user group bulk upload.](../media/user-group-bulkupload.gif)
 
 Here are some best practices to follow to ease user management on the portal:
 
@@ -124,6 +124,6 @@ Once the portal has been rolled out to the learners and they start accessing the
 
 To view these analytics, go to the **Analytics** tab in the management view of the portal. There you will [**find reports**](../analytics/analytics-overview.md) that provide information on course enrollment across categories and courses, learner performance, content quality, and much more. You can also create custom reports to analyze specific information using Power BI.
 
-![analytics overview](../media/analytics-overview.gif)
+![An animated screenshot showing how to analytics overview.](../media/analytics-overview.gif)
 
 These reports are important for tracking online learning and help administrators to continuously make improvements to the learning program.

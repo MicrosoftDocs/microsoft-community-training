@@ -17,14 +17,14 @@ Offline learning is currently in private preview and is in active progress, plea
 
 Platform Vision is an intelligent cloud and edge-powered personalized learning platform to enable organizations to run large-scale community learning programs with limited device infrastructure setup and internet connectivity.
 
-:::image type="content" source="../media/image(437).png" alt-text="offlineinfra":::
+:::image type="content" source="../media/image(437).png" alt-text=" Diagram showing online and offline learning.":::
 
 ## Offline Platform Information Flow
 
-:::image type="content" source="../media/image(442).png" alt-text="offlineinfraflow":::
+:::image type="content" source="../media/image(442).png" alt-text="A diagram showing offline platform information flow.":::
 
 ## Learner Journey in Offline Mode
 
-:::image type="content" source="../media/image(444).png" alt-text="offlinejourney":::
+:::image type="content" source="../media/image(444).png" alt-text="A diagram showing the offline learning journey.":::
 
-:::image type="content" source="../media/image(441).png" alt-text="offlinejourney2":::
+:::image type="content" source="../media/image(441).png" alt-text="A diagram showing the offline and online learning journeys.":::

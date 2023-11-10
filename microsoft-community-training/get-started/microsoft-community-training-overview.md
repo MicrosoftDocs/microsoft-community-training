@@ -1,8 +1,8 @@
 ---
 title: Welcome to Community Training
 original-url: https://docs.microsoftcommunitytraining.com/docs/microsoft-community-training-overview
-author: Cbrahmandam
-ms.author: cbms03
+author: nikotha
+ms.author: nikotha
 description: Community Training is an Azure-powered online learning platform to enable organizations of all sizes and types to run large scale training programs for their internal and external communities.
 ms.prod: learning-azure
 ---
@@ -29,7 +29,7 @@ Community Training supports personalized learning for large-scale mobile-based c
 
 4. Track learning progress and measure outcomes using rich out-of-box reports or create custom dashboards to monitor health and measure overall program success.
 
-5. Leverage APIs to create your own training experience or integrate it into your existing systems (Coming Soon).
+5. Leverage APIs to create your own training experience or integrate it into your existing systems.
 
 ### For  learners
 
@@ -41,7 +41,7 @@ The user experiences on the platform are optimized for mobile-first and mobile-o
 
 3. Microsoft Teams.
 
-4. API integration into customer-owned apps - available on request (Coming Soon).
+4. API integration into customer-owned apps - available on request.
 
 ## Management portal
 
@@ -57,6 +57,6 @@ Community Training is made for learning on the go. The user experience is optimi
 
 Lastly, learners can also use the platform to track activities and stay updated on important updates from administrators.
 
-![Overview article - learners](../media/overview%20article%20-%20learners.png)
+![A diagram showing the learning experience.](../media/overview%20article%20-%20learners.png)
 
 **Next>** Learn about different [**user personas and their roles and responsibilities**](../get-started/user-role-and-management-portal-overview.md).

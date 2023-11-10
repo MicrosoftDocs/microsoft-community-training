@@ -30,7 +30,7 @@ When this setting is enabled, only users that are added or imported to the porta
 1. Select **General** from the settings list.
 
 1. Toggle the **Restricted User Access** settings flag. The default value for this setting is set to **Disabled**.
-    ![Test Picture](../media/Test%20Picture.png)
+    ![A screenshot showing the Restricted User Access setting.](../media/Test%20Picture.png)
 
 1. Select **Apply Changes** to commit the changes,
 
@@ -41,4 +41,4 @@ When this setting is enabled, only users that are added or imported to the porta
 
 When an unauthorized learner (such as a user who was not added to the portal by the admin) tries to access the web portal or mobile app using their phone number or email address, the following **error message** will appear:
 
- ![Settings screen](../media/Settings%20screen.png)
+ ![A screenshot showing the error message for unauthorized users.](../media/Settings%20screen.png)

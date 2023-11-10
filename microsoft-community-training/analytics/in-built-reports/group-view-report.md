@@ -34,7 +34,7 @@ On the group details page, admins can view the list of all learners in a group a
 
 * For example, the image shows the group analytics details for  employees in Digital Marketing:
 
-    ![Group analytics](../../media/image%2845%29.png)
+    ![A screenshot showing group analytics.](../../media/image%2845%29.png)
 
 In the grid view, for each learner, the group administrator can see the following information. You can hover over the column header to view the column definition:
 
@@ -59,8 +59,8 @@ From the Group View grid, you can:
 
 4. Search for a learner in the group and access their progress and performance details.
 
-    ![Progress and performance details](../../media/image%28217%29.png)
+    ![A screenshot showing progress and performance details.](../../media/image%28217%29.png)
 
 5. Track the course completion status of all the users in the group for a specific course by selecting the Courses filter and selecting a specific course.
 
-    ![Track course completion status](../../media/image%28218%29.png)
+    ![A screenshot showing track course completion status](../../media/image%28218%29.png)

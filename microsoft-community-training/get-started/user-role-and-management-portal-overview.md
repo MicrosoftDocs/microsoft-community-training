@@ -13,7 +13,7 @@ The Community Training management portal is your one-stop-shop for all administr
 
 The features of the management portal are separated into four categories:
 
-![4 categories](../media/image%28423%29.png)
+![A diagram showing the portal.](../media/image%28423%29.png)
 
 ## Types of user roles in Community Training
 
@@ -21,7 +21,7 @@ An end-user role can either be a learner or an administrator on the platform. Ad
 
 To carry out these activities, Community Training provides a role-based hierarchy of administrators. This includes Global Administrators, Organization Administrators, Learning Path Administrators, Category Administrators, Course Administrators, and Group Administrators. Each administrator type is responsible for performing a specific set of actions as described below:
 
-![GetStarted - Role Hierarchy](../media/GetStarted%20-%20Role%20Hierarchy.png)
+![A diagram showing the Get Started - Role Hierarchy.](../media/GetStarted%20-%20Role%20Hierarchy.png)
 
 ### 1. Global Administrator
 

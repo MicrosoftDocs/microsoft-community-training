@@ -49,8 +49,8 @@ Perform the steps to [**Deploy Azure IoT Edge modules with Azure CLI**](/azure/i
 
 Wait until the deployment is successful. The device status for the deployment can be checked using Azure IoT Hub in the Azure portal. All seven modules should be visible under the device created above. Some devices might not be in the running state initially. After a couple of minutes, all seven modules should be running to ensure successful deployment.
 
-:::image type="content" source="../media/image(449).png" alt-text="Dep1":::
+:::image type="content" source="../media/image(449).png" alt-text="A screenshot of modules.":::
 
 Browse to the URL configured (or `https://127.0.0.1`) on the Linux device. A screen like this should be visible:
 
-:::image type="content" source="../media/image(453).png" alt-text="dep2":::
+:::image type="content" source="../media/image(453).png" alt-text="A screenshot of the portal on a linux device.":::

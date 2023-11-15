@@ -41,7 +41,7 @@ In this topic, you will learn how to add a Global Administrator.
 
 1. Select **Global Administrator** on the details page to add new global administrator and enter the contact details of the user.
 
-    ![User Management - Add Users - Add Global Admin-border](../../media/User%20Management%20-%20Add%20Users%20-%20Add%20Global%20Admin-border.png)
+    ![User Management - Add Users - Add Global Admin-border](../../media/Add_Global_Admin.png)
 
 1. Select **Add** to add the user as an global administrator.
 
@@ -78,7 +78,7 @@ In this topic, you will learn how to add a Group Administrator.
 
 1. Select **Add Administrator** from the drop-down menu then enter a valid phone number to add user.
 
-    ![Add administrator](../../media/Add%20administrator.png)
+    ![Add_Group_ADmin](../../media/Add_Group_Admin.png)
 
 > [!IMPORTANT]
 > If the portal is setup with **Social Account or Azure Active Directory** as login identity then you will need to enter email address in the above step.
@@ -98,20 +98,15 @@ The Community Training platform now supports an organization administrator to ad
 
 1. Click on "Add Administrators”
 
-    :::image type="content" source="../../media/Add Admin by Org Admin.png" alt-text="Add admin option to Org Administrator":::
+    :::image type="content" source="../../media/Add_Org_Admin.png" alt-text="Add admin option to Org Administrator":::
+
 
     > [!NOTE]
     > "Manage Organizations" option is greyed-out for Organization admin and will only be accessible to Global Administrator
-1. In the pop-up box, add the user detail to whom the organization admin access is to be given
+1. In the pop-up box, add the user detail to whom the organization admin access is to be given along with the different organizations that you would like to give access to.
 
-    :::image type="content" source="../../media/Add Admin by Org Admin 2.png" alt-text="Choose Organization details":::
+   ![Add_Group_ADmin](../../media/Add_Org_Admin.png)
 
-1. Then select the **Organization** to which the user must be added as Organization Administrator
-
-    :::image type="content" source="../../media/Org Admin addition.png" alt-text="Org Admin addition list":::
-
-    > [!NOTE]
-    > An Organization administrator can see the list of Organizations only for which they are administrator.
 1. Select the organization then **Create**.
     > [!IMPORTANT]
     > Organization administrators will only be able to edit but not delete other Organization admininistrators.

@@ -60,7 +60,6 @@ The support for Organizations can be enabled on the platform by:
     ![Save Application Settings.png](../media/Save%20Application%20Settings%281%29.png)
 
 ## Configuration Options on the portal
-
 | **Feature**                                                    | **Description**                                                                                                                                                                         |
 |----------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Retain User Progress                                           | Enabling this flag will retain the user progress even after the user is removed from the course                                                                                         |
@@ -87,15 +86,14 @@ The support for Organizations can be enabled on the platform by:
 | Allow Users to access Profile in Nagivation Bar                | Enabling this flag will show "profile" option on the navigation bar.                                                                                                                    |
 | Disable showing profile icon in Navigation Bar                 | Enabling this flag will show an icon to access profile on the navigation bar.                                                                                                           |
 | Enable scheduling Teams Meetings. (Requires Teams Integration) | Enabling this flag will allow admins to schedule meetings from the portal directly.                                                                                                     |
-| Allow Non - Global Admins to edit profile                      | Enabling this flag will allow non- global admins to edit user profiles.                                                                                                                 |
-| Enable installation of WebApp on Learner desktop               | Enabling this flag will enable the learners to install the webapp on their mobiles/machines. (this is different from PWA app)                                                           |
+| Disable profile edits by Org Admins                            | Enabling this flag will prevent the Org Admins from editing user profiles.                                                                                                              |
+| Enable TWA (Mobile App)                                        | Enabling this flag will allow you to have a TWA App that can be created for the learners as a mobile app.Please reach out to our team to have the app created.                          |
 | Allow PDF Lessons to be downloaded                             | Enabling this flag will allow the learners to download the PDF lessons.                                                                                                                 |
 | Show Variable height PDF viewer                                | The height of the PDF viewer will adjust according to the document.                                                                                                                     |
 | Allow Content to be accessible across organizations            | Enabling this flag will allow admins to add content such that it is accessible across organizations.                                                                                    |
 | Set maximum file size for downloads                            | Set the maximum size in MB for the files that can be downloaded for offlien viewing. (1 MB = 1000000 bytes) (If file is less than 1 MB, enter value in decimals. Eg: 500 kb ~ 0.5 MB)   |
 | Set the External website URL                                   | Enter the URL of the website to your company that you would like the learner to view. This shows up on the profile pane for the learner                                                 |
 | Set the external website name                                  | Enter the display name for the external website that you would like the learner to view                                                                                                 |
-
 
 
 <!--

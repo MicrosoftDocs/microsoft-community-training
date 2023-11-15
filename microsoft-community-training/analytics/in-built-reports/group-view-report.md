@@ -63,4 +63,4 @@ From the Group View grid, you can:
 
 5. Track the course completion status of all the users in the group for a specific course by selecting the Courses filter and selecting a specific course.
 
-    ![Track course completion status](../../media/image%28218%29.png)
+    ![Track course completion status](../../media/Group_Analytics.png)

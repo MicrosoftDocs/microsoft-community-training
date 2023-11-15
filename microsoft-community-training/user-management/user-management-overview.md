@@ -74,7 +74,7 @@ Let's say there is a company in United States of America which has employees loc
 **Organizations** can be used on the training platform to create virtual boundaries where content and users of an organization is accessible only within the organization.
 Global administrators can define Organization and [**assign Organization Administrator role**](./organization-management.md) from the management portal.
 
-Learners are by default part of the Default Organization. The Global admins and ORg admins can change this for a user from the admin pages.
+Learners are by default part of the Default Organization. The Global admins and Org admins can change this for a user from the admin pages.
 
 > [!IMPORTANT]
 > Typically, Organizations should be set up on the training portal ONLY IF there is a requirement that users and content relevant to one organization should not be accessible by another organization.

@@ -122,7 +122,7 @@ The points above are suggestions. You can use any alternative methods you deem f
 
 Once the portal has been rolled out to the learners and they start accessing the course content, you can use the built-in analytics available in the management portal to track course enrollment, completion, and monitor learner activities on the portal.  
 
-To view these analytics, go to the **Analytics** tab in the management view of the portal. There you will [**find reports**](../analytics/analytics-overview.md) that provide information on course enrollment across categories and courses, learner performance, content quality, and much more. You can also create custom reports to analyze specific information using Power BI.
+To view these analytics, go to the **Analytics** tab in the management view of the portal. There you will [**find reports**](../analytics/analytics-overview.md) that provide information on course enrollment across categories and courses, learner performance, content quality, and much more.
 
 ![analytics overview](../media/analytics-overview.gif)
 

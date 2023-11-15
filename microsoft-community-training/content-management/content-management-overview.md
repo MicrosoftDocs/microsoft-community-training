@@ -146,7 +146,7 @@ Community Training allows you to create a common repository of content called **
 3. Under **"Admin Settings"** category, toggle **"Allow Content to be accessible across organizations"** to **"Enable"**
 4. Refresh the page
 
-![Feature_Toggle](image.png)
+![Feature_Toggle](../media/Feature_Toggle_Old_General.png)
 
 1. Now, **"Common"** will be available as an Organization.
 1. while creating Categories/Learning Paths. Any content created under **Common** will be available for assignment to all admins.

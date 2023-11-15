@@ -19,7 +19,7 @@ In this article, you will learn how to add assessments to a course followed by a
 
 ## Permission Level
 
-The MCT management portal provides role-based permission levels. The table below shows which administrator roles are allowed to add non-graded and graded assessments to a course in the portal:
+The CT management portal provides role-based permission levels. The table below shows which administrator roles are allowed to add non-graded and graded assessments to a course in the portal:
 
 | Access Level  | Add assessments to a course |
 | --- | --- |

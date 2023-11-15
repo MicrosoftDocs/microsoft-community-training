@@ -3,7 +3,7 @@ title: Installation Overview
 original-url: https://docs.microsoftcommunitytraining.com/docs/installation-overview
 author: nikotha
 ms.author: nikotha
-description: Microsoft Community Training platform is available as a Managed Application on the Azure Marketplace.
+description: Community Training platform is available as a Managed Application on the Azure Portal.
 ms.prod: learning-azure
 ---
 
@@ -15,7 +15,7 @@ Community Training is available with multiple endpoints for the learners. For ex
 
 Learners can login to any of these endpoints in three different ways: Phone number, Social Account (Microsoft/Facebook/Google) and Work or School Account (Azure Active Directory).
 
-Once you install Microsoft Community Training in your subscription, you don't have to maintain, update, or service it. All updates to the application will be delivered automatically by Microsoft without the need for you to worry about troubleshooting and diagnosing issues.
+Once you install Community Training in your subscription, you don't have to maintain, update, or service it. All updates to the application will be delivered automatically by Microsoft without the need for you to worry about troubleshooting and diagnosing issues.
 <!--
 ## Platform Architecture
 
@@ -33,7 +33,7 @@ The **Managed resource group** holds all the resources that are required by Comm
 
 For more details, please refer to [**Azure managed applications**](/azure/managed-applications/overview) documentation.
 -->
-## Steps to setup Microsoft Community Training platform
+## Steps to setup Community Training platform
 
 Once you have decided your preferred endpoint and login type, follow the steps below to setup and install Community Training for your organization:
 

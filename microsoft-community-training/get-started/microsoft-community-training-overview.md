@@ -11,7 +11,7 @@ ms.prod: learning-azure
 
 Community Training is an Azure-powered online learning platform that enables organizations of all sizes and types to run large-scale training programs for their internal and external communities such as first-line workers, extended workforces, partner ecosystems, volunteer networks, program beneficiaries, and more.
 
-Community Training is available as a managed Platform-as-a-Service (PaaS) offering via the Azure Marketplace that you can easily deploy in your subscriptions. The platform is available for free. Your organization is responsible for platform hosting and associated consumption charges on Azure.
+Community Training is available as a an offering on the Azure protal that you can easily deploy in your subscriptions.
 
 ## Benefits of Community Training
 

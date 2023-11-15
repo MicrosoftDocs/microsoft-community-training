@@ -11,7 +11,7 @@ ms.prod: learning-azure
 
 The **Community Training** platform is available as an offering on the Azure portal. If you’re new to Azure, learn more about it [**here**](https://azure.microsoft.com/overview/what-is-azure/).
 
-Community Training is available with multiple endpoints for the learners. For example: a standalone white-labelled web application; an Android mobile app; within Microsoft Teams; or via API integration into your own custom app.
+Community Training is available with multiple endpoints for the learners. For example: a standalone white-labelled web application; an Android mobile app; within Microsoft Teams; or via API integration into your own custom app (Coming Soon).
 
 Learners can login to any of these endpoints in three different ways: Phone number, Social Account (Microsoft/Facebook/Google) and Work or School Account (Azure Active Directory).
 

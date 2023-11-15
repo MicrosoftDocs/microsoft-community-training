@@ -210,7 +210,7 @@ In this article, you will learn how to setup your instance to allow Administrato
 Follow the steps below that refer to the login identity used on your instance.
 
 1. Microsoft Work or School account.
-1. Phone Authentication or Social email-based login via your Microsoft, Google or Facebook account.
+1. Social email-based login via your Microsoft, Google or Facebook account.
 
 > [!NOTE]
 >You need a separate MS Teams license to integrate MS Teams with the Community Training portal. If you do not have one, you may refer to [this documentation](https://www.microsoft.com/microsoft-teams/online-meetings) to get it.
@@ -233,7 +233,7 @@ Once you have completed the AD App registration, follow these steps:
     * **Name**: `Features:Meetings:EnableMeetings` with **Value**: `True`
     * **Name**: `Features:Meetings:ClientId` with **Value** of the ClientId of the AD tenant app that has registered the instance.
 
-#### Phone Authentication or Social email-based login
+####  Social email-based login
 
 ##### Step 1
 
@@ -329,7 +329,7 @@ Once you have configured Microsoft Teams Meeting Scheduling in CT, the administr
 >
 >* For **Work or School based instance** and **Social email-based login**, the learner will get an email as well as the meeting notification in his calendar.
 >:::image type="content" source="../../media/Blended Learning 19.PNG" alt-text="Learner experience":::
->* For **Phone authentication based instance**, the learner will not receive any notification and the admin needs to inform the learners explicitly.
+
 
 ### Edit MS teams meeting scheduled in CT
 

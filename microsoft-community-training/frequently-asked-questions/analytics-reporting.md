@@ -126,8 +126,10 @@ To access the Learner Report Card View, you need to select a user from the group
 
 ### What is the available file format to download the analytics?
 
-Currently, administrators can download analytics in CSV format, admins can also make use of Power BI integration to modify data as per their requirements.
+Currently, administrators can download analytics in CSV format.
+<!-- admins can also make use of Power BI integration to modify data as per their requirements. 
 
+-->
 If you observe, that the data fields are not rendering correctly in the CSV downloaded file this is because of Unicode encoding in the file. We recommend changing the settings in the file to ensure that Arabic or other language values are displayed as expected in the document after export.
 
 Please use [this link](https://www.nextofwindows.com/how-to-display-csv-files-with-unicode-utf-8-encoding-in-excel) for details and also the steps to change the settings.
@@ -138,11 +140,13 @@ You can view and export all users on the portal from the administrator view, sel
 
 ![View and export users](../media/image%28319%29.png)
 
+<!-->
 ### How can I create custom report relevant to my organization?
 
 You can create reports and dashboards using visualization tools such as Power BI. All you have to do is connect to Azure SQL Database and pull relevant data from the tables required for your reports.
 
 For more information, reach out to us [**via HelpDesk**](https://go.microsoft.com/fwlink/?linkid=2104630).
+-->
 
 <!--
 ## Usage report and metrics

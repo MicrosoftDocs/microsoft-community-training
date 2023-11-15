@@ -62,7 +62,7 @@ For more information [**visit the website**.](https://communitytraining.microsof
 
 Organizations can use Community Training to host and train their workforces on multiple topics including Microsoft Products & Services. The platform comes with readily available content around Digital Literacy, Office 365, Azure, and more.
 
-Here is [**our free content library**](https://sangampartners.azurewebsites.net/) for your reference. Also, you can host content from [**Microsoft Learn training**](/training/) into the platform to provide a one-stop shop for all training courses to your target audience.
+ Also, you can host content from [**Microsoft Learn training**](/training/) into the platform to provide a one-stop shop for all training courses to your target audience.
 
 For more details on how to leverage the import of this content on your platform instance, reach out to us [**via HelpDesk**](https://go.microsoft.com/fwlink/?linkid=2104630).
 
@@ -182,10 +182,13 @@ There are two channels available to the customers to seek help during platform s
 2. [**24*7 support desk**](https://go.microsoft.com/fwlink/?linkid=2104630) in case customers are not able to find answers to their queries via the documentation site.
 
 ### Can we (Microsoft Partner) host this in the Azure subscription tenant and package it as a training platform for existing Office 365 customers? Does the license allow us to do that?
-<!-- CHECK WITH KASHYAP ON THIS. PARTNERS NEED ROLE ACCESS-->
-Yes, Microsoft Partners can set up the platform in their own subscription or on a customer subscription and provide value services like integration with an existing system, creating a custom dashboard, platform configuration, setup, and more.
 
-For example, Microsoft Partners can leverage the platform to drive Office 365 training for existing or new customers. For this, they can use the [**existing content**](https://sangampartners.azurewebsites.net/) available in the catalog for free.
+Yes, Microsoft Partners can set up the platform in their own subscription or on a customer subscription and provide value services like integration with an existing system, creating a custom dashboard, platform configuration, setup, and more. 
+
+>!Note  
+> A contributor role is required for a partner to setup on a customer subscription.
+
+For example, Microsoft Partners can leverage the platform to drive Office 365 training for existing or new customers. 
 
 For more information and support, please contact us via  **[HelpDesk](https://go.microsoft.com/fwlink/?linkid=2104630)** and leave your requirements in the ticket description.
 

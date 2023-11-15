@@ -9,8 +9,6 @@ ms.prod: learning-azure
 
 # Platform Setup and Installation
 
-## Marketplace Deployment
-
 ### What are the prerequisites to deploy the Community Training?
 
 There are a number of prerequisites such as having a valid subscription type, access policy, and more you need to consider before you can get started with the platform installation and setup.

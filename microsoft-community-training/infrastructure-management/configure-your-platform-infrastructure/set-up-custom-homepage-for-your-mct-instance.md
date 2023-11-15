@@ -7,7 +7,7 @@ description: This document explains the flow to enable a custom homepage for you
 ms.prod: learning-azure
 ---
 
-# Set up a Custom Homepage for your MCT instance
+# Set up a Custom Homepage for your CT instance
 
 You can replace the Community Training (CT) home page with any other custom home page that you have built.  This is easily achieved bu following the steps below.
 

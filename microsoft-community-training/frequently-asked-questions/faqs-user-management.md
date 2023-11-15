@@ -58,7 +58,7 @@ Yes, CT will support login via multiple modes for the same instance, for that yo
 
 >[!Note]
 >
->You will have to procure a phone auth service provider and configure the serice on ADB2C tenant. Please refer to this [**link: Set up phone sign-up and sign-in for user flows **](https://learn.microsoft.com/en-us/azure/active-directory-b2c/phone-authentication-user-flows) for the process to set it up. 
+>You will have to procure a phone auth service provider and configure the serice on ADB2C tenant. Please refer to this [**link: Set up phone sign-up and sign-in for user flows**](https://learn.microsoft.com/en-us/azure/active-directory-b2c/phone-authentication-user-flows) for the process to set it up. 
 
 
 ### My learners don’t have an email address or mobile number, how can they sign in and access the training content?

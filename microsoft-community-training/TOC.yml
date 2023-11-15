@@ -160,16 +160,15 @@
            href: infrastructure-management/install-your-platform-instance/setup-platform-instance-on-azure-subscription-for-nonprofits.md
       - name: Configure your platform infrastructure
         items:
-         - name: Delete your training platform instance
-           href: infrastructure-management/configure-your-platform-infrastructure/delete-your-training-instance.md
+        
          - name: Customize the name and icon of the training tab in MS Teams
            href: infrastructure-management/configure-your-platform-infrastructure/customize-the-name-and-icon-of-the-training-tab-in-ms-teams.md
-         - name: Azure Front Door Migration
-           href: infrastructure-management/configure-your-platform-infrastructure/azure-front-door-migration.md
-         - name: Set up Custom Home Page for your MCT Instance
+         - name: Set up Custom Home Page for your CT Instance
            href: infrastructure-management/configure-your-platform-infrastructure/set-up-custom-homepage-for-your-mct-instance.md
          - name: Add multiple Azure AD in your instance
            href: infrastructure-management/configure-your-platform-infrastructure/Add-multiple-AAD-to-B2C-as-a-social-account.md
+         - name: Delete your training platform instance
+           href: infrastructure-management/configure-your-platform-infrastructure/delete-your-training-instance.md
       - name: Monitor your platform Infrastructure
         items:
          - name: Reliability in Community Training

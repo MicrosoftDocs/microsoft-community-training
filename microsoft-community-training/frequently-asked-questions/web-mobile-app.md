@@ -110,7 +110,7 @@ Please note that downloaded content can be viewed only from within the Community
 
 Learners accessing the platform using a web (PC / Mac) or mobile browser  (Android / iOS) will not be able to download video or audio content that is hosted on the platform; however, they will be able to download certain file types such as Word, and PowerPoint.
 
-Learners accessing the platform using the native Android app will be able to download content such as Video, audio & documents. The downloaded content is accessible only via the mobile app and not out of the app, like YouTube, Amazon Prime, Netflix, etc.
+Learners accessing the platform using the Android app will be able to download content such as Video, audio & documents. The downloaded content is accessible only via the mobile app and not out of the app, like YouTube, Amazon Prime, Netflix, etc.
 
 The below chart illustrates the download possibilities based on the content type and platform the learner is accessing:
 

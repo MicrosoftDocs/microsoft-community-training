@@ -53,8 +53,12 @@ For more details on Transfer Data Encryption, please visit [**this article**](/s
 
 ### Can customers use their own encryption keys for data encryption?
 
-Currently, we use the default encryption key (256-bit AES encryption) provided by Azure Services such as Azure SQL, Azure Blob Storage, etc.  
+Currently, we use the default encryption key (256-bit AES encryption) provided by Azure Services such as Azure SQL, Azure Blob Storage, etc.
+We will soon provide you with the ability to use your own encryption keys.
+
+<!--
 Customer can use their own encryption key features by the underlying Azure services if required. For more details, please check out [**Azure SQL TDE with customer-managed key**](/azure/sql-database/transparent-data-encryption-byok-azure-sql), [**Azure Storage encryption for data at rest**](/azure/storage/common/storage-service-encryption) and [**configure customer-managed keys**](/azure/storage/common/storage-encryption-keys-portal).
+-->
 
 ### Where is the download content on the mobile app stored?
 

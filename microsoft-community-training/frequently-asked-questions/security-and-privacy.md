@@ -31,10 +31,15 @@ In the Community Training, user ID and other information are stored in the Azure
 
 Community Training can ensure that in case of unforeseen failures and disasters, your data – which includes all your content, user data, and other branding assets - is safe and secure.
 
-Since Community Training is a managed application, backup and replication are not enabled by default. Customers can enable backup/replication of the data to the data center region of their choice
+Since Community Training is a managed application, backup and replication are not enabled by default. Customers can enable backup/replication of the data to the data center region of their choice at installation.
+
+<!--
+
+Hiding this until BCDR Document is ready
+
 
 Refer to [**this article**](../infrastructure-management/configure-your-platform-infrastructure/business-continuity-and-disaster-recovery-for-your-platform-instance.md) to learn more.
-
+-->
 ### What is the backup policy?
 
 Customers can configure the **[backup frequency and policy](/azure/backup/backup-azure-manage-vms#manage-backup-policy-for-a-vm)**. From the product team perspective, we recommend customers do daily a backup.  

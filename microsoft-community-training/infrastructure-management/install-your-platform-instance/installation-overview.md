@@ -13,7 +13,7 @@ The **Community Training** platform is available as an offering on the Azure por
 
 Community Training is available with multiple endpoints for the learners. For example: a standalone white-labelled web application; an Android mobile app; within Microsoft Teams; or via API integration into your own custom app (Coming Soon).
 
-Learners can login to any of these endpoints in three different ways: Phone number, Social Account (Microsoft/Facebook/Google) and Work or School Account (Azure Active Directory).
+Learners can login to any of these endpoints in three different ways: Phone number (Via ADB2C), Social Account (Microsoft/Facebook/Google) and Work or School Account (Azure Active Directory).
 
 Once you install Community Training in your subscription, you don't have to maintain, update, or service it. All updates to the application will be delivered automatically by Microsoft without the need for you to worry about troubleshooting and diagnosing issues.
 <!--

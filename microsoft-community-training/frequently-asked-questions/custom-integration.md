@@ -48,7 +48,7 @@ For example, you can add a Training button on the home screen, and clicking on t
 
 #### Embedding the webview of CT in your existing mobile app
 
-Here are the steps to embed the webview of CT in your custom mobile application in case you have a B2C-based [social login](../infrastructure-management/install-your-platform-instance/configure-login-social-work-school-account.md#social-account-or-email-based-authentication) instance.
+Here are the steps to embed the webview of CT in your custom mobile application in case you have a B2C-based [**social login**](../infrastructure-management/install-your-platform-instance/configure-login-social-work-school-account.md#social-account-or-email-based-authentication) instance.
 
 1. Set the following **configurations** in the Settings section on the application, if the secondary navigation bar is needed:
     * Features:Navbar:EnableCustomNavbar => true
@@ -71,12 +71,12 @@ Contact us [**via HelpDesk**](https://go.microsoft.com/fwlink/?linkid=2104630) t
 
 CT allows you to map identity with an external portal i.e. if you have an external portal where you want to authenticate users (via email, user name, local IDP) and then have them redirected to CT. This flow can be achieved by setting up custom policies in your B2C tenant as mentioned in the steps below:
 
-* Setup [ADB2C tenant](/azure/active-directory-b2c/tutorial-create-tenant)
-* You need to set custom policies in your ADB2C (here are [sample codes](https://github.com/MicrosoftDocs/microsoft-community-training/files/9594393/Sample.NCS.login.usecase.zip) for your reference) make necessary changes based on your login requirements
+* Setup [**ADB2C tenant**](/azure/active-directory-b2c/tutorial-create-tenant)
+* You need to set custom policies in your ADB2C (here are [**sample codes**](https://github.com/MicrosoftDocs/microsoft-community-training/files/9594393/Sample.NCS.login.usecase.zip) for your reference) make necessary changes based on your login requirements
 * **ADB2C Policies**
   * The sign-in page provides the option to sign in via a custom id
-  * Upload the custom files in the order mentioned [here](/azure/active-directory-b2c/tutorial-create-user-flows?pivots=b2c-custom-policy#upload-the-policies)
-* 
+  * Upload the custom files in the order mentioned [**here**](/azure/active-directory-b2c/tutorial-create-user-flows?pivots=b2c-custom-policy#upload-the-policies)
+
 <!---
 **Function app**
   * The sample code has a feature to update a user’s FirstName and LastName via Service2Service auth on the user’s login.

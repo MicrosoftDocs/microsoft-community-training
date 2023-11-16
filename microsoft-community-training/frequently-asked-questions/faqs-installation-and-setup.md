@@ -13,7 +13,7 @@ ms.prod: learning-azure
 
 There are a number of prerequisites such as having a valid subscription type, access policy, and more you need to consider before you can get started with the platform installation and setup.
 
-To know the list of all the prerequisites **[see this article](../infrastructure-management/install-your-platform-instance/installation-guide-detailed-steps.md#before-you-begin)**.
+To know the list of all the prerequisites [**see this article**](../infrastructure-management/install-your-platform-instance/detailed-step-by-step-installation-guide.md#before-you-begin).
 
 ### How do I create a Microsoft Azure subscription?
 

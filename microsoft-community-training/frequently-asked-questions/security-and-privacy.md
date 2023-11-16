@@ -31,7 +31,7 @@ In the Community Training, user ID and other information are stored in the Azure
 
 Community Training can ensure that in case of unforeseen failures and disasters, your data – which includes all your content, user data, and other branding assets - is safe and secure.
 
-Since Community Training is a managed application, backup and replication are not enabled by default. Customers can enable backup/replication of the data to the data center region of their choice at installation.
+The backup and replication are not enabled by default. Customers can enable backup/replication of the data to the data center region of their choice at installation.
 
 <!--
 

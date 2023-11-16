@@ -50,15 +50,15 @@ For more information, check the article on [**how to manage course content**](..
 
 ### How to download content from my training portal?
 
-Community Training allows administrators to download/export courses and categories as ZIP files. These zip files can be uploaded on the same instance to copy content or to another instance to transfer the content. Refer to [this article](../content-management/manage-content/manage-course-category/move-course-content-across-training-instance.md) to learn more.
+Community Training allows administrators to download/export courses and categories as ZIP files. These zip files can be uploaded on the same instance to copy content or to another instance to transfer the content. Refer to [**this article**](../content-management/manage-content/manage-course-category/move-course-content-across-training-instance.md) to learn more.
 
 ### How to create a new course category?
 
-You can create, edit, or delete a category from the administrator portal. Refer to [this article](../content-management/create-content/create-course-category/create-a-category.md) for detailed steps.  
+You can create, edit, or delete a category from the administrator portal. Refer to [**this article**](../content-management/create-content/create-course-category/create-a-category.md) for detailed steps.  
 
 ### How to bulk upload lessons?
 
-Community Training provides a bulk upload lesson feature to add more than one lesson at a time within a course. [Refer to this article](../content-management/create-content/create-course-category/upload-content-to-a-course.md) for the detailed steps.  
+Community Training provides a bulk upload lesson feature to add more than one lesson at a time within a course. [**Refer to this article**](../content-management/create-content/create-course-category/upload-content-to-a-course.md) for the detailed steps.  
 
 ### What is the size of the files I can upload on the CT platform?
 
@@ -73,12 +73,12 @@ The platform can accept file sizes depending on the upload size limit as specifi
 | Excel | 5 MB |
 
 >[!Note]
->The [App Service plan](https://azure.microsoft.com/pricing/details/app-service/windows/) for your instance might restrict total upload size (multiple uploads across different devices for the same instance) at a time. For App Service plan:
+>The [**App Service plan**](https://azure.microsoft.com/pricing/details/app-service/windows/) for your instance might restrict total upload size (multiple uploads across different devices for the same instance) at a time. For App Service plan:
 >
 >* P1V2 - maximum upload size is 18GB
 >* P2V2 - maximum upload size is 56GB
 >
->Refer [here](https://github.com/projectkudu/kudu/wiki/Understanding-the-Azure-App-Service-file-system) for more information.
+>Refer [**here**](https://github.com/projectkudu/kudu/wiki/Understanding-the-Azure-App-Service-file-system) for more information.
 
 ### Will I be able to link videos from external platforms like YouTube and Vimeo?
 
@@ -90,12 +90,12 @@ Yes, customers can embed videos from any external platforms such as YouTube, Mic
 > * In your Vimeo video player, click on the share button, under the Embed sectio,n copy the code highlighted as below, and you can paste this as external url for a lesson in CT
 > :::image type="content" source="../media/viemoshare.png" alt-text="sharevimeo":::
 >
-> * If receive any playback error while playing a Vimeo video in CT, you need to update [privacy settings](https://vimeo.zendesk.com/hc/en-us/articles/115015677227-Troubleshoot-player-error-messages) in your Vimeo account.
+> * If receive any playback error while playing a Vimeo video in CT, you need to update [**privacy settings**](https://vimeo.zendesk.com/hc/en-us/articles/115015677227-Troubleshoot-player-error-messages) in your Vimeo account.
 
 
 ### How can I allow external videos to play inside Community Training?
 
-Please reach out to our **[HelpDesk](https://go.microsoft.com/fwlink/?linkid=2104630)** for support on this request. 
+Please reach out to our [**HelpDesk**](https://go.microsoft.com/fwlink/?linkid=2104630) for support on this request. 
 
 <!--
 1. Login to the Azure portal.

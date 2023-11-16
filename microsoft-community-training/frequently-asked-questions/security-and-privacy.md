@@ -17,7 +17,7 @@ Community Training can only be hosted and run on Microsoft Azure Cloud.  It cann
 
 ### Where is Community Training data stored?
 
-Community Training is hosted on Microsoft's subscription and the data is stored in the region you choose when instannling the platform.
+Community Training is hosted on Microsoft's subscription and the data is stored in the region you choose when installing the platform.
 
 For example, in India, there are three data centers. These are Central, West, and South where the your instance's data can be hosted.
 
@@ -31,7 +31,8 @@ In the Community Training, user ID and other information are stored in the Azure
 
 Community Training can ensure that in case of unforeseen failures and disasters, your data – which includes all your content, user data, and other branding assets - is safe and secure.
 
-The backup and replication are not enabled by default. Customers can enable backup/replication of the data to the data center region of their choice at installation.
+TThe backup and replication are not enabled by default. Customers can enable backup/replication of the data at installation. The data will be replicated only to the region paired with the primary region selected at installation. Please note, if there is no paired region associated with the primary, we will not be able to offer backup and replication. Please refer to [**this**](../infrastructure-management/install-your-platform-instance/detailed-step-by-step-installation-guide.md) article for more information and [**this**](https://learn.microsoft.com/en-us/azure/reliability/cross-region-replication-azure#azure-paired-regions) 
+article for list of paired regions..
 
 <!--
 

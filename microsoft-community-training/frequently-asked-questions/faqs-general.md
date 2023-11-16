@@ -90,7 +90,7 @@ So, depending on the use cases, organizations can use Community Training in eith
 
 ### How many organizations are already using Community Training?
 
-Currently, Community Training is being used by hundreds of customers across India, Africa, South East Asia, and Latin America to enable skilling their workforces or training communities at scale.  For example here are some press releases on the partnership with existing customers: [African Development Bank](https://news.microsoft.com/en-xm/2019/12/10/african-development-bank-launches-digital-tool-to-help-african-youth-learn-to-code/), Gauteng Provincial Govt - South Africa, [UNICEF](https://www.unicef.org/press-releases/unicef-and-microsoft-launch-global-learning-platform-help-address-covid-19-education) ,[Ministry of Housing and Urban Affairs - Govt. of India](https://news.microsoft.com/en-in/microsoft-project-sangam-swacch-bharat-mission/).
+Currently, Community Training is being used by hundreds of customers across India, Africa, South East Asia, and Latin America to enable skilling their workforces or training communities at scale.  For example here are some press releases on the partnership with existing customers: [**African Development Bank**](https://news.microsoft.com/en-xm/2019/12/10/african-development-bank-launches-digital-tool-to-help-african-youth-learn-to-code/), [**Digital Nigeria**](https://www.afdb.org/en/news-and-events/press-releases/nigeria-african-development-bank-partners-government-and-microsoft-launch-digital-nigeria-elearning-platform-38060), [**UNICEF**](https://www.unicef.org/press-releases/unicef-and-microsoft-launch-global-learning-platform-help-address-covid-19-education) ,[**Ministry of Housing and Urban Affairs - Govt. of India**](https://news.microsoft.com/en-in/microsoft-project-sangam-swacch-bharat-mission/).
 
 ### Is there any licensing fee for Community Training?
 
@@ -117,7 +117,7 @@ Community Training supports a wide range of formats as listed below:
 * **Video formats**: MP4, 3GP, 3G2, 3GP2, AVI, MPEG, MPG, WMV, VOB, MKV, FLV, DV, TS, ASF, M4V, MOV
 * **Audio formats**: MP3 & OGG
 * **Other formats**: PDF, PPT, PPTX, DOCX, HTML, ePUB
-* **Hyperlinks**: Paste link in the upload lesson dialogue box ((Example: Contents added via external platforms such as YouTube or Microsoft Learn using their URL)
+* **Hyperlinks**: Paste link in the upload lesson dialogue box (Example: Contents added via external platforms such as YouTube or Microsoft Learn using their URL)
 
 For more information, check the article on [**how to manage course content**](../content-management/content-management-overview.md) on Community Training.  
 
@@ -132,7 +132,7 @@ Please note - all content hosted in the content library is free of charge and pr
 
 ### How do I request a Microsoft Teams manifest file?
 
-1. Create a support ticket on [Community Training HelpDesk](https://sangamhelpdesk.microsoftcrmportals.com/SignIn?ReturnUrl=%2Fsupport%2Fcreate-case%2F) for a Microsoft Teams app manifest for your training platform instance in the following format:
+1. Create a support ticket on [**Community Training HelpDesk**](https://sangamhelpdesk.microsoftcrmportals.com/SignIn?ReturnUrl=%2Fsupport%2Fcreate-case%2F) for a Microsoft Teams app manifest for your training platform instance in the following format:
 
    ![Teams manifest](../media/manifest.JPG)
 
@@ -146,7 +146,7 @@ For more information, [**go here**](../settings/customize-languages-for-the-lear
 
 ### How can I raise a new language request?
 
-You can raise a request ticket via the [HelpDesk](https://sangamhelpdesk.microsoftcrmportals.com/) to request another language for your platform instance. Please refer to [this article](../settings/request-a-new-language.md) for more details.
+You can raise a request ticket via the [**HelpDesk**](https://sangamhelpdesk.microsoftcrmportals.com/) to request another language for your platform instance. Please refer to [**this article**](../settings/request-a-new-language.md) for more details.
 
 ### Is there support for live classroom training in Community Training?
 
@@ -172,7 +172,7 @@ NOTE FOR DOCUMENTATION TEAM : THIS IS HIDDEN UNTIL THE FUNCTIONALITY IS RELEASED
 
 ### How to delete the training portal
 
-When you no longer need your training portal, you can delete it by deleting the resource group from the Azure portal. [Refer to this article](../infrastructure-management/configure-your-platform-infrastructure/delete-your-training-instance.md) for more details.  
+When you no longer need your training portal, you can delete it by deleting the resource group from the Azure portal. [**Refer to this article**](../infrastructure-management/configure-your-platform-infrastructure/delete-your-training-instance.md) for more details.  
 
 ### What kind of support is provided by Microsoft to the customers during implementation?
 
@@ -190,7 +190,7 @@ Yes, Microsoft Partners can set up the platform in their own subscription or on 
 
 For example, Microsoft Partners can leverage the platform to drive Office 365 training for existing or new customers. 
 
-For more information and support, please contact us via  **[HelpDesk](https://go.microsoft.com/fwlink/?linkid=2104630)** and leave your requirements in the ticket description.
+For more information and support, please contact us via  [**HelpDesk**](https://go.microsoft.com/fwlink/?linkid=2104630)** and leave your requirements in the ticket description.
 
 ### How to invite learners to the training portal instance
 

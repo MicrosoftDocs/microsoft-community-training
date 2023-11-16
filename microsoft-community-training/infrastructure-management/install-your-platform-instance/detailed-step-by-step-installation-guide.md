@@ -103,7 +103,7 @@ Based on the authentication type (Phone/Social login OR Work/School Account), yo
     
     This option allows you to use a Google or Facebook based login to Community Training. For Phone based login, please refer to this [**link**](https://azure.microsoft.com/en-us/pricing/details/active-directory-external-identities/) for pricing and setup.
 
-    https://learn.microsoft.com/en-us/azure/active-directory-b2c/phone-authentication-user-flows
+    
     
     >[!Note]
     > * Please refer to this documentation for [**social account configuration guide**](../../infrastructure-management/install-your-platform-instance/configure-login-social-work-school-account.md#social-account-or-email-based-authentication)  
@@ -132,7 +132,7 @@ Once you have made a choice of authenticated and entered corresponding informati
 7. On this screen, you will select the data resiliency and disaster recovery options.
 
 > [!Note]
-> The Disaster Recovery options come at a cost. Please refer to the [**pricing Calculator**] (https://communitytraining.microsoft.com/pricing/)to get an estimate of the cost.
+> The Disaster Recovery options come at a cost. Please refer to the [**pricing Calculator**](https://communitytraining.microsoft.com/pricing/) to get an estimate of the cost.
 
 > [!Note]
 > The decision to have a disaster recovery needs to be made at installation. This option can **NOT** be changed later. 

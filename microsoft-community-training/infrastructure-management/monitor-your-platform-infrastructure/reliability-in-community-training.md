@@ -45,7 +45,9 @@ List of regions where community training will be supported:
 | East US          | Sweden Central       |               |                    |                |
 | West US 3        |                      |               |                    |                |
 
+
 Note: In the secondary region, zonal availability will be provided.
+
 
 ### Zonal failover support
 Community Training provide configuration for redundancy at the time of creation. 

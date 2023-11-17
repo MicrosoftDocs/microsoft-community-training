@@ -1,6 +1,7 @@
 ---
 title: Detailed step by step installation guide
 original-url: https://docs.microsoftcommunitytraining.com/docs/installation-guide-detailed-steps
+
 author: Charan
 ms.author: cbms03                                                                                                                                                                                                                                                                                                                                                                   
 description: In this article, you’ll learn how to install and deploy Microsoft Community Training platform on your Azure subscription.
@@ -8,6 +9,7 @@ ms.prod: learning-azure
 ---
 
 # Detailed step by step installation guide
+
 
 In this article, you’ll learn how to install and deploy the Community Training platform on your Azure subscription.
 
@@ -17,17 +19,20 @@ In this article, you’ll learn how to install and deploy the Community Training
 
 Create a pay-as-you-go Azure subscription. To learn more about how to create it, refer [**this article**](https://azure.microsoft.com/pricing/purchase-options/pay-as-you-go/) on Azure documentation.
 
+
 If you have a free trial Azure subscription, please upgrade to a Pay-as-you-go Azure subscription. See the [**detailed steps here**](/azure/billing/billing-upgrade-azure-subscription#upgrade-your-azure-free-account). 
 
 <!--
 Hiding this until the work on this topic is complete
 **We currently do not support Microsoft Community Training on free trial Azure subscriptions.**
 -->
+
 > [!WARNING]
 > If you’re a nonprofit organization who wants to use Microsoft Community Training platform, you can apply and avail the Azure grant subject to eligibility. See the [**detailed steps here**](https://www.microsoft.com/en-us/nonprofits/eligibility?activetab=pivot1:primaryr4).
 
 >[!Note]
 > If you are nonprofit, please make sure you are installing the Microsoft Community Training in the Microsoft Sponsored Subscription
+
 ### 2. Get the right ownership access
 
 Get the **owner** access to your pay-as-you-go Azure subscription. To learn more about how to get access, refer [**this article**](/azure/role-based-access-control/overview) on Azure documentation.
@@ -57,12 +62,15 @@ Based on the authentication type (Phone/Social login OR Work/School Account), yo
 
 ### 4. Create a Google Play Account
 
+
 [**Sign up on Google Play console**](https://play.google.com/apps/publish/signup/)  in order to publish your app on the Google Play Store.  This is required only if you require mobile app for Microsoft Community Training instance.
 
 > [!NOTE]
 > This step may be done later after installation.
 
+
 ## Steps to deploy platform from Azure portal  
+
 
 1. Ensure you are completed all the pre-requisites.
 
@@ -167,3 +175,4 @@ Below are few additional resources to help you with the setup.
 To setup a mobile app for your instance, follow the instructions given in the [**create and publish your Mobile App**](../../infrastructure-management/install-your-platform-instance/create-publish-mobile-app.md) article.
 
 To setup Teams for your instance , follow the instructions given in the [**setup Microsoft Teams as learner's endpoint**](../../infrastructure-management/install-your-platform-instance/create-teams-app-for-your-training-portal.md) for the platform article.
+

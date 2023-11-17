@@ -168,8 +168,6 @@
            href: infrastructure-management/install-your-platform-instance/create-teams-app-for-your-training-portal.md
          - name: Troubleshooting Guide
            href: infrastructure-management/install-your-platform-instance/troubleshooting.md
-         - name: Setup platform instance on Azure subscription for Nonprofits
-           href: infrastructure-management/install-your-platform-instance/setup-platform-instance-on-azure-subscription-for-nonprofits.md
       - name: Configure your platform infrastructure
         items:
          - name: Setup custom domain URL

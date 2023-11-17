@@ -157,3 +157,5 @@ Please follow the below steps to view/access your Azure key vault
 ### Does the mobile app on Android support EMS/MDM policies via Intune?
 
 Community Training doesn’t support (aka honor) any Intune policies. We don’t differentiate between managed or unmanaged devices i.e. none of the MDM policies are applicable to the mobile app.
+
+Please reach out to us [**via HelpDesk**](https://go.microsoft.com/fwlink/?linkid=2104630) if you have any further queries.

@@ -428,3 +428,6 @@ In the meantime, as a workaround, admins can name courses under a category such 
 Organization administrators and category administrators can delete a course from the Course Tab on the management portal.  Refer to the image below for an illustration of the process.
 
 ![Delete a course](../media/image%28314%29.png)
+
+
+Please reach out to us [**via HelpDesk**](https://go.microsoft.com/fwlink/?linkid=2104630) if you have any further queries.

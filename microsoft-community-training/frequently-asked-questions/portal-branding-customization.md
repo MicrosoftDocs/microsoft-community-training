@@ -148,3 +148,6 @@ You can change the domain of your portal and use a custom domain that reflects y
 ### Is there an inbuilt feature to take feedback from learners or conduct surveys?
 
 You can collect a course level feedback by incorporating a pre-filled google forms or survey monkey links. The users will see the option at the bottom of the course, to provide feedback. Please refer to [*this*](../content-management/create-content/create-course-category/add-feedback-form-for-a-course.md) article for more information on adding feedback collection mechanism for a course.
+
+
+Please reach out to us [**via HelpDesk**](https://go.microsoft.com/fwlink/?linkid=2104630) if you have any further queries.

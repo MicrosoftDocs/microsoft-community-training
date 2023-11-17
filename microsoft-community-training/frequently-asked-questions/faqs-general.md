@@ -30,17 +30,23 @@ While Community Training is not a traditional Learning Management System (LMS), 
 ### What are the regions where Community Training is available?
 
 Community Training is available in the following Azure regions:
-1. West US 2
-2. South Central US
-3. UK South
-4. Southeast Asia
-5. West Europe
-6. East US
-7. Australia East
-8. East US 2
-9. North Europe
-10. West US 3
-11. Sweden Central
+
+| **PrimaryRegion**  | **PairedRegion** |
+|--------------------|------------------|
+| WestUS2            | WestCentral      |
+| SouthCentralUS     | NorthCentralUS   |
+| UKSouth            | UKWest           |
+| SoutheastAsia      | EastAsia         |
+| WestEurope         | NorthEurope      |
+| EastUS             | WestUS           |
+| AustraliaEast      | AustraliaSouth   |
+| EastUS2            | CentralUS        |
+| NorthEurope        | WestEurope       |
+| WestUS3            | EastUS           |
+| SwedenCentral      | SwedenSouth      |
+  
+
+For any questions on the availability, please reach out to us [**via HelpDesk**](https://go.microsoft.com/fwlink/?linkid=2104630)
 
 ### Who is the target audience for Community Training?
 
@@ -217,3 +223,6 @@ At present, we do not recommend moving resource groups across different Azure su
 ### Language customization in Azure Active Directory B2C
 
 [**Language customization in Azure Active Directory B2C (Azure AD B2C)**](/azure/active-directory-b2c/language-customization?pivots=b2c-user-flow#support-requested-languages-for-ui_locales) allows your user flow to accommodate different languages to suit your customer needs. 
+
+
+Please reach out to us [**via HelpDesk**](https://go.microsoft.com/fwlink/?linkid=2104630) if you have any further queries.

@@ -110,3 +110,6 @@ Community Training doesn't charge for bandwidth or streaming costs when the vide
 ### Am I charged for Azure consumption even when learners are consuming content offline i.e. content is downloaded on the mobile application?
 
 No. Once the content is downloaded on the device neither learner is charged for the mobile data when viewing the content nor customers are charged for any Azure consumption.
+
+
+Please reach out to us [**via HelpDesk**](https://go.microsoft.com/fwlink/?linkid=2104630) if you have any further queries.

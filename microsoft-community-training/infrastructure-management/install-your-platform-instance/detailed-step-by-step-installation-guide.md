@@ -76,14 +76,14 @@ Based on the authentication type (Phone/Social login OR Work/School Account), yo
     >NOTE: If you already have an instance of the Community Training and would like to create a second one, click on create to the top left of the screen.
 
 
-    ![Initiate Deployment Process](../../media/Detailed_Installation_Steps/Detailed_Installation_Guide_Step2.png)
+    ![Initiate Deployment Process](../../media/Detailed_Installation_Steps/Installation_Community_Landing.png)
 
     [!Note]
     >Over the next few screens, you will enter the information required to set the platform. 
 
 5. On the Basic information page, select the subscription ID associated with your account. If you have a resource group, please select. OR, click on "Create New" to create a new resouce group. Also select the SKU and the pricing tier.
 
-    ![Basic Information Page](../../media/Detailed_Installation_Steps/Detailed_Installation_Guide_Step3.png)
+    ![Basic Information Page](../../media/Detailed_Installation_Steps/Installation_Step1.png)
 
     > [!Note]
     >Community Training offers two SKUs with license fees in addition to an Azure infrastructure fee for cloud services consumers.
@@ -116,7 +116,7 @@ Based on the authentication type (Phone/Social login OR Work/School Account), yo
     >* Please refer to this documentation for [**Phone Account Setup Guide**](https://learn.microsoft.com/en-us/azure/active-directory-b2c/phone-authentication-user-flows)  
     > Please refer to this [**link**](https://azure.microsoft.com/en-us/pricing/details/active-directory-external-identities/#resources) for pricing information.
 
-    ![Social_Phone_Login](../../media/Detailed_Installation_Steps/Detailed_Installation_Guide_Step4a.png)
+    ![Social_Phone_Login](../../media/Detailed_Installation_Steps/installation_Step2_Social.png)
 
     **ii. Work or School Account**  
 
@@ -129,7 +129,7 @@ Based on the authentication type (Phone/Social login OR Work/School Account), yo
 
     You also have the option to connect your MS Teams subscription to the Community Training instance.
 
-    ![Work_School_Login](../../media/Detailed_Installation_Steps/Detailed_Installation_Guide_Step4b.png)
+    ![Work_School_Login](../../media/Detailed_Installation_Steps/Installation_Step_2_WorkSchool.png)
 
 
 Once you have made a choice of authenticated and entered corresponding information, click on **Next**
@@ -143,7 +143,7 @@ Once you have made a choice of authenticated and entered corresponding informati
 > [!Note]
 > The decision to have a disaster recovery needs to be made at installation. This option can **NOT** be changed later. 
 
-![DR_Options](../../media/Detailed_Installation_Steps/Detailed_Installation_Guide_Step5.png)
+![DR_Options](<../../media/Detailed_Installation_Steps/Installation_Step 3.png>)
 
 > [!NOTE]
 >Service A stores customer data. By default, customer data stays within the region the customer deploys the service instance in. However, the customer can choose to replicate data to a paired region (If Available) for Disaster Recovery purposes. For list of available regions, please refer to this [***link***](https://learn.microsoft.com/en-us/azure/reliability/cross-region-replication-azure#azure-paired-regions).
@@ -152,8 +152,7 @@ Once you have made your selection, click on **Next** or **Review + Create**
 
 8. On the next screen, verify the values entered are correct and click **Create**.
 
-![Create_Step](../../media/Detailed_Installation_Steps/Detailed_Installation_Guide_Step6.png)
-
+![Create_Step](../../media/Detailed_Installation_Steps/Review+Create.png)
 
 Congratulations, you have configured the installation of the Community Training on your instace. 
 

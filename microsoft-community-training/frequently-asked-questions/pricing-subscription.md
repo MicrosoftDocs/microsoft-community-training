@@ -66,14 +66,13 @@ For azure infra cost details refer to this [**pricing calculator**](https://comm
 
 ### What is the difference between Standard and premium plans for Community Training?
 
-You will get the same set of features on the platform irrespective of the configuration and plan you choose. The plan will determine the hardware configuration that will be used to run the platform on the Azure cloud and differences will only be concerning the application performance. Here is our recommendation on when to use each plan:
+You will get the same set of features on the platform irrespective of the configuration and plan you choose. The plan will determine the hardware configuration that will be used to run the platform on the Azure cloud.  
+
+Here is our recommendation on when to use each plan:
 
 * Standard plan is used when you have lower traffic requirements and limited training content on the platform. 
 
 * Premium plan is used when you have higher traffic requirements and want to provide a smooth user experience at scale. 
-
-> [!NOTE]  
-> We recommend customers opt-in for a standard plan for superior user experience and application performance.
 
 Please reach out to us if you have additional questions on the hardware configuration selected for each of the plans.[**Microsoft Community Training Helpdesk**](https://go.microsoft.com/fwlink/?linkid=2104630).
 

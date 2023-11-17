@@ -11,9 +11,9 @@ ms.prod: learning-azure
 
 ## Content Library
 
-### Does the platform come with any out-of-box content for an organization to kickstart the training program?
+#### Does the platform come with any out-of-box content for an organization to kickstart the training program?
 
-Microsoft provides course content around Digital Literacy, Office 365, etc., which organizations can upload and use in their Community Training platform instances. For more details, browse the content catalog **[here](https://sangampartners.azurewebsites.net/)**.
+Microsoft provides course content around Digital Literacy, Office 365, etc., which organizations can upload and use in their Community Training platform instances.MS learn courses are also integrated as links
 
 Contact us via **[HelpDesk](https://go.microsoft.com/fwlink/?linkid=2104630)** if you’d like to make any courses from the catalog available in your training portal instance.
 
@@ -25,14 +25,6 @@ You can contact us via **[HelpDesk](https://go.microsoft.com/fwlink/?linkid=2104
 
 Please note - all content hosted in the content library is free of charge and provided under a Creative Common license. So, you can tweak and change the content as per your requirements.
 
-<!-- MAY BE CREATE AN INSTANCE WHERE WE LIST ALL AVAILABE COURSES-->
-
-#### How can customers get access to free content on Digital Literacy and Office 365?
-
-Our content library has content on topics like Digital Literacy, Office 365, etc. which customers can use for free.
-
-If you’d like to avail any of the courses, contact us via **[HelpDesk](https://go.microsoft.com/fwlink/?linkid=2104630)** .
-
 ## Content Format
 
 ### Can I upload my own content to be hosted on Community Training?
@@ -43,7 +35,7 @@ The platform supports the following types of formats:
 
 * **Video formats**: MP4, 3GP, 3G2, 3GP2, AVI, MPEG, MPG, WMV, VOB, MKV, FLV, DV, TS, ASF, M4V, MOV
 * **Audio formats**: MP3 & OGG
-* **Other formats**: PDF, PPT, PPTX, DOCX, HTML, ePUB
+* **Other formats**: SCORM 1.2, PDF, PPT, PPTX, DOCX, HTML, ePUB
 * **Hyperlinks**: Paste link in the upload lesson dialogue box (Example: Video URLs from YouTube, Microsoft Learn, etc.)
 
 For more information, check the article on [**how to manage course content**](../content-management/content-management-overview.md) on Community Training.  

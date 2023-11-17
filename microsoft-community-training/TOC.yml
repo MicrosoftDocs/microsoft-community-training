@@ -1,8 +1,8 @@
-- name: Microsoft Community Training Documentation
+- name: Community Training Documentation
   items:
    - name: Get Started
      items:
-      - name: Welcome to Microsoft Community Training
+      - name: Welcome to Community Training
         href: get-started/microsoft-community-training-overview.md
       - name: User roles and Management portal overview
         href: get-started/user-role-and-management-portal-overview.md
@@ -43,7 +43,7 @@
          - name: Delete a user from the group
            href: user-management/manage-users/remove-user-from-group.md
          - name: Delete a user from the platform
-           href: user-management/manage-users/remove-user-from-the-portal.md
+           href: user-management/manage-users/remove-user-from-the-platform.md
    - name: Content Management
      items:
       - name: Content Management - Overview
@@ -102,8 +102,6 @@
      items:
       - name: Learner Experience on the web portal
         href: learner-experience/web-app.md
-      - name: Learner Experience on the mobile app
-        href: learner-experience/mobile.md
       - name: Learner Experience on PWA based mobile app
         href: learner-experience/pwa-app.md  
    - name: Analytics
@@ -122,16 +120,10 @@
            href: analytics/in-built-reports/group-view-report.md
          - name: Learner Report Card View
            href: analytics/in-built-reports/learner-report-card-view.md
-      - name: Custom Reports
-        items:
-         - name: Power BI Integration
-           href: analytics/custom-reports/power-bi-integration.md
-         - name: Database Schema
-           href: analytics/custom-reports/database-schema.md
    - name: Settings
      items:
       - name: Customize the look and feel of your portal
-        href: settings/configure-the-look-and-feel-of-your-portal.md
+        href: settings/customize-the-look-and-feel-of-your-portal.md
       - name: Restrict portal access to learners outside your training program
         href: settings/restrict-portal-access-to-users-outside-your-organization.md
       - name: Customize profile information for the learners on the platform
@@ -155,59 +147,30 @@
          - name: Installation Overview
            href: infrastructure-management/install-your-platform-instance/installation-overview.md
          - name: Detailed step by step installation guide
-           href: infrastructure-management/install-your-platform-instance/installation-guide-detailed-steps.md
+           href: infrastructure-management/install-your-platform-instance/detailed-step-by-step-installation-guide.md
          - name: Configure login identity for the platform
            href: infrastructure-management/install-your-platform-instance/configure-login-social-work-school-account.md
          - name: Configure multiple authentications in a single instance
            href: infrastructure-management/install-your-platform-instance/configure-multiple-authentications-in-a-single-instance.md   
          - name: Create and Publish your Mobile App
            href: infrastructure-management/install-your-platform-instance/create-publish-mobile-app.md  
-         - name: Using REST APIs to integrate with existing system
-           href: infrastructure-management/install-your-platform-instance/apis.md
          - name: Setup Microsoft Teams as learner endpoint for the platform
            href: infrastructure-management/install-your-platform-instance/create-teams-app-for-your-training-portal.md
-         - name: Troubleshooting Guide
-           href: infrastructure-management/install-your-platform-instance/troubleshooting.md
-         - name: Setup platform instance on Azure subscription for Nonprofits
-           href: infrastructure-management/install-your-platform-instance/setup-platform-instance-on-azure-subscription-for-nonprofits.md
       - name: Configure your platform infrastructure
         items:
-         - name: Setup custom domain URL
-           href: infrastructure-management/configure-your-platform-infrastructure/setup-custom-domain-url.md
-         - name: Scale up your platform instance configuration
-           href: infrastructure-management/configure-your-platform-infrastructure/scale-up-instance-configuration.md
-         - name: Business Continuity and Disaster Recovery for your Platform Instance
-           href: infrastructure-management/configure-your-platform-infrastructure/business-continuity-and-disaster-recovery-for-your-platform-instance.md
-         - name: Delete your training platform instance
-           href: infrastructure-management/configure-your-platform-infrastructure/delete-your-training-instance.md
+        
          - name: Customize the name and icon of the training tab in MS Teams
            href: infrastructure-management/configure-your-platform-infrastructure/customize-the-name-and-icon-of-the-training-tab-in-ms-teams.md
-         - name: Azure Front Door Migration
-           href: infrastructure-management/configure-your-platform-infrastructure/azure-front-door-migration.md
-         - name: Learner Action Events Infrastructure
-           href: infrastructure-management/configure-your-platform-infrastructure/learner-action-events-infrastructure.md
-         - name: Set up Custom Home Page for your MCT Instance
+         - name: Set up Custom Home Page for your CT Instance
            href: infrastructure-management/configure-your-platform-infrastructure/set-up-custom-homepage-for-your-mct-instance.md
          - name: Add multiple Azure AD in your instance
            href: infrastructure-management/configure-your-platform-infrastructure/Add-multiple-AAD-to-B2C-as-a-social-account.md
-         - name: Recommended settings for MCT Azure resources
-           href: infrastructure-management/configure-your-platform-infrastructure/Recommended-settings-for-MCT-Azure-resources.md
+         - name: Delete your training platform instance
+           href: infrastructure-management/configure-your-platform-infrastructure/delete-your-training-instance.md
       - name: Monitor your platform Infrastructure
         items:
-         - name: Monitor your platform Infrastructure
-           href: infrastructure-management/monitor-your-platform-infrastructure/monitor-your-infrastructure.md
-         - name: Backup and recovery of your platform instance
-           href: infrastructure-management/monitor-your-platform-infrastructure/backup-and-recovery.md
-         - name: Troubleshoot Guide for Azure Support
-           href: infrastructure-management/monitor-your-platform-infrastructure/troubleshoot-guide-for-azure-support.md
          - name: Reliability in Community Training
            href: infrastructure-management\monitor-your-platform-infrastructure\reliability-in-community-training.md
-   - name: Rest API Management
-     items:
-     - name: Rest API Management
-       href: rest-api-management/api-documentation.md
-     - name: Service to Service Authentication
-       href: rest-api-management/service-to-service-authentication.md
    - name: Frequently Asked Questions
      items:
       - name: General FAQs
@@ -218,8 +181,6 @@
         href: frequently-asked-questions/faqs-installation-and-setup.md
       - name: Login Types and User Identity
         href: frequently-asked-questions/faqs-user-management.md
-      - name: Generate new Client Secret and link to key-vault
-        href: frequently-asked-questions/generate-new-clientsecret-link-to-key-vault.md
       - name: Portal Branding & Customization
         href: frequently-asked-questions/portal-branding-customization.md
       - name: Content and Course management
@@ -234,49 +195,9 @@
         href: frequently-asked-questions/security-and-privacy.md
       - name: Platform Extensibility & Integration
         href: frequently-asked-questions/custom-integration.md
-   - name: What's new in Microsoft Community Training
-     items:
-      - name: What's new in Microsoft Community Training
-        href: whats-new-in-microsoft-community-training/whats-new-in-microsoft-community-training.md
-      - name: 2023
-        items:
-         - name: What's new in March 2023
-           href: whats-new-in-microsoft-community-training/2023/Whats-new-in-march-2023.md
-         - name: What's new in August 2023
-           href: whats-new-in-microsoft-community-training/2023/Whats-new-in-aug-2023.md
-      - name: 2022
-        items:
-         - name: What's new in February 2022
-           href: whats-new-in-microsoft-community-training/2022/whats-new-in-february-2022.md
-         - name: What's new in May 2022
-           href: whats-new-in-microsoft-community-training/2022/whats-new-in-may-2022.md
-         - name: What's new in August 2022
-           href: whats-new-in-microsoft-community-training/2022/whats-new-in-august-2022.md
-         - name: What's new in December 2022
-           href: whats-new-in-microsoft-community-training/2022/whats-new-in-december-2022.md
-      - name: 2021
-        items:
-         - name: What's new in March 2021
-           href: whats-new-in-microsoft-community-training/2021/what-new-in-march-2021.md
-         - name: What's new in July 2021
-           href: whats-new-in-microsoft-community-training/2021/what-new-in-july-2021.md
-         - name: What's new in October 2021
-           href: whats-new-in-microsoft-community-training/2021/whats-new-in-october-2021.md
-      - name: 2020
-        items:
-         - name: What's new in February 2020
-           href: whats-new-in-microsoft-community-training/2020/whats-new-in-february-2020.md
-         - name: What's new in April 2020
-           href: whats-new-in-microsoft-community-training/2020/whats-new-in-april-2020.md
-         - name: What's new in June 2020
-           href: whats-new-in-microsoft-community-training/2020/whats-new-in-june-2020.md
-         - name: What's new in August 2020
-           href: whats-new-in-microsoft-community-training/2020/whats-new-in-august-2020.md
-         - name: What's new in December 2020
-           href: whats-new-in-microsoft-community-training/2020/whats-new-in-december-2020.md
    - name: Learning in Offline Mode
      items:
-     - name: Offline Learning with Microsoft Community Training
+     - name: Offline Learning with Community Training
        href: learning-in-offline-mode/offline-learning-with-microsoft-community-training.md
      - name: Azure IOT Hub Initial Setup
        href: learning-in-offline-mode/azure-IOT-hub-initial-setup.md
@@ -284,3 +205,7 @@
        href: learning-in-offline-mode/azure-IOT-edge-device-setup.md
      - name: Frequently Asked Questions
        href: learning-in-offline-mode/frequently-asked-questions.md
+   - name: Concepts
+     items:
+     - name: Reliability in Community Training
+       href: /azure/reliability/reliability-community-training.md?toc=/docs/microsoft-community-training/toc.json&bc=/Docs/microsoft-community-training/breadcrumb/toc.json   

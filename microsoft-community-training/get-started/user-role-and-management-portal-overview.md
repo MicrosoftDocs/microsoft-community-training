@@ -3,89 +3,88 @@ title: User roles and Management portal overview
 original-url: https://docs.microsoftcommunitytraining.com/docs/user-role-and-management-portal-overview
 author: nikotha
 ms.author: nikotha
-description: Microsoft Community Training management portal is a one-stop-shop for all administrative functions like content management, user management, tracking and monitoring the training with analytics, portal settings etc.
+description: Community Training management portal is a one-stop-shop for all administrative functions like content management, user management, tracking and monitoring the training with analytics, portal settings, and more.
 ms.prod: learning-azure
 ---
 
-# User roles and Management portal overview
+# User roles and management portal overview
 
-Microsoft Community Training management portal is a one-stop-shop for all administrative functions like content management, user management, tracking and monitoring the training with analytics, portal settings etc. It is designed on role-based access and functionalities are available to the users as per granted management permissions.
+The Community Training management portal is your one-stop-shop for all administrative functions like content management, user management, tracking and monitoring training through analytics, portal settings, and more. It's designed based on role-based access control, which means that features are only available to users based on the permissions they've been granted.
 
-The functionalities in the management portal are divided into 4 categories as specified below:
+The features of the management portal are separated into four categories:
 
 ![4 categories](../media/image%28423%29.png)
 
-## Types of user personas in Microsoft Community Training Platform
+## Types of user roles in Community Training
 
-An end user persona can either be a Learner or an Administrator on the platform. Administrators are responsible for performing activities like content upload, user import, portal customization, analytics, etc. on the management portal.
+An end-user role can either be a learner or an administrator on the platform. Administrators are responsible for performing activities like content upload, user import, portal customization, analytics, and more on the management portal.
 
-To execute these functions, the platform provides a role-based hierarchy of administrators viz. Global administrators, Organization administrators, Learning Path administrators, Category administrators, Course administrators and Group administrators where each administrator is responsible for performing specific set of functions as described below:
+To carry out these activities, Community Training provides a role-based hierarchy of administrators. This includes Global Administrators, Organization Administrators, Learning Path Administrators, Category Administrators, Course Administrators, and Group Administrators. Each administrator type is responsible for performing a specific set of actions as described below:
 
 ![GetStarted - Role Hierarchy](../media/GetStarted%20-%20Role%20Hierarchy.png)
 
 ### 1. Global Administrator
 
-This role is assigned to decision makers or program owners who are responsible for the overall execution, monitoring and success of the training program. The global administrator can use the management portal to create content, manage users, enroll learners to courses, use reports & analytics, and customize the portal for branding purposes.
+This role is assigned to decision-makers or program owners who are responsible for the overall execution, monitoring, and success of the training program. The Global Administrator can use the management portal to create content, manage users, enroll learners in to courses, use reports & analytics, and customize the portal for branding purposes.
 
-Here are the steps on [**how to assign global administrator permission to a user**](../user-management/add-users/add-an-administrator-to-the-portal.md)
+Here are the steps on [**how to assign global administrator permission to a user**](../user-management/add-users/add-an-administrator-to-the-portal.md).
 
 > [!IMPORTANT]
-> Except for portal branding and profile page customization, global administrator can delegate all the other activities like content management and user management to other administrators on the portal.
+> Except for portal branding and profile page customization, the global administrator can delegate all the other activities like content management and user management to other administrators on the portal.
 
 ### 2. Organization Administrator
 
-This role is assigned to owners of a specific organization. An **Organization** on the Microsoft Community Platform is a set of learners and administrators who have a particular purpose or belong to a specific criteria viz. location, job function, interest etc. The organization administrator can use the management portal to manage content and users for its organization.
+This role is assigned to owners of a specific organization. An **Organization** in Community Training is a set of learners and administrators who have a particular purpose or share a specific element, such as location, job function, interest, and more. The organization administrator can use the management portal to manage content and users for the organization.
 
 Here are the steps on [**how to assign organization administrator permission to a user**](../user-management/add-users/add-an-administrator-to-the-portal.md).
 
 ### 3. Content Administrator
 
-This role is assigned to a content expert who is responsible for creating, managing and reviewing courses on the management portal for the training program. There are two levels of content administrator in the management portal:
+This role is assigned to a content expert who is responsible for creating, managing, and reviewing courses on the management portal for the training program. There are two types of Content Administrators in the management portal:
 
 #### Learning Path Administrator
 
-Learning Path administrators can create new learning path using the courses they have been assigned access. A user can be a Learning Path administrator for one or more Learning Paths on the management portal.
+Learning Path Administrators can create new learning paths using the courses they have been assigned. A user can be a Learning Path Administrator for one or more learning paths on the management portal.
 
-Here are the steps on [**how to assign Learning Path administrator permission to a user**](../user-management/add-users/add-an-administrator-to-the-portal.md).
+Here are the steps on [**how to assign Learning Path Administrator permissions to a user**](../user-management/add-users/add-an-administrator-to-the-portal.md).
 
 #### Category Administrator
 
-Category administrators can create a new course and manage all the existing courses for a given category they are assigned as administrator. They can also create new categories and manage all the courses within the new category. A user can be a category administrator for one or more categories on the management portal.
+Category Administrators can create new courses and manage all the existing courses for a given category where they are assigned as administrator. They can also create new categories and manage all the courses within a new category. A user can be a Category Administrator for one or more categories on the management portal.
 
-Here are the steps on [**how to assign category administrator permission to a user**](../user-management/add-users/add-an-administrator-to-the-portal.md).
+Here are the steps on [**how to assign Category Administrator permissions to a user**](../user-management/add-users/add-an-administrator-to-the-portal.md).
 
 > [!NOTE]
-> Global and Organization administrator have the privilege to other users as category and course administrators on the portal.
+> Global and Organization Administrators have privileges over other users as Category and Course Administrators on the portal.
 
 #### Course Administrator
 
-Course administrators can manage and update content only for the courses they are assigned as administrator.  They can also create new courses and manage all the lessons and assessments within the new course. A user can be a course administrator for one or more courses on the portal.
+Course Administrators can manage and update content only for courses where they are assigned as administrator.  They can also create new courses and manage all the lessons and assessments within a course. A user can be a Course Administrator for one or more courses on the portal.
 
-Here are the steps on [**how to assign course administrator permission to a user**](../user-management/add-users/add-an-administrator-to-the-portal.md).
+Here are the steps on [**how to assign Course Administrator permissions to a user**](../user-management/add-users/add-an-administrator-to-the-portal.md).
 
 > [!NOTE]
-> A category administrator can also be added as a course administrator for a course under a different category on the portal.)
+> A Category Administrator can also be added as a Course Administrator for a course under a different category in the portal.
 
 ### 4.  Group Administrator
 
-This role is assigned by global administrator to a grassroots-level facilitator, trainer, supervisor or manager who is responsible to drive learner engagement and adoption of the training program on the ground. The group administrator takes care of onboarding users, assigning courses and driving course completion via announcements/discussions forum.
+This role is assigned by a Global Administrator to a grassroots-level facilitator, trainer, supervisor, or manager who is responsible for driving learner engagement and adoption of the training program on the ground. The Group Administrator takes care of onboarding users, assigning courses, and driving course completion via announcements or discussion forums.
 
-Here are the steps on [**how to assign group administrator permission to a user**](../user-management/add-users/add-an-administrator-to-the-portal.md).
+Here are the steps on [**how to assign Group Administrator permissions to a user**](../user-management/add-users/add-an-administrator-to-the-portal.md).
 
 > [!NOTE]
-> A user can have more than a administrative role on the portal. For e.g. a user can be both course administrator and group administrator.
+> A user can have more than one administrative role on the portal. For example, a user can be both a Course Administrator and a Group Administrator.
 
 ### 5. Learner
 
-This is the default role assigned to any user added to the portal. User with this role permission can only view and consume the learning content and don’t have access to the administrative functionalities on the platform.
+This is the default role assigned to any user added to the portal. Users with this role permission can only view and consume the learning content. They don’t have access to the administrative functionalities on the platform.
 
 Here are steps on [how to navigate the portal as a Learner](../learner-experience/web-app.md).
 
 > [!IMPORTANT]
-> There is no restriction on the number of users you can add in the portal for a given administrative role. For e.g. you can have multiple global administrators for the portal
+> There is no restriction on the number of users you can add in the portal for a given administrative role. For, example you can have multiple Global Administrators for the portal.
 
-## Role based access to Management Portal features
+## Role-based access to management portal features
 
-Organization can assign specific administrative roles to the user and provide access to relevant features on the management portal to help the user execute administrative functions required for the role.
-[**Role-based Admin Functionalities.pdf**](https://github.com/MicrosoftDocs/microsoft-community-training/files/7167101/Role-based.Admin.Functionalities.pdf)
-
+Organizations can assign specific administrative roles to users and provide access to relevant features on the management portal to help the user to carry out administrative tasks required for the role.
+[**Role-based Admin Functionalities.pdf**](https://github.com/MicrosoftDocs/microsoft-community-training/files/7167101/Role-based.Admin.Functionalities.pdf) <!-- AA: Isn't this already alluded to at the top of this page?-->

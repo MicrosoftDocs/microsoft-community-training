@@ -7,17 +7,17 @@ description: Group admin are responsible to drive engagement and monitor course 
 ms.prod: learning-azure
 ---
 
-# Group view
+# Group View
 
-Group admin are responsible to drive engagement and monitor course completion for learners on the ground. To support group admins in these tasks, Microsoft Community Training platform provide group level analytics inside the management portal to track learning progress for a cohort of learners and take relevant actions.
+Group admins are responsible for driving engagement and monitoring course completion for learners on the ground. To support Group admins in these tasks,  Community Training provides group-level analytics to track learning progress for a cohort of learners and take relevant actions.
 
-To access the group view, you need to select a Group from the list of groups under the Users tab in the management portal. On the group details page itself, relevant information about learner’s progress and course completion will be displayed to the administrator.
+To access the Group View, you need to select a group from the list of groups under the Users tab in the portal. On the group details page, relevant information about learners' progress and course completion will be displayed to the administrator.
 
-In this article, you will learn more about different metrics and reports available to the group administrators for all the participants in the group:
+In this article, you will learn more about different metrics and reports available to Group administrators for all the participants in a group:
 
 ## Permissions Level
 
-The Microsoft Community Training management portal provides role-based administration and depending upon the type of access level administrator can perform an action on the portal. Table below shows administrative role which can access the group view:  
+Community Training provides role-based administration and depending on the access level, administrators can perform various actions. The table below shows administrative roles which can access the Group View:  
 
 |Access Level|  Group View|
  |---|---|
@@ -28,47 +28,39 @@ The Microsoft Community Training management portal provides role-based administr
 |Course Administrator|No|
 |Group Administrator|Yes|
 
-![Administrative role](../../media/image%28216%29.png)
+## Track overall learner progress and performance in a group
 
-## Track overall learners progress and performance in a group
+On the group details page, admins can view the list of all learners in a group along with course completion, average assessment score, courses enrolled by group admin, and certificates received.
 
-On the group details page, admin can view the list of all learners in the group each with course completion , average quiz score, courses enrolled by group admin, certificates received is displayed.
-
-* For example, image shows the group analytics details for the employees in Mumbai region
+* For example, the image shows the group analytics details for  employees in Digital Marketing:
 
     ![Group analytics](../../media/image%2845%29.png)
 
-In the grid view, for each learner, group admin can see the following information. You can hover over the column header to view the column definition.
+In the grid view, for each learner, the group administrator can see the following information. You can hover over the column header to view the column definition:
 
-1. **Course Completions**: Total # of courses completed by a learner from the list of courses assigned by the group admin
+1. **Course Completions**: Total number of courses completed by a learner from the list of courses assigned by the group administrator.
 
-2. **Course Enrollments**: Total # of courses assigned by the group admin for a participant in the group
+2. **Course Registrations**: Total number of courses assigned by the group administrator for a participant in the group.
 
-3. **Quiz Score**: Average of the quiz score (including exam) of a learner across all the completed courses
+3. **Assessment Score**: Average of the assessment score (including graded-assessment) of a learner across all the completed courses.
 
-4. **Certificates received**: # of certificates received by a learner for completed courses
+4. **Certificates received**: Number of certificates received by a learner for completed courses.
 
 > [!NOTE]  
-> Group details page show the learner’s progress only for the courses assigned by the group admin. For e.g. let say a learner has self-enrolled into some courses on the platform (not assigned by the administrator) then progress for such courses won’t be shown in the group details.
+> The group details page shows the learner progress only for the courses assigned by the Group Admin. For example, suppose a learner has self-enrolled into some courses on the platform (not assigned by the administrator) then progress for such courses won’t be shown in the group details.
 
-From the group view grid, you can:
+From the Group View grid, you can:
 
-1. Click on the respective column headings to sort the rows by any column.
+1. Select the respective column headings to sort the rows by any column.
 
-2. Click **Download List** to download the data into an Excel sheet.
+2. Select **Download List** to download the data into an Excel sheet.
 
 3. Select a row to [**view learner report card**](./learner-report-card-view.md) which provides learner’s progress and performance for individual courses.
 
-4. Search for a learner in the group and access his or her progress and performance details.
+4. Search for a learner in the group and access their progress and performance details.
 
     ![Progress and performance details](../../media/image%28217%29.png)
 
-5. Track course completion status of all the users in the group for a specific course by clicking on the Courses filter and selecting a specific course.
+5. Track the course completion status of all the users in the group for a specific course by selecting the Courses filter and selecting a specific course.
 
-    ![Track course completion status](../../media/image%28218%29.png)
-
-## Learner Report Card View
-
-Learner Report Card View provide administrators to monitor and track each individual learner’s progress and performance across all the enrolled courses. This information helps administrators (specially group admins) track course completion and follow up with learners to drive adoption of the training program.
-
-To access the [**Learner Report Card View**](./learner-report-card-view.md), you need to select a user from the group details page or All users list page.
+    ![Track course completion status](../../media/Group_Analytics.png)

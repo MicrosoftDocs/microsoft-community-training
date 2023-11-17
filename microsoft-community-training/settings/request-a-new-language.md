@@ -3,33 +3,35 @@ title: Request a new Language
 original-url: https://docs.microsoftcommunitytraining.com/docs/request-a-new-language
 author: nikotha
 ms.author: nikotha
-description: Microsoft Community Training currently supports 28 languages.
+description: Community Training currently supports 28 languages.
 ms.prod: learning-azure
 ---
 
 # Request a new Language
 
-Microsoft Community Training currently supports 28 languages on the platform:  Albanian, Arabic, Bengali, Chinese (Simplified), Chinese (Traditional, Dutch, English, Finnish, French, Hindi, Kinyarwanda, Kurdish, Lao, Lithuanian, Malay, Odia, Portuguese, Serbian (Cyrillic), Somali, Spanish, Swedish, Swedish, Tajik, Telugu, Tetum, Thai, Ukrainian, Vietnamese.
+ Community Training currently supports 63+ languages on the platform.
+
+ *Afrikaans (South Africa), *Amharic (Ethiopia), *Arabic (Saudi Arabia), *Assamese (India), *Bulgarian (Bulgaria)Bengali (India), *Bosnian (Latin, Bosnia & Herzegovina), *German (Germany), *English (United States), *Spanish (Spain, International Sort), *Finnish (Finland), *Filipino (Philippines), *French (France), *Gujarati (India), *Hebrew (Israel), *Hindi (India), *Croatian (Croatia), *Hungarian (Hungary), *Indonesian (Indonesia), *Italian (Italy), *Japanese (Japan), *Kazakh (Kazakhstan), *Khmer (Cambodia), *Kannada (India), *Lao (Laos), *Lithuanian (Lithuania), *Malayalam (India), *Marathi (India), *Malay (Malaysia), *Dutch (Netherlands), *Odia (India), *Punjabi (India), *Polish (Poland), *Portuguese (Brazil), *Romanian (Romania), *Russian (Russia), *Slovak (Slovakia), *Albanian (Albania), *Serbian (Cyrillic, Serbia), *Serbian (Cyrillic, Bosnia and Herzegovina), *Serbian (Latin, Serbia), *Swedish (Sweden), *Tamil (India), *Telugu (India), *Thai (Thailand), *Ukrainian (Ukraine), *Urdu (Pakistan), *Vietnamese (Vietnam)Chinese (Simplified, China), *Chinese (Traditional, Taiwan), *Uzbek (Latin, Uzbekistan), *Welsh (United Kingdom), *Kinyarwanda, Kiswahili (Kenya), *Kurdish, *Kyrgyz, *Pashto (Afghanistan), *Persian (Afghanistan), *Portuguese (Mozambique), *Romansh, *Sindhi, *Somali, *Tajik, *Tetum
 
 You can raise a request ticket via our Helpdesk to request another language for your platform instance.
 
-In this article, you'll learn how request for new languages for your platform instance.
+In this article, you'll learn how request new languages for your platform instance.
 
 ## Steps to request a new language for the platform
 
-1. Visit [**Microsoft Community Training Helpdesk**](https://go.microsoft.com/fwlink/?linkid=2104630/).
+1. Visit the [**Community Training Helpdesk**](https://go.microsoft.com/fwlink/?linkid=2104630/).
 
-2. Sign in using your Azure AD or Social accounts.
+1. Sign in using your Azure AD or Social account.
 
-3. Click on **Create Support Ticket** and enter the following values:
+1. Select **Create Support Ticket** and enter the following values:
 
     |Field|Description|
     |---|---|
-    |Title|Enter "Request a language"|
-    |Type|Select "Request"|
-    |Subject |Under Portal Settings, select "Request a language for your portal"|
+    |Title|Enter **Request a language**|
+    |Type|Select **Request**|
+    |Subject |Under Portal Settings, select **Request a language for your portal**|
     |Description|Enter the languages you need. |
 
-4. Submit the form.
+1. Submit the form.
 
-5. Our support team will get in touch with you to learn more about your requirements in 2-3 business days.
+1. Our support team will get in touch with you to learn more about your requirements in 2-3 business days.

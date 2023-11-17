@@ -3,33 +3,32 @@ title: Restrict content access to Group Administrators
 original-url: https://docs.microsoftcommunitytraining.com/docs/restrict-content-access-to-group-administrators
 author: nikotha
 ms.author: nikotha
-description: The Microsoft Community Training platform has various levels of access roles for administrators.
+description: The Community Training platform has various levels of access roles for administrators.
 ms.prod: learning-azure
 ---
 
 # Restrict content access to Group Administrators
 
-The Microsoft Community Training platform has various levels of access roles for administrators. A group administrator on the platform can, majorly –
+The Community Training platform has various levels of access roles for administrators. A Group Administrator can:
 
-1. Add/edit learners and administrators in the group
-2. View progress reports of the learners in the group
-3. Assign from all courses available on the platform to its learners
+1. Add/edit learners and administrators in a group.
+2. View progress reports of the learners in a group.
+3. Assign courses available on the platform to the group's learners.
 
-But there could be scenarios when the content of one user group should not be made accessible to the other user group because of various security and IP concerns. For example, a large organization with various entities under its umbrella, deploys the platform across the organization. And since each entity works independently, the content of one entity should not be accessible to other entity.
-
-To cater to this need, the Global Administrator can enable the Restricted Course Assignment Access option and limit group administrators to view courses outside their purview.
+There could be scenarios when the content of one user group should not be made accessible to other user groups because of various security and intellectual property concerns. For example, suppose a large organization with various entities under its umbrella deploys the platform across the organization. Since each entity works independently, the content of one entity should not be accessible to other entities.
+To cater to this need, **Global Administrators** can enable the Restricted Course Assignment Access option and limit group administrators to view courses outside their purview.
 
 ## Change Restricted Course Assignment Access settings
 
-1. On the Microsoft Community Training portal, after login switch to administrator view.
-2. Select the Settings module on the left-navigation panel
+1. Sign in to the Community Training portal and **switch to administrator view**.
+1. Select the **Settings** on the left-navigation panel.
 
       > [!IMPORTANT]
-      > This option is available at the Global Administrator Level only.
+      > This option is available at the **Global Administrator** Level only.
 
-3. Select the General option from the settings list
-4. Toggle the Restricted Course Assignment Access settings flag. The default value for this setting is set to Disabled state
+1. Select **General** from the settings list.
+1. Toggle the Restricted Course Assignment Access settings flag. The default value for this setting is set to **Disabled**.
 
       ![Restrict Course.png](../media/Restrict%20Course.png)
 
-5. Click on the Apply Changes button to commit the changes.
+1. Select **Apply Changes** to commit the change.

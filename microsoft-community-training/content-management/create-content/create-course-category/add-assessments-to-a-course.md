@@ -3,23 +3,23 @@ title: Add non-graded assessment and graded assessment for a course
 original-url: https://docs.microsoftcommunitytraining.com/docs/add-assessments-to-a-course
 author: nikotha
 ms.author: nikotha
-description: Microsoft Community Training platform allows trainers to add assessments as a way to evaluate learners on their knowledge and proficiency.
+description: Community Training platform allows trainers to add assessments as a way to evaluate learners on their knowledge and proficiency.
 ms.prod: learning-azure
 ---
 
 # Add non-graded and graded assessments to a course
 
-Microsoft Community Training platform allows trainers to add assessments as a way to evaluate learners on their knowledge and proficiency. The platform provides two types of assessments in the form of non-graded assessments and graded assessments containing one or more multiple-choice questions.
+Community Training (CT) platform allows trainers to add assessments as a way to evaluate learners on their knowledge and proficiency. The platform provides two types of assessments in the form of non-graded assessments and graded assessments containing one or more multiple-choice questions.
 
-**Non-graded Assessments** - A non-graded assessment serves as a refresher for learners and facilitate revision of a particular lesson. There is no limit to the number of assessments you can add to a course.
+**Non-graded Assessments** - A Non-graded Assessment serves as a refresher for learners and facilitates revision of a particular lesson. There is no limit to the number of assessments you can add to a course.
 
-**Graded Assessments**  -  A Graded Assessments is used to evaluate learners on their proficiency and knowledge in a particular course to measure learning outcome. Unlike non-graded assessments, a graded assessment has limited number of attempts and a passing percentage as specified by the trainer.
+**Graded Assessments**  -  A Graded Assessments is used to evaluate learners on their proficiency and knowledge in a particular course to measure learning outcome. Unlike non-graded assessments, a graded assessment has a limited number of attempts and a passing percentage as specified by the trainer.
 
-In this article, you will learn more about how to add assessments to a course followed by an overview on sample assessment question types, in respective sections:
+In this article, you will learn how to add assessments to a course followed by an overview on sample assessment question types, in respective sections.
 
 ## Permission Level
 
-The Microsoft Community Training  management portal provides role-based administration and depending upon the type of access level administrators can perform an action on the portal. Table below shows administrative role which are allowed to add non-graded and graded assessments to a course in the portal:
+The CT management portal provides role-based permission levels. The table below shows which administrator roles are allowed to add non-graded and graded assessments to a course in the portal:
 
 | Access Level  | Add assessments to a course |
 | --- | --- |
@@ -32,19 +32,19 @@ The Microsoft Community Training  management portal provides role-based administ
 
 ## Add a non-graded assessments for a course
 
-In this article, you will learn about how to add non-graded assessments to a course:
+In this section, you will learn how to add non-graded assessments to a course:
 
 > [!TIP]
-> Use the non-graded assessments after every 2-3 lessons to help learners retain and revise the learning concept. Keep the questions short and simple.  Answering correctly makes the learner want to go to the next lesson, ensuring higher completion rate of courses.)
+> Use the non-graded assessments after every 2-3 lessons to help learners retain and revise the learning concept. Keep the questions short and simple.  Answering correctly makes the learner want to go to the next lesson, ensuring higher completion rate of courses.
 
-1. On the Microsoft Community Training portal, login and [**switch to administrator view**](../../../get-started/step-by-step-configuration-guide.md#step-2--switch-to-administrator-view-of-the-portal).
+1. On the Community Training portal, login and [**switch to administrator view**](../../../get-started/step-by-step-configuration-guide.md#step-2--switch-to-administrator-view-of-the-portal).
 
-2. Under Course tab, select the course under a category in the list to which you want to add a non-graded assessments.
+1. Search for the Category then select the Course you want to manage under a category in the list to which you want to add a non-graded assessments.
 
-3. Click or tap on the **New Assessment** button and select the **Add non-graded assessments** option from the drop-down menu.
+1. Select **New Assessment** button and select the **Add non-graded assessments** option from the drop-down menu.
 :::image type="content" source="../../../media/Assessment - New Assessment.PNG" alt-text="Select assessment type":::
 
-4. Enter details for the **non-graded assessments** on the portal as below:
+1. Enter details for the **non-graded assessments** on the portal as below:
     * Non-graded Assessments Title – This would be assessment name.
     * Question Type dropdown - Select the format that you would like to use for this question. You can select:
         * MCQ - Single correct answers
@@ -53,61 +53,59 @@ In this article, you will learn about how to add non-graded assessments to a cou
         * True and False
 
         :::image type="content" source="../../../media/Assessment - question type.PNG" alt-text="Question type":::
-    >[!Note]
-    >You can not change the question type once you have saved the assessment.
 
-    * Question Title – add your question in this field. Check [**sample questions**](#question-types-for-any-assessment) to know more about the types of questions you can create on the portal.
+    > [!Note]
+    > You can not change the question type once you have saved the assessment.
+
+    * Question Title – add your question in this field. Check the [**sample questions**](#question-types-for-any-assessment) to know more about the types of questions you can create on the portal.
     * Options – add one or more options as possible answers for the question. Check the **radio button/checkbox** to the left of the text field to select the correct answer(s).
     * **Answer Explanation** - Click on the icon besides every option to add explanation for that specific option.
         :::image type="content" source="../../../media/Assessment - answer explanantion.PNG" alt-text="answer explanation":::
 
     A non-graded assessment might typically look like this:
 
-     :::image type="content" source="../../../media/Assessment - New AssessmentQuiz.PNG" alt-text="Quiz question details":::
+     :::image type="content" source="../../../media/Assessment - New AssessmentQuiz.PNG" alt-text="Assessment question details":::
 
     > [!NOTE]
-    > If only two possible options are needed use **Delete** button  next to the option field to remove the options. To add more options use **Add Option** button to increase choices for the question.)
+    > If only two possible options are needed use the **Delete** button next to the option field to remove it. To add more options use the **Add Option** button to increase choices for the question.
 
     > [!TIP]
     > The Question and Options both support HTML rich text. Please ensure the rich text formatting is applied from the options available in the editing box only and not from the content source.
 
-5. Click or tap **Add Question** at the bottom-left of the assessment card, to add more questions in the non-graded assessment and repeat Step 4.
+1. Select **Add Question** at the bottom-left of the assessment card, to add more questions in the non-graded assessment and repeat Step 4.
 
-6. Once you are done adding questions, click or tap **Save** icon to the right-end of the assessment title to upload the non-graded assessment to the portal.
+1. Once you have finished adding questions, select the **Save** icon to the right  of the assessment title to upload the non-graded assessment to the portal.
 
     > [!TIP]
-    > Use the [**bulk upload questions feature**](#bulk-upload-questions-for-a-non-graded-assessment-or-graded-assessment) to seamlessly import your existing questions list for a non-graded assessment.
+    > To import your existing list of questions for a non-graded assessment, use the  [**Bulk upload questions feature**](#bulk-upload-questions-for-a-non-graded-assessment-or-graded-assessment) to seamlessly import your existing questions.
 
-## Add graded assessment(s) for a course
+## Add graded assessment(s) to a course
 
-In this article, you will learn about how to add a graded assessment to a course:
-
->[!TIP]
-> You can use graded assessments at various points in a course to better evaluate learner's understanding of the course.
+In this section, you will learn how to add a graded assessment to a course.
 
 > [!TIP]
-> Use the graded assessment to evaluate the knowledge of a learner that is acquired from the course. Keep a fair pass percentage based on the degree of difficulty and number of attempts as required for the role.
+> Use the graded assessment to evaluate the knowledge of a learner that is acquired from the course at various points in a course. Keep a fair pass percentage based on the degree of difficulty and number of attempts as required for the role.
 
-1. On the Microsoft Community Training portal, login and [**switch to administrator view**](../../../get-started/step-by-step-configuration-guide.md#step-2--switch-to-administrator-view-of-the-portal).
+1. On the Community Training portal, login and [**switch to administrator view**](../../../get-started/step-by-step-configuration-guide.md#step-2--switch-to-administrator-view-of-the-portal).
 
-2. Under Course tab, select the course under a category in the list to which you want to add an Exam.
+1. Under the Course tab, select the course under a category in the list to which you want to add an assessment.
 
-3. Click or tap on the **New Assessment** button and select the **Graded assessment** option from the drop-down menu.
+1. Click or tap on the **New Assessment** button and select the **Graded assessment** option from the drop-down menu.
 
     :::image type="content" source="../../../media/Assessment - New AssessmentFinalExam.PNG" alt-text="New assessment for graded assessment":::
 
-4. Enter details for the **graded assessment** on the portal as below:
-    * Enable the **shuffle mode** for the exam questions/answer options if required. This will ensure that learners will always be offered a different version of the assessment so you can be sure that answers cannot be memorized for subsequent attempts or copied from others.
-    * Define the **passing percentage** and **number of attempts** a learner can take the exam based on the degree of difficulty.
+1. Enter details for the **graded assessment** on the portal as below:
+    * Enable the **shuffle mode** for the questions/answer options if required. This will ensure that learners will always be offered a different version of the assessment so you can be sure that answers cannot be memorized for subsequent attempts or copied from others.
+    * Define the **passing percentage** and **number of attempts** a learner can take the assessment based on the degree of difficulty.
     * Enable the **Show answers to learner** if you would like to add answer explanation which would be shown to the learner once he/she completes the assessment and are viewing their answers/scores.
-    * Enter **Graded Assessment Title**. The graded assessment title is the name for the exam displayed to the learners on the web portal and mobile application. For example: *Final Exam*
+    * Enter **Graded Assessment Title**. The graded assessment title is the name for the assessment displayed to the learners on the web portal and mobile application. For example: *Final Assessment*
 
         :::image type="content" source="../../../media/Assessment - graded question.PNG" alt-text="graded assessment":::
 
     > [!NOTE]
-    > All the questions in the exam carry equal weightage. And **Exam** is always the last segment of the course.
+    > All the questions in the assessment carry equal weightage. And an **assessment** is always the last segment of the course.
 
-5. Enter details for the **Question 1** on the portal as below:
+1. Enter details for **Question 1** on the portal as below:
     * Question Type dropdown - Select the format that you would like to use for this question. You can select:
         * MCQ - Single correct answers
         * MCQ - Multiple correct answers
@@ -115,27 +113,27 @@ In this article, you will learn about how to add a graded assessment to a course
         * True and False
 
         :::image type="content" source="../../../media/Assessment - question type.PNG" alt-text="Question type":::
-    >[!Note]
+    > [!Note]
     >You can not change the question type once you have saved the assessment.
     * Question Title – add your question in this field. Check [**sample questions**](#question-types-for-any-assessment) to know more about the types of questions you can create on the portal.  
     * Options – add one or more options as possible answers for the question.  Check the **checkbox/radio button** to the left of the text field to select the correct answer.
   
     > [!NOTE]
-    > If only two possible options are needed, use **Delete** button  next to the option field to remove the options. To add more options use **Add Option** button to increase choices for the question.
+    > If only two possible options are needed, use **Delete** button next to the option field to remove the options. To add more options use **Add Option** button to increase choices for the question.
 
     > [!TIP]
     > The Question and Options both support HTML rich text. Please ensure the rich text formatting is applied from the options available in the editing box only and not from the content source.
   
-6. To add answer explanation, first enable the toggle near assessment title and then click on the **Add explanation** icon beside the option text field and provide the relevant details in the text box.
+1. To add answer explanation, first enable the toggle near assessment title and then click on the **Add explanation** icon beside the option text field and provide the relevant details in the text box.
 
     :::image type="content" source="../../../media/Assessment - answer explanantion.PNG" alt-text="answer explanation":::
 
-7. Click or tap **Add Question**, to add more questions in the **Exam** and repeat Step 5.
+1. Click or tap **Add Question**, to add more questions in the assessment and repeat Step 5.
 
-8. Once you are done adding questions, click or tap **Save** icon to the right-end of the assessment title to upload the exam to the portal.
+1. Once you have finished adding questions, click or tap the **Save** icon to the right-end of the assessment title to upload the assessment to the portal.
 
 > [!TIP]
-> Use the [**bulk upload questions feature**](add-assessments-to-a-course.md#bulk-upload-questions-for-a-non-graded-assessment-or-graded-assessment) to seamlessly import your existing questions list for an Exam.
+> Use the [**bulk upload questions feature**](add-assessments-to-a-course.md#bulk-upload-questions-for-a-non-graded-assessment-or-graded-assessment) to seamlessly import your existing questions list for an assessment.
 
 ## Bulk upload questions for a non-graded assessment or graded assessment
 
@@ -143,7 +141,7 @@ In this topic, you will learn how to bulk upload questions for a non-graded or g
 
 ### Prerequisite for bulk upload questions
 
-Before you start doing the bulk upload of questions for a assessment, you need to make sure the question list is structured in the right format on your local machine. The steps below provide information on how to create and verify that the question list is in the correct format:
+Before starting the bulk upload you need to make sure the question list is structured in the right format on your local machine. The steps below provide information on how to create and verify that the question list is in the correct format.
 
 #### Step 1 - Download the sample CSV file
 
@@ -151,19 +149,19 @@ Before you start doing the bulk upload of questions for a assessment, you need t
 
     ![Import CSV icon](../../../media/Import%20CSV%20icon.png)
 
-2. In the bulk upload panel, download the sample CSV and save on your local machine.
+1. In the bulk upload panel, download the sample CSV and save on your local machine.
 ![Import CSV bar](../../../media/Import%20CSV%20bar.png)
 
 #### Step 2 – Edit the sample CSV file to create question list
 
 1. Open the sample csv file in Microsoft Excel.
 
-2. Remove the sample questions from the CSV file.
+1. Remove the sample questions from the CSV file.
 
     > [!IMPORTANT]
     > Do not remove the column headers from the CSV file.
 
-3. Start adding 1 question per row with the following information under each column header:
+1. Start adding 1 question per row with the following information under each column header:
 
     | Question type | Question Text | Choices (1 to N) | Correct Answer | Answer Explanation | Match Criterion |
     | --- | --- | --- | --- | --- | --- |
@@ -175,11 +173,11 @@ Before you start doing the bulk upload of questions for a assessment, you need t
     :::image type="content" source="../../../media/Assessment - csv sample upload v2.PNG" alt-text="csv upload":::
 
     > [!Note]
-    > A **sample CSV file**([Sample CSV - Assessment.csv](https://github.com/MicrosoftDocs/microsoft-community-training/files/8556647/Sample.CSV.-.Assessment.csv)
-) for quick reference is also available. You can download this file from the upload assessment csv screen.
-    >:::image type="content" source="../../../media/Assessment - csv upload.PNG" alt-text="csv upload/sample csv download":::
+    > A **sample CSV file** is available for quick reference ([here](https://github.com/MicrosoftDocs/microsoft-community-training/files/8556647/Sample.CSV.-.Assessment.csv). 
 
-4. Rename and save the edited file once you are done creating the question list. When editing the CSV file, please take care of the following things:
+    :::image type="content" source="../../../media/Assessment - csv upload.PNG" alt-text="csv upload/sample csv download":::
+
+1. Rename and save the edited file once you have finished creating the question list. When editing the CSV file, please take care of the following things:
     * Do not add **comma (,)** in the question or choices when editing the sample file
     * Use **semi-colon (;) or pipe ( | ) as delimiter** when adding multiple values for a single option. Refer to the above step for desired usage.
     * For any cell, do not split the text into multiple lines (i.e. do not use **ALT + Enter**)
@@ -193,14 +191,14 @@ Before you start doing the bulk upload of questions for a assessment, you need t
 
 1. Open the question list csv file in Notepad. **Right Click > Open with > Notepad**.
 
-2. Remove Word Wrap formatting from the tool bar. **Format > Word Wrap**.
+1. Remove Word Wrap formatting from the tool bar. **Format > Word Wrap**.
 
-3. Verify the structure of the file is correct by ensuring the following things:
+1. Verify the structure of the file is correct by ensuring the following things:
     * For each question row, number of commas (,) is one less than the number of column headers
     * For each question, there should not be any line break i.e. question must be contained in a single line.
     * For each question, there is no blank values for the choices.
 
-4. In case you find any issues with the file, edit and correct the structure as described in the previous step.
+1. In case you find any issues with the file, edit and correct the structure as described in the previous step.
 
 ### Steps for bulk upload questions for a non-graded or graded assessment
 
@@ -208,13 +206,13 @@ Before you start doing the bulk upload of questions for a assessment, you need t
 
     ![Import CSV icon](../../../media/Import%20CSV%20icon.png)
 
-2. In the bulk upload panel, choose the Upload option and select the csv file containing the question list.  
+1. In the bulk upload panel, choose the Upload option and select the csv file containing the question list.  
 
     ![Upload option & select CSV](../../../media/image%2850%29.png)
 
-3. Click or tap on the **Done** button to begin bulk upload questions operation.
+1. Click or tap on the **Done** button to begin bulk upload questions operation.
 
-4. Once completed, you will see the newly added questions in the non-graded assessment or graded assessment.
+1. Once completed, you will see the newly added questions in the non-graded assessment or graded assessment.
 
 ## Question Types for any assessment
 
@@ -223,12 +221,12 @@ In this article, you will learn about the variety of question types that you can
 Following are the question types that can be created on the portal,
 
 1. Single Choice Question – can be answered with only one correct answer
-2. Multi Choice - Multi Correct Question – can be answered with more than one correct answer
-3. True/False Question – can be answered with either True or False
-4. Fill in the Blank Question – can be answered by filling blank in a statement
-5. Chronological Question – can be answered by logical ordering of text/images
-6. Numerical Question – can be answered with a specified mathematical precision
-7. Association Question – can be answered by logical matching of text/images
+1. Multi Choice - Multi Correct Question – can be answered with more than one correct answer
+1. True/False Question – can be answered with either True or False
+1. Fill in the Blank Question – can be answered by filling blank in a statement
+1. Chronological Question – can be answered by logical ordering of text/images
+1. Numerical Question – can be answered with a specified mathematical precision
+1. Association Question – can be answered by logical matching of text/images
 
 > [!NOTE]
 > The question and answer options support **rich text** to enable text formatting (bold, italics, underline, bullets, numbering etc.), images and external web links.
@@ -242,7 +240,7 @@ For this type of question, learners can choose a single answer among the availab
 To create a single choice question,  
 
 1. Add the question with required images/links and a set of answer option
-2. Select the correct answer by checking the radio button to the left of the answer option
+1. Select the correct answer by checking the radio button to the left of the answer option
 
     This question will appear like this for the learners
 
@@ -266,7 +264,7 @@ For this type of question, learners can choose only one amongst the two availabl
 To create a True/False question,
 
 1. Add the question text with image/links in the question title box
-2. Select the correct answer option by checking the radio button to the left of the answer text field
+1. Select the correct answer option by checking the radio button to the left of the answer text field
 
 The question will appear like this for the learners –
 

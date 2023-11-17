@@ -200,6 +200,8 @@
            href: infrastructure-management/monitor-your-platform-infrastructure/backup-and-recovery.md
          - name: Troubleshoot Guide for Azure Support
            href: infrastructure-management/monitor-your-platform-infrastructure/troubleshoot-guide-for-azure-support.md
+         - name: Reliability in Community Training
+           href: infrastructure-management\monitor-your-platform-infrastructure\reliability-in-community-training.md
    - name: Rest API Management
      items:
      - name: Rest API Management

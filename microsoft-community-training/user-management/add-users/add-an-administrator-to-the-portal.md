@@ -11,7 +11,7 @@ ms.prod: learning-azure
 
 The Community Training plaform provides six types of administrative roles on the portal: Global Administrator, Organization Administrator, Learning Path Administrator, Category Administrator, Course Administrator and Group Administrator. For more details, see the article on [**roles and responsibilities of different administrators**](../../get-started/user-role-and-management-portal-overview.md).
 
-> [!NOTE]
+> [!Note]  
 > In case of Microsoft Teams integration, you won't be able to create Group administrator on the platform.  Group admin privileges are automatically assigned to owners of the Teams imported on the Community Training platform.
 
 In this article, you will learn how to assign different administrative roles to a user.
@@ -45,7 +45,7 @@ In this topic, you will learn how to add a Global Administrator.
 
 1. Select **Add** to add the user as an global administrator.
 
-> [!IMPORTANT]
+> [!IMPORTANT]  
 > If the portal is setup with the login identity of **Social Account** or **Azure Active Directory** you will need to enter email address in the above step.
 
 ## Add an organization administrator to the platform
@@ -80,7 +80,7 @@ In this topic, you will learn how to add a Group Administrator.
 
     ![Add_Group_ADmin](../../media/Add_Group_Admin.png)
 
-> [!IMPORTANT]
+> [!IMPORTANT]  
 > If the portal is setup with **Social Account or Azure Active Directory** as login identity then you will need to enter email address in the above step.
 
 Alternatively, you can also **Add Administrator** to the group by clicking on **More(…)** on the top right of the details page and select **Manage Administrators** then select **Add Administrator** to add administrators to the Group.
@@ -93,7 +93,7 @@ The Community Training platform now supports an organization administrator to ad
 
 1. Log on to the Community Training portal and [**switch to administrator view**](../../get-started/step-by-step-configuration-guide.md#step-2--switch-to-administrator-view-of-the-portal).
 1. In the Users Tab, go to Organization Administrators
-     > [!NOTE]
+     > [!Note]  
     > An Organization Admin will only be able to see the list of administrators of the organizations to which the Organization Admin has admin access is enabled
 
 1. Click on "Add Administrators”
@@ -101,12 +101,15 @@ The Community Training platform now supports an organization administrator to ad
     :::image type="content" source="../../media/Add_Org_Admin.png" alt-text="Add admin option to Org Administrator":::
 
 
-    > [!NOTE]
+    > [!Note]  
     > "Manage Organizations" option is greyed-out for Organization admin and will only be accessible to Global Administrator
 1. In the pop-up box, add the user detail to whom the organization admin access is to be given along with the different organizations that you would like to give access to.
 
    ![Add_Group_ADmin](../../media/Add_Org_Admin.png)
 
 1. Select the organization then **Create**.
-    > [!IMPORTANT]
+    > [!IMPORTANT]  
     > Organization administrators will only be able to edit but not delete other Organization admininistrators.
+
+
+Please reach out to us [**via HelpDesk**](https://aka.ms/cthelpdesk) if you have any further queries.

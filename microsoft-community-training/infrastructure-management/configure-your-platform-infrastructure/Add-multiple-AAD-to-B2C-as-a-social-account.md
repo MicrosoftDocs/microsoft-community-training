@@ -25,7 +25,7 @@ To enable sign-in for users with an Azure AD account from a specific Azure AD or
 
     `https://your-B2C-tenant-name.b2clogin.com/your-B2C-tenant-name.onmicrosoft.com/oauth2/authresp`
 
-     If you use a [custom domain](setup-custom-domain-url.md), enter `https://your-domain-name/your-tenant-name.onmicrosoft.com/oauth2/authresp`. Replace ***your-domain-name*** with your custom domain, and ***your-tenant-name*** with the name of your tenant.
+     <!--If you use a [custom domain](setup-custom-domain-url.md), enter `https://your-domain-name/your-tenant-name.onmicrosoft.com/oauth2/authresp`. Replace ***your-domain-name*** with your custom domain, and ***your-tenant-name*** with the name of your tenant.-->
 1. Select **Register** and record the **Application (client) ID** for use in a later step.
 1. Select **Certificates & secrets**, then **New client secret**.
 1. Enter a **Description** for the secret, select an expiration, then select **Add** and record the **Value** of the secret for use in a later step.
@@ -78,5 +78,7 @@ If the sign-in process is successful, your browser is redirected to <https://jwt
 
 Similarly, you can add one or more Azure AD (single tenant) to B2C to use those as social account. Once the configuration is successful, you will be able to find the AzureAD tenant as option of signing in to your MCT application.
 
-> [!NOTE]
+> [!Note]    
 >When you are adding more than one tenant, follow the “[**add custom homepage**](set-up-custom-homepage-for-your-mct-instance.md)” document to add a custom homage and avoid any confusion while selecting the tenant.
+
+Please reach out to us [**via HelpDesk**](https://aka.ms/cthelpdesk) if you have any further queries.

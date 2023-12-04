@@ -1,8 +1,8 @@
 ---
 title: Login Types and User Identity
 original-url: https://docs.microsoftcommunitytraining.com/docs/faqs-user-management
-author: Charan Brahmandam
-ms.author: cbms03
+author: cbms03
+ms.author: cbrahmandam
 description: Currently, there are 3 forms of login identity supported in the platform  i.e. Mobile Number (Via ADB2C), Personal Email Address (or  Social Account) and Azure AD.
 ms.prod: learning-azure
 ---
@@ -15,7 +15,7 @@ ms.prod: learning-azure
 
 Currently, there are 3 forms of login identity supported in the platform i.e. Mobile Number (Via ADB2C Setup), Personal Email Address (or  Social Account), and Azure AD. The customer can choose any one of the above methods as an authentication method or any combination of above mentioned 3 forms of login identity for learners on the portal as explained below:
 
-1. **Mobile Number** - You can configure your choise of mobile OTP provider via [**AD B2C**](https://learn.microsoft.com/en-us/azure/active-directory-b2c/phone-authentication-user-flows) setup. Learners receive a one-time-password on the mobile no. which is entered at the time signing in. On successful verification, learners can access the portal.
+1. **Mobile Number** - You can configure your choise of mobile OTP provider via [**AD B2C**](https://learn.microsoft.com/azure/active-directory-b2c/phone-authentication-user-flows) setup. Learners receive a one-time-password on the mobile no. which is entered at the time signing in. On successful verification, learners can access the portal.
 
 2. **Personal Email Address** – Learners can choose a personal email address or social account such as Facebook, LinkedIn, etc. to login into the portal. On successful authentication from an identity provider (i.e. Google, FB, or Microsoft), learners are logged into the Community Training portal as well.
 
@@ -23,10 +23,10 @@ Currently, there are 3 forms of login identity supported in the platform i.e. Mo
 
 4. **Login via multiple modes** - Community Training supports adding more than one authentication option for a single platform instance. To be able to configure multiple authentications to your instance you need to first create [**AD B2C**](/azure/active-directory-b2c/overview) tenant and register an application to later add a Mobile number, Personal Email, Azure AD login support for your instance.
 
-Apart from the out-of-box identities, the platform can integrate with any existing OAuth 2.0, OpenID Connect, or SAML-based authenticate service for login. For more information, reach out to us [**via HelpDesk**](https://go.microsoft.com/fwlink/?linkid=2104630).
+Apart from the out-of-box identities, the platform can integrate with any existing OAuth 2.0, OpenID Connect, or SAML-based authenticate service for login. For more information, reach out to us [**via HelpDesk**](https://aka.ms/cthelpdesk).
 
 <!---
-> [!NOTE]  
+> [!Note]    
 > Organization can use only 1 of the identity type for sign-in purposes.
 --->
 
@@ -56,16 +56,16 @@ Currently, there is no guest user provision on the platform. Every user, dependi
 
 Yes, CT will support login via multiple modes for the same instance, for that you need to have a B2C tenant to which you can add Azure AD, and phone auth.
 
->[!Note]
+>[!Note]  
 >
->You will have to procure a phone auth service provider and configure the service on ADB2C tenant. Please refer to this [**link: Set up phone sign-up and sign-in for user flows**](https://learn.microsoft.com/en-us/azure/active-directory-b2c/phone-authentication-user-flows) for the process to set it up. 
+>You will have to procure a phone auth service provider and configure the service on ADB2C tenant. Please refer to this [**link: Set up phone sign-up and sign-in for user flows**](https://learn.microsoft.com/azure/active-directory-b2c/phone-authentication-user-flows) for the process to set it up. 
 
 
 ### My learners don’t have an email address or mobile number, how can they sign in and access the training content?
 
 You can create Azure AD B2C tenant with a local account setup and let learners generate their own username and password at the time of registration.
 
-For more information, please contact us [**via HelpDesk**](https://go.microsoft.com/fwlink/?linkid=2104630) and leave your requirements in the ticket description.
+For more information, please contact us [**via HelpDesk**](https://aka.ms/cthelpdesk) and leave your requirements in the ticket description.
 
 ## Mobile number login
 
@@ -103,7 +103,7 @@ To enable Google and Facebook login for the Community Training instance, you nee
 
 Yes, you can deploy Community Training instance with Azure AD B2C setup and enable Azure AD as IDP provider for learners to use their existing work account for sign-in purposes.
 
-For more information, please contact us [**via HelpDesk**](https://go.microsoft.com/fwlink/?linkid=2104630) and leave your requirements in the ticket description.
+For more information, please contact us [**via HelpDesk**](https://aka.ms/cthelpdesk) and leave your requirements in the ticket description.
 
 ## SSO & Integration with external IDP
 
@@ -113,7 +113,7 @@ Community Training (Community Training) platform supports all the standard OAuth
 
 In case the existing identity system is not OAuth2.0 / OpenID connect-based then enabling Single Sign On between Community Training and the existing system will require custom work as highlighted flow diagram below. Please raise a support ticket for more information and kick-start the SSO discussion.
 
-For all queries regarding SSO and/or custom login, contact us via  **[HelpDesk](https://sangamhelpdesk.microsoftcrmportals.com/SignIn?ReturnUrl=%2Fsupport%2Fcreate-case%2F)** and leave your requirements in the ticket description.
+For all queries regarding SSO and/or custom login, contact us via  **[HelpDesk](https://aka.ms/cthelpdesk)** and leave your requirements in the ticket description.
 
 ### I am already using OKTA for managing my workforces. How can I enable SSO with Community Training?
 
@@ -126,7 +126,7 @@ Community Training supports single sign-on with OKTA. To enable this, you must s
 
 Community Training can be integrated with any existing OAuth 2.0, OpenID Connect, or SAML-based authenticate service for login using Azure AD B2C.
 
-To enable OAuth 2.0 or SAML, please contact us [**via HelpDesk**](https://go.microsoft.com/fwlink/?linkid=2104630) and leave your requirements in the ticket description.
+To enable OAuth 2.0 or SAML, please contact us [**via HelpDesk**](https://aka.ms/cthelpdesk) and leave your requirements in the ticket description.
 
 ## Restrict user access
 
@@ -266,4 +266,4 @@ As you upload the files, Azure adds the prefix `B2C_1A_` to each.
 
 You can also learn more in the [Azure AD B2C Architecture Deep Dive Series](https://www.youtube.com/playlist?list=PLOPotgzC07IKXXCTZcrpuLWbVe3y51kfm).
 
-Please reach out to us [**via HelpDesk**](https://go.microsoft.com/fwlink/?linkid=2104630) if you have any further queries.
+Please reach out to us [**via HelpDesk**](https://aka.ms/cthelpdesk) if you have any further queries.

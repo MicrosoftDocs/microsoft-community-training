@@ -46,9 +46,12 @@ The Community Training portal provides role-based permission levels. The table b
 
     ![Courses from right panel](../../../media/image%28393%29.png)
 
-    > [!TIP]
+    > [!TIP]  
     >You can also unselect Courses which will **remove content** from the Learning Path. Learners will not be able to view that content anymore. For more information, refer [this document](../../../user-management/manage-users/De-assigning-content-from-user.md).
 
 1. Select **Done** to confirm.
 
 Once the Courses are added to the Learning Path, you can [**assign the Learning Path to user groups**](../../../user-management/manage-users/assign-content-to-group-users.md).
+
+
+Please reach out to us [**via HelpDesk**](https://aka.ms/cthelpdesk) if you have any further queries.

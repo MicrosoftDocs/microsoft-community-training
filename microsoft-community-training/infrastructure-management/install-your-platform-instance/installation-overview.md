@@ -44,3 +44,5 @@ Once you have decided your preferred endpoint and login type, follow the steps b
 **Step 3:** [**Create the Mobile App and Publish**](../../infrastructure-management/install-your-platform-instance/create-publish-mobile-app.md)
 
 **Step 4:** [**Get started on the portal**](../../get-started/step-by-step-configuration-guide.md)
+
+

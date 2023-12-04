@@ -31,7 +31,7 @@ In this article, you will learn how to add subtitles for a video content on the 
 
     ![Select Subtitle File](../../../media/image%28207%29.png)
 
-    > [!NOTE]
+    > [!Note]  
     > In case subtitle files are not in **VTT format**, then use a suitable software to convert the subtitle files. For e.g. [**here**](https://www.webvtt.org/) is the web application available to convert subtitles from SRT to VTT format.
 
 1. Click on **Done** to save the newly added subtitle file for the video.
@@ -51,3 +51,6 @@ Once the subtitles or captions are added to the video lessons, it can be viewed 
     ![Pop-up menu](../../../media/image%28209%29.png)
 
 1. Captions will be seen on the video in the language that you select
+
+
+Please reach out to us [**via HelpDesk**](https://aka.ms/cthelpdesk) if you have any further queries.

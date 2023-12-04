@@ -1,8 +1,8 @@
 ---
 title: Offline Learning with Community Training
 original-url: https://docs.microsoftcommunitytraining.com/docs/learning-in-offline-mode
-author: cbms03
-ms.author: cbms03
+author: cbrahmandam
+ms.author: cbrahmandam
 description: This article explains how learners can access the training content in offline mode
 ms.prod: learning-azure
 ---
@@ -28,3 +28,6 @@ Platform Vision is an intelligent cloud and edge-powered personalized learning p
 :::image type="content" source="../media/image(444).png" alt-text="offlinejourney":::
 
 :::image type="content" source="../media/image(441).png" alt-text="offlinejourney2":::
+
+
+Please reach out to us [**via HelpDesk**](https://aka.ms/cthelpdesk) if you have any further queries.

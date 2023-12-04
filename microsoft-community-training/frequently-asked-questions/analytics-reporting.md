@@ -1,8 +1,8 @@
 ---
 title: Analytics & Reporting
 original-url: https://docs.microsoftcommunitytraining.com/docs/analytics-reporting
-author: Charan Brahmandam
-ms.author: cbms03
+author: cbms03
+ms.author: cbrahmandam
 description: Community Training allows organizations to track and stay updated on learner's progress and performance scores through non-graded assessments and graded assessments.
 ms.prod: learning-azure
 ---
@@ -81,7 +81,7 @@ There's no provision to reset a learner's progress. However, you can achieve thi
 
 You can import existing learner progress and course completion data using a custom migration script. This feature isn't available out of the box and customers are required to write their own migration script based on their existing platform from where the data are coming. Microsoft can help you with the migration.
 
-For more information, contact us [**via the HelpDesk**](https://go.microsoft.com/fwlink/?linkid=2104630).
+For more information, contact us [**via the HelpDesk**](https://aka.ms/cthelpdesk).
 
 ## Inbuilt analytics and custom reporting
 
@@ -115,7 +115,7 @@ From the group view grid, you will be able to see the user’s progress and asse
 
 Course completion percentage is computed based on the course items (including lessons, non-graded assessments, and graded assessments) completed for a given course by learners. For example, if we have five lessons in a course, then post-completion of each lesson course progress will be increased by 20%.
 
-> [!NOTE]  
+> [!Note]    
 > Every course item in a course has equal weightage i.e. if there are 20 items for a course (including lessons, non-graded assessments, and graded assessments) then completion of each item will increase the course completion by 5%.
 
 ### How to view and download individual learners' progress?
@@ -145,7 +145,7 @@ You can view and export all users on the portal from the administrator view, sel
 
 You can create reports and dashboards using visualization tools such as Power BI. All you have to do is connect to Azure SQL Database and pull relevant data from the tables required for your reports.
 
-For more information, reach out to us [**via HelpDesk**](https://go.microsoft.com/fwlink/?linkid=2104630).
+For more information, reach out to us [**via HelpDesk**](https://aka.ms/cthelpdesk).
 -->
 
 <!--
@@ -159,7 +159,7 @@ Community Training platform leverages [**Azure Application Insights**](/azure/az
 
 2. Now open the Application Insights service and start viewing data around user sessions, funnel, etc. You will be able to view and track and view events such as which pages are most popular, at what times of day, where your users are, and more.
 
-For more information, reach out to us [**via HelpDesk**](https://go.microsoft.com/fwlink/?linkid=2104630).
+For more information, reach out to us [**via HelpDesk**](https://aka.ms/cthelpdesk).
 
 ### Is there a possibility to get statistics to see the “Popular” hours on which learners frequently access the training portal? I want to know the average browsing time and unique users accounts every week
 
@@ -169,8 +169,10 @@ Community Training leverages [**Azure Application Insights**](/azure/azure-monit
 
 2. Now open the Application Insights service and start viewing data around user sessions, funnel, etc. You will be able to view and track and view events such as which pages are most popular, at what times of day, where your users are, and more.
 
-For more information, reach out to us [**via helpdesk**](https://go.microsoft.com/fwlink/?linkid=2104630).
+For more information, reach out to us [**via helpdesk**](https://aka.ms/cthelpdesk).
 
-NOTE: APPLICATION INSIGHTS IS REMOVED. THIS SECTION WILL BE REWORDED LATER
+Note  : APPLICATION INSIGHTS IS REMOVED. THIS SECTION WILL BE REWORDED LATER
 
 -->
+
+Please reach out to us [**via HelpDesk**](https://aka.ms/cthelpdesk) if you have any further queries.

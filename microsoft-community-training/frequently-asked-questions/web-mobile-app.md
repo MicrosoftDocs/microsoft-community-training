@@ -11,10 +11,6 @@ ms.prod: learning-azure
 
 ## Learner experience
 
-### It takes too much time to open the website on my browser/portal and is responding very slowly
-
-It is possible that your infrastructure is unable to handle the high traffic load. Refer to **[this article](../infrastructure-management/configure-your-platform-infrastructure/scale-up-instance-configuration.md)** to upscale your platform and meet your growing needs.
-
 ### I can't open external links embedded inside the PDF document in the platform
 
 For security reasons, we have disabled clicking on external links for the PDF document on the platform. Hence, you should not add any links to the PDF lesson file.
@@ -190,7 +186,6 @@ Community Training doesn’t support private chat or 1:1 discussion between lear
 
 When an announcement is sent by the administrators there messages appear on the Notice Board for the learner experience. In order to have additional functionalities such as SMS or Email, customers can leverage the APIs to build these functionalities using Logic Apps, Microsoft Flow, etc.
 
-For more information contact us **[via HelpDesk](https://go.microsoft.com/fwlink/?linkid=2104630)**.
 
 
-Please reach out to us [**via HelpDesk**](https://go.microsoft.com/fwlink/?linkid=2104630) if you have any further queries.
+Please reach out to us [**via HelpDesk**](https://aka.ms/cthelpdesk) if you have any further queries.

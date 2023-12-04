@@ -1,8 +1,8 @@
 ---
 title: User Roles & Groupsn
 original-url: https://docs.microsoftcommunitytraining.com/docs/user-roles-groups
-author: Charan Brahmandam
-ms.author: cbms03
+author: cbms03
+ms.author: cbrahmandam
 description: The platform follows a role-based administration hierarchy.
 ms.prod: learning-azure
 ---
@@ -206,6 +206,6 @@ Courses can be unassigned to learners from the Courses tab. To unassign courses 
 
 There is no UI available for administrators to view and download learners' certificates. Currently, only learners can view and download the completion certificate on the platform.
 
-However, administrators can contact the Community Training team via **[HelpDesk](https://go.microsoft.com/fwlink/?linkid=2104630)** to get access to learner certificates. Our support team will reach out to you in 2-3 business days and help you with your requirements.
+However, administrators can contact the Community Training team via **[HelpDesk](https://aka.ms/cthelpdesk)** to get access to learner certificates. Our support team will reach out to you in 2-3 business days and help you with your requirements.
 
-Please reach out to us [**via HelpDesk**](https://go.microsoft.com/fwlink/?linkid=2104630) if you have any further queries.
+Please reach out to us [**via HelpDesk**](https://aka.ms/cthelpdesk) if you have any further queries.

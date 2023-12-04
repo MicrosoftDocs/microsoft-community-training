@@ -2,7 +2,7 @@
 title: FAQ - Offline Learning with Community Training
 original-url: https://docs.microsoftcommunitytraining.com/docs/learning-in-offline-mode
 author: cbms03
-ms.author:  v-cbms03
+ms.author:  cbrahmandam
 description: This article lists FAQs related to accessing training content in offline mode
 ms.prod: learning-azure
 ---
@@ -22,7 +22,7 @@ The admin needs to select the `OfflineSync` flag while creating/editing the cour
 
     :::image type="content" source="../media/offline-sync.png" alt-text="Select_offline_sync":::
 
->[!Note]
+>[!Note]  
 >
 >Currently, Community Training supports only course-level syncing.
 
@@ -48,7 +48,7 @@ As long as the device is connected to the internet, content sync will continue t
 
 * Without internet connectivity, the admin can download the user progress from the admin view on the edge device and upload it to the corresponding online instance.
 
->[!Note]
+>[!Note]  
 >User progress sync will happen only once a day (at 12 AM system time).
 
 ### Adding content in a different language locally to support users using a native language
@@ -62,3 +62,5 @@ Currently, the online [parent-child course](../settings/customize-languages-for-
 * Generally, this resolves automatically.
 
 * Wait for about 5 minutes and try accessing the page again.
+
+Please reach out to us [**via HelpDesk**](https://aka.ms/cthelpdesk) if you have any further queries.

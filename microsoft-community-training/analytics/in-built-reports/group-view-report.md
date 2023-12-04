@@ -46,7 +46,7 @@ In the grid view, for each learner, the group administrator can see the followin
 
 4. **Certificates received**: Number of certificates received by a learner for completed courses.
 
-> [!NOTE]  
+> [!Note]    
 > The group details page shows the learner progress only for the courses assigned by the Group Admin. For example, suppose a learner has self-enrolled into some courses on the platform (not assigned by the administrator) then progress for such courses won’t be shown in the group details.
 
 From the Group View grid, you can:
@@ -64,3 +64,5 @@ From the Group View grid, you can:
 5. Track the course completion status of all the users in the group for a specific course by selecting the Courses filter and selecting a specific course.
 
     ![Track course completion status](../../media/Group_Analytics.png)
+
+Please reach out to us [**via HelpDesk**](https://aka.ms/cthelpdesk) if you have any further queries.

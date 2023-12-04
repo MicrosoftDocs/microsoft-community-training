@@ -35,22 +35,22 @@ To customize the certificate template on the platform follow these steps:
 
 1. Create a PDF format of the certificate template and select **Upload Custom PDF Template** to upload it or select the File Name to upload a new version of an existing template.
 
-    > [!WARNING]
+    > [!WARNING]  
     > The maximum size for a certificate template PDF file is 1MB.
 
 1. Select **Customize Certificate Text** to add custom text on the certificate. The [certificate text can be customized](#customize-certificate-text) to include standard and custom profile fields, course completion details and platform details.
 
 1. Select **Preview** to view a sample of the certificate with the uploaded template then select **Save**.
 
-    > [!CAUTION]
+    > [!CAUTION]  
     > Ensure you select the **Save** button. Otherwise, the changes you made will be lost.
 
 1. You can add multiple certificates as required and assign them to specific courses. [Click here](../settings/enable-course-level-certificate.md) to learn more on enabling course level certificates.
 
-> [!NOTE]
-> Please visit [**Community Training Help desk**](https://go.microsoft.com/fwlink/?linkid=2104630) to log a support ticket if you wish to edit the templates of previously issued certificates.
+> [!Note]  
+> Please visit [**Community Training Help desk**](https://aka.ms/cthelpdesk) to log a support ticket if you wish to edit the templates of previously issued certificates.
 
-> [!TIP]
+> [!TIP]  
 > We recommend using separate templates for Courses when using custom certificates.
 
 ## Customize Certificate Text
@@ -117,3 +117,5 @@ offered by [Instance Name] on [Course Completion Date].
 ```
 
 Once the certificate text is updated, you can select **preview** to view the certificate.
+
+Please reach out to us [**via HelpDesk**](https://aka.ms/cthelpdesk) if you have any further queries.

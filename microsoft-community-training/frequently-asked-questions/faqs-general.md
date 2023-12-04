@@ -31,28 +31,23 @@ While Community Training is not a traditional Learning Management System (LMS), 
 
 Community Training is available in the following Azure regions:
 
-| **Primary Region**  | **Paired Region** |
-|--------------------|------------------|
-| WestUS2            | WestCentral      |
-| SouthCentralUS     | NorthCentralUS   |
-| UKSouth            | UKWest           |
-| SoutheastAsia      | EastAsia         |
-| WestEurope         | NorthEurope      |
-| EastUS             | WestUS           |
-| AustraliaEast      | AustraliaSouth   |
-| EastUS2            | CentralUS        |
-| NorthEurope        | WestEurope       |
-| WestUS3            | EastUS           |
-| SwedenCentral      | SwedenSouth      |
-  
+| **1** | **UKSouth**   | **UKWest**         |
+|-------|---------------|--------------------|
+| 2     | AustraliaEast | AustraliaSoutheast |
+| 3     | EastUS2       | CentralUS          |
+| 4     | NorthEurope   | WestEurope         |
+| 5     | WestUS3       | EastUS             |
+| 6     | SwedenCentral | SwedenSouth        |
 
-For any questions on the availability, please reach out to us [**via HelpDesk**](https://go.microsoft.com/fwlink/?linkid=2104630)
+
+
+For any questions on the availability, please reach out to us [**via HelpDesk**](https://aka.ms/cthelpdesk)
 
 ### Who is the target audience for Community Training?
 
-Community Training is built and optimized for large-scale community skilling programs, specially for the not for profit organizations, PubSec, such as volunteers, program beneficiaries, etc.) . The platform is designed for mobile-first and mobile-only audiences and supports learning even on low-bandwidth networks and low-end smartphones.
+Community Training is built and optimized for large-scale community skilling programs, specially for the not for profit organizations, PubSec, such as volunteers, program beneficiaries, etc. The platform is designed for mobile-first and mobile-only audiences and supports learning even on low-bandwidth networks and low-end smartphones.
 
-The platform is already being used by a number of large organizations, small and medium businesses, startups, educational institutions, governmental organizations, and nonprofits.
+The platform is already being used by a number of educational institutions, governmental organizations, and nonprofits.
 
 ### What kind of training scenarios I can use Community Training for?
 
@@ -70,7 +65,7 @@ Organizations can use Community Training to host and train their workforces on m
 
  Also, you can host content from [**Microsoft Learn training**](/training/) into the platform to provide a one-stop shop for all training courses to your target audience.
 
-For more details on how to leverage the import of this content on your platform instance, reach out to us [**via HelpDesk**](https://go.microsoft.com/fwlink/?linkid=2104630).
+For more details on how to leverage the import of this content on your platform instance, reach out to us [**via HelpDesk**](https://aka.ms/cthelpdesk).
 
 ### How to create/add a new course on Community Training
 
@@ -111,7 +106,7 @@ Community Training is offered in two plans Standard and Premium . The pricing va
 
 We have a guided tour available for you to play around and get familiar with the platform's capabilities. Please navigate to the [**interactive demo**](https://communitytraining.microsoft.com/demo/) on the [**product website**](https://communitytraining.microsoft.com/).
 
-If you want access to a demo instance, please reach out to us [**via the helpDesk**](https://go.microsoft.com/fwlink/?linkid=2104630).
+If you want access to a demo instance, please reach out to us [**via the helpDesk**](https://aka.ms/cthelpdesk).
 
 Note: This is hidden until the new pricing calculator is live
 --->
@@ -138,7 +133,7 @@ Please note - all content hosted in the content library is free of charge and pr
 
 ### How do I request a Microsoft Teams manifest file?
 
-1. Create a support ticket on [**Community Training HelpDesk**](https://sangamhelpdesk.microsoftcrmportals.com/SignIn?ReturnUrl=%2Fsupport%2Fcreate-case%2F) for a Microsoft Teams app manifest for your training platform instance in the following format:
+1. Create a support ticket on [**Community Training HelpDesk**](https://aka.ms/cthelpdesk) for a Microsoft Teams app manifest for your training platform instance in the following format:
 
    ![Teams manifest](../media/manifest.JPG)
 
@@ -162,7 +157,7 @@ However, we recommend customers use third-party applications such as Microsoft T
 
 Also, you can replace the live training URL with the actual recording of the training session on the platform for people to view and consume the content later.
 
-For more details, please reach out to us [**via HelpDesk**](https://go.microsoft.com/fwlink/?linkid=2104630).
+For more details, please reach out to us [**via HelpDesk**](https://aka.ms/cthelpdesk).
 
 ### Does Community Training have any learner-tracking capability?
 
@@ -173,7 +168,7 @@ Apart from the inbuilt reports, customers can create dashboards and custom repor
 
 For more information on analytics, check out [**this article**](../analytics/analytics-overview.md).
 
-NOTE FOR DOCUMENTATION TEAM : THIS IS HIDDEN UNTIL THE FUNCTIONALITY IS RELEASED
+Note   FOR DOCUMENTATION TEAM : THIS IS HIDDEN UNTIL THE FUNCTIONALITY IS RELEASED
 --->
 
 ### How to delete the training portal
@@ -185,7 +180,7 @@ When you no longer need your training portal, you can delete it by deleting the 
 There are two channels available to the customers to seek help during platform setup and configuration:
 
 1. [**Self-serve documentation website**](/azure/industry/training-services/microsoft-community-training/) which helps customers provide how to guide and explain different capabilities of the platform in detail.
-2. [**24*7 support desk**](https://go.microsoft.com/fwlink/?linkid=2104630) in case customers are not able to find answers to their queries via the documentation site.
+2. [**24*7 support desk**](https://aka.ms/cthelpdesk) in case customers are not able to find answers to their queries via the documentation site.
 
 ### Can we (Microsoft Partner) host this in the Azure subscription tenant and package it as a training platform for existing Office 365 customers? Does the license allow us to do that?
 
@@ -196,7 +191,7 @@ Yes, Microsoft Partners can set up the platform in their own subscription or on 
 
 For example, Microsoft Partners can leverage the platform to drive Office 365 training for existing or new customers. 
 
-For more information and support, please contact us via  [**HelpDesk**](https://go.microsoft.com/fwlink/?linkid=2104630)** and leave your requirements in the ticket description.
+For more information and support, please contact us via  [**HelpDesk**](https://aka.ms/cthelpdesk)** and leave your requirements in the ticket description.
 
 ### How to invite learners to the training portal instance
 
@@ -208,7 +203,7 @@ There are various ways to invite users and create awareness about the platforms.
 
 #### How can I provide feedback on Community Training and request for new features?
 
-Customers can contact us via [**HelpDesk**](https://go.microsoft.com/fwlink/?linkid=2104630) for any issues or new feature requests. Whenever we receive any feedback, we actively work to address the issue or prioritize the feature asked on the product roadmap.
+Customers can contact us via [**HelpDesk**](https://aka.ms/cthelpdesk) for any issues or new feature requests. Whenever we receive any feedback, we actively work to address the issue or prioritize the feature asked on the product roadmap.
 
 ### Does the platform provide gamification capabilities to incentivize learners to complete course content?
 
@@ -225,4 +220,4 @@ At present, we do not recommend moving resource groups across different Azure su
 [**Language customization in Azure Active Directory B2C (Azure AD B2C)**](/azure/active-directory-b2c/language-customization?pivots=b2c-user-flow#support-requested-languages-for-ui_locales) allows your user flow to accommodate different languages to suit your customer needs. 
 
 
-Please reach out to us [**via HelpDesk**](https://go.microsoft.com/fwlink/?linkid=2104630) if you have any further queries.
+Please reach out to us [**via HelpDesk**](https://aka.ms/cthelpdesk) if you have any further queries.

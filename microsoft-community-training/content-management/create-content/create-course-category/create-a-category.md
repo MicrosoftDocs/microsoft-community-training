@@ -41,12 +41,12 @@ In this topic, you will learn how to **Create a Category** in the platform.
 
 1. Choose **Upload** option to browse and select an image file as **Category Thumbnail.**
 
-    > [!TIP]
+    > [!TIP]  
     > Recommended size for the thumbnail image is 320*180 px
 
 1. Select the **Organization** for the category. The default organization is shown but you can change this.
 
-    > [!NOTE]
+    > [!Note]  
     > If your instance is Multi-Tenant enabled, refer to [Enabling Global Content across organizations](../../content-management-overview.md#enabling-global-content-across-organizations), to have a common content enabled for organizations.
 
 1. Click or tap on the **Create** button to create a new category.
@@ -67,3 +67,6 @@ If you have [multiple languages](../../../settings/customize-languages-for-the-l
 
     :::image type="content" source="../../../media/Categorylocalizationcreate.png" alt-text="catloccreate":::
 1. Now based on language selection in learner view the category name would be translated.
+
+
+Please reach out to us [**via HelpDesk**](https://aka.ms/cthelpdesk) if you have any further queries.

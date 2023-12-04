@@ -75,7 +75,7 @@ This section in the Category View enables an admin to compare learner enrollment
 In the table below, for each course, you can see the number of lessons, number of assessments (including graded assessments),  unique number of learners enrolled, and the number of course completions with their course completion percentage.  
 ![Courses](../../media/image%2840%29.png)
 
-> [!NOTE]  
+> [!Note]    
 > Hover over the column header to view the definition used for column values.
 
 From the courses grid, you can:
@@ -83,3 +83,6 @@ From the courses grid, you can:
 1. Select the respective column headings to sort the rows by any column.
 2. Select **Download List** to download the data into an Excel sheet.
 3. Select a row to [**view detailed information**](./course-view-report.md) about course completion and learner performance for all learners enrolled for the specific course.
+
+
+Please reach out to us [**via HelpDesk**](https://aka.ms/cthelpdesk) if you have any further queries.

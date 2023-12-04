@@ -132,7 +132,7 @@ Here are the detailed steps on [**how to publish a Learning path**](../content-m
 
 Community Training allows you to create a common repository of content called **Global Content**. With this feature, you can have content which is available across all organizations/tenants in your instance.
 
-> [!NOTE]
+> [!Note]  
 > This Feature will allow you to have global content across multiple tenants for your MS Teams deployment.
 
 ### Steps to enable Global Content
@@ -173,3 +173,6 @@ The management portal has content and user related reports built in at [**catego
 1. Only order of lessons is user defined and can be manually moved up/down.
 
 1. For assessments, keep the questions simple to help learners revise and retain the training lessons. They must cover key points of the lessons to keep learners engaged and encourage them to complete the course.
+
+
+Please reach out to us [**via HelpDesk**](https://aka.ms/cthelpdesk) if you have any further queries.

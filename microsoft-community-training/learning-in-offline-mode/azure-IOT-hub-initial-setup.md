@@ -1,8 +1,8 @@
 ---
 title: Azure IOT Hub Initial Setup
 original-url: https://docs.microsoftcommunitytraining.com/docs/learning-in-offline-mode
-author: cbms03
-ms.author: cbms03
+author: cbrahmandam
+ms.author: cbrahmandam
 description: This article explains how learners can access the training content in offline mode and initial setup of Azure IOT hub
 ms.prod: learning-azure
 ---
@@ -29,7 +29,7 @@ Download the setup files from [**this link**](https://sangamapps2.blob.core.wind
 
     :::image type="content" source="../media/image(445).png" alt-text="container":::
 
-    >[!note]
+    >[!Note]  
     > The steps need to be followed for all three images:
     >
     >```info
@@ -49,7 +49,7 @@ Follow the steps to [**Create an Azure IoT Hub**](/azure/iot-hub/iot-hub-create-
 
 The zip file downloaded in the pre-requisites section of this document contains a file named `mctdeployment.json`. The steps in this section are to configure this file for setup. The configured file will be used to set up the edge devices in Azure IoT Hub.
 
->[!note]
+>[!Note]  
 >The deployment file requires configuring some passwords. For the initial version, we can assume that all the devices would use the same set of passwords for data sources like SQL, or Storage, and use the same password for certificates. Therefore, the same `mctdeployment.json` file could be used to deploy on all devices. We will restrict the security of these resources in subsequent releases.
 
 ### Step 3.1:  Configure Azure container registry credentials
@@ -60,7 +60,7 @@ Perform the steps in [**this article**](/azure/container-registry/container-regi
 
 ### Step 3.2: Configure Azure SQL Edge
 
-Create a password of your choice and update its value against <SQL_PASSWORD> in the deployment file. Ensure that the password is greater than eight characters and meets [**these requirements**](/sql/relational-databases/security/password-policy?view=sql-server-ver15).
+Create a password of your choice and update its value against <SQL_PASSWORD> in the deployment file. Ensure that the password is greater than eight characters and meets [**these requirements**](/sql/relational-databases/security/password-policy?view=sql-server-ver15&preserve-view=true).
 
 ### Step 3.3: Configure Azure Blob Storage on IoT Edge (BlobEdge)
 

@@ -51,7 +51,7 @@ If you haven't, please follow the Installation steps first and then refer this a
 
     :::image type="content" source="../../media/teamsapipermissions.png" alt-text="teamspermissions":::
 
-> [!NOTE]
+> [!Note]  
 > Please ensure all the values marked with a red rectangle are correctly set.
 
 ### Step 2 - Generate a Teams Manifest File (Microsoft Teams App) for your Community Training instance
@@ -66,12 +66,12 @@ If you haven't, please follow the Installation steps first and then refer this a
 
 1. Follow the steps in the word file and make the necessary changes (as suggested in document) with reference to your CT instance.
 
-> [!NOTE]
+> [!Note]  
 > The ***color.png*** and ***outline.png*** file to be attached while following the word documentation can be obtained from the same zip file **Manifest file setup.zip**.
 
 ### Step 3 - Install the Microsoft Teams App for your organization
 
-> [!NOTE]
+> [!Note]  
 > If you published the app already in Step 2, you can skip to Step 4.
 
 1. Open the Microsoft Teams client application and sign in using your global or teams service admin credentials.
@@ -80,7 +80,7 @@ If you haven't, please follow the Installation steps first and then refer this a
 
     ![Upload the manifest](../../media/image%28199%29.png)
 
-> [!NOTE]
+> [!Note]  
 > For more details on how to publish apps in the Microsoft Teams Tenant Apps Catalog, [**see this article**](/microsoftteams/tenant-apps-catalog-teams#publish-an-app-in-the-tenant-apps-catalog-from-the-teams-client).
 
 ### Step 4 - Setup app policies to pin the training application from the Microsoft Team admin center
@@ -178,7 +178,7 @@ In this article, you will learn about how to setup Teams SSO to support multiple
 
 Creating Organizations for each tenant is an important step. Unless you create an organization for the Tenant, users from that tenant will not be able to login.
 
-> [!NOTE]
+> [!Note]  
 > To enable common content across multiple tenants, refer to *[Enabling Global Content across organizations](../../content-management/content-management-overview.md#enabling-global-content-across-organizations)*.
 
 ### Steps to create organization for each tenant
@@ -212,7 +212,7 @@ Follow the steps below that refer to the login identity used on your instance.
 1. Microsoft Work or School account.
 1. Social email-based login via your Microsoft, Google or Facebook account.
 
-> [!NOTE]
+> [!Note]  
 >You need a separate MS Teams license to integrate MS Teams with the Community Training portal. If you do not have one, you may refer to [this documentation](https://www.microsoft.com/microsoft-teams/online-meetings) to get it.
 
 #### Microsoft Work or School account
@@ -241,7 +241,7 @@ CT must be registered in the same Azure Active Directory which has MS Teams enab
 
 ##### Step 2
 
-Follow only **Step 1** on [this link](#step-1---delegate-permissions-on-your-azure-ad-application-setup-for-microsoft-community-training) for setting up Teams for the platform.
+Follow only **Step 1** on [**this link**](#Step-1---Delegate-permissions-on-your-Azure-AD-application-setup-for-Community-Training) for setting up Teams for the platform.
 
 ##### Step 3
 
@@ -297,7 +297,7 @@ Setup configurations from the CT app settings:
 
 Once you have configured Microsoft Teams Meeting Scheduling in CT, the administrator will need to follow these steps to schedule a meeting.
 
-> [!WARNING]
+> [!WARNING]  
 >The number of users is limited to 500 and any course/ learning path/group creating a meeting more than that number will not be supported.
 
 1. Log on to the Community Training portal and **switch to administrator view**.
@@ -325,7 +325,7 @@ Once you have configured Microsoft Teams Meeting Scheduling in CT, the administr
 
     :::image type="content" source="../../media/Blended Learning 13.png" alt-text="Meeting Created":::
 
-> [!NOTE]
+> [!Note]  
 >
 >* For **Work or School based instance** and **Social email-based login**, the learner will get an email as well as the meeting notification in his calendar.
 >:::image type="content" source="../../media/Blended Learning 19.PNG" alt-text="Learner experience":::
@@ -342,7 +342,7 @@ You may edit the details of the meeting organized in the CT platform from:
     :::image type="content" source="../../media/Blended Learning 18.png" alt-text="Edit Meeting":::
 
 1. In the Edit meeting pop-up you can modify the title of the meeting.
-    > [!NOTE]
+    > [!Note]    
     >You will not be able to modify the invitee list and the meeting details.
 
     :::image type="content" source="../../media/Blended Learning 14.png" alt-text="Edit meeting":::
@@ -362,3 +362,5 @@ You may edit the details of the meeting organized in the CT platform from:
     :::image type="content" source="../../media/Blended Learning 16.png" alt-text="Meeting Info":::
 1. Edit the details from the page and select **Send update**.
     :::image type="content" source="../../media/Blended Learning 17.png" alt-text="Send Update":::
+
+Please reach out to us [**via HelpDesk**](https://aka.ms/cthelpdesk) if you have any further queries.

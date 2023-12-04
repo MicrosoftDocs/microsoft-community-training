@@ -19,7 +19,7 @@ In this article, you'll learn how request new languages for your platform instan
 
 ## Steps to request a new language for the platform
 
-1. Visit the [**Community Training Helpdesk**](https://go.microsoft.com/fwlink/?linkid=2104630/).
+1. Visit the [**Community Training Helpdesk**](https://aka.ms/cthelpdesk/).
 
 1. Sign in using your Azure AD or Social account.
 
@@ -35,3 +35,5 @@ In this article, you'll learn how request new languages for your platform instan
 1. Submit the form.
 
 1. Our support team will get in touch with you to learn more about your requirements in 2-3 business days.
+
+Please reach out to us [**via HelpDesk**](https://aka.ms/cthelpdesk) if you have any further queries.

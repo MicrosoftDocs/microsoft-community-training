@@ -23,7 +23,7 @@ In the Community Training platform, there are two types of users: a Learner and 
 
 ### Learner
 
-A Learner is the default role assigned to any user added to the platform. Learners can view and consume courses uploaded by the administrators. While accessing the training content, learners can use discussion forums to [**add/share comments**](../learner-experience/mobile.md) with others and stay informed on the important updates sent by the trainers.
+A Learner is the default role assigned to any user added to the platform. Learners can view and consume courses uploaded by the administrators. While accessing the training content, learners can use discussion forums to add/share comments with others and stay informed on the important updates sent by the trainers.
 
 ### Administrator
 
@@ -39,12 +39,12 @@ Organizations and Groups are a way to organize your learners depending on the ne
 
 **Organization** is a set of learners and administrators on the training platform who have a particular purpose or belong to a specific criteria viz. location, job function, interest etc.
 
-> [!NOTE]
+> [!Note]  
 > **Organizations** help create virtual boundaries on the training platform, by ensuring that content and users of an organization is accessible ONLY within that organization.
 
 **Group** is a set of learners on the training platform who have a specific training requirement. Groups make user management within an organization and overall company easy via bulk user onboarding and automatic enrollment.
 
-> [!NOTE]
+> [!Note]  
 > Training platforms can utilize the capabilities of **both** Organization & Group or **only ONE** one of them without enabling the other to manage their training use case.
 
 ### Sample Scenario 1
@@ -62,7 +62,7 @@ Let's say there is a company in United States of America which has employees loc
 - In this case, the company may decide to create **Organizations** on the training platform basis country/region viz. India, Singapore, South Africa etc.
 
 - Each of the Organizations can be assigned their own set of Organization Administrator(s) and each learner can belong to one Organization.
-    > [!NOTE]
+    > [!Note]  
     > The Organization Administrator of an organization will be able to create and manage content and users for ONLY the particular organization creating virtual boundaries on the training platform.
 
 - Now, to effectively manage and train their distributed workforce, each organization can create its own Groups basis job roles such as Sales, Marketing, Human Resources, Operations, etc.
@@ -76,7 +76,7 @@ Global administrators can define Organization and [**assign Organization Adminis
 
 Learners are by default part of the Default Organization. The Global admins and Org admins can change this for a user from the admin pages.
 
-> [!IMPORTANT]
+> [!IMPORTANT]  
 > Typically, Organizations should be set up on the training portal ONLY IF there is a requirement that users and content relevant to one organization should not be accessible by another organization.
 
 ## Add users to groups
@@ -137,3 +137,5 @@ Community Training platform provides specific set of features to help administra
 1. [**Set rules to automate user enrollment**](./organize-users/setup-automatic-user-enrollment-for-a-group-1.md) to the group and reduce the burden of administrator tasks on your trainers
 
 1. Limit the number of Global Administrators on the portal as they can read and modify everything on the platform.
+
+Please reach out to us [**via HelpDesk**](https://aka.ms/cthelpdesk) if you have any further queries.

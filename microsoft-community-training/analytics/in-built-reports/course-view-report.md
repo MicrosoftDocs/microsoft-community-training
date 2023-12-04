@@ -62,7 +62,7 @@ This view gives a graphical representation of the growth in the number of course
 This section in the Course View enables an admin to track the learner’s progress and compare performance for a given course. In the table below, for each learner, you can see the completion percentage, number of lessons completed, number of assessments completed (including graded assessments), and average assessment score percentage.  
 ![Learner performance](../../media/image%2873%29.png)
 
-> [!NOTE]  
+> [!Note]    
 > Hover over the column header to view the definition used for column values.
 
 From the learner performance grid, you can:
@@ -76,7 +76,7 @@ From the learner performance grid, you can:
 This section in the Course View provides information on the number of learners who have completed a particular lesson in the course. In the table below, for each lesson, you can see the number of times the lesson has been completed.  
 ![Times the lesson has been completed](../../media/image%2874%29.png)
 
-> [!NOTE]  
+> [!Note]    
 > Hover over the column header to view the definition used for column values.
 
 From the lesson grid, you can:  
@@ -84,3 +84,4 @@ From the lesson grid, you can:
 1. Select the respective column headings to sort the rows by any column.
 2. Select **Download List** to download the data into an Excel sheet.
 
+Please reach out to us [**via HelpDesk**](https://aka.ms/cthelpdesk) if you have any further queries.

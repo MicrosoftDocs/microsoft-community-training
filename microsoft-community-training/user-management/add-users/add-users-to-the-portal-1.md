@@ -46,12 +46,12 @@ The Community Training management portal provides role-based permission levels. 
 
     - **Bulk upload users** – This option is used to add multiple users in one action. For detailed steps, see how to [**structure the csv file and bulk upload users**](../organize-users/add-multiple-users-to-the-group.md).
 
-> [!IMPORTANT]
+> [!IMPORTANT]  
 > If the platform is setup with the login identity **Social Account** or **Azure Active Directory** then you will need to enter an email address in the above step.
 
 ## Option 2 – Add Learner via Groups
 
-> [!NOTE]
+> [!Note]  
 > When the same user is added to multiple groups, it won't create a duplicate user i.e. there is only 1 user on the platform against one email address or phone number.
 
 In this topic, you will learn how to add a learner via specific group.
@@ -86,5 +86,7 @@ Before you begin, please create a group using the steps mentioned [**in this art
 
     - **Bulk upload users** – This option is used to add multiple users in one action. For detailed steps, see how to [**structure the csv file and bulk upload users**](../organize-users/add-multiple-users-to-the-group.md).
 
-> [!IMPORTANT]
+> [!IMPORTANT]  
 > If the platform is setup with the login identity **Social Account** or **Azure Active Directory** then you will need to enter an email address in the above step.
+
+Please reach out to us [**via HelpDesk**](https://aka.ms/cthelpdesk) if you have any further queries.

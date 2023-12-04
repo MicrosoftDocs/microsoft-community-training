@@ -12,7 +12,7 @@ zone_pivot_groups: "AD-Deployments-Methods"
 
 ## Prerequisite
 
-Please follow [**installation article**](../../infrastructure-management/install-your-platform-instance/installation-guide-detailed-steps.md) to Deploy your CT instance. In the step “**Set up your Login type**”, select the suitable identity type and follow the below documentation to configure login identity.
+Please follow [**installation article**](detailed-step-by-step-installation-guide.md) to Deploy your CT instance. In the step “**Set up your Login type**”, select the suitable identity type and follow the below documentation to configure login identity.
 
 ## Configure login identity
 
@@ -21,8 +21,8 @@ Community Training platform provides two types of login:
 1. Social email-based login via your Microsoft, Google or Facebook account
 2. Microsoft Work or School account
 
-> [!NOTE]
-> Please note this article is in continuation of the [**installation article**](../../infrastructure-management/install-your-platform-instance/installation-guide-detailed-steps.md).
+> [!Note]  
+> Please note this article is in continuation of the [**installation article**](../../infrastructure-management/install-your-platform-instance/detailed-step-by-step-installation-guide.md).
 
 In this article, we will walk you through on how to configure login identity for the platform.
 
@@ -60,7 +60,7 @@ CT requires Microsoft EntraID (Azure AD) application creation and registration. 
       * Microsoft EntraID (Azure AD)’s Tenant Domain Name: Microsoft EntraID (Azure AD)’s tenant domain name. For example: contoso.onmicrosoft.com
 
 The AAD script takes ~2 minutes to run and outputs 4 values on screen (Client ID, Client Secret, Tenant Id, Tenant name). Make a note of the output values as they will be needed in next step. If someone else ran the script, ask them to share this output.
-A new app is created. If an app already exists with the same name, the script will delete the existing app and create a new app. In case of facing any issues after deployment please refer this [**guide**](troubleshooting.md#issue-7-azure-active-directory-configuration-issue).
+A new app is created. If an app already exists with the same name, the script will delete the existing app and create a new app.
 
 ### **Option 2** - Follow the Manual steps to Configure Work or School account for your training portal by following the instructions below
 
@@ -104,12 +104,12 @@ You can create a new Microsoft EntraID (Azure AD) tenant or use an existing one 
     * Enter the description and expiry time of the secret (recommended to select maximum allowed time for expiry) and click on Save button. A value would be shown. Save this Client secret value. Would be required later as the ClientSecret.
     :::image type="content" source="../../media/Obtain clientsecret value.PNG" alt-text="Image showing how to obtain Client Secret value ":::
 
-9. Make a note of the values and follow [**installation article**](../../infrastructure-management/install-your-platform-instance/installation-guide-detailed-steps.md) to complete the Deployment by configuring obtained values as below.
+9. Make a note of the values and follow [**installation article**](../../infrastructure-management\install-your-platform-instance\detailed-step-by-step-installation-guide.md) to complete the Deployment by configuring obtained values as below.
 
     ![Work_School_Login](../../media/Detailed_Installation_Steps/Detailed_Installation_Guide_Step4b.png)
 
->[!Note]
->If you are facing any issues while Deploying your AD instance, please follow the header "Microsoft EntraID (Azure AD) Configuration issue" under [**troubleshooting document**](troubleshooting.md) and send us the required output.
+>[!Note]    
+>If you are facing any issues while Deploying your AD instance, Please reach out to us [**via HelpDesk**](https://aka.ms/cthelpdesk).
 
 ### Multi-Tenant support for Microsoft EntraID (Azure AD) based Authentication
 
@@ -197,10 +197,10 @@ Here are the steps an create on Azure AD B2C tenant and link the same with your 
     >
 
 <!--
-    NOTE TO DOCUMENTATION WRITERS: THIS IS REMOVED AS IT IS NO LONGER NEEDED. KEEPING IT HERE, JUST IN CASE IT IS REQUIRED IN FUTURE.
+    Note   TO DOCUMENTATION WRITERS: THIS IS REMOVED AS IT IS NO LONGER NEEDED. KEEPING IT HERE, JUST IN CASE IT IS REQUIRED IN FUTURE.
    
 
-    > [!NOTE]
+    > [!Note]  
     > Setting Password Reset Flow for an Existing Deployment:
     > If you are setting up the **Password reset flow** on an existing deployment with Azure AD B2C authentication:
     >
@@ -221,7 +221,7 @@ Here are the steps an create on Azure AD B2C tenant and link the same with your 
  -->   
     
    
-7. Follow the [**installation article**](../../infrastructure-management/install-your-platform-instance/installation-guide-detailed-steps.md) to complete the Deployment by configuring obtained values as per the below screenshot
+7. Follow the [**installation article**](../../infrastructure-management/install-your-platform-instance/detailed-step-by-step-installation-guide.md) to complete the Deployment by configuring obtained values as per the below screenshot
 
  ![Social_Phone_Login](../../media/Detailed_Installation_Steps/Detailed_Installation_Guide_Step4a.png)
 
@@ -245,3 +245,5 @@ Here are the steps to create policies based on the Identity Provider:
 
     5. Select User Attributes and ensure no options are selected.
     6. The portal automatically restarts and the changes take effect.
+
+Please reach out to us [**via HelpDesk**](https://aka.ms/cthelpdesk) if you have any further queries.

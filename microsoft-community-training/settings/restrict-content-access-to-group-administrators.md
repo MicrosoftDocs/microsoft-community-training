@@ -23,7 +23,7 @@ To cater to this need, **Global Administrators** can enable the Restricted Cours
 1. Sign in to the Community Training portal and **switch to administrator view**.
 1. Select the **Settings** on the left-navigation panel.
 
-      > [!IMPORTANT]
+      > [!IMPORTANT]  
       > This option is available at the **Global Administrator** Level only.
 
 1. Select **General** from the settings list.
@@ -32,3 +32,5 @@ To cater to this need, **Global Administrators** can enable the Restricted Cours
       ![Restrict Course.png](../media/Restrict%20Course.png)
 
 1. Select **Apply Changes** to commit the change.
+
+Please reach out to us [**via HelpDesk**](https://aka.ms/cthelpdesk) if you have any further queries.

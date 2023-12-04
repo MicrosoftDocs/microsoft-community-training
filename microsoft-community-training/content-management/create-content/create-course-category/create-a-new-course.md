@@ -44,12 +44,12 @@ In this section, you will learn how to create a single course in the Community T
 
 1. Choose **Enable certificate** to award a certificate after the course completion.
 
-    > [!NOTE]
+    > [!Note]  
     > Organizations can [**customize the certificate template**](../../../settings/customize-the-certificate-template.md) awarded to the learners at the time of course completion.
 
 1. Choose **Restrict lesson ordering** to force the lessons in to be completed in sequence. Learners will NOT be able to skip lessons within a course if this option is enabled.
 
-    > [!TIP]
+    > [!TIP]  
     > You can use restrict lesson ordering to **create learning paths** on the platform to customize the learning experience for each learner.
     >
     > For example, trainers can pre-assess a learner's existing knowledge of the topic in the initial lessons and ungraded assessment and then guide the learner to continue in the current course or advice to first complete another course(s) on the platform before returning to the current course.
@@ -60,22 +60,22 @@ In this section, you will learn how to create a single course in the Community T
 
     1. **Self-enroll (Allow users to enroll on their own)**: This option allows the administrator to create courses that allow the learners to search and self-register to the course.
 
-        > [!NOTE]
+        > [!Note]  
         > If Organization feature is enabled, then Self-enroll courses of an Organization will be visible to learners of that organization only. Users can register from Course library
 
     1. **Only admin can enroll learners**: This option allows the content to be kept private whilst being prepared. You can make the courses available for a wider audience when requried. These courses are not shown in the course library.
 
-    > [!TIP]
+    > [!TIP]  
     > All the mandatory courses should be marked as auto-enrolled. Also, if there are advanced courses on any topics, then mark them as Admin enrolled and assign the course manually to the learners who have completed the basic course.
 
 1. Click **Upload** select an image file as the Course Thumbnail.
 
 1. Click **Create** to create the course.
 
-> [!NOTE]
+> [!Note]  
 > Once a course is created, the administrator can start [**uploading the content for the course**](../create-course-category/upload-content-to-a-course.md).
 
-> [!TIP]
+> [!TIP]  
 > Use numbering as prefix like  01, 02, 03, 04, 05 etc in the course name as they are alphabetically stacked. Order of courses can be changed by editing the name or numbers in edit course dialogue box.
 
 ## Option 2 - Add Course via Content Marketplace
@@ -123,7 +123,7 @@ The course content must be structured correctly and available in the required fi
 
 1. Once the ZIP file is created, your content is ready for bulk upload. You can rename the ZIP file if required.
 
-    > [!IMPORTANT]
+    > [!IMPORTANT]  
     > You will need to add Course Details (like thumbnail, description, enrollment type, etc.) and assessments manually later unless [**you are exporting courses from one instance to another**](../../manage-content/manage-course-category/move-course-content-across-training-instance.md).
 
 ### Steps for bulk upload courses to the portal
@@ -140,19 +140,19 @@ The course content must be structured correctly and available in the required fi
 4. Wait for file upload operation to be completed. **Do not close the browser window at this point**.
     ![Upload complete course](../../../media/Upload%20complete%20course.png)
 
-    > [!NOTE]
+    > [!Note]  
     > Depending upon your network connectivity and size of the ZIP file, it can take some time to complete the upload operation.
 
 5. You will see the following message on the top-right corner indicating that the content file was successfully uploaded to the portal for processing.
 
     ![Bulk upload successful](../../../media/Bulk%20upload%20successful.png)
 
-    > [!WARNING]
+    > [!WARNING]  
     > If there are issues with the content or structure of the zip file then the upload operation will fail.
 
 6. On the course details page, progress status will be updated at regular interval. Refresh the page (Press F5) in case you don't see the newly uploaded courses on the portal.
 
-    > [!NOTE]
+    > [!Note]  
     > For video content, processing can take hours depending upon the number of videos, their size and the configuration of the media service end point. This processing is a non-blocking operation and admins are allowed to do other tasks.
 
 7. Once the content is processed, you can add a course description, change the enrollment type, enable certificates, etc. as required. By default, course details are set to the following:
@@ -164,11 +164,10 @@ The course content must be structured correctly and available in the required fi
     1. Restrict lesson ordering - unchecked
     1. Enrollment type – Self enrollment
 
-> [!NOTE]
+> [!Note]  
 > Once the course is uploaded, you can [**add assessments**](add-assessments-to-a-course.md) or [**publish the course**](publishing-course.md) for learners to consume the content via the web portal or mobile application.
 
-> [!TIP]
-> When performing bulk upload course operations,  [**scale up your platform configuration**](../../../infrastructure-management/configure-your-platform-infrastructure/scale-up-instance-configuration.md) to reduce the upload and processing time for the content.
+
 
 <!---
 Alternatively, you can check the step by step video tutorial for bulk upload content:
@@ -179,7 +178,7 @@ Alternatively, you can check the step by step video tutorial for bulk upload con
 
 You can create multiple translations for a course once it has been created either as a single course or as part of a bulk course upload.  This functionality is not available for content uploaded from the Marketplace.
 
-> [!NOTE]
+> [!Note]  
 >The default version of the course can be accessed from the left vertical browsing panel. For a learner, if a course translation is not available in the selected language, the default version of the course will open.
 >
 
@@ -201,7 +200,7 @@ Let us assume that a course is created in *English* and its subsequent translati
 1. If the learner enables either of *English*, *Spanish* or *Italian* - the respective course translation will be available to the learner in My Courses and Course Library.
 2. If the learner enables another language, such as *French*, the default version in *English* will be available to the learner in My Courses and Course Library.
 
-> [!NOTE]
+> [!Note]  
 > You can only translate coures into the languages that are enabled on the platform. Administrators can [enable multiple languages on the platform](../../../settings/customize-languages-for-the-learners-on-the-platform.md).
 
 <!--Next, let us understand how to create course translations once a default course is created via either [**Create a single course in a category**](create-a-new-course.md#option-1---create-a-single-course-in-a-category) or [**Create multiple courses in a category**](create-a-new-course.md#option-3---create-multiple-courses-in-a-category).-->
@@ -214,7 +213,7 @@ In this topic, you will learn how to translate a course in the Community Trainin
 
     ![Add course in a different language](../../../media/image%28472%29.png)
 
-    > [!WARNING]
+    > [!WARNING]  
     > Courses with enrollment type **Automatically enroll all learners** can NOT be translated.
 
 1. Enter the **Course Name**. The course name is the course translation's title that learners would see on the web portal and mobile app.  For example: *AI for Agriculture - Spanish.*
@@ -225,14 +224,14 @@ In this topic, you will learn how to translate a course in the Community Trainin
 
 1. Choose **Enable Certificate**. This option enables the administrator to award certificate to learners after the course completion. Administrators can select one of the certificates from the list for the course.
 
-    > [!TIP]
+    > [!TIP]  
     > You can create certificate templates in different languages and enable them basis the course language.
 
 1. Choose **Course Language**. This is the language in which the course will be translated.
 
     ![Course language for translation](../../../media/image%28474%29.png)
 
-> [!IMPORTANT]
+> [!IMPORTANT]  
 > The following details will be used as that of the default version of the course:
 >
 >1. Learner Registration type
@@ -240,3 +239,5 @@ In this topic, you will learn how to translate a course in the Community Trainin
 >1. Feedback form setting
 
  Once a course translation is created, the administrator can start [**uploading the content for the course**](upload-content-to-a-course.md) as per the translation's defined language.
+
+Please reach out to us [**via HelpDesk**](https://aka.ms/cthelpdesk) if you have any further queries.

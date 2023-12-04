@@ -1,8 +1,8 @@
 ---
 title: Step by step configuration guide for platform setup
 original-url: https://docs.microsoftcommunitytraining.com/docs/step-by-step-configuration-guide
-author: cbms03
-ms.author: cbms03
+author: cbrahmandam
+ms.author: cbrahmandam
 description: Community Training platform provides various tools and functionalities to help you easily create, manage and monitor all the learning activities for the training program.
 ms.prod: learning-azure
 ---
@@ -23,7 +23,7 @@ When signing in for the first time, you will be asked to complete your profile i
 
 ![create profile](../media/create-profile.gif)
 
-> [!TIP]
+> [!TIP]  
 > The profile information users need to provide at the time of sign-up can be customized from the management portal.
 
 ## Step 2 – Switch to administrator view of the portal
@@ -36,7 +36,7 @@ The management portal provides all the administrative functions like course mana
 
 ![Role-based access](../media/image%28426%29.png)
 
-> [!Tip]
+> [!TIP]  
 > After logging into the management portal, it is recommended to [**add administrators**](../user-management/add-users/add-an-administrator-to-the-portal.md) and delegate portal management and configuration to other users in the organization.
 
 ## Step 3 - Customize the training portal
@@ -71,7 +71,7 @@ To add learning material to your training portal, you need to [**define a catego
 
  ![create course gif](../media/create-course-gif.gif)
 
-> [!TIP]
+> [!TIP]  
 > Use [**bulk upload course**](../content-management/create-content/create-course-category/create-a-new-course.md#option-3---create-multiple-courses-in-a-category) to quickly upload your training content on the portal.
 
 ## Step 5 – Create a group and onboard learners to the portal  
@@ -127,3 +127,6 @@ To view these analytics, go to the **Analytics** tab in the management view of t
 ![analytics overview](../media/analytics-overview.gif)
 
 These reports are important for tracking online learning and help administrators to continuously make improvements to the learning program.
+
+
+Please reach out to us [**via HelpDesk**](https://aka.ms/cthelpdesk) if you have any further queries.

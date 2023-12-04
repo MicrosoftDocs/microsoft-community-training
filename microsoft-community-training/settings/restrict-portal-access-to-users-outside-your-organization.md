@@ -15,7 +15,7 @@ For example, suppose a large manufacturing company has product training courses 
 
 When this setting is enabled, only users that are added or imported to the portal by the company will be allowed to access the portal.
 
-> [!IMPORTANT]
+> [!IMPORTANT]  
 > This functionality is not relevant when the portal is setup with **Azure Active Directory** as a sign-in identity.
 
 ## Change Restricted User Access settings  
@@ -24,7 +24,7 @@ When this setting is enabled, only users that are added or imported to the porta
 
 1. Select **Settings** on the left-navigation panel.  
 
-    > [!IMPORTANT]
+    > [!IMPORTANT]  
     > This option is available at the **Global Administrator Level** only.
 
 1. Select **General** from the settings list.
@@ -34,7 +34,7 @@ When this setting is enabled, only users that are added or imported to the porta
 
 1. Select **Apply Changes** to commit the changes,
 
-> [!IMPORTANT]
+> [!IMPORTANT]  
 > Whenever this flag is set to **Enabled**, it will apply only to new users signing in to the portal. Users who have previously signed up will continue to have access to the portal. Admins will have to remove users manually from All Users list to disable their access.
 
 ## Error message for unauthorized user
@@ -42,3 +42,5 @@ When this setting is enabled, only users that are added or imported to the porta
 When an unauthorized learner (such as a user who was not added to the portal by the admin) tries to access the web portal or mobile app using their phone number or email address, the following **error message** will appear:
 
  ![Settings screen](../media/Settings%20screen.png)
+
+ Please reach out to us [**via HelpDesk**](https://aka.ms/cthelpdesk) if you have any further queries.

@@ -40,7 +40,7 @@ The Community Training portal provides role-based permission levels. The table b
 
     ![Edit course](../../../media/image%28254%29.png)
 
-    > [!IMPORTANT]
+    > [!IMPORTANT]  
     > Recommended size for the thumbnail image is 320 * 180 px.
 
 1. Edit **[Enable certificate](../../../settings/enable-course-level-certificate.md)** if required. For an existing course, if you uncheck the certificate option, learners who have previously completed the course will no longer see the certificate in the course outline.
@@ -73,5 +73,8 @@ The Community Training portal provides role-based permission levels. The table b
 
     ![Delete a course](../../../media/Delete%20a%20course.png)
 
-    > [!WARNING]
+    > [!WARNING]  
     > When an administrator deletes a course, the user enrollment details and learner progress are also removed from the portal.
+
+
+Please reach out to us [**via HelpDesk**](https://aka.ms/cthelpdesk) if you have any further queries.

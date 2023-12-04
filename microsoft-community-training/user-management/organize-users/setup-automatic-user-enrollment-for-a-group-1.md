@@ -13,7 +13,7 @@ Group administrators can setup rules for a group to automatically add users to a
 
 When a user registers on the portal and complete the profile information, the values entered are compared against the rule applied by administrators for each group and users are added to all the groups where their criteria matches.
 
-> [!IMPORTANT]
+> [!IMPORTANT]  
 > If **Organizations** are defined on the training platform, automatic enrollment will include the Group's organization as a criteria by default and group rules will act as the next level of criteria within the organization.
 
 In this article, you will learn how to setup rules for a group to automatically add users.
@@ -38,7 +38,7 @@ In this article, you will learn how to setup rules for a group to automatically 
 
     ![Two Rules](../../media/TwoRules.JPG)
 
-    > [!IMPORTANT]
+    > [!IMPORTANT]  
     > Values given in the **IS** field are case sensitive and should exactly match the values in the additional profile fields.
 
 1. Select **Done** to save the rule and users who match the criteria will be added to the group.
@@ -62,7 +62,7 @@ In this article, you will learn how to setup rules for a group to automatically 
 1. Select **Done** in the **Automatic Enrollments** pane.
 :::image type="content" source="../../media/Add rules to Smart Group5.png" alt-text="Save rules":::
 
-> [!WARNING]
+> [!WARNING]  
 >
 >- At a given moment, you can add multiple values to just one single profile field.
 >
@@ -96,7 +96,7 @@ As shown in the image below, there are two **IF** fields - *‘Country’*, set 
 
 ![Scenario 4](../../media/S4.JPG)
 
-> [!IMPORTANT]
+> [!IMPORTANT]  
 > Values given in the **IS** field are case sensitive and should exactly match the values in the additional profile fields
 
 ## View existing rules applied
@@ -111,5 +111,5 @@ You can edit or remove the conditions set in the rules by hovring your mouse ove
 
 ![Edit Smartgroup Rules](../../media/Edit_SmartGroup_Rules.png)
 
-[!TIP]
-> Editing Smart Group rules, when large number of learners exist is a resource intensive operation and might take time to complete. If it is taking too long to import users, please [**scale up your platform instance**](../../infrastructure-management/configure-your-platform-infrastructure/scale-up-instance-configuration.md).
+[!TIP]  
+> Editing Smart Group rules, when large number of learners exist is a resource intensive operation and might take time to complete.

@@ -37,3 +37,8 @@ Before publishing a course go through the following checklist:
 3. Select **Publish** on right-navigation of the page to publish the Learning Path to the learners.
 
     ![Click Publish](../../../media/image%28395%29.png)
+    
+
+
+
+Please reach out to us [**via HelpDesk**](https://aka.ms/cthelpdesk) if you have any further queries.

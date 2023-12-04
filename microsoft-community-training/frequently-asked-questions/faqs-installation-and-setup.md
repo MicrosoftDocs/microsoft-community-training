@@ -1,8 +1,8 @@
 ---
 title: Platform Setup and Installation
 original-url: https://docs.microsoftcommunitytraining.com/docs/faqs-installation-and-setup
-author: Charan Brahmandam
-ms.author: cbms03
+author: cbms03
+ms.author: cbrahmandam
 description: There are a number of prerequisites such as having a valid subscription type, access policy etc. before you can get started with the platform installation and setup.
 ms.prod: learning-azure
 ---
@@ -37,7 +37,7 @@ Community Training is an endpoint-agnostic solution that allows learners to cons
 
 Currently, Community Training supports SSO out-of-box for scenarios where users are managed via Azure AD or customers are using Azure AD B2C for authentication in their existing system.
 
-However, the platform supports SSO with any OAuth 2.0, OpenID Connect, or SAML-based authentication provider. To enable SSO in such scenarios, please contact us via **[Helpdesk](https://go.microsoft.com/fwlink/?linkid=2104630)** and leave your requirements in the ticket description.
+However, the platform supports SSO with any OAuth 2.0, OpenID Connect, or SAML-based authentication provider. To enable SSO in such scenarios, please contact us via **[Helpdesk](https://aka.ms/cthelpdesk)** and leave your requirements in the ticket description.
 
 ### Are there REST APIs available for integration? How can organizations integrate Community Training with their internal systems and existing applications?
 
@@ -65,7 +65,7 @@ For more details, please the [**installation overview article**](../infrastructu
 
 ### What kind of technical capability is required to deploy and set up  Community Training? Do I need an implementation partner to help with the platform configuration and setup implementation?
 
-Community Training is designed to be easily deployed and managed by the customers with minimal IT overhead. Customers can [**set up the platform**](../infrastructure-management/install-your-platform-instance/installation-guide-detailed-steps.md) on their Azure subscription on their own in a few simple clicks.
+Community Training is designed to be easily deployed and managed by the customers with minimal IT overhead. Customers can [**set up the platform**](../infrastructure-management/install-your-platform-instance/detailed-step-by-step-installation-guide.md) on their Azure subscription on their own in a few simple clicks.
 
 Your IT admin or cloud administrator responsible for managing the [**Azure Portal**](https://portal.azure.com/) can deploy the platform on your Azure subscription. Once the platform is deployed, the training manager can [**start configuring the platform and upload training content**](../get-started/step-by-step-configuration-guide.md). No coding is required.
 
@@ -76,7 +76,7 @@ You do not need a technical team or a developer to implement the platform.
 
 We are building up a community of learning partners who can assist the organizations in implementing and configuring the platform for their training scenarios.
 
-For further information on the partner ecosystem, please reach out to us [**via help desk**](https://go.microsoft.com/fwlink/?linkid=2104630).
+For further information on the partner ecosystem, please reach out to us [**via help desk**](https://aka.ms/cthelpdesk).
 
 ### What should I do if I no longer need the platform? How can I download the training content and data before terminating?
 
@@ -86,7 +86,7 @@ Before deleting the resource group, we recommend you create a copy of content an
 
 #### How are platform updates pushed to my platform instance when new features are rolled out by Microsoft?
 
-When new features and security updates are available, Microsoft will push the updates to the web portal and mobile app at a regular cadence without any manual intervention from the customers. Customers will be notified via e-mail with regards to the update. We will also be constantly publishing new rollouts on [**our documentation portal**](../whats-new-in-microsoft-community-training/whats-new-in-microsoft-community-training.md).
+When new features and security updates are available, Microsoft will push the updates to the web portal and mobile app at a regular cadence without any manual intervention from the customers. <!--We will also be constantly publishing new rollouts on [**our documentation portal**](../whats-new-in-microsoft-community-training/whats-new-in-microsoft-community-training.md).-->
 
 
 ## Teams Integration
@@ -143,6 +143,6 @@ If you have a Google account, it can be used to sign in with the Google Store. F
 
 [**Here**](../infrastructure-management/install-your-platform-instance/create-publish-mobile-app.md) is a step-by-step guide on publishing your mobile application.  
 
-If you require further assistance, contact us [**via helpdesk**](https://go.microsoft.com/fwlink/?linkid=2104630).
+If you require further assistance, contact us [**via helpdesk**](https://aka.ms/cthelpdesk).
 
-Please reach out to us [**via HelpDesk**](https://go.microsoft.com/fwlink/?linkid=2104630) if you have any further queries.
+Please reach out to us [**via HelpDesk**](https://aka.ms/cthelpdesk) if you have any further queries.

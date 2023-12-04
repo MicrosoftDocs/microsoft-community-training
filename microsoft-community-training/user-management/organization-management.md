@@ -38,7 +38,7 @@ The support for Organizations can be enabled on the platform by:
 
 ![Feature_Toggle](../media/Feature_Toggle_Old_General.png)
 
-Please refer to this [**article**](../settings/configurations-on-the-training-platform.md#enabling-organizations-on-the-platform) on how to set the configuration keys on the product.
+Please refer to this [**article**](../settings/configurations-on-the-training-platform.md#configuration-options-on-the-portal) on how to set the configuration keys on the product.
 
 ## Create a New Organization
 
@@ -63,7 +63,7 @@ Please refer to this [**article**](../settings/configurations-on-the-training-pl
 
     ![User Management - Organization Administrator](../media/User%20Management%20-%20Organization%20Administrator.png)
 
-    > [!Note]
+    > [!Note]  
     > This access is available only to Global Administrators on the platform.
 
 1. To add new organization click on **Manage Organizations**
@@ -83,7 +83,7 @@ Please refer to this [**article**](../settings/configurations-on-the-training-pl
 
 ## Edit an Existing Organization
 
-> [!NOTE]
+> [!Note]  
 > This access is available only to Global Administrators on the platform.
 
 1. Log on to the Community Training portal and [**switch to administrator view**](../get-started/step-by-step-configuration-guide.md#step-2--switch-to-administrator-view-of-the-portal).
@@ -107,7 +107,7 @@ Please refer to this [**article**](../settings/configurations-on-the-training-pl
 
     ![User Management - Organization Administrator](../media/User%20Management%20-%20Organization%20Administrator.png)
 
-    > [!Note]
+    > [!Note]  
     > This access is available only to Global Administrators on the platform.
 
 1. To edit an existing organization click on **Manage Organizations**
@@ -137,7 +137,7 @@ If an Organization is deleted, all content, users and user groups of the Organiz
 
 You can customize the look and feel of your learner experience on the Community Training platform for each of your [Organizations](#create-a-new-organization)
 
-> [!NOTE]
+> [!Note]  
 
 >* Global Administrators can adjust the settings for all Organizations.
 >* Organization Administrators can only adjust these settings for the organizations won which they are administrators.
@@ -185,7 +185,7 @@ You can customize the look and feel of your learner experience on the Community 
 
     ![User Management - Organization Administrator](../media/User%20Management%20-%20Organization%20Administrator.png)
 
-    > [!NOTE]
+    > [!Note]  
     >
     > * Global Administrators can add Organization Administrators across all organizations in the platform
     > * Organization Administrator can add other organization administrators specific to their Organizations.
@@ -198,7 +198,7 @@ You can customize the look and feel of your learner experience on the Community 
 
     ![User Management - Add Organization - Organization Administrator](../media/User%20Management%20-%20Add%20Organization%20-%20Organization%20Administrator.png)
 
-    > [!NOTE]
+    > [!Note]  
     > The Organization Administrator will have all the rights as that of a Global Administrator in the context of its assigned Organizations.
     >
     > 1. One Organization Administrator can have access to more than one Organizations, and
@@ -214,7 +214,7 @@ You can customize the look and feel of your learner experience on the Community 
 
     ![User Management - Organization Administrator](../media/User%20Management%20-%20Organization%20Administrator.png)
 
-    > [!NOTE]
+    > [!Note]  
     > This access is available only to Global Administrators on the platform.
 
 1. To **edit an existing** Organization Administrator, click on the **pencil icon** next to the **Organization Administrator**. In the **Edit Organization Administrator* popup,
@@ -236,7 +236,7 @@ Select **Delete** against the Organization Administrator to delete.
 
 Learners can be assigned to Organizations on the portal from the 'All Users' section.
 
-> [!NOTE]
+> [!Note]  
 > Only Global Admin, Organization Admin can add/edit users on the platform
 
 ### Add Single User to Organization
@@ -255,7 +255,7 @@ Learners can be assigned to Organizations on the portal from the 'All Users' sec
 
 ### Bulk upload users to Organization
 
-> [!WARNING]
+> [!WARNING]  
 >
 > Adding an existing user from a different Organization will lead to loss of course progress made in the previous organization.
 >
@@ -276,7 +276,7 @@ Learners can be assigned to Organizations on the portal from the 'All Users' sec
 
 Global administrator can update user organization while [**editing learner profile**](manage-users/edit-user-profile-on-the-platform.md#option-1---steps-to-edit-a-single-user-profile).
 
->[!warning]
+>[!WARNING]  
 >
 > Adding an existing user from a different Organization will lead to loss of course progress made in previous organization.
 >
@@ -307,45 +307,47 @@ The API signature that assigns learners to Organizations is given below.
 ```
 --->
 
-> [!NOTE]
+> [!Note]  
 > For instances with MS Teams deployment, organization admin will be able to view users of the tenant to which they belong. View the steps to [create Organizations for each tenant](../infrastructure-management/install-your-platform-instance/create-teams-app-for-your-training-portal.md#creating-organizations-for-each-tenant)
 
 ## Impact of Organizations in various admin flows
 
 1. [Enrolling Learner to a course](../content-management/manage-content/manage-course-category/manage-users-for-a-course.md#steps-to-enroll-users-directly-to-a-course) requires both Learner and Course to belong to same Organization.
 
-   > [!NOTE]
+   > [!Note]  
    > Global, Organization, Category, and Course Administrators can enroll existing users to a course.
 
 1. [Enrolling Learners to Learning Path](../content-management/manage-content/manage-learning-path/manage-user-for-a-learning-path.md#steps-to-add-users-on-the-learning-path) requires both Learner and Course to belong to same Organization.
 
-   > [!NOTE]
+   > [!Note]  
    > Global, Organization, and Learning Path Administrators can enroll existing users in platform to Learning path.
 
 1. [Add Learner via All users](add-users/add-users-to-the-portal-1.md#option-1--add-a-learner-via-all-users) requires an organization to be selected.
 
-    > [!NOTE]
+    > [!Note]  
     > Global and Organization Administrtors can add users via the All Users section.
 
 1. [Adding users to a Group](organize-users/add-a-single-user-to-the-group.md#steps-for-adding-a-single-user-to-a-group) requires both User and Group to belong to same Organization.
 
-    > [!NOTE]
+    > [!Note]  
     > Global, Organization, and Group Administrators can add existing users in platform to a Group.
 
 1. [Assign content to users in the group](manage-users/assign-content-to-group-users.md#assign-content-to-users-in-the-group): Content (Courses and Learning Path) available for assignment to group users requires to have Group and content in same organization.
 
-    > [!NOTE]
+    > [!Note]  
     > Global, Organization, and Group Administrators can assign content to users from Group.
 
 1. [Adding course to a Learning path](../content-management/create-content/create-learning-path/add-course-to-a-learning-path.md#add-course-to-a-learning-path) requires that both Course and Learning Path belong to same Organization.
 
-    > [!NOTE]
+    > [!Note]  
     > Global, Organization, and Learning Path Administrators can add courses to a learning path.
 
 1. Admin can update organization of a Category while [changing Course details](../content-management/manage-content/manage-course-category/change-course-details.md#change-course-details).
 
-    > [!NOTE]
+    > [!Note]  
     > Global and Organization Administrators can change the organization of a category.
 
-    > [!WARNING]
+    > [!WARNING]  
     > If changing the organization of an existing category, course progress made by a learner on a previous organization will be lost.
+
+Please reach out to us [**via HelpDesk**](https://aka.ms/cthelpdesk) if you have any further queries.

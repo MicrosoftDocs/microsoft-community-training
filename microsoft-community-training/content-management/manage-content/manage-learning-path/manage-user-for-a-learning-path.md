@@ -44,7 +44,7 @@ The Community Training portal provides role-based permission levels. The table b
 
     ![Add](../../../media/image%28405%29.png)
 
-    > [!IMPORTANT]
+    > [!IMPORTANT]  
     > If the authorization mode is through Work email account (Azure AD) or Social email account (Azure AD B2C), enter the email address of the administrator.
 
 1. Select **Done** to complete the action.
@@ -70,3 +70,6 @@ The Community Training portal provides role-based permission levels. The table b
 1. Select **Ok** to confirm the deletion.
 
     ![Delete and Okay](../../../media/image%28408%29.png)
+
+
+Please reach out to us [**via HelpDesk**](https://aka.ms/cthelpdesk) if you have any further queries.

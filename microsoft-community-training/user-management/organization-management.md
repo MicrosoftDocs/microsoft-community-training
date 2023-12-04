@@ -38,7 +38,7 @@ The support for Organizations can be enabled on the platform by:
 
 ![Feature_Toggle](../media/Feature_Toggle_Old_General.png)
 
-Please refer to this [**article**](../settings/configurations-on-the-training-platform.md##configuration-options-on-the-portal) on how to set the configuration keys on the product.
+Please refer to this [**article**](../settings/configurations-on-the-training-platform.md#configuration-options-on-the-portal) on how to set the configuration keys on the product.
 
 ## Create a New Organization
 

@@ -88,7 +88,7 @@ Once the customer enables eisaster recovery, we keep the backup of storage and d
 >
 >RTO depends on database and storage size, latency between the paired region, database or storage VM capacity (SKU).
 >
->RPO of community training dependends on underlying azure resources like Azure SQL and Azure storage. [Go here for further details](/azure/azure-sql/database/recovery-using-backups?view=azuresql&tabs=azure-portal).
+>RPO of community training dependends on underlying azure resources like Azure SQL and Azure storage. [Go here for further details](/azure/azure-sql/database/recovery-using-backups?view=azuresql&tabs=azure-portal&preserve-view=true).
 
 Once we detect an Community Training instance is down in any region, we take customer consent for failover to a paired region, explaining the list of features availabe during the disaster recovery. Once we get consent from the customer, their Community Training instance is failed over to paired the region.
 

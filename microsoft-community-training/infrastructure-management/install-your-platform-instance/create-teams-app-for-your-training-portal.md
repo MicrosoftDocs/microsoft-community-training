@@ -241,7 +241,7 @@ CT must be registered in the same Azure Active Directory which has MS Teams enab
 
 ##### Step 2
 
-Follow only **Step 1** on [**this link**](#step-1---delegate-permissions-on-your-azure-ad-application-setup-for-microsoft-community-training) for setting up Teams for the platform.
+Follow only **Step 1** on [**this link**](#Step-1---Delegate-permissions-on-your-Azure-AD-application-setup-for-Community-Training) for setting up Teams for the platform.
 
 ##### Step 3
 

@@ -109,8 +109,6 @@ To include external content as a lesson, add an **external web link**.
 
 Once you have completed uploading lessons, you can [**Add assessments**](add-assessments-to-a-course.md) or [**publish the course**](publishing-course.md) making it available to learners.
 
-> [!TIP]  
-> Whenever you are uploading content, [**scale up your platform configuration**](../../../infrastructure-management/configure-your-platform-infrastructure/scale-up-instance-configuration.md) to reduce the upload and processing time for the content.
 
 ## Option 2 - Bulk Upload lessons
 

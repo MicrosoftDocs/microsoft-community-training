@@ -38,7 +38,7 @@ If your instance is already setup to accept [**social login**](configure-login-s
 
 1. Login to your [**Azure portal**](https://portal.azure.com/)
 2. Note down your [**AD B2C tenant’s name**](https://learn.microsoft.com/azure/active-directory-b2c/tenant-management-read-tenant-name#get-your-tenant-name) i.e., for example, if the default domain for your Azure AD B2C tenant is contoso.onmicrosoft.com, then contoso is your tenant’s name.
-3. Create an Azure Active Directory App (can be from different tenant) [**configure login identity for the platform by creating Azure AD application**](configure-login-social-work-school-account.md#step-2---create-azure-ad-application), copy your Client ID, Client Secret and [**Tenant ID**](https://learn.microsoft.com/azure/active-directory/fundamentals/active-directory-how-to-find-tenant).
+3. Create an Azure Active Directory App (can be from different tenant) [**configure login identity for the platform by creating Azure AD application**](configure-login-social-work-school-account.md#Step-2---Create-an-Microsoft-EntraID-(Azure-AD)-application), copy your Client ID, Client Secret and [**Tenant ID**](https://learn.microsoft.com/azure/active-directory/fundamentals/active-directory-how-to-find-tenant).
 4. While in your AAD app, Click on ‘Authentication’ to add your Reply URL `https://<adb2c_tenant_name>.b2clogin.com/<adb2c_tenant_name>.onmicrosoft.com/oauth2/authresp` replace <adb2c_tenant_name> with your AD B2C tenant name from Step 2.
 
     :::image type="content" source="../../media/AddingredirectURLinAAD_app.png" alt-text="add redirect url":::

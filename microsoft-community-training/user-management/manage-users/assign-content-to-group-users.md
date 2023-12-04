@@ -65,7 +65,7 @@ The Community Training portal provides role-based permission levels. The table b
 
     > [!Note]  
     >
-    > 1. You can also disable the **Prioities** feature. More information is available [here](../../settings/configurations-on-the-training-platform.md##configuration-options-on-the-portal).
+    > 1. You can also disable the **Prioities** feature. More information is available [here](../../settings/configurations-on-the-training-platform.md#configuration-options-on-the-portal).
     > 2. Optionally, administrators can also enable the setting to NOT show any other content to learners if any of the **Required** (highest priority) courses are  NOT complete.
 
 1. Select **Done** to complete the content assignment.

@@ -154,4 +154,4 @@ Please follow the below steps to view/access your Azure key vault
 
 Community Training doesn’t support (aka honor) any Intune policies. We don’t differentiate between managed or unmanaged devices i.e. none of the MDM policies are applicable to the mobile app.
 
-Please reach out to us [**via HelpDesk**](aka.ms/ctHelpdesk) if you have any further queries.
+Please reach out to us [**via HelpDesk**](https://aka.ms/ctHelpdesk) if you have any further queries.

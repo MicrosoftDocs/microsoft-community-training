@@ -60,7 +60,7 @@ CT requires Microsoft EntraID (Azure AD) application creation and registration. 
       * Microsoft EntraID (Azure AD)’s Tenant Domain Name: Microsoft EntraID (Azure AD)’s tenant domain name. For example: contoso.onmicrosoft.com
 
 The AAD script takes ~2 minutes to run and outputs 4 values on screen (Client ID, Client Secret, Tenant Id, Tenant name). Make a note of the output values as they will be needed in next step. If someone else ran the script, ask them to share this output.
-A new app is created. If an app already exists with the same name, the script will delete the existing app and create a new app. In case of facing any issues after deployment please refer this [**guide**](troubleshooting.md#issue-7-azure-active-directory-configuration-issue).
+A new app is created. If an app already exists with the same name, the script will delete the existing app and create a new app.
 
 ### **Option 2** - Follow the Manual steps to Configure Work or School account for your training portal by following the instructions below
 
@@ -104,7 +104,7 @@ You can create a new Microsoft EntraID (Azure AD) tenant or use an existing one 
     * Enter the description and expiry time of the secret (recommended to select maximum allowed time for expiry) and click on Save button. A value would be shown. Save this Client secret value. Would be required later as the ClientSecret.
     :::image type="content" source="../../media/Obtain clientsecret value.PNG" alt-text="Image showing how to obtain Client Secret value ":::
 
-9. Make a note of the values and follow [**installation article**](microsoft-community-training\infrastructure-management\install-your-platform-instance\detailed-step-by-step-installation-guide.md) to complete the Deployment by configuring obtained values as below.
+9. Make a note of the values and follow [**installation article**](../../infrastructure-management\install-your-platform-instance\detailed-step-by-step-installation-guide.md) to complete the Deployment by configuring obtained values as below.
 
     ![Work_School_Login](../../media/Detailed_Installation_Steps/Detailed_Installation_Guide_Step4b.png)
 

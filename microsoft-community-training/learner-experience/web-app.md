@@ -44,7 +44,7 @@ This article explains how learners can access training content using the web por
 
     :::image type="content" source="../media/Profile Field - edit from learner view 2.PNG" alt-text="A screenshot showing how to edit profile fields.":::
 
-    >[!Tip]
+    >[!TIP]  
     >You can now search for the relevant value from a long list of profile field values your admin has provided. For example, you can search for your city name from a list of all cities in your country or region.
 
 3. Select **Confirm**, then select **Done**.
@@ -59,7 +59,7 @@ This article explains how learners can access training content using the web por
 
 3. Content on the homepage will be updated based on your chosen language. Refer to [**Course Translations**](../content-management/create-content/create-course-category/create-a-new-course.md#option-4---create-multiple-translations-for-a-course) to understand how language change impacts the learner view.
 
->[!NOTE]
+>[!Note]  
 >Only the languages enabled by the Global administrator will be available for selection. The dropdown will not be available to learners if only one language is enabled on the platform.
 
 ## Step 4: Browse and register for courses
@@ -76,7 +76,7 @@ This article explains how learners can access training content using the web por
 
     :::image type="content" source="../media/image(179).png" alt-text="Pop-up window":::
 
-> [!NOTE]
+> [!Note]  
 > Users can search for courses using the search option on the home page.
 
 ## Step 5: Access and learn course content
@@ -135,3 +135,4 @@ This article explains how learners can access training content using the web por
 
 2. Select the icon to open the Notice Board and read all announcements posted by the administrator.
 
+Please reach out to us [**via HelpDesk**](https://aka.ms/cthelpdesk) if you have any further queries.

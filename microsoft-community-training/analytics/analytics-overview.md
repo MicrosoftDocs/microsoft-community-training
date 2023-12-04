@@ -49,7 +49,7 @@ Community Training also provides administrators the capability to search for spe
 1. On the Community Training portal, after signing in, switch to administrator view and select the **Analytics** tab from the left navigation pane.
 1. Scroll down to the **Categories/ Courses** section and provide the string to be searched.
 
-   > [!NOTE]
+   > [!Note]  
    > User search input string should have minimum length of 3 characters.
 
 1. If you further need to drill down to the Course level, select the relevant Category (as shown below) and search for the string from the **Course Name**.
@@ -63,3 +63,6 @@ Community Training also provides administrators the capability to search for spe
 1. In case you to switch back to the broader level of content, you may do so using the navigation path available on the top.
 
    ![image.png](../media/image%28459%29.png)-->
+
+
+Please reach out to us [**via HelpDesk**](https://aka.ms/cthelpdesk) if you have any further queries.

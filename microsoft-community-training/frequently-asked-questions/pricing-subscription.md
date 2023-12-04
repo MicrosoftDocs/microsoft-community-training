@@ -74,10 +74,10 @@ Here is our recommendation on when to use each plan:
 
 * Premium plan is used when you have higher traffic requirements and want to provide a smooth user experience at scale. 
 
-Please reach out to us if you have additional questions on the hardware configuration selected for each of the plans.[**Microsoft Community Training Helpdesk**](https://go.microsoft.com/fwlink/?linkid=2104630).
+Please reach out to us if you have additional questions on the hardware configuration selected for each of the plans.[**Microsoft Community Training Helpdesk**](https://aka.ms/cthelpdesk).
 
 <!--
-NOTE: HIDING THIS AS THE QUESTION IS ANSWERED IN THE QUESTION ABOVE
+Note  : HIDING THIS AS THE QUESTION IS ANSWERED IN THE QUESTION ABOVE
 
 ### Will I be charged a license fee for Community Training in the future?
 
@@ -111,4 +111,4 @@ Community Training doesn't charge for bandwidth or streaming costs when the vide
 No. Once the content is downloaded on the device neither learner is charged for the mobile data when viewing the content nor customers are charged for any Azure consumption.
 
 
-Please reach out to us [**via HelpDesk**](https://go.microsoft.com/fwlink/?linkid=2104630) if you have any further queries.
+Please reach out to us [**via HelpDesk**](https://aka.ms/cthelpdesk) if you have any further queries.

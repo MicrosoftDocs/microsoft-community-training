@@ -70,7 +70,7 @@ This section enables an admin to compare learner’s enrollment and course compl
 In the table below, for each category, you can see the number of courses, the unique number of learners enrolled, and the number of course completions with course completion percentage.  
 ![Categories](../../media/image%2838%29.png)
 
-> [!NOTE]
+> [!Note]  
 > Hover over the column header to view the definition of the column in the table.
 
 From the category grid, you can:  
@@ -78,3 +78,5 @@ From the category grid, you can:
 1. Select the respective **column headings to sort** the rows by any column.
 2. Select **Download List** to download the data into an Excel sheet.
 3. Select a row to [**view detailed information**](./category-view-report.md) about course enrollments and course completion for the specific category.
+
+Please reach out to us [**via HelpDesk**](https://aka.ms/cthelpdesk) if you have any further queries.

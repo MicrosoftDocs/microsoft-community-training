@@ -37,3 +37,6 @@ It is good prctice to go through the following checklist before publishing a cou
     ![move courses final](../../../media/move-courses-final.gif)
 
 1. Select **Publish** on right-navigation of the page to publish the course to the learners.
+
+
+Please reach out to us [**via HelpDesk**](https://aka.ms/cthelpdesk) if you have any further queries.

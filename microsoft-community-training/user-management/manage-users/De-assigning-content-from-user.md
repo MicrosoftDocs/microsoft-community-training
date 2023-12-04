@@ -11,7 +11,7 @@ ms.prod: learning-azure
 
 The Community Training platform now allows administrators to remove learners from Courses, Learning Paths, and User Groups which will de-assign them from the relevant content mapped through these segments. With this, once the learner is de-assigned from a content, he/she will not be able to view that content.
 
-> [!NOTE]
+> [!Note]  
 >
 >* If the learner has completed a course, they can't be de-assigned from that course and they would still be able to see the course and their progress would remain intact.
 >* The content de-assignment holds applicable for Self and Admin enrolled course types only. The user remains enrolled in auto enrolled courses and there is no effect in that case – the learner progress also remains intact.
@@ -46,5 +46,7 @@ If an administrator removes a learning path from a group, all links between the 
 
 If an administrator removes a course from a learning path, all links between the learner and the course through that learning path will be lost and the user will be de-assigned from those courses unless a link still exists via another learning path.
 
-> [!WARNING]
+> [!WARNING]  
 > All translated courses and sub-courses will also be de-assigned when a the parent course is de-assigned.
+
+Please reach out to us [**via HelpDesk**](https://aka.ms/cthelpdesk) if you have any further queries.

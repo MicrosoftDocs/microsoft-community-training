@@ -29,7 +29,7 @@ This role is assigned to decision-makers or program owners who are responsible f
 
 Here are the steps on [**how to assign global administrator permission to a user**](../user-management/add-users/add-an-administrator-to-the-portal.md).
 
-> [!IMPORTANT]
+> [!IMPORTANT]  
 > Except for portal branding and profile page customization, the global administrator can delegate all the other activities like content management and user management to other administrators on the portal.
 
 ### 2. Organization Administrator
@@ -54,7 +54,7 @@ Category Administrators can create new courses and manage all the existing cours
 
 Here are the steps on [**how to assign Category Administrator permissions to a user**](../user-management/add-users/add-an-administrator-to-the-portal.md).
 
-> [!NOTE]
+> [!Note]  
 > Global and Organization Administrators have privileges over other users as Category and Course Administrators on the portal.
 
 #### Course Administrator
@@ -63,7 +63,7 @@ Course Administrators can manage and update content only for courses where they 
 
 Here are the steps on [**how to assign Course Administrator permissions to a user**](../user-management/add-users/add-an-administrator-to-the-portal.md).
 
-> [!NOTE]
+> [!Note]  
 > A Category Administrator can also be added as a Course Administrator for a course under a different category in the portal.
 
 ### 4.  Group Administrator
@@ -72,7 +72,7 @@ This role is assigned by a Global Administrator to a grassroots-level facilitato
 
 Here are the steps on [**how to assign Group Administrator permissions to a user**](../user-management/add-users/add-an-administrator-to-the-portal.md).
 
-> [!NOTE]
+> [!Note]  
 > A user can have more than one administrative role on the portal. For example, a user can be both a Course Administrator and a Group Administrator.
 
 ### 5. Learner
@@ -81,10 +81,12 @@ This is the default role assigned to any user added to the portal. Users with th
 
 Here are steps on [how to navigate the portal as a Learner](../learner-experience/web-app.md).
 
-> [!IMPORTANT]
+> [!IMPORTANT]    
 > There is no restriction on the number of users you can add in the portal for a given administrative role. For, example you can have multiple Global Administrators for the portal.
 
 ## Role-based access to management portal features
 
 Organizations can assign specific administrative roles to users and provide access to relevant features on the management portal to help the user to carry out administrative tasks required for the role.
 [**Role-based Admin Functionalities.pdf**](https://github.com/MicrosoftDocs/microsoft-community-training/files/7167101/Role-based.Admin.Functionalities.pdf) <!-- AA: Isn't this already alluded to at the top of this page?-->
+
+Please reach out to us [**via HelpDesk**](https://aka.ms/cthelpdesk) if you have any further queries.

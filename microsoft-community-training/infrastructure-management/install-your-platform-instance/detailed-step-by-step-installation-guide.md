@@ -27,10 +27,10 @@ Hiding this until the work on this topic is complete
 **We currently do not support Microsoft Community Training on free trial Azure subscriptions.**
 -->
 
-> [!WARNING]
+> [!WARNING]  
 > If you’re a nonprofit organization who wants to use Microsoft Community Training platform, you can apply and avail the Azure grant subject to eligibility. See the [**detailed steps here**](https://www.microsoft.com/en-us/nonprofits/eligibility?activetab=pivot1:primaryr4).
 
->[!Note]
+>[!Note]  
 > If you are nonprofit, please make sure you are installing the Microsoft Community Training in the Microsoft Sponsored Subscription
 
 ### 2. Get the right ownership access
@@ -65,7 +65,7 @@ Based on the authentication type (Phone/Social login OR Work/School Account), yo
 
 [**Sign up on Google Play console**](https://play.google.com/apps/publish/signup/)  in order to publish your app on the Google Play Store.  This is required only if you require mobile app for Microsoft Community Training instance.
 
-> [!NOTE]
+> [!Note]  
 > This step may be done later after installation.
 
 
@@ -81,25 +81,26 @@ Based on the authentication type (Phone/Social login OR Work/School Account), yo
     ![Locate Community Training](../../media/Detailed_Installation_Steps/Detailed_Installation_Guide_Step1.png)
 
 4. Click on **Create Community Training** to start the deployment process.
-    >NOTE: If you already have an instance of the Community Training and would like to create a second one, click on create to the top left of the screen.
+    >[!Note]  
+    > If you already have an instance of the Community Training and would like to create a second one, click on create to the top left of the screen.
 
 
     ![Initiate Deployment Process](../../media/Detailed_Installation_Steps/Installation_Community_Landing.png)
 
-    [!Note]
+    >[!Note]  
     >Over the next few screens, you will enter the information required to set the platform. 
 
 5. On the Basic information page, select the subscription ID associated with your account. If you have a resource group, please select. OR, click on "Create New" to create a new resouce group. Also select the SKU and the pricing tier.
 
     ![Basic Information Page](../../media/Detailed_Installation_Steps/Installation_Step1.png)
 
-    > [!Note]
+    >[!Note]    
     >Community Training offers two SKUs with license fees in addition to an Azure infrastructure fee for cloud services consumers.
     >1. Non-profit
     >2. Commercial   
  For more information on the pricing, please visit the [**Pricing and Subscription**](../../frequently-asked-questions/pricing-subscription.md)
 
-    [!Note]
+    [!Note]  
     >Community Training Installations are offered in two pricing tiers.
     >1. Standard
     >2. Premium  
@@ -119,7 +120,7 @@ Based on the authentication type (Phone/Social login OR Work/School Account), yo
 
     
     
-    >[!Note]
+    >[!Note]  
     > * Please refer to this documentation for [**social account configuration guide**](../../infrastructure-management/install-your-platform-instance/configure-login-social-work-school-account.md#social-account-or-email-based-authentication)  
     >* Please refer to this documentation for [**Phone Account Setup Guide**](https://learn.microsoft.com/en-us/azure/active-directory-b2c/phone-authentication-user-flows)  
     > Please refer to this [**link**](https://azure.microsoft.com/en-us/pricing/details/active-directory-external-identities/#resources) for pricing information.
@@ -130,7 +131,7 @@ Based on the authentication type (Phone/Social login OR Work/School Account), yo
 
     This option allows you to use existing work or school account lo login to the Community Training. You will need to provide a contact who will act as the Global Admin on the Community Training.  
     
-    > [!Note]  
+    > [!Note]    
     >You will need Azure Active Directory , also known as Azure Entra ID to be setup to choose either option.  
     >* Please refer to this [**link**](https://azure.microsoft.com/en-us/pricing/details/active-directory-external-identities/#resources) for pricing.  
     >* Please refer to this link [**work or school account configuration guide**](../../infrastructure-management/install-your-platform-instance/configure-login-social-work-school-account.md#work-or-school-account-based-authentication) for help with setup. 
@@ -140,21 +141,21 @@ Based on the authentication type (Phone/Social login OR Work/School Account), yo
     ![Work_School_Login](../../media/Detailed_Installation_Steps/Installation_Step_2_WorkSchool.png)
 
 
-Once you have made a choice of authenticated and entered corresponding information, click on **Next**
+Once you have made a choice of authenticateion for the Learner and entered corresponding information, click on **Next**
 
 
 7. On this screen, you will select the data resiliency and disaster recovery options.
 
-> [!Note]
+> [!Note]    
 > The Disaster Recovery options come at a cost. Please refer to the [**pricing Calculator**](https://communitytraining.microsoft.com/pricing/) to get an estimate of the cost.
 
-> [!Note]
+> [!Note]    
 > The decision to have a disaster recovery needs to be made at installation. This option can **NOT** be changed later. 
 
 ![DR_Options](<../../media/Detailed_Installation_Steps/Installation_Step 3.png>)
 
-> [!NOTE]
->Service A stores customer data. By default, customer data stays within the region the customer deploys the service instance in. However, the customer can choose to replicate data to a paired region (If Available) for Disaster Recovery purposes. For list of available regions, please refer to this [***link***](https://learn.microsoft.com/en-us/azure/reliability/cross-region-replication-azure#azure-paired-regions).
+> [!Note]    
+>By default, customer data stays within the region the customer deploys the Community Training instance in. However, the customer can choose to replicate data to a paired region (If Available) for Disaster Recovery purposes. For list of available regions, please refer to this [***link***](https://learn.microsoft.com/en-us/azure/reliability/cross-region-replication-azure#azure-paired-regions).
 
 Once you have made your selection, click on **Next** or **Review + Create**
 
@@ -175,4 +176,7 @@ Below are few additional resources to help you with the setup.
 To setup a mobile app for your instance, follow the instructions given in the [**create and publish your Mobile App**](../../infrastructure-management/install-your-platform-instance/create-publish-mobile-app.md) article.
 
 To setup Teams for your instance , follow the instructions given in the [**setup Microsoft Teams as learner's endpoint**](../../infrastructure-management/install-your-platform-instance/create-teams-app-for-your-training-portal.md) for the platform article.
+
+
+Please reach out to us [**via HelpDesk**](https://aka.ms/cthelpdesk) if you have any further queries.
 

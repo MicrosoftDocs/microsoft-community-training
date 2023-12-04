@@ -304,7 +304,7 @@ When setting up the Community Training instance, if you opt for MS Teams integra
 
 To disable this MS Teams integration, update this app setting with **Value = '0'**
 
-> [!WARNING]
+> [!WARNING]  
 >
 >- MS Teams integration comes with CT instances with authentication type as "Work or School Account".
 >- Once you disable the MS Teams integration, you would be able to add users to the platform via CT Admin UI.
@@ -333,7 +333,7 @@ By default, the application setting is marked as **False**. All the progress of 
 
 <!--
 
-NOTE FOR CONTENT WRITERS: MASKING IS NOT RELEASE UNTIL ATLEAST GA+1 RELEASE.
+Note   FOR CONTENT WRITERS: MASKING IS NOT RELEASE UNTIL ATLEAST GA+1 RELEASE.
 
 ## Mask user details for admin
 
@@ -367,3 +367,6 @@ Features:Masking:MaskedProfileFields
 | `UserCacheExpiryInHour` | The user cache expiry time in hours. |
 
 | `MaxRetryCountForWebJobs` | Number of retries for web job failure. This is for internal purposes and should not be tweaked by customers unless advised.|
+
+
+Please reach out to us [**via HelpDesk**](https://aka.ms/cthelpdesk) if you have any further queries.

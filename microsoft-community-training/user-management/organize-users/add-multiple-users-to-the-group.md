@@ -44,7 +44,7 @@ Before you start the bulk upload, ensure the users list is structured in the rig
 
 1. Remove the sample users from the CSV file.
 
-    > [!WARNING]
+    > [!WARNING]  
     > Do not remove the column headers from the file.
 
 1. Start entering user details per row with the following information under each column header:
@@ -55,7 +55,7 @@ Before you start the bulk upload, ensure the users list is structured in the rig
 
         ![user details](../../media/image%2857%29.png)
 
-> [!NOTE]
+> [!Note]  
 > If the portal is setup with the login identity as **Social Account** or **Entra ID (Azure Active Directory)**  you will need to enter email address in the above step.
 
 #### Step 3 – Add User Profile Data (optional)
@@ -71,7 +71,7 @@ Before you start the bulk upload, ensure the users list is structured in the rig
 
 1. Once you have finished updating the user details, save the file with a new name.
 
-> [!IMPORTANT]
+> [!IMPORTANT]  
 > Column headers and values are case-sensitive and should exactly match the values available in the additional profile settings. Additional profile fields must be published for the csv file to be successfully uploaded.
 
 #### Step 4 – Verify the CSV file before uploading
@@ -101,13 +101,13 @@ Before you start the bulk upload, ensure the users list is structured in the rig
 
     ![Users list from your local machine](../../media/image%2859%29.png)
 
-    > [!NOTE]
+    > [!Note]  
     > Before you begin this step, please ensure that user list is in correct format. See detailed steps on [**how to a create user list**](#prerequisite-for-using-bulk-upload-users-feature).
 
 1. Select **Upload** to upload the CSV file.
 
-> [!IMPORTANT]
+> [!IMPORTANT]  
 > There is a limit of 10000 users for each bulk upload operation. To upload more users, create multiple csv files.
 
-> [!TIP]
+> [!TIP]  
 > Bulk upload is a resource intensive operation and might take time to complete. If it is taking too long to import users, please [**scale up your platform instance**](../../infrastructure-management/configure-your-platform-infrastructure/scale-up-instance-configuration.md).

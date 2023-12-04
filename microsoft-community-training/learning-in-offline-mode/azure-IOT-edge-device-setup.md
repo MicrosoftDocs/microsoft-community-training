@@ -31,7 +31,7 @@ This step is required for generating SSL certificates for successful HTTPS conne
 4. Make changes to the /etc/hosts file such that the new domain points to 127.0.0.1.
 5. Replace all occurrences of 127.0.0.1 in the deployment template file with the new domain configured for this deployment.
 
->[!Note]
+>[!Note]  
 > For testing purposes, a self-signed certificate for 127.0.0.1 can also be used. [**Follow the steps**](/dotnet/core/additional-tools/self-signed-certificates-guide) in this document to generate a self-signed certificate in Linux using OpenSSL.
 >
 >If there is no certificate password, the password.txt file can be left blank.
@@ -42,7 +42,7 @@ This step is required for generating SSL certificates for successful HTTPS conne
 
 Perform the steps to [**Deploy Azure IoT Edge modules with Azure CLI**](/azure/iot-edge/how-to-deploy-modules-cli?view=iotedge-2018-06) to deploy the mctdeployment.json file configured in the Step 3 of the [**Azure IoT Hub Initial Setup documentation**](/azure/industry/training-services/microsoft-community-training/learning-in-offline-mode/azure-iot-hub-initial-setup#step-3-configuring-deployment-file) to the Linux edge device.
 
->[!important]
+>[!IMPORTANT]  
 >This step should be done in the device where the [**Azure IoT Hub Initial setup**](azure-IOT-hub-initial-setup.md) was done.
 
 ## Step 5: Ensure Successful Deployment

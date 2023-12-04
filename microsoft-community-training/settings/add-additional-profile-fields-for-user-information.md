@@ -46,7 +46,7 @@ The Community Training management portal provides role-based permission levels. 
    1. **Single choice** -  Use this type of field when you want learners to choose 1 value among the finite set of options. Use this field to capture learner information such as Job Role, Department, Center Location, etc.
    1. **Multiple choice** - Use this type of field when you want learners to choose one or more values among the finite set of options. Use this field to capture learner information such as Topics of Interest, Learning Preferences, and more.
 
-       > [!WARNING]
+       > [!WARNING]  
        >
        > * For Single and Multiple choice fields, you can add as many options as you prefer.
        > * In total, you can add up to 15 additional fields.
@@ -61,7 +61,7 @@ The Community Training management portal provides role-based permission levels. 
     2. **Numerals**: This criteria will restrict the learner to add only numeric values to the profile field.
     3. **Regular Expression**: This format allows the administrator to define the validation criteria from his end using a regular expression format.
 
-    > [!NOTE]
+    > [!Note]  
     > * Each element of criteria will allow the administrator to enter the **description** in various languages. This description  is shown to the users in the text field input box in the profile panel.
     > * The administrator can also enter **error messages** in various languages. This message will be shown to the users if they input any value that does not fulfil the validation criteria.
 
@@ -79,7 +79,7 @@ The Community Training management portal provides role-based permission levels. 
 
     :::image type="content" source="../media/Profile Field - download-upload list.PNG" alt-text="upload-download-list":::
 
-    > [!NOTE]
+    > [!Note]  
     > You can download the sample .csv file using the download list option and modify the file and upload it with the new values.
 
 1. Toggle the required option to mark each profile field as either,
@@ -87,12 +87,12 @@ The Community Training management portal provides role-based permission levels. 
    1. **Hidden**: Learners will not be able to view this field, such fields can be used by administrators for internal management.
    1. **Non-editable**: Learners will be able to view the profile field but not edit it.
    ![Non-editable](../media/image%28327%29.png)
-   > [!NOTE]
+   > [!Note]  
    > Any change in a new or existing profile field will be applicable to new and existing learners on the platform.
 
 1. Once you have added the fields, select **Publish**. You’ll be asked to confirm by typing Publish again in the prompt.
 
-> [!CAUTION]
+> [!CAUTION]  
 >
 > * Ensure you select Publish. Otherwise, the changes you made will be lost.
 > * Note that, while making any change in existing profile field data, this could impact learner association with a smart group (if present).
@@ -116,7 +116,7 @@ For example, if there are two profile fields **State** and **City** and if City 
 
     :::image type="content" source="../media/assocfiled.png" alt-text="Associatedfiled":::
 
-    > [!WARNING]
+    > [!WARNING]  
     >
     > Please note that changing/adding associations to an existing field will result in loss of the profile data for users.
 
@@ -124,7 +124,7 @@ For example, if there are two profile fields **State** and **City** and if City 
 
     :::image type="content" source="../media/choosedep.png" alt-text="choosingdependency":::
 
-    > [!NOTE]
+    > [!Note]  
     >
     > Only Single Choice type profile fields can be chosen as dependency fields. By default, associated profile fields can be set with a dependency of up to two levels.
     > **For example**, if an organization wants to have `City`, `State` and `Country` to be associated, then below are the steps to take:
@@ -138,7 +138,7 @@ For example, if there are two profile fields **State** and **City** and if City 
 
     :::image type="content" source="../media/depchooseoptions.png" alt-text="chooseoptions":::
 
-    > [!NOTE]
+    > [!Note]  
     >
     >Associated field options can also be added through bulk upload flow via a .csv file with the options listed as example format given below for associating State with Country.
     > :::image type="content" source="../media/depassocupload.png" alt-text="uploaddependency":::
@@ -147,7 +147,7 @@ For example, if there are two profile fields **State** and **City** and if City 
 
     :::image type="content" source="../media/depassocaddoption.png" alt-text="uploadoption":::
 
-    > [!CAUTION]
+    > [!CAUTION]  
     >
     > The combined option count that you can add via UI for a dependent field is capped at 10, to add more than 10 options use bulk upload.
 
@@ -169,8 +169,13 @@ You can include a link to your privacy terms and conditions that will be shown t
 
 1. Once you have made the changes, select **Publish**. You’ll be asked to confirm by typing Publish again in the prompt.
 
-      > [!CAUTION]
-      > Ensure you click on Publish. Otherwise, the changes you made will be lost.
+      > [!CAUTION]  
+      > Ensure you click on **Publish**. Otherwise, the changes you made will be lost.  
+  
 
 1. Learners can access the privacy terms along with the profile fields selecting the User Image on top right corner and selecting **My Profile**
-  ![My Profile](../media/image%28271%29.png)
+
+      ![My Profile](../media/image%28271%29.png)
+
+
+Please reach out to us [**via HelpDesk**](https://aka.ms/cthelpdesk) if you have any further queries.

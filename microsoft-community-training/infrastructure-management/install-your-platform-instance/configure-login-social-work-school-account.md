@@ -21,7 +21,7 @@ Community Training platform provides two types of login:
 1. Social email-based login via your Microsoft, Google or Facebook account
 2. Microsoft Work or School account
 
-> [!NOTE]
+> [!Note]  
 > Please note this article is in continuation of the [**installation article**](../../infrastructure-management/install-your-platform-instance/installation-guide-detailed-steps.md).
 
 In this article, we will walk you through on how to configure login identity for the platform.
@@ -108,7 +108,7 @@ You can create a new Microsoft EntraID (Azure AD) tenant or use an existing one 
 
     ![Work_School_Login](../../media/Detailed_Installation_Steps/Detailed_Installation_Guide_Step4b.png)
 
->[!Note]
+>[!Note]    
 >If you are facing any issues while Deploying your AD instance, please follow the header "Microsoft EntraID (Azure AD) Configuration issue" under [**troubleshooting document**](troubleshooting.md) and send us the required output.
 
 ### Multi-Tenant support for Microsoft EntraID (Azure AD) based Authentication
@@ -197,10 +197,10 @@ Here are the steps an create on Azure AD B2C tenant and link the same with your 
     >
 
 <!--
-    NOTE TO DOCUMENTATION WRITERS: THIS IS REMOVED AS IT IS NO LONGER NEEDED. KEEPING IT HERE, JUST IN CASE IT IS REQUIRED IN FUTURE.
+    Note   TO DOCUMENTATION WRITERS: THIS IS REMOVED AS IT IS NO LONGER NEEDED. KEEPING IT HERE, JUST IN CASE IT IS REQUIRED IN FUTURE.
    
 
-    > [!NOTE]
+    > [!Note]  
     > Setting Password Reset Flow for an Existing Deployment:
     > If you are setting up the **Password reset flow** on an existing deployment with Azure AD B2C authentication:
     >
@@ -245,3 +245,5 @@ Here are the steps to create policies based on the Identity Provider:
 
     5. Select User Attributes and ensure no options are selected.
     6. The portal automatically restarts and the changes take effect.
+
+Please reach out to us [**via HelpDesk**](https://aka.ms/cthelpdesk) if you have any further queries.

@@ -22,5 +22,8 @@ When you no longer need your training portal, you can delete it by deleting the 
 
    ![Delete_Instance](../../media/Delete_Instance.png)
 
-> [!WARNING]  
+> [!WARNING]    
 > Once you delete your learning portal resource group, you will lose all data and it cannot be recovered.
+
+
+Please reach out to us [**via HelpDesk**](https://aka.ms/cthelpdesk) if you have any further queries.

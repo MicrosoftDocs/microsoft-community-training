@@ -51,3 +51,5 @@ Community Training enables you to provide a link to an external website on the l
     :::image type="content" source="../media/el7.png" alt-text="External link 7":::
 
 1. Select the available link (**Community Training**, as in the example above) and the web site opens as a new tab on your screen.
+
+Please reach out to us [**via HelpDesk**](https://aka.ms/cthelpdesk) if you have any further queries.

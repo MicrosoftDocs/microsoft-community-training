@@ -11,7 +11,7 @@ ms.prod: learning-azure
 
 By default, the Community Training platform is available in English to the learners. To support native learners, you can enable more languages and configure the default language for your platform instance.
 
-> [!IMPORTANT]
+> [!IMPORTANT]  
 > Language support is for system generated strings only, not the content. Content can be added in any language as per the training requirements.
 
 In this article, you'll learn how to customize languages and set the default language for the management portal.
@@ -39,7 +39,7 @@ The Community Training platform provides role-based permission levels.  The tabl
 
 1. From **Languages**, select the languages you want to enable on the platform.
 
-      > [!NOTE]
+      > [!Note]  
       > This will enable languages only for the Web Application. To enable languages on the MobileApp, follow the steps in this [**article**](../infrastructure-management/install-your-platform-instance/create-publish-mobile-app.md).
 
 1. Hover over the language, and select **Mark as Default** to set the language as the default.
@@ -48,7 +48,7 @@ The Community Training platform provides role-based permission levels.  The tabl
 
 1. Select **Apply Changes** to publish your changes.
 
-      > [!CAUTION]
+      > [!CAUTION]  
       > Ensure you click on Apply Changes. Otherwise, the changes you made will be lost.
 
 1. The chosen languages will be available for learners to select before signing in. The "**Default**" language will be the first language in the list and the portal will be viewable to the learner initially in that language.
@@ -58,3 +58,5 @@ The Community Training platform provides role-based permission levels.  The tabl
     :::image type="content" source="../media/admin_UI.PNG" alt-text="Admin localization":::
 
 1. If the language of your choice is not available on the platform follow the steps in [**this article**](../settings/request-a-new-language.md) to add new languages for your platform instance.
+
+Please reach out to us [**via HelpDesk**](https://aka.ms/cthelpdesk) if you have any further queries.

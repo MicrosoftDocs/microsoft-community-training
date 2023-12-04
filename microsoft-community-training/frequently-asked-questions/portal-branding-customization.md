@@ -27,7 +27,7 @@ You can customize the name and icon of the training tab in MS Teams as per your 
 
 Community Training doesn't support multiple home pages out of the box. However, you can customize and develop multiple standalone HTML pages (one for each program) with a link to sign in to the Learner view. Course assignment can be controlled by prompting the user to choose the employment center/program during the one-time sign-up process.
 
-For more information and support on how to enable this, please contact us via [**HelpDesk**](https://go.microsoft.com/fwlink/?linkid=2104630).
+For more information and support on how to enable this, please contact us via [**HelpDesk**](https://aka.ms/cthelpdesk).
 
 ### Can the landing page or homepage have a different design?
 
@@ -35,7 +35,7 @@ You can customize the landing page with a custom theme color, banner image, and 
 
 Alternatively, you can create your own landing page and direct users to the training instance from the landing page.
 
-For more information and support on how to enable this, please contact us via [**HelpDesk**](https://go.microsoft.com/fwlink/?linkid=2104630).
+For more information and support on how to enable this, please contact us via [**HelpDesk**](https://aka.ms/cthelpdesk).
 
 ### Is it possible to hide courses shown on the home page when the web portal is opened?
 
@@ -45,7 +45,7 @@ Yes, it is possible and can be achieved in two ways.
 
 * **Method 2**: You can have your custom homepage and simply set redirection triggers to the sign-in page, which allows the customers to bypass our default homepage.
 
-For more information and support on how to enable this, please contact us via [**HelpDesk**](https://go.microsoft.com/fwlink/?linkid=2104630).
+For more information and support on how to enable this, please contact us via [**HelpDesk**](https://aka.ms/cthelpdesk).
 
 ### How do I upload the Privacy Statement & Terms and Conditions for users to read at the time of sign-up?
 
@@ -150,4 +150,4 @@ You can change the domain of your portal and use a custom domain that reflects y
 You can collect a course level feedback by incorporating a pre-filled google forms or survey monkey links. The users will see the option at the bottom of the course, to provide feedback. Please refer to [*this*](../content-management/create-content/create-course-category/add-feedback-form-for-a-course.md) article for more information on adding feedback collection mechanism for a course.
 
 
-Please reach out to us [**via HelpDesk**](https://go.microsoft.com/fwlink/?linkid=2104630) if you have any further queries.
+Please reach out to us [**via HelpDesk**](https://aka.ms/cthelpdesk) if you have any further queries.

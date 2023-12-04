@@ -43,11 +43,11 @@ Refer to [**this article**](../infrastructure-management/configure-your-platform
 -->
 ### What is the backup policy?
 
-Customers can configure the **[backup frequency and policy](/azure/backup/backup-azure-manage-vms#manage-backup-policy-for-a-vm)**. From the product team perspective, we recommend customers do daily a backup.  
+Customers can configure the **[backup frequency and policy](/azure/backup/backup-azure-manage-vms#manage-backup-policy-for-a-vm)**. From the product perspective, we recommend customers do daily a backup.  
 
 ### What are the committed Recovery Time Objective (RTO) and Recovery Point Objective (RPO)?
 
-Customers can configure the geo-replication, automatic failover, etc. for business continuity scenarios as their business requirements. For example, for Azure SQL Database, geo-restore from geo-replicated backups is RTO - 12 hours and RPO – 6 hours.
+Customers can configure the geo-replication, failover, etc. for business continuity scenarios as their business requirements. For example, for Azure SQL Database, geo-restore from geo-replicated backups is RTO - 12 hours and RPO – 6 hours.
 
 ## Data encryption & protection
 
@@ -55,7 +55,7 @@ Customers can configure the geo-replication, automatic failover, etc. for busine
 
 When data is in transit, it is encrypted using TLS 1.2. When data is at rest, it is encrypted using Transparent Data Encryption (i.e. TDE).
 
-For more details on Transfer Data Encryption, please visit [**this article**](/sql/relational-databases/security/encryption/transparent-data-encryption?view=sql-server-ver15&preserve-view=true).
+For more details on Transfer Data Encryption, please visit [**this article**](https://learn.microsoft.com/en-us/sql/relational-databases/security/encryption/transparent-data-encryption?view=sql-server-ver15).
 
 ### Can customers use their own encryption keys for data encryption?
 
@@ -114,15 +114,11 @@ However, since we are in public preview there is no committed SLA provided for C
 
 ### What are the different components used to secure the Community Training from DDOS, man-in-the-middle attacks, etc.?
 
-All the Azure components are hosted within the customer’s Azure subscription whereby the data is fully secure and owned by the customer. The contents of the resources are hosted only on the geographical premises as chosen by the customer.
-
-Customer content on the Azure blob storage and Azure SQL databases are highly secure and the credentials are also secured and stored in the Azure Key Vault. Again, all of this is owned by the customer.
-
-Lastly, Azure web apps are secured against external attacks by following best practices in building scalable server applications.
+The contents of the Azure resources are hosted only on the geographical premises as chosen by the customer.
 
 Here are some of the key things we do to secure the platform:
 
-1. We use encryption in Transit to ensure the data over a network over API calls can’t be tampered with
+1. We use encryption in Transit to ensure the data over a network. <!-- over API calls can’t be tampered with -->
 
 2. Always use of Secure connections (HTTPS)
 
@@ -135,7 +131,7 @@ Here are some of the key things we do to secure the platform:
 
 ### How are feature and security updates applied to the platform? What is the update frequency?
 
-We release monthly updates to the platform. Since the Community Training will be deployed as a managed app, all the platform updates will be pushed directly by Microsoft without any intervention required by the customer. For more details, please visit [**this article**](../infrastructure-management/install-your-platform-instance/installation-overview.md).
+All the platform updates to the Community Training will be pushed directly by Microsoft without any intervention required by the customer. For more details, please visit [**this article**](../infrastructure-management/install-your-platform-instance/installation-overview.md).
 
 ### How to view my Azure portals Secret Key vault?
 
@@ -158,4 +154,4 @@ Please follow the below steps to view/access your Azure key vault
 
 Community Training doesn’t support (aka honor) any Intune policies. We don’t differentiate between managed or unmanaged devices i.e. none of the MDM policies are applicable to the mobile app.
 
-Please reach out to us [**via HelpDesk**](https://go.microsoft.com/fwlink/?linkid=2104630) if you have any further queries.
+Please reach out to us [**via HelpDesk**](aka.ms/ctHelpdesk) if you have any further queries.

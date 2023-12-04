@@ -40,5 +40,8 @@ The Community Training portal provides role-based permission levels. The table b
 
     ![Confirmation dialog](../../media/image%2863%29.png)
 
-> [!WARNING]
+> [!WARNING]  
 > When you remove a user from the platform, all the information around course enrollment, learner progress and group participation is also deleted from the portal. **User information cannot be recovered once deleted**.
+
+
+Please reach out to us [**via HelpDesk**](https://aka.ms/cthelpdesk) if you have any further queries.

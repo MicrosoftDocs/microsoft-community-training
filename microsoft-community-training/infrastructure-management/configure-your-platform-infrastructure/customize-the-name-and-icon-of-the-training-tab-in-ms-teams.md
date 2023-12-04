@@ -38,3 +38,6 @@ This article assumes you have completed the steps outlined in the [MS Teams inst
 
 1. Zip the three files (Color.png, outline.png and manifest.json) to create a new manifest zip file.
 2. Follow the instructions in the [Steps to enable learning inside Microsoft Teams document](/azure/industry/training-services/microsoft-community-training/infrastructure-management/install-your-platform-instance/create-teams-app-for-your-training-portal), from Step 3 to upload the updated file.
+
+
+Please reach out to us [**via HelpDesk**](https://aka.ms/cthelpdesk) if you have any further queries.

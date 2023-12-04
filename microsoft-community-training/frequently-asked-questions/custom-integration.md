@@ -21,7 +21,7 @@ Post-session, to mark the completion, you can give learners assessment that they
 
 Also, you can replace the live training link with the actual recording of the training session on the platform for people to view and consume the content later.
 
-For more details, please reach out to us [**via HelpDesk**](https://go.microsoft.com/fwlink/?linkid=2104630).
+For more details, please reach out to us [**via HelpDesk**](https://aka.ms/cthelpdesk).
 
 ### Can I integrate Cisco WebEx, Microsoft Teams, Zoom, etc. with Community Training for live sessions?
 
@@ -65,7 +65,7 @@ Here are the steps to embed the webview of CT in your custom mobile application 
     * `https://<DOMAIN>.azurewebsites.net/home/defaultsignin?whr=uri%3aB2C&referrer=basedomain&domain_hint=DOMAIN`
     * Where Domain is name of your instance. eg: if your instance url is `https://contoso.azurewebsites.net` then replace DOMAIN with 'contoso'
 
-Contact us [**via HelpDesk**](https://go.microsoft.com/fwlink/?linkid=2104630) to get help on the integration.
+Contact us [**via HelpDesk**](https://aka.ms/cthelpdesk) to get help on the integration.
 
 ### Identity Mapping between external portal to CT (via ADB2C)
 
@@ -84,7 +84,7 @@ CT allows you to map identity with an external portal i.e. if you have an extern
   * Please update the required params in the code following the documentation of S2S here[ Service-to-Service Authentication](/azure/industry/training-services/microsoft-community-training/rest-api-management/service-to-service-authentication) and then publish the function app.
 * Here is a [sample recording](https://microsoft.sharepoint.com/:v:/t/BuildingSangam/EQZ7Z2zY7zdAuQY5leNYmwgBO7-ezdGFTUngJWdz70wmsA?e=YIITyN) for your reference.
 
-NOTE: THIS SECTION IS HIDDEN UNTIL THE S2S BECOMES AVAILABLE AGAIN
+Note  : THIS SECTION IS HIDDEN UNTIL THE S2S BECOMES AVAILABLE AGAIN
 --> 
 
 ### Does Community Training provide any job-matching capabilities? How can I integrate Community Training with external job portals?
@@ -93,9 +93,9 @@ Community Training does not come with any job-matching capabilities out of the b
 
 <!--However, it can be integrated with external job portals to push learner progress and course certificates using the REST APIs.
 
-For more information, please reach out to us [**via HelpDesk**](https://go.microsoft.com/fwlink/?linkid=2104630) on how to integrate the platform with external application.
+For more information, please reach out to us [**via HelpDesk**](https://aka.ms/cthelpdesk) on how to integrate the platform with external application.
 
-NOTE: THIS SECTION IS HIDDEN UNTIL THE APIs BECOME AVAILABLE
+Note  : THIS SECTION IS HIDDEN UNTIL THE APIs BECOME AVAILABLE
 -->
 
 ### Is e-commerce and payment integration available on the platform? Can I use Community Training to sell courses directly to end users?
@@ -112,7 +112,7 @@ Periodic email or SMS alerts to users such as information on new course addition
 
 <!--For example, customers can leverage the APIs and use third-party tools to extend platform capability and send emails to learners as required. These can be welcome emails when they first sign in to the platform or they can be update emails when a new course is assigned to them.
 -->
-For more details, reach out to us [**via HelpDesk**](https://go.microsoft.com/fwlink/?linkid=2104630).
+For more details, reach out to us [**via HelpDesk**](https://aka.ms/cthelpdesk).
 
 ### Is there a feature to create additional notifications through emails?
 
@@ -133,7 +133,7 @@ This link obtained above is the deep link of the course and can be shared with l
 
 <!--
 
-NOTE: THE BELOW SECTION IS HIDDEN UNTIL APIs ARE AVAILABLE
+Note  : THE BELOW SECTION IS HIDDEN UNTIL APIs ARE AVAILABLE
 
 
 
@@ -199,7 +199,7 @@ QuizId can be obtained by Step 1. The specification of the APIs is:
 | **Sample Request Body** | “userContact”: “+91 6758493021”<br /> “quizProgress”: <br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[ <br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{ <br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;“quizId”: 1 <br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"questionProgress": <br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;“questionId”: 1 <br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;“isCorrect”: “true”<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;“answer”: “[4] (Option A \|Option B \|<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Option C)" <br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;},<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; {<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;“questionId”: 2<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; “isCorrect”: “false”<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; },<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;] <br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;},<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;“quizID”: 2<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"questionProgress": <br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[<br/> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;“questionId”: 3 <br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;“isCorrect”: “true”<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;“answer”: “[2,3]" <br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; },<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;] <br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;},<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;]
 | **Response contract** | 200 for successful response. <br/>400, 429, 403, 500, 503 for various error response. |
 
->[!Warning]
+>[!WARNING]  
 >
 > * If you want Assessments to be evaluated in CT platform, please provide the Answer Strings in the request body.
 > * In case if the Answer Strings is empty, isCorrect would be considered and assessment evaluation won't happen in
@@ -221,3 +221,5 @@ Course content export can be done with the help of the API below. The specificat
 | Response body contract | Json: <br /> “commaSeparatedIds”: [Required.Always] (CSV of course Ids)
 | Response contract | 200 for successful response. <br/>400, 429, 403, 500, 503 for various error response. |
 -->
+
+Please reach out to us [**via HelpDesk**](https://aka.ms/cthelpdesk) if you have any further queries.

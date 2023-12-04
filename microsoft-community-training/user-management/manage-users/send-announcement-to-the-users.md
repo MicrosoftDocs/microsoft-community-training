@@ -30,7 +30,7 @@ The Community Training portal provides role-based permission levels. The table b
 
 ## Steps to send announcements to the users
 
-> [!TIP]
+> [!TIP]  
 > Administrators can send the announcement either to the whole group or to a specific set of users in the group as required.
 
 1. Log on to the Community Training portal and [**switch to administrator view**](../../get-started/step-by-step-configuration-guide.md#step-2--switch-to-administrator-view-of-the-portal).
@@ -49,5 +49,7 @@ The Community Training portal provides role-based permission levels. The table b
 
 5. Select **Send** to send the announcement.
 
-> [!NOTE]
+> [!Note]  
 > Past announcements sent to the whole group or specific users in the group are displayed in the message panel.
+
+Please reach out to us [**via HelpDesk**](https://aka.ms/cthelpdesk) if you have any further queries.

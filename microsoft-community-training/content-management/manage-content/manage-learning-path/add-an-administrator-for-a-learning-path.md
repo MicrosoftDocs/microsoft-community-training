@@ -48,7 +48,7 @@ The Community Training portal provides role-based permission levels. The table b
 
     ![contact details fro admin](../../../media/image%28399%29.png)
 
-    > [!NOTE]
+    > [!Note]  
     > If the authorization mode is through Azure AD/ADB2C, you need to enter the email address of the administrator.
 
 1. Select **Done**.
@@ -74,3 +74,6 @@ The Community Training portal provides role-based permission levels. The table b
 1. Select **Delete** then **Ok** to confirm the deletion.
 
     ![Delete & ok](../../../media/image%28402%29.png)
+
+
+Please reach out to us [**via HelpDesk**](https://aka.ms/cthelpdesk) if you have any further queries.

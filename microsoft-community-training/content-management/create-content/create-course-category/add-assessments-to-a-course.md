@@ -34,7 +34,7 @@ The CT management portal provides role-based permission levels. The table below 
 
 In this section, you will learn how to add non-graded assessments to a course:
 
-> [!TIP]
+> [!TIP]  
 > Use the non-graded assessments after every 2-3 lessons to help learners retain and revise the learning concept. Keep the questions short and simple.  Answering correctly makes the learner want to go to the next lesson, ensuring higher completion rate of courses.
 
 1. On the Community Training portal, login and [**switch to administrator view**](../../../get-started/step-by-step-configuration-guide.md#step-2--switch-to-administrator-view-of-the-portal).
@@ -54,7 +54,7 @@ In this section, you will learn how to add non-graded assessments to a course:
 
         :::image type="content" source="../../../media/Assessment - question type.PNG" alt-text="Question type":::
 
-    > [!Note]
+    > [!Note]  
     > You can not change the question type once you have saved the assessment.
 
     * Question Title – add your question in this field. Check the [**sample questions**](#question-types-for-any-assessment) to know more about the types of questions you can create on the portal.
@@ -66,24 +66,24 @@ In this section, you will learn how to add non-graded assessments to a course:
 
      :::image type="content" source="../../../media/Assessment - New AssessmentQuiz.PNG" alt-text="Assessment question details":::
 
-    > [!NOTE]
+    > [!Note]  
     > If only two possible options are needed use the **Delete** button next to the option field to remove it. To add more options use the **Add Option** button to increase choices for the question.
 
-    > [!TIP]
+    > [!TIP]  
     > The Question and Options both support HTML rich text. Please ensure the rich text formatting is applied from the options available in the editing box only and not from the content source.
 
 1. Select **Add Question** at the bottom-left of the assessment card, to add more questions in the non-graded assessment and repeat Step 4.
 
 1. Once you have finished adding questions, select the **Save** icon to the right  of the assessment title to upload the non-graded assessment to the portal.
 
-    > [!TIP]
+    > [!TIP]  
     > To import your existing list of questions for a non-graded assessment, use the  [**Bulk upload questions feature**](#bulk-upload-questions-for-a-non-graded-assessment-or-graded-assessment) to seamlessly import your existing questions.
 
 ## Add graded assessment(s) to a course
 
 In this section, you will learn how to add a graded assessment to a course.
 
-> [!TIP]
+> [!TIP]  
 > Use the graded assessment to evaluate the knowledge of a learner that is acquired from the course at various points in a course. Keep a fair pass percentage based on the degree of difficulty and number of attempts as required for the role.
 
 1. On the Community Training portal, login and [**switch to administrator view**](../../../get-started/step-by-step-configuration-guide.md#step-2--switch-to-administrator-view-of-the-portal).
@@ -102,7 +102,7 @@ In this section, you will learn how to add a graded assessment to a course.
 
         :::image type="content" source="../../../media/Assessment - graded question.PNG" alt-text="graded assessment":::
 
-    > [!NOTE]
+    > [!Note]  
     > All the questions in the assessment carry equal weightage. And an **assessment** is always the last segment of the course.
 
 1. Enter details for **Question 1** on the portal as below:
@@ -113,15 +113,15 @@ In this section, you will learn how to add a graded assessment to a course.
         * True and False
 
         :::image type="content" source="../../../media/Assessment - question type.PNG" alt-text="Question type":::
-    > [!Note]
+    > [!Note]  
     >You can not change the question type once you have saved the assessment.
     * Question Title – add your question in this field. Check [**sample questions**](#question-types-for-any-assessment) to know more about the types of questions you can create on the portal.  
     * Options – add one or more options as possible answers for the question.  Check the **checkbox/radio button** to the left of the text field to select the correct answer.
   
-    > [!NOTE]
+    > [!Note]  
     > If only two possible options are needed, use **Delete** button next to the option field to remove the options. To add more options use **Add Option** button to increase choices for the question.
 
-    > [!TIP]
+    > [!TIP]  
     > The Question and Options both support HTML rich text. Please ensure the rich text formatting is applied from the options available in the editing box only and not from the content source.
   
 1. To add answer explanation, first enable the toggle near assessment title and then click on the **Add explanation** icon beside the option text field and provide the relevant details in the text box.
@@ -132,7 +132,7 @@ In this section, you will learn how to add a graded assessment to a course.
 
 1. Once you have finished adding questions, click or tap the **Save** icon to the right-end of the assessment title to upload the assessment to the portal.
 
-> [!TIP]
+> [!TIP]  
 > Use the [**bulk upload questions feature**](add-assessments-to-a-course.md#bulk-upload-questions-for-a-non-graded-assessment-or-graded-assessment) to seamlessly import your existing questions list for an assessment.
 
 ## Bulk upload questions for a non-graded assessment or graded assessment
@@ -158,7 +158,7 @@ Before starting the bulk upload you need to make sure the question list is struc
 
 1. Remove the sample questions from the CSV file.
 
-    > [!IMPORTANT]
+    > [!IMPORTANT]  
     > Do not remove the column headers from the CSV file.
 
 1. Start adding 1 question per row with the following information under each column header:
@@ -172,7 +172,7 @@ Before starting the bulk upload you need to make sure the question list is struc
 
     :::image type="content" source="../../../media/Assessment - csv sample upload v2.PNG" alt-text="csv upload":::
 
-    > [!Note]
+    > [!Note]  
     > A **sample CSV file** is available for quick reference ([here](https://github.com/MicrosoftDocs/microsoft-community-training/files/8556647/Sample.CSV.-.Assessment.csv). 
 
     :::image type="content" source="../../../media/Assessment - csv upload.PNG" alt-text="csv upload/sample csv download":::
@@ -182,7 +182,7 @@ Before starting the bulk upload you need to make sure the question list is struc
     * Use **semi-colon (;) or pipe ( | ) as delimiter** when adding multiple values for a single option. Refer to the above step for desired usage.
     * For any cell, do not split the text into multiple lines (i.e. do not use **ALT + Enter**)
 
-> [!NOTE]
+> [!Note]  
 > There may be questions with different number of choices. For questions which have fewer choices, add some placeholder values while uploading from CSV. Later, remove these options after upload.
 >
 > For example, there are 5 questions in the list – first 3 questions have 4 choices each and remaining 2 questions have only 2 choices, add as placeholder value for choice 3 and choice 4 in the CSV file for the last two questions.
@@ -228,7 +228,7 @@ Following are the question types that can be created on the portal,
 1. Numerical Question – can be answered with a specified mathematical precision
 1. Association Question – can be answered by logical matching of text/images
 
-> [!NOTE]
+> [!Note]  
 > The question and answer options support **rich text** to enable text formatting (bold, italics, underline, bullets, numbering etc.), images and external web links.
 
 ### Single Choice Question
@@ -252,7 +252,7 @@ This type of question can be created by selecting **MCQ - Multiple correct answe
 
 :::image type="content" source="../../../media/Assessment - multi-correct detailed.PNG" alt-text="multiple correct":::
 
->[!Note]
+>[!Note]  
 > The change in type of question cannot be done once the assessment is saved as the question type dropdown will disappear from the question box.
 
 ### True/False Question
@@ -334,3 +334,5 @@ To create an association or matching question,
 The question will appear like this for the learners –
 
 ![Association Question sample](../../../media/image%28243%29.png)
+
+Please reach out to us [**via HelpDesk**](https://aka.ms/cthelpdesk) if you have any further queries.

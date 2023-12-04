@@ -30,7 +30,7 @@ The Community Training portal provides role-based permission levels. The table b
 
 In this topic, you will learn how to enroll users directly to a course.
 
-> [!IMPORTANT]
+> [!IMPORTANT]  
 > This feature is applicable only for Admin enrolled and Self-enrolled courses as users are automatically added to auto enrolled courses.
 
 1. Log in to the Community Training portal and [**switch to administrator view**](../../../get-started/step-by-step-configuration-guide.md#step-2--switch-to-administrator-view-of-the-portal).
@@ -47,14 +47,14 @@ In this topic, you will learn how to enroll users directly to a course.
 
         ![Manage users](../../../media/Manage%20users.png)
 
-> [!NOTE]
+> [!Note]  
 > If the platform has been setup with the login identity as *Social Account* or *Azure Active Directory*, you will need to enter an email address in the above step.
 
 ## Remove user enrollment for a course
 
 In this topic, you will learn how to remove user enrollment from a course.
 
-> [!IMPORTANT]
+> [!IMPORTANT]  
 > This feature is available only for Admin enrolled and Self-enrolled courses, users cannot be removed from an Auto enrolled course.
 
 1. Log in to the Community Training portal and [**switch to administrator view**](../../../get-started/step-by-step-configuration-guide.md#step-2--switch-to-administrator-view-of-the-portal)
@@ -72,5 +72,7 @@ In this topic, you will learn how to remove user enrollment from a course.
 
     ![Delete course registration](../../../media/Delete%20course%20registration.png)
 
-    > [!WARNING]
+    > [!WARNING]  
     > When you remove a user's registration (or enrollment) from a course, all the course tracking and progress for the learner is also deleted from the portal.
+
+Please reach out to us [**via HelpDesk**](https://aka.ms/cthelpdesk) if you have any further queries.

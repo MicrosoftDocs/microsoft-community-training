@@ -60,5 +60,7 @@ This section of the Learner Report Card View provides details on the learning pr
 
     ![Priority of the course](../../media/image%2847%29.png)
 
-> [!TIP]  
+> [!TIP]    
 > You can **download the report card** in a CSV format for further analysis.
+
+Please reach out to us [**via HelpDesk**](https://aka.ms/cthelpdesk) if you have any further queries.

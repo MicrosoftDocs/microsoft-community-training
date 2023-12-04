@@ -13,7 +13,7 @@ Many organizations might want to support multiple authentication options to be a
 
 To be able to configure multiple authentications to your instance you need to first create [**AD B2C**](https://learn.microsoft.com/azure/active-directory-b2c/overview) tenant and register an application. If your instance is already setup to use [**social login**](configure-login-social-work-school-account.md#social-account-or-email-based-authentication) via ADB2C then you can proceed configuring your tenant to add [**phone login**](#add-phone-based-login-to-existing-social-account-login-instance) and [**work email login**](#add-work-email-based-authentication-to-existing-social-account-login-instance) support to your instance.
 
->[!Note]
+>[!Note]  
 >We would strongly recommend that an MFA (Multi Factor Authentication) or a 2FA (2 Factor Authentication) be implemented, if your instance is using ADB2C based authentication, especially for the Admin accounts. 
 
 ## Add Phone-based login to existing Social Account login Instance
@@ -22,7 +22,7 @@ If your instance is already setup to accept [**social login**](configure-login-s
 
 ### Prerequisites
 
-Create a [**CT support ticket**](https://sangamhelpdesk.microsoftcrmportals.com) requesting for creation of new ClientID and ClientSecret in your [**Key-Vault**](../../analytics/custom-reports/database-schema.md#accessing-key-vault) to be used while configuring New OpenID connect provider.
+Create a [**CT support ticket**](https://aka.ms/cthelpdesk) requesting for creation of new ClientID and ClientSecret in your [**Key-Vault**](../../analytics/custom-reports/database-schema.md#accessing-key-vault) to be used while configuring New OpenID connect provider.
 
 * Also mention your [**AD B2C Tenant name**](https://learn.microsoft.com/azure/active-directory-b2c/tenant-management#get-your-tenant-name) in description while creating support ticket.
 
@@ -75,6 +75,7 @@ If your instance is already setup to accept [**social login**](configure-login-s
 9. Now in the login page of your instance, you should see an option that enables users to login through their work email (Azure AD email) alongside Social Account login.
 
 
->[!Note]
-> * Please note that learner should use only one mode of authentication (social email, work email) for registering. If a learner uses multiple modes of authentication for registration, the accounts will be treated as different users.
+>[!Note]    
+> Please note that learner should use only one mode of authentication (social email, work email) for registering. If a learner uses multiple modes of authentication for registration, the accounts will be treated as different users.
  
+Please reach out to us [**via HelpDesk**](https://aka.ms/cthelpdesk) if you have any further queries.

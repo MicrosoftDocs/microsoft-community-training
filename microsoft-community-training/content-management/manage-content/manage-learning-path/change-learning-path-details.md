@@ -74,3 +74,6 @@ The Community Training portal provides role-based permission levels. The table b
 1. Select **Ok** to finish.
 
     ![Click OK](../../../media/image%28412%29.png)
+
+
+Please reach out to us [**via HelpDesk**](https://aka.ms/cthelpdesk) if you have any further queries.

@@ -29,7 +29,7 @@ Download the setup files from [**this link**](https://sangamapps2.blob.core.wind
 
     :::image type="content" source="../media/image(445).png" alt-text="container":::
 
-    >[!note]
+    >[!Note]  
     > The steps need to be followed for all three images:
     >
     >```info
@@ -49,7 +49,7 @@ Follow the steps to [**Create an Azure IoT Hub**](/azure/iot-hub/iot-hub-create-
 
 The zip file downloaded in the pre-requisites section of this document contains a file named `mctdeployment.json`. The steps in this section are to configure this file for setup. The configured file will be used to set up the edge devices in Azure IoT Hub.
 
->[!note]
+>[!Note]  
 >The deployment file requires configuring some passwords. For the initial version, we can assume that all the devices would use the same set of passwords for data sources like SQL, or Storage, and use the same password for certificates. Therefore, the same `mctdeployment.json` file could be used to deploy on all devices. We will restrict the security of these resources in subsequent releases.
 
 ### Step 3.1:  Configure Azure container registry credentials

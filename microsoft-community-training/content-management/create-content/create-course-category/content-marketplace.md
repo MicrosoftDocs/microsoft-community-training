@@ -27,7 +27,7 @@ Training on Office 365 tools: Collection of training material on Office tools li
 
 A list of courses currently available in Microsoft Digital Content section can be found [here](https://github.com/MicrosoftDocs/microsoft-community-training/files/8229076/MS_Digitalcontent_Courselist_Feb2022.csv).
 
-> [!NOTE]
+> [!Note]  
 > Office 365 courses are added in marketplace as lessons with external links mapping to the relevant tutorial video, to have them play inline with CT you need to [**embed the domain**](../../../settings/configurations-on-the-training-platform.md#allow-external-video-embedding-into-ct) `microsoft.com` in the [**app settings**](../../../settings/configurations-on-the-training-platform.md#steps-to-set-the-configurations-on-the-platform).
 
 **Next Steps:**
@@ -35,3 +35,5 @@ A list of courses currently available in Microsoft Digital Content section can b
  [**Create a new category to import courses from Content Marketplace**](create-a-category.md#create-a-new-category).
 
  [**Import a course from content marketplace to an existing category**](create-a-new-course.md#option-2---add-course-via-content-marketplace).
+
+Please reach out to us [**via HelpDesk**](https://aka.ms/cthelpdesk) if you have any further queries.

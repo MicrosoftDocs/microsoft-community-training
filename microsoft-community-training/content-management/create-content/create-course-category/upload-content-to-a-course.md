@@ -52,7 +52,7 @@ You can manually upload the required content to a course using the New Lesson op
     1. **To upload content** - Click **Upload** and choose the content file you want to upload. The format of the content must be Video, Audio, PDF, EPUB, Word, Excel, PowerPoint or HTML.
     1. **For embedding external web link** - Paste the URL of the web page in the textbox available. The web page can be a YouTube video link or any other web link. For example: [Sample YouTube Video](https://youtu.be/hWY8t_QSOU4). **Learners will not be able to download this content from mobile app.**
 
-    >[!NOTE]
+    >[!Note]  
     >You can also **upload a SCORM file** in .zip format. After attaching the zip file for the SCORM content, please mark the check box as well to ensure successful validation of the file.:::image type="content" source="../../../media/New Lesson SCORM.PNG" alt-text="SCORM upload":::
 
 1. Enter tags in the **Add Tags** field to help learners search for the content using relevant keywords. You can add one or more tags for each lesson. For example – *Smart Farming, Internet of Things, Precision Farming*
@@ -64,14 +64,14 @@ You can manually upload the required content to a course using the New Lesson op
 
     ![Upload progress](../../../media/Upload%20progress.png)
 
-    > [!IMPORTANT]
+    > [!IMPORTANT]  
     > Click or tap the **Save** button to complete the add lesson operation. If you perform any other activity before clicking on the Save button, then all your progress will be lost.
 
 1. For video content, after upload is completed, the system will start the encoding process to create multiple copies to optimize streaming on different devices and network quality. You can check the encoding status on the course page as shown below.
 
     ![Encoding status on the course page](../../../media/image%2849%29.png)
 
-    > [!NOTE]
+    > [!Note]  
     > Depending upon the video size, it can take upto 20 minutes to complete the encoding process.
 
 1. Repeat Steps 2 to 6 to add more lessons to the course.
@@ -89,7 +89,7 @@ Community Training does not have [file size restrictions on upload](../../../fre
 * Premium - maximum upload size is 56GB
 
 Refer [here](https://github.com/projectkudu/kudu/wiki/Understanding-the-Azure-App-Service-file-system) for more information.
-> [!NOTE]
+> [!Note]  
 > **Rich, Interactive and Dynamic Content**
 >
 > To add rich, dynamic content such as interactive lessons and simulations as either upload HTML content or embed an external web link on the portal.
@@ -109,7 +109,7 @@ To include external content as a lesson, add an **external web link**.
 
 Once you have completed uploading lessons, you can [**Add assessments**](add-assessments-to-a-course.md) or [**publish the course**](publishing-course.md) making it available to learners.
 
-> [!TIP]
+> [!TIP]  
 > Whenever you are uploading content, [**scale up your platform configuration**](../../../infrastructure-management/configure-your-platform-infrastructure/scale-up-instance-configuration.md) to reduce the upload and processing time for the content.
 
 ## Option 2 - Bulk Upload lessons
@@ -128,7 +128,7 @@ The content for the lessons must be structured correctly and available in the re
 
 1. Ensure there are no folders and unsupported content files inside the ZIP file
 
-> [!NOTE]
+> [!Note]  
 > Assessments can't be added to the course via bulk upload functionality unless [**you are exporting courses from one instance to another**](../../../content-management/manage-content/manage-course-category/move-course-content-across-training-instance.md). You will need to add them via [**an assessement workflow**](../../../content-management/create-content/create-course-category/add-assessments-to-a-course.md).
 
 ### Steps for bulk upload lessons for a course
@@ -148,14 +148,14 @@ The content for the lessons must be structured correctly and available in the re
 
     ![Upload successful](../../../media/Upload%20successful.png)
 
-    > [!NOTE]
+    > [!Note]  
     > Depending upon your network connectivity and size of the ZIP file, it can take some time to complete the upload operation.
 
 1. After upload, you will see the following message on the top-right corner which indicates that content file was successfully uploaded to the portal for processing.
 
     ![Bulk upload successful](../../../media/Bulk%20upload%20successful.png)
 
-    > [!WARNING]
+    > [!WARNING]  
     > If there are issues with the content format or structure of the ZIP file then the system will throw an error message.
 
 1. Once the upload is complete, you can enter tags in the **Add Tags** field to help learners search for the content using relevant keywords. You can add one or more tags for each lesson.
@@ -164,5 +164,8 @@ The content for the lessons must be structured correctly and available in the re
 
 Once the lessons are uploaded, you can [**add assessment**](add-assessments-to-a-course.md) or [**publish course**](publishing-course.md) for learners to consume the content via the web portal or mobile application.  
 
-> [!NOTE]
+> [!Note]  
 > For video content, processing can take hours depending upon the number of videos, size and configuration of media service end point. This processing is a non-blocking operation and admins are allowed to do other tasks.
+
+
+Please reach out to us [**via HelpDesk**](https://aka.ms/cthelpdesk) if you have any further queries.

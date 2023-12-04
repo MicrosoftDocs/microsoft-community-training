@@ -23,7 +23,7 @@ You will need a custom home page designed to be linked to your CT instance. Here
 
 ## Steps to add your custom homepage
 
-> [!NOTE]
+> [!Note]  
 >
 >* The Azure subscription should be same subscription where your CT is deployed. These steps would need ‘Contributor’ access for the Azure subscription.
 >* This custom home page needs to be hosted in the same azure subscription where MCT is deployed.
@@ -73,7 +73,7 @@ You will need a custom home page designed to be linked to your CT instance. Here
 
 **You've successfully deployed a static webpage (Custom Home Page) to Azure subscription where CT is deployed. Launch the website to view.**
 
-> [!NOTE]
+> [!Note]  
 >
 >For more details, see [Tutorial: Host a static website on Blob Storage](/azure/storage/blobs/storage-blob-static-website-host).
 >
@@ -102,5 +102,7 @@ You need to update **Instrumentation Key** as shown below for your Azure subscri
     </script>
 ```
 
-> [!NOTE]
+> [!Note]    
 >You can have multiple custom home pages for your instance, each home page must have a button which links to the instance's login page.
+
+Please reach out to us [**via HelpDesk**](https://aka.ms/cthelpdesk) if you have any further queries.

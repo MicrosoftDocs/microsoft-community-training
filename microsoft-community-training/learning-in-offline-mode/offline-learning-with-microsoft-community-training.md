@@ -28,3 +28,6 @@ Platform Vision is an intelligent cloud and edge-powered personalized learning p
 :::image type="content" source="../media/image(444).png" alt-text="offlinejourney":::
 
 :::image type="content" source="../media/image(441).png" alt-text="offlinejourney2":::
+
+
+Please reach out to us [**via HelpDesk**](https://aka.ms/cthelpdesk) if you have any further queries.

@@ -37,7 +37,7 @@ Community Training is an endpoint-agnostic solution that allows learners to cons
 
 Currently, Community Training supports SSO out-of-box for scenarios where users are managed via Azure AD or customers are using Azure AD B2C for authentication in their existing system.
 
-However, the platform supports SSO with any OAuth 2.0, OpenID Connect, or SAML-based authentication provider. To enable SSO in such scenarios, please contact us via **[Helpdesk](https://go.microsoft.com/fwlink/?linkid=2104630)** and leave your requirements in the ticket description.
+However, the platform supports SSO with any OAuth 2.0, OpenID Connect, or SAML-based authentication provider. To enable SSO in such scenarios, please contact us via **[Helpdesk](https://aka.ms/cthelpdesk)** and leave your requirements in the ticket description.
 
 ### Are there REST APIs available for integration? How can organizations integrate Community Training with their internal systems and existing applications?
 
@@ -76,7 +76,7 @@ You do not need a technical team or a developer to implement the platform.
 
 We are building up a community of learning partners who can assist the organizations in implementing and configuring the platform for their training scenarios.
 
-For further information on the partner ecosystem, please reach out to us [**via help desk**](https://go.microsoft.com/fwlink/?linkid=2104630).
+For further information on the partner ecosystem, please reach out to us [**via help desk**](https://aka.ms/cthelpdesk).
 
 ### What should I do if I no longer need the platform? How can I download the training content and data before terminating?
 
@@ -143,6 +143,6 @@ If you have a Google account, it can be used to sign in with the Google Store. F
 
 [**Here**](../infrastructure-management/install-your-platform-instance/create-publish-mobile-app.md) is a step-by-step guide on publishing your mobile application.  
 
-If you require further assistance, contact us [**via helpdesk**](https://go.microsoft.com/fwlink/?linkid=2104630).
+If you require further assistance, contact us [**via helpdesk**](https://aka.ms/cthelpdesk).
 
-Please reach out to us [**via HelpDesk**](https://go.microsoft.com/fwlink/?linkid=2104630) if you have any further queries.
+Please reach out to us [**via HelpDesk**](https://aka.ms/cthelpdesk) if you have any further queries.

@@ -21,14 +21,14 @@ This article explains how learners can access training content using the [Progre
 
 3. Once the app is installed, tap the app icon to launch the app.
 
-> [!NOTE]
+> [!Note]  
 > Community Training enables every organization to create a custom white-labeled mobile app. Learners are provided with the name of the training app published on the Play Store by the administrator.
 
 ### Option 2: Install from the browser
 
 1. For mobile devices (Android), you can install PWA by selecting the  **Add to home screen** prompt that you receive while browsing Community Training instance or selecting **install app** from browser options.
 
-> [!NOTE]
+> [!Note]  
 > The learner experience is the same for both installation options.
 
 ## Step 2: Sign in and create your profile
@@ -51,7 +51,7 @@ This article explains how learners can access training content using the [Progre
 
 2. Content on the home page will be updated based on your chosen language. Refer to [**Course Translations**](../content-management/create-content/create-course-category/create-a-new-course.md#option-4---create-multiple-translations-for-a-course) to understand how language change impacts your learner view.
 
->[!NOTE]
+>[!Note]  
 >Only the languages enabled by the Global administrator will be available for selection. The dropdown will not be available to learners if only one language is enabled on the platform.
 
 ## Step 4: Browse and register for courses
@@ -66,7 +66,7 @@ This article explains how learners can access training content using the [Progre
 
     :::image type="content" source="../media/image(179).png" alt-text="pop-up window":::
 
-> [!NOTE]
+> [!Note]  
 > Users can search for courses using the search option on the home page.
 
 ## Step 5: View and consume course content
@@ -101,7 +101,7 @@ This article explains how learners can access training content using the [Progre
 
 2. You can also view the deleted content from the **Recently Deleted** section on the Downloads page.
 
-> [!NOTE]
+> [!Note]  
 >  * The content downloaded for offline consumption from a PWA-based app gets stored in browser storage.
 > 
 >  * The current limit for storage is capped for each lesson at 200 MB, overall limit is dependent on device storage.
@@ -111,3 +111,5 @@ This article explains how learners can access training content using the [Progre
 >  * Currently, Community Training supports offline download (in PWA) for the following file types: .doc, .docx, .ppt, .pptx, .xlx, .xlsxPDF, EPUB, video, audio files, and single HTML files.
 > 
 >  * Only non-graded Assessments can be taken and submitted offline. Graded assessments can only be taken while online.
+
+Please reach out to us [**via HelpDesk**](https://aka.ms/cthelpdesk) if you have any further queries.

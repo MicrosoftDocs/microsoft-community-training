@@ -54,16 +54,19 @@ The Community Training portal provides role-based permission levels. The table b
 
 1. Choose **Enable certificate**. This option enables the administrator to award certificate to learners after completing the learning path.
 
-    >[!Note]
+    >[!Note]  
     >Administrator can [**customize the certificate template**](../../../settings/customize-the-certificate-template.md#customize-the-certificate-template-for-the-platform) awarded to the learners.
 
 1. Choose **Restrict Ordering** to forces the learners to complete the courses in Learning Path in a specific order. Learners will NOT be allowed to skip courses within a Learning Path if this option is enabled.
 
 1. Select the **Organization** for the Learning Path to assign to a different organization from the default.
 
-    > [!Note]
+    > [!Note]  
     > If your instance is Multi-Tenant enabled, refer [Enabling Global Content across organizations](../../content-management-overview.md#enabling-global-content-across-organizations), to have common Learning paths enabled across organizations.
 
 1. Click or tap **Create** button to create the Learning Path.
 
 Once a Learning Path is created, you can start [**adding content to the Learning Path.**](add-course-to-a-learning-path.md)
+
+
+Please reach out to us [**via HelpDesk**](https://aka.ms/cthelpdesk) if you have any further queries.

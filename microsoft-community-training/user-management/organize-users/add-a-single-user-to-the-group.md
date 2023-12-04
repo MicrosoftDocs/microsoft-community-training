@@ -36,7 +36,7 @@ The Community Training portal provides role-based permission levels. The table b
 
     ![Add single user one](../../media/Add_Single_User.png))
 
-    > [!IMPORTANT]
+    > [!IMPORTANT]  
     > If the portal is setup with the login identity as **Social Account** or **Entra ID (Azure Active Directory)** then you will need to enter an email address in the above step.
 
 1. Select **Add** to confirm the addition.

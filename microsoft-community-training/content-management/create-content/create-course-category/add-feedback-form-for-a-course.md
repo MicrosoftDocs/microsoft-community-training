@@ -36,3 +36,5 @@ Here are some links on how the common survey websites enable pre-filling of the 
 1. [Google Form](https://trevorfox.com/2015/06/dynamically-pre-fill-google-forms-with-mailchimp-merge-tags/). A sample Google pre-filled survey form link would look as [**follows**](https://docs.google.com/forms/d/e/1FAIpQLSdNE8AhxWZKuhZEh6wVBALcjuERbv6G0QSkQThL6243OHCupQ/viewform?usp=pp_url&entry.938410210=%5BFIRSTNAME%5D&entry.1375580399=%5BLASTNAME%5D&entry.1971970342=%5BCOURSENAME%5D)
 
 2. [Survey Monkey](https://help.surveymonkey.com/articles/en_US/kb/What-are-custom-variables-and-how-do-I-use-them)
+
+Please reach out to us [**via HelpDesk**](https://aka.ms/cthelpdesk) if you have any further queries.

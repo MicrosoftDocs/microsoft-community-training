@@ -29,13 +29,13 @@ In this article, you will learn how to export course content from one training p
 
     ![Save](../../../media/image%28220%29.png)
 
-> [!TIP]
+> [!TIP]  
 > Best Practices
 >
 > 1. If the courses for a given category are small in size (i.e. total size of category courses is less than 2 GB), then export all the courses for the category together i.e. select the category and choose the download category content option.
 > 1. If the courses for a given category are large in size, then export courses individually under the category i.e. select a course under given category and choose the download course content.
 
-> [!WARNING]
+> [!WARNING]  
 > Please do not edit the downloaded file as this can inadvertently corrupt the course content. Here is sample format of the zip file:
 >
 > ![Sample zip](../../../media/image%28221%29.png)
@@ -53,3 +53,6 @@ In this article, you will learn how to export course content from one training p
 1. Next, locate and open the downloaded zip file then select **Upload**.  As with the download, the time taken to upload will vary depending on the file size and internet speed.
 
 1. Once the courses are imported successfully, you will see the courses in the new instance as an exact replica of the courses in the previous instance i.e. for each course, all the course details (like description, thumbnails, enrollment type, etc.) as well as the content (like lessons, non-graded assessments and graded assessments) will be same.
+
+
+Please reach out to us [**via HelpDesk**](https://aka.ms/cthelpdesk) if you have any further queries.

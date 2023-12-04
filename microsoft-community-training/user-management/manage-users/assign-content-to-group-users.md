@@ -32,7 +32,7 @@ The Community Training portal provides role-based permission levels. The table b
 
 ## Steps to assign content to users in the group
 
-> [!TIP]
+> [!TIP]  
 > Whenever a new course is assigned to the users by the administrator, an announcement is sent to users which can be viewed in the **Notifications** section of the learner experience.
 
 1. Log in to the Community Training portal and [**switch to administrator view** ](../../get-started/step-by-step-configuration-guide.md#step-2--switch-to-administrator-view-of-the-portal) then select a Group to which you want to assign courses.
@@ -43,14 +43,14 @@ The Community Training portal provides role-based permission levels. The table b
 
 1. Select **Assign Content** to see the list of courses which can be assigned to the group.  
 
-    > [!NOTE]
+    > [!Note]  
     > Only [**published content**](../../content-management/create-content/create-course-category/publishing-course.md) is displayed in the list.
 
 1. From the left panel, select **Learning Paths** then the Learning Paths you want to assign to the groupnby selecting **Courses** and choosing the courses you want.  
 
     ![User Management - Manage User - Add LP](../../media/User%20Management%20-%20Manage%20User%20-%20Add%20LP.png)
 
-    > [!NOTE]
+    > [!Note]  
     >
     >* Switching between the Learning Paths and Courses tabs will require you to save your content assignment.
     >
@@ -60,17 +60,19 @@ The Community Training portal provides role-based permission levels. The table b
 
     ![User Management - Manage User - Add Priority1](../../media/User%20Management%20-%20Manage%20User%20-%20Add%20Priority1.png)
 
-    > [!TIP]
+    > [!TIP]  
     > **Priority** can be used to communicate the urgency of a course to the learners. Priority defined from the portal will be shown to learners on the home page.
 
-    > [!NOTE]
+    > [!Note]  
     >
     > 1. You can also disable the **Prioities** feature. More information is available [here](../../settings/configurations-on-the-training-platform.md#content-priority-for-learners).
     > 2. Optionally, administrators can also enable the setting to NOT show any other content to learners if any of the **Required** (highest priority) courses are  NOT complete.
 
 1. Select **Done** to complete the content assignment.
 
-    > [!NOTE]
+    > [!Note]  
     > An Administrator can change the list of assigned courses for the group at any point but it will only impact the course enrollment for new users added to the group after the change.
     >
     >For example, let's say the administrator has removed **Presentation skills** from the list of assigned courses for the **Marketing group** shown above. This will mean that any new user added to the group will not be auto-enrolled to the Presentation skills course but existing users who are enrolled already will continue to see the course in the **My Courses** section of the learner experience.
+
+    Please reach out to us [**via HelpDesk**](https://aka.ms/cthelpdesk) if you have any further queries.

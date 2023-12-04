@@ -80,7 +80,7 @@ RTO: 24 hours*
 ### Data plane:
 Community Training offers Microsoft managed disaster recovery. The customer has to *Enable Disaster Recovery*, when the Community Training instance is created in Azure.
 Once the customer enables eisaster recovery, we keep the backup of storage and database in the paired region.
-> [!NOTE]
+> [!Note]  
 > The Disaster recover feature is only available for regions which support paired regions.
 >
 >* RPO: 12 hour
@@ -104,3 +104,5 @@ Disaster recover is neither active-active nor active-passive, it is based on rec
 
 ### Capacity and proactive disaster recovery resiliency
 Microsoft and it's customers operate under the shared responsibility model. Once any region is down, not only is the community training instance migrated to the paired region but other product and customer workload is also migrated. This may cause shortage for resources in the paired region or datacenter. Hence, Disaster recovery availability depends on the available capacity of underlying azure resources etc.
+
+Please reach out to us [**via HelpDesk**](https://aka.ms/cthelpdesk) if you have any further queries.

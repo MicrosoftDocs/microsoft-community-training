@@ -61,5 +61,8 @@ In this topic, you will learn how to delete an existing category in the platform
 
     ![Delete Category pop up\(1\)](../../../media/Delete%20Category%20pop%20up%281%29.png)
 
-    > [!WARNING]
+    > [!WARNING]  
     > When you delete a category, all the courses under the category will also be deleted.
+
+
+Please reach out to us [**via HelpDesk**](https://aka.ms/cthelpdesk) if you have any further queries.

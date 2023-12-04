@@ -190,7 +190,6 @@ Community Training doesn’t support private chat or 1:1 discussion between lear
 
 When an announcement is sent by the administrators there messages appear on the Notice Board for the learner experience. In order to have additional functionalities such as SMS or Email, customers can leverage the APIs to build these functionalities using Logic Apps, Microsoft Flow, etc.
 
-For more information contact us **[via HelpDesk](https://go.microsoft.com/fwlink/?linkid=2104630)**.
 
 
-Please reach out to us [**via HelpDesk**](https://go.microsoft.com/fwlink/?linkid=2104630) if you have any further queries.
+Please reach out to us [**via HelpDesk**](https://aka.ms/cthelpdesk) if you have any further queries.

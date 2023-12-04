@@ -21,3 +21,6 @@ Community Training enables you to create multiple certificates and assign them t
     ![select certificate ](../media/select%20certificate%20.png)
 
 1. Select **Update** to save your changes.
+
+
+Please reach out to us [**via HelpDesk**](https://aka.ms/cthelpdesk) if you have any further queries.

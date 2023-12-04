@@ -15,13 +15,13 @@ ms.prod: learning-azure
 
 Microsoft provides course content around Digital Literacy, Office 365, etc., which organizations can upload and use in their Community Training platform instances.MS learn courses are also integrated as links
 
-Contact us via **[HelpDesk](https://go.microsoft.com/fwlink/?linkid=2104630)** if you’d like to make any courses from the catalog available in your training portal instance.
+Contact us via **[HelpDesk](https://aka.ms/cthelpdesk)** if you’d like to make any courses from the catalog available in your training portal instance.
 
 #### Can we use any of the content from the catalog?
 
 Yes, all the content hosted in our course catalog is available for customers to use in their own training platform instance.
 
-You can contact us via **[HelpDesk](https://go.microsoft.com/fwlink/?linkid=2104630)** if you have any questions on how to make any courses from the catalog available in your training portal instance.
+You can contact us via **[HelpDesk](https://aka.ms/cthelpdesk)** if you have any questions on how to make any courses from the catalog available in your training portal instance.
 
 Please note - all content hosted in the content library is free of charge and provided under a Creative Common license. So, you can tweak and change the content as per your requirements.
 
@@ -64,7 +64,7 @@ The platform can accept file sizes depending on the upload size limit as specifi
 | PPT, PPTX, DOCX | 100 MB |
 | Excel | 5 MB |
 
->[!Note]
+>[!Note]  
 >The [**App Service plan**](https://azure.microsoft.com/pricing/details/app-service/windows/) for your instance might restrict total upload size (multiple uploads across different devices for the same instance) at a time. For App Service plan:
 >
 >* P1V2 - maximum upload size is 18GB
@@ -76,7 +76,7 @@ The platform can accept file sizes depending on the upload size limit as specifi
 
 Yes, customers can embed videos from any external platforms such as YouTube, Microsoft Learn, etc. on the Community Training portal.  However, learners will not be able to download such content on the mobile app for offline consumption.
 
->[!Note]
+>[!Note]  
 > For Vimeo videos, they do not allow their videos to get embedded directly on any other platform. In order to get the embed URL for any video, you need to follow the below steps:
 >
 > * In your Vimeo video player, click on the share button, under the Embed sectio,n copy the code highlighted as below, and you can paste this as external url for a lesson in CT
@@ -87,7 +87,7 @@ Yes, customers can embed videos from any external platforms such as YouTube, Mic
 
 ### How can I allow external videos to play inside Community Training?
 
-Please reach out to our [**HelpDesk**](https://go.microsoft.com/fwlink/?linkid=2104630) for support on this request. 
+Please reach out to our [**HelpDesk**](https://aka.ms/cthelpdesk) for support on this request. 
 
 <!--
 1. Login to the Azure portal.
@@ -110,7 +110,7 @@ Please reach out to our [**HelpDesk**](https://go.microsoft.com/fwlink/?linkid=2
 
     ![Allow Embed Domains Editing](../media/AllowEmbedDomainsEditing.png)
 
-    > [!NOTE]  
+    > [!Note]    
     > You can add as many domains as you want separated by comma.
 
 7. Click on save.
@@ -123,9 +123,9 @@ Please reach out to our [**HelpDesk**](https://go.microsoft.com/fwlink/?linkid=2
 
 Community Training supports uploading SCORM (version 1.2) packages.
 
-SCORM (Sharable Content Object Reference Model) is a set of technical standards for eLearning software products. SCORM tells programmers how to write their code so that it can “play well” with other eLearning software. It is the de facto industry standard for eLearning interoperability. Learn more about [SCORM](https://scorm.com/scorm-explained/one-minute-scorm-overview/)
+SCORM (Sharable Content Object Reference Model) is a set of technical standards for eLearning software products. SCORM tells programmers how to write their code so that it can “play well” with other eLearning software. It is the de facto industry standard for eLearning interoperability. Learn more about [**SCORM**](https://scorm.com/scorm-explained/one-minute-scorm-overview/)
 
-[How to upload content to a course](../content-management/create-content/create-course-category/upload-content-to-a-course.md#option-1-manually-add-content-for-each-lesson-in-a-course)
+[**How to upload content to a course**](../content-management/create-content/create-course-category/upload-content-to-a-course.md#option-1-manually-add-content-for-each-lesson-in-a-course)
 
 :::image type="content" source="../media/SCORMupload.png" alt-text="scormuploadimag1":::
 
@@ -139,7 +139,7 @@ To add **HTML content** as lesson,
 2. There must be an index.html file at the top level (root directory) within the ZIP file.
 3. All resources referenced in the HTML pages must be relative and point to files included in the ZIP file.
 
-    > [!NOTE]  
+    > [!Note]    
     > If interactive content is available as a single HTML file then you directly upload it to the platform. No need to create a zip file.
 
 You can also host rich, dynamic, and interactive content as a web page and add the external web link as a lesson on the portal.
@@ -283,7 +283,7 @@ If the video is hosted on external platforms like YouTube then the below feature
 
 When content is uploaded to the portal, learners get the advantage of features such as offline consumption on mobile apps, auto-optimization based on data bandwidth, detailed analytics, etc. which are not available for content from external sources. Also, external content is marked as completed once it is opened or redirected.
 
-> [!NOTE]  
+> [!Note]    
 > Video content from YouTube platform will be embedded and rendered within the application, other external web links such as Microsoft Learn and LinkedIn Learning will open in a new browser window.
 
 ### How do I show language-specific content for a course to learners?
@@ -302,7 +302,7 @@ For scenarios when you have a course available in multiple languages, you can au
 
 You can create content as per the needs of your training program, using any tool of your choice. Microsoft can help you with your content creation by advising you on best practices and tips to create engaging content for your audience.
 
-Contact us via **[HelpDesk](https://go.microsoft.com/fwlink/?linkid=2104630)** and leave your requirements in the ticket description.  
+Contact us via [**HelpDesk**](https://aka.ms/cthelpdesk) and leave your requirements in the ticket description.  
 
 ### I am not able to bulk upload content on the training portal or bulk upload content is failing
 
@@ -328,7 +328,7 @@ You can add/remove the tags even after the course is published, but once you add
 
  :::image type="content" source="../media/add_tag.png" alt-text="Select_offline_sync":::
 
->[!Note]
+>[!Note]  
 >
 >The Add Tags field helps learners search for the content using relevant keywords. You can add one or more tags for each lesson. For example – Smart Farming, Internet of Things,  and Precision Farming.
 
@@ -370,7 +370,7 @@ Course administrators can have the downloadable links copied to the Word file an
 
 Once the course is published on the platform, you can't unpublish it but you can hide it from the course library by changing its Learner Enrollment type to "Only admin can enroll learners". This will ensure that the course is not available or listed in the course library. For more details, see step 6 in [**this article**](../content-management/create-content/create-course-category/create-a-new-course.md#option-1---create-a-single-course-in-a-category).  
 
-> [!IMPORTANT]  
+> [!IMPORTANT]    
 > In case there are users who are already enrolled for the course, they will continue to see the course on the My Course Page.
 
 ### What happens to existing learners’ certificates when I update content for a course?
@@ -422,4 +422,5 @@ Organization administrators and category administrators can delete a course from
 ![Delete a course](../media/image%28314%29.png)
 
 
-Please reach out to us [**via HelpDesk**](https://go.microsoft.com/fwlink/?linkid=2104630) if you have any further queries.
+
+Please reach out to us [**via HelpDesk**](https://aka.ms/cthelpdesk) if you have any further queries.

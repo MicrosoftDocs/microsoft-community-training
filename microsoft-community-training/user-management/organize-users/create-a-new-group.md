@@ -13,7 +13,7 @@ A Group is a key feature in the Community Training platform. It enables you to d
 
 Groups make user management easy via automatic enrollment, bulk user onboarding, course assignments, announcements and monitoring learner progress.
 
-> [!NOTE]
+> [!Note]  
 > If your platform is setup with **Microsoft Entra ID (Azure AD) as login identity *and* Microsoft Teams as an end point**, you won't be allowed to create groups from the management portal. All the user management activities have to be performed inside Microsoft Teams.
 
 ## Permissions Level
@@ -41,17 +41,17 @@ The Community Training portal provides role-based permision level. The table bel
 
     ![User Management - Organize Users - New Group](../../media/User%20Management%20-%20Organize%20Users%20-%20New%20Group.png)
 
-    > [!NOTE]
+    > [!Note]  
     > When a group is created, by default, the user who created the group will be the group administrator.
 
-    > [!NOTE]
+    > [!Note]  
     > If Organizations are NOT defined on the training platform, the **Organization** field in Group creation will be disabled. However, if the Organizations are defined, the Organization field in Group creation will be mandatory.
 
 1. From **Add Users** pop-up, you can choose [**Manually add users**](#manually-add-users-to-group-during-creation-time) or [**Automatically add users**](#automatically-add-users-to-group-during-creation) to add users at the time of group creation and follow the instructions shown.
 
     ![User Management - Organize Users - New Group Options](../../media/User%20Management%20-%20Organize%20Users%20-%20New%20Group%20Options.png)
 
-    > [!IMPORTANT]
+    > [!IMPORTANT]  
     > The option to **Automatically add users** will be available only to Global administrators and Organization administrators.
 
 1. Select **Skip** during step 4 if you want to add users to the group later.
@@ -67,7 +67,7 @@ The Community Training portal provides role-based permision level. The table bel
 
 1. Click on **Skip** if you want to add users to the group later
 
-> [!IMPORTANT]
+> [!IMPORTANT]  
 > If your platform is setup with the login identity **Social Account** or **Azure Active Directory** then you will need to enter email address in the above step.
 
 ## Automatically add users to group during creation

@@ -15,7 +15,7 @@ There are two types of content administrators in the Community Training platform
 
 2. **Course administrator** is responsible for content creation and management of one or more courses on the portal.
 
-> [!TIP]
+> [!TIP]  
 > A user can be both a category administrator as well as a course administrator on the portal. For example, an employee from the HR department will be responsible for creating and maintaining all the courses under the compliance category but the same employee may only be responsible for managing courses related to soft skills under the career development category. In such scenarios, the employee will be added as category administrator for the compliance category and course administrator for soft skills courses under the career development category.
 
 In this article, you will learn how to add different types of content administrator admin on the management portal.
@@ -51,7 +51,7 @@ In this topic, you will learn how to add a category administrator.
 
     ![Add administrator phone number\(1\)](../../../media/Add%20administrator%20phone%20number%281%29.png)
 
-    > [!NOTE]
+    > [!Note]  
     > If the platform has been setup with *Social Account* or *Azure Active Directory* as the login identity then you will need to enter an email address in the above step.
 
 ## Add a course administrator
@@ -72,5 +72,7 @@ In this topic, you will learn how to add a course administrator.
 
     ![Add administrator phone number](../../../media/Add%20administrator%20phone%20number.png)
 
-    > [!NOTE]
+    > [!Note]  
     > If the platform has been setup with *Social Account* or *Azure Active Directory* as the login identity then you will need to enter an email address in the above step.
+
+Please reach out to us [**via HelpDesk**](https://aka.ms/cthelpdesk) if you have any further queries.

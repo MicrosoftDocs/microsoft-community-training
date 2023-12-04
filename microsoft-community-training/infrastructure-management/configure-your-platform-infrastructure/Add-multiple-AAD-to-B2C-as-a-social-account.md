@@ -25,7 +25,7 @@ To enable sign-in for users with an Azure AD account from a specific Azure AD or
 
     `https://your-B2C-tenant-name.b2clogin.com/your-B2C-tenant-name.onmicrosoft.com/oauth2/authresp`
 
-     If you use a [custom domain](setup-custom-domain-url.md), enter `https://your-domain-name/your-tenant-name.onmicrosoft.com/oauth2/authresp`. Replace ***your-domain-name*** with your custom domain, and ***your-tenant-name*** with the name of your tenant.
+     <!--If you use a [custom domain](setup-custom-domain-url.md), enter `https://your-domain-name/your-tenant-name.onmicrosoft.com/oauth2/authresp`. Replace ***your-domain-name*** with your custom domain, and ***your-tenant-name*** with the name of your tenant.-->
 1. Select **Register** and record the **Application (client) ID** for use in a later step.
 1. Select **Certificates & secrets**, then **New client secret**.
 1. Enter a **Description** for the secret, select an expiration, then select **Add** and record the **Value** of the secret for use in a later step.

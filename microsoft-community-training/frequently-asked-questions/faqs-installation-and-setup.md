@@ -1,8 +1,8 @@
 ---
 title: Platform Setup and Installation
 original-url: https://docs.microsoftcommunitytraining.com/docs/faqs-installation-and-setup
-author: Charan Brahmandam
-ms.author: cbms03
+author: cbms03
+ms.author: cbrahmandam
 description: There are a number of prerequisites such as having a valid subscription type, access policy etc. before you can get started with the platform installation and setup.
 ms.prod: learning-azure
 ---
@@ -65,7 +65,7 @@ For more details, please the [**installation overview article**](../infrastructu
 
 ### What kind of technical capability is required to deploy and set up  Community Training? Do I need an implementation partner to help with the platform configuration and setup implementation?
 
-Community Training is designed to be easily deployed and managed by the customers with minimal IT overhead. Customers can [**set up the platform**](../infrastructure-management/install-your-platform-instance/installation-guide-detailed-steps.md) on their Azure subscription on their own in a few simple clicks.
+Community Training is designed to be easily deployed and managed by the customers with minimal IT overhead. Customers can [**set up the platform**](../infrastructure-management/install-your-platform-instance/detailed-step-by-step-installation-guide.md) on their Azure subscription on their own in a few simple clicks.
 
 Your IT admin or cloud administrator responsible for managing the [**Azure Portal**](https://portal.azure.com/) can deploy the platform on your Azure subscription. Once the platform is deployed, the training manager can [**start configuring the platform and upload training content**](../get-started/step-by-step-configuration-guide.md). No coding is required.
 
@@ -86,7 +86,7 @@ Before deleting the resource group, we recommend you create a copy of content an
 
 #### How are platform updates pushed to my platform instance when new features are rolled out by Microsoft?
 
-When new features and security updates are available, Microsoft will push the updates to the web portal and mobile app at a regular cadence without any manual intervention from the customers. Customers will be notified via e-mail with regards to the update. We will also be constantly publishing new rollouts on [**our documentation portal**](../whats-new-in-microsoft-community-training/whats-new-in-microsoft-community-training.md).
+When new features and security updates are available, Microsoft will push the updates to the web portal and mobile app at a regular cadence without any manual intervention from the customers. <!--We will also be constantly publishing new rollouts on [**our documentation portal**](../whats-new-in-microsoft-community-training/whats-new-in-microsoft-community-training.md).-->
 
 
 ## Teams Integration

@@ -12,7 +12,7 @@ zone_pivot_groups: "AD-Deployments-Methods"
 
 ## Prerequisite
 
-Please follow [**installation article**](../../infrastructure-management/install-your-platform-instance/installation-guide-detailed-steps.md) to Deploy your CT instance. In the step “**Set up your Login type**”, select the suitable identity type and follow the below documentation to configure login identity.
+Please follow [**installation article**](detailed-step-by-step-installation-guide.md) to Deploy your CT instance. In the step “**Set up your Login type**”, select the suitable identity type and follow the below documentation to configure login identity.
 
 ## Configure login identity
 
@@ -22,7 +22,7 @@ Community Training platform provides two types of login:
 2. Microsoft Work or School account
 
 > [!Note]  
-> Please note this article is in continuation of the [**installation article**](../../infrastructure-management/install-your-platform-instance/installation-guide-detailed-steps.md).
+> Please note this article is in continuation of the [**installation article**](../../infrastructure-management/install-your-platform-instance/detailed-step-by-step-installation-guide.md).
 
 In this article, we will walk you through on how to configure login identity for the platform.
 
@@ -104,12 +104,12 @@ You can create a new Microsoft EntraID (Azure AD) tenant or use an existing one 
     * Enter the description and expiry time of the secret (recommended to select maximum allowed time for expiry) and click on Save button. A value would be shown. Save this Client secret value. Would be required later as the ClientSecret.
     :::image type="content" source="../../media/Obtain clientsecret value.PNG" alt-text="Image showing how to obtain Client Secret value ":::
 
-9. Make a note of the values and follow [**installation article**](../../infrastructure-management/install-your-platform-instance/installation-guide-detailed-steps.md) to complete the Deployment by configuring obtained values as below.
+9. Make a note of the values and follow [**installation article**](microsoft-community-training\infrastructure-management\install-your-platform-instance\detailed-step-by-step-installation-guide.md) to complete the Deployment by configuring obtained values as below.
 
     ![Work_School_Login](../../media/Detailed_Installation_Steps/Detailed_Installation_Guide_Step4b.png)
 
 >[!Note]    
->If you are facing any issues while Deploying your AD instance, please follow the header "Microsoft EntraID (Azure AD) Configuration issue" under [**troubleshooting document**](troubleshooting.md) and send us the required output.
+>If you are facing any issues while Deploying your AD instance, Please reach out to us [**via HelpDesk**](https://aka.ms/cthelpdesk).
 
 ### Multi-Tenant support for Microsoft EntraID (Azure AD) based Authentication
 
@@ -221,7 +221,7 @@ Here are the steps an create on Azure AD B2C tenant and link the same with your 
  -->   
     
    
-7. Follow the [**installation article**](../../infrastructure-management/install-your-platform-instance/installation-guide-detailed-steps.md) to complete the Deployment by configuring obtained values as per the below screenshot
+7. Follow the [**installation article**](../../infrastructure-management/install-your-platform-instance/detailed-step-by-step-installation-guide.md) to complete the Deployment by configuring obtained values as per the below screenshot
 
  ![Social_Phone_Login](../../media/Detailed_Installation_Steps/Detailed_Installation_Guide_Step4a.png)
 

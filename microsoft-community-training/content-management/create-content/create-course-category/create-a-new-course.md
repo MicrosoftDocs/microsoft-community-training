@@ -167,8 +167,7 @@ The course content must be structured correctly and available in the required fi
 > [!Note]  
 > Once the course is uploaded, you can [**add assessments**](add-assessments-to-a-course.md) or [**publish the course**](publishing-course.md) for learners to consume the content via the web portal or mobile application.
 
-> [!TIP]  
-> When performing bulk upload course operations,  [**scale up your platform configuration**](../../../infrastructure-management/configure-your-platform-infrastructure/scale-up-instance-configuration.md) to reduce the upload and processing time for the content.
+
 
 <!---
 Alternatively, you can check the step by step video tutorial for bulk upload content:

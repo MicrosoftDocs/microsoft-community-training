@@ -1,8 +1,8 @@
 ---
 title: Azure IOT Hub Initial Setup
 original-url: https://docs.microsoftcommunitytraining.com/docs/learning-in-offline-mode
-author: cbms03
-ms.author: cbms03
+author: cbrahmandam
+ms.author: cbrahmandam
 description: This article explains how learners can access the training content in offline mode and initial setup of Azure IOT hub
 ms.prod: learning-azure
 ---
@@ -60,7 +60,7 @@ Perform the steps in [**this article**](/azure/container-registry/container-regi
 
 ### Step 3.2: Configure Azure SQL Edge
 
-Create a password of your choice and update its value against <SQL_PASSWORD> in the deployment file. Ensure that the password is greater than eight characters and meets [**these requirements**](/sql/relational-databases/security/password-policy?view=sql-server-ver15).
+Create a password of your choice and update its value against <SQL_PASSWORD> in the deployment file. Ensure that the password is greater than eight characters and meets [**these requirements**](/sql/relational-databases/security/password-policy?view=sql-server-ver15&preserve-view=true).
 
 ### Step 3.3: Configure Azure Blob Storage on IoT Edge (BlobEdge)
 

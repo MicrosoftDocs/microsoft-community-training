@@ -2,7 +2,7 @@
 title: Reliability in Community Training
 description: Find out about reliability in Community Training 
 author: cbrahmandam
-ms.author: cbms03
+ms.author: cbrahmandam
 ms.topic: reliability-article
 ms.custom: subject-reliability, references_regions
 ms.prod: non-product-specific

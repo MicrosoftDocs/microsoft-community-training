@@ -1,8 +1,8 @@
 ---
 title: User Roles & Groupsn
 original-url: https://docs.microsoftcommunitytraining.com/docs/user-roles-groups
-author: Charan Brahmandam
-ms.author: cbms03
+author: cbms03
+ms.author: cbrahmandam
 description: The platform follows a role-based administration hierarchy.
 ms.prod: learning-azure
 ---

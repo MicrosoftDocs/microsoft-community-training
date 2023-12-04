@@ -1,8 +1,8 @@
 ---
 title: Portal Branding & Customization
 original-url: https://docs.microsoftcommunitytraining.com/docs/portal-branding-customization
-author: Charan Brahmandam
-ms.author: cbms03
+author: cbms03
+ms.author: cbrahmandam
 description: Currently, we support 60+ languages on the platform.
 ms.prod: learning-azure
 ---
@@ -137,6 +137,7 @@ Branding on the certificate can be defined by the organization using the platfor
 
 The size of the certificate is defined in the sample certificate file provided in [**this article**](../settings/customize-the-certificate-template.md).
 
+<!--
 ## Custom domain URL
 
 ### How do I change the domain of my training portal?
@@ -144,10 +145,10 @@ The size of the certificate is defined in the sample certificate file provided i
 You can change the domain of your portal and use a custom domain that reflects your organization's name or brand. Refer to **[this article](../infrastructure-management/configure-your-platform-infrastructure/setup-custom-domain-url.md)** to change the domain of your portal.
 
 ## Feedback & survey
-
+-->
 ### Is there an inbuilt feature to take feedback from learners or conduct surveys?
 
-You can collect a course level feedback by incorporating a pre-filled google forms or survey monkey links. The users will see the option at the bottom of the course, to provide feedback. Please refer to [*this*](../content-management/create-content/create-course-category/add-feedback-form-for-a-course.md) article for more information on adding feedback collection mechanism for a course.
+You can collect a course level feedback by incorporating a pre-filled google forms or survey monkey links. The users will see the option at the bottom of the course, to provide feedback. Please refer to [**this**](../content-management/create-content/create-course-category/add-feedback-form-for-a-course.md) article for more information on adding feedback collection mechanism for a course.
 
 
 Please reach out to us [**via HelpDesk**](https://aka.ms/cthelpdesk) if you have any further queries.

@@ -1,8 +1,8 @@
 ---
 title: Analytics & Reporting
 original-url: https://docs.microsoftcommunitytraining.com/docs/analytics-reporting
-author: Charan Brahmandam
-ms.author: cbms03
+author: cbms03
+ms.author: cbrahmandam
 description: Community Training allows organizations to track and stay updated on learner's progress and performance scores through non-graded assessments and graded assessments.
 ms.prod: learning-azure
 ---

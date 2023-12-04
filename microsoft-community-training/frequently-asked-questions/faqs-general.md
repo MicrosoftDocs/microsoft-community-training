@@ -31,28 +31,23 @@ While Community Training is not a traditional Learning Management System (LMS), 
 
 Community Training is available in the following Azure regions:
 
-| **Primary Region**  | **Paired Region** |
-|--------------------|------------------|
-| WestUS2            | WestCentral      |
-| SouthCentralUS     | NorthCentralUS   |
-| UKSouth            | UKWest           |
-| SoutheastAsia      | EastAsia         |
-| WestEurope         | NorthEurope      |
-| EastUS             | WestUS           |
-| AustraliaEast      | AustraliaSouth   |
-| EastUS2            | CentralUS        |
-| NorthEurope        | WestEurope       |
-| WestUS3            | EastUS           |
-| SwedenCentral      | SwedenSouth      |
-  
+| **1** | **UKSouth**   | **UKWest**         |
+|-------|---------------|--------------------|
+| 2     | AustraliaEast | AustraliaSoutheast |
+| 3     | EastUS2       | CentralUS          |
+| 4     | NorthEurope   | WestEurope         |
+| 5     | WestUS3       | EastUS             |
+| 6     | SwedenCentral | SwedenSouth        |
+
+
 
 For any questions on the availability, please reach out to us [**via HelpDesk**](https://aka.ms/cthelpdesk)
 
 ### Who is the target audience for Community Training?
 
-Community Training is built and optimized for large-scale community skilling programs, specially for the not for profit organizations, PubSec, such as volunteers, program beneficiaries, etc.) . The platform is designed for mobile-first and mobile-only audiences and supports learning even on low-bandwidth networks and low-end smartphones.
+Community Training is built and optimized for large-scale community skilling programs, specially for the not for profit organizations, PubSec, such as volunteers, program beneficiaries, etc. The platform is designed for mobile-first and mobile-only audiences and supports learning even on low-bandwidth networks and low-end smartphones.
 
-The platform is already being used by a number of large organizations, small and medium businesses, startups, educational institutions, governmental organizations, and nonprofits.
+The platform is already being used by a number of educational institutions, governmental organizations, and nonprofits.
 
 ### What kind of training scenarios I can use Community Training for?
 

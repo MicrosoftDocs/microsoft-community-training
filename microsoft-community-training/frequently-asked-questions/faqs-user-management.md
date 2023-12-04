@@ -1,8 +1,8 @@
 ---
 title: Login Types and User Identity
 original-url: https://docs.microsoftcommunitytraining.com/docs/faqs-user-management
-author: Charan Brahmandam
-ms.author: cbms03
+author: cbms03
+ms.author: cbrahmandam
 description: Currently, there are 3 forms of login identity supported in the platform  i.e. Mobile Number (Via ADB2C), Personal Email Address (or  Social Account) and Azure AD.
 ms.prod: learning-azure
 ---
@@ -15,7 +15,7 @@ ms.prod: learning-azure
 
 Currently, there are 3 forms of login identity supported in the platform i.e. Mobile Number (Via ADB2C Setup), Personal Email Address (or  Social Account), and Azure AD. The customer can choose any one of the above methods as an authentication method or any combination of above mentioned 3 forms of login identity for learners on the portal as explained below:
 
-1. **Mobile Number** - You can configure your choise of mobile OTP provider via [**AD B2C**](https://learn.microsoft.com/en-us/azure/active-directory-b2c/phone-authentication-user-flows) setup. Learners receive a one-time-password on the mobile no. which is entered at the time signing in. On successful verification, learners can access the portal.
+1. **Mobile Number** - You can configure your choise of mobile OTP provider via [**AD B2C**](https://learn.microsoft.com/azure/active-directory-b2c/phone-authentication-user-flows) setup. Learners receive a one-time-password on the mobile no. which is entered at the time signing in. On successful verification, learners can access the portal.
 
 2. **Personal Email Address** – Learners can choose a personal email address or social account such as Facebook, LinkedIn, etc. to login into the portal. On successful authentication from an identity provider (i.e. Google, FB, or Microsoft), learners are logged into the Community Training portal as well.
 
@@ -58,7 +58,7 @@ Yes, CT will support login via multiple modes for the same instance, for that yo
 
 >[!Note]  
 >
->You will have to procure a phone auth service provider and configure the service on ADB2C tenant. Please refer to this [**link: Set up phone sign-up and sign-in for user flows**](https://learn.microsoft.com/en-us/azure/active-directory-b2c/phone-authentication-user-flows) for the process to set it up. 
+>You will have to procure a phone auth service provider and configure the service on ADB2C tenant. Please refer to this [**link: Set up phone sign-up and sign-in for user flows**](https://learn.microsoft.com/azure/active-directory-b2c/phone-authentication-user-flows) for the process to set it up. 
 
 
 ### My learners don’t have an email address or mobile number, how can they sign in and access the training content?

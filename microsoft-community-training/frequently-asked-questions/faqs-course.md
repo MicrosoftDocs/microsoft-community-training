@@ -1,8 +1,8 @@
 ---
 title: Content and Course management
 original-url: https://docs.microsoftcommunitytraining.com/docs/faqs-course
-author: Charan Brahmandam
-ms.author: cbms03
+author: cbms03
+ms.author: cbrahmandam
 description: Microsoft provides course content around Digital Literacy, Office 365, etc. which organizations can upload and use in their Community Training platform instance.
 ms.prod: learning-azure
 ---
@@ -82,7 +82,7 @@ Yes, customers can embed videos from any external platforms such as YouTube, Mic
 > * In your Vimeo video player, click on the share button, under the Embed sectio,n copy the code highlighted as below, and you can paste this as external url for a lesson in CT
 > :::image type="content" source="../media/viemoshare.png" alt-text="sharevimeo":::
 >
-> * If receive any playback error while playing a Vimeo video in CT, you need to update [**privacy settings**](https://vimeo.zendesk.com/hc/en-us/articles/115015677227-Troubleshoot-player-error-messages) in your Vimeo account.
+> * If receive any playback error while playing a Vimeo video in CT, you need to update [**privacy settings**](https://vimeo.zendesk.com/hc/articles/115015677227-Troubleshoot-player-error-messages) in your Vimeo account.
 
 
 ### How can I allow external videos to play inside Community Training?

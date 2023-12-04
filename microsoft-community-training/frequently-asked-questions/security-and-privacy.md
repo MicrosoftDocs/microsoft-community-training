@@ -1,8 +1,8 @@
 ---
 title: Backup, Security & Privacy
 original-url: https://docs.microsoftcommunitytraining.com/docs/security-and-privacy
-author: Charan Brahmandam
-ms.author: cbms03
+author: cbms03
+ms.author: cbrahmandam
 description: Community Training can only be hosted and run on Microsoft Azure Cloud.  It cannot be deployed on other public cloud providers or on-premise data center.
 ms.prod: learning-azure
 ---
@@ -31,7 +31,7 @@ In the Community Training, user ID and other information are stored in the Azure
 
 Community Training can ensure that in case of unforeseen failures and disasters, your data – which includes all your content, user data, and other branding assets - is safe and secure.
 
-TThe backup and replication are not enabled by default. Customers can enable backup/replication of the data at installation. The data will be replicated only to the region paired with the primary region selected at installation. Please note, if there is no paired region associated with the primary, we will not be able to offer backup and replication. Please refer to [**this**](../infrastructure-management/install-your-platform-instance/detailed-step-by-step-installation-guide.md) article for more information and [**this**](https://learn.microsoft.com/en-us/azure/reliability/cross-region-replication-azure#azure-paired-regions) 
+TThe backup and replication are not enabled by default. Customers can enable backup/replication of the data at installation. The data will be replicated only to the region paired with the primary region selected at installation. Please note, if there is no paired region associated with the primary, we will not be able to offer backup and replication. Please refer to [**this**](../infrastructure-management/install-your-platform-instance/detailed-step-by-step-installation-guide.md) article for more information and [**this**](https://learn.microsoft.com/azure/reliability/cross-region-replication-azure#azure-paired-regions) 
 article for list of paired regions..
 
 <!--
@@ -55,7 +55,7 @@ Customers can configure the geo-replication, failover, etc. for business continu
 
 When data is in transit, it is encrypted using TLS 1.2. When data is at rest, it is encrypted using Transparent Data Encryption (i.e. TDE).
 
-For more details on Transfer Data Encryption, please visit [**this article**](https://learn.microsoft.com/en-us/sql/relational-databases/security/encryption/transparent-data-encryption?view=sql-server-ver15).
+For more details on Transfer Data Encryption, please visit [**this article**](https://learn.microsoft.com/sql/relational-databases/security/encryption/transparent-data-encryption?view=sql-server-ver15&preserve-view=true).
 
 ### Can customers use their own encryption keys for data encryption?
 

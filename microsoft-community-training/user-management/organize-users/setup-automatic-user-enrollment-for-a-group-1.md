@@ -112,4 +112,4 @@ You can edit or remove the conditions set in the rules by hovring your mouse ove
 ![Edit Smartgroup Rules](../../media/Edit_SmartGroup_Rules.png)
 
 [!TIP]  
-> Editing Smart Group rules, when large number of learners exist is a resource intensive operation and might take time to complete. If it is taking too long to import users, please [**scale up your platform instance**](../../infrastructure-management/configure-your-platform-infrastructure/scale-up-instance-configuration.md).
+> Editing Smart Group rules, when large number of learners exist is a resource intensive operation and might take time to complete.

@@ -110,4 +110,4 @@ Before you start the bulk upload, ensure the users list is structured in the rig
 > There is a limit of 10000 users for each bulk upload operation. To upload more users, create multiple csv files.
 
 > [!TIP]  
-> Bulk upload is a resource intensive operation and might take time to complete. If it is taking too long to import users, please [**scale up your platform instance**](../../infrastructure-management/configure-your-platform-infrastructure/scale-up-instance-configuration.md).
+> Bulk upload is a resource intensive operation and might take time to complete.

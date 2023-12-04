@@ -1,8 +1,8 @@
 ---
 title: Pricing & Subscription
 original-url: https://docs.microsoftcommunitytraining.com/docs/pricing-subscription
-author: Charan Brahmandam
-ms.author: cbms03
+author: cbms03
+ms.author: cbrahmandam
 description: Community Training is built on top of Azure platform and available only on the Azure portal.
 ms.prod: learning-azure
 ---
@@ -24,31 +24,19 @@ To learn more about how to create a pay-as-you-go subscription, [**refer to this
 
 ### I'm a non-profit organization. Are there any grants or sponsorships for using the training portal?
 
-If you’re a non-profit and would like an Azure grant for using Community Training, you can apply by referring **[this article](../infrastructure-management/install-your-platform-instance/setup-platform-instance-on-azure-subscription-for-nonprofits.md)** and avail the grant subject to eligibility.
+If you’re a non-profit and would like an Azure grant for using Community Training, you can apply by referring **[this link](https://www.microsoft.com/nonprofits/eligibility?activetab=pivot1:primaryr4**) and avail the grant subject to eligibility.
 
 ### Can nonprofit organizations use their existing Azure Credits towards Community Training hosting costs?
 
-Nonprofit organizations can receive $ 3,500 worth of Azure credit from Microsoft, which can be used towards hosting the Community Training.
+Nonprofit organizations can use the Azure credits towards hosting the Community Training.
 
 For more details on Microsoft Nonprofit offers, please check  [**this link**](https://nonprofit.microsoft.com/register).
-
-To redeem the Azure grant and deploy the platform on a sponsored subscription for nonprofits, refer to [**this article**](../infrastructure-management/install-your-platform-instance/setup-platform-instance-on-azure-subscription-for-nonprofits.md).  
+  
 
 ### For how long is the Microsoft Azure grant for nonprofits valid? Do we get it every year?
 
 Azure credit for nonprofits is an annual grant.
 
-### What are the Azure Services used by Community Training?
-
-Here is the list of services that are used by the Community Training:
-
-* Azure App Service
-* Azure Blob Storage
-* Azure Media Service
-* Content Delivery Network
-* Azure SQL Database
-* Azure Key Vault
-* Azure Application Insights
 
 ## Pricing & Purchase
 
@@ -100,7 +88,7 @@ For more details on pricing, [**go here**](https://communitytraining.microsoft.c
 
 ### When an organization opts for a phone-based login, who pays for the SMS charges?
 
-The configuration of the phone based login is done via **ADB2C** tenant and the associated costs can be checked [**here**](https://azure.microsoft.com/en-us/pricing/details/active-directory-external-identities/#resources).  There could be carrier charges associated with the incoming SMS messaged.
+The configuration of the phone based login is done via **ADB2C** tenant and the associated costs can be checked [**here**](https://azure.microsoft.com/pricing/details/active-directory-external-identities/#resources).  There could be carrier charges associated with the incoming SMS messaged.
 
 ### Are there any charges for course content streamed via external websites such as YouTube?
 

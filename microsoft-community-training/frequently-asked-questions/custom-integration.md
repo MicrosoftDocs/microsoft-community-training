@@ -1,8 +1,8 @@
 ---
 title: Platform Extensibility & Integration
 original-url: https://docs.microsoftcommunitytraining.com/docs/custom-integration
-author: Charan Brahmandam
-ms.author: cbms03
+author: cbms03
+ms.author: cbrahmandam
 description: Community Training do not inbuilt support for live training sessions.
 ms.prod: learning-azure
 ---
@@ -33,7 +33,7 @@ For more information on MS Teams integration, [**go here**](https://communitytra
 
 ### Will I be able to deliver a webinar using this platform?
 
-Community Training doesn’t provide inbuilt functionalities to host webinars but customers can add the meeting or webinar URLs as an external lesson on the platform. This will allow users to easily redirect to the respective application hosting the webinar and attend sessions. Refer to this documentation on [**setting up Webinars using MS Teams**](https://support.microsoft.com/en-us/office/schedule-a-webinar-in-microsoft-teams-0719a9bd-07a0-47fd-8415-6c576860f36a#:~:text=Create%20a%20webinar%201%20In%20the%20Teams%20calendar%2C,event%2C%20invites%20will%20be%20sent%20to%20attendees%20automatically.)
+Community Training doesn’t provide inbuilt functionalities to host webinars but customers can add the meeting or webinar URLs as an external lesson on the platform. This will allow users to easily redirect to the respective application hosting the webinar and attend sessions. Refer to this documentation on [**setting up Webinars using MS Teams**](https://support.microsoft.com/office/schedule-a-webinar-in-microsoft-teams-0719a9bd-07a0-47fd-8415-6c576860f36a#:~:text=Create%20a%20webinar%201%20In%20the%20Teams%20calendar%2C,event%2C%20invites%20will%20be%20sent%20to%20attendees%20automatically.)
 
 ## Integration with external system
 

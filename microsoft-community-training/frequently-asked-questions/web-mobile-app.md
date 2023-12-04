@@ -11,10 +11,6 @@ ms.prod: learning-azure
 
 ## Learner experience
 
-### It takes too much time to open the website on my browser/portal and is responding very slowly
-
-It is possible that your infrastructure is unable to handle the high traffic load. Refer to **[this article](../infrastructure-management/configure-your-platform-infrastructure/scale-up-instance-configuration.md)** to upscale your platform and meet your growing needs.
-
 ### I can't open external links embedded inside the PDF document in the platform
 
 For security reasons, we have disabled clicking on external links for the PDF document on the platform. Hence, you should not add any links to the PDF lesson file.

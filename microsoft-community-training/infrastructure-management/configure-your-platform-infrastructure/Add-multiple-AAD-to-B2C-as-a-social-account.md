@@ -11,6 +11,9 @@ ms.prod: learning-azure
 
 This article shows you how to enable sign-in for users from a specific Azure AD organization using a user flow in Azure AD B2C.
 
+>[!NOTE]
+>We Recommend that you configure Multi Factor Authentication for your instance. This will help enhance the security of the platform.
+
 ## Step:1 Register an Azure AD app
 
 To enable sign-in for users with an Azure AD account from a specific Azure AD organization,  you need to create an application in [**Azure portal**](https://portal.azure.com/) from your Azure Active Directory B2C account (Azure AD B2C). For more information, see [Register an application with the Microsoft identity platform](/azure/active-directory/develop/quickstart-register-app).

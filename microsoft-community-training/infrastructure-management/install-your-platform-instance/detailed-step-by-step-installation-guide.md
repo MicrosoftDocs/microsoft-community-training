@@ -19,8 +19,6 @@ Create a pay-as-you-go Azure subscription. To learn more about how to create it,
 
 If you have a free trial Azure subscription, please upgrade to a Pay-as-you-go Azure subscription. See the [**detailed steps here**](/azure/billing/billing-upgrade-azure-subscription#upgrade-your-azure-free-account). 
 
-If you have a free trial Azure subscription, please upgrade to a Pay-as-you-go Azure subscription. See the [**detailed steps here**](/azure/billing/billing-upgrade-azure-subscription#upgrade-your-azure-free-account). 
-
 <!--
 Hiding this until the work on this topic is complete
 **We currently do not support Microsoft Community Training on free trial Azure subscriptions.**

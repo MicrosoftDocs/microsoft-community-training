@@ -3,29 +3,27 @@ title: Content Management - Overview
 original-url: https://docs.microsoftcommunitytraining.com/docs/content-management-overview
 author: nikotha
 ms.author: nikotha
-description: Microsoft Community Training platform allows you to create and manage  content, as well as  it quickly and easily.
+description: Community Training platform allows you to create and manage content.
 ms.prod: learning-azure
 ---
 
 # Content Management - Overview
 
-Microsoft Community Training platform allows you to create and manage  content, as well as  it quickly and easily. Organizations can add rich multi-media content, quizzes and exams as content and create a structured learning experience for the learners.
+The Community Training platform allows you to create and manage content. You can add rich multi-media content and create a structured learning experience with non-graded assessments at statregic points with a final graded assessment at the end of the course.
 
-All the management functionalities of courses are stacked together in a single panel under the **Content Tab**  – a one-stop-shop for administrators to manage content on the portal. From the content tab, administrators can create Categories, Courses and Learning paths, upload and manage course materials, configure course settings, and much more.
+All the management functionalities are stacked together in a single panel under the **Content Tab**: from here administrators can create Categories, Courses and Learning Paths; upload and manage course materials; and configure course settings.
 
 ![managing course and learning path](../media/image%28427%29.png)
 
-In this section, you will learn how to leverage the content management capabilities on the management portal to create and manage your online learning content.
+In this section, you will learn how to create and manage your online learning content.
 
 ## Content structure on the platform
 
-Microsoft Community Training platform provides the following learning taxonomy to categories and structure content on the portal:
+The Community Training platform provides the following learning taxonomy to categories and structure content:
 
 ![Course Management - Course and Category](../media/Course%20Management%20-%20Course%20and%20Category.png)
 
-![Course Management - Learning path](../media/Course%20Management%20-%20Learning%20path.png)
-
-### 1. Category  
+### Category  
 
 A  **Category**  is a collection of multiple courses.  
 
@@ -35,19 +33,19 @@ For example, training your extended workforce may include different subjects suc
 
 Alternatively, categories can also help you organize your learning content for different departments within your organization such as marketing, legal, customer support and finance. Each of these departments can be a category on the platform.
 
-### 2. Course
+### Course
 
 A **Course** is a collection of lessons and assessments.  
 
-Think of it as a book in a traditional education system. For each course, you can have multiple lessons as chapters. After each lesson, you may optionally include a Practice Quiz to serve as a refresher on the lesson. Finally, you may include an Exam at the end of the course to evaluate the learner’s knowledge and proficiency on the entire content of that course.  
+Think of it as a book in a traditional education system. For each course, you can have multiple lessons as chapters. After each lesson, you may optionally include an assessment to serve as a refresher on the lesson. Finally, you may include a graded assessment at the end of the course to evaluate the learner’s knowledge and proficiency.  
 
-Every course may also include a certificate, that will be awarded to the learner on either a successful completion of the course or passing the exam, depending on your choice.  
+Every course may also include a certificate that will be awarded to the learner on either a successful completion of the course or passing the graded assessment.  
 
-For example, an organization has a technical course on Washing Machine installation with a total duration of 20 minutes from start to finish. We can divide the video into segments of 2 to 3 minutes resulting in 6-10 lessons and add an exam towards the end to assess and certify the learners.  
+For example, an organization has a technical course on Washing Machine installation with a total duration of 20 minutes from start to finish. We can divide the video into segments of 2 to 3 minutes resulting in 6-10 lessons and add an assessment towards the end to assess and certify the learners.  
 
-### 3. Lessons
+### Lessons
 
-A **Lesson** is a single unit of learning in the form of Audio, Video, PDF, Word document or PowerPoint presentation. These are created as easy-to-learn capsules – short, simple and informative.  
+A **Lesson** is a single unit of learning in the form of Audio, Video, PDF, Word document or PowerPoint presentation. These are created as easy-to-learn capsules: short, simple and informative.  
 
 #### Supported file formats for content
 
@@ -56,47 +54,46 @@ A **Lesson** is a single unit of learning in the form of Audio, Video, PDF, Word
 * Other formats:  PDF, PPT, PPTX, DOCX, EPUB, HTML  
 * Hyperlinks: Paste link in the upload lesson dialogue box.
 
-### 4. Assessments
+### Assessments
 
-**Assessments** are a way to test learner’s understanding of the course content and check their knowledge & proficiency. They may contain one or more multiple-choice questions. Microsoft Community Training platform provides two types of assessments:
+**Assessments** are a way to test the learner’s understanding of the course content. They may contain one or more multiple-choice questions. The Community Training platform provides two types of assessments:
 
-#### Practice Quiz
+#### Non-graded Assessment
 
-A **Practice Quiz** to serve as a refresher for learners and facilitate revision of a particular lesson. It encourages and motivates the learner to go to the next lesson.
+A **Non-graded Assessment** provides a refresher for learners and facilitates revision of a particular lesson. It encourages and motivates the learner to go to the next lesson.
 
-For example, a learner who has seen 3 lessons takes a Practice Quiz and finds that he has got 2 out of 3 questions correct. He can go back to the lesson, view it again and then repeat the quiz till he corrects his understanding.
+For example, a learner who has seen three lessons takes an assessment and finds that they've got two out of three questions correct. They can go back to the lesson, view it again and repeat the assessment till they fully understands the subject.
 
-#### Exam
+#### Graded Assessment
 
- An **Exam** is to evaluate learners on their proficiency and knowledge in a particular course, with limited number of attempts and passing percentage as specified by you.  
+ An **Graded Assessment** evaluates a learner on their proficiency and knowledge in a particular course. You specify the number of attempts and passing percentage.  
 
-Exam is always kept at the end of the course and learners can attempt only when they have completed all the lessons and practice quizzes in the course.  
+The Graded Assessment is always at the end of the course and can be attempted only when all the lessons and assessments in the course have been completed.  
 
-For example, an organization who wants to certify their technician on Washing Machine installation can put an exam at the end with a passing percentage to assess their knowledge and provide certificate accordingly.  
+For example, an organization who wants to certify their technicians on Washing Machine installation can put an assessment at the end with a passing percentage to assess the technicians knowledge and provide certification accordingly.  
 
-#### Difference between a Practice Quiz and an Exam
+#### Difference between non-graded and graded assessments
 
-| Area | Practice Quiz  | Exam |
+| Area | Non-graded  | Graded |
 | --- | --- | --- |
-| Purpose | Allows the learner to revise the concept of the previous lessons.  Use it as a confidence-building reiteration of the key points in the previous lessons before moving further | Means of Assessment where the learner is evaluated for the questions. Based on the performance in the Exam, the learner is awarded a Certificate of Completion. |
-| Functionalities | There is no restriction on the number of attempts for a Practice Quiz. There can be one or more practice quizzes in a course | There is passing percentage, a limit on the number of attempts and shuffle mode for an Exam. There can be only one Exam at the end of the course |
+| Purpose | Allows the learner to revise the concept of the previous lessons.  Use it as a confidence-building reiteration of the key points in the previous lessons before moving further | Means of Assessment where the learner is evaluated for the questions. Based on the performance in the Assessment, the learner is awarded a Certificate of Completion. |
+| Functionalities | There is no restriction on the number of attempts for a Non-graded Assessment. There can be one or more in a course | There is passing percentage, a limit on the number of attempts and shuffle mode for an Graded Assessment. There can be only one at the end of the course |
 
-### 5. Certification
+### Certification
 
-Organization can enable certification and [**offer customized certificates**](../settings/customize-the-certificate-template.md) to the learners on successful completion of the courses.
+You can enable certification and [**customized certificates**](../settings/customize-the-certificate-template.md) for the learners on successful completion of the courses.
 
-### 6. Learning Paths
+### Learning Paths
 
-A **Learning Path** is a logical sequence of Courses referenced from one or multiple categories.
+A **Learning Path** is a logical sequence of Courses referenced from one or more categories.
 
-Think of Learning Path like a curriculum that specializes learner in a specific skill in a traditional education system. Within a curriculum, you can have one or more courses from different categories each of which may instruct learners to gain expertise in a guided manner to gain the specific skill set(s).
-A Learning Path references courses from various categories which learners can be optionally enforced to complete in an order. A Learning Path can be assigned by the administrators to a individual or group of users.
+Think of a Learning Path like a curriculum that specializes in a specific skill. Within a curriculum, you can have one or more courses from different categories each of which may instruct learners to gain the specific skill set(s) requried. To achieve this, a Learning Path references courses from various categories which learners complete in an specific order set by you and can be assigned to an individual or a group of users.
 
-For example, training your extended workforce may include different competencies such as Sales Expert, Compliance 101 and Safety Expert. Each of these competencies can be a learning path on the platform with courses from different categories added to the paths.
+For example, training your extended workforce may include different competencies such as Sales Expert, Compliance 101 and Safety Expert. Each of these competencies can be a learning path with courses from different categories added to the paths.
 
 ## Steps to create content in the portal
 
-Content creation is one of the core activities of any online learning program. This is why Microsoft Community Training platform provides specific set of features to help administrators to create new content on the portal. Given below are the few simple steps to get started with content management on the management portal:
+Content creation is one of the core activities of any online learning program. This is why Community Training platform provides specific set of features to help administrators to create new content on the portal. Given below are the few simple steps to get started with content management on the management portal:
 ![Course Management - Learning path](../media/Course%20Management%20-%20Learning%20path.png)
 
 ### Step 1 - Create a new category
@@ -111,9 +108,9 @@ Content creation is one of the core activities of any online learning program. T
 
  Here are the detailed steps on [**upload content for the course**](create-content/create-course-category/upload-content-to-a-course.md) on the portal.
 
-### Step 4 – Add practice quiz and exam for the course
+### Step 4 – Add non-graded and graded assessments to the course
 
- Here are the detailed steps on [**how to add quizzes and exams**](create-content/create-course-category/add-assessments-to-a-course.md) for the course on the portal.
+ Here are the detailed steps on [**how to add assessmsnts**](create-content/create-course-category/add-assessments-to-a-course.md) for the course on the portal.
 
 ### Step 5 – Publish the course for the learners  
 
@@ -133,37 +130,33 @@ Here are the detailed steps on [**how to publish a Learning path**](../content-m
 
 ## Enabling Global Content across organizations
 
-Microsoft Community Training allows to create a common repository of content which is called as **Global Content**. With this feature, you can have common content across organizations/tenants in your instance.
+Community Training allows you to create a common repository of content called **Global Content**. With this feature, you can have content which is available across all organizations/tenants in your instance.
 
-> [!Note]
-> This Feature will allow you to have global content across multiple tenants for your MS Teams deployment
+> [!Note]  
+> This Feature will allow you to have global content across multiple tenants for your MS Teams deployment.
 
 ### Steps to enable Global Content
 
 1. Pre-requisite:
 
-   a. In App Service Configurations, search for `Features:IsMultiOrgDeployment`, add this if it does not exist, follow [this step](../settings/configurations-on-the-training-platform.md#enabling-organizations-on-the-platform)
+    Follow these steps to enable MS Teams Integration [Multi-Tenant support for Azure Active Directory based Authentication in Teams](../infrastructure-management/install-your-platform-instance/create-teams-app-for-your-training-portal.md#multi-tenant-support-for-azure-active-directory-based-authentication-in-teams), if this feature is available.
 
-    b. For instances with MS Teams Integration: Follow the steps to enable [Multi-Tenant support for Azure Active Directory based Authentication in Teams](../infrastructure-management/install-your-platform-instance/create-teams-app-for-your-training-portal.md#multi-tenant-support-for-azure-active-directory-based-authentication-in-teams)
+1. Login to the administrator view on the platform as a **Global Adminsitrator**
+2. Navigate to **Settings** on the left pane and click on **General** under **Global Settings**.
+3. Under **"Admin Settings"** category, toggle **"Allow Content to be accessible across organizations"** to **"Enable"**
+4. Refresh the page
 
-2. Login to [**Azure portal**](https://ms.portal.azure.com/#home)
+![Feature_Toggle](../media/Feature_Toggle_Old_General.png)
 
-3. Navigate to [Steps to set the Configurations on the Platform](../settings/configurations-on-the-training-platform.md#steps-to-set-the-configurations-on-the-platform)
+1. Now, **"Common"** will be available as an Organization.
+1. while creating Categories/Learning Paths. Any content created under **Common** will be available for assignment to all admins.
 
-4. Create/Update with below mentioned App settings in Configurations
-
-   `Features:IsGlobalContentEnabled`, set the **value** as `true`, then click ‘Ok’
-
-    :::image type="content" source="../media/Global Content Configuration.png" alt-text="Configuration value for Global content":::
-
-5. Now, **"Common"** organization will be available while creating Categories/Learning Paths. Any content created under **Common** will be available for assignment to all admins.
-
-    :::image type="content" source="../media/After Common Content Enabled.png" alt-text="Common content Enabled":::
+![After_Common_Content_Enabled](<../media/After Common Content Enabled.png>)
 
 ## View content analytics to track and measure effectiveness
 
-Microsoft Community Training platform provides out of the box rich analytics for organizations to track overall learner’s enrollment and completion for different courses, measure learner’s performance and ensure quality of content in satisfactory and meets the success criteria set by the organization.
-The management portal has content and user related in-built reports at [**category level**](../analytics/in-built-reports/category-view-report.md) to help administrators track and measure effectiveness of the learning content.
+The Community Training platform provides rich analytics for organizations to track overall learner’s enrollmentc, completion for different courses, measure learner’s performance, and ensure quality of content meets the success criteria set by the organization.
+The management portal has content and user related reports built in at [**category level**](../analytics/in-built-reports/category-view-report.md) to help administrators track and measure the effectiveness of the learning content.
 
 ![Track analytics](../media/Track%20analytics.png)
 
@@ -171,12 +164,15 @@ The management portal has content and user related in-built reports at [**catego
 
 1. Use [**bulk upload courses**](create-content/create-course-category/create-a-new-course.md#steps-for-bulk-upload-courses-to-the-portal) to create multiple courses on the portal in few simple clicks  
 
-2. For video lessons – keep the length of the video short i.e. 2-3 minutes for easy consumption
+1. For video lessons – keep the length of the video short i.e. 2-3 minutes for easy consumption
 
-3. Categories and courses are alphabetically stacked, so it is best to use numbering 01, 02, 03, 04, 05 etc.
+1. Categories and courses are alphabetically stacked, so it is best to use numbering 01, 02, 03, 04, 05 etc.
 
-4. Order of categories/courses can be changed by editing the name/number  
+1. Order of categories/courses can be changed by editing the name/number  
 
-5. Only order of lessons is user defined and can be manually moved up/down.
+1. Only order of lessons is user defined and can be manually moved up/down.
 
-6. For quizzes and exams, keep the questions simple to help learners revise and retain the training lessons. It must cover key points of the lessons to keep learners engaged and encourage them to complete the course.
+1. For assessments, keep the questions simple to help learners revise and retain the training lessons. They must cover key points of the lessons to keep learners engaged and encourage them to complete the course.
+
+
+Please reach out to us [**via HelpDesk**](https://aka.ms/cthelpdesk) if you have any further queries.

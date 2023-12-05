@@ -635,11 +635,11 @@
           <LocalizedString ElementType="UxElement" StringId="disclaimer_link_1_text">Privacy
             Statement</LocalizedString>
           <LocalizedString ElementType="UxElement" StringId="disclaimer_link_1_url">
-            https://privacy.microsoft.com/en-us/privacystatement</LocalizedString>
+            https://privacy.microsoft.com/privacystatement</LocalizedString>
           <LocalizedString ElementType="UxElement" StringId="disclaimer_link_2_text">Terms and
             Conditions</LocalizedString>
           <LocalizedString ElementType="UxElement" StringId="disclaimer_link_2_url">
-            https://www.microsoft.com/en-us/servicesagreement/</LocalizedString>
+            https://www.microsoft.com/servicesagreement/</LocalizedString>
         </LocalizedStrings>
       </LocalizedResources>
 

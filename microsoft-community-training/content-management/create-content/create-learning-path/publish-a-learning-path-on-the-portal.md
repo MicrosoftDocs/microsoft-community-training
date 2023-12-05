@@ -3,19 +3,19 @@ title: Publish a Learning Path on the Portal
 original-url: https://docs.microsoftcommunitytraining.com/docs/publish-a-learning-path-on-the-portal
 author: nikotha
 ms.author: nikotha
-description: Any new Learning Path created on the Microsoft Community Training management portal will not be accessible to the leaners unless and until it is published.
+description: Any new Learning Path created on the Community Training management portal will not be accessible to the leaners unless and until it is published.
 ms.prod: learning-azure
 ---
 
 # Publish a Learning Path on the Portal
 
-Any new Learning Path created on the Microsoft Community Training management portal will not be accessible to the learners unless and until it is published. In other words, any changes made to the Learning Path (i.e. adding a new courses) will come into effect only when changes are published.
+Any changes made to an existing Learning Path on the Community Training portal, or any new ones created, will not be accessible until the Learning Path is published.
 
-In this article, you will learn about steps admin needs to perform before publishing a Learning Path on the management portal.
+In this article, you will learn how to publish a Learning Path to the portal.
 
 ## Permissions Level
 
-The Microsoft Community Training management portal provides role-based administration and depending upon the type of access level admins can perform an action on the portal. Table below shows administrative role which are allowed to publish a Learning Path to the learners on the portal:
+The Community Training portal provides role-based permission levels. The table below shows which administrative roles can publish a Learning Path.
 
 | Access Level  | Publish courses to Learning Path |
 | --- | --- |
@@ -28,12 +28,17 @@ The Microsoft Community Training management portal provides role-based administr
 
 ## Steps to perform before publishing a Learning Path
 
-We recommend administrators to go through the following checklist before publishing a course on the management portal:
+Before publishing a course go through the following checklist:
 
-1. Click or tap ![Click](../../../media/image%28394%29.png) **View as Learner** icon on top right of the Learning Path details page to get a preview and experience how the learners would see and consume the Learning Path content whenever they login.
+1. Select ![Click](../../../media/image%28394%29.png) **View as Learner** icon on top right of the Learning Path details page to get a preview and experience how the learners would see and consume the Learning Path content whenever they login.
 
-2. Rearrange the structure of the course and lesson sequence using simple drag and drop operation.
+2. Rearrange the structure of the course and lesson sequence using simple drag and drop operation until the lessons are in the order you require.
 
-3. Click or tap **Publish** on right-navigation of the page to publish the Learning Path to the learners.
+3. Select **Publish** on right-navigation of the page to publish the Learning Path to the learners.
 
     ![Click Publish](../../../media/image%28395%29.png)
+    
+
+
+
+Please reach out to us [**via HelpDesk**](https://aka.ms/cthelpdesk) if you have any further queries.

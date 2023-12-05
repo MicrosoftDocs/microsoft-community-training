@@ -2,7 +2,7 @@
 title: Reliability in Community Training
 description: Find out about reliability in Community Training 
 author: cbrahmandam
-ms.author: cbms03
+ms.author: cbrahmandam
 ms.topic: reliability-article
 ms.custom: subject-reliability, references_regions
 ms.prod: non-product-specific
@@ -45,7 +45,9 @@ List of regions where community training will be supported:
 | East US          | Sweden Central       |               |                    |                |
 | West US 3        |                      |               |                    |                |
 
-Note: In sthe econdary region, zonal availability will be provided.
+
+Note: In the secondary region, zonal availability will be provided.
+
 
 ### Zonal failover support
 Community Training provide configuration for redundancy at the time of creation. 
@@ -78,7 +80,7 @@ RTO: 24 hours*
 ### Data plane:
 Community Training offers Microsoft managed disaster recovery. The customer has to *Enable Disaster Recovery*, when the Community Training instance is created in Azure.
 Once the customer enables eisaster recovery, we keep the backup of storage and database in the paired region.
-> [!NOTE]
+> [!Note]  
 > The Disaster recover feature is only available for regions which support paired regions.
 >
 >* RPO: 12 hour
@@ -86,7 +88,7 @@ Once the customer enables eisaster recovery, we keep the backup of storage and d
 >
 >RTO depends on database and storage size, latency between the paired region, database or storage VM capacity (SKU).
 >
->RPO of community training dependends on underlying azure resources like Azure SQL and Azure storage. [Go here for further details](/azure/azure-sql/database/recovery-using-backups?view=azuresql&tabs=azure-portal).
+>RPO of community training dependends on underlying azure resources like Azure SQL and Azure storage. [Go here for further details](/azure/azure-sql/database/recovery-using-backups?view=azuresql&tabs=azure-portal&preserve-view=true).
 
 Once we detect an Community Training instance is down in any region, we take customer consent for failover to a paired region, explaining the list of features availabe during the disaster recovery. Once we get consent from the customer, their Community Training instance is failed over to paired the region.
 
@@ -102,3 +104,5 @@ Disaster recover is neither active-active nor active-passive, it is based on rec
 
 ### Capacity and proactive disaster recovery resiliency
 Microsoft and it's customers operate under the shared responsibility model. Once any region is down, not only is the community training instance migrated to the paired region but other product and customer workload is also migrated. This may cause shortage for resources in the paired region or datacenter. Hence, Disaster recovery availability depends on the available capacity of underlying azure resources etc.
+
+Please reach out to us [**via HelpDesk**](https://aka.ms/cthelpdesk) if you have any further queries.

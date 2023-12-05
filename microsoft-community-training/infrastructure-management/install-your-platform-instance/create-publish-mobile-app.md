@@ -19,8 +19,8 @@ For setting up the mobile app for your training portal, you will need a mobile a
 
 2. [Requesting a mobile app AAB from the platform team](#option-2-requesting-a-mobile-app-aab-from-the-platform-team)
 
-> [!WARNING]
-> Microsoft Community Training team will soon be deprecating the process of requesting mobile application from the platform and support only progressive web applications (PWA) for both android and iOS.
+> [!WARNING]  
+> Community Training team will soon be deprecating the process of requesting mobile application from the platform and support only progressive web applications (PWA) for both android and iOS.
 
 ## Steps to create Mobile Application
 
@@ -54,7 +54,7 @@ Since a progressive web app is a type of webpage/website known as a web applicat
 
 #### Step 2: Update Settings in Admin View for Mobile Application
 
-1. Login to your Microsoft Community Training portal and [**switch to administrator view**](../../get-started/step-by-step-configuration-guide.md#step-2--switch-to-administrator-view-of-the-portal)
+1. Login to your Community Training portal and [**switch to administrator view**](../../get-started/step-by-step-configuration-guide.md#step-2--switch-to-administrator-view-of-the-portal)
 
 2. Click on **Settings** option from the left navigation panel and navigate to **Mobile Application** section.
 
@@ -85,7 +85,7 @@ Since a progressive web app is a type of webpage/website known as a web applicat
 
     :::image type="content" source="../../media/Screenshot_20210930-161736_Chrome (3).jpg" alt-text="installpwaonphone":::
 
-> [!Note]
+> [!Note]  
 > **Devices & Browser Compatibility:**
 >
 > * The PWA flow works as expected when using chromium-based browsers such as Microsoft Edge, Google Chrome.
@@ -100,7 +100,7 @@ As you enabled the PWA, in the backend there will be a [service worker](https://
 
 #### Prerequisites
 
-Raise a [**ticket**](https://sangamhelpdesk.microsoftcrmportals.com/SignIn?ReturnUrl=%2Fsupport%2Fcreate-case%2F) with MCT support team requesting KeyStore file **in case you wanted to have an update for your existing mobile application.**
+Raise a [**ticket**](https://aka.ms/cthelpdesk) with MCT support team requesting KeyStore file **in case you wanted to have an update for your existing mobile application.**
 
 #### Part 1: Steps to Generate Android App Bundle
 
@@ -138,7 +138,7 @@ Raise a [**ticket**](https://sangamhelpdesk.microsoftcrmportals.com/SignIn?Retur
 
 6. Finish the process by running a script with steps as mentioned in this [document](https://github.com/MicrosoftDocs/microsoft-community-training/files/8222196/PWA.Migration.docx) that will allow you for [Digital Asset linking](https://developers.google.com/digital-asset-links/v1/getting-started).
 
-> [!NOTE]
+> [!Note]  
 >
 > 1. **Difference between installing PWA from browser and installing from Play Store?**
 >    * There will be no difference in learning experience. However, with Play Store you can have access to analytics and ability to choose who can download the application. As Play Store certifies the application, it is more secure.
@@ -163,7 +163,7 @@ Raise a [**ticket**](https://sangamhelpdesk.microsoftcrmportals.com/SignIn?Retur
 
 6. If you have an existing android application published to play store and need to update it:
 
-    * Log a [**help desk**](https://sangamhelpdesk.microsoftcrmportals.com/SignIn?ReturnUrl=%2Fsupport%2Fcreate-case%2F) ticket requesting a key store file for your previous android application.
+    * Log a [**help desk**](https://aka.ms/cthelpdesk) ticket requesting a key store file for your previous android application.
     * In the “Google Play store Options” mention [**Package ID**](https://developers.google.com/android/management/apps#install_apps) of your previously published android application.
     * Click on “All Settings” and increment your App version and App Version Code by 1 from your existing app version.
     * Scroll to “Signing Key”, choose ‘Use Mine’ and upload the key store file that you received from MCT support team.
@@ -202,7 +202,7 @@ This links protocol & API and enable an app or website to make public, verifiabl
 
 ## Option 2: Requesting a mobile app AAB from the platform team
 
-1. Visit [**Microsoft Community Training Helpdesk**](https://go.microsoft.com/fwlink/?linkid=2104630).
+1. Visit [**Community Training Helpdesk**](https://aka.ms/cthelpdesk).
 ![Steps to create Mobile App for the training portal](../../media/image%2876%29.png)
 
 2. Click on **Sign in** on the top-left corner of the homepage. Use your Azure AD or Social accounts to register and sign in.
@@ -255,7 +255,7 @@ This links protocol & API and enable an app or website to make public, verifiabl
 
 2. Follow the instructions given [**here**](https://support.google.com/googleplay/android-developer/answer/113469?hl=en&ref_topic=7072031) to upload and publish your APK on the Google Play Store.
 
-    > [!NOTE]
+    > [!Note]  
     > The steps to publish AAB files are similar to the steps used in publishing an APK file.
 
 3. Once you have uploaded and published your AAB file, navigate to **Settings -> Users & Permissions**.
@@ -275,13 +275,14 @@ This links protocol & API and enable an app or website to make public, verifiabl
 
 9. Click on **Send Invitation**.
 
-10. **Important**: Send an email note to the Microsoft Community Training team that the permission has been shared. You can reply to the  email chain in which AAB file was shared with you.
+10. **Important**: Send an email note to the Community Training team that the permission has been shared. You can reply to the  email chain in which AAB file was shared with you.
 
-> [!NOTE]
+> [!Note]  
 > 
 > If there is any change/update in login type configuration on your instance then the mobile application needs to be updated. 
 
-> [!NOTE]
+> [!Note]  
 > * To use office files in PWA in offline, we will be providing files to publish the application in Google Play store.
-> * Users can request support by raising a ticket [**Microsoft Community Training Helpdesk**](https://go.microsoft.com/fwlink/?linkid=2104630)..
+> * Users can request support by raising a ticket [**Community Training Helpdesk**](https://aka.ms/cthelpdesk).
 
+Please reach out to us [**via HelpDesk**](https://aka.ms/cthelpdesk) if you have any further queries.

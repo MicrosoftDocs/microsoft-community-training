@@ -7,15 +7,15 @@ description: Managing Administrator to a Learning Path can be done by selecting 
 ms.prod: learning-azure
 ---
 
-# Add an Administrator for a Learning Path
+# Add an Administrator to a Learning Path
 
-Managing Administrator to a Learning Path can be done by selecting a Learning Path which you have created and using the Manage Administrator option provided.
+You can add an admisitrator to a Learning Path using the Manage Administrator option provided.
 
-In this article, you will learn more about how to add an Administrator to a Learning Path on the management portal:
+In this article, you will learn how to add an Administrator to a Learning Path.
 
 ## Permissions Level
 
-The Microsoft Community Training management portal provides role-based administration and depending upon the type of access level admins can perform an action on the portal. Table below shows administrative role which are allowed to manage administrators to a Learning Path in the portal:
+The Community Training portal provides role-based permission levels. The table below shows the administrative roles which are allowed to manage administrators on a Learning Path.
 
 | Access Level  | Add Administrator for Learning path |
 | --- | --- |
@@ -28,49 +28,52 @@ The Microsoft Community Training management portal provides role-based administr
 
 ## Steps to add an Administrator to the Learning Path
 
-1. On the Microsoft Community Training portal, login and [**switch to administrator view**l](../../../get-started/step-by-step-configuration-guide.md#step-2--switch-to-administrator-view-of-the-portal).
+1. Log in to the Community Training portal and [**switch to administrator view**l](../../../get-started/step-by-step-configuration-guide.md#step-2--switch-to-administrator-view-of-the-portal).
 
-2. Select the **Content** tile on the left bar and click on **Learning Path** tab.
+1. Select the **Content** tile on the left then select the **Learning Path** tab.
 
     ![Learning Path from Content](../../../media/image%28388%29.png)
 
-3. Under **Learning Path** tab, select the Learning Path in the list to which you want to add the administrator.
+1. Select the Learning Path in the list to which you want to add the administrator.
 
-4. Click or tap on **More** (…) icon to the right of Learning Path name and select **Manage administrators** option
+1. Select **More** (…) to the right of Learning Path name and select **Manage administrators** option
 
     ![Click Manage administrators from More](../../../media/image%28429%29.png)
 
-5. Click on **Add Administrators**
+1. Select **Add Administrators**.
 
     ![Add Administrators](../../../media/image%28397%29.png)
 
-6. Enter the **contact details** of the administrator in the space provided and click on **Add**
+1. Enter the **contact details** of the administrator in the space provided then select **Add**
 
     ![contact details fro admin](../../../media/image%28399%29.png)
 
-    > [!NOTE]
-    > In case the authorization mode is through Azure AD/ADB2C, you need to enter the email address of the administrator.
+    > [!Note]  
+    > If the authorization mode is through Azure AD/ADB2C, you need to enter the email address of the administrator.
 
-7. Click on **Done**.
+1. Select **Done**.
 
 ## Steps to remove an Administrator from the Learning Path
 
-1. On the Microsoft Community Training portal, login and [**switch to administrator view**](../../../get-started/step-by-step-configuration-guide.md#step-2--switch-to-administrator-view-of-the-portal).
+1. Log on to the Community Training portal and [**switch to administrator view**](../../../get-started/step-by-step-configuration-guide.md#step-2--switch-to-administrator-view-of-the-portal).
 
-2. Select the **Content** tile on the left bar and click on **Learning Path** tab.
+1. Select the **Content** tile on the left then the **Learning Path** tab.
 
     ![Learning Path from Content](../../../media/image%28388%29.png)
 
-3. Under Learning Path tab, select the Learning Path in the list to which you want to add the administrator.
+1. Select the Learning Path in the list to which you want to add the administrator.
 
-4. Click or tap on **More (…)** icon to the right of Learning Path name and select **Manage administrators** option
+1. Select **More (…)** to the right of Learning Path name and select **Manage administrators**.
 
     ![Manage administrators from More](../../../media/image%28400%29.png)
 
-5. Hover the mouse cursor over the administrator to be deleted and you will be shown a delete icon as shown below.
+1. Hover the mouse cursor over the administrator to be deleted and you will see the delete icon as shown below.
 
     ![Delete icon](../../../media/image%28401%29.png)
 
-6. Click on the **Delete** icon and click **Ok** on the dialog box.
+1. Select **Delete** then **Ok** to confirm the deletion.
 
     ![Delete & ok](../../../media/image%28402%29.png)
+
+
+Please reach out to us [**via HelpDesk**](https://aka.ms/cthelpdesk) if you have any further queries.

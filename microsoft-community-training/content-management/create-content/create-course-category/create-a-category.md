@@ -9,12 +9,12 @@ ms.prod: learning-azure
 
 # Create a category
 
-A **category** is a collection of courses on a specific topic. Categories help you organize your learning content for different learners. You can create a new category and add courses with lessons, practice quizzes and exams.
+A **category** is a collection of courses on a specific topic helpinghelp you organize your learning content for different learners. You can create a new category and add courses with lessons, non-graded assessments and graded assessments.
 In this article, you will learn more about how to create a category, edit a category and delete a category in respective sections.
 
 ## Permissions Level
 
-The Microsoft Community Training management portal provides role-based administration and depending upon the type of access level admins can perform an action on the portal. Table below shows the administrative roles which are allowed to create, edit or delete category:
+The Community Training management portal provides role-based permission levels. The table below shows which administrative roles can create, edit or delete categories.
 
 | Access Level  | Create Category |
 | --- | --- |
@@ -27,33 +27,31 @@ The Microsoft Community Training management portal provides role-based administr
 
 ## Create a new category
 
-In this topic, you will learn the simple steps to **Create Category** in the platform.
+In this topic, you will learn how to **Create a Category** in the platform.
 
-1. On the Microsoft Community Training portal, after login [**switch to administrator view**](../../../get-started/step-by-step-configuration-guide.md#step-2--switch-to-administrator-view-of-the-portal).
+1. Log in to the Community Training portal and [**switch to administrator view**](../../../get-started/step-by-step-configuration-guide.md#step-2--switch-to-administrator-view-of-the-portal).
 
-2. Select the **Content** menu on the left bar and click on **Categories** tab
+1. Select the **Content** menu on the left and select the **Categories** tab
 
-3. Select **New Category**, on the bottom-left of the page.
+1. Select **New Category**, on the bottom-left of the page.
 
     ![New category button](../../../media/New%20category%20button.png)
 
-4. Enter **Category name**. For example: the category name is *AI for agriculture.*
+1. Enter the **Category name**. For example, *AI for agriculture.*
 
-    ![AI for agriculture](../../../media/image%28385%29.png)
+1. Choose **Upload** option to browse and select an image file as **Category Thumbnail.**
 
-5. Choose **Upload** option to open file picker and select an image file as **Category Thumbnail.**
-
-    > [!TIP]
+    > [!TIP]  
     > Recommended size for the thumbnail image is 320*180 px
 
-6. Select the **Organization** for the category. By default, it is assigned to a default organization.
+1. Select the **Organization** for the category. The default organization is shown but you can change this.
 
-    > [!Note]
-    > If your instance is Multi-Tenant enabled, refer [Enabling Global Content across organizations](../../content-management-overview.md#enabling-global-content-across-organizations), to have a common content enabled for organizations
+    > [!Note]  
+    > If your instance is Multi-Tenant enabled, refer to [Enabling Global Content across organizations](../../content-management-overview.md#enabling-global-content-across-organizations), to have a common content enabled for organizations.
 
-7. Click or tap on the **Create** button to create a new category.
+1. Click or tap on the **Create** button to create a new category.
 
-8. Once the category is created, you will see this window to choose from options to create course.
+1. Once the category is created, you will see this window to choose from options to create course.
 
     :::image type="content" source="../../../media/marketplaceall.png" alt-text="overview_marketplace":::
 
@@ -68,4 +66,7 @@ If you have [multiple languages](../../../settings/customize-languages-for-the-l
 1. While creating a [new category](#create-a-category) you can select the language from dropdown to add translations.
 
     :::image type="content" source="../../../media/Categorylocalizationcreate.png" alt-text="catloccreate":::
-2. Now based on language selection in learner view the category name would be translated.
+1. Now based on language selection in learner view the category name would be translated.
+
+
+Please reach out to us [**via HelpDesk**](https://aka.ms/cthelpdesk) if you have any further queries.

@@ -3,23 +3,23 @@ title: Create a new course
 original-url: https://docs.microsoftcommunitytraining.com/docs/create-a-new-course
 author: nikotha
 ms.author: nikotha
-description: This document explains new course creation flow on the Microsoft Community Training platform. 
+description: This document explains new course creation flow on the Community Training platform. 
 ms.prod: learning-azure
 ---
 
 # Create a new course
 
-A Course is a collection of lessons and assessments. Once a course is created, you can upload content and add practice quizzes and exam in a structured format for learners to consume the course content through the web portal or mobile application.  
+A Course is a collection of lessons and assessments. Once a course is created, you can upload content and add assessments in a structured format for learners to complete through the web portal or mobile application.  
 
 During course creation, the course administrator will have complete control over configuration options like course description, enrollment and certification.
 
-In this article, you will learn more about how to create single and multiple course(s) on the platform in the respective sections:
+In this lesson, you will learn how to create single and multiple course(s) on the platform.
 
 ## Permissions Level
 
-The Microsoft Community Training management portal provides role-based administration and depending upon the type of access level the administrators can perform an action on the portal.
+The **Community Training** portal provides role-based permission levels.
 
-The table below shows administrative role which are allowed to create courses in the portal:
+The table below shows which administrative roles can create courses.
 
 | Access Level  | Create a new course |
 | --- | --- |
@@ -32,223 +32,212 @@ The table below shows administrative role which are allowed to create courses in
 
 ## Option 1 - Create a single course in a category
 
-In this topic, you will learn  simple steps to create a single course in the Microsoft Community Training  platform. Before executing the below steps, [**switch to administrator view**](../../../get-started/step-by-step-configuration-guide.md#step-2--switch-to-administrator-view-of-the-portal) on the training portal:
+In this section, you will learn how to create a single course in the Community Training platform. You will need to [**View as an administrator**](../../../get-started/step-by-step-configuration-guide.md#step-2--switch-to-administrator-view-of-the-portal) on the training portal.
 
-1. Click  on ![Plus icon](../../../media/Plus%20icon.png) or **More (...)** icon on the category list pane to create course under a category.
+1. Click the :::image type="icon" source="../../../media/Plus icon.png" border="false"::: on the category list pane to create course under a category.
 
-    ![New course drop down menu\(1\)](../../../media/New%20course%20drop%20down%20menu%281%29.png)
+    :::image type="content" source="../../../media/New course drop down menu(1).png" alt-text="Select plus icon to add new course to a category":::
 
-2. Click or tap **New Course**. Skip this step if you choose ![Plus icon](../../../media/Plus%20icon.png) option in step1.
+1. Enter the **Course Name**. This is the title learners will see on the web portal and mobile app.  For example: *AI for Agriculture.*
 
-    ![Choose Plus icon](../../../media/image%28253%29.png)
+1. Enter the **Course Description**. A short description about the course content, for example: *Farming in Agriculture*.
 
-3. Enter the **Course Name**. The course name is the course title that learners would see on the web portal and mobile app.  For example: *AI for Agriculture.*
+1. Choose **Enable certificate** to award a certificate after the course completion.
 
-4. Enter the **Course Description**. The course description is a short summary which informs a learner about course content at the time of registration. For example: *Farming in Agriculture*.
-
-5. Choose **Enable certificate**. This option enables the administrator to award certificate to learners after the course completion.
-
-    > [!NOTE]
+    > [!Note]  
     > Organizations can [**customize the certificate template**](../../../settings/customize-the-certificate-template.md) awarded to the learners at the time of course completion.
 
-6. Choose **Restrict lesson ordering**. This option enables the administrator to restrict the learners to consume the lessons in sequence. Learners will NOT be allowed to skip lessons within a course if this option is enabled.
+1. Choose **Restrict lesson ordering** to force the lessons in to be completed in sequence. Learners will NOT be able to skip lessons within a course if this option is enabled.
 
-    > [!TIP]
+    > [!TIP]  
     > You can use restrict lesson ordering to **create learning paths** on the platform to customize the learning experience for each learner.
     >
-    > For example, trainers can pre-assess a learner's existing knowledge of the topic in the initial lessons and practice quiz and then guide the learner to continue in the current course or advice to first complete another course(s) on the platform before returning to the current course.
+    > For example, trainers can pre-assess a learner's existing knowledge of the topic in the initial lessons and ungraded assessment and then guide the learner to continue in the current course or advice to first complete another course(s) on the platform before returning to the current course.
 
-7. The administrator can configure the Learner Enrollment type for the course. We have three enrollment types available for the online courses that can be uploaded to the portal:
+1. Select the Learner Enrollment type from the three available options:
 
-    * **Automatically enroll all learners**: This option ensures that all the registered learners are automatically registered to a course when logged in and it enables the administrator to mandate some of the courses to the learners.
+    1. **Automatically enroll all learners**: This option ensures that all the learners are automatically registered to a course when logged in and it enables the administrator to mandate some of the courses to the learners.
 
-    * **Self-enroll (Allow users to enroll on their own)**: This option allows the administrator to create courses that allow the learners to search and self-register to the course.
+    1. **Self-enroll (Allow users to enroll on their own)**: This option allows the administrator to create courses that allow the learners to search and self-register to the course.
 
-        >[!Note]
+        > [!Note]  
         > If Organization feature is enabled, then Self-enroll courses of an Organization will be visible to learners of that organization only. Users can register from Course library
 
-    * **Only admin can enroll learners**: This option allows the administrator to keep the content private while the content is still being prepared. Administrators reserve the right to register learners and to make the courses available for a wider audience. Admin only courses are not shown in the course library.
+    1. **Only admin can enroll learners**: This option allows the content to be kept private whilst being prepared. You can make the courses available for a wider audience when requried. These courses are not shown in the course library.
 
-    > [!TIP]
-    > All the mandatory courses should be marked as auto-enrolled. Also, if there are advance courses on any topics, then mark them as Admin enrolled and assign the course manually to the  learners who have completed the basic course.
+    > [!TIP]  
+    > All the mandatory courses should be marked as auto-enrolled. Also, if there are advanced courses on any topics, then mark them as Admin enrolled and assign the course manually to the learners who have completed the basic course.
 
-8. Click or tap **Upload** to upload option to open file picker and select an image file as Course Thumbnail.
+1. Click **Upload** select an image file as the Course Thumbnail.
 
-9. Click or tap **Create** button to create the course.
+1. Click **Create** to create the course.
 
-**Next>** Once a course is created, the administrator can start [**uploading the content for the course**](../create-course-category/upload-content-to-a-course.md)
+> [!Note]  
+> Once a course is created, the administrator can start [**uploading the content for the course**](../create-course-category/upload-content-to-a-course.md).
 
-> [!TIP]
+> [!TIP]  
 > Use numbering as prefix like  01, 02, 03, 04, 05 etc in the course name as they are alphabetically stacked. Order of courses can be changed by editing the name or numbers in edit course dialogue box.
 
 ## Option 2 - Add Course via Content Marketplace
 
-In this topic, you will learn simple steps to Import courses from marketplace in the platform.
+In this topic, you will learn to import courses from the Content Marketplace.
 
-1. On the Microsoft Community Training portal, after login [**switch to administrator view**](../../../get-started/step-by-step-configuration-guide.md#step-2--switch-to-administrator-view-of-the-portal).
-2. Select the Content menu on the left bar and click on **Categories tab**
-3. Select **Marketplace**, on the bottom-left of the page.
-
+1. Log in to the Community Training portal and [**View as an administrator**](../../../get-started/step-by-step-configuration-guide.md#step-2--switch-to-administrator-view-of-the-portal).
+1. Select the Content icon on the left bar then  **Categories**.
+1. Select **Marketplace** on the bottom-left of the page.
     :::image type="content" source="../../../media/marketplace1.png" alt-text="marketplace1img":::
 
-4. You will see a popup with content to choose from various providers.
-
+1. Choose from the content available, selecting the provider and using the search facility to find the course you require if necessary.
     :::image type="content" source="../../../media/marketplacesearch.png" alt-text="imagemarketplacesearch":::
 
-5. After choosing content of your choice, click on ‘Import course’ button
-
+1. When you have located the content required, click on **Import course** button on the course panel.
     :::image type="content" source="../../../media/marketplaceimg3.png" alt-text="marketplace3img":::
 
-6. Search and choose for category that you want the course to be imported to.
-
+1. Choose the category you want to import the course to using the search facility if necessary.
     :::image type="content" source="../../../media/marketplaceimg4.png" alt-text="img4marketplace":::
 
-7. The course you selected will now be imported to selected category as shown
-
+1. The course will be imported to selected category as shown.
     :::image type="content" source="../../../media/marketplaceimg5.png" alt-text="imagemarketplace5":::
 
 ## Option 3 - Create multiple courses in a category
 
-The easiest way to create courses and upload content in the learning portal is to leverage the **Bulk Upload Courses**  feature. Administrators can save time by creating multiple courses and uploading content at once using the Bulk Upload Courses functionality.
+The easiest way to create courses and upload content in the learning portal is to use the **Bulk Upload Courses**  feature which allows you to create multiple courses and upload the content together.
 
-In this topic, we will learn the simple steps to create multiple courses under a category in the management portal. Before executing the below steps, [**switch to administrator view**](../../../get-started/step-by-step-configuration-guide.md#step-2--switch-to-administrator-view-of-the-portal) on the learning portal:
+In this topic, you will learn how to create multiple courses under a category in the management portal. Before executing the below steps, [**switch to administrator view**](../../../get-started/step-by-step-configuration-guide.md#step-2--switch-to-administrator-view-of-the-portal) on the learning portal.
 
 ### Prerequisite for using Bulk Upload Courses feature
 
-Before you start doing the bulk upload of courses under a category, you need to make sure the course content is structured correctly and available in the required file format <!--([**Sample bulk upload course file**](../../../media/bulk-upload-sample-courses.zip))--> on your local machine. The steps below provide information on how to get your content ready for bulk upload courses:
+The course content must be structured correctly and available in the required file format <!--([**Sample bulk upload course file**](../../../media/bulk-upload-sample-courses.zip))--> on your local machine. Follow the steps below to prepare your content.
 
-1. Create a folder on your local machine with the course name you want to create on the portal.
+1. Create a folder on your local machine with the course name you want to show on the portal.
 
-2. Copy the content you want to add as lessons to the course inside the folder created in **Step 1**.
+1. Copy the lessons to the course in the new folder.
 
-3. If required, repeat #1 and #2 above to create and upload multiple courses together .
+1. Repeat steps 1 and 2 for each course to be uploaded multiple courses together.
 
-4. Ensure that there are no sub-folders inside any folder with course names. Folders with course names should only contain lessons file as shown in the image below:
+1. Ensure that there are no sub-folders inside any folder with course names. Folders with course names should only contain lessons files as shown in the image below:
 
     ![Course format](../../../media/Course%20format.png)
 
-5. Select all the folders you want to upload and compress them into a ZIP file. **Right click > Send to > Compressed (zipped) folder**.
+1. Select all the folders you want to upload and compress them into a ZIP file. **Right click > Send to > Compressed (zipped) folder**.
 
-6. Once the ZIP file is created, your content is ready for bulk upload. You can rename the ZIP file if required.
+1. Once the ZIP file is created, your content is ready for bulk upload. You can rename the ZIP file if required.
 
-    > [!IMPORTANT]
-    > Course Details (like thumbnail, description, enrollment type, etc.), Practice quizzes and exams cannot be added to the courses via bulk upload functionality unless [**you are exporting courses from one instance to another**](../../manage-content/manage-course-category/move-course-content-across-training-instance.md). The admins have to add them manually later.
+    > [!IMPORTANT]  
+    > You will need to add Course Details (like thumbnail, description, enrollment type, etc.) and assessments manually later unless [**you are exporting courses from one instance to another**](../../manage-content/manage-course-category/move-course-content-across-training-instance.md).
 
 ### Steps for bulk upload courses to the portal
 
-1. Click or tap **More (...)** icon on the category list pane to bulk upload the courses under a category.
-
+1. Find the catgory you want to add a course to and click **Bulk Upload Courses**.
+1. 
     ![Bulk upload courses drop down](../../../media/Bulk%20uplod%20courses%20drop%20down.png)
 
-2. Click or tap **Bulk Upload Course (Preview)** from the drop-down menu.
+2. Click **Bulk Upload Course (Preview)** from the drop-down menu.
 
-3. Using the file picker, **select the ZIP** file which contains course content for bulk upload.
-
+3. Using the file picker, **select the ZIP** file which contains your course content.
     ![Upload course window](../../../media/Upload%20course%20window.png)
 
 4. Wait for file upload operation to be completed. **Do not close the browser window at this point**.
-
     ![Upload complete course](../../../media/Upload%20complete%20course.png)
 
-    > [!NOTE]
+    > [!Note]  
     > Depending upon your network connectivity and size of the ZIP file, it can take some time to complete the upload operation.
 
-5. After upload, you will see the following message on the top-right corner which  indicates that content file was successfully uploaded to the portal for processing.
+5. You will see the following message on the top-right corner indicating that the content file was successfully uploaded to the portal for processing.
 
     ![Bulk upload successful](../../../media/Bulk%20upload%20successful.png)
 
-    > [!WARNING]
-    > If there are issues with the content or structure of the zip file then the upload operation will fail.)
+    > [!WARNING]  
+    > If there are issues with the content or structure of the zip file then the upload operation will fail.
 
-6. On the course details page, progress status will be updated at regular interval. Refresh (Press F5) the page in case you don't see the newly uploaded courses on the portal.
+6. On the course details page, progress status will be updated at regular interval. Refresh the page (Press F5) in case you don't see the newly uploaded courses on the portal.
 
-    > [!NOTE]
-    > For video content, processing can take hours depending upon the number of videos, size and configuration of media service end point. This processing is a non-blocking operation and admins are allowed to do other tasks)
+    > [!Note]  
+    > For video content, processing can take hours depending upon the number of videos, their size and the configuration of the media service end point. This processing is a non-blocking operation and admins are allowed to do other tasks.
 
-7. Once the content is processed, you can add course description, change enrollment type, enable certificate, etc. as per your requirement. By default, course details are set to following:
+7. Once the content is processed, you can add a course description, change the enrollment type, enable certificates, etc. as required. By default, course details are set to the following:
+    1. Course Name – Folder Name
+    1. Lesson Name – File Name
+    1. Course Description – Null
+    1. Course Thumbnail - Null
+    1. Enable certificate – unchecked
+    1. Restrict lesson ordering - unchecked
+    1. Enrollment type – Self enrollment
 
-    ``` Shell
-    a. Course Name – Folder Name 
-    b. Lesson Name – File Name
-    c. Course Description – Null
-    d. Course Thumbnail - Null 
-    e. Enable certificate – unchecked
-    f. Restrict lesson ordering - unchecked
-    g. Enrollment type – Self enrollment
-    ```
+> [!Note]  
+> Once the course is uploaded, you can [**add assessments**](add-assessments-to-a-course.md) or [**publish the course**](publishing-course.md) for learners to consume the content via the web portal or mobile application.
 
-**Next>** Once the course is uploaded, you can [**add assessments**](add-assessments-to-a-course.md) or [**publish the course**](publishing-course.md) for learners to consume the content via the web portal or mobile application.
 
-> [!TIP]
-> When performing bulk upload course operations,  [**scale up your platform configuration**](../../../infrastructure-management/configure-your-platform-infrastructure/scale-up-instance-configuration.md) to reduce the upload and processing time for the content.)
 
 <!---
 Alternatively, you can check the step by step video tutorial for bulk upload content:
  @(Embed)(../../../media/Bulk%20Upload%20Content(1).mp4) 
 --->
 
-## Option 4 - Create multiple translations of a Course
+## Option 4 - Create multiple translations for a Course
 
-The learning portal allows you to create multiple translations of a course in different languages. Once a course is created within a category via either [**Option 1 - Create a single course in a category**](create-a-new-course.md#option-1---create-a-single-course-in-a-category) or [**Option 2 - Create multiple courses in a category**](create-a-new-course.md#option-3---create-multiple-courses-in-a-category), administrators can create its translations.  
+You can create multiple translations for a course once it has been created either as a single course or as part of a bulk course upload.  This functionality is not available for content uploaded from the Marketplace.
 
-> [!NOTE]
->The default version of the course can be accessed from the left vertical browsing panel. For a learner, if a course translation is not available in its selected language, the default version of the course will render for the learner.
+> [!Note]  
+>The default version of the course can be accessed from the left vertical browsing panel. For a learner, if a course translation is not available in the selected language, the default version of the course will open.
 >
 
 ### Understanding Course Translations
 
-Course translations are an important tool for administrators for the scenarios where the same course can be made available to the learners in their language of choice.
+Course translations are an important tool for administrators for the scenarios where the same course can be made available to learners in their language of their choice.
 
 The impact of course translation for administrators and learners is explained in the **following example**.
 
-Let us assume that a course by default is created in the language *English* and its subsequent translations are created in *Spanish* and *Italian*.
+Let us assume that a course is created in *English* and its subsequent translations are created in *Spanish* and *Italian*.
 
 **Impact on Administrator**: An administrator will now only need to manage the default version of the course,
 
-1. Content Assignment: Only the default version to be assigned to the learners individually or via groups. Deep links can also be shared only for the default version.  
+1. Content Assignment: Only the default version to be assigned to the learners individually or via groups. Deep links can be shared only for the default version.  
 2. Progress Tracking: Analytics will be available against the default course on the platform irrespective of which translation a learner consumes.
 
 **Impact on Learner**: A learner can select any of the enabled languages on the platform,
 
 1. If the learner enables either of *English*, *Spanish* or *Italian* - the respective course translation will be available to the learner in My Courses and Course Library.
-2. If the learner enables another language, such as *French* - the default version (here, *English* of the course will be available to the learner in My Courses and Course Library.
+2. If the learner enables another language, such as *French*, the default version in *English* will be available to the learner in My Courses and Course Library.
 
-> [!NOTE]
-> Course translations can be created only in the languages that are enabled on the platform. Administrators can [enable multiple languages on the platform](../../../settings/customize-languages-for-the-learners-on-the-platform.md).
+> [!Note]  
+> You can only translate coures into the languages that are enabled on the platform. Administrators can [enable multiple languages on the platform](../../../settings/customize-languages-for-the-learners-on-the-platform.md).
 
-Next, let us understand how to create course translations once a default course is created via either [**Option 1 - Create a single course in a category**](create-a-new-course.md#option-1---create-a-single-course-in-a-category) or [**Option 2 - Create multiple courses in a category**](create-a-new-course.md#option-3---create-multiple-courses-in-a-category).
+<!--Next, let us understand how to create course translations once a default course is created via either [**Create a single course in a category**](create-a-new-course.md#option-1---create-a-single-course-in-a-category) or [**Create multiple courses in a category**](create-a-new-course.md#option-3---create-multiple-courses-in-a-category).-->
 
 ### Creating Course Translations
 
-In this topic, you will learn simple steps to create translations of a course in the Microsoft Community Training Platform. Before executing the below steps, [**switch to administrator view**](../../../get-started/step-by-step-configuration-guide.md#step-2--switch-to-administrator-view-of-the-portal) on the learning portal:
+In this topic, you will learn how to translate a course in the Community Training Platform. Log in to the portal and [**switch to administrator view**](../../../get-started/step-by-step-configuration-guide.md#step-2--switch-to-administrator-view-of-the-portal).
 
 1. To create a translation for a course, click on **+ Add course in a different language**.
 
     ![Add course in a different language](../../../media/image%28472%29.png)
 
-    > [!WARNING]
+    > [!WARNING]  
     > Courses with enrollment type **Automatically enroll all learners** can NOT be translated.
 
-2. Enter the **Course Name**. The course name is the course translation's title that learners would see on the web portal and mobile app.  For example: *AI for Agriculture - Spanish.*
+1. Enter the **Course Name**. The course name is the course translation's title that learners would see on the web portal and mobile app.  For example: *AI for Agriculture - Spanish.*
 
     ![Course name for translation](../../../media/image%28473%29.png)
 
-3. Enter the **Course Description**. The course description is a short summary which informs a learner about course content at the time of registration. For example: *Italian translation for the course AI for Agriculture*.
+1. Enter the **Course Description**. The course description is a short summary which informs a learner about course content at the time of registration. For example: *Italian translation for the course AI for Agriculture*.
 
-4. Choose **Enable Certificate**. This option enables the administrator to award certificate to learners after the course completion. Administrators can select one of the certificates from the list for the course.
+1. Choose **Enable Certificate**. This option enables the administrator to award certificate to learners after the course completion. Administrators can select one of the certificates from the list for the course.
 
-    >[!TIP]
-    >You can create certificate templates in different languages and enable them basis the course language.
+    > [!TIP]  
+    > You can create certificate templates in different languages and enable them basis the course language.
 
-5. Choose **Course Language**. This is the language in which the course will be translated.
+1. Choose **Course Language**. This is the language in which the course will be translated.
 
     ![Course language for translation](../../../media/image%28474%29.png)
 
->[!IMPORTANT]
->The following details will be used as that of the default version of the course,
+> [!IMPORTANT]  
+> The following details will be used as that of the default version of the course:
 >
 >1. Learner Registration type
->2. Restrict lesson ordering setting
->3. Feedback form setting
+>1. Restrict lesson ordering setting
+>1. Feedback form setting
 
-**Next>** Once a course translation is created, the administrator can start [**uploading the content for the course**](upload-content-to-a-course.md) as per the translation's defined language.
+ Once a course translation is created, the administrator can start [**uploading the content for the course**](upload-content-to-a-course.md) as per the translation's defined language.
+
+Please reach out to us [**via HelpDesk**](https://aka.ms/cthelpdesk) if you have any further queries.

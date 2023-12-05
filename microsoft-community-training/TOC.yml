@@ -155,7 +155,7 @@
          - name: Installation Overview
            href: infrastructure-management/install-your-platform-instance/installation-overview.md
          - name: Detailed step by step installation guide
-           href: infrastructure-management/install-your-platform-instance/installation-guide-detailed-steps.md
+           href: infrastructure-management/install-your-platform-instance/detailed-step-by-step-installation-guide.md
          - name: Configure login identity for the platform
            href: infrastructure-management/install-your-platform-instance/configure-login-social-work-school-account.md
          - name: Configure multiple authentications in a single instance

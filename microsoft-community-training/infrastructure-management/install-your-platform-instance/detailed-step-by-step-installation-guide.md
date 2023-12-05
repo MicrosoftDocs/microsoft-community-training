@@ -17,10 +17,20 @@ In this article, you’ll learn how to install and deploy Microsoft Community Tr
 
 Create a pay-as-you-go Azure subscription. To learn more about how to create it, refer [**this article**](https://azure.microsoft.com/pricing/purchase-options/pay-as-you-go/) on Azure documentation.
 
-If you have a free trial Azure subscription, please upgrade to a Pay-as-you-go Azure subscription. See the [**detailed steps here**](/azure/billing/billing-upgrade-azure-subscription#upgrade-your-azure-free-account). **We currently do not support Microsoft Community Training on free trial Azure subscriptions.**
+If you have a free trial Azure subscription, please upgrade to a Pay-as-you-go Azure subscription. See the [**detailed steps here**](/azure/billing/billing-upgrade-azure-subscription#upgrade-your-azure-free-account). 
 
-> [!WARNING]
-> If you’re a nonprofit organization who wants to use Microsoft Community Training platform, you can apply and avail the Azure grant subject to eligibility. See the [**detailed steps here**](../../infrastructure-management/install-your-platform-instance/setup-platform-instance-on-azure-subscription-for-nonprofits.md).
+If you have a free trial Azure subscription, please upgrade to a Pay-as-you-go Azure subscription. See the [**detailed steps here**](/azure/billing/billing-upgrade-azure-subscription#upgrade-your-azure-free-account). 
+
+<!--
+Hiding this until the work on this topic is complete
+**We currently do not support Microsoft Community Training on free trial Azure subscriptions.**
+-->
+
+> [!WARNING]  
+> If you’re a nonprofit organization who wants to use Microsoft Community Training platform, you can apply and avail the Azure grant subject to eligibility. See the [**detailed steps here**](https://www.microsoft.com/nonprofits/eligibility?activetab=pivot1:primaryr4).
+
+>[!Note]  
+> If you are nonprofit, please make sure you are installing the Microsoft Community Training in the Microsoft Sponsored Subscription
 
 ### 2. Get the right ownership access
 

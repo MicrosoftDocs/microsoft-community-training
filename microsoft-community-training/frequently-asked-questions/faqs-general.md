@@ -31,16 +31,18 @@ While Community Training is not a traditional Learning Management System (LMS), 
 
 Community Training is available in the following Azure regions:
 
-| **1** | **UKSouth**   | **UKWest**         |
-|-------|---------------|--------------------|
-| 2     | AustraliaEast | AustraliaSoutheast |
-| 3     | EastUS2       | CentralUS          |
-| 4     | NorthEurope   | WestEurope         |
-| 5     | WestUS3       | EastUS             |
-| 6     | SwedenCentral | SwedenSouth        |
+| **SlNo** | **Primary Region** | **Paired Region**  |
+|----------|--------------------|--------------------|
+| 1        | UKSouth            | UKWest             |
+| 2        | AustraliaEast      | AustraliaSoutheast |
+| 3        | EastUS             | WestUS             |
+| 4        | EastUS2            | CentralUS          |
+| 5        | NorthEurope        | WestEurope         |
+| 6        | WestUS3            | EastUS             |
+| 7        | SwedenCentral      | SwedenSouth        |  
 
 
-
+ 
 For any questions on the availability, please reach out to us [**via HelpDesk**](https://aka.ms/cthelpdesk)
 
 ### Who is the target audience for Community Training?

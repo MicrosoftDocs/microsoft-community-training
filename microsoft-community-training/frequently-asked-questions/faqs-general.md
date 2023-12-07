@@ -31,16 +31,18 @@ While Community Training is not a traditional Learning Management System (LMS), 
 
 Community Training is available in the following Azure regions:
 
-| **1** | **UKSouth**   | **UKWest**         |
-|-------|---------------|--------------------|
-| 2     | AustraliaEast | AustraliaSoutheast |
-| 3     | EastUS2       | CentralUS          |
-| 4     | NorthEurope   | WestEurope         |
-| 5     | WestUS3       | EastUS             |
-| 6     | SwedenCentral | SwedenSouth        |
+| **SlNo** | **Primary Region** | **Paired Region**  |
+|----------|--------------------|--------------------|
+| 1        | UKSouth            | UKWest             |
+| 2        | AustraliaEast      | AustraliaSoutheast |
+| 3        | EastUS             | WestUS             |
+| 4        | EastUS2            | CentralUS          |
+| 5        | NorthEurope        | WestEurope         |
+| 6        | WestUS3            | EastUS             |
+| 7        | SwedenCentral      | SwedenSouth        |  
 
 
-
+ 
 For any questions on the availability, please reach out to us [**via HelpDesk**](https://aka.ms/cthelpdesk)
 
 ### Who is the target audience for Community Training?
@@ -141,7 +143,7 @@ Please note - all content hosted in the content library is free of charge and pr
 
 ### In what languages is Community Training available?
 
-Community Training currently supports 63 languages on the platform:*Afrikaans (South Africa), *Amharic (Ethiopia), *Arabic (Saudi Arabia), *Assamese (India), *Bulgarian (Bulgaria)Bengali (India), *Bosnian (Latin,  Bosnia & Herzegovina), *German (Germany), *English (United States), *Spanish (Spain,  International Sort), *Finnish (Finland), *Filipino (Philippines), *French (France), *Gujarati (India), *Hebrew (Israel), *Hindi (India), *Croatian (Croatia), *Hungarian (Hungary), *Indonesian (Indonesia), *Italian (Italy), *Japanese (Japan), *Kazakh (Kazakhstan), *Khmer (Cambodia), *Kannada (India), *Lao (Laos), *Lithuanian (Lithuania), *Malayalam (India), *Marathi (India), *Malay (Malaysia), *Dutch (Netherlands), *Odia (India), *Punjabi (India), *Polish (Poland), *Portuguese (Brazil), *Romanian (Romania), *Russian (Russia), *Slovak (Slovakia), *Albanian (Albania), *Serbian (Cyrillic,  Serbia), *Serbian (Cyrillic,  Bosnia and Herzegovina), *Serbian (Latin,  Serbia), *Swedish (Sweden), *Tamil (India), *Telugu (India), *Thai (Thailand), *Ukrainian (Ukraine), *Urdu (Pakistan), *Vietnamese (Vietnam)Chinese (Simplified,  China), *Chinese (Traditional,  Taiwan), *Uzbek (Latin,  Uzbekistan), *Welsh (United Kingdom), *Kinyarwanda, Kiswahili (Kenya), *Kurdish, *Kyrgyz, *Pashto (Afghanistan), *Persian (Afghanistan), *Portuguese (Mozambique), *Romansh, *Sindhi, *Somali, *Tajik, *Tetum
+Community Training currently supports 63 languages on the platform:*Afrikaans (South Africa), *Amharic (Ethiopia), *Arabic (Saudi Arabia), *Assamese (India), *Bulgarian (Bulgaria)Bengali (India), *Bosnian (Latin,  Bosnia & Herzegovina), *German (Germany), *English (United States), *Spanish (Spain,  International Sort), *Finnish (Finland), *Filipino (Philippines), *French (France), *Gujarati (India), *Hebrew (Israel), *Hindi (India), *Croatian (Croatia), *Hungarian (Hungary), *Indonesian (Indonesia), *Italian (Italy), *Japanese (Japan), *Kazakh (Kazakhstan), *Khmer (Cambodia), *Kannada (India), *Lao (Laos), *Lithuanian (Lithuania), *Malayalam (India), *Marathi (India), *Malay (Malaysia), *Dutch (Netherlands), *Odia (India), *Punjabi (India), *Polish (Poland), *Portuguese (Brazil), *Romanian (Romania), *Russian (Russia), *Slovak (Slovakia), *Albanian (Albania), *Serbian (Cyrillic,  Serbia), *Serbian (Cyrillic,  Bosnia and Herzegovina), *Serbian (Latin,  Serbia), *Swedish (Sweden), *Tamil (India), *Telugu (India), *Thai (Thailand), *Ukrainian (Ukraine), *Urdu (Pakistan), *Vietnamese (Vietnam)Chinese (Simplified,  China), *Chinese (Traditional,  Taiwan), *Uzbek (Latin,  Uzbekistan), *Welsh (United Kingdom), *Kinyarwanda, *kurdish, *Kyrgyz, *Pashto (Afghanistan), *Persian (Afghanistan),  *Romansh, *Sindhi, *Somali, *Tajik, *Tetum
 
 For more information, [**go here**](../settings/customize-languages-for-the-learners-on-the-platform.md).
 
@@ -219,5 +221,13 @@ At present, we do not recommend moving resource groups across different Azure su
 
 [**Language customization in Azure Active Directory B2C (Azure AD B2C)**](/azure/active-directory-b2c/language-customization?pivots=b2c-user-flow#support-requested-languages-for-ui_locales) allows your user flow to accommodate different languages to suit your customer needs. 
 
+### When new CT instance creation is failed due to any operation
+
+1. Go to the resource group that is created
+2. Click on Deployments
+3. Select the option available
+4. Copy the correlation ID
+
+   ![Correlation_ID](../media/correlation.png)
 
 Please reach out to us [**via HelpDesk**](https://aka.ms/cthelpdesk) if you have any further queries.

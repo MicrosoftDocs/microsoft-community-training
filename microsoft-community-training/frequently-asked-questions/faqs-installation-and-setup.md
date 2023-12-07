@@ -43,11 +43,25 @@ However, the platform supports SSO with any OAuth 2.0, OpenID Connect, or SAML-b
 
 The REST APIs are under development and will be made available soon, broadly expanding the capabilites of the Community Training.
 
+### What are the Azure Services used by Microsoft Community Training platform?
+
+Here are the list of services that are used by the Microsoft Community Training platform:
+
+* Azure App Service
+* Azure Media Service
+* Content Delivery Network
+* Azure SQL Database
+* Azure Key Vault
+* Azure front door
+* Azure storage account
+* Azure VNET
+* Redis
+
 ### How many languages are supported by Community Training?
 
 At present Community Training supports 60+ languages.
 
-*Afrikaans (South Africa), *Amharic (Ethiopia), *Arabic (Saudi Arabia), *Assamese (India), *Bulgarian (Bulgaria)Bengali (India), *Bosnian (Latin,  Bosnia & Herzegovina), *German (Germany), *English (United States), *Spanish (Spain,  International Sort), *Finnish (Finland), *Filipino (Philippines), *French (France), *Gujarati (India), *Hebrew (Israel), *Hindi (India), *Croatian (Croatia), *Hungarian (Hungary), *Indonesian (Indonesia), *Italian (Italy), *Japanese (Japan), *Kazakh (Kazakhstan), *Khmer (Cambodia), *Kannada (India), *Lao (Laos), *Lithuanian (Lithuania), *Malayalam (India), *Marathi (India), *Malay (Malaysia), *Dutch (Netherlands), *Odia (India), *Punjabi (India), *Polish (Poland), *Portuguese (Brazil), *Romanian (Romania), *Russian (Russia), *Slovak (Slovakia), *Albanian (Albania), *Serbian (Cyrillic,  Serbia), *Serbian (Cyrillic,  Bosnia and Herzegovina), *Serbian (Latin,  Serbia), *Swedish (Sweden), *Tamil (India), *Telugu (India), *Thai (Thailand), *Ukrainian (Ukraine), *Urdu (Pakistan), *Vietnamese (Vietnam)Chinese (Simplified,  China), *Chinese (Traditional,  Taiwan), *Uzbek (Latin,  Uzbekistan), *Welsh (United Kingdom), *Kinyarwanda, Kiswahili (Kenya), *Kurdish, *Kyrgyz, *Pashto (Afghanistan), *Persian (Afghanistan), *Portuguese (Mozambique), *Romansh, Sindhi, Somali, Tajik, Tetum
+*Afrikaans (South Africa), *Amharic (Ethiopia), *Arabic (Saudi Arabia), *Assamese (India), *Bulgarian (Bulgaria)Bengali (India), *Bosnian (Latin,  Bosnia & Herzegovina), *German (Germany), *English (United States), *Spanish (Spain,  International Sort), *Finnish (Finland), *Filipino (Philippines), *French (France), *Gujarati (India), *Hebrew (Israel), *Hindi (India), *Croatian (Croatia), *Hungarian (Hungary), *Indonesian (Indonesia), *Italian (Italy), *Japanese (Japan), *Kazakh (Kazakhstan), *Khmer (Cambodia), *Kannada (India), *Lao (Laos), *Lithuanian (Lithuania), *Malayalam (India), *Marathi (India), *Malay (Malaysia), *Dutch (Netherlands), *Odia (India), *Punjabi (India), *Polish (Poland), *Portuguese (Brazil), *Romanian (Romania), *Russian (Russia), *Slovak (Slovakia), *Albanian (Albania), *Serbian (Cyrillic,  Serbia), *Serbian (Cyrillic,  Bosnia and Herzegovina), *Serbian (Latin,  Serbia), *Swedish (Sweden), *Tamil (India), *Telugu (India), *Thai (Thailand), *Ukrainian (Ukraine), *Urdu (Pakistan), *Vietnamese (Vietnam)Chinese (Simplified,  China), *Chinese (Traditional,  Taiwan), *Uzbek (Latin,  Uzbekistan), *Welsh (United Kingdom), *Kinyarwanda, *kurdish, *Kyrgyz, *Pashto (Afghanistan), *Persian (Afghanistan),  *Romansh, Sindhi, Somali, Tajik, Tetum
 
 For more information, [**go here**](../settings/customize-languages-for-the-learners-on-the-platform.md).
 

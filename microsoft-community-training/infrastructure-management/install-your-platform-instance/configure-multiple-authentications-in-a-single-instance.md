@@ -78,7 +78,10 @@ If your instance is already setup to accept [**social login**](configure-login-s
 9. Now in the login page of your instance, you should see an option that enables users to login through their work email (Azure AD email) alongside Social Account login.
 
 
->[!Note]    
+>[!Note]
 > Please note that learner should use only one mode of authentication (social email, work email) for registering. If a learner uses multiple modes of authentication for registration, the accounts will be treated as different users.
  
 Please reach out to us [**via HelpDesk**](https://aka.ms/cthelpdesk) if you have any further queries.
+
+>[!Note]  
+>Make sure to add the Global admin contact info(Email or Phone Number) before changing the Authentication method.

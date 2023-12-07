@@ -99,7 +99,7 @@ Based on the authentication type (Phone/Social login OR Work/School Account), yo
     >2. Commercial   
  For more information on the pricing, please visit the [**Pricing and Subscription**](../../frequently-asked-questions/pricing-subscription.md)
 
-    [!Note]  
+    >[!Note]  
     >Community Training Installations are offered in two pricing tiers.
     >1. Standard
     >2. Premium  

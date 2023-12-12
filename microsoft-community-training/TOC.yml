@@ -284,3 +284,7 @@
        href: learning-in-offline-mode/azure-IOT-edge-device-setup.md
      - name: Frequently Asked Questions
        href: learning-in-offline-mode/frequently-asked-questions.md
+   - name: Concepts
+     items:
+     - name: Reliability in Community Training
+       href: /azure/reliability/reliability-community-training?toc=/docs/microsoft-community-training/toc.json&bc=/Docs/microsoft-community-training/breadcrumb/toc.json   

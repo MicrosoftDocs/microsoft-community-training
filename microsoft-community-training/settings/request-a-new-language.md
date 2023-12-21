@@ -4,7 +4,7 @@ original-url: https://docs.microsoftcommunitytraining.com/docs/request-a-new-lan
 author: nikotha
 ms.author: nikotha
 description: Community Training currently supports 28 languages.
-ms.prod: learning-azure
+ms.service: azure
 ---
 
 # Request a new Language

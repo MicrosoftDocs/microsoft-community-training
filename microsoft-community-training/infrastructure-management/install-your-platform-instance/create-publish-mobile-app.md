@@ -4,7 +4,7 @@ original-url: https://docs.microsoftcommunitytraining.com/docs/create-publish-mo
 author: nikotha
 ms.author: nikotha
 description: In this article, we will learn about how to create and publish the Mobile App (available only for Android platform) for your training portal.
-ms.prod: learning-azure
+ms.service: azure
 ---
 
 # Create and Publish your Mobile App

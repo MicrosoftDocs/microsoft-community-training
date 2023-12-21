@@ -4,7 +4,7 @@ original-url: https://docs.microsoftcommunitytraining.com/docs/configurations-on
 author: nikotha
 ms.author: nikotha
 description: This document details the customizations supported on the Community Training platform for administrator and learner capabilities.
-ms.prod: learning-azure
+ms.service: azure
 ---
 
 # Configurations on the training platform

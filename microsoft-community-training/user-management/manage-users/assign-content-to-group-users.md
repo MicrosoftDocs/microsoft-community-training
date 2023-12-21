@@ -4,7 +4,7 @@ original-url: https://docs.microsoftcommunitytraining.com/docs/assign-content-to
 author: nikotha
 ms.author: nikotha
 description: "By default, learners can only access content that is auto or self enrolled. An administrator must assign Amin only enrolled content (Learning Paths and Courses) to learners either individually or to a group."
-ms.prod: learning-azure
+ms.service: azure
 ---
 
 # Assign content to users in the group

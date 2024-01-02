@@ -4,7 +4,7 @@ original-url: https://docs.microsoftcommunitytraining.com/docs/de-assigning-cont
 author: v-samarth
 ms.author: v-samarth
 description: "The Community Training platform now allows administrators to remove learners from Courses, Learning Paths, User Groups which will de-assign them from the relevant content mapped through these segments."
-ms.prod: learning-azure
+ms.service: azure
 ---
 
 # De-assignment of Content from the User

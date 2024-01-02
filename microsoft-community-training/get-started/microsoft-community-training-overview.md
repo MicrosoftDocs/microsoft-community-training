@@ -4,7 +4,7 @@ original-url: https://docs.microsoftcommunitytraining.com/docs/microsoft-communi
 author: Cbrahmandam
 ms.author: cbrahmandam
 description: Community Training is an Azure-powered online learning platform to enable organizations of all sizes and types to run large scale training programs for their internal and external communities.
-ms.prod: learning-azure
+ms.service: azure
 ---
 
 # Welcome to Community Training

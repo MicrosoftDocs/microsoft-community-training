@@ -4,7 +4,7 @@ original-url: https://docs.microsoftcommunitytraining.com/docs/pricing-subscript
 author: cbms03
 ms.author: cbrahmandam
 description: Community Training is built on top of Azure platform and available only on the Azure portal.
-ms.prod: learning-azure
+ms.service: azure
 ---
 
 # Pricing & Subscription

@@ -4,7 +4,7 @@ original-url: https://docs.microsoftcommunitytraining.com/docs/faqs-course
 author: cbms03
 ms.author: cbrahmandam
 description: Microsoft provides course content around Digital Literacy, Office 365, etc. which organizations can upload and use in their Community Training platform instance.
-ms.prod: learning-azure
+ms.service: azure
 ---
 
 # Content and Course management

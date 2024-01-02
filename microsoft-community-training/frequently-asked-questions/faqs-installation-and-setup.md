@@ -4,7 +4,7 @@ original-url: https://docs.microsoftcommunitytraining.com/docs/faqs-installation
 author: cbms03
 ms.author: cbrahmandam
 description: There are a number of prerequisites such as having a valid subscription type, access policy etc. before you can get started with the platform installation and setup.
-ms.prod: learning-azure
+ms.service: azure
 ---
 
 # Platform Setup and Installation

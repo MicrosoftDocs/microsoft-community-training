@@ -5,7 +5,7 @@ original-url: https://docs.microsoftcommunitytraining.com/docs/installation-guid
 author: Charan
 ms.author: cbrahmandam                                                                                                                                                                                                                                                                                                                                                                   
 description: In this article, you’ll learn how to install and deploy Microsoft Community Training platform on your Azure subscription.
-ms.prod: learning-azure
+ms.service: azure
 ---
 
 # Detailed step by step installation guide

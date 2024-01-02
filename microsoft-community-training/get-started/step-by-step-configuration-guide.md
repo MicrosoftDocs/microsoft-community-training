@@ -4,7 +4,7 @@ original-url: https://docs.microsoftcommunitytraining.com/docs/step-by-step-conf
 author: cbrahmandam
 ms.author: cbrahmandam
 description: Community Training platform provides various tools and functionalities to help you easily create, manage and monitor all the learning activities for the training program.
-ms.prod: learning-azure
+ms.service: azure
 ---
 
 # Step-by-step configuration guide for platform setup

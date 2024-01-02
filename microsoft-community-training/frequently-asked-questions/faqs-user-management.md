@@ -4,7 +4,7 @@ original-url: https://docs.microsoftcommunitytraining.com/docs/faqs-user-managem
 author: cbms03
 ms.author: cbrahmandam
 description: Currently, there are 3 forms of login identity supported in the platform  i.e. Mobile Number (Via ADB2C), Personal Email Address (or  Social Account) and Azure AD.
-ms.prod: learning-azure
+ms.service: azure
 ---
 
 # Login Types and User Identity

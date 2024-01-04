@@ -4,7 +4,7 @@ original-url: https://docs.microsoftcommunitytraining.com/docs/change-course-det
 author: nikotha
 ms.author: nikotha
 description: Once the course is created on the portal, you can change the course details like name, description, enrollment type, certification and thumbnail or delete the course as per your requirements.
-ms.prod: learning-azure
+ms.service: azure
 ---
 
 # Change Course details

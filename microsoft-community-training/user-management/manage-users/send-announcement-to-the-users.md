@@ -4,7 +4,7 @@ original-url: https://docs.microsoftcommunitytraining.com/docs/send-announcement
 author: nikotha
 ms.author: nikotha
 description: The Community Training platform allows administrators to send messages and alerts or broadcast information to different group of users via the announcement feature.
-ms.prod: learning-azure
+ms.service: azure
 ---
 
 # Send announcement to the users

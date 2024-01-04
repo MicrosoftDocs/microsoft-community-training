@@ -4,7 +4,7 @@ original-url: https://docs.microsoftcommunitytraining.com/docs/enable-course-lev
 author: nikotha
 ms.author: nikotha
 description: Community Training enables you to create multiple certificates and assign them to the relevant courses.
-ms.prod: learning-azure
+ms.service: azure
 ---
 
 # Enable course level certificate

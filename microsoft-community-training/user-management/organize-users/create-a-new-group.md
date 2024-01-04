@@ -4,7 +4,7 @@ original-url: https://docs.microsoftcommunitytraining.com/docs/create-a-new-grou
 author: nikotha
 ms.author: nikotha
 description: Group is a key feature in the Community Training platform. It enables you to delegate user management and drive learner engagement to the grassroots-level.
-ms.prod: learning-azure
+ms.service: azure
 ---
 
 # Create new group

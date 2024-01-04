@@ -4,8 +4,8 @@ original-url: https://docs.microsoftcommunitytraining.com/docs/configure-login-s
 author: nikotha
 ms.author: nikotha
 description: Community Training platform provides three types of login.
-ms.prod: learning-azure
 zone_pivot_groups: "AD-Deployments-Methods"
+ms.service: azure
 ---
 
 # Configure login identity for the platform

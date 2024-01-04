@@ -4,7 +4,7 @@ original-url: https://docs.microsoftcommunitytraining.com/docs/move-course-conte
 author: nikotha
 ms.author: nikotha
 description: If you are managing multiple instances of Community Training platform each catering to different target audiences but with overlapping course content -  there is an easy way for administrator to move content across instances* in a few simple clicks*.
-ms.prod: learning-azure
+ms.service: azure
 ---
 
 # Move Course content across training instance

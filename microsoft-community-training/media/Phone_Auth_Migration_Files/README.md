@@ -21,7 +21,7 @@ If the customer has to be migrated to ADB2C Native Phone Authentication from CT 
 >     If cloud shell is not setup previously, please follow the on-screen instructions to setup cloud shell.
 
 5. Download the setup script and configuration files using the following commands
-    - `wget -q https://raw.githubusercontent.com/microsoft-community-training/media/Phone_Auth_Migration_Files/setup.ps1 -O ./setup.ps1`
+    - `wget -q https://raw.githubusercontent.com/MicrosoftDocs/microsoft-community-training/live/microsoft-community-training/media/Phone_Auth_Migration_Files/setup.ps1 -O ./setup.ps1`
 6. Get the tenantId and fully qualified domain name of the Azure ADB2C tenant
     - tenantId should be a globally unique identifier (guid)
     - fully qualified domain name should look like ***\<your-domain\>.onmicrosoft.com***

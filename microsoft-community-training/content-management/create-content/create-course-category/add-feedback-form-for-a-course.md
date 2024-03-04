@@ -4,7 +4,7 @@ original-url: https://docs.microsoftcommunitytraining.com/docs/add-feedback-form
 author: nikotha
 ms.author: nikotha
 description: This document explains feedback form addition flow to a course.
-ms.prod: learning-azure
+ms.service: azure
 ---
 
 # Add feedback form for a course

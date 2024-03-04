@@ -4,7 +4,7 @@ original-url: https://docs.microsoftcommunitytraining.com/docs/user-role-and-man
 author: nikotha
 ms.author: nikotha
 description: Community Training management portal is a one-stop-shop for all administrative functions like content management, user management, tracking and monitoring the training with analytics, portal settings, and more.
-ms.prod: learning-azure
+ms.service: azure
 ---
 
 # User roles and management portal overview

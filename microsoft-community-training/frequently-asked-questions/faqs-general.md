@@ -4,7 +4,7 @@ original-url: https://docs.microsoftcommunitytraining.com/docs/faqs-general
 author: nikotha
 ms.author: nikotha
 description: Community Training is an Azure-powered online learning platform to enable organizations of all sizes.
-ms.prod: learning-azure
+ms.service: azure
 ---
 
 # General FAQs

@@ -4,7 +4,7 @@ original-url: https://docs.microsoftcommunitytraining.com/docs/web-app
 author: nikotha
 ms.author: nikotha
 description: This document details the learner experience on the web portal of Community Training.
-ms.prod: learning-azure
+ms.service: azure
 ---
 
 # Learner Experience on the web portal

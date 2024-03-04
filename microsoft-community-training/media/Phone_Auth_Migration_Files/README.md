@@ -40,3 +40,5 @@ If the customer has to be migrated to ADB2C Native Phone Authentication from CT 
 Refer here: [ App Service Configurations](https://learn.microsoft.com/en-us/azure/industry/training-services/microsoft-community-training/settings/configurations-on-the-training-platform#steps-to-set-the-configurations-on-the-platform)
     - **idp:AzureADB2CExternalAuthPolicy** - **AuthPolicyName** from the script output as mentioned in step 8.
     - **idpSelection** - 1
+
+

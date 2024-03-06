@@ -11,7 +11,8 @@ ms.service: azure
 
 ## **Before you begin**
 
-This article assumes you have completed the steps outlined in the [MS Teams installation](/azure/industry/training-services/microsoft-community-training/infrastructure-management/install-your-platform-instance/installation-guide-detailed-steps) (up to Step 2) and received the Team Manifest file from the Customer Support Team.
+This article assumes you have completed the steps outlined in the [MS Teams installation](../../infrastructure-management/install-your-platform-instance/create-teams-app-for-your-training-portal.md) (up to Step 2) and received the Team Manifest file from the Customer Support Team.   
+You can download the sample file with instructions from here: [Sample Teams Manifest File](https://github.com/MicrosoftDocs/microsoft-community-training/files/10336214/steps_to_create_manifest_file.zip)
 
 ## **Customize the name and icon of the training tab inside Microsoft Teams**
 

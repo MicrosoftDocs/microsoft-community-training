@@ -1,5 +1,5 @@
 ---
-title: Migrating from Public PReview to GA VErsion
+title: Migrating from Public Preview to GA Version
 original-url: https://docs.microsoftcommunitytraining.com/docs/microsoft-community-training-overview
 author: Cbrahmandam
 ms.author: cbms03

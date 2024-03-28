@@ -1,5 +1,5 @@
 ---
-title: ENabling Data Export
+title: Enabling Data Export
 original-url: https://docs.microsoftcommunitytraining.com/docs/microsoft-community-training-overview
 author: Cbrahmandam
 ms.author: cbms03

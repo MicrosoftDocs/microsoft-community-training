@@ -1,5 +1,5 @@
 ---
-title: REst API Documentation
+title: Rest API Documentation
 original-url: https://docs.microsoftcommunitytraining.com/docs/microsoft-community-training-overview
 author: Cbrahmandam
 ms.author: cbrahmandam

@@ -13,10 +13,10 @@ Community Training platform exposes its APIs for integration with another servic
 In this article, you will learn more about the API signatures and their authentication flows in respective sections.  
 
 ## API Signatures
-CT Portal administrators will be able to retrieve the API signature by typing in your website URL followed by /swagger on the web browser. (https://website-url/swagger)
+CT Portal administrators will be able to retrieve the API signature by typing in your website URL followed by /swagger on the web browser. (https://**website-url'**/swagger)
 
-> [!Note]
->If your website portal URL is https://mcttraining.azurewebsites.net Then, URL Structure for API Signature: https://mcttraining.azurewebsites.net/swagger
+> [!Note]  
+>If your website portal URL is https://mcttraining.azurefd.net Then, URL Structure for API Signature: https://mcttraining.azurefd.net/swagger
 
 > [!Warning]  
 (In the same browser) You must be signed in as an global administrator on your training portal to be able to access Swagger link for your instance.  
@@ -36,12 +36,12 @@ To obtain the access token manually (for testing purposes), follow these steps,
 4.	Now in the browser, call the URL :
 >"https:// {your-MCT-portal-domain} /ExternalAuthentication/Login".  
 
-**For example**: To get token for https://mctdemo2.azurefd.net instance, we can call mctdemo2.azurefd.net/ExternalAuthentication/Login  
+**For example**: To get token for https://ctdemosite.azurefd.net instance, we can call ctdemosite.azurefd.net/ExternalAuthentication/Login  
 
 5.	Enter your credentials in the login page. Click on Sign-in.
 
 6.	In Inspect window, under Network tab, click on Callback option.
-7.	Under headers, you would see a category ‘location’ which contains the Access Token and Refresh Token.
+7.	Under headers, you would see a category **‘location’** which contains the Access Token and Refresh Token.
  
  ![Step7](../../media/GA_Migration/API_Documentation/Setp7.jpg)
 
@@ -57,13 +57,14 @@ To obtain the access token manually (for testing purposes), follow these steps,
 > [!NOTE]   
 >
 > API signature to get AccessToken using RefreshToken  
-
+>
 > `POST <websiteUrl>/api/v1/ExternalAuthToken/RefreshToken/{identityProvider}
 > {identityprovider} = PHONE/EMAIL/AZUREAD
 > Body:
 > {
 > "RefreshToken":"<Token>"
 > } `
+
 
 > [!Warning]  
 >

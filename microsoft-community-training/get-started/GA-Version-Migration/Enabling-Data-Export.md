@@ -25,7 +25,7 @@ On the left side of the dashboard, click on the 'Create a resource' button. This
 On the search box, type 'SQL server (logical server)' and press enter. 
 You will see a list of results related to SQL server. Select the 'SQL server (logical server)' option.
 
-![SEarch_Box](../../media/GA_Migration/Enabling_Data_Export_Pictures/REsource_Search_Box.png)
+![Search_Box](../../media/GA_Migration/Enabling_Data_Export_Pictures/REsource_Search_Box.png)
 Click on the 'Create' button at the bottom of the page. This will open a new page with the configuration options for your SQL server.
 
 ![Create_Button](../../media/GA_Migration/Enabling_Data_Export_Pictures/Create_Button_SQL_Server.png)
@@ -39,15 +39,18 @@ On the configuration page, you will need to provide some basic information for y
 5.	Admin username
 6.	Admin password  
 
-You can choose any name for your server, as long as it is unique within Azure. Please choose the location as the region where you would want your SQL server and its corresponding data to be hosted. **Please store the admin username and password carefully as these are the credentials that will be used to connect to your SQL server.**
+You can choose any name for your server, as long as it is unique within Azure. Please choose the location as the region where you would want your SQL server and its corresponding data to be hosted. 
+
+>[!Note]  
+> **Please store the admin username and password carefully as these are the credentials that will be used to connect to your SQL server.**
 
 ![Basic_Info](../../media/GA_Migration/Enabling_Data_Export_Pictures/SQL_Server_Basic_Information.png)
 
-After filling in the required fields, scroll down to the 'Networking' section. Here, you will see the 'Allow Azure services and resources to access this server' option. Please set this option as ‘Yes’ as this is needed for the export of data from your CT instance.
+After filling in the required fields, scroll down to the **'Networking'** section. Here, you will see the **'Allow Azure services and resources to access this server'** option. Please set this option as **‘Yes’** as this is needed for the export of data from your CT instance.
 
 ![Firewall_Settings](../../media/GA_Migration/Enabling_Data_Export_Pictures/Firewall_Settings.png)
 
-After configuring the security or additional settings as required or leaving the default settings for the security and additional settings as is, scroll down to the bottom of the page and click on the 'Review + create' button.
+After configuring the security or additional settings as required or leaving the default settings for the security and additional settings as is, scroll down to the bottom of the page and click on the **'Review + create'** button.
 
 ![Review_Create](../../media/GA_Migration/Enabling_Data_Export_Pictures/Review_Create.png)
 

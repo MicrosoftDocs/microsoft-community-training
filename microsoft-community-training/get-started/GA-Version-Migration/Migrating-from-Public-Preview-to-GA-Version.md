@@ -16,7 +16,7 @@ This document describes the process of migrating customer from CT public preview
 Create a new Community Training resource via Azure Portal in your preferred subscription and any resource group of your choice. 
 
 ### Step 2: Contact CT team 
-Contact CT support by raising a support request via the [helpdesk](aka.ms/cthelpdesk)
+Contact CT support by raising a support request via the [helpdesk](https://aka.ms/cthelpdesk)
  and share the following:
 
 1.	New(GA) and existing(public preview) platform URL (typically of the form https://<your-platform-name>.azurefd.net).
@@ -42,21 +42,23 @@ Update DNS mapping from the existing CT platform URL (typically of the form <you
 
 #### Scenario 2:  Using Community Training REST APIs using Service-to-Service authentication
 ##### Customer action: 
-
-Enable API using S2S for GA.docx
+Please Refer to the steps listed in [this document](Enable-API-using-S2S-for-GA.md).
 ##### CT team action: 
 CT will do the necessary step based on support ticket raised as part of above steps
 
 #### Scenario 3 : Using Community Training SQL data for Power BI/Analytics
 
-##### Customer action:  
+##### Customer action:    
 Please refer to the steps listed in [this document](Enabling-Data-Export.md)
 
 
-##### CT team action:
+##### CT team action:  
  CT will do the necessary step based on support ticket raised as part of above steps
 
 #### Scenario 4: Using Community Training events
-##### Customer action: Migration of Events to GA.docx
-##### CT team action: CT will do the necessary step based on support ticket raised as part of above steps
+##### Customer action: 
+Please refer to the steps listed in [this document](Learner-Events.md).
+##### CT team action: 
+
+CT will do the necessary step based on support ticket raised as part of above steps
 

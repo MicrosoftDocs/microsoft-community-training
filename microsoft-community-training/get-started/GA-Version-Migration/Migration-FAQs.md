@@ -7,6 +7,7 @@ description: Community Training is an Azure-powered online learning platform to 
 ms.service: azure
 ---
 
+This document answers the fewquently asked questions about the Migration to the GA Version of the Community Training. You can always reach out to our [helpdesk](https://aka.ms/cthelpdesk) if you have any additional questions or concerns. 
 
 ### 1. When will Public Preview version of Community Training end?
   Effective June 30, 2024, Community Training’s Public Preview service will no longer be supported by Microsoft and will have limited functionality.  

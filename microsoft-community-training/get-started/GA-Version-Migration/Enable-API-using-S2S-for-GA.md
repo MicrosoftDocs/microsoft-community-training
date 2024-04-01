@@ -7,7 +7,7 @@ description: This document is to describe how to enable APIs using Service to SE
 ms.service: azure
 ---
 
-# Enable APIs using S2S 
+# Enable APIs using Service to Service Authentication (S2S) 
 If you have been using Community Training (CT) APIs in public preview version and intend to continue using them with GA version, then following this documentation will help you accomplish that.
 Community Training (CT) APIs support Service to Service (S2S) authentication to allow any external service to call the APIs without requiring a user to explicitly login to any CT instance. Please follow below steps to call CT APIs using S2S
 
@@ -17,7 +17,7 @@ Community Training (CT) APIs support Service to Service (S2S) authentication to 
 
 2.	If you have access to multiple tenants, use the Directory + subscription filter   in the top menu to select the tenant in which you want to register an application.
 
->[!NOTE]  
+>[!Note]  
 >The Service Application to be registered must be created in the same Azure tenant as that of concerned CT instance.
 
 3.	Search for and select Azure Active Directory.
@@ -50,8 +50,8 @@ Community Training (CT) APIs support Service to Service (S2S) authentication to 
     d	To create a unique Guid run the command “new-guid” from PowerShell.  
     e	Enter the role “value” as created in “Register Service application” step above. (e.g. "S2SAppRole")  
     f	Map the respective values properly and save the manifest.  
- >   [!Note]  
- >  The content of appRoles should be the following (the id should be unique GUID)  
+ > [!Note]  
+ > The content of appRoles should be the following (the id should be unique GUID)  
 
 {…  
    "appRoles": [  

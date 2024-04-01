@@ -8,9 +8,9 @@ ms.service: azure
 ---
 
 # Migrating Community Training from Public Preview to General Availability
-
-
 This document describes the process of migrating customer from CT public preview to CT version which is now generally available
+
+## Migration Process:
 
 ### Step 1: Create a new CT instance
 Create a new Community Training resource via Azure Portal in your preferred subscription and any resource group of your choice. 
@@ -31,22 +31,23 @@ Post above steps, CT support team will notify you when migration is completed.
 > As part of migration, all persistent data generated on the existing Community Training platform will be moved to the new respective instances created in step 1. In short, all your assets (users, content, user progress etc.) will be moved to the newly created platform.
 
 
-You will need to perform additional steps depending on the scenarios below.
 
-# Scenario 1:  Custom domain associated with existing Community Training platform.
+**You will need to perform additional steps depending on the scenarios below.**
+
+## Scenario 1:  Custom domain associated with existing Community Training platform.
 ##### CT team action: 
 CT team will update the necessary Azure infrastructure with the custom domain provided.
 
 ##### Customer action: 
 Update DNS mapping from the existing CT platform URL (typically of the form <your-platform-name>.azurefd.net) to the new one. This must be done as specified by the Domain Name provider.
 
-# Scenario 2:  Using Community Training REST APIs using Service-to-Service authentication
+## Scenario 2:  Using Community Training REST APIs using Service-to-Service authentication
 ##### Customer action: 
 Please Refer to the steps listed in [this document](Enable-API-using-S2S-for-GA.md).
 ##### CT team action: 
 CT will do the necessary step based on support ticket raised as part of above steps
 
-# Scenario 3 : Using Community Training SQL data for Power BI/Analytics
+## Scenario 3 : Using Community Training SQL data for Power BI/Analytics
 
 ##### Customer action:    
 Please refer to the steps listed in [this document](Enabling-Data-Export.md)
@@ -55,12 +56,12 @@ Please refer to the steps listed in [this document](Enabling-Data-Export.md)
 ##### CT team action:  
  CT will do the necessary step based on support ticket raised as part of above steps
 
-# Scenario 4: Using Community Training events
+## Scenario 4: Using Community Training events
 ##### Customer action: 
 Please refer to the steps listed in [this document](Learner-Events.md).
 ##### CT team action: 
 
-CT will do the necessary step based on support ticket raised as part of above steps
+CT will do the necessary step based on support ticket raised as part of above steps.  
 
 
 # FAQs

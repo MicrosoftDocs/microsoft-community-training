@@ -33,20 +33,20 @@ Post above steps, CT support team will notify you when migration is completed.
 
 You will need to perform additional steps depending on the scenarios below.
 
-#### Scenario 1:  Custom domain associated with existing Community Training platform.
+# Scenario 1:  Custom domain associated with existing Community Training platform.
 ##### CT team action: 
 CT team will update the necessary Azure infrastructure with the custom domain provided.
 
 ##### Customer action: 
 Update DNS mapping from the existing CT platform URL (typically of the form <your-platform-name>.azurefd.net) to the new one. This must be done as specified by the Domain Name provider.
 
-#### Scenario 2:  Using Community Training REST APIs using Service-to-Service authentication
+# Scenario 2:  Using Community Training REST APIs using Service-to-Service authentication
 ##### Customer action: 
 Please Refer to the steps listed in [this document](Enable-API-using-S2S-for-GA.md).
 ##### CT team action: 
 CT will do the necessary step based on support ticket raised as part of above steps
 
-#### Scenario 3 : Using Community Training SQL data for Power BI/Analytics
+# Scenario 3 : Using Community Training SQL data for Power BI/Analytics
 
 ##### Customer action:    
 Please refer to the steps listed in [this document](Enabling-Data-Export.md)
@@ -55,10 +55,14 @@ Please refer to the steps listed in [this document](Enabling-Data-Export.md)
 ##### CT team action:  
  CT will do the necessary step based on support ticket raised as part of above steps
 
-#### Scenario 4: Using Community Training events
+# Scenario 4: Using Community Training events
 ##### Customer action: 
 Please refer to the steps listed in [this document](Learner-Events.md).
 ##### CT team action: 
 
 CT will do the necessary step based on support ticket raised as part of above steps
+
+
+# FAQs
+#### If you have additional questions, please refer to the [FAQs section for Migration](Migration-FAQs.md). You are always welcome to reach out to the CT Team via the [Helpdesk](https://aka.ms/cthelpdesk).
 

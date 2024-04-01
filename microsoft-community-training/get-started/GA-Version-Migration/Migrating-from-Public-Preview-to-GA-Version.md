@@ -27,8 +27,8 @@ Contact CT support by raising a support request via the [helpdesk](https://aka.m
 
 Post above steps, CT support team will notify you when migration is completed. 
 
-    [!Note]
-     As part of migration, all persistent data generated on the existing Community Training platform will be moved to the new respective instances created in step 1. In short, all your assets (users, content, user progress etc.) will be moved to the newly created platform.
+>[!Note]  
+> As part of migration, all persistent data generated on the existing Community Training platform will be moved to the new respective instances created in step 1. In short, all your assets (users, content, user progress etc.) will be moved to the newly created platform.
 
 
 You will need to perform additional steps depending on the scenarios below.
@@ -64,5 +64,6 @@ CT will do the necessary step based on support ticket raised as part of above st
 
 
 # FAQs
-#### If you have additional questions, please refer to the [FAQs section for Migration](Migration-FAQs.md). You are always welcome to reach out to the CT Team via the [Helpdesk](https://aka.ms/cthelpdesk).
+#### If you have additional questions, please refer to the [FAQs section for Migration](Migration-FAQs.md). 
+You are always welcome to reach out to the CT Team via the [Helpdesk](https://aka.ms/cthelpdesk).
 

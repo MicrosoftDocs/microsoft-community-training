@@ -6,9 +6,9 @@ ms.author: cbms03
 description: This document describes how to enable data export in the GA Version.
 ms.service: azure
 ---
-# Introduction
+# Enabling Data Export 
 In this tutorial, you will learn how to enable data export for your Community Training (CT) instance and prepare an SQL server in your subscription for hosting the exported data. With this option, you can export your Community Training instance’s data to an SQL server in your subscription and access your SQL server from other Azure services and resources, such as web apps, virtual machines, or Azure Data Factory and build custom workflows for your data. You will need an already existing Community Training instance and access to your Azure subscription to follow this tutorial.
-#	Create an SQL server for data export
+##	Create an SQL server for data export
 The following are the steps required to enable data export for your CT instance and prepare an SQL server for data export from CT.  
  
 ##	Step 1: Log in to Azure portal

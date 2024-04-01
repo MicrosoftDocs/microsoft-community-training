@@ -7,16 +7,18 @@ description: This document is to describe how to enable APIs using Service to SE
 ms.service: azure
 ---
 
+# Enable APIs using S2S 
 If you have been using Community Training (CT) APIs in public preview version and intend to continue using them with GA version, then following this documentation will help you accomplish that.
 Community Training (CT) APIs support Service to Service (S2S) authentication to allow any external service to call the APIs without requiring a user to explicitly login to any CT instance. Please follow below steps to call CT APIs using S2S
 
 
-# Step 1: Register Service Application
+## Step 1: Register Service Application
 1.	Sign in to the Azure portal.
 
 2.	If you have access to multiple tenants, use the Directory + subscription filter   in the top menu to select the tenant in which you want to register an application.
 
-    [!NOTE] The Service Application to be registered must be created in the same Azure tenant as that of concerned CT instance.
+>[!NOTE]  
+>The Service Application to be registered must be created in the same Azure tenant as that of concerned CT instance.
 
 3.	Search for and select Azure Active Directory.
 
@@ -32,7 +34,7 @@ Community Training (CT) APIs support Service to Service (S2S) authentication to 
 
 7.	Select the Expose an API section, and:
 
-    a	On Application ID URI, click on Set. Keep the suggested value, for example api://webapi-clientid  
+    a	On Application ID URI, click on Set. Keep the suggested value, for example **api://webapi-clientid**  
 
     b	Click Save. 
 
@@ -48,8 +50,8 @@ Community Training (CT) APIs support Service to Service (S2S) authentication to 
     d	To create a unique Guid run the command “new-guid” from PowerShell.  
     e	Enter the role “value” as created in “Register Service application” step above. (e.g. "S2SAppRole")  
     f	Map the respective values properly and save the manifest.  
- >   [!Note]
->  The content of appRoles should be the following (the id should be unique GUID)  
+ >   [!Note]  
+ >  The content of appRoles should be the following (the id should be unique GUID)  
 
 {…  
    "appRoles": [  
@@ -141,7 +143,7 @@ Follow the steps mentioned below to Register the Client app.
     •	Select the **Add permissions** button.  
 
 8.	At this stage permissions are assigned correctly but the client app does not allow interaction. Therefore, no consent can be presented via a UI and accepted to use the service app. Click the **Grant/revoke admin consent for {tenant}** button, and then select **Yes** when you are asked if you want to grant consent for the requested permissions for all account in the tenant. 
-> [!Note]
+> [!Note]  
 > You need to be an Azure AD tenant admin to do this.
 
 >   [!Note]  
@@ -162,7 +164,8 @@ Follow the steps mentioned below to Register the Client app.
     &grant_type=client_credentials  
 
 
-•	The value passed for the **scope** parameter in this request should be the resource identifier (application ID URI) of the resource you want, affixed with the .default suffix api://webapi-clientid/.default. For the Microsoft Graph example, the value is https://graph.microsoft.com/.default.
+•	The value passed for the **scope** parameter in this request should be the resource identifier (application ID URI) of the resource you want, affixed with the .default suffix api://webapi-clientid/.default.
+ **For the Microsoft Graph example**, the value is https://graph.microsoft.com/.default.
 
 ## Step 3: Contact CT support team to configure the Azure App Service
 

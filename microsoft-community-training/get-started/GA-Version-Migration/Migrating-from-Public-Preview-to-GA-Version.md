@@ -17,7 +17,7 @@ Create a new Community Training resource via Azure Portal in your preferred subs
 
 ### Step 2: Contact CT team 
 Contact CT support by raising a support request via the [helpdesk](https://aka.ms/cthelpdesk)
- and share the following:
+ and share the following information:
 
 1.	New(GA) and existing(public preview) platform URL (typically of the form https://<your-platform-name>.azurefd.net).
 
@@ -35,38 +35,38 @@ Post above steps, CT support team will notify you when migration is completed.
 **You will need to perform additional steps depending on the scenarios below.**
 
 ## Scenario 1:  Custom domain associated with existing Community Training platform.
-##### CT team action: 
+##### CT Team Action: 
 CT team will update the necessary Azure infrastructure with the custom domain provided.
 
-##### Customer action: 
+##### Customer Action: 
 Update DNS mapping from the existing CT platform URL (typically of the form <your-platform-name>.azurefd.net) to the new one. This must be done as specified by the Domain Name provider.  
 >
 
 ## Scenario 2:  Using Community Training REST APIs using Service-to-Service authentication
-##### Customer action: 
+##### Customer Action: 
 Please Refer to the steps listed in [this document](Enable-API-using-S2S-for-GA.md).
-##### CT team action: 
+##### CT Team Action: 
 CT will do the necessary step based on support ticket raised as part of above steps.  
 
 >
 ## Scenario 3 : Using Community Training SQL data for Power BI/Analytics
 
-##### Customer action:    
+##### Customer Action:    
 Please refer to the steps listed in [this document](Enabling-Data-Export.md)
 
 
-##### CT team action:  
+##### CT Team Action:  
  CT will do the necessary step based on support ticket raised as part of above steps.  
 >
 ## Scenario 4: Using Community Training events
-##### Customer action: 
+##### Customer Action: 
 Please refer to the steps listed in [this document](Learner-Events.md).  
-##### CT team action: 
+##### CT Team Action: 
 
 CT will do the necessary step based on support ticket raised as part of above steps.    
 
 >
-# FAQs
+## FAQs
 #### If you have additional questions, please refer to the [FAQs section for Migration](Migration-FAQs.md). 
 You are always welcome to reach out to the CT Team via the [Helpdesk](https://aka.ms/cthelpdesk).
 

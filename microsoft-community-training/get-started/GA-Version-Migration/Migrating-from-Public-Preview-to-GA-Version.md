@@ -65,7 +65,7 @@ Please refer to the steps listed in [this document](Learner-Events.md).
 
 CT will do the necessary step based on support ticket raised as part of above steps.    
 
-
+>
 # FAQs
 #### If you have additional questions, please refer to the [FAQs section for Migration](Migration-FAQs.md). 
 You are always welcome to reach out to the CT Team via the [Helpdesk](https://aka.ms/cthelpdesk).

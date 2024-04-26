@@ -6,7 +6,7 @@ The Microsoft’s Community Training, in its efforts to provide a better service
 
 Azure Active Directory B2C (Azure AD B2C) is a customer identity access management (CIAM) solution that enables you to sign up and sign in your customers into your apps and APIs. Your customers use their preferred social, enterprise, or local account identities to get single sign-on access to your applications. Learn more about ADB2C [here](https://learn.microsoft.com/en-us/azure/active-directory-b2c/overview).
 
-The process for setting up ADB2C on CT is detailed in this [document](https://learn.microsoft.com/en-us/azure/industry/training-services/microsoft-community-training/infrastructure-management/install-your-platform-instance/configure-login-social-work-school-account).
+The process for setting up ADB2C on CT is detailed in this [document](../Phone_Auth_Migration_Files/ADB2C.md).
 
 # Identity Options
 
@@ -36,8 +36,9 @@ The Migration can happen in either of the two ways:
 ## Administrator driven Migration
 
 This is for scenarios where your administrator already knows the mapping between existing mobile number and new identity (username/email for the learners.
-
-NOTE: In this case, you will have to communicate the new identity (for eg: username) to the respective learners who can login by resetting their passwords.
+ 
+>[!NOTE]  
+> In this case, you will have to communicate the new identity (for eg: username) to the respective learners who can login by resetting their passwords.
 
 ### Migration Steps:
 
@@ -48,8 +49,13 @@ NOTE: In this case, you will have to communicate the new identity (for eg: usern
 
 ![CSV_Upload_SCreen](<Migration_Screenshots/Admin_Driven_Migration/CSV UPload Screen.png>)
 
+A template file is provided on the UI. It can also be downloaded from here: [template File](microsoft-community-training\media\Phone_Auth_Migration_Files\IdentityMigration.csv)
+
 >[!Note]  
 > Please ensure that there are no duplicates in the mappings file – i.e. one mobile number should be mapped to only one email/username.* An incorrect mapping may result in the historical learner progress and certificates being mapped to a different learner.
+
+>[!Note]
+> Please Ensure that the required data is only in three columns. i.e., Country Code, Phone Number and the new identity. Plese delete data in other columns. 
 
 2. The status of migration can be seen in the notifications.   
 

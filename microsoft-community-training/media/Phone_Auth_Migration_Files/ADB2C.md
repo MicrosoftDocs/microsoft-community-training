@@ -23,10 +23,15 @@ Here are the steps an create on Azure AD B2C tenant and link the same with your 
         3. "https://*name*-staging.azurewebsites.net/signin-b2c"
     where "name" corresponds to your website name.
 2. Copy the Application ID value to be required later for **Client ID**.
-    :::image type="content" source="../../media/cliendIDB2C.png" alt-text="clientapplicaitonID":::
+
+    ![CLeitnID](../cliendIDB2C.png)
+
+
 3. In your Application, under Manage, go to **Certificates & Secrets** and click on **Generate Key**.
-4. Click on **Save** and the app key will appear. Copy the value to be required later for **Client Secret**.
-    :::image type="content" source="../../media/cliendsecretB2C.png" alt-text="clientsecretforB2C":::
+4. Click on **Save** and the app key will appear. Copy the value to be required later for **Client Secret**.  
+
+    ![Client_Secret](../cliendsecretB2C.png)
+
 5. Go to Azure Active Directory from the left menu of your Azure portal, click on Domain Names and copy the tenant name under Name to be required later for **Tenant Name**. For example, if the default domain for your Azure AD tenant is **contoso.onmicrosoft.com**, then enter **contoso**.
 6. Refer [**this article**](/azure/active-directory-b2c/tutorial-create-user-flows) article to create a **signing flow** (a sign-up and sign-in user flow) and a **password reset flow** (for local account)
     * Select Email Addresses, Given Name, Identity Provider and Surname in Application claims
@@ -82,25 +87,31 @@ Copy and note ClientID, ClientSecret, TenantName, sign-up and sign-in user flow 
 
 Navigate to your Application’s [**Key-Vault**](../../analytics/custom-reports/database-schema.md#accessing-key-vault):
 
-    * Click on “AzureADB2CExternalAuthClientSecret” in Secrets under settings
-        :::image type="content" source="../../media/Multiauth_adb2csecret.png" alt-text="adb2c secret1":::
+* Click on “AzureADB2CExternalAuthClientSecret” in Secrets under settings
 
-    * Create a new secret version
-        :::image type="content" source="../../media/Multiauth_adb2csecret2.png" alt-text="adb2c secret":::
-    * Paste the ADB2C application ClientSecret that you previously copied as Value and click save.
-        :::image type="content" source="../../media/Multiauth_adb2csecret3.png" alt-text="adb2c secret3":::
-    * Now, with in AzureADB2CExternalAuthClientSecret, click on newly created secret version and copy Secret Identifier
-        :::image type="content" source="../../media/Multiauth_adb2csecret4.png" alt-text="secret adb2c":::
+![multi_auth_adb2c_Secret](../Multiauth_adb2csecret.png)
 
-        :::image type="content" source="../../media/Multiauth_adb2csecret5.png" alt-text="secret adb2c final":::
+* Create a new secret version.  
 
+![multi_auth_adb2c_Secret 2](../Multiauth_adb2csecret2.png)
+
+* Paste the ADB2C application ClientSecret that you previously copied as Value and click save.
+
+![multi_auth_adb2c_Secret 3](../Multiauth_adb2csecret3.png)
+
+* Now, with in AzureADB2CExternalAuthClientSecret, click on newly created secret version and copy Secret Identifier.  
+
+![multi_auth_adb2c_Secret 4](../Multiauth_adb2csecret4.png)
+        
+![multi_auth_adb2c_Secret 5](../Multiauth_adb2csecret5.png)
 
 Navigate to [**configurations on the Training Platform**](../../settings/configurations-on-the-training-platform.md#steps-to-set-the-configurations-on-the-platform), search and update the following app settings (create new application settings if not already present)
 
-    |Application Setting|Value |
-    |---|---|
-    | idp:AzureADB2CExternalAuthClientId | Paste the ClientID of ADB2C application |
-    | idp:AzureADB2CExternalAuthClientSecret | Paste the Secret Identifier from Key vault |
-    | idp:AzureADB2CExternalAuthTenant | ADB2C Tenant Name |
-    | idp:AzureADB2CExternalAuthPolicy | Sign-up ans Sign-in User flow name |
-    | idpSelection | 1 |
+| **Application Setting**                || **Value**                                  |
+|----------------------------------------||--------------------------------------------|
+| idp:AzureADB2CExternalAuthClientId     || Paste the ClientID of ADB2C application    |
+| idp:AzureADB2CExternalAuthClientSecret || Paste the Secret Identifier from Key vault |
+| idp:AzureADB2CExternalAuthTenant       || ADB2C Tenant Name                          |
+| idp:AzureADB2CExternalAuthPolicy       || Sign-up ans Sign-in User flow name         |
+| idpSelection                           || 1                                          |
+

@@ -73,3 +73,7 @@ To obtain the access token manually (for testing purposes), follow these steps,
 >Once the RefreshToken expires, user will need to login to the instance explicitly to get new AccessToken and RefreshToken (unless you are using S2S authentication.  
 >
 >Typically, AccessToken is valid for 24 hours and RefreshToken is valid for 90 days.
+
+
+
+Please reach out to [CT Helpdesk](https://aka.ms/cthdelpdesk) for any queries. 

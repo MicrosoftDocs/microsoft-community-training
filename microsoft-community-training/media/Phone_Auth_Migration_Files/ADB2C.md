@@ -1,3 +1,11 @@
+---
+title: ADB2C Setup Userguide
+original-url: https://docs.microsoftcommunitytraining.com/docs/
+author: Kashyap Madireddi
+ms.author: v-nmadireddi
+description: This document details the instruction to setup ADB2C on Market Place version of Community Training. Primarily to aid in Phone Identity Migration
+ms.service: azure
+---
 ## Steps to setup ADB2C for GA readiness
 
 ### Step 1 - Setup your Azure AD B2C

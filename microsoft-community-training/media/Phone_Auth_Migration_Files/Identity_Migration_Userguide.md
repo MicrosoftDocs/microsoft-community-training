@@ -1,4 +1,12 @@
-Community Training Phone based Identity Migration
+---
+title: Phone Identity Migration Userguide
+original-url: https://docs.microsoftcommunitytraining.com/docs/
+author: Charan Brahmandam
+ms.author: cbms03
+description: This document is a userguide for phone based identity migration for subscribers of Community Training on Marketplace version.
+ms.service: azure
+---
+# Community Training Phone based Identity Migration
 
 The Microsoft’s Community Training, in its efforts to provide a better service and security on its platform, is ending the support for the Phone based identity Authentication service by 30th June 2024 and is providing [the Azure ADB2C](https://learn.microsoft.com/en-us/azure/active-directory-b2c/) service as its alternative.
 
@@ -12,21 +20,21 @@ The process for setting up ADB2C on CT is detailed in this [document](../Phone_A
 
 ADB2C provides following identity options
 
-1.  **Migrate to an ADB2C provided phone Identity***:*
-    -   To use the phone-based Identity for your learners by using the phone Identity by ADB2C. Pricing details for ADB2C for SMS can be referred here [Pricing - Active Directory External Identities \| Microsoft Azure](https://azure.microsoft.com/en-us/pricing/details/active-directory-external-identities/)
-    -   Please refer [**this documentation**](https://learn.microsoft.com/en-us/azure/active-directory-b2c/tutorial-create-user-flows?pivots=b2c-user-flow) from ADB2C for setting this service using the Custom Policies. We have created a sample custom policy for you. Please feel free to use this to get started [LINK](https://learn.microsoft.com/en-us/azure/industry/training-services/microsoft-community-training/media/Phone_Auth_Migration_Files/ReadME)
-2.  **Migrate to a social Identity via ADB2C***:*
-    -   To use identity providers such as Google, Facebook, Microsoft, or your organization to log in to the platform, please refer [Configure login identity for the platform \| Microsoft Learn](https://learn.microsoft.com/en-us/azure/industry/training-services/microsoft-community-training/infrastructure-management/install-your-platform-instance/configure-login-social-work-school-account#social-account-or-email-based-authentication)
-3.  **Migrate to a username and password-based Identity***:*
-    -   To allow your learners to login via a username and password as login identity, please refer . [Tutorial - Create user flows and custom policies - Azure Active Directory B2C \| Microsoft Learn](https://learn.microsoft.com/en-us/azure/active-directory-b2c/tutorial-create-user-flows?pivots=b2c-user-flow).
+1.  **Migrate to an ADB2C provided phone Identity**:
+    -   To use the phone-based Identity for your learners by using the phone Identity by ADB2C. Pricing details for ADB2C for SMS can be referred here [**Pricing - Active Directory External Identities \| Microsoft Azure**](https://azure.microsoft.com/en-us/pricing/details/active-directory-external-identities/)
+    -   Please refer [**this documentation**](https://learn.microsoft.com/en-us/azure/active-directory-b2c/tutorial-create-user-flows?pivots=b2c-user-flow) from ADB2C for setting this service using the Custom Policies. We have created a sample custom policy for you. Please feel free to use this to get started [**LINK**](https://learn.microsoft.com/en-us/azure/industry/training-services/microsoft-community-training/media/Phone_Auth_Migration_Files/ReadME)
+2.  **Migrate to a social Identity via ADB2C**:
+    -   To use identity providers such as Google, Facebook, Microsoft, or your organization to log in to the platform, please refer [**Configure login identity for the platform | Microsoft Learn**](https://learn.microsoft.com/en-us/azure/industry/training-services/microsoft-community-training/infrastructure-management/install-your-platform-instance/configure-login-social-work-school-account#social-account-or-email-based-authentication)
+3.  **Migrate to a username and password-based Identity**:
+    -   To allow your learners to login via a username and password as login identity, please refer . [**Tutorial - Create user flows and custom policies - Azure Active Directory B2C | Microsoft Learn**](https://learn.microsoft.com/en-us/azure/active-directory-b2c/tutorial-create-user-flows?pivots=b2c-user-flow).
 
 # Migration Process
 
 The Migration process involves the following steps:
 
 1.  Customer will setup the ADB2C on their subscription based on identity options selected.
-2.  Customer will inform the CT team via helpdesk(https://aka.ms/cthelpdesk) once ADB2C set up is complete
-3.  CT Team will implement the necessary steps to enable migration to new identity and retaining their progress
+2.  Customer will inform the CT team via [**helpdesk**](https://aka.ms/cthelpdesk) once ADB2C set up is complete.
+3.  CT Team will implement the necessary steps to enable migration to new identity and retaining their progress.
 
 The Migration can happen in either of the two ways:
 
@@ -44,8 +52,7 @@ This is for scenarios where your administrator already knows the mapping between
 
 1.  Administrator logs in to the CT portal using the new ADB2C Global Admin login credentials (eg: Username/email) and navigates to Admin view
 
-    Follow the steps Under “Migration into Microsoft’s ADB2C Identity“ in “Settings” tab. The status of the migration and the errors (If any) will be shown in the notifications.  
-
+    Follow the steps Under “Migration into Microsoft’s ADB2C Identity“ in “Settings” tab. The status of the migration and the errors (If any) will be shown in the notifications.    
 
 ![CSV_Upload_SCreen](../../media/Phone_Auth_Migration_Files/Migration_Screenshots/Admin_Driven_Migration/CSV%20UPload%20Screen.png)
 
@@ -95,10 +102,10 @@ This is for scenarios where you would like the learners to migrate their identit
 
 1.  The learner has reached out to admin informing that the migration has failed.  
 
-    A.  Please raise a ticket with the CT Team on <https://aka.ms/cthelpdek> with following details:  
-        1.  Website name  
-        2.  Learner identity (for eg: email/username)  
-        3.  Learner Mobile Number on the platform  
+    A.  Please raise a ticket with the CT Team on [**CT Helpdesk**](https://aka.ms/cthelpdek) with following details:  
+      1.  Website name  
+      2.  Learner identity (for eg: email/username)  
+      3.  Learner Mobile Number on the platform  
 
 2.  What If the Learner has more than one account – one phone-based Identity and other email/username-based Identity and would like to reuse both identities.  
 

@@ -47,9 +47,9 @@ This is for scenarios where your administrator already knows the mapping between
     Follow the steps Under “Migration into Microsoft’s ADB2C Identity“ in “Settings” tab. The status of the migration and the errors (If any) will be shown in the notifications.  
 
 
-![CSV_Upload_SCreen](<Migration_Screenshots/Admin_Driven_Migration/CSV UPload Screen.png>)
+![CSV_Upload_SCreen](../../media/Phone_Auth_Migration_Files/Migration_Screenshots/Admin_Driven_Migration/CSV%20UPload%20Screen.png)
 
-A template file is provided on the UI. It can also be downloaded from here: [template File](microsoft-community-training\media\Phone_Auth_Migration_Files\IdentityMigration.csv)
+A template file is provided on the UI. It can also be downloaded from here: [template File](../../media/Phone_Auth_Migration_Files/IdentityMigration.csv)
 
 >[!Note]  
 > Please ensure that there are no duplicates in the mappings file – i.e. one mobile number should be mapped to only one email/username.* An incorrect mapping may result in the historical learner progress and certificates being mapped to a different learner.

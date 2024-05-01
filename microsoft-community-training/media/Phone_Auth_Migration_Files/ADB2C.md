@@ -20,7 +20,16 @@ You can create a new Azure AD B2C tenant or create an existing one based on your
 
 ### Step 2 - Create Azure AD B2C application
 
-Here are the steps an create on Azure AD B2C tenant and link the same with your training portal instance:
+ 
+
+> [!Note]  
+By the end of this section, please have the following details copied on a notepad:
+>1. Client ID
+>2. ADB2C Tenant Name
+>3. ADB2C Client Secret
+>4. Sign Up and Sign In userflow name
+
+Here are the steps an create on Azure AD B2C tenant and link the same with your training portal instance.
 
 1. Create a new Azure AD B2C application by following [**this article**](/azure/active-directory-b2c/tutorial-register-applications). Please ensure application properties are set as following:
     1. Web app / Web API - set to "Yes"
@@ -71,6 +80,14 @@ Here are the steps an create on Azure AD B2C tenant and link the same with your 
 7. Follow the [**installation article**](../../infrastructure-management/install-your-platform-instance/installation-guide-detailed-steps.md) to complete the Deployment by configuring obtained values as per the below screenshot
 
     ![Create MCT redirect](../../media/LoginIdentity11.png)
+
+Make sure you have the following details on a notepad before starting the next steps:
+
+1. Client ID
+2. ADB2C Tenant Name
+3. ADB2C Client Secret
+4. Sign Up and Sign In userflow name
+
 ### Step 3 - Configure your Identity provider
 
 Here are the steps to create policies based on the Identity Provider:
@@ -93,7 +110,7 @@ Here are the steps to create policies based on the Identity Provider:
    
 Copy and note ClientID, ClientSecret, TenantName, sign-up and sign-in user flow name while configuring ADB2C tenant.
 
-Navigate to your Application’s [**Key-Vault**](../../analytics/custom-reports/database-schema.md#accessing-key-vault):
+Navigate to CT instance Application’s [**Key-Vault**](../../analytics/custom-reports/database-schema.md#accessing-key-vault):
 
 * Click on “AzureADB2CExternalAuthClientSecret” in Secrets under settings
 

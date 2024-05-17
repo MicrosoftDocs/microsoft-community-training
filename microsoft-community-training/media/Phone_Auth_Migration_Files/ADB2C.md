@@ -75,11 +75,8 @@ Here are the steps an create on Azure AD B2C tenant and link the same with your 
         > * AzureADB2CPasswordResetPolicy
         > * idp:AzureADB2CPasswordResetPolicy
         >
-        >![App Service](../../media/image%28355%29.png)
+        >![App Service](../../media/image%28355%29.png)  
 
-7. Follow the [**installation article**](../../infrastructure-management/install-your-platform-instance/installation-guide-detailed-steps.md) to complete the Deployment by configuring obtained values as per the below screenshot
-
-    ![Create MCT redirect](../../media/LoginIdentity11.png)
 
 Make sure you have the following details on a notepad before starting the next steps:
 

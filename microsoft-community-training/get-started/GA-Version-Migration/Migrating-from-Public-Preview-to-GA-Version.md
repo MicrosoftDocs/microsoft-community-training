@@ -10,6 +10,9 @@ ms.service: azure
 # Migrating Community Training from Public Preview to General Availability
 This document describes the process of migrating customer from CT public preview to CT version which is now generally available
 
+> [!Note]  
+> Please confirm the readiness of your instance for migration with the Community Training team before commencing the below steps. 
+
 ## Migration Process:
 
 ### Step 1: Create a new CT instance

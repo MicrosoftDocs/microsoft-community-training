@@ -38,7 +38,7 @@ The learners can choose from available resolutions from this menu, for a seamles
 > [!Note]  
 > Community Training Supports resolution upto 1080p.
 
-![Reolution_Menu](../media/AMS_Replacement/Resolution_Option.png)[Resolution Options](../media/AMS_Replacement/REsolution_Images.png)
+![Reolution_Menu](../media/AMS_Replacement/Resolution_Option.png)![Resolution Options](../media/AMS_Replacement/REsolution_Images.png)
 
 ### 2. Video Playback Speed 
 

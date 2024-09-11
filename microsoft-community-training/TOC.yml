@@ -104,6 +104,9 @@
         href: learner-experience/web-app.md
       - name: Learner Experience on PWA based mobile app
         href: learner-experience/pwa-app.md  
+      - name: Replacement player for Azure Media Service/Player  
+        href: learner-experience/AMS-Replacement-Player.md
+
    - name: Analytics
      items:
       - name: Analytics - Overview

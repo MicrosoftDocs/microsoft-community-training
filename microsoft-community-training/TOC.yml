@@ -1,6 +1,6 @@
 - name: Community Training Documentation
   items:
-    name: GA Version 
+  - name: GA Version 
     items: 
       - name: Get Started
         items:
@@ -214,289 +214,289 @@
         items:
         - name: Reliability in Community Training
           href: /azure/reliability/reliability-community-training?toc=/docs/microsoft-community-training/toc.json&bc=/Docs/microsoft-community-training/breadcrumb/toc.json   
-  name: Public Preview Version
-  items: 
-   - name: Get Started
-     items:
-      - name: Welcome to Microsoft Community Training
-        href: get-started/microsoft-community-training-overview.md
-      - name: User roles and Management portal overview
-        href: get-started/user-role-and-management-portal-overview.md
-      - name: Step by step configuration guide for platform setup
-        href: get-started/step-by-step-configuration-guide.md
-   - name: User Management
-     items:
-      - name: User Management - Overview
-        href: user-management/user-management-overview.md
-      - name: Organization Management
-        href: user-management/organization-management.md
-      - name: Add users
+  - name: Public Preview Version
+    items:
+      - name: Get Started
         items:
-         - name: Add learners to the platform
-           href: user-management/add-users/add-users-to-the-portal-1.md
-         - name: Add administrators to the platform
-           href: user-management/add-users/add-an-administrator-to-the-portal.md
-      - name: Organize users
+          - name: Welcome to Microsoft Community Training
+            href: get-started/microsoft-community-training-overview.md
+          - name: User roles and Management portal overview
+            href: get-started/user-role-and-management-portal-overview.md
+          - name: Step by step configuration guide for platform setup
+            href: get-started/step-by-step-configuration-guide.md
+      - name: User Management
         items:
-         - name: Create new group
-           href: user-management/organize-users/create-a-new-group.md
-         - name: Add a single user to the group
-           href: user-management/organize-users/add-a-single-user-to-the-group.md
-         - name: Add multiple users to the group
-           href: user-management/organize-users/add-multiple-users-to-the-group.md
-         - name: Setup automatic user enrollment for a group
-           href: user-management/organize-users/setup-automatic-user-enrollment-for-a-group-1.md
-      - name: Manage users
+          - name: User Management - Overview
+            href: user-management/user-management-overview.md
+          - name: Organization Management
+            href: user-management/organization-management.md
+          - name: Add users
+            items:
+            - name: Add learners to the platform
+              href: user-management/add-users/add-users-to-the-portal-1.md
+            - name: Add administrators to the platform
+              href: user-management/add-users/add-an-administrator-to-the-portal.md
+          - name: Organize users
+            items:
+            - name: Create new group
+              href: user-management/organize-users/create-a-new-group.md
+            - name: Add a single user to the group
+              href: user-management/organize-users/add-a-single-user-to-the-group.md
+            - name: Add multiple users to the group
+              href: user-management/organize-users/add-multiple-users-to-the-group.md
+            - name: Setup automatic user enrollment for a group
+              href: user-management/organize-users/setup-automatic-user-enrollment-for-a-group-1.md
+          - name: Manage users
+            items:
+            - name: Assign content to users in the group
+              href: user-management/manage-users/assign-content-to-group-users.md
+            - name: De-assign content from users
+              href: user-management/manage-users/De-assigning-content-from-user.md
+            - name: Send announcement to the users
+              href: user-management/manage-users/send-announcement-to-the-users.md
+            - name: Edit user profile on the platform
+              href: user-management/manage-users/edit-user-profile-on-the-platform.md
+            - name: Delete a user from the group
+              href: user-management/manage-users/remove-user-from-group.md
+            - name: Delete a user from the platform
+              href: user-management/manage-users/remove-user-from-the-portal.md
+      - name: Content Management
         items:
-         - name: Assign content to users in the group
-           href: user-management/manage-users/assign-content-to-group-users.md
-         - name: De-assign content from users
-           href: user-management/manage-users/De-assigning-content-from-user.md
-         - name: Send announcement to the users
-           href: user-management/manage-users/send-announcement-to-the-users.md
-         - name: Edit user profile on the platform
-           href: user-management/manage-users/edit-user-profile-on-the-platform.md
-         - name: Delete a user from the group
-           href: user-management/manage-users/remove-user-from-group.md
-         - name: Delete a user from the platform
-           href: user-management/manage-users/remove-user-from-the-portal.md
-   - name: Content Management
-     items:
-      - name: Content Management - Overview
-        href: content-management/content-management-overview.md
-      - name: Create Content
-        items: 
-         - name: Create Course / Category
-           items:
-            - name: Content Marketplace
-              href: content-management/create-content/create-course-category/content-marketplace.md 
-            - name: Create a category
-              href: content-management/create-content/create-course-category/create-a-category.md
-            - name: Create a new course
-              href: content-management/create-content/create-course-category/create-a-new-course.md
-            - name: Upload content to a course
-              href: content-management/create-content/create-course-category/upload-content-to-a-course.md
-            - name: Add subtitles or captions to video content
-              href: content-management/create-content/create-course-category/add-subtitles-or-captions-to-video-content.md
-            - name: Add assessments to a course
-              href: content-management/create-content/create-course-category/add-assessments-to-a-course.md
-            - name: Add feedback form for a course
-              href: content-management/create-content/create-course-category/add-feedback-form-for-a-course.md
-            - name: Publish a course on the training portal
-              href: content-management/create-content/create-course-category/publishing-course.md 
-         - name: Create Learning Path
-           items: 
-            - name: Create a Learning path
-              href: content-management/create-content/create-learning-path/create-a-learning-path.md
-            - name: Add course to a Learning path
-              href: content-management/create-content/create-learning-path/add-course-to-a-learning-path.md
-            - name: Publish a Learning Path on the Portal
-              href: content-management/create-content/create-learning-path/publish-a-learning-path-on-the-portal.md
-      - name: Manage Content
-        items: 
-         - name: Manage Course / Category
-           items: 
-            - name: Add an administrator for a course
-              href: content-management/manage-content/manage-course-category/add-an-administrator-for-a-course.md
-            - name: Manage Users for a Course
-              href: content-management/manage-content/manage-course-category/manage-users-for-a-course.md
-            - name: Change Course details
-              href: content-management/manage-content/manage-course-category/change-course-details.md
-            - name: Change Category details
-              href: content-management/manage-content/manage-course-category/change-category-details.md
-            - name: Move Course content across training instance
-              href: content-management/manage-content/manage-course-category/move-course-content-across-training-instance.md 
-         - name: Manage Learning Path
-           items: 
-            - name: Add an Administrator for a Learning Path
-              href: content-management/manage-content/manage-learning-path/add-an-administrator-for-a-learning-path.md
-            - name: Manage Users for a Learning Path
-              href: content-management/manage-content/manage-learning-path/manage-user-for-a-learning-path.md
-            - name: Change Learning Path details
-              href: content-management/manage-content/manage-learning-path/change-learning-path-details.md
-   - name: Learner Experience
-     items:
-      - name: Learner Experience on the web portal
-        href: learner-experience/web-app.md
-      - name: Learner Experience on the mobile app
-        href: learner-experience/mobile.md
-      - name: Learner Experience on PWA based mobile app
-        href: learner-experience/pwa-app.md  
-   - name: Analytics
-     items:
-      - name: Analytics - Overview
-        href: analytics/analytics-overview.md
-      - name: In-built Reports
+          - name: Content Management - Overview
+            href: content-management/content-management-overview.md
+          - name: Create Content
+            items: 
+            - name: Create Course / Category
+              items:
+                - name: Content Marketplace
+                  href: content-management/create-content/create-course-category/content-marketplace.md 
+                - name: Create a category
+                  href: content-management/create-content/create-course-category/create-a-category.md
+                - name: Create a new course
+                  href: content-management/create-content/create-course-category/create-a-new-course.md
+                - name: Upload content to a course
+                  href: content-management/create-content/create-course-category/upload-content-to-a-course.md
+                - name: Add subtitles or captions to video content
+                  href: content-management/create-content/create-course-category/add-subtitles-or-captions-to-video-content.md
+                - name: Add assessments to a course
+                  href: content-management/create-content/create-course-category/add-assessments-to-a-course.md
+                - name: Add feedback form for a course
+                  href: content-management/create-content/create-course-category/add-feedback-form-for-a-course.md
+                - name: Publish a course on the training portal
+                  href: content-management/create-content/create-course-category/publishing-course.md 
+            - name: Create Learning Path
+              items: 
+                - name: Create a Learning path
+                  href: content-management/create-content/create-learning-path/create-a-learning-path.md
+                - name: Add course to a Learning path
+                  href: content-management/create-content/create-learning-path/add-course-to-a-learning-path.md
+                - name: Publish a Learning Path on the Portal
+                  href: content-management/create-content/create-learning-path/publish-a-learning-path-on-the-portal.md
+          - name: Manage Content
+            items: 
+            - name: Manage Course / Category
+              items: 
+                - name: Add an administrator for a course
+                  href: content-management/manage-content/manage-course-category/add-an-administrator-for-a-course.md
+                - name: Manage Users for a Course
+                  href: content-management/manage-content/manage-course-category/manage-users-for-a-course.md
+                - name: Change Course details
+                  href: content-management/manage-content/manage-course-category/change-course-details.md
+                - name: Change Category details
+                  href: content-management/manage-content/manage-course-category/change-category-details.md
+                - name: Move Course content across training instance
+                  href: content-management/manage-content/manage-course-category/move-course-content-across-training-instance.md 
+            - name: Manage Learning Path
+              items: 
+                - name: Add an Administrator for a Learning Path
+                  href: content-management/manage-content/manage-learning-path/add-an-administrator-for-a-learning-path.md
+                - name: Manage Users for a Learning Path
+                  href: content-management/manage-content/manage-learning-path/manage-user-for-a-learning-path.md
+                - name: Change Learning Path details
+                  href: content-management/manage-content/manage-learning-path/change-learning-path-details.md
+      - name: Learner Experience
         items:
-         - name: Overall Summary View
-           href: analytics/in-built-reports/overall-summary.md
-         - name: Category View
-           href: analytics/in-built-reports/category-view-report.md
-         - name: Course View
-           href: analytics/in-built-reports/course-view-report.md
-         - name: Group View
-           href: analytics/in-built-reports/group-view-report.md
-         - name: Learner Report Card View
-           href: analytics/in-built-reports/learner-report-card-view.md
-      - name: Custom Reports
+          - name: Learner Experience on the web portal
+            href: learner-experience/web-app.md
+          - name: Learner Experience on the mobile app
+            href: learner-experience/mobile.md
+          - name: Learner Experience on PWA based mobile app
+            href: learner-experience/pwa-app.md  
+      - name: Analytics
         items:
-         - name: Power BI Integration
-           href: analytics/custom-reports/power-bi-integration.md
-         - name: Database Schema
-           href: analytics/custom-reports/database-schema.md
-   - name: Settings
-     items:
-      - name: Customize the look and feel of your portal
-        href: settings/configure-the-look-and-feel-of-your-portal.md
-      - name: Restrict portal access to learners outside your training program
-        href: settings/restrict-portal-access-to-users-outside-your-organization.md
-      - name: Customize profile information for the learners on the platform
-        href: settings/add-additional-profile-fields-for-user-information.md
-      - name: Customize the certificate template for the platform
-        href: settings/customize-the-certificate-template.md
-      - name: Enable course level certificate
-        href: settings/enable-course-level-certificate.md
-      - name: Customize languages on the platform
-        href: settings/customize-languages-for-the-learners-on-the-platform.md
-      - name: Request a new Language
-        href: settings/request-a-new-language.md
-      - name: Restrict content access to Group Administrators
-        href: settings/restrict-content-access-to-group-administrators.md
-      - name: Configurations on the Training Platform
-        href: settings/configurations-on-the-training-platform.md
-   - name: Infrastructure Management
-     items:
-      - name: Install your platform instance
+          - name: Analytics - Overview
+            href: analytics/analytics-overview.md
+          - name: In-built Reports
+            items:
+            - name: Overall Summary View
+              href: analytics/in-built-reports/overall-summary.md
+            - name: Category View
+              href: analytics/in-built-reports/category-view-report.md
+            - name: Course View
+              href: analytics/in-built-reports/course-view-report.md
+            - name: Group View
+              href: analytics/in-built-reports/group-view-report.md
+            - name: Learner Report Card View
+              href: analytics/in-built-reports/learner-report-card-view.md
+          - name: Custom Reports
+            items:
+            - name: Power BI Integration
+              href: analytics/custom-reports/power-bi-integration.md
+            - name: Database Schema
+              href: analytics/custom-reports/database-schema.md
+      - name: Settings
         items:
-         - name: Installation Overview
-           href: infrastructure-management/install-your-platform-instance/installation-overview.md
-         - name: Detailed step by step installation guide
-           href: infrastructure-management/install-your-platform-instance/installation-guide-detailed-steps.md
-         - name: Configure login identity for the platform
-           href: infrastructure-management/install-your-platform-instance/configure-login-social-work-school-account.md
-         - name: Configure multiple authentications in a single instance
-           href: infrastructure-management/install-your-platform-instance/configure-multiple-authentications-in-a-single-instance.md   
-         - name: Create and Publish your Mobile App
-           href: infrastructure-management/install-your-platform-instance/create-publish-mobile-app.md  
-         - name: Using REST APIs to integrate with existing system
-           href: infrastructure-management/install-your-platform-instance/apis.md
-         - name: Setup Microsoft Teams as learner endpoint for the platform
-           href: infrastructure-management/install-your-platform-instance/create-teams-app-for-your-training-portal.md
-         - name: Troubleshooting Guide
-           href: infrastructure-management/install-your-platform-instance/troubleshooting.md
-         - name: Setup platform instance on Azure subscription for Nonprofits
-           href: infrastructure-management/install-your-platform-instance/setup-platform-instance-on-azure-subscription-for-nonprofits.md
-      - name: Configure your platform infrastructure
+          - name: Customize the look and feel of your portal
+            href: settings/configure-the-look-and-feel-of-your-portal.md
+          - name: Restrict portal access to learners outside your training program
+            href: settings/restrict-portal-access-to-users-outside-your-organization.md
+          - name: Customize profile information for the learners on the platform
+            href: settings/add-additional-profile-fields-for-user-information.md
+          - name: Customize the certificate template for the platform
+            href: settings/customize-the-certificate-template.md
+          - name: Enable course level certificate
+            href: settings/enable-course-level-certificate.md
+          - name: Customize languages on the platform
+            href: settings/customize-languages-for-the-learners-on-the-platform.md
+          - name: Request a new Language
+            href: settings/request-a-new-language.md
+          - name: Restrict content access to Group Administrators
+            href: settings/restrict-content-access-to-group-administrators.md
+          - name: Configurations on the Training Platform
+            href: settings/configurations-on-the-training-platform.md
+      - name: Infrastructure Management
         items:
-         - name: Setup custom domain URL
-           href: infrastructure-management/configure-your-platform-infrastructure/setup-custom-domain-url.md
-         - name: Scale up your platform instance configuration
-           href: infrastructure-management/configure-your-platform-infrastructure/scale-up-instance-configuration.md
-         - name: Business Continuity and Disaster Recovery for your Platform Instance
-           href: infrastructure-management/configure-your-platform-infrastructure/business-continuity-and-disaster-recovery-for-your-platform-instance.md
-         - name: Delete your training platform instance
-           href: infrastructure-management/configure-your-platform-infrastructure/delete-your-training-instance.md
-         - name: Customize the name and icon of the training tab in MS Teams
-           href: infrastructure-management/configure-your-platform-infrastructure/customize-the-name-and-icon-of-the-training-tab-in-ms-teams.md
-         - name: Azure Front Door Migration
-           href: infrastructure-management/configure-your-platform-infrastructure/azure-front-door-migration.md
-         - name: Learner Action Events Infrastructure
-           href: infrastructure-management/configure-your-platform-infrastructure/learner-action-events-infrastructure.md
-         - name: Set up Custom Home Page for your MCT Instance
-           href: infrastructure-management/configure-your-platform-infrastructure/set-up-custom-homepage-for-your-mct-instance.md
-         - name: Add multiple Azure AD in your instance
-           href: infrastructure-management/configure-your-platform-infrastructure/Add-multiple-AAD-to-B2C-as-a-social-account.md
-         - name: Recommended settings for MCT Azure resources
-           href: infrastructure-management/configure-your-platform-infrastructure/Recommended-settings-for-MCT-Azure-resources.md
-      - name: Monitor your platform Infrastructure
+          - name: Install your platform instance
+            items:
+            - name: Installation Overview
+              href: infrastructure-management/install-your-platform-instance/installation-overview.md
+            - name: Detailed step by step installation guide
+              href: infrastructure-management/install-your-platform-instance/installation-guide-detailed-steps.md
+            - name: Configure login identity for the platform
+              href: infrastructure-management/install-your-platform-instance/configure-login-social-work-school-account.md
+            - name: Configure multiple authentications in a single instance
+              href: infrastructure-management/install-your-platform-instance/configure-multiple-authentications-in-a-single-instance.md   
+            - name: Create and Publish your Mobile App
+              href: infrastructure-management/install-your-platform-instance/create-publish-mobile-app.md  
+            - name: Using REST APIs to integrate with existing system
+              href: infrastructure-management/install-your-platform-instance/apis.md
+            - name: Setup Microsoft Teams as learner endpoint for the platform
+              href: infrastructure-management/install-your-platform-instance/create-teams-app-for-your-training-portal.md
+            - name: Troubleshooting Guide
+              href: infrastructure-management/install-your-platform-instance/troubleshooting.md
+            - name: Setup platform instance on Azure subscription for Nonprofits
+              href: infrastructure-management/install-your-platform-instance/setup-platform-instance-on-azure-subscription-for-nonprofits.md
+          - name: Configure your platform infrastructure
+            items:
+            - name: Setup custom domain URL
+              href: infrastructure-management/configure-your-platform-infrastructure/setup-custom-domain-url.md
+            - name: Scale up your platform instance configuration
+              href: infrastructure-management/configure-your-platform-infrastructure/scale-up-instance-configuration.md
+            - name: Business Continuity and Disaster Recovery for your Platform Instance
+              href: infrastructure-management/configure-your-platform-infrastructure/business-continuity-and-disaster-recovery-for-your-platform-instance.md
+            - name: Delete your training platform instance
+              href: infrastructure-management/configure-your-platform-infrastructure/delete-your-training-instance.md
+            - name: Customize the name and icon of the training tab in MS Teams
+              href: infrastructure-management/configure-your-platform-infrastructure/customize-the-name-and-icon-of-the-training-tab-in-ms-teams.md
+            - name: Azure Front Door Migration
+              href: infrastructure-management/configure-your-platform-infrastructure/azure-front-door-migration.md
+            - name: Learner Action Events Infrastructure
+              href: infrastructure-management/configure-your-platform-infrastructure/learner-action-events-infrastructure.md
+            - name: Set up Custom Home Page for your MCT Instance
+              href: infrastructure-management/configure-your-platform-infrastructure/set-up-custom-homepage-for-your-mct-instance.md
+            - name: Add multiple Azure AD in your instance
+              href: infrastructure-management/configure-your-platform-infrastructure/Add-multiple-AAD-to-B2C-as-a-social-account.md
+            - name: Recommended settings for MCT Azure resources
+              href: infrastructure-management/configure-your-platform-infrastructure/Recommended-settings-for-MCT-Azure-resources.md
+          - name: Monitor your platform Infrastructure
+            items:
+            - name: Monitor your platform Infrastructure
+              href: infrastructure-management/monitor-your-platform-infrastructure/monitor-your-infrastructure.md
+            - name: Backup and recovery of your platform instance
+              href: infrastructure-management/monitor-your-platform-infrastructure/backup-and-recovery.md
+            - name: Troubleshoot Guide for Azure Support
+              href: infrastructure-management/monitor-your-platform-infrastructure/troubleshoot-guide-for-azure-support.md
+            - name: Reliability in Community Training
+              href: infrastructure-management\monitor-your-platform-infrastructure\reliability-in-community-training.md
+      - name: Rest API Management
         items:
-         - name: Monitor your platform Infrastructure
-           href: infrastructure-management/monitor-your-platform-infrastructure/monitor-your-infrastructure.md
-         - name: Backup and recovery of your platform instance
-           href: infrastructure-management/monitor-your-platform-infrastructure/backup-and-recovery.md
-         - name: Troubleshoot Guide for Azure Support
-           href: infrastructure-management/monitor-your-platform-infrastructure/troubleshoot-guide-for-azure-support.md
-         - name: Reliability in Community Training
-           href: infrastructure-management\monitor-your-platform-infrastructure\reliability-in-community-training.md
-   - name: Rest API Management
-     items:
-     - name: Rest API Management
-       href: rest-api-management/api-documentation.md
-     - name: Service to Service Authentication
-       href: rest-api-management/service-to-service-authentication.md
-   - name: Frequently Asked Questions
-     items:
-      - name: General FAQs
-        href: frequently-asked-questions/faqs-general.md
-      - name: Pricing & Subscription
-        href: frequently-asked-questions/pricing-subscription.md
-      - name: Platform Setup and Installation
-        href: frequently-asked-questions/faqs-installation-and-setup.md
-      - name: Login Types and User Identity
-        href: frequently-asked-questions/faqs-user-management.md
-      - name: Generate new Client Secret and link to key-vault
-        href: frequently-asked-questions/generate-new-clientsecret-link-to-key-vault.md
-      - name: Portal Branding & Customization
-        href: frequently-asked-questions/portal-branding-customization.md
-      - name: Content and Course management
-        href: frequently-asked-questions/faqs-course.md
-      - name: User Roles & Groups
-        href: frequently-asked-questions/user-roles-groups.md
-      - name: Web & Mobile App
-        href: frequently-asked-questions/web-mobile-app.md
-      - name: Analytics & Reporting
-        href: frequently-asked-questions/analytics-reporting.md
-      - name: Backup, Security & Privacy
-        href: frequently-asked-questions/security-and-privacy.md
-      - name: Platform Extensibility & Integration
-        href: frequently-asked-questions/custom-integration.md
-   - name: What's new in Microsoft Community Training
-     items:
+        - name: Rest API Management
+          href: rest-api-management/api-documentation.md
+        - name: Service to Service Authentication
+          href: rest-api-management/service-to-service-authentication.md
+      - name: Frequently Asked Questions
+        items:
+          - name: General FAQs
+            href: frequently-asked-questions/faqs-general.md
+          - name: Pricing & Subscription
+            href: frequently-asked-questions/pricing-subscription.md
+          - name: Platform Setup and Installation
+            href: frequently-asked-questions/faqs-installation-and-setup.md
+          - name: Login Types and User Identity
+            href: frequently-asked-questions/faqs-user-management.md
+          - name: Generate new Client Secret and link to key-vault
+            href: frequently-asked-questions/generate-new-clientsecret-link-to-key-vault.md
+          - name: Portal Branding & Customization
+            href: frequently-asked-questions/portal-branding-customization.md
+          - name: Content and Course management
+            href: frequently-asked-questions/faqs-course.md
+          - name: User Roles & Groups
+            href: frequently-asked-questions/user-roles-groups.md
+          - name: Web & Mobile App
+            href: frequently-asked-questions/web-mobile-app.md
+          - name: Analytics & Reporting
+            href: frequently-asked-questions/analytics-reporting.md
+          - name: Backup, Security & Privacy
+            href: frequently-asked-questions/security-and-privacy.md
+          - name: Platform Extensibility & Integration
+            href: frequently-asked-questions/custom-integration.md
       - name: What's new in Microsoft Community Training
-        href: whats-new-in-microsoft-community-training/whats-new-in-microsoft-community-training.md
-      - name: 2023
         items:
-         - name: What's new in March 2023
-           href: whats-new-in-microsoft-community-training/2023/Whats-new-in-march-2023.md
-         - name: What's new in August 2023
-           href: whats-new-in-microsoft-community-training/2023/Whats-new-in-aug-2023.md
-      - name: 2022
+          - name: What's new in Microsoft Community Training
+            href: whats-new-in-microsoft-community-training/whats-new-in-microsoft-community-training.md
+          - name: 2023
+            items:
+            - name: What's new in March 2023
+              href: whats-new-in-microsoft-community-training/2023/Whats-new-in-march-2023.md
+            - name: What's new in August 2023
+              href: whats-new-in-microsoft-community-training/2023/Whats-new-in-aug-2023.md
+          - name: 2022
+            items:
+            - name: What's new in February 2022
+              href: whats-new-in-microsoft-community-training/2022/whats-new-in-february-2022.md
+            - name: What's new in May 2022
+              href: whats-new-in-microsoft-community-training/2022/whats-new-in-may-2022.md
+            - name: What's new in August 2022
+              href: whats-new-in-microsoft-community-training/2022/whats-new-in-august-2022.md
+            - name: What's new in December 2022
+              href: whats-new-in-microsoft-community-training/2022/whats-new-in-december-2022.md
+          - name: 2021
+            items:
+            - name: What's new in March 2021
+              href: whats-new-in-microsoft-community-training/2021/what-new-in-march-2021.md
+            - name: What's new in July 2021
+              href: whats-new-in-microsoft-community-training/2021/what-new-in-july-2021.md
+            - name: What's new in October 2021
+              href: whats-new-in-microsoft-community-training/2021/whats-new-in-october-2021.md
+          - name: 2020
+            items:
+            - name: What's new in February 2020
+              href: whats-new-in-microsoft-community-training/2020/whats-new-in-february-2020.md
+            - name: What's new in April 2020
+              href: whats-new-in-microsoft-community-training/2020/whats-new-in-april-2020.md
+            - name: What's new in June 2020
+              href: whats-new-in-microsoft-community-training/2020/whats-new-in-june-2020.md
+            - name: What's new in August 2020
+              href: whats-new-in-microsoft-community-training/2020/whats-new-in-august-2020.md
+            - name: What's new in December 2020
+              href: whats-new-in-microsoft-community-training/2020/whats-new-in-december-2020.md
+      - name: Learning in Offline Mode
         items:
-         - name: What's new in February 2022
-           href: whats-new-in-microsoft-community-training/2022/whats-new-in-february-2022.md
-         - name: What's new in May 2022
-           href: whats-new-in-microsoft-community-training/2022/whats-new-in-may-2022.md
-         - name: What's new in August 2022
-           href: whats-new-in-microsoft-community-training/2022/whats-new-in-august-2022.md
-         - name: What's new in December 2022
-           href: whats-new-in-microsoft-community-training/2022/whats-new-in-december-2022.md
-      - name: 2021
-        items:
-         - name: What's new in March 2021
-           href: whats-new-in-microsoft-community-training/2021/what-new-in-march-2021.md
-         - name: What's new in July 2021
-           href: whats-new-in-microsoft-community-training/2021/what-new-in-july-2021.md
-         - name: What's new in October 2021
-           href: whats-new-in-microsoft-community-training/2021/whats-new-in-october-2021.md
-      - name: 2020
-        items:
-         - name: What's new in February 2020
-           href: whats-new-in-microsoft-community-training/2020/whats-new-in-february-2020.md
-         - name: What's new in April 2020
-           href: whats-new-in-microsoft-community-training/2020/whats-new-in-april-2020.md
-         - name: What's new in June 2020
-           href: whats-new-in-microsoft-community-training/2020/whats-new-in-june-2020.md
-         - name: What's new in August 2020
-           href: whats-new-in-microsoft-community-training/2020/whats-new-in-august-2020.md
-         - name: What's new in December 2020
-           href: whats-new-in-microsoft-community-training/2020/whats-new-in-december-2020.md
-   - name: Learning in Offline Mode
-     items:
-     - name: Offline Learning with Microsoft Community Training
-       href: learning-in-offline-mode/offline-learning-with-microsoft-community-training.md
-     - name: Azure IOT Hub Initial Setup
-       href: learning-in-offline-mode/azure-IOT-hub-initial-setup.md
-     - name: Azure IOT Edge Device Setup
-       href: learning-in-offline-mode/azure-IOT-edge-device-setup.md
-     - name: Frequently Asked Questions
-       href: learning-in-offline-mode/frequently-asked-questions.md
+        - name: Offline Learning with Microsoft Community Training
+          href: learning-in-offline-mode/offline-learning-with-microsoft-community-training.md
+        - name: Azure IOT Hub Initial Setup
+          href: learning-in-offline-mode/azure-IOT-hub-initial-setup.md
+        - name: Azure IOT Edge Device Setup
+          href: learning-in-offline-mode/azure-IOT-edge-device-setup.md
+        - name: Frequently Asked Questions
+          href: learning-in-offline-mode/frequently-asked-questions.md

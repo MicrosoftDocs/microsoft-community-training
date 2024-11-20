@@ -25,7 +25,7 @@ landingContent:
             url: GA-version/get-started/user-role-and-management-portal-overview.md
           - text: Platform Configuration Guide (GA Version)
             url: GA-version/get-started/step-by-step-configuration-guide.md
-          - text: Platform Configuration Guide (PUblic Preview Version)
+          - text: Platform Configuration Guide (Public Preview Version)
             url: Public-Preview-Version/get-started/step-by-step-configuration-guide.md
       - linkListType: deploy
         links:

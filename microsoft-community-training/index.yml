@@ -32,4 +32,4 @@ landingContent:
           - text: Installation Overview (GA Version)
             url: GA-version/infrastructure-management/install-your-platform-instance/detailed-step-by-step-installation-guide.md
           - text: Installation Overview (Public Preview Version)
-             url: Public-Preview-Version/infrastructure-management/install-your-platform-instance/detailed-step-by-step-installation-guide.md
+            url: Public-Preview-Version/infrastructure-management/install-your-platform-instance/detailed-step-by-step-installation-guide.md

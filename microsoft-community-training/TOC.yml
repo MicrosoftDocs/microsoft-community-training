@@ -5,7 +5,7 @@
       - name: Get Started
         items:
           - name: Welcome to Community Training
-            href: microsoft-community-training/GA version/get-started/microsoft-community-training-overview.md
+            href: microsoft-community-training/GA-version/get-started/microsoft-community-training-overview.md
           - name: User roles and Management portal overview
             href: get-started/user-role-and-management-portal-overview.md
           - name: Step by step configuration guide for platform setup

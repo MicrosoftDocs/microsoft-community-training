@@ -7,7 +7,7 @@
           - name: Welcome to Community Training
             href: microsoft-community-training/ga-version/get-started/microsoft-community-training-overview.md
           - name: User roles and Management portal overview
-            href: get-started/user-role-and-management-portal-overview.md
+            href: microsoft-community-training/ga-version/get-started/user-role-and-management-portal-overview.md
           - name: Step by step configuration guide for platform setup
             href: get-started/step-by-step-configuration-guide.md
       - name: User Management

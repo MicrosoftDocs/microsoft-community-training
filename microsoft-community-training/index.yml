@@ -1,31 +1,35 @@
 ### YamlMime:Landing
-
+ 
 title: Community Training
 summary: Community Training is a cloud-based solution that enables delivery of large-scale, far-spread training programs with high quality and efficiency.
-
+ 
 metadata:
   title: Community Training
   description: This site is for administrators of Community Training platform to understand the platform and its usage.
   ms.topic: landing-page
-  author: cbms03
-  ms.author: cbrahmandam
-  ms.date: 12/05/2023
-
+  author: Cbrahmandam
+  ms.author: cbms03
+  ms.date: 11/20/2024
+ 
 # linkListType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | sample | tutorial | video | whats-new
-
+ 
 landingContent:
-
+ 
 - title: Get Started
   linkLists:
       - linkListType: quickstart
         links:
           - text: Platform Introduction
-            url: get-started/microsoft-community-training-overview.md
+            url: GA-version\get-started/microsoft-community-training-overview.md
           - text: User roles and Admin portal Overview
-            url: get-started/user-role-and-management-portal-overview.md
-          - text: Platform Configuration Guide
-            url: get-started/step-by-step-configuration-guide.md
+            url: GA-version\get-started/user-role-and-management-portal-overview.md
+          - text: Platform Configuration Guide (GA Version)
+            url: GA-version\get-started\step-by-step-configuration-guide.md
+          - text: Platform Configuration Guide (PUblic Preview Version)
+            url: Public-Preview-Version\get-started\step-by-step-configuration-guide.md
       - linkListType: deploy
         links:
-          - text: Installation Overview
-            url: infrastructure-management/install-your-platform-instance/installation-overview.md
+          - text: Installation Overview (GA Version)
+            url: GA-version\infrastructure-management\install-your-platform-instance\detailed-step-by-step-installation-guide.md
+          - text: Installation Overview (Public Preview Version)
+             url: Public-Preview-Version\infrastructure-management\install-your-platform-instance\detailed-step-by-step-installation-guide.md

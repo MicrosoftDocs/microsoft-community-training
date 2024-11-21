@@ -200,6 +200,10 @@
             href: ga-version/frequently-asked-questions/security-and-privacy.md
           - name: Platform Extensibility & Integration
             href: ga-version/frequently-asked-questions/custom-integration.md 
+      - name: Concepts
+        items:
+          - name: Reliability in Community Training
+            href: /azure/reliability/reliability-community-training?toc=/docs/microsoft-community-training/toc.json&bc=/Docs/microsoft-community-training/breadcrumb/toc.json  
   - name: Public Preview Version
     items:
       - name: Get Started

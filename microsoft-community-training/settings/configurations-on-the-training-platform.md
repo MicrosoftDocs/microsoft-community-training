@@ -29,7 +29,7 @@ The support for Organizations can be enabled on the platform by:
 
 4. Refresh the page
 
-![Feature_Toggle](../media/Feature_Toggle_Old_General.png)
+![Feature_Toggle](../media/GA_settings/GA_general_settings.png)
 <!---
 ## Steps to set the configurations on the platform
 
@@ -292,7 +292,7 @@ In **Value** provide the two letter Alpha-2 country code, for example: to set de
 :::image type="content" source="../media/Default country.PNG" alt-text="Def_country":::
 
 -->
-
+<!---
 ## Configurations on Azure Portal
 
 ## Disable MS Teams integration with CT
@@ -360,7 +360,7 @@ Features:Masking:MaskedProfileFields
 - To mask custom Profile Fields, use actual name of the field Eg: `State`, `SSN`.
 
 -->
-
+<!--
 ## Other flag configurations
 
 | Flag Name | Description |
@@ -369,5 +369,5 @@ Features:Masking:MaskedProfileFields
 
 | `MaxRetryCountForWebJobs` | Number of retries for web job failure. This is for internal purposes and should not be tweaked by customers unless advised.|
 
-
+--->
 Please reach out to us [**via HelpDesk**](https://aka.ms/cthelpdesk) if you have any further queries.

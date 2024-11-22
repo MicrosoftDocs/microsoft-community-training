@@ -30,7 +30,7 @@ The support for Organizations can be enabled on the platform by:
 4. Refresh the page
 
 ![Feature_Toggle](../media/Feature_Toggle_Old_General.png)
-
+<!---
 ## Steps to set the configurations on the platform
 
 1. Sign in to [Azure portal](https://www.portal.azure.com/).
@@ -58,43 +58,44 @@ The support for Organizations can be enabled on the platform by:
 1. Select **Save**.
 
     ![Save Application Settings.png](../media/Save%20Application%20Settings%281%29.png)
-
+-->
 ## Configuration Options on the portal
 | **Feature**                                                    | **Description**                                                                                                                                                                         |
 |----------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Retain User Progress                                           | Enabling this flag will retain the user progress even after the user is removed from the course                                                                                         |
-| Display the number certificates earned                         | Enabling this flag will show the learner the number of certificates that they have earned                                                                                               |
-| Display the number of lessons completed                        | Enabling this flag will show the learner the number of courses they have completed today.                                                                                               |
-| Display only mandatory courses                                 | Enabling this flag will show the users only the mandatory courses                                                                                                                       |
+| Restricted User Access                                           | If enabled, only users you have added will be allowed to sign up and access your portal.                                                                                       |
+| Restricted Course Assignment Access                                           | If enabled, only courses you mark relevant will be enabled for assignment to a user group.                                                                                        |
+| Retain User Progress                                           | Enabling this flag will retain the user progress even after the user is removed from the course.                                                                                         |
+| Display only Mandatory Courses                                           | Enabling this flag will show the users only the mandatory courses .                                                                                        |
 | Enable priority on a course                                    | Enabling this flag will allow the admins to set a priority on a course.                                                                                                                 |
-| Enable Notifications                                           | Enabling this flag will enable the notifications to be shown to the learner                                                                                                             |
-| Enable Comments                                                | Enabling this flag will allow the admins to enable the comments on the courses.                                                                                                         |
-| Show Top Navigation Bar                                        | Enabling this flag will show the navigation bar on the top in the learner view.                                                                                                         |
-| Enable Organizations                                           |  Enabling this flag will enable the organizations functionality.                                                                                                                        |
-| Show courses in website landing page                           | Enabling this flag will show the courses in the landing page for the website. The learners can view the list of available courses even before logging in                                |
-| Show Course Library                                            | Enabling this flag will allow the users to browse the course library and see the courses marked as "Self Enrolled" courses                                                              |
+| Hide courses in website landing page                           | Enabling this flag will hide the courses in the landing page for the website. The learners cannot view the list of available courses even before logging in.                                |
+| Hide Course Library                                            | Enabling this flag will not allow the users to browse the course library and see the courses marked as "Self Enrolled" courses. 
 | Allow Courses to be Auto Enrolled                              | Enabling this flag will allow the admins to set courses to auto enroll to all users.                                                                                                    |
 | Allow Seeking in Videos                                        | Enabling this flag will allow learners to seek through the videos.                                                                                                                      |
-| Show Footer in Learner View                                    | Enabling this flag will show the footer in learner view.                                                                                                                                |
-| Hide  Company Branding on Footer in Learner View               | Enabling this flag will hide the company branding in the footer.                                                                                                                        |
-| Enable Custom Navigation Bar                                   | Enabling this flag will show a smaller top navigation bar                                                                                                                               |
-| Show company Logo on Navigation Bar                            | Enabling this flag will show the company logo on the navigation bar                                                                                                                     |
-| Enable Search for Courses                                      | Enabling this flag will enable search bar for the learners on the navigation bar.                                                                                                       |
-| Enable Learner to Select Languages                             | Enabling this flag will allow learners to choose the language they wish to view the platform in. The course names will not change unless you upload the content in additional language. |
-| Enable Notice Board for Admin Communications                   | Enabling this flag will enable the notice board (Email Icon) on the learner view.                                                                                                       |
-| Enable Notifications in the Naviation Bar                      | Enabling this flag will enable notifications (Bell Icon) on the learner view                                                                                                            |
-| Allow Users to access Profile in Nagivation Bar                | Enabling this flag will show "profile" option on the navigation bar.                                                                                                                    |
-| Disable showing profile icon in Navigation Bar                 | Enabling this flag will show an icon to access profile on the navigation bar.                                                                                                           |
-| Enable scheduling Teams Meetings. (Requires Teams Integration) | Enabling this flag will allow admins to schedule meetings from the portal directly.                                                                                                     |
-| Disable profile edits by Org Admins                            | Enabling this flag will prevent the Org Admins from editing user profiles.                                                                                                              |
-| Enable TWA (Mobile App)                                        | Enabling this flag will allow you to have a TWA App that can be created for the learners as a mobile app.Please reach out to our team to have the app created.                          |
 | Allow PDF Lessons to be downloaded                             | Enabling this flag will allow the learners to download the PDF lessons.                                                                                                                 |
 | Show Variable height PDF viewer                                | The height of the PDF viewer will adjust according to the document.                                                                                                                     |
+| Display the number of certificates earned                         | Enabling this flag will show the learner the number of certificates that they have earned.                                                                                               |
+| Display the number of courses completed                        | Enabling this flag will show the learner the number of courses they have completed today.                                                                                               |
+| Disable Comments                                                | Enabling this flag will allow the admins to disable the comments on the courses.                                                                                                         |
+| Disable Notifications                                           | Disable set to TRUE on this flag will disable the notifications and notice board on the platform.                                                                                                            |
+| Hide Top Navigation Bar                                        | Enabling this flag will hide the navigation bar on the top in the learner view.                                                                                                         |
+| Enable Search for Courses                                      | Enabling this flag will enable search bar for the learners on the navigation bar.                                                                                                       |
+| Enable Learner to Select Languages                             | Enabling this flag will allow learners to choose the language they wish to view the platform in. The course names will not change unless you upload the content in additional language. |
+| Enable Notice Board for Admin Communications                   | Enabling this flag will enable the notice board (Announcement Icon) on the learner view.                                                                                                       |
+| Enable Notifications in the Navigation Bar                      | Enabling this flag will enable notifications (Bell Icon) on the learner view.                                                                                                            |
+| Allow Users to access Profile in Nagivation Bar                | Enabling this flag will show "profile" option on the navigation bar.                                                                                                                    |
+| Enable Organizations                                           |  Enabling this flag will enable the organizations functionality.                                                                                                                        |
+| Enable scheduling Teams Meetings. (Requires Teams Integration) | Enabling this flag will allow admins to schedule meetings from the portal directly.                                                                                                     |
+| Disable profile edits by Org Admins                            | Enabling this flag will prevent the Org Admins from editing user profiles.                                                                                                              |
+| Enable TWA (Mobile App)                                        | Enabling this flag will allow you to have a TWA App that can be created for the learners as a mobile app. Please reach out to our team to have the app created.                          |
 | Allow Content to be accessible across organizations            | Enabling this flag will allow admins to add content such that it is accessible across organizations.                                                                                    |
-| Set maximum file size for downloads                            | Set the maximum size in MB for the files that can be downloaded for offlien viewing. (1 MB = 1000000 bytes) (If file is less than 1 MB, enter value in decimals. Eg: 500 kb ~ 0.5 MB)   |
-| Set the External website URL                                   | Enter the URL of the website to your company that you would like the learner to view. This shows up on the profile pane for the learner                                                 |
-| Set the external website name                                  | Enter the display name for the external website that you would like the learner to view                                                                                                 |
-
+| Hide Footer in Learner View                                    | Enabling this flag will hide the footer in learner view.                                                                                                                                |
+| Hide  Company Branding on Footer in Learner View               | Enabling this flag will hide the company branding in the footer.                                                                                                                        |
+| Enable Custom Navigation Bar                                   | Enabling this flag will show a smaller top navigation bar.                                                                                                                              |
+| Show company Logo on Navigation Bar                            | Enabling this flag will show the company logo on the navigation bar.                                                                                                                    |
+| Enable showing profile icon in Navigation Bar                 | Enabling this flag will show an icon to access profile on the navigation bar.                                                                                                           |
+| Set the external website name                                  | Enter the display name for the external website that you would like the learner to view.                                                                                                 |
+| Set the External website URL                                   | Enter the URL of the website to your company that you would like the learner to view. This shows up on the profile pane for the learner.                                                 |
+| Set maximum file size for downloads                            | Set the Maximum Size in MB for the Files That Can Be Downloaded for Offline Viewing in the TWA App.(If file is less than 1 MB, enter value in decimals. Eg: 500 kb ~ 0.5 MB)   |
 
 <!--
 ## Certificates Received metric

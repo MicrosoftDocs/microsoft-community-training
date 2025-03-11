@@ -358,10 +358,8 @@
         items:
           - name: Install your platform instance
             items:
-            - name: Installation Overview
+            - name: Platform Overview
               href: public-preview-version/infrastructure-management/install-your-platform-instance/installation-overview.md
-            - name: Detailed step by step installation guide
-              href: public-preview-version/infrastructure-management/install-your-platform-instance/installation-guide-detailed-steps.md
             - name: Configure login identity for the platform
               href: public-preview-version/infrastructure-management/install-your-platform-instance/configure-login-social-work-school-account.md
             - name: Configure multiple authentications in a single instance

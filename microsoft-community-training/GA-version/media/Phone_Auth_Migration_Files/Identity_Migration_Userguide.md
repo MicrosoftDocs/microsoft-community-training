@@ -102,7 +102,7 @@ This is for scenarios where you would like the learners to migrate their identit
 
 1.  The learner has reached out to admin informing that the migration has failed.  
 
-    A.  Please raise a ticket with the Community Training  Team on [**Community Training  Helpdesk**](https://aka.ms/cthelpdek) with following details:  
+    A.  Please raise a ticket with the Community Training  Team on [**Community Training  Helpdesk**](https://aka.ms/cthelpdesk) with following details:  
       1.  Website name  
       2.  Learner identity (for eg: email/username)  
       3.  Learner Mobile Number on the platform  

@@ -8,13 +8,13 @@ ms.service: azure
 ---
 # Community Training Phone based Identity Migration
 
-The Microsoft’s Community Training, in its efforts to provide a better service and security on its platform, is ending the support for the Phone based identity Authentication service by 30th June 2024 and is providing [the Azure ADB2C](https://learn.microsoft.com/en-us/azure/active-directory-b2c/) service as its alternative.
+The Microsoft’s Community Training, in its efforts to provide a better service and security on its platform, is ending the support for the Phone based identity Authentication service by 30th April 2025 and is providing [the Azure ADB2C](https://learn.microsoft.com/en-us/azure/active-directory-b2c/) service as its alternative.
 
 # What is Azure ADB2C:
 
 Azure Active Directory B2C (Azure AD B2C) is a customer identity access management (CIAM) solution that enables you to sign up and sign in your customers into your apps and APIs. Your customers use their preferred social, enterprise, or local account identities to get single sign-on access to your applications. Learn more about ADB2C [here](https://learn.microsoft.com/en-us/azure/active-directory-b2c/overview).
 
-The process for setting up ADB2C on CT is detailed in this [document](../Phone_Auth_Migration_Files/ADB2C.md).
+The process for setting up ADB2C on Community Trainingis detailed in this [document](../Phone_Auth_Migration_Files/ADB2C.md).
 
 # Identity Options
 
@@ -33,8 +33,8 @@ ADB2C provides following identity options
 The Migration process involves the following steps:
 
 1.  Customer will setup the ADB2C on their subscription based on identity options selected.
-2.  Customer will inform the CT team via [**helpdesk**](https://aka.ms/cthelpdesk) once ADB2C set up is complete.
-3.  CT Team will implement the necessary steps to enable migration to new identity and retaining their progress.
+2.  Customer will inform the Community Trainingteam via [**helpdesk**](https://aka.ms/cthelpdesk) once ADB2C set up is complete.
+3.  Community TrainingTeam will implement the necessary steps to enable migration to new identity and retaining their progress.
 
 The Migration can happen in either of the two ways:
 
@@ -50,7 +50,7 @@ This is for scenarios where your administrator already knows the mapping between
 
 ### Migration Steps:
 
-1.  Administrator logs in to the CT portal using the new ADB2C Global Admin login credentials (eg: Username/email) and navigates to Admin view
+1.  Administrator logs in to the Community Trainingportal using the new ADB2C Global Admin login credentials (eg: Username/email) and navigates to Admin view
 
     Follow the steps Under “Migration into Microsoft’s ADB2C Identity“ in “Settings” tab. The status of the migration and the errors (If any) will be shown in the notifications.    
 
@@ -78,7 +78,7 @@ This is for scenarios where you would like the learners to migrate their identit
 
 ### Migration Steps:
 
-1.  The learner will sign in/sign up in CT portal. They will see a message on the sign in page.   
+1.  The learner will sign in/sign up in Community Trainingportal. They will see a message on the sign in page.   
 
 
 ![Sign in page message](Migration_Screenshots/Learner_Driven_Migration/Mobile_Landing_Page.png)
@@ -102,14 +102,14 @@ This is for scenarios where you would like the learners to migrate their identit
 
 1.  The learner has reached out to admin informing that the migration has failed.  
 
-    A.  Please raise a ticket with the CT Team on [**CT Helpdesk**](https://aka.ms/cthelpdek) with following details:  
+    A.  Please raise a ticket with the Community TrainingTeam on [**Community TrainingHelpdesk**](https://aka.ms/cthelpdek) with following details:  
       1.  Website name  
       2.  Learner identity (for eg: email/username)  
       3.  Learner Mobile Number on the platform  
 
 2.  What If the Learner has more than one account – one phone-based Identity and other email/username-based Identity and would like to reuse both identities.  
 
-    A.  CT does not support multiple identities for same leaners so learner needs to pick one identity.
+    A.  Community Trainingdoes not support multiple identities for same leaners so learner needs to pick one identity.
 
 3.  Will The website home page (landing page) message will be shown to all users?  
 
@@ -125,7 +125,7 @@ This is for scenarios where you would like the learners to migrate their identit
 
 6.  What if an existing user on the platform accidentally clicked on the “If you are new user on the platform, please Click Here” link. How can they use the identity migration flow?  
 
-    A.  Please submit the email and mobile number to their Admin who can use CT UI in ‘Settings’ tab to map new identity.
+    A.  Please submit the email and mobile number to their Admin who can use Community TrainingUI in ‘Settings’ tab to map new identity.
 
 7.  Do we have to create a user in the B2C tenant every time a new user is added?  
 

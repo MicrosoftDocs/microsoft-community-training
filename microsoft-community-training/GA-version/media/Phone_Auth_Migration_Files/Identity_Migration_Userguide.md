@@ -22,9 +22,9 @@ ADB2C provides following identity options
 
 1.  **Migrate to an ADB2C provided phone Identity**:
     -   To use the phone-based Identity for your learners by using the phone Identity by ADB2C. Pricing details for ADB2C for SMS can be referred here [**Pricing - Active Directory External Identities \| Microsoft Azure**](https://azure.microsoft.com/en-us/pricing/details/active-directory-external-identities/)
-    -   Please refer [**this documentation**](https://learn.microsoft.com/en-us/azure/active-directory-b2c/tutorial-create-user-flows?pivots=b2c-user-flow) from ADB2C for setting this service using the Custom Policies. We have created a sample custom policy for you. Please feel free to use this to get started [**LINK**](https://learn.microsoft.com/en-us/azure/industry/training-services/microsoft-community-training/media/Phone_Auth_Migration_Files/ReadME)
+    -   Please refer [**this documentation**](https://learn.microsoft.com/en-us/azure/active-directory-b2c/tutorial-create-user-flows?pivots=b2c-user-flow) from ADB2C for setting this service using the Custom Policies. We have created a sample custom policy for you. Please feel free to use this to get started [**LINK**](https://learn.microsoft.com/en-us/azure/industry/training-services/microsoft-community-training/GA-version/media/Phone_Auth_Migration_Files/ReadME)
 2.  **Migrate to a social Identity via ADB2C**:
-    -   To use identity providers such as Google, Facebook, Microsoft, or your organization to log in to the platform, please refer [**Configure login identity for the platform | Microsoft Learn**](https://learn.microsoft.com/en-us/azure/industry/training-services/microsoft-community-training/infrastructure-management/install-your-platform-instance/configure-login-social-work-school-account#social-account-or-email-based-authentication)
+    -   To use identity providers such as Google, Facebook, Microsoft, or your organization to log in to the platform, please refer [**Configure login identity for the platform | Microsoft Learn**](https://learn.microsoft.com/en-us/azure/industry/training-services/microsoft-community-training/public-preview-version/infrastructure-management/install-your-platform-instance/configure-login-social-work-school-account)
 3.  **Migrate to a username and password-based Identity**:
     -   To allow your learners to login via a username and password as login identity, please refer . [**Tutorial - Create user flows and custom policies - Azure Active Directory B2C | Microsoft Learn**](https://learn.microsoft.com/en-us/azure/active-directory-b2c/tutorial-create-user-flows?pivots=b2c-user-flow).
 
@@ -62,7 +62,7 @@ A template file is provided on the UI. It can also be downloaded from here: [tem
 > Please ensure that there are no duplicates in the mappings file – i.e. one mobile number should be mapped to only one email/username.* An incorrect mapping may result in the historical learner progress and certificates being mapped to a different learner.
 
 >[!Note]
-> Please Ensure that the required data is only in three columns. i.e., Country Code, Phone Number and the new identity. Plese delete data in other columns. 
+> Please Ensure that the required data is only in three columns. i.e., Country Code, Phone Number and the new identity. Please delete data in other columns. 
 
 2. The status of migration can be seen in the notifications.   
 
@@ -111,7 +111,7 @@ This is for scenarios where you would like the learners to migrate their identit
 
     A.  Community Training  does not support multiple identities for same leaners so learner needs to pick one identity.
 
-3.  Will The website home page (landing page) message will be shown to all users?  
+3.  Will the website home page (landing page) message will be shown to all users?  
 
     A.  Yes! Until migration is completed, this will be shown to all the users until the learner select the “Do not show again” check box on the message.
 

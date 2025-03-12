@@ -101,7 +101,7 @@
           <Enumeration Text="Cambodia(+855)" Value="KH" />
           <Enumeration Text="Cameroon(+237)" Value="CM" />
           <Enumeration Text="Canada(+1)" Value="CA" />
-          <Enumeration Text="Cape Verde(+238)" Value="CV" />
+          <Enumeration Text="Cabo Verde(+238)" Value="CV" />
           <Enumeration Text="Cayman Islands(+1345)" Value="KY" />
           <Enumeration Text="Central African Republic(+236)" Value="CF" />
           <Enumeration Text="Chad(+235)" Value="TD" />
@@ -155,7 +155,7 @@
           <Enumeration Text="Guyana(+592)" Value="GY" />
           <Enumeration Text="Haiti(+509)" Value="HT" />
           <Enumeration Text="Honduras(+504)" Value="HN" />
-          <Enumeration Text="Hong Kong(+852)" Value="HK" />
+          <Enumeration Text="Hong Kong SAR(+852)" Value="HK" />
           <Enumeration Text="Hungary(+36)" Value="HU" />
           <Enumeration Text="Iceland(+354)" Value="IS" />
           <Enumeration Text="Indonesia(+62)" Value="ID" />
@@ -181,7 +181,7 @@
           <Enumeration Text="Liechtenstein(+423)" Value="LI" />
           <Enumeration Text="Lithuania(+370)" Value="LT" />
           <Enumeration Text="Luxembourg(+352)" Value="LU" />
-          <Enumeration Text="Macao(+853)" Value="MO" />
+          <Enumeration Text="Macao SAR(+853)" Value="MO" />
           <Enumeration Text="North Macedonia, Republic of (+389)" Value="MK" />
           <Enumeration Text="Madagascar(+261)" Value="MG" />
           <Enumeration Text="Malawi(+265)" Value="MW" />
@@ -240,7 +240,7 @@
           <Enumeration Text="Northern Mariana Islands(CNMI)(+1670)" Value="MP" />
           <Enumeration Text="Samoa(+685)" Value="WS" />
           <Enumeration Text="San Marino(+378)" Value="SM" />
-          <Enumeration Text="Sao Tome and Principe(+239)" Value="ST" />
+          <Enumeration Text="São Tomé and Príncipe(+239)" Value="ST" />
           <Enumeration Text="Saudi Arabia(+966)" Value="SA" />
           <Enumeration Text="Senegal(+221)" Value="SN" />
           <Enumeration Text="Serbia(+381)" Value="RS" />
@@ -271,7 +271,7 @@
           <Enumeration Text="Tonga(+676)" Value="TO" />
           <Enumeration Text="Trinidad and Tobago(+1868)" Value="TT" />
           <Enumeration Text="Tunisia(+216)" Value="TN" />
-          <Enumeration Text="Turkey(+90)" Value="TR" />
+          <Enumeration Text="Türkiye(+90)" Value="TR" />
           <Enumeration Text="Turkmenistan(+993)" Value="TM" />
           <Enumeration Text="Turks and Caicos Islands(+1649)" Value="TC" />
           <Enumeration Text="Tuvalu(+688)" Value="TV" />

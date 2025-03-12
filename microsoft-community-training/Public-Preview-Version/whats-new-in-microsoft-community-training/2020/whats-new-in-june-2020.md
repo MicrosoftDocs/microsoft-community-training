@@ -16,7 +16,7 @@ In this release, we have [enhanced the process to customize the certificates](..
 ![Customize certificate template from the admin portal](../../media/image%28285%29.png)
 
 ## Default country code based on learner’s location  
-In this update, we have added a new feature to the phone-based authentication process on the platform. The country code on the phone login screen of web and mobile app will now default to a country based on the learner’s IP address. For instance, a learner logging in to the platform from South Africa, then the country code by default is set to South Africa. 
+In this update, we have added a new feature to the phone-based authentication process on the platform. The country code on the phone login screen of web and mobile app will now default to a country/region based on the learner’s IP address. For instance, a learner logging in to the platform from South Africa, then the country code by default is set to South Africa. 
 
 ![Default country code based on learner’s location](../../media/image%28284%29.png)
 

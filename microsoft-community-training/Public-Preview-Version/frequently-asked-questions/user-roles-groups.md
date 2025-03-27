@@ -21,7 +21,7 @@ The platform follows a role-based administration hierarchy. There are four admin
 
 3. **Course Administrator** - Course administrators can manage and update content only for the courses they are assigned as administrator. A user can be a course administrator for one or more courses on the portal.
 
-4. **Group Administrator** - This role is assigned by organization administrator to a grassroot-level facilitator, trainer, supervisor or manager who is responsible to drive learner engagement and adoption of the training program on the ground. The group administrator takes care of onboarding users, assigning courses and driving course completion via announcements/discussions forum.
+4. **Group Administrator** - This role is assigned by organization administrator to a grassroot-level facilitator, trainer, educator, supervisor or manager who is responsible to drive learner engagement and adoption of the training program on the ground. The group administrator takes care of onboarding users, assigning courses and driving course completion via announcements/discussions forum.
 
 For more information, please visit **[this article](../get-started/user-role-and-management-portal-overview.md)**.
 

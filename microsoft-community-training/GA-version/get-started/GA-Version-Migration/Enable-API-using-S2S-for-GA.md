@@ -165,7 +165,7 @@ Follow the steps mentioned below to Register the Client app.
 
 
 •	The value passed for the **scope** parameter in this request should be the resource identifier (application ID URI) of the resource you want, affixed with the .default suffix api://webapi-clientid/.default.
- **For the Microsoft Graph example**, the value is https://graph.microsoft.com/.default.
+ **For the Microsoft Graph example**, the value is `https://graph.microsoft.com/.default`.
 
 ## Step 3: Contact CT support team to configure the Azure App Service
 

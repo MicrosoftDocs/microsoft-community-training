@@ -31,7 +31,7 @@ You have full access to the **Application resource group**. You can use it to ma
 
 For more details, please refer to [**Azure managed applications**](/azure/managed-applications/overview) documentation.
 
-## Steps to setup Microsoft Community Training platform
+## Steps to setup Community Training platform
 
 Once you have decided your preferred endpoint and login type, follow the steps below to setup and install Microsoft Community Training for your organization:
 

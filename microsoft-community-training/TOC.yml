@@ -490,7 +490,7 @@
           href: public-preview-version/learning-in-offline-mode/azure-IOT-edge-device-setup.md
         - name: Frequently Asked Questions
           href: public-preview-version/learning-in-offline-mode/frequently-asked-questions.md
-  - name: Public Preview Version
+  - name: Open Source Version
     items:
       - name: Get Started
         items:

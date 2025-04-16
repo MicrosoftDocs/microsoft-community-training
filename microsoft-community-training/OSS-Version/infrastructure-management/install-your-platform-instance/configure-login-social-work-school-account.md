@@ -15,8 +15,8 @@ zone_pivot_groups: "AD-Deployments-Methods"
 
 Community Training platform provides two types of login:
 
-1. Social email-based login via your Microsoft, Google or Facebook account
-2. Microsoft Work or School account
+1. Social email-based login via your Microsoft, Google or Facebook account.
+2. Microsoft Work or School account.
 
 
 In this article, we will walk you through on how to configure login identity for the platform.

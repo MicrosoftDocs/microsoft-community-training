@@ -10,30 +10,17 @@ zone_pivot_groups: "AD-Deployments-Methods"
 
 # Configure login identity for the platform
 
-## Prerequisite
-
-Please follow [**installation article**](../../infrastructure-management/install-your-platform-instance/installation-guide-detailed-steps.md) to Deploy your MCT instance. In the step “**Set up your Login type**”, select the suitable identity type.
-
-![Login Identity types](../../media/LoginIdentity1.png)
-
-and follow the below documentation to configure login identity.
 
 ## Configure login identity
 
-Microsoft Community Training platform provides three types of login:
+Community Training platform provides two types of login:
 
-1. Phone number
-2. Social email-based login via your Microsoft, Google or Facebook account
-3. Microsoft Work or School account
+1. Social email-based login via your Microsoft, Google or Facebook account
+2. Microsoft Work or School account
 
-> [!NOTE]
-> Please note this article is in continuation of the [**installation article**](../../infrastructure-management/install-your-platform-instance/installation-guide-detailed-steps.md).
 
 In this article, we will walk you through on how to configure login identity for the platform.
 
-## Phone based authentication
-
-There is no additional configuration needed for phone-based login.
 
 ## Work or School Account based authentication
 
@@ -190,19 +177,19 @@ Here are the steps an create on Azure AD B2C tenant and link the same with your 
         2. "https://*name*.azurewebsites.net/signin-b2c-pwd"
         3. "https://*name*-staging.azurewebsites.net/signin-b2c-pwd"  
     where "name" corresponds to your website name.
-2. Copy the Application ID value to be required later for **Client ID**.
+2. Copy the Application ID value to be required later for **Client ID** as a parameter.
     :::image type="content" source="../../media/cliendIDB2C.png" alt-text="clientapplicaitonID":::
 3. In your Application, under Manage, go to **Certificates & Secrets** and click on **Generate Key**.
-4. Click on **Save** and the app key will appear. Copy the value to be required later for **Client Secret**.
+4. Click on **Save** and the app key will appear. Copy the value to be required later for **Client Secret** as a parameter.
     :::image type="content" source="../../media/cliendsecretB2C.png" alt-text="clientsecretforB2C":::
-5. Go to Azure Active Directory from the left menu of your Azure portal, click on Domain Names and copy the tenant name under Name to be required later for **Tenant Name**. For example, if the default domain for your Azure AD tenant is **contoso.onmicrosoft.com**, then enter **contoso**.
+5. Go to Azure Active Directory from the left menu of your Azure portal, click on Domain Names and copy the tenant name under Name to be required later as a parameter for **Domain Name**. For example, if the default domain for your Azure AD tenant is **contoso.onmicrosoft.com**, then enter **contoso**.
 6. Refer [**this article**](/azure/active-directory-b2c/tutorial-create-user-flows) article to create a **signing flow** (a sign-up and sign-in user flow) and a **password reset flow** (for local account)
     * Select Email Addresses, Given Name, Identity Provider and Surname in Application claims
     * Application claims should be same as following screenshot
     ![Application Claims Login Identity1](../../media/LoginIdentity8.png)
     * Don’t select any Sign-up attributes
     ![User Attributes](../../media/LoginIdentity9.png)
-    * Copy the user-flow(s) name to be required later (These will be required during MCT platform installation)
+    * Copy the user-flow(s) name to be required later as a parameter for **b2cAuthenticationPolicy**
     >
     > [!NOTE]
     > Setting Password Reset Flow for an Existing Deployment:
@@ -222,10 +209,6 @@ Here are the steps an create on Azure AD B2C tenant and link the same with your 
         > * idp:AzureADB2CPasswordResetPolicy
         >
         >![App Service](../../media/image%28355%29.png)
-
-7. Follow the [**installation article**](../../infrastructure-management/install-your-platform-instance/installation-guide-detailed-steps.md) to complete the Deployment by configuring obtained values as per the below screenshot
-
-    ![Create MCT redirect](../../media/LoginIdentity11.png)
 
 ### Step 3 - Configure your Identity provider
 

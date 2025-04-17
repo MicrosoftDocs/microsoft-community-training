@@ -546,7 +546,9 @@
             - name: Create Course / Category
               items:
                 - name: Content Marketplace
-                  href: oss-version/content-management/create-content/create-course-category/content-marketplace.md 
+                  href: oss-version/content-management/create-content/create-course-category/content-marketplace.md
+                - name: Update Content Marketplace
+                  href: oss-version/content-management/create-content/create-course-category/Update-Content-for-Marketplace.md
                 - name: Create a category
                   href: oss-version/content-management/create-content/create-course-category/create-a-category.md
                 - name: Create a new course

@@ -3,13 +3,13 @@ title: Step by step configuration guide for platform setup
 original-url: https://docs.microsoftcommunitytraining.com/docs/step-by-step-configuration-guide
 author: nikotha
 ms.author: nikotha
-description: Microsoft Community Training platform provides various tools and functionalities to help you easily create, manage and monitor all the learning activities for the training program.
+description:  Community Training platform provides various tools and functionalities to help you easily create, manage and monitor all the learning activities for the training program.
 ms.prod: learning-azure
 ---
 
 # Step by step configuration guide for platform setup
 
-Microsoft Community Training platform provides various tools and functionalities to help you easily create, manage and monitor all the learning activities for the training program.
+ Community Training platform provides various tools and functionalities to help you easily create, manage and monitor all the learning activities for the training program.
 
 To make it simple for new users to get started with  Community Training platform, we have created a brief step by step implementation guide on how to configure the learning platform, upload content, onboard users, select learner endpoints, track progress and measure learning outcome using the management portal.  
 

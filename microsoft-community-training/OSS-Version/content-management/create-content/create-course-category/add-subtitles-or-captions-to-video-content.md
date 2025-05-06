@@ -3,17 +3,17 @@ title: Add subtitles or captions to video content
 original-url: https://docs.microsoftcommunitytraining.com/docs/add-subtitles-or-captions-to-video-content
 author: nikotha
 ms.author: nikotha
-description: On the Microsoft Community Training platform, you can add subtitles or captions to the video lessons  for a course to make your course content more accessible and create an inclusive learning environments.
+description: On the  Community Training platform, you can add subtitles or captions to the video lessons  for a course to make your course content more accessible and create an inclusive learning environments.
 ms.prod: learning-azure
 ---
 
 # Add subtitles or captions to video content
 
-On the Microsoft Community Training platform, you can add subtitles or captions to the video lessons  for a course to make your course content more accessible and create an inclusive learning environments. The captions are used to help learners read while they watch and overcome difficulties (if any) in understanding the language of the voice over.
+On the  Community Training platform, you can add subtitles or captions to the video lessons  for a course to make your course content more accessible and create an inclusive learning environments. The captions are used to help learners read while they watch and overcome difficulties (if any) in understanding the language of the voice over.
 
 The subtitle or caption file is required to be in VTT format. In case you want to learn more about the VTT standard, please [**read it here**](https://en.wikipedia.org/wiki/WebVTT).
 
-In this article, you will learn more about how to add subtitles for a video content on the Microsoft Community Training platform.
+In this article, you will learn more about how to add subtitles for a video content on the  Community Training platform.
 
 ## Steps to upload a subtitle or caption file to a video lesson
 

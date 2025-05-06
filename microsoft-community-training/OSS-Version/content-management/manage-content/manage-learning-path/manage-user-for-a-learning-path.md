@@ -15,7 +15,7 @@ In this article, you will learn more about how to manage users on a Learning Pat
 
 ## Permissions Level
 
-The Microsoft Community Training management portal provides role-based administration and depending upon the type of access level admins can perform an action on the portal. Table below shows administrative role which are allowed to add administrators to a Learning Path in the portal:
+The  Community Training management portal provides role-based administration and depending upon the type of access level admins can perform an action on the portal. Table below shows administrative role which are allowed to add administrators to a Learning Path in the portal:
 
 | Access Level  | Add or Delete user for Learning Path |
 | --- | --- |
@@ -28,7 +28,7 @@ The Microsoft Community Training management portal provides role-based administr
 
 ## Steps to add users on the Learning Path
 
-1. On the Microsoft Community Training portal, login and [**switch to administrator view**](../../../get-started/step-by-step-configuration-guide.md#step-2--switch-to-administrator-view-of-the-portal).
+1. On the  Community Training portal, login and [**switch to administrator view**](../../../get-started/step-by-step-configuration-guide.md#step-2--switch-to-administrator-view-of-the-portal).
 
 2. Select the **Content** tile on the left bar and click on **Learning Path** tab.
 
@@ -55,7 +55,7 @@ The Microsoft Community Training management portal provides role-based administr
 
 ## Steps to delete users from the Learning Path
 
-1. On the Microsoft Community Training portal, login and [**switch to administrator view**](../../../get-started/step-by-step-configuration-guide.md#step-2--switch-to-administrator-view-of-the-portal).
+1. On the  Community Training portal, login and [**switch to administrator view**](../../../get-started/step-by-step-configuration-guide.md#step-2--switch-to-administrator-view-of-the-portal).
 
 2. Select the **Content** tile on the left bar and click on **Learning Path** tab.
 

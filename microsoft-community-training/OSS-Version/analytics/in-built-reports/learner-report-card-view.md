@@ -17,7 +17,7 @@ In this article, you will learn more about different metrics and reports availab
 
 ## Permissions Level
 
-The Microsoft Community Training management portal provides role-based administration and depending upon the type of access level administrator can perform an action on the portal. Table below shows administrative role which can access the group view:  
+The  Community Training management portal provides role-based administration and depending upon the type of access level administrator can perform an action on the portal. Table below shows administrative role which can access the group view:  
 
 |Access Level  |Learner Report Card View|
  |---|---|

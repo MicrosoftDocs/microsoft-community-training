@@ -11,35 +11,32 @@ ms.prod: learning-azure
 
 ## What is  Community Training?
 
- Community Training is an Azure-powered online learning platform to enable organizations of all sizes and types to run large scale training programs for their internal and external communities such as first line workers, extended workforces, partner ecosystem, volunteer network, program beneficiaries, etc.
+ Community Training is an Open Source learning platform to enable organizations of all sizes and types to run large scale training programs for their internal and external communities such as first line workers, extended workforces, partner ecosystem, volunteer network, program beneficiaries, etc.
 
-It is available as a [**Managed PaaS offering via Azure Marketplace**](https://azuremarketplace.microsoft.com/marketplace/apps/project-sangam.microsoft-community-training?tab=Overview) that customers can easily deploy in their subscriptions. The platform is available for free and an organization only bears platform hosting and consumption charges on Azure.
+It is available as a [**Managed PaaS offering via  Marketplace**]) that customers can easily deploy in their subscriptions. 
 
 [**Click here**](../get-started/microsoft-community-training-overview.md) to learn more about the platform.
 
-### When was  Community Training launched?
 
- community training was publicly announced on 22nd February 2017.
-
-### Is  Community Training a Learning Management System?
+### Is Community Training a Learning Management System?
 
  Community Training designed for mobile-first and mobile-only audiences. The platform is built and optimized  to work seamlessly on low bandwidth networks and low-end smartphones.
 
 While  community training is not a traditional Learning Management System (LMS), it does provide organizations to create a full ranged self-pace e-learning environment. Powered by Azure  community training enables you to share relevant information from a wide variety of sources.
 
-### What are the markets where  Community Training is available?
+### What are the markets where Community Training is available?
 
  Community Training is available in all the countries or regions where  Azure Marketplace is commercially available. See the [**Azure Marketplace documentation**](/azure/marketplace/marketplace-geo-availability-currencies) for more details.  
 
-### Who are the target audience for  Community Training?
+### Who are the target audience for Community Training?
 
  Community Training is built and optimized for large scale community skilling program (i.e. volunteers, program beneficiaries, etc.) and extended enterprise training (i.e. first line workers, suppliers, distributors, retailers, etc.). The platform is designed for mobile first and mobile only audience and supports learning even on low-bandwidth networks and low-end smartphones.
 
 The platform is already being used by number of large enterprises, small and medium businesses, startups, educational institutions, governmental organization and nonprofits.
 
-### What kind of training scenarios I can use the  community training platform for?
+### What kind of training scenarios I can use the Community Training platform for?
 
- community training can be leveraged in a wide range of training use cases such as Employee Onboarding, Employee Up-skilling, Mobile workforce training, Partner Training, Customer Training, Community Training, Online Learning Academy and many others.
+ Community Training can be leveraged in a wide range of training use cases such as Employee Onboarding, Employee Up-skilling, Mobile workforce training, Partner Training, Customer Training, Community Training, Online Learning Academy and many others.
 
 These training use cases are cutting across multiple  verticals such as Banking & Financial Services, Retail, Healthcare, Manufacturing, Government Organizations & Nonprofit.
 

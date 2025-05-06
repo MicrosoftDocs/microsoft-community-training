@@ -3,19 +3,19 @@ title: User roles and Management portal overview
 original-url: https://docs.microsoftcommunitytraining.com/docs/user-role-and-management-portal-overview
 author: nikotha
 ms.author: nikotha
-description: Microsoft Community Training management portal is a one-stop-shop for all administrative functions like content management, user management, tracking and monitoring the training with analytics, portal settings etc.
+description:  Community Training management portal is a one-stop-shop for all administrative functions like content management, user management, tracking and monitoring the training with analytics, portal settings etc.
 ms.prod: learning-azure
 ---
 
 # User roles and Management portal overview
 
-Microsoft Community Training management portal is a one-stop-shop for all administrative functions like content management, user management, tracking and monitoring the training with analytics, portal settings etc. It is designed on role-based access and functionalities are available to the users as per granted management permissions.
+ Community Training management portal is a one-stop-shop for all administrative functions like content management, user management, tracking and monitoring the training with analytics, portal settings etc. It is designed on role-based access and functionalities are available to the users as per granted management permissions.
 
 The functionalities in the management portal are divided into 4 categories as specified below:
 
 ![4 categories](../media/image%28423%29.png)
 
-## Types of user personas in Microsoft Community Training Platform
+## Types of user personas in  Community Training Platform
 
 An end user persona can either be a Learner or an Administrator on the platform. Administrators are responsible for performing activities like content upload, user import, portal customization, analytics, etc. on the management portal.
 
@@ -34,7 +34,7 @@ Here are the steps on [**how to assign global administrator permission to a user
 
 ### 2. Organization Administrator
 
-This role is assigned to owners of a specific organization. An **Organization** on the Microsoft Community Platform is a set of learners and administrators who have a particular purpose or belong to a specific criteria viz. location, job function, interest etc. The organization administrator can use the management portal to manage content and users for its organization.
+This role is assigned to owners of a specific organization. An **Organization** on the  Community Platform is a set of learners and administrators who have a particular purpose or belong to a specific criteria viz. location, job function, interest etc. The organization administrator can use the management portal to manage content and users for its organization.
 
 Here are the steps on [**how to assign organization administrator permission to a user**](../user-management/add-users/add-an-administrator-to-the-portal.md).
 

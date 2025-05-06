@@ -208,7 +208,7 @@
     items:
       - name: Get Started
         items:
-          - name: Welcome to Microsoft Community Training
+          - name: Welcome to Community Training
             href: public-preview-version/get-started/microsoft-community-training-overview.md
           - name: User roles and Management portal overview
             href: public-preview-version/get-started/user-role-and-management-portal-overview.md
@@ -440,9 +440,9 @@
             href: public-preview-version/frequently-asked-questions/security-and-privacy.md
           - name: Platform Extensibility & Integration
             href: public-preview-version/frequently-asked-questions/custom-integration.md
-      - name: What's new in Microsoft Community Training
+      - name: What's new in Community Training
         items:
-          - name: What's new in Microsoft Community Training
+          - name: What's new in Community Training
             href: public-preview-version/whats-new-in-microsoft-community-training/whats-new-in-microsoft-community-training.md
           - name: 2023
             items:
@@ -482,7 +482,7 @@
               href: public-preview-version/whats-new-in-microsoft-community-training/2020/whats-new-in-december-2020.md
       - name: Learning in Offline Mode
         items:
-        - name: Offline Learning with Microsoft Community Training
+        - name: Offline Learning with Community Training
           href: public-preview-version/learning-in-offline-mode/offline-learning-with-microsoft-community-training.md
         - name: Azure IOT Hub Initial Setup
           href: public-preview-version/learning-in-offline-mode/azure-IOT-hub-initial-setup.md
@@ -495,7 +495,7 @@
     items:
       - name: Get Started
         items:
-          - name: Welcome to Microsoft Community Training
+          - name: Welcome to Community Training
             href: OSS-version/get-started/microsoft-community-training-overview.md
           - name: User roles and Management portal overview
             href: OSS-version/get-started/user-role-and-management-portal-overview.md
@@ -729,9 +729,9 @@
             href: oss-version/frequently-asked-questions/security-and-privacy.md
           - name: Platform Extensibility & Integration
             href: oss-version/frequently-asked-questions/custom-integration.md
-      - name: What's new in Microsoft Community Training
+      - name: What's new in Community Training
         items:
-          - name: What's new in Microsoft Community Training
+          - name: What's new in Community Training
             href: oss-version/whats-new-in-microsoft-community-training/whats-new-in-microsoft-community-training.md
           - name: 2023
             items:
@@ -771,7 +771,7 @@
               href: oss-version/whats-new-in-microsoft-community-training/2020/whats-new-in-december-2020.md
       - name: Learning in Offline Mode
         items:
-        - name: Offline Learning with Microsoft Community Training
+        - name: Offline Learning with Community Training
           href: oss-version/learning-in-offline-mode/offline-learning-with-microsoft-community-training.md
         - name: Azure IOT Hub Initial Setup
           href: oss-version/learning-in-offline-mode/azure-IOT-hub-initial-setup.md

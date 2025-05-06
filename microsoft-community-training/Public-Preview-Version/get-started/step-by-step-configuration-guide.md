@@ -3,15 +3,15 @@ title: Step by step configuration guide for platform setup
 original-url: https://docs.microsoftcommunitytraining.com/docs/step-by-step-configuration-guide
 author: nikotha
 ms.author: nikotha
-description: Microsoft Community Training platform provides various tools and functionalities to help you easily create, manage and monitor all the learning activities for the training program.
+description: Community Training platform provides various tools and functionalities to help you easily create, manage and monitor all the learning activities for the training program.
 ms.prod: learning-azure
 ---
 
 # Step by step configuration guide for platform setup
 
-Microsoft Community Training platform provides various tools and functionalities to help you easily create, manage and monitor all the learning activities for the training program.
+Community Training platform provides various tools and functionalities to help you easily create, manage and monitor all the learning activities for the training program.
 
-To make it simple for new users to get started with Microsoft Community Training platform, we have created a brief step by step implementation guide on how to configure the learning platform, upload content, onboard users, select learner endpoints, track progress and measure learning outcome using the management portal.  
+To make it simple for new users to get started with Community Training platform, we have created a brief step by step implementation guide on how to configure the learning platform, upload content, onboard users, select learner endpoints, track progress and measure learning outcome using the management portal.  
 
 ## Step 1 – Login to the portal
 
@@ -50,7 +50,7 @@ You can personalize the training portal by configuring various elements of the i
 
 ## Step 4 – Upload training content to the portal  
 
-Microsoft Community Training platform  is optimized for learning with videos on the mobile devices – even on low-bandwidth or while offline. It provides an easy way for organizations to create and manage online courses to provide seamless learning experience.
+Community Training platform  is optimized for learning with videos on the mobile devices – even on low-bandwidth or while offline. It provides an easy way for organizations to create and manage online courses to provide seamless learning experience.
 
 All the courses in the platform are created under a category. These categories can be based on topics, profession, skill, etc. Each course on the portal will have one or more lessons, practice quizzes, exams, certification etc.
 
@@ -85,7 +85,7 @@ Here are some best practices to follow to ease user management on the portal:
 
 2. Leverage user profile information to [**create rules and automatically add users**](../user-management/organize-users/setup-automatic-user-enrollment-for-a-group-1.md) to different groups at the time of sign up and assign courses  
 
-To learn more about how to manage users on the Microsoft Community Training management portal, please refer to the [**User Management**](../user-management/user-management-overview.md) section of our product documentation.
+To learn more about how to manage users on the Community Training management portal, please refer to the [**User Management**](../user-management/user-management-overview.md) section of our product documentation.
 
 ## Step 6 – Launch and publicize the portal  
 

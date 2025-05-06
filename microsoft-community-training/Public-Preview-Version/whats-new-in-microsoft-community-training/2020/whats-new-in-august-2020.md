@@ -8,7 +8,7 @@ ms.prod: learning-azure
 ---
 
 # What's new in August 2020
-The ongoing COVID-19 pandemic though has disrupted the world in a way never imagined before, has only increased the need for community skilling. To assist you in these unprecedented times, Microsoft Community Training is here with some exciting new product updates! 
+The ongoing COVID-19 pandemic though has disrupted the world in a way never imagined before, has only increased the need for community skilling. To assist you in these unprecedented times, Community Training is here with some exciting new product updates! 
 
 These updates will go live on your training platform instance by end of the week. There are some great features in this release designed to help you manage and deliver online learning in a seamless manner to your communities.
 
@@ -18,7 +18,7 @@ In this release, we have added [support for admins to issue localized certificat
 ![Localization of learner certificates on the platform](../../media/image%28336%29.png)
 
 ## Service to Service Authentication
-In this release, we have enabled [service to service (S2S) authentication](../../rest-api-management/service-to-service-authentication.md) to allow any external service to call Microsoft Community Training APIs without requiring any user to explicitly login to a platform instance. 
+In this release, we have enabled [service to service (S2S) authentication](../../rest-api-management/service-to-service-authentication.md) to allow any external service to call Community Training APIs without requiring any user to explicitly login to a platform instance. 
 
 ## Support for hidden and read-only profile fields
 This release we have [enhanced the additional profile fields feature](../../settings/add-additional-profile-fields-for-user-information.md) on the platform to support hidden and read-only fields in addition to the mandatory fields. We have also increased the number of supported profile fields to 15.

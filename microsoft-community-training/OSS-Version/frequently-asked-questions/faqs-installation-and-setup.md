@@ -105,9 +105,9 @@ If you need further assistance, reach out to us [**via helpdesk**](https://go.mi
 
 ### How does  Community Training integration with  Teams work?
 
-Organization can enable Microsoft Teams as an end point for the Microsoft Community Training platform. Once it is enabled, learners can consume training content within the Microsoft Teams (Web, Desktop and Mobile) and no separate application is needed.
+Organization can enable Microsoft Teams as an end point for the  Community Training platform. Once it is enabled, learners can consume training content within the Microsoft Teams (Web, Desktop and Mobile) and no separate application is needed.
 
-In case of Microsoft Team's setup, all the existing groups/teams will be automatically imported and synced to the Microsoft Community Training platform to make it easy for administrators and teams owners to assign courses and track completion.
+In case of Microsoft Team's setup, all the existing groups/teams will be automatically imported and synced to the Community Training platform to make it easy for administrators and teams owners to assign courses and track completion.
 
 For more details, please visit [**teams integration page**](https://communitytraining.microsoft.com/products/teams/).
 

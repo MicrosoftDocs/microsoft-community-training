@@ -4,7 +4,7 @@ original-url: https://docs.microsoftcommunitytraining.com/docs/installation-guid
 
 author: Charan
 ms.author: cbrahmandam                                                                                                                                                                                                                                                                                                                                                                   
-description: In this article, you’ll learn how to install and deploy Microsoft Community Training platform on your Azure subscription.
+description: In this article, you’ll learn how to install and deploy Community Training platform on your Azure subscription.
 ms.service: azure
 ---
 
@@ -23,14 +23,14 @@ If you have a free trial Azure subscription, please upgrade to a Pay-as-you-go A
 
 <!--
 Hiding this until the work on this topic is complete
-**We currently do not support Microsoft Community Training on free trial Azure subscriptions.**
+**We currently do not support Community Training on free trial Azure subscriptions.**
 -->
 
 > [!WARNING]  
-> If you’re a nonprofit organization who wants to use Microsoft Community Training platform, you can apply and avail the Azure grant subject to eligibility. See the [**detailed steps here**](https://www.microsoft.com/nonprofits/eligibility?activetab=pivot1:primaryr4).
+> If you’re a nonprofit organization who wants to use Community Training platform, you can apply and avail the Azure grant subject to eligibility. See the [**detailed steps here**](https://www.microsoft.com/nonprofits/eligibility?activetab=pivot1:primaryr4).
 
 >[!Note]  
-> If you are nonprofit, please make sure you are installing the Microsoft Community Training in the Microsoft Sponsored Subscription
+> If you are nonprofit, please make sure you are installing the Community Training in the Microsoft Sponsored Subscription
 
 ### 2. Get the right ownership access
 
@@ -62,7 +62,7 @@ Based on the authentication type (Phone/Social login OR Work/School Account), yo
 ### 4. Create a Google Play Account
 
 
-[**Sign up on Google Play console**](https://play.google.com/apps/publish/signup/)  in order to publish your app on the Google Play Store.  This is required only if you require mobile app for Microsoft Community Training instance.
+[**Sign up on Google Play console**](https://play.google.com/apps/publish/signup/)  in order to publish your app on the Google Play Store.  This is required only if you require mobile app for Community Training instance.
 
 > [!Note]  
 > This step may be done later after installation.

@@ -17,7 +17,7 @@ It is available as a Managed PaaS offering via Azure Marketplace that customers 
 
 ### For the Organization
 
-The platform supports personalized learning for a large-scale mobile-based community. It is affordable, easy to manage and provides robust security and privacy protection. Organization can leverage the Microsoft Community Training platform to:
+The platform supports personalized learning for a large-scale mobile-based community. It is affordable, easy to manage and provides robust security and privacy protection. Organization can leverage the Community Training platform to:
 
 1. Manage courses, users and analytics all in one place with the management portal
 

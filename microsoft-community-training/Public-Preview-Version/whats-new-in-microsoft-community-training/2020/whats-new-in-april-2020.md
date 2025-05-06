@@ -3,13 +3,13 @@ title: What's new in April 2020
 original-url: https://docs.microsoftcommunitytraining.com/docs/whats-new-in-april-2020
 author: nikotha
 ms.author: nikotha
-description: We’re excited to share the new product update of Microsoft Community Training with you! These updates will go live on your training platform instance by end of the week.
+description: We’re excited to share the new product update of Community Training with you! These updates will go live on your training platform instance by end of the week.
 ms.prod: learning-azure
 ---
 
 # What's new in April 2020
 
-We’re excited to share the new product update of Microsoft Community Training with you! These updates will go live on your training platform instance by end of the week. There are some useful features in this release designed to help you manage and deliver online learning in a seamless manner to your communities.
+We’re excited to share the new product update of Community Training with you! These updates will go live on your training platform instance by end of the week. There are some useful features in this release designed to help you manage and deliver online learning in a seamless manner to your communities.
 
 ## Enforce learners to navigate lessons in a course sequentially
 
@@ -35,7 +35,7 @@ Content admins can now add interactive content in HTML format as lessons to a co
 
 ## Embed any external web link as lesson content for a course
 
-In this release, we have made improvement to the Course Management module to allow content admins embed any external web content link as a lesson item for a course. Now, depending upon the link type, content will be shown inline or learners will be redirected to external platform for consumption. This improvement is particular useful for aggregating content from external sources such as [Microsoft Learn training](/training/), [YouTube](https://www.youtube.com/), [Vimeo](https://vimeo.com/watch), etc. and provide a centralized repository of learning material within Microsoft Community Training platform for your target audience.
+In this release, we have made improvement to the Course Management module to allow content admins embed any external web content link as a lesson item for a course. Now, depending upon the link type, content will be shown inline or learners will be redirected to external platform for consumption. This improvement is particular useful for aggregating content from external sources such as [Microsoft Learn training](/training/), [YouTube](https://www.youtube.com/), [Vimeo](https://vimeo.com/watch), etc. and provide a centralized repository of learning material within Community Training platform for your target audience.
 
 ![Embed any external web link as lesson content for a course](../../media/image%28259%29.png)
 

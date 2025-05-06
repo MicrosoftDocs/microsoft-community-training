@@ -2,7 +2,7 @@
 title: Edit user profile on the platform
 author: nikotha
 ms.author: nikotha
-description: This document details the flow to edit learner profile on the Microsoft Community Training platform.  
+description: This document details the flow to edit learner profile on the Community Training platform.  
 ms.prod: learning-azure
 ---
 
@@ -19,7 +19,7 @@ This will therefore change the content assigned to the learner as defined in [th
 
 ## Permissions Level
 
-The Microsoft Community Training management portal provides role-based administration and depending upon the type of access level administrator can perform an action on the portal. Table below shows administrative role which are allowed to delete users from a group on the portal:
+The Community Training management portal provides role-based administration and depending upon the type of access level administrator can perform an action on the portal. Table below shows administrative role which are allowed to delete users from a group on the portal:
 
 | Access Level | Edit user profile |
 | --- | --- |
@@ -32,7 +32,7 @@ The Microsoft Community Training management portal provides role-based administr
 
 ## Option 1 - Steps to edit a single user profile
 
-1. On the Microsoft Community Training portal, after login [**switch to administrator view**](../../get-started/step-by-step-configuration-guide.md#step-2--switch-to-administrator-view-of-the-portal)
+1. On the Community Training portal, after login [**switch to administrator view**](../../get-started/step-by-step-configuration-guide.md#step-2--switch-to-administrator-view-of-the-portal)
 
 2. Select **All Users** tab or a **Group** details page in the left-navigation page from Users module
 
@@ -50,7 +50,7 @@ The Microsoft Community Training management portal provides role-based administr
 
 ## Option 2 - Steps to edit multiple user profile(s)
 
-1. On the Microsoft Community Training portal, after login [**switch to administrator view**](../../get-started/step-by-step-configuration-guide.md#step-2--switch-to-administrator-view-of-the-portal)
+1. On the Community Training portal, after login [**switch to administrator view**](../../get-started/step-by-step-configuration-guide.md#step-2--switch-to-administrator-view-of-the-portal)
 
 2. Select **All Users** tab in the left-navigation page from Users module
 

@@ -27,7 +27,7 @@ Website is typically provisioned 15-20 mins after deployment succeeds. Please ch
 
 ### Problem
 
-You are using a free trial subscription. Microsoft Community Training is not available on a free trial subscription.
+You are using a free trial subscription. Community Training is not available on a free trial subscription.
 
 ### Solution
 

@@ -3,13 +3,13 @@ title: Detailed step by step installation guide
 original-url: https://docs.microsoftcommunitytraining.com/docs/installation-guide-detailed-steps
 author: nikotha
 ms.author: nikotha
-description: In this article, you’ll learn how to install and deploy Microsoft Community Training platform on your Azure subscription.
+description: In this article, you’ll learn how to install and deploy Community Training platform on your Azure subscription.
 ms.prod: learning-azure
 ---
 
 # Detailed step by step installation guide
 
-In this article, you’ll learn how to install and deploy Microsoft Community Training platform on your Azure subscription.
+In this article, you’ll learn how to install and deploy Community Training platform on your Azure subscription.
 
 ## Before you begin
 
@@ -23,14 +23,14 @@ If you have a free trial Azure subscription, please upgrade to a Pay-as-you-go A
 
 <!--
 Hiding this until the work on this topic is complete
-**We currently do not support Microsoft Community Training on free trial Azure subscriptions.**
+**We currently do not support Community Training on free trial Azure subscriptions.**
 -->
 
 > [!WARNING]  
-> If you’re a nonprofit organization who wants to use Microsoft Community Training platform, you can apply and avail the Azure grant subject to eligibility. See the [**detailed steps here**](https://www.microsoft.com/nonprofits/eligibility?activetab=pivot1:primaryr4).
+> If you’re a nonprofit organization who wants to use Community Training platform, you can apply and avail the Azure grant subject to eligibility. See the [**detailed steps here**](https://www.microsoft.com/nonprofits/eligibility?activetab=pivot1:primaryr4).
 
 >[!Note]  
-> If you are nonprofit, please make sure you are installing the Microsoft Community Training in the Microsoft Sponsored Subscription
+> If you are nonprofit, please make sure you are installing the Community Training in the Microsoft Sponsored Subscription
 
 ### 2. Get the right ownership access
 
@@ -38,7 +38,7 @@ Get the ownership access to your pay-as-you-go Azure subscription. To learn more
 
 ### 3. Create a Google Play Account
 
-[**Sign up on Google Play console**](https://play.google.com/apps/publish/signup/)  in order to publish your app on the Google Play Store.  This is required only if you require mobile app for Microsoft Community Training instance.
+[**Sign up on Google Play console**](https://play.google.com/apps/publish/signup/)  in order to publish your app on the Google Play Store.  This is required only if you require mobile app for Community Training instance.
 
 > [!NOTE]
 > This step may be done later after installation.
@@ -52,21 +52,21 @@ Get the ownership access to your pay-as-you-go Azure subscription. To learn more
 3. In the upper-left corner of the Azure portal, select **Create a resource.**  
 ![Create a resource](../../media/image%2813%29.png)
 
-4. In the **Search the Marketplace** box, enter **Microsoft Community Training**.
+4. In the **Search the Marketplace** box, enter **Community Training**.
 ![Search the Marketplace](../../media/image%2896%29.png)
 
-5. From the Results, select **Microsoft Community Training**.
+5. From the Results, select **Community Training**.
 
 6. Select a software plan of your choice from the dropdown: **Basic** or **Standard**. Click the **Create** button that appears next to it.
 ![Software plan](../../media/image%2898%29.png)
 
-7. On the **Create Microsoft Community Training** page, the first section is **Basics**. Enter the values as per the instructions below and click **OK**.
+7. On the **Create Community Training** page, the first section is **Basics**. Enter the values as per the instructions below and click **OK**.
     * ***Subscription*** - Select the subscription that you created when you signed up for a pay-as-you-go account.
     * ***Resource group*** - A new resource group name or an existing one from your subscription.
     * ***Location*** - Location for the resources of your learning portal.
     * ***Application Name*** - Name of your learning portal.
     * ***Managed Resource Group*** - Name of resource group for your managed instance.
-![Microsoft Community Training](../../media/image%2897%29.png)
+![Community Training](../../media/image%2897%29.png)
 
 > [!NOTE]
 >Service A stores customer data. By default, customer data stays within the region the customer deploys the service instance in. However, the customer can choose to replicate data to a paired region (If Available) for Disaster Recovery purposes. For list of available regions, please refer to this [***link***](https://learn.microsoft.com/en-us/azure/reliability/cross-region-replication-azure#azure-paired-regions).
@@ -93,7 +93,7 @@ Get the ownership access to your pay-as-you-go Azure subscription. To learn more
 
 12. Click on **Terms of Use** and **Privacy Policy**. Select all the check boxes to accept the terms and conditions.
 
-13. Click **Create** to deploy Microsoft Community Training.
+13. Click **Create** to deploy Community Training.
 
       > [!NOTE]
       > Deployment takes about 20 minutes. Click on the **Notification** icon on the top-right of toolbar to monitor the deployment process.

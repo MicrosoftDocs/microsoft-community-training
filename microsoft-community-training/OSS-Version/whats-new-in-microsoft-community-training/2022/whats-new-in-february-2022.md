@@ -2,15 +2,15 @@
 title: What's new in February 2022
 author: sambati
 ms.author: sambati
-description: This document details the new features and capabilities launched on the Microsoft Community Training platform in February 2022. 
+description: This document details the new features and capabilities launched on the Community Training platform in February 2022. 
 ms.prod: learning-azure
 ---
 
 # What’s new in February 2022
 
-Customer needs and training requirements are evolving over time, Microsoft Community Training team has yet again come up with some amazing updates that can make your experience on the platform more efficient and productive.
+Customer needs and training requirements are evolving over time, Community Training team has yet again come up with some amazing updates that can make your experience on the platform more efficient and productive.
 
-We are really excited to share the new product updates for Microsoft Community Training with you!
+We are really excited to share the new product updates for Community Training with you!
 
 ## Introducing Content Marketplace
 
@@ -20,7 +20,7 @@ Microsoft community training now allows  admins to import courses to their train
 
 ## Assessment module has been enhanced with new capabilities
 
-In Microsoft Community Platform, **‘exam’** as been rephrased as **‘graded assessment’** and **‘practice assessment’** as **‘non-graded assessment’**
+In Community Platform, **‘exam’** as been rephrased as **‘graded assessment’** and **‘practice assessment’** as **‘non-graded assessment’**
 
 :::image type="content" source="../../media/assessment-newold.png" alt-text="newoldassesmentchange":::
 
@@ -46,7 +46,7 @@ Learners will now have the ability to search for profile field values
 
 An MCT instance can be used by users from multiple Azure Active Directories through Microsoft Teams Application.
 
-Microsoft Community Training platform now supports enabling SSO login for [multiple tenants in Microsoft Teams](../../infrastructure-management/install-your-platform-instance/create-teams-app-for-your-training-portal.md#multi-tenant-support-for-azure-active-directory-based-authentication-in-teams).
+Community Training platform now supports enabling SSO login for [multiple tenants in Microsoft Teams](../../infrastructure-management/install-your-platform-instance/create-teams-app-for-your-training-portal.md#multi-tenant-support-for-azure-active-directory-based-authentication-in-teams).
 
 ## Search functionality for Groups and Learning Path
 

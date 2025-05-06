@@ -3,13 +3,13 @@ title: Learner Experience on the mobile app
 original-url: https://docs.microsoftcommunitytraining.com/docs/mobile
 author: nikotha
 ms.author: nikotha
-description: This article explains how learners can access the training content using the Android mobile application for the Microsoft Community Training platform instance setup for your organization.
+description: This article explains how learners can access the training content using the Android mobile application for the Community Training platform instance setup for your organization.
 ms.prod: learning-azure
 ---
 
 # Learner Experience on the mobile app
 
-This article explains how learners can access the training content using the Android mobile application for the Microsoft Community Training platform instance setup for your organization.
+This article explains how learners can access the training content using the Android mobile application for the Community Training platform instance setup for your organization.
 
 ## Step 1: Download the app from the Play Store
 
@@ -20,7 +20,7 @@ This article explains how learners can access the training content using the And
 3. Once the app is installed, tap the app icon to launch the app
 
 > [!NOTE]
-> Microsoft Community Training platform provides every organization a custom white-labelled mobile app. Learners need to get the name of the training app published on the Play Store from the administrator.
+> Community Training platform provides every organization a custom white-labelled mobile app. Learners need to get the name of the training app published on the Play Store from the administrator.
 
 ## Step 2: Login and create your profile
 

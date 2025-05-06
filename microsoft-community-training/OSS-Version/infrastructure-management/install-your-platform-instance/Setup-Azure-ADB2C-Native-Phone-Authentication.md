@@ -3,7 +3,7 @@ As of today, Community Training team develops and maintains a Phone Number OTP b
 
 The team is in the process of migrating the customers using  Community Training Phone Authentication to Azure ADB2C Native Phone Authentication.
 
-This script can be used by customers to setup the custom user journey for ADB2C Native Phone Authentication for their Microsoft Community Training instance.
+This script can be used by customers to setup the custom user journey for ADB2C Native Phone Authentication for their Community Training instance.
 
 ### Migration of MCT phone auth to ADB2C native phone auth for Existing Instances
 Steps to migrate from MCT Phone Auth to ADB2C native Phone Auth

@@ -3,13 +3,13 @@ title: What's new in February 2020
 original-url: https://docs.microsoftcommunitytraining.com/docs/whats-new-in-february-2020
 author: nikotha
 ms.author: nikotha
-description: "We’re excited to share the new product update of Microsoft Community Training (formerly Project Sangam) with you!"
+description: "We’re excited to share the new product update of Community Training (formerly Project Sangam) with you!"
 ms.prod: learning-azure
 ---
 
 # What's new in February 2020
 
-We’re excited to share the new product update of Microsoft Community Training (formerly Project Sangam) with you! These updates will go live on your training platform instance by end of the week. There are some great features in this release designed to help you manage and deliver online learning in a seamless manner to your community.
+We’re excited to share the new product update of Community Training (formerly Project Sangam) with you! These updates will go live on your training platform instance by end of the week. There are some great features in this release designed to help you manage and deliver online learning in a seamless manner to your community.
 
 ## Shuffle questions in an exam
 
@@ -27,7 +27,7 @@ Content admins can now add subtitles to videos in more than 180 languages. This 
 
 ### Export courses from the training instance
 
-If you are managing multiple instances of Microsoft Community Training platform each catering to different target audiences but with overlapping course content -  we have made it easy for you to move content across instances in [**few simple clicks**](../../content-management/manage-content/manage-course-category/move-course-content-across-training-instance.md).  
+If you are managing multiple instances of Community Training platform each catering to different target audiences but with overlapping course content -  we have made it easy for you to move content across instances in [**few simple clicks**](../../content-management/manage-content/manage-course-category/move-course-content-across-training-instance.md).  
 ![Export courses from the training instance](../../media/image%28213%29.png)
 
 ## Category filter in My Courses page

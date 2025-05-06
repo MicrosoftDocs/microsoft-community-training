@@ -9,7 +9,7 @@ ms.prod: learning-azure
 
 # Business Continuity and Disaster Recovery for your Platform Instance
 
-Business Continuity and Disaster Recovery covers the aspect of service resiliency in case of an unfortunate event like Azure region going down. In such event you can initiate failover and recover data stored in your Microsoft Community Training (MCT) deployment and the service can continue.
+Business Continuity and Disaster Recovery covers the aspect of service resiliency in case of an unfortunate event like Azure region going down. In such event you can initiate failover and recover data stored in your Community Training (MCT) deployment and the service can continue.
 
 By default, MCT does not configure for data recovery or availability of a service if underlying Azure services or region in which MCT is deployed goes down. However, customers can follow certain steps to store data in an Azure paired region and use Active-Passive approach to enable disaster recovery for MCT service.
 

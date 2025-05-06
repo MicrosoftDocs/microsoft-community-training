@@ -3,7 +3,7 @@ title: Installation Overview
 original-url: https://docs.microsoftcommunitytraining.com/docs/installation-overview
 author: nikotha
 ms.author: nikotha
-description: Microsoft Community Training platform is available as a Managed Application on the Azure Marketplace.
+description: Community Training platform is available as a Managed Application on the Azure Marketplace.
 ms.prod: learning-azure
 ---
 
@@ -33,7 +33,7 @@ For more details, please refer to [**Azure managed applications**](/azure/manage
 
 ## Steps to setup Community Training platform
 
-Once you have decided your preferred endpoint and login type, follow the steps below to setup and install Microsoft Community Training for your organization:
+Once you have decided your preferred endpoint and login type, follow the steps below to setup and install Community Training for your organization:
 
 **Step 1:** [**Get an Azure subscription**](https://azure.microsoft.com/pricing/purchase-options/pay-as-you-go/) 
 

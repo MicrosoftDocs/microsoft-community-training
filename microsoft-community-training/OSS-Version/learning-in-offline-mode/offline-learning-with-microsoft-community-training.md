@@ -1,5 +1,5 @@
 ---
-title: Offline Learning with Microsoft Community Training
+title: Offline Learning with Community Training
 original-url: https://docs.microsoftcommunitytraining.com/docs/learning-in-offline-mode
 author: sambati
 ms.author: sambati
@@ -7,9 +7,9 @@ description: This article explains how learners can access the training content 
 ms.prod: learning-azure
 ---
 
-# Offline Learning with Microsoft Community Training
+# Offline Learning with Community Training
 
-Microsoft Community Training platform is coming up with a new platform to enable online learning in offline mode.
+Community Training platform is coming up with a new platform to enable online learning in offline mode.
 
 The Offline learning platform is currently in private preview state and is being continuously build, please connect with **sangam-pm@microsoft.com** if you intend to become early adopters of the platform.
 

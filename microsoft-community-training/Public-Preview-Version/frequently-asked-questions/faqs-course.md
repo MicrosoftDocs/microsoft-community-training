@@ -3,7 +3,7 @@ title: Content and Course management
 original-url: https://docs.microsoftcommunitytraining.com/docs/faqs-course
 author: nikotha
 ms.author: nikotha
-description: Microsoft provides course content around Digital Literacy, Office 365, etc. which organization can upload and use in their Microsoft Community Training platform instance.
+description: Microsoft provides course content around Digital Literacy, Office 365, etc. which organization can upload and use in their Community Training platform instance.
 ms.prod: learning-azure
 ---
 
@@ -13,7 +13,7 @@ ms.prod: learning-azure
 
 ### Does the platform come with any Out-of-Box content for organization to kickstart the training program?
 
-Microsoft provides course content around Digital Literacy, Office 365, etc. which organization can upload and use in their Microsoft Community Training platform instance. You can browser our content catalogue **[here](https://sangampartners.azurewebsites.net/)**.
+Microsoft provides course content around Digital Literacy, Office 365, etc. which organization can upload and use in their Community Training platform instance. You can browser our content catalogue **[here](https://sangampartners.azurewebsites.net/)**.
 
 Please contact us  via **[HelpDesk](https://go.microsoft.com/fwlink/?linkid=2104630)** if you’d like to make any courses from the catalogue available in your training portal instance.
 
@@ -33,9 +33,9 @@ If you’d like to avail any of the courses, contact us via **[HelpDesk](https:/
 
 ## Content Format
 
-### Can I upload my own content to be hosted on Microsoft Community Training?
+### Can I upload my own content to be hosted on Community Training?
 
-Organization can upload & host unlimited contents and courses on the Microsoft Community Training platform. This will allow you to utilize the platform as the centralized repository for all your contents.
+Organization can upload & host unlimited contents and courses on the Community Training platform. This will allow you to utilize the platform as the centralized repository for all your contents.
 
 The platform supports the following types of formats:
 
@@ -44,11 +44,11 @@ The platform supports the following types of formats:
 * **Other formats**: PDF, PPT, PPTX, DOCX, HTML, ePUB
 * **Hyperlinks**: Paste link in the upload lesson dialogue box (Example: Video URLs from YouTube, Microsoft Learn, etc.)
 
-For more information, check the article on [**how to manage course content**](../content-management/content-management-overview.md) on Microsoft Community Training platform.  
+For more information, check the article on [**how to manage course content**](../content-management/content-management-overview.md) on Community Training platform.  
 
 ### How to download contents from my training portal?
 
-Microsoft Community Training allows administrators to download/export courses and categories as ZIP files. These zip files can be uploaded on the same instance to copy content or to another instance to transfer the content. Refer to [this article](../content-management/manage-content/manage-course-category/move-course-content-across-training-instance.md) to learn more.
+Community Training allows administrators to download/export courses and categories as ZIP files. These zip files can be uploaded on the same instance to copy content or to another instance to transfer the content. Refer to [this article](../content-management/manage-content/manage-course-category/move-course-content-across-training-instance.md) to learn more.
 
 ### How to create new course category?
 
@@ -56,7 +56,7 @@ You can create, edit or delete a category from the administrator portal. Please 
 
 ### How to bulk upload lessons?
 
-Microsoft Community Training provides bulk upload lesson feature to add more than one lesson at a time within a course. [Refer to this article](../content-management/create-content/create-course-category/upload-content-to-a-course.md) for the detailed steps.  
+Community Training provides bulk upload lesson feature to add more than one lesson at a time within a course. [Refer to this article](../content-management/create-content/create-course-category/upload-content-to-a-course.md) for the detailed steps.  
 
 ### What is the size of the files I can upload on the MCT platform?
 
@@ -80,7 +80,7 @@ The platform can accept files size depending on the upload size limit as specifi
 
 ### Will I be able to link videos from external platforms like YouTube and Vimeo?
 
-Yes, customers can embed videos from any external platforms such as YouTube, Microsoft Learn, etc. on the Microsoft Community Training portal.  However, learners will not be able to download such content on the mobile app for offline consumption.
+Yes, customers can embed videos from any external platforms such as YouTube, Microsoft Learn, etc. on the Community Training portal.  However, learners will not be able to download such content on the mobile app for offline consumption.
 
 >[!Note]
 > For Vimeo videos, they do not allow their videos to get embedded directly on any other platform. In order to get the embed URL for any video, you need to follow the below steps:
@@ -90,14 +90,14 @@ Yes, customers can embed videos from any external platforms such as YouTube, Mic
 >
 > * If receiving any playback error while playing Vimeo video in MCT, you need update [privacy settings](https://vimeo.zendesk.com/hc/en-us/articles/115015677227-Troubleshoot-player-error-messages) in your Vimeo account.
 
-### How can I allow external videos to play inside Microsoft Community Training?
+### How can I allow external videos to play inside Community Training?
 
 1. Login to Azure portal.
 2. Go to App Services from the left-menu.
 
     ![Select App Service.png](../media/Select%20App%20Service%281%29.png)
 
-3. Click on the app service belonging to your Microsoft Community Training instance.
+3. Click on the app service belonging to your Community Training instance.
 4. Select Configuration under settings from the left-menu.
 
     ![Select Configurations.png](../media/Select%20Configurations%281%29.png)
@@ -119,7 +119,7 @@ Yes, customers can embed videos from any external platforms such as YouTube, Mic
 
     ![Save Application Settings](../media/Save%20Application%20Settings%281%29.png)
 
-### Does Microsoft Community Training support SCORM content?
+### Does Community Training support SCORM content?
 
 Microsoft community training supports for upload of SCORM (version 1.2) package.
 
@@ -129,7 +129,7 @@ SCORM (Sharable Content Object Reference Model) is a set of technical standards 
 
 :::image type="content" source="../media/SCORMupload.png" alt-text="scormuploadimag1":::
 
-### Does Microsoft Community Training support HTML content?
+### Does Community Training support HTML content?
 
 Yes, rich, dynamic and interactive HTML content is supported on the platform.  
 
@@ -153,7 +153,7 @@ To add **external web link** as lesson,
 
 To learn what other types of content is supported, refer the [**Course Management Overview**](../content-management/content-management-overview.md) article.
 
-### Does Microsoft Community Training support interactive course content?
+### Does Community Training support interactive course content?
 
 Yes, any interactive content in HTML format can be added as a lesson in the platform.
 
@@ -197,13 +197,13 @@ To learn more about the VTT standard, please read it [**here**](https://en.wikip
 
 ### What are the different support file formats for video content on the platform?
 
-Microsoft Community Training supports following file formats for the video content:
+Community Training supports following file formats for the video content:
 
 MP4, 3GP, 3G2, 3GP2, AVI, MPEG, MPG, WMV, VOB, MKV, FLV, DV, TS, ASF, M4V, MOV
 
 ### What are the different support file formats for audio content on the platform
 
-Microsoft Community Training supports following file formats for the audio  content:
+Community Training supports following file formats for the audio  content:
 
 MP3 & OGG
 
@@ -263,9 +263,9 @@ A: You can bulk upload your existing course contents to Microsoft community trai
 
 For more information, [**refer here**](../content-management/create-content/create-course-category/create-a-new-course.md).
 
-### How can bring content from external websites into Microsoft Community Training platform?
+### How can bring content from external websites into Community Training platform?
 
-The recommend approach is to download the content from the external websites and upload the same to the Microsoft Community Training instance.
+The recommend approach is to download the content from the external websites and upload the same to the Community Training instance.
 
 In case, content on the external website is not owned by the organization or cannot be downloaded then you can paste the content URL as lesson in the platform. The content will then be accessible by learners as follows:
 
@@ -302,7 +302,7 @@ For scenarios when you have the same course available in multiple languages, you
 
 4) Finally, assign the language specific course to each group based on that group's preferred language. Refer **[this article](../user-management/manage-users/assign-content-to-group-users.md)** to learn how.
 
-### How can organization create content for the Microsoft Community Training platform?
+### How can organization create content for the Community Training platform?
 
 You can create content as per the needs of your training program, using any tool of your choice. Microsoft can help you with your content creation by advising you on best practices and tips to create engaging content for your audience.
 
@@ -350,7 +350,7 @@ No. There is no limit to the no. of categories and courses that administrator ca
 
 ### How can I assign due date for a course on the platform?
 
- Currently, Microsoft Community Training platform doesn’t support the  functionality to assign due dates on our platform. But this is something on our product roadmap.
+ Currently, Community Training platform doesn’t support the  functionality to assign due dates on our platform. But this is something on our product roadmap.
 
 #### How can I track and view learner progress on the platform?
 
@@ -358,7 +358,7 @@ You will be able to track and view user’s progress from our analytics tab on t
 
 ### How can I add additional resources or exercises as part of a course?
 
-Currently,  Microsoft Community Training platform doesn't support attaching additional content or  exercises  as part of courses out of the box. However, customers can achieve this by using third-party tools such as Microsoft Forms or attaching exercise files in word and embed them as a lesson in a course.
+Currently,  Community Training platform doesn't support attaching additional content or  exercises  as part of courses out of the box. However, customers can achieve this by using third-party tools such as Microsoft Forms or attaching exercise files in word and embed them as a lesson in a course.
 
 Example: You can attach Microsoft Forms as an external URL as a lesson with exercises or assignment questionnaires for your learners. On the form, you can enable file upload as required for learners to  complete their assignments and easily attach their work. Alternatively, you can share instructions via a word document attached as a lesson and ask learners to email their work.
 

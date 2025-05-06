@@ -23,7 +23,7 @@ The feedback form once enabled, is available to learners when they attempt a cou
 
 ## Pre-filling the Feedback Form
 
-Microsoft Community Training platform allows you to dynamically pre-fill certain data fields when collecting feedback from the learners.
+Community Training platform allows you to dynamically pre-fill certain data fields when collecting feedback from the learners.
 If the website where you are creating the survey form allows you to enable pre-filling the data, the following mapping can be used so that the learners do not have to fill the mapped information and can directly move to providing their objective feedback on the content.
 
 | Field | Mapping |

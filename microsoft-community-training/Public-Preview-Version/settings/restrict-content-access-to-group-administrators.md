@@ -3,13 +3,13 @@ title: Restrict content access to Group Administrators
 original-url: https://docs.microsoftcommunitytraining.com/docs/restrict-content-access-to-group-administrators
 author: nikotha
 ms.author: nikotha
-description: The Microsoft Community Training platform has various levels of access roles for administrators.
+description: The Community Training platform has various levels of access roles for administrators.
 ms.prod: learning-azure
 ---
 
 # Restrict content access to Group Administrators
 
-The Microsoft Community Training platform has various levels of access roles for administrators. A group administrator on the platform can, majorly –
+The Community Training platform has various levels of access roles for administrators. A group administrator on the platform can, majorly –
 
 1. Add/edit learners and administrators in the group
 2. View progress reports of the learners in the group
@@ -21,7 +21,7 @@ To cater to this need, the Global Administrator can enable the Restricted Course
 
 ## Change Restricted Course Assignment Access settings
 
-1. On the Microsoft Community Training portal, after login switch to administrator view.
+1. On the Community Training portal, after login switch to administrator view.
 2. Select the Settings module on the left-navigation panel
 
       > [!IMPORTANT]

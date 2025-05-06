@@ -43,9 +43,9 @@ However, the platform supports SSO with any OAuth 2.0, OpenID Connect, or SAML-b
 
 The REST APIs are under development and will be made available soon, broadly expanding the capabilites of the Community Training.
 
-### What are the Azure Services used by Microsoft Community Training platform?
+### What are the Azure Services used by Community Training platform?
 
-Here are the list of services that are used by the Microsoft Community Training platform:
+Here are the list of services that are used by the Community Training platform:
 
 * Azure App Service
 * Azure Media Service

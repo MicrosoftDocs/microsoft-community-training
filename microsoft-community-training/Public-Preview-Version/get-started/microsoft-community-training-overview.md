@@ -1,23 +1,23 @@
 ---
-title: Welcome to Microsoft Community Training
+title: Welcome to Community Training
 original-url: https://docs.microsoftcommunitytraining.com/docs/microsoft-community-training-overview
 author: nikotha
 ms.author: nikotha
-description: Microsoft Community Training is an Azure-powered online learning platform to enable organizations of all sizes and types to run large scale training programs for their internal and external communities.
+description: Community Training is an Azure-powered online learning platform to enable organizations of all sizes and types to run large scale training programs for their internal and external communities.
 ms.prod: learning-azure
 ---
 
-# Welcome to Microsoft Community Training
+# Welcome to Community Training
 
-Microsoft Community Training is an Azure-powered online learning platform to enable organizations of all sizes and types to run large scale training programs for their internal and external communities such as first line workers, extended workforces, partner ecosystem, volunteer network, program beneficiaries, etc.
+Community Training is an Azure-powered online learning platform to enable organizations of all sizes and types to run large scale training programs for their internal and external communities such as first line workers, extended workforces, partner ecosystem, volunteer network, program beneficiaries, etc.
 
 It is available as a Managed PaaS offering via Azure Marketplace that customers can easily deploy in their subscriptions. The platform is available for free and an organization only bears platform hosting and consumption charges on Azure.
 
-## Benefits of Microsoft Community Training platform
+## Benefits of Community Training platform
 
 ### For the Organization
 
-The platform supports personalized learning for a large-scale mobile-based community. It is affordable, easy to manage and provides robust security and privacy protection. Organization can leverage the Microsoft Community Training platform to:
+The platform supports personalized learning for a large-scale mobile-based community. It is affordable, easy to manage and provides robust security and privacy protection. Organization can leverage the Community Training platform to:
 
 1. Manage courses, users and analytics all in one place with the management portal
 

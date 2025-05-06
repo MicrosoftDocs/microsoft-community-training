@@ -3,12 +3,12 @@ title: What's new in June 2020
 original-url: https://docs.microsoftcommunitytraining.com/docs/whats-new-in-june-2020
 author: nikotha
 ms.author: nikotha
-description: As the world fights with the COVID-19 pandemic, we hope that you are safe and are continuing your online training programs with Microsoft Community Training platform.
+description: As the world fights with the COVID-19 pandemic, we hope that you are safe and are continuing your online training programs with Community Training platform.
 ms.prod: learning-azure
 ---
 
 # What's new in June 2020
-As the world fights with the COVID-19 pandemic, we hope that you are safe and are continuing your online training programs with Microsoft Community Training platform. In the midst of this crisis, we’re excited to share the new product update with you! These updates will go live on your training platform instance by end of the week. There are some great features in this release designed to help you manage and deliver online learning in a seamless manner to your communities. 
+As the world fights with the COVID-19 pandemic, we hope that you are safe and are continuing your online training programs with Community Training platform. In the midst of this crisis, we’re excited to share the new product update with you! These updates will go live on your training platform instance by end of the week. There are some great features in this release designed to help you manage and deliver online learning in a seamless manner to your communities. 
 
 ## Customize certificate template from the admin portal   
 In this release, we have [enhanced the process to customize the certificates](../../settings/customize-the-certificate-template.md) issued to the learners’ post course completion. Organization administrators can now upload customized certificate designs with organization specific branding directly on the admin portal of the platform and preview the certificate sample before approving it to be issued to the learners.

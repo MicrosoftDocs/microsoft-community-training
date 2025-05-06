@@ -1,5 +1,5 @@
 ---
-title: FAQ - Offline Learning with Microsoft Community Training
+title: FAQ - Offline Learning with Community Training
 original-url: https://docs.microsoftcommunitytraining.com/docs/learning-in-offline-mode
 author: v-nmadireddi
 ms.author:  v-nmadireddi

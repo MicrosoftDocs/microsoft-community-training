@@ -162,4 +162,4 @@ $Outputs = [ordered]@{
 }
 
 $Outputs  | ConvertTo-Json 
-Write-Host "Please copy the above values from the terminal to complete the next step(s) in the Microsoft Community Training platform login configuration flow." -ForegroundColor Green
+Write-Host "Please copy the above values from the terminal to complete the next step(s) in the Community Training platform login configuration flow." -ForegroundColor Green

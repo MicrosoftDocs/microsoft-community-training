@@ -2,7 +2,7 @@
 title: Troubleshoot Guide for Azure Support
 author: nikotha
 ms.author: nikotha
-description: This is a troubleshoot guide for the customers of Microsoft Community Training platform. 
+description: This is a troubleshoot guide for the customers of Community Training platform. 
 ms.prod: learning-azure
 ---
 
@@ -10,11 +10,11 @@ ms.prod: learning-azure
 
 ## Introduction
 
-[Microsoft Community Training](https://communitytraining.microsoft.com/) (MCT) is an Azure based solution that enables delivery of large-scale, far-spread training programs with high quality and efficiency.
+[Community Training](https://communitytraining.microsoft.com/) (MCT) is an Azure based solution that enables delivery of large-scale, far-spread training programs with high quality and efficiency.
 
 The platform within Microsoft is managed by the Azure Global Emerging Markets IDC team. The ICM credentials to log a ticket on the MCT team are –
 
-> **Owning Service**: AGEM: Microsoft Community Training
+> **Owning Service**: AGEM: Community Training
 
 > **Owning Team**: MCT
 
@@ -22,7 +22,7 @@ This document walks through root cause and resolution steps for some of the majo
 
 ## Brief on MCT Architecture
 
-Microsoft Community Training (MCT) platform is available as a [Managed Application](https://learn.microsoft.com/azure/azure-resource-manager/managed-applications/) on the [Azure Marketplace](https://azuremarketplace.microsoft.com/marketplace/apps/project-sangam.microsoft-community-training) for customers. The MCT instance is deployed on customer’s Azure subscriptions and utilizes the following Azure services –
+Community Training (MCT) platform is available as a [Managed Application](https://learn.microsoft.com/azure/azure-resource-manager/managed-applications/) on the [Azure Marketplace](https://azuremarketplace.microsoft.com/marketplace/apps/project-sangam.microsoft-community-training) for customers. The MCT instance is deployed on customer’s Azure subscriptions and utilizes the following Azure services –
 
 1. Azure App Service
 2. Azure Blob Storage

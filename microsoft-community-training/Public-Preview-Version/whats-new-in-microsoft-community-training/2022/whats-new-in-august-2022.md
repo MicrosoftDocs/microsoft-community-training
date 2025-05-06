@@ -18,7 +18,7 @@ As an admin you can now create [dependencies](../../settings/add-additional-prof
 
 ## Organization Branding
 
-Microsoft community training now lets you [customize the look](../../user-management/organization-management.md#customize-look-and-feel-of-your-organizations) and feel of your [Organization(s)](../../user-management/organization-management.md#organization-management). When a learner from specific organization logins to MCT their experience would be customized to settings of their respective organization.
+Community training now lets you [customize the look](../../user-management/organization-management.md#customize-look-and-feel-of-your-organizations) and feel of your [Organization(s)](../../user-management/organization-management.md#organization-management). When a learner from specific organization logins to MCT their experience would be customized to settings of their respective organization.
 
 >[!NOTE]
 >

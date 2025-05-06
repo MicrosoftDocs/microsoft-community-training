@@ -8,7 +8,7 @@ ms.prod: learning-azure
 
 # Link to External Website on Learner Home page
 
-Microsoft community training enables you to provide a link to an external website on the learner’s homepage for allowing the learners quick access to a preferred website. This article describes how to configure the same and serve the purpose.
+Community training enables you to provide a link to an external website on the learner’s homepage for allowing the learners quick access to a preferred website. This article describes how to configure the same and serve the purpose.
 
 ## Steps to configure external website link and name
 

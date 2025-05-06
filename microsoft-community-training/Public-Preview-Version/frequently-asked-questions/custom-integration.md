@@ -84,7 +84,7 @@ MCT allows you to map identity with external portal i.e., if you have an externa
   * Please update the required params in code following the documentation of S2S here Service to [Service Authentication](/azure/industry/training-services/microsoft-community-training/rest-api-management/service-to-service-authentication) and then publish the function app.
 * Here is a [sample recording](https://microsoft.sharepoint.com/:v:/t/BuildingSangam/EQZ7Z2zY7zdAuQY5leNYmwgBO7-ezdGFTUngJWdz70wmsA?e=YIITyN) for your reference.
 
-### Does Community Training provide any job matching capabilities? How can I integrate Microsoft community training with external job portals?
+### Does Community Training provide any job matching capabilities? How can I integrate Community training with external job portals?
 
 Community Training does not come with any job matching capabilities out of the box. However, the platform can be integrated with external job portals to push learner progress and course certificate using the REST APIs.
 
@@ -112,7 +112,7 @@ For more details, reach out to us [**via HelpDesk**](https://go.microsoft.com/fw
 
 ### Is there a feature to create additional notifications through emails?
 
-Microsoft community training does not have this function out of the box. However, customers can achieve this by using our APIs.
+Community training does not have this function out of the box. However, customers can achieve this by using our APIs.
 
 For more details, reach out to us [**via HelpDesk**](https://go.microsoft.com/fwlink/?linkid=2104630).
 

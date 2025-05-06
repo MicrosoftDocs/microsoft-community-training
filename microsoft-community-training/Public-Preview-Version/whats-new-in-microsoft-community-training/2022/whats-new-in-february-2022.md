@@ -14,7 +14,7 @@ We are really excited to share the new product updates for Community Training wi
 
 ## Introducing Content Marketplace
 
-Microsoft community training now allows  admins to import courses to their training portal via [Content Marketplace](../../content-management/create-content/create-course-category/create-a-new-course.md#option-2---add-course-via-content-marketplace) available at your fingertips Content Marketplace is a catalogue of top-notch training material from Microsoft ranging from digital literacy, soft skills, Office 365, Azure cloud to latest in-demand technological tools. Take advantage of this high-quality material to get a head start on your training programs.
+Community training now allows  admins to import courses to their training portal via [Content Marketplace](../../content-management/create-content/create-course-category/create-a-new-course.md#option-2---add-course-via-content-marketplace) available at your fingertips Content Marketplace is a catalogue of top-notch training material from Microsoft ranging from digital literacy, soft skills, Office 365, Azure cloud to latest in-demand technological tools. Take advantage of this high-quality material to get a head start on your training programs.
 
 :::image type="content" source="../../media/marketplacewatsnew.png" alt-text="marketplacewhatsnew":::
 

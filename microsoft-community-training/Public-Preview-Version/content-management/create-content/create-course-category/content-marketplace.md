@@ -9,7 +9,7 @@ ms.prod: learning-azure
 
 # Content Marketplace
 
-Microsoft community training now allows users to import courses to their training portal via Content Marketplace available at your fingertips from the admin view. Content Marketplace is a catalogue of top-notch training material from Microsoft ranging from digital literacy, soft skills, Office 365, Azure cloud to latest in-demand technological tools. Take advantage of this high-quality material to get a head start on your training programs.
+Community training now allows users to import courses to their training portal via Content Marketplace available at your fingertips from the admin view. Content Marketplace is a catalogue of top-notch training material from Microsoft ranging from digital literacy, soft skills, Office 365, Azure cloud to latest in-demand technological tools. Take advantage of this high-quality material to get a head start on your training programs.
 
 ## Content Providers in MCT Content Marketplace
 

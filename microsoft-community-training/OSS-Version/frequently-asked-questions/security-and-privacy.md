@@ -29,7 +29,7 @@ In the Community Training platform, user ID and other information are stored in 
 
 ### How to create a backup of the Community Training instance?
 
-Microsoft community training can ensure that in case of unforeseen failures and disasters, your data – which includes all your content, user data and other branding assets - is safe and secure.
+Community training can ensure that in case of unforeseen failures and disasters, your data – which includes all your content, user data and other branding assets - is safe and secure.
 
 Since Community Training is a managed application, back up and replication is not enabled by default. Customers can enable backup/replication of the data to the data center region of their choice
 

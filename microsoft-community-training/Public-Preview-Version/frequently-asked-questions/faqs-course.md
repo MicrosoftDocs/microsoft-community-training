@@ -121,7 +121,7 @@ Yes, customers can embed videos from any external platforms such as YouTube, Mic
 
 ### Does Community Training support SCORM content?
 
-Microsoft community training supports for upload of SCORM (version 1.2) package.
+Community training supports for upload of SCORM (version 1.2) package.
 
 SCORM (Sharable Content Object Reference Model) is a set of technical standards for eLearning software products. SCORM tells programmers how to write their code so that it can “play well” with other eLearning software. It is the de facto industry standard for eLearning interoperability. Learn more about [SCORM](https://scorm.com/scorm-explained/one-minute-scorm-overview/)
 
@@ -191,7 +191,7 @@ Yes, you can use audio files for lessons. To learn what other types of content i
 
 ### Can I add multiple language subtitles to a video file?
 
-Microsoft community training allows administrators to add subtitles to videos more than 180 languages. This additional feature is great for multilingual organizations. [**For adding subtitles**](../content-management/create-content/create-course-category/add-subtitles-or-captions-to-video-content.md) to your video, select the language from the drop-down menu and upload the VTT file that includes the subtitles you want to add. Subtitles must be in the VTT format.
+Community training allows administrators to add subtitles to videos more than 180 languages. This additional feature is great for multilingual organizations. [**For adding subtitles**](../content-management/create-content/create-course-category/add-subtitles-or-captions-to-video-content.md) to your video, select the language from the drop-down menu and upload the VTT file that includes the subtitles you want to add. Subtitles must be in the VTT format.
 
 To learn more about the VTT standard, please read it [**here**](https://en.wikipedia.org/wiki/WebVTT).
 
@@ -257,9 +257,9 @@ Video encoding is the process of compressing and potentially changing the format
 
 Uploading video content includes the process of encoding the content and converting it into multiple resolutions to enable playback in low connectivity scenarios. This process usually takes time and partially depends on your internet speed and platform configuration.
 
-#### How to import my existing course content to Microsoft community training?
+#### How to import my existing course content to Community training?
 
-A: You can bulk upload your existing course contents to Microsoft community training.
+A: You can bulk upload your existing course contents to Community training.
 
 For more information, [**refer here**](../content-management/create-content/create-course-category/create-a-new-course.md).
 
@@ -304,7 +304,7 @@ For scenarios when you have the same course available in multiple languages, you
 
 ### How can organization create content for the Community Training platform?
 
-You can create content as per the needs of your training program, using any tool of your choice. Microsoft can help you with your content creation by advising you on best practices and tips to create engaging content for your audience.
+You can create content as per the needs of your training program, using any tool of your choice. Can help you with your content creation by advising you on best practices and tips to create engaging content for your audience.
 
 Contact us via **[HelpDesk](https://go.microsoft.com/fwlink/?linkid=2104630)** and leave your requirements in the ticket description.  
 
@@ -324,7 +324,7 @@ Follow the instructions given in **[this](../content-management/create-content/c
 
 ### How many courses and lessons can I upload on the platform?
 
-Microsoft community training does not set any numeric limits. Customers can have any number of courses and lessons as required.
+Community training does not set any numeric limits. Customers can have any number of courses and lessons as required.
 
 ### How to 'Add Tags' after a course is published?
 

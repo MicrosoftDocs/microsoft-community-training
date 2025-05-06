@@ -79,13 +79,13 @@ There's no provision to reset a learner's progress. However, you can achieve thi
 
 ### If I have previous data on the learner progress, can that be imported to Community Training platform?
 
-You can import existing learner progress and course completion data using a custom migration script. This feature isn't available out of the box and customers are required to write their own migration script based on their existing platform from where the data are coming. Microsoft can help customer with the migration.
+You can import existing learner progress and course completion data using a custom migration script. This feature isn't available out of the box and customers are required to write their own migration script based on their existing platform from where the data are coming. Can help customer with the migration.
 
 For more information, contact us [**via the HelpDesk**](https://go.microsoft.com/fwlink/?linkid=2104630).
 
 ## Inbuilt analytics and custom reporting
 
-### What are the inbuilt analytical metrics offered by Microsoft community training?
+### What are the inbuilt analytical metrics offered by Community training?
 
 To provide a rich out of the box experience to an admin, Community Training platform provides different views, designed to facilitate tracking learner progress and program monitoring at various levels:
 

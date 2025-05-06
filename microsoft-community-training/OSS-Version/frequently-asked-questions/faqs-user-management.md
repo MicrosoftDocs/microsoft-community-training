@@ -112,9 +112,9 @@ For more information, please contact us [**via HelpDesk**](https://go.microsoft.
 
 ### How can I setup Single Sign On for Community Training platform with an existing identity provider?
 
-Community Training (Microsoft community training) platform supports all the standard OAuth 2.0 and OpenID connect auth service provider and Single Sign-On can be enabled between the existing system and Microsoft community training platform seamlessly. See the [**deployment guide for more details**](../infrastructure-management/install-your-platform-instance/configure-login-social-work-school-account.md#social-account-or-email-based-authentication).
+Community Training (Community training) platform supports all the standard OAuth 2.0 and OpenID connect auth service provider and Single Sign-On can be enabled between the existing system and Community training platform seamlessly. See the [**deployment guide for more details**](../infrastructure-management/install-your-platform-instance/configure-login-social-work-school-account.md#social-account-or-email-based-authentication).
 
-In case of the existing identity system is not OAuth2.0 / OpenID connect based then enabling Single Sign On between Microsoft community training and the existing system will require custom work as highlighted flow diagram below. Please raise a support ticket for more information and kick start the SSO discussion.
+In case of the existing identity system is not OAuth2.0 / OpenID connect based then enabling Single Sign On between Community training and the existing system will require custom work as highlighted flow diagram below. Please raise a support ticket for more information and kick start the SSO discussion.
 
 For all queries regarding SSO and/or custom login, contact us via  **[HelpDesk](https://sangamhelpdesk.microsoftcrmportals.com/SignIn?ReturnUrl=%2Fsupport%2Fcreate-case%2F)** and leave your requirements in the ticket description.
 
@@ -159,7 +159,7 @@ Refer **[this article](../settings/restrict-portal-access-to-users-outside-your-
 
 ### Can I pre-register users on the platform and limit portal access to only these users?
 
-You can pre-register users by importing your existing users' database to the Microsoft community training portal.
+You can pre-register users by importing your existing users' database to the Community training portal.
 
 For more information, **[refer here](../settings/restrict-portal-access-to-users-outside-your-organization.md)**.
 

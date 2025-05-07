@@ -3,7 +3,7 @@ title: Create a new course
 original-url: https://docs.microsoftcommunitytraining.com/docs/create-a-new-course
 author: nikotha
 ms.author: nikotha
-description: This document explains new course creation flow on the Microsoft Community Training platform. 
+description: This document explains new course creation flow on the  Community Training platform. 
 ms.prod: learning-azure
 ---
 
@@ -17,7 +17,7 @@ In this article, you will learn more about how to create single and multiple cou
 
 ## Permissions Level
 
-The Microsoft Community Training management portal provides role-based administration and depending upon the type of access level the administrators can perform an action on the portal.
+The  Community Training management portal provides role-based administration and depending upon the type of access level the administrators can perform an action on the portal.
 
 The table below shows administrative role which are allowed to create courses in the portal:
 
@@ -32,7 +32,7 @@ The table below shows administrative role which are allowed to create courses in
 
 ## Option 1 - Create a single course in a category
 
-In this topic, you will learn  simple steps to create a single course in the Microsoft Community Training  platform. Before executing the below steps, [**switch to administrator view**](../../../get-started/step-by-step-configuration-guide.md#step-2--switch-to-administrator-view-of-the-portal) on the training portal:
+In this topic, you will learn  simple steps to create a single course in the  Community Training  platform. Before executing the below steps, [**switch to administrator view**](../../../get-started/step-by-step-configuration-guide.md#step-2--switch-to-administrator-view-of-the-portal) on the training portal:
 
 1. Click  on ![Plus icon](../../../media/Plus%20icon.png) or **More (...)** icon on the category list pane to create course under a category.
 
@@ -85,7 +85,7 @@ In this topic, you will learn  simple steps to create a single course in the Mic
 
 In this topic, you will learn simple steps to Import courses from marketplace in the platform.
 
-1. On the Microsoft Community Training portal, after login [**switch to administrator view**](../../../get-started/step-by-step-configuration-guide.md#step-2--switch-to-administrator-view-of-the-portal).
+1. On the  Community Training portal, after login [**switch to administrator view**](../../../get-started/step-by-step-configuration-guide.md#step-2--switch-to-administrator-view-of-the-portal).
 2. Select the Content menu on the left bar and click on **Categories tab**
 3. Select **Marketplace**, on the bottom-left of the page.
 
@@ -220,7 +220,7 @@ Next, let us understand how to create course translations once a default course 
 
 ### Creating Course Translations
 
-In this topic, you will learn simple steps to create translations of a course in the Microsoft Community Training Platform. Before executing the below steps, [**switch to administrator view**](../../../get-started/step-by-step-configuration-guide.md#step-2--switch-to-administrator-view-of-the-portal) on the learning portal:
+In this topic, you will learn simple steps to create translations of a course in the  Community Training Platform. Before executing the below steps, [**switch to administrator view**](../../../get-started/step-by-step-configuration-guide.md#step-2--switch-to-administrator-view-of-the-portal) on the learning portal:
 
 1. To create a translation for a course, click on **+ Add course in a different language**.
 

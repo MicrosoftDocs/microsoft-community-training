@@ -11,7 +11,7 @@ ms.prod: learning-azure
 
 ## Azure Consumption and Costs
 
-Your training portal is composed of various resources such as Azure SQL, Azure Media Service, Azure App Service etc. Each serve to provide your learners a complete learning experience. As your learners use the training portal, each of these resources get consumed and you get appropriately billed based on the usage. You can estimate your azure consumption cost for Microsoft Community Training platform [**here**](https://communitytraining.microsoft.com/pricing/).
+Your training portal is composed of various resources such as Azure SQL, Azure Media Service, Azure App Service etc. Each serve to provide your learners a complete learning experience. As your learners use the training portal, each of these resources get consumed and you get appropriately billed based on the usage. You can estimate your azure consumption cost for Community Training platform [**here**](https://communitytraining.microsoft.com/pricing/).
 
 For more details, refer to [**Azure billing and cost management**](/azure/billing) documentation to know more about your Azure consumption and monitor usage and costs of your training portal.
 

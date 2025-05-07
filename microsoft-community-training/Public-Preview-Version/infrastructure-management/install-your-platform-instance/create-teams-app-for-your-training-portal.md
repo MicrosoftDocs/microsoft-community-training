@@ -3,13 +3,13 @@ title: Setup Microsoft Teams as learner's endpoint for the platform
 original-url: https://docs.microsoftcommunitytraining.com/docs/create-teams-app-for-your-training-portal
 author: nikotha
 ms.author: nikotha
-description: Microsoft Community Training allows organization to enable online learning inside Microsoft Teams across web, mobile and desktop app.
+description: Community Training allows organization to enable online learning inside Microsoft Teams across web, mobile and desktop app.
 ms.prod: learning-azure
 ---
 
 # Setup Microsoft Teams as learner's endpoint for the platform
 
-Microsoft Community Training allows organization to enable online learning inside Microsoft Teams across web, mobile and desktop app. For more details on Microsoft Community Training platform integration with Microsoft Teams, [**visit our website**](https://communitytraining.microsoft.com/teams/).
+Community Training allows organization to enable online learning inside Microsoft Teams across web, mobile and desktop app. For more details on Community Training platform integration with Microsoft Teams, [**visit our website**](https://communitytraining.microsoft.com/teams/).
 
 In this article, we will walk you through the steps required to configure your instance with Microsoft Teams.
 
@@ -21,7 +21,7 @@ If you haven't, please follow the Installation steps first and then refer this a
 
 ## Steps to enable learning inside Microsoft Teams
 
-### Step 1 - Delegate permissions on your Azure AD application setup for Microsoft Community Training
+### Step 1 - Delegate permissions on your Azure AD application setup for Community Training
 
 1. Login to the [Azure Portal](https://portal.azure.com/) with admin credentials
 
@@ -31,7 +31,7 @@ If you haven't, please follow the Installation steps first and then refer this a
 
     ![Click App Registration](../../media/image%28194%29.png)
 
-4. On the App registrations page, search for and select the Azure AD application created for the Microsoft Community Training instance during the installation process
+4. On the App registrations page, search for and select the Azure AD application created for the Community Training instance during the installation process
 
     ![Azure AD application](../../media/image%28195%29.png)
 
@@ -54,7 +54,7 @@ If you haven't, please follow the Installation steps first and then refer this a
 > [!NOTE]
 > Please sure all the values marked in red rectangle are correctly set.
 
-### Step 2 - Generate a Teams Manifest File (Microsoft Teams App) for your Microsoft Community Training instance
+### Step 2 - Generate a Teams Manifest File (Microsoft Teams App) for your Community Training instance
 
 1. Unzip the file [**steps_to_create_manifest_file.zip**](https://github.com/MicrosoftDocs/microsoft-community-training/files/10336214/steps_to_create_manifest_file.zip)
 <!---
@@ -101,7 +101,7 @@ If you haven't, please follow the Installation steps first and then refer this a
 
     ![Select App Service.png](../../media/Select%20App%20Service%281%29.png)
 
-3. Click on the app service belonging to your Microsoft Community Training instance.
+3. Click on the app service belonging to your Community Training instance.
 
 4. Select Configuration under settings from the left-menu.
 
@@ -121,7 +121,7 @@ If you haven't, please follow the Installation steps first and then refer this a
 
 ## Multi-Tenant support for Azure Active Directory based Authentication in Teams
 
-Microsoft Community Training platform supports login via multiple tenants in Teams for AAD based authentication instances.
+Community Training platform supports login via multiple tenants in Teams for AAD based authentication instances.
 
 In this article, you will learn about how to setup Teams SSO login supporting multiple tenants.
 
@@ -133,7 +133,7 @@ In this article, you will learn about how to setup Teams SSO login supporting mu
 
     :::image type="content" source="../../media/Teams SSO MultiTenant 1.png" alt-text="Teams SSO MultiTenant1":::
 
-3. Click on the app service belonging to your Microsoft Community Training instance.
+3. Click on the app service belonging to your Community Training instance.
 4. Select Configuration under settings from the left-menu
 
     :::image type="content" source="../../media/Teams SSO MultiTenant 2.png" alt-text="Teams SSO 2":::
@@ -202,7 +202,7 @@ Creating Organizations for each tenant is important step.Unless you create organ
 
 ## Schedule an MS Teams meeting for your learners
 
-Microsoft Community Training platform allows the Administrators to set-up and schedule meetings over MS Teams from within the platform itself. These meetings can be for the learners enrolled to a specific course/ learning path/ or a user group to enhance their learning curve.
+Community Training platform allows the Administrators to set-up and schedule meetings over MS Teams from within the platform itself. These meetings can be for the learners enrolled to a specific course/ learning path/ or a user group to enhance their learning curve.
 
 In this article, you will learn about how to setup your MCT instance to allow Administrators to create/ set-up a Microsoft Teams meeting for a Course/ Learning Path/ User Group.
 
@@ -214,7 +214,7 @@ Depending upon the login identity used on your instance, you need to follow the 
 2. Phone Authentication or Social email-based login via your Microsoft, Google or Facebook account
 
 >[!Note]
->You need to have a separate MS Teams license in order to integrate MS Teams with Microsoft Community Training portal. If you do not have a MS Teams license, you may refer to [this documentation](https://www.microsoft.com/microsoft-teams/online-meetings) to get it.
+>You need to have a separate MS Teams license in order to integrate MS Teams with Community Training portal. If you do not have a MS Teams license, you may refer to [this documentation](https://www.microsoft.com/microsoft-teams/online-meetings) to get it.
 
 #### Microsoft Work or School account
 
@@ -252,7 +252,7 @@ Follow only **Step 1** on [this link](#step-1---delegate-permissions-on-your-azu
 
     :::image type="content" source="../../media/Blended Learning 1.png" alt-text="Select App registrations":::
 
-4. On the App registrations page, search for and select the Azure AD application created for the Microsoft Community Training Instance during the installation process.
+4. On the App registrations page, search for and select the Azure AD application created for the Community Training Instance during the installation process.
     :::image type="content" source="../../media/Blended Learning 2.png" alt-text="Select the app registered for the MCT instance":::
 
 5. Click on the **Authentication** option from the left panel
@@ -301,7 +301,7 @@ Once you have configured Microsoft Teams Meeting Scheduling in MCT, the admin ne
 >[!Warning]
 >The number of users is limited to 500 and any course/ learning path/group creating a meeting more than that number will not be supported.
 
-1. On the Microsoft Community Training portal, after login switch to administrator view
+1. On the Community Training portal, after login switch to administrator view
 2. Go to respective Course/ Learning Path/ or the User Group for which you want to schedule a meeting.
 3. Select the MS Teams option:
     * For **Course/ Learning Path**, click or tap the MS Teams icon on top-right of the details page.

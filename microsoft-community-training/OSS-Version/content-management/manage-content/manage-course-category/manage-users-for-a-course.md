@@ -3,19 +3,19 @@ title: Manage Users for a Course
 original-url: https://docs.microsoftcommunitytraining.com/docs/manage-users-for-a-course
 author: nikotha
 ms.author: nikotha
-description: On the Microsoft Community Training management portal, you can view, add and remove users for a particular course directly from the course module.
+description: On the  Community Training management portal, you can view, add and remove users for a particular course directly from the course module.
 ms.prod: learning-azure
 ---
 
 # Manage Users for a Course
 
-On the Microsoft Community Training management portal, you can view, add and remove users for a particular course directly from the course module.
+On the  Community Training management portal, you can view, add and remove users for a particular course directly from the course module.
 
 In this article, you will learn more about how to manage user enrollment for particular course on the management portal:
 
 ## Permissions Level
 
-The Microsoft Community Training management portal provides role-based administration and depending upon the type of access level administrators can perform an action on the portal. Table below shows administrative role which are allowed to view, add or remove users from a course on the portal:
+The  Community Training management portal provides role-based administration and depending upon the type of access level administrators can perform an action on the portal. Table below shows administrative role which are allowed to view, add or remove users from a course on the portal:
 
 | Access Level  | Add or Remove users to a course |
 | --- | --- |
@@ -33,7 +33,7 @@ In this topic, you will learn the steps on how to enroll users directly to a cou
 > [!IMPORTANT]
 > This feature is applicable only for Admin enrolled and Self-enrolled courses. For auto enroll course, users are automatically added to the course.
 
-1. On the Microsoft Community Training portal, [**switch to administrator view**](../../../get-started/step-by-step-configuration-guide.md#step-2--switch-to-administrator-view-of-the-portal) and under **Course tab**, select the **Course** for which you want to add users
+1. On the  Community Training portal, [**switch to administrator view**](../../../get-started/step-by-step-configuration-guide.md#step-2--switch-to-administrator-view-of-the-portal) and under **Course tab**, select the **Course** for which you want to add users
 
 2. Click or tap the **Manage Users** icon on top-right of the course details page.
 
@@ -55,7 +55,7 @@ In this topic, you will learn the steps on how to remove user enrollment from a 
 > [!IMPORTANT]
 > This feature is available only for administrator enrolled and self-enrolled courses. For auto enroll course, users cannot be removed from a course.
 
-1. On the Microsoft Community Training portal, [**switch to administrator view**](../../../get-started/step-by-step-configuration-guide.md#step-2--switch-to-administrator-view-of-the-portal) and under **Course tab**, select the **Course** for which you want to add users
+1. On the  Community Training portal, [**switch to administrator view**](../../../get-started/step-by-step-configuration-guide.md#step-2--switch-to-administrator-view-of-the-portal) and under **Course tab**, select the **Course** for which you want to add users
 
 2. Click or tap the **Manage Users** icon on top-right of the course details page.
 

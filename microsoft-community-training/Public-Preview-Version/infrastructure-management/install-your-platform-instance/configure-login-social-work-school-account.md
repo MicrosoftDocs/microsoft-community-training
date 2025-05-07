@@ -3,7 +3,7 @@ title: Configure login identity for the platform
 original-url: https://docs.microsoftcommunitytraining.com/docs/configure-login-social-work-school-account
 author: nikotha
 ms.author: nikotha
-description: Microsoft Community Training platform provides three types of login.
+description: Community Training platform provides three types of login.
 ms.prod: learning-azure
 zone_pivot_groups: "AD-Deployments-Methods"
 ---
@@ -20,7 +20,7 @@ and follow the below documentation to configure login identity.
 
 ## Configure login identity
 
-Microsoft Community Training platform provides three types of login:
+Community Training platform provides three types of login:
 
 1. Phone number
 2. Social email-based login via your Microsoft, Google or Facebook account

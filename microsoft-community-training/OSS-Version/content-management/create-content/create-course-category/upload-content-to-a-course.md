@@ -11,13 +11,13 @@ ms.prod: learning-azure
 
 Lesson is a single unit of learning content in the form of Video, PDF, Word or PPT file for a course. We can have one or more lessons for a course depending upon how admin decides to structure the course.
 
-On the Microsoft Community Training Management Portal, there are two ways to upload content for a course. Admin can either upload content for each lesson manually or use bulk upload lesson feature to upload list of lessons at one go.
+On the  Community Training Management Portal, there are two ways to upload content for a course. Admin can either upload content for each lesson manually or use bulk upload lesson feature to upload list of lessons at one go.
 
 In this article, you will learn more about how to upload content to a course on the management portal in the respective sections:
 
 ## Permissions Level
 
-The Microsoft Community Training
+The  Community Training
 management portal provides role-based administration and depending upon the type of access level admins can perform an action on the portal. Table below shows administrative role which are allowed to upload content to a course in the portal:
 
 | Access Level  | Upload content to a course |
@@ -33,7 +33,7 @@ management portal provides role-based administration and depending upon the type
 
 You can manually upload the required content to a course using New Lesson option on the course details page.
 
-1. On the Microsoft Community Training portal, login and [**switch to administrator view**](../../../get-started/step-by-step-configuration-guide.md#step-2--switch-to-administrator-view-of-the-portal).
+1. On the  Community Training portal, login and [**switch to administrator view**](../../../get-started/step-by-step-configuration-guide.md#step-2--switch-to-administrator-view-of-the-portal).
 
 2. Under Course tab, select the course under a category in the list  to which you want to upload the content.
 
@@ -139,7 +139,7 @@ Before you start doing the bulk upload of lessons for a course, you need to make
 
 ### Steps for bulk upload lessons for a course
 
-1. On the Microsoft Community Training  platform, login and [**switch to administrator view**](../../../get-started/step-by-step-configuration-guide.md#step-2--switch-to-administrator-view-of-the-portal).
+1. On the  Community Training  platform, login and [**switch to administrator view**](../../../get-started/step-by-step-configuration-guide.md#step-2--switch-to-administrator-view-of-the-portal).
 
 2. Click or tap **More (...)** icon to the right of the course name to bulk upload lessons for a course.
 

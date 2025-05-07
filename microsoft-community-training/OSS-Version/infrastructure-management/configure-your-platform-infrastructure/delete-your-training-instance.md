@@ -15,7 +15,7 @@ When you no longer need your training portal, you can delete it by deleting the 
 
    ![Navigate Resource groups](../../media/image%2823%29.png)
 
-2. From the list of resource groups, click on the resource group belonging to your Microsoft Community Training instance
+2. From the list of resource groups, click on the resource group belonging to your Community Training instance
 
     >[!Note]
     >There are two types of Resource Groups - Managed Resource Group and Parent Resource Group.

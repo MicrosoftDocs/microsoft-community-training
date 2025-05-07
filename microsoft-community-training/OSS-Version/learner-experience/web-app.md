@@ -3,19 +3,19 @@ title: Learner Experience on the web portal
 original-url: https://docs.microsoftcommunitytraining.com/docs/web-app
 author: nikotha
 ms.author: nikotha
-description: This document details the learner experience on the web portal of Microsoft Community Training platform.
+description: This document details the learner experience on the web portal of Community Training platform.
 ms.prod: learning-azure
 ---
 
 # Learner Experience on the web portal
 
-This article explains how learners can access the training content using the web portal for the Microsoft Community Training platform instance setup for your organization.
+This article explains how learners can access the training content using the web portal for the Community Training platform instance setup for your organization.
 
 ## Step 1: Login to your learning portal
 
-1. Open the web browser and visit  the Microsoft Community Training platform instance  setup for your organization. For e.g. [**fabrikamtraining.azurefd.net**](https://fabrikamtraining.azurefd.net/)
+1. Open the web browser and visit  the Community Training platform instance  setup for your organization. For e.g. [**fabrikamtraining.azurefd.net**](https://fabrikamtraining.azurefd.net/)
 
-    :::image type="content" source="../media/image(173).png" alt-text="Microsoft Community Training":::
+    :::image type="content" source="../media/image(173).png" alt-text="Community Training":::
 
 2. On the home page, click on the **Sign In**  or  **Get Started** button.
 

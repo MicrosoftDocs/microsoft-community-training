@@ -13,7 +13,7 @@ In this topic, you will learn more about how to delete or remove an existing use
 
 ## Permissions Level
 
-The Microsoft Community Training management portal provides role-based administration and depending upon the type of access level administrator can perform an action on the portal. Table below shows administrative role which are allowed to delete a user from the platform:
+The Community Training management portal provides role-based administration and depending upon the type of access level administrator can perform an action on the portal. Table below shows administrative role which are allowed to delete a user from the platform:
 
 | Access Level    | Delete a user from the platform |
 | --- | --- |
@@ -26,7 +26,7 @@ The Microsoft Community Training management portal provides role-based administr
 
 ## Steps to delete a user from the platform
 
-1. On the Microsoft Community Training portal, after login [**switch to administrator view**](../../get-started/step-by-step-configuration-guide.md#step-2--switch-to-administrator-view-of-the-portal).
+1. On the Community Training portal, after login [**switch to administrator view**](../../get-started/step-by-step-configuration-guide.md#step-2--switch-to-administrator-view-of-the-portal).
 
 2. Select **All Users** tab in the Users tab on the left-navigation page
 

@@ -3,19 +3,19 @@ title: Customize the look and feel of your portal
 original-url: https://docs.microsoftcommunitytraining.com/docs/configure-the-look-and-feel-of-your-portal
 author: nikotha
 ms.author: nikotha
-description: You can customize the look and feel of your learner experience of the Microsoft Community Training platform to suit your organization's branding needs.
+description: You can customize the look and feel of your learner experience of the Community Training platform to suit your organization's branding needs.
 ms.prod: learning-azure
 ---
 
 # Customize the look and feel of your portal
 
-You can customize the look and feel of your learner experience of the Microsoft Community Training platform to suit your organization's branding needs.
+You can customize the look and feel of your learner experience of the Community Training platform to suit your organization's branding needs.
 
 In this article, you will learn about how to customize the look and feel of the web end point of the learner experience via the management portal:
 
 ## Permissions Level
 
-The Microsoft Community Training management portal provides role-based administration and depending upon the type of access level administrator can perform an action on the portal.  Table below shows administrative roles that can customize the look and feel of the portal.
+The Community Training management portal provides role-based administration and depending upon the type of access level administrator can perform an action on the portal.  Table below shows administrative roles that can customize the look and feel of the portal.
 
 |Access Level|Settings|
 |---|---|
@@ -28,7 +28,7 @@ The Microsoft Community Training management portal provides role-based administr
 
 ## Before you begin
 
-After login to your Microsoft Community Training portal, [**switch to administrator view**](../get-started/step-by-step-configuration-guide.md#step-2--switch-to-administrator-view-of-the-portal) and click on **Settings option** from the left navigation panel.
+After login to your Community Training portal, [**switch to administrator view**](../get-started/step-by-step-configuration-guide.md#step-2--switch-to-administrator-view-of-the-portal) and click on **Settings option** from the left navigation panel.
 
 ![Settings option](../media/image%28379%29.png)
 

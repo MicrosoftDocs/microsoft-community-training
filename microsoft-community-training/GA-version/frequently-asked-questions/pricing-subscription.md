@@ -14,7 +14,7 @@ ms.service: azure
 ### My organization is not using Microsoft Azure. Can I still use Community Training?
 
 Community Training is built on top of the Azure portal.
-If your organization is not using Microsoft Azure, then you can [**create a Microsoft Azure account**](https://azure.microsoft.com/) on your own or [**reach out to a Microsoft Cloud Solution Partner**](https://partner.microsoft.com/membership/cloud-solution-provider/find-a-provider) to procure Microsoft Azure for your organization.
+If your organization is not using Microsoft Azure, then you can [**create a Microsoft Azure account**](https://azure.microsoft.com/) on your own or [**reach out to a Cloud Solution Partner**](https://partner.microsoft.com/membership/cloud-solution-provider/find-a-provider) to procure Microsoft Azure for your organization.
 
 ### Can I use the free Microsoft Azure subscription for deploying the platform?
 
@@ -62,7 +62,7 @@ Here is our recommendation on when to use each plan:
 
 * Premium plan is used when you have higher traffic requirements and want to provide a smooth user experience at scale. 
 
-Please reach out to us if you have additional questions on the hardware configuration selected for each of the plans.[**Microsoft Community Training Helpdesk**](https://aka.ms/cthelpdesk).
+Please reach out to us if you have additional questions on the hardware configuration selected for each of the plans.[**Community Training Helpdesk**](https://aka.ms/cthelpdesk).
 
 <!--
 Note  : HIDING THIS AS THE QUESTION IS ANSWERED IN THE QUESTION ABOVE

@@ -9,7 +9,7 @@ ms.prod: learning-azure
 
 # De-assignment of Content from the User
 
-Microsoft Community Training platform now allows the administrator to remove learners from Courses/ learning paths/ user groups and therefore de-assign them from the relevant content mapped through these segments. With this, once the learner is de-assigned from a content, he/she will not be able to view that content.
+Community Training platform now allows the administrator to remove learners from Courses/ learning paths/ user groups and therefore de-assign them from the relevant content mapped through these segments. With this, once the learner is de-assigned from a content, he/she will not be able to view that content.
 
 >[!Note]
 >

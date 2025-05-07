@@ -11,9 +11,9 @@ items:
       tocHref: /azure/industry/
       topicHref: /azure/industry/index
       items:
-      - name: Microsoft Community Training
+      - name: Community Training
         tocHref: /azure/industry/training-services/microsoft-community-training/
         topicHref: /azure/industry/training-services/microsoft-community-training/index  
-      - name: Microsoft Community Training
+      - name: Community Training
         tocHref: /azure/reliability/
         topicHref: /azure/industry/index

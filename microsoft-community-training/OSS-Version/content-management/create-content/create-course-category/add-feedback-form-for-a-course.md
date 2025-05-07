@@ -15,7 +15,7 @@ In this article, you will learn more about how to create and enable feedback for
 
 ## Creating the Feedback Form
 
-The feedback form on the training platform is added as a link while creating or editing a course. The feedback form can be created on any of the external survey websites, some popular one's include Microsoft Form, Google Form and Survey Monkey.
+The feedback form on the training platform is added as a link while creating or editing a course. The feedback form can be created on any of the external survey websites, some popular one's include  Form, Google Form and Survey Monkey.
 
 The feedback form once enabled, is available to learners when they attempt a course.
 
@@ -23,7 +23,7 @@ The feedback form once enabled, is available to learners when they attempt a cou
 
 ## Pre-filling the Feedback Form
 
-Microsoft Community Training platform allows you to dynamically pre-fill certain data fields when collecting feedback from the learners.
+ Community Training platform allows you to dynamically pre-fill certain data fields when collecting feedback from the learners.
 If the website where you are creating the survey form allows you to enable pre-filling the data, the following mapping can be used so that the learners do not have to fill the mapped information and can directly move to providing their objective feedback on the content.
 
 | Field | Mapping |

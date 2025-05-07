@@ -3,13 +3,13 @@ title: Set up a Custom Homepage for your MCT instance
 original-url: https://docs.microsoftcommunitytraining.com/docs/customize-the-certificate-template
 author: nikotha
 ms.author: nikotha
-description: This document explains the flow to enable a custom homepage for your Microsoft Community Training platform. 
+description: This document explains the flow to enable a custom homepage for your Community Training platform. 
 ms.prod: learning-azure
 ---
 
 # Set up a Custom Homepage for your MCT instance
 
-If you are interested to replace Microsoft Community Training (MCT) home page with any other custom home page that you have built, you can easily achieve that with a simple set of steps.
+If you are interested to replace Community Training (MCT) home page with any other custom home page that you have built, you can easily achieve that with a simple set of steps.
 
 To get started, you need to have a custom home page designed for it to be linked to MCT instance. Here is a sample design for [**MCT Custom Homepage**](https://github.com/MicrosoftDocs/microsoft-community-training/files/6968259/MCT_CustomHomePage_Templates.zip)
 

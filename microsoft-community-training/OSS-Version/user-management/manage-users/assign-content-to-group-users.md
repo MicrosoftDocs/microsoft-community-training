@@ -18,7 +18,7 @@ In this article, you will learn more about how to assign Learning Paths and Cour
 
 ## Permissions Level
 
-The Microsoft Community Training management portal provides role-based administration and depending upon the type of access level administrator can perform an action on the portal. Table below shows administrative role which are allowed to assign content to the users in the group on the portal:
+The Community Training management portal provides role-based administration and depending upon the type of access level administrator can perform an action on the portal. Table below shows administrative role which are allowed to assign content to the users in the group on the portal:
 
 | Access Level  | Assign course to group users  |
 | --- | --- |
@@ -34,7 +34,7 @@ The Microsoft Community Training management portal provides role-based administr
 > [!TIP]
 > Whenever a new course is assigned to the users by the administrator, an announcement is sent which can be viewed by users under **Notifications** section of the learner experience.
 
-1. On the Microsoft Community Training portal, after login [**switch to administrator view in the portal**](../../get-started/step-by-step-configuration-guide.md#step-2--switch-to-administrator-view-of-the-portal) and select a Group to which you want to assign courses to the group users
+1. On the Community Training portal, after login [**switch to administrator view in the portal**](../../get-started/step-by-step-configuration-guide.md#step-2--switch-to-administrator-view-of-the-portal) and select a Group to which you want to assign courses to the group users
 
 2. Select **Content** tab from group details page
 

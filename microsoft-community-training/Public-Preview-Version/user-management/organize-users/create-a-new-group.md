@@ -3,13 +3,13 @@ title: Create new group
 original-url: https://docs.microsoftcommunitytraining.com/docs/create-a-new-group
 author: nikotha
 ms.author: nikotha
-description: Group is a key feature in the Microsoft Community Training platform. It enables you to delegate user management and drive learner engagement to the grassroots-level.
+description: Group is a key feature in the Community Training platform. It enables you to delegate user management and drive learner engagement to the grassroots-level.
 ms.prod: learning-azure
 ---
 
 # Create new group
 
-Group is a key feature in the Microsoft Community Training platform. It enables you to delegate user management and drive learner engagement to the grassroots-level.
+Group is a key feature in the Community Training platform. It enables you to delegate user management and drive learner engagement to the grassroots-level.
 
 Groups make user management easy via automatic enrollment, bulk user onboarding, course assignments, announcements and monitoring learner progress.
 
@@ -20,7 +20,7 @@ In this article, you will learn more about how to create a new group on the mana
 
 ## Permissions Level
 
-The Microsoft Community Training management portal provides role-based administration and depending upon the type of access level administrator can perform an action on the portal. Table below shows administrative role which are allowed to create a new group on the portal:
+The Community Training management portal provides role-based administration and depending upon the type of access level administrator can perform an action on the portal. Table below shows administrative role which are allowed to create a new group on the portal:
 
 | Access Level | Create a new Group |
 | --- | --- |
@@ -33,7 +33,7 @@ The Microsoft Community Training management portal provides role-based administr
 
 ## Steps to create a new group
 
-1. On the Microsoft Community Training portal, after login [**swtich to administrator view**](../../get-started/step-by-step-configuration-guide.md#step-2--switch-to-administrator-view-of-the-portal) and select Users tab from the left navigation panel.
+1. On the Community Training portal, after login [**swtich to administrator view**](../../get-started/step-by-step-configuration-guide.md#step-2--switch-to-administrator-view-of-the-portal) and select Users tab from the left navigation panel.
 
 2. To add a new group, click or tap **New Group** on the bottom-left of the page.
 

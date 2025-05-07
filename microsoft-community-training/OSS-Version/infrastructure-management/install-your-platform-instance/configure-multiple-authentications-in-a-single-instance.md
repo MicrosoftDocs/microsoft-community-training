@@ -3,7 +3,7 @@ title: Configure multiple authentications in a single instance
 original-url: https://docs.microsoftcommunitytraining.com/docs/configure-multi-mode-authentication-for-same-deployment
 author: sambati
 ms.author: sambati
-description: Setup multiple authentication modes in a single instance of Microsoft Community Training platform.
+description: Setup multiple authentication modes in a single instance of Community Training platform.
 ms.prod: learning-azure
 ---
 

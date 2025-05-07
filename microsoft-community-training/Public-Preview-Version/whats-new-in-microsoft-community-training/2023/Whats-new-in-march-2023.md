@@ -2,13 +2,13 @@
 title: What's new in March 2023
 author: v-nmadireddi
 ms.author: v-nmadireddi
-description: This document details the new features and capabilities launched on the Microsoft Community Training platform in March 2023. 
+description: This document details the new features and capabilities launched on the Community Training platform in March 2023. 
 ms.prod: learning-azure
 ---
 
 # What’s new in March 2023
 
-We are excited to share the new product update of Microsoft Community Training with you! The features in this release are designed to enhance the management and delivery of online learning modules in a seamless manner to your community.
+We are excited to share the new product update of Community Training with you! The features in this release are designed to enhance the management and delivery of online learning modules in a seamless manner to your community.
 
 ### Smart group rules can now be edited
 

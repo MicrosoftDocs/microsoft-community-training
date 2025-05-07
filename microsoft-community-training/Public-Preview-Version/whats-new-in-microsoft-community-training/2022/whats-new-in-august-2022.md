@@ -2,13 +2,13 @@
 title: What's new in August 2022
 author: v-sambati
 ms.author: v-sambati
-description: This document details the new features and capabilities launched on the Microsoft Community Training platform in August 2022. 
+description: This document details the new features and capabilities launched on the Community Training platform in August 2022. 
 ms.prod: learning-azure
 ---
 
 # What’s new in August 2022
 
-We are excited to share the new product update of Microsoft Community Training with you! These features in this release are designed to enhance the management and delivery of online learning modules in a seamless manner to your community.
+We are excited to share the new product update of Community Training with you! These features in this release are designed to enhance the management and delivery of online learning modules in a seamless manner to your community.
 
 ## Associated profile fields
 
@@ -18,7 +18,7 @@ As an admin you can now create [dependencies](../../settings/add-additional-prof
 
 ## Organization Branding
 
-Microsoft community training now lets you [customize the look](../../user-management/organization-management.md#customize-look-and-feel-of-your-organizations) and feel of your [Organization(s)](../../user-management/organization-management.md#organization-management). When a learner from specific organization logins to MCT their experience would be customized to settings of their respective organization.
+Community training now lets you [customize the look](../../user-management/organization-management.md#customize-look-and-feel-of-your-organizations) and feel of your [Organization(s)](../../user-management/organization-management.md#organization-management). When a learner from specific organization logins to MCT their experience would be customized to settings of their respective organization.
 
 >[!NOTE]
 >
@@ -57,7 +57,7 @@ In an effort to make product more adaptable, MCT now supports localization of yo
 
 ### Support for Course progress import and Course content export with external LMS
 
-Microsoft Community Training platform lets [global administrators](../../user-management/add-users/add-an-administrator-to-the-portal.md#add-a-global-administrator-to-the-platform) [import user progress](../../frequently-asked-questions/custom-integration.md#steps-to-how-to-integrate-apis-to-import-progress) from other learning portals which will enable seamless experience for learner.
+Community Training platform lets [global administrators](../../user-management/add-users/add-an-administrator-to-the-portal.md#add-a-global-administrator-to-the-platform) [import user progress](../../frequently-asked-questions/custom-integration.md#steps-to-how-to-integrate-apis-to-import-progress) from other learning portals which will enable seamless experience for learner.
 
 Customers can also [export course content](../../frequently-asked-questions/custom-integration.md#export-course-content-to-other-lms) from MCT to other learning portals.
 

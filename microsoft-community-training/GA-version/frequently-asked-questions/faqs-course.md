@@ -300,7 +300,7 @@ For scenarios when you have a course available in multiple languages, you can au
 
 ### How can an organization create content for  Community Training?
 
-You can create content as per the needs of your training program, using any tool of your choice. Microsoft can help you with your content creation by advising you on best practices and tips to create engaging content for your audience.
+You can create content as per the needs of your training program, using any tool of your choice. Can help you with your content creation by advising you on best practices and tips to create engaging content for your audience.
 
 Contact us via [**HelpDesk**](https://aka.ms/cthelpdesk) and leave your requirements in the ticket description.  
 

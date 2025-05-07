@@ -14,7 +14,7 @@ In this article, you will learn more about how to create a category, edit a cate
 
 ## Permissions Level
 
-The Microsoft Community Training management portal provides role-based administration and depending upon the type of access level admins can perform an action on the portal. Table below shows the administrative roles which are allowed to create, edit or delete category:
+The  Community Training management portal provides role-based administration and depending upon the type of access level admins can perform an action on the portal. Table below shows the administrative roles which are allowed to create, edit or delete category:
 
 | Access Level  | Create Category |
 | --- | --- |
@@ -29,7 +29,7 @@ The Microsoft Community Training management portal provides role-based administr
 
 In this topic, you will learn the simple steps to **Create Category** in the platform.
 
-1. On the Microsoft Community Training portal, after login [**switch to administrator view**](../../../get-started/step-by-step-configuration-guide.md#step-2--switch-to-administrator-view-of-the-portal).
+1. On the  Community Training portal, after login [**switch to administrator view**](../../../get-started/step-by-step-configuration-guide.md#step-2--switch-to-administrator-view-of-the-portal).
 
 2. Select the **Content** menu on the left bar and click on **Categories** tab
 

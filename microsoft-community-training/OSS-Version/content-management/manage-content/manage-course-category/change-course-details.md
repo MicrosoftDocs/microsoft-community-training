@@ -15,7 +15,7 @@ In this article, you will learn more about how to edit/ delete course details an
 
 ## Permissions Level
 
-The Microsoft Community Training management portal provides role-based administration and depending upon the type of access level admins can perform an action on the portal. Table below shows administrative role which are allowed to change course details for a course or delete a course in the portal:
+The  Community Training management portal provides role-based administration and depending upon the type of access level admins can perform an action on the portal. Table below shows administrative role which are allowed to change course details for a course or delete a course in the portal:
 
 | Access Level  | Edit a course | Delete a course |
 | --- | --- | --- |
@@ -28,7 +28,7 @@ The Microsoft Community Training management portal provides role-based administr
 
 ## Steps to edit course details for a course
 
-1. On the Microsoft Community Training portal, [**switch to administrator view**](../../../get-started/step-by-step-configuration-guide.md#step-2--switch-to-administrator-view-of-the-portal) and click on **Content tab**.
+1. On the  Community Training portal, [**switch to administrator view**](../../../get-started/step-by-step-configuration-guide.md#step-2--switch-to-administrator-view-of-the-portal) and click on **Content tab**.
 
 2. Go to **Categories tab** and select the Course for which you want to change the details
 
@@ -62,7 +62,7 @@ The Microsoft Community Training management portal provides role-based administr
 
 ## Steps to delete a course on the portal
 
-1. On the Microsoft Community Training portal, login and [**switch to administrator view**](../../../get-started/step-by-step-configuration-guide.md#step-2--switch-to-administrator-view-of-the-portal) and under **Course tab**, select the course which you want to delete from the portal
+1. On the  Community Training portal, login and [**switch to administrator view**](../../../get-started/step-by-step-configuration-guide.md#step-2--switch-to-administrator-view-of-the-portal) and under **Course tab**, select the course which you want to delete from the portal
 
 2. Click or tap on **More (…)** icon to the right of the course name and select the **Delete course** option from the menu
 

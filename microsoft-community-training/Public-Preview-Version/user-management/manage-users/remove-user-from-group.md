@@ -17,7 +17,7 @@ In this topic, you will learn the simple steps to remove an existing user from a
 
 ## Permissions Level
 
-The Microsoft Community Training management portal provides role-based administration and depending upon the type of access level administrator can perform an action on the portal. Table below shows administrative role which are allowed to delete users from a group on the portal:
+The Community Training management portal provides role-based administration and depending upon the type of access level administrator can perform an action on the portal. Table below shows administrative role which are allowed to delete users from a group on the portal:
 
 | Access Level    | Delete a user from a Group |
 | --- | --- |

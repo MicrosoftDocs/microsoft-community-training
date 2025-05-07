@@ -3,19 +3,19 @@ title: Publish a course on the training portal
 original-url: https://docs.microsoftcommunitytraining.com/docs/publishing-course
 author: nikotha
 ms.author: nikotha
-description: Any new course created on the Microsoft Community Training management portal will not be accessible to the learners unless and until it is published.
+description: Any new course created on the  Community Training management portal will not be accessible to the learners unless and until it is published.
 ms.prod: learning-azure
 ---
 
 # Publish a course on the training portal
 
-Any new course created on the Microsoft Community Training management portal will not be accessible to the learners unless and until it is published. In other words, any changes made to the course content (i.e. adding a new lesson, quizzes and exam) will come into effect only when changes are published.
+Any new course created on the  Community Training management portal will not be accessible to the learners unless and until it is published. In other words, any changes made to the course content (i.e. adding a new lesson, quizzes and exam) will come into effect only when changes are published.
 
 In this article, you will learn about steps admin needs to perform before publishing a course on the management portal:
 
 ## Permissions Level
 
-The Microsoft Community Training  management portal provides role-based administration and depending upon the type of access level admins can perform an action on the portal. Table below shows administrative role which are allowed to publish a course to the learners on the portal:
+The  Community Training  management portal provides role-based administration and depending upon the type of access level admins can perform an action on the portal. Table below shows administrative role which are allowed to publish a course to the learners on the portal:
 
 | Access Level  | Publish a course |
 | --- | --- |

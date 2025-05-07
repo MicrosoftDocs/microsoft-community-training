@@ -3,13 +3,13 @@ title: Content Management - Overview
 original-url: https://docs.microsoftcommunitytraining.com/docs/content-management-overview
 author: nikotha
 ms.author: nikotha
-description: Microsoft Community Training platform allows you to create and manage  content, as well as  it quickly and easily.
+description:  Community Training platform allows you to create and manage  content, as well as  it quickly and easily.
 ms.prod: learning-azure
 ---
 
 # Content Management - Overview
 
-Microsoft Community Training platform allows you to create and manage  content, as well as  it quickly and easily. Organizations can add rich multi-media content, quizzes and exams as content and create a structured learning experience for the learners.
+ Community Training platform allows you to create and manage  content, as well as  it quickly and easily. Organizations can add rich multi-media content, quizzes and exams as content and create a structured learning experience for the learners.
 
 All the management functionalities of courses are stacked together in a single panel under the **Content Tab**  – a one-stop-shop for administrators to manage content on the portal. From the content tab, administrators can create Categories, Courses and Learning paths, upload and manage course materials, configure course settings, and much more.
 
@@ -19,7 +19,7 @@ In this section, you will learn how to leverage the content management capabilit
 
 ## Content structure on the platform
 
-Microsoft Community Training platform provides the following learning taxonomy to categories and structure content on the portal:
+ Community Training platform provides the following learning taxonomy to categories and structure content on the portal:
 
 ![Course Management - Course and Category](../media/Course%20Management%20-%20Course%20and%20Category.png)
 
@@ -58,7 +58,7 @@ A **Lesson** is a single unit of learning in the form of Audio, Video, PDF, Word
 
 ### 4. Assessments
 
-**Assessments** are a way to test learner’s understanding of the course content and check their knowledge & proficiency. They may contain one or more multiple-choice questions. Microsoft Community Training platform provides two types of assessments:
+**Assessments** are a way to test learner’s understanding of the course content and check their knowledge & proficiency. They may contain one or more multiple-choice questions.  Community Training platform provides two types of assessments:
 
 #### Practice Quiz
 
@@ -96,7 +96,7 @@ For example, training your extended workforce may include different competencies
 
 ## Steps to create content in the portal
 
-Content creation is one of the core activities of any online learning program. This is why Microsoft Community Training platform provides specific set of features to help administrators to create new content on the portal. Given below are the few simple steps to get started with content management on the management portal:
+Content creation is one of the core activities of any online learning program. This is why  Community Training platform provides specific set of features to help administrators to create new content on the portal. Given below are the few simple steps to get started with content management on the management portal:
 ![Course Management - Learning path](../media/Course%20Management%20-%20Learning%20path.png)
 
 ### Step 1 - Create a new category
@@ -133,7 +133,7 @@ Here are the detailed steps on [**how to publish a Learning path**](../content-m
 
 ## Enabling Global Content across organizations
 
-Microsoft Community Training allows to create a common repository of content which is called as **Global Content**. With this feature, you can have common content across organizations/tenants in your instance.
+ Community Training allows to create a common repository of content which is called as **Global Content**. With this feature, you can have common content across organizations/tenants in your instance.
 
 > [!Note]
 > This Feature will allow you to have global content across multiple tenants for your MS Teams deployment
@@ -162,7 +162,7 @@ Microsoft Community Training allows to create a common repository of content whi
 
 ## View content analytics to track and measure effectiveness
 
-Microsoft Community Training platform provides out of the box rich analytics for organizations to track overall learner’s enrollment and completion for different courses, measure learner’s performance and ensure quality of content in satisfactory and meets the success criteria set by the organization.
+ Community Training platform provides out of the box rich analytics for organizations to track overall learner’s enrollment and completion for different courses, measure learner’s performance and ensure quality of content in satisfactory and meets the success criteria set by the organization.
 The management portal has content and user related in-built reports at [**category level**](../analytics/in-built-reports/category-view-report.md) to help administrators track and measure effectiveness of the learning content.
 
 ![Track analytics](../media/Track%20analytics.png)

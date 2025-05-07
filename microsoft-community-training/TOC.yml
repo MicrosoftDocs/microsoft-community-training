@@ -619,8 +619,6 @@
               href: oss-version/analytics/in-built-reports/learner-report-card-view.md
           - name: Custom Reports
             items:
-            - name: Power BI Integration
-              href: oss-version/analytics/custom-reports/power-bi-integration.md
             - name: Database Schema
               href: oss-version/analytics/custom-reports/database-schema.md
       - name: Settings

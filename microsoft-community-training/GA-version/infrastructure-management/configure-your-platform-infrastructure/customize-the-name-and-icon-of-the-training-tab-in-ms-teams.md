@@ -38,7 +38,7 @@ You can download the sample file with instructions from here: [Sample Teams Mani
 ### Step 3 – Create the new Teams Manifest File and upload it
 
 1. Zip the three files (Color.png, outline.png and manifest.json) to create a new manifest zip file.
-2. Follow the instructions in the [Steps to enable learning inside Microsoft Teams document](/azure/industry/training-services/microsoft-community-training/infrastructure-management/install-your-platform-instance/create-teams-app-for-your-training-portal), from Step 3 to upload the updated file.
+2. Follow the instructions in the [Steps to enable learning inside Microsoft Teams document](/azure/industry/training-services/microsoft-community-training/ga-version/infrastructure-management/install-your-platform-instance/create-teams-app-for-your-training-portal), from Step 3 to upload the updated file.
 
 
 Please reach out to us [**via HelpDesk**](https://aka.ms/cthelpdesk) if you have any further queries.

@@ -8,14 +8,8 @@ ms.prod: learning-azure
 
 # What’s new in April 2025
 
-
-
 This hotfix update includes a series of targeted improvements designed to enhance platform stability, optimize performance, and improve the overall user experience. The following issues have been addressed in this release:
 
-
-# What's New in April 2025 – Hotfix Update
-
-This hotfix update includes a series of targeted improvements designed to enhance platform stability, optimize performance, and improve the overall user experience. The following issues have been addressed in this release:
 
 ## Bug Fixes and Improvements
 

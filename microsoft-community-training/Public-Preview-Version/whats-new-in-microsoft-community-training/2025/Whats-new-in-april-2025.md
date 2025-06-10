@@ -13,23 +13,30 @@ ms.prod: learning-azure
 This hotfix update includes a series of targeted improvements designed to enhance platform stability, optimize performance, and improve the overall user experience. The following issues have been addressed in this release:
 
 
-###Offline Download Support Expanded
-Offline access in the TWA App now includes support for Microsoft Office files and HTML-based lessons, in addition to existing supported formats.
+# What's New in April 2025 – Hotfix Update
 
-###SCORM Progress Tracking Enhanced
-Learner progress for SCORM-based lessons is now tracked and updated in real time, ensuring accurate reporting across sessions.
+This hotfix update includes a series of targeted improvements designed to enhance platform stability, optimize performance, and improve the overall user experience. The following issues have been addressed in this release:
 
-###User Access Behavior Updated
-New users no longer encounter the “Restricted user” message when the Restricted User Access setting is disabled. This ensures a consistent onboarding experience.
+## Bug Fixes and Improvements
 
-###iOS Download Icon Availability
-The download icon for Microsoft Office files is now correctly displayed within courses when accessed from iOS devices.
+- **Offline Download Support Expanded**  
+  Offline access in the TWA App now includes support for Microsoft Office files and HTML-based lessons, in addition to existing supported formats.
 
-###Video Format Handling Adjusted
-Downloaded video content is no longer automatically converted to MP4 format. Files now retain their original format as intended.
+- **SCORM Progress Tracking Enhanced**  
+  Learner progress for SCORM-based lessons is now tracked and updated in real time, ensuring accurate reporting across sessions.
 
-###Video Playback Stability Improved
-Resolved an issue where video playback was disrupted after lesson names were edited. Videos now play as expected following content updates.
+- **User Access Behavior Updated**  
+  New users no longer encounter the “Restricted user” message when the `Restricted User Access` setting is disabled. This ensures a consistent onboarding experience.
 
-###Offline Sync URL Correction
-The system now generates the correct URL within the JSON file used for offline synchronization, improving reliability during sync operations.
+- **iOS Download Icon Availability**  
+  The download icon for Microsoft Office files is now correctly displayed within courses when accessed from iOS devices.
+
+- **Video Format Handling Adjusted**  
+  Downloaded video content is no longer automatically converted to MP4 format. Files now retain their original format as intended.
+
+- **Video Playback Stability Improved**  
+  Resolved an issue where video playback was disrupted after lesson names were edited. Videos now play as expected following content updates.
+
+- **Offline Sync URL Correction**  
+  The system now generates the correct URL within the JSON file used for offline synchronization, improving reliability during sync operations.
+

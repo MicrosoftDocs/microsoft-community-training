@@ -442,6 +442,10 @@
         items:
           - name: What's new in Microsoft Community Training
             href: public-preview-version/whats-new-in-microsoft-community-training/whats-new-in-microsoft-community-training.md
+          - name: 2025
+            items:
+            - name: What's new in April 2025
+              href: public-preview-version/whats-new-in-microsoft-community-training/2025/Whats-new-in-april-2025.md
           - name: 2023
             items:
             - name: What's new in March 2023

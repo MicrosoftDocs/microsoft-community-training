@@ -37,7 +37,7 @@ Here are the steps an create on Azure AD B2C tenant and link the same with your 
         3. "https://*name*-staging.azurewebsites.net/signin-b2c-pwd"  
     where "name" corresponds to your website name.
 
-2. Copy the Application ID value to be required later for [**Client ID**](https://learn.microsoft.com/en-us/azure/industry/training-services/microsoft-community-training/infrastructure-management/install-your-platform-instance/configure-login-social-work-school-account#step-2---create-azure-ad-b2c-application).
+2. Copy the Application ID value to be required later for [**Client ID**](/azure/industry/training-services/microsoft-community-training/public-preview-version/infrastructure-management/install-your-platform-instance/configure-login-social-work-school-account#step-2---create-azure-ad-b2c-application).
 
 1. In your Application, under Manage, go to **Certificates & Secrets** and click on **Generate Key**.
 

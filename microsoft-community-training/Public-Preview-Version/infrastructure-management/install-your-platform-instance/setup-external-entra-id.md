@@ -53,6 +53,11 @@ continue.
 
 ![reg an app9](../../media/enapp4.png)
 
+![reg an app10](../../media/enapp5.png)
+
+![reg an app11](../../media/enapp6.png)
+
+
 ### STEP 6: Create a Client Secret 
 * Navigate to Certificates & Secrets under Manage. 
 * In the Client secrets section, click + New client secret. 
@@ -61,6 +66,8 @@ months).
 * Click Add. 
 * IMPORTANT: Copy the Value immediately. This is your client_secret_for_B2C. It 
 will not be shown again. Paste it on notepad for further use
+
+![reg an app12](../../media/enapp7.png)
 
 
 ### STEP 7: Create a sign-up and sign-in user flow 
@@ -83,6 +90,8 @@ will not be shown again. Paste it on notepad for further use
 * Login to [Azure portal](https://www.portal.azure.com/). 
 
 * Go to App Services from the left-menu.
+
+  ![reg an app95](../../media/enapp8.png)
 
 
 * Click on the app service belonging to your Community Training instance. 

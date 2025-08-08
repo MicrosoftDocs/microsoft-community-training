@@ -364,8 +364,10 @@
               href: public-preview-version/infrastructure-management/install-your-platform-instance/configure-login-social-work-school-account.md
             - name: Configure multiple authentications in a single instance
               href: public-preview-version/infrastructure-management/install-your-platform-instance/configure-multiple-authentications-in-a-single-instance.md   
+            - name: Setup Microsoft Entra External ID App Registration
+              href: public-preview-version/infrastructure-management/install-your-platform-instance/setup-external-entra-id.md
             - name: Create and Publish your Mobile App
-              href: public-preview-version/infrastructure-management/install-your-platform-instance/create-publish-mobile-app.md  
+              href: public-preview-version/infrastructure-management/install-your-platform-instance/create-publish-mobile-app.md
             - name: Using REST APIs to integrate with existing system
               href: public-preview-version/infrastructure-management/install-your-platform-instance/apis.md
             - name: Setup Microsoft Teams as learner endpoint for the platform

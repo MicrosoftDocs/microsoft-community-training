@@ -98,6 +98,8 @@ will not be shown again. Paste it on notepad for further use
 
 * Select Environment variables under settings from the left-menu
 
+  ![reg an app51](../../media/enapp9.png)
+
 
 Update the below mentioned app settings(if app settings are not available add them):
 

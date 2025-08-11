@@ -1,5 +1,7 @@
 ## Step-by-Step Guide: Microsoft Entra External ID App Registration for Community training 
 
+> Note: If the external tenant has not yet been set up, follow the steps in [this document](https://learn.microsoft.com/en-us/entra/external-id/customers/quickstart-tenant-setup) to complete the setup before proceeding.
+
 ### STEP 1: Sign in to Entra Admin Center 
 * Navigate to: https://entra.microsoft.com 
 * Sign in with an account that has at least Application Developer permissions. 
@@ -109,7 +111,7 @@ Update the below mentioned app settings(if app settings are not available add th
 | `AzureAdb2c__Domain`       | `<your-tenant-domain-name>.onmicrosoft.com`                |
 | `AzureAdb2c__ClientId`     | `<your-client-id>`                                         |
 | `AzureAdb2c__TenantId`     | `<your-tenant-id>`                                         |
-| `AzureAdb2c__ClientSecret` | Follow this Document                                       |
+| `AzureAdb2c__ClientSecret` | [Follow this document](https://learn.microsoft.com/en-us/azure/industry/training-services/microsoft-community-training/public-preview-version/frequently-asked-questions/generate-new-clientsecret-link-to-key-vault#update-key-vault-with-new-client-secret)                                       |
 | `AzureAdb2c__Scope__0`     | `api://<your-client-id>/access_as_user`                   |
 
 

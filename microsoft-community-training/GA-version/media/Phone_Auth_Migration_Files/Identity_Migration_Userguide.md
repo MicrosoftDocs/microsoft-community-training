@@ -34,7 +34,18 @@ The Migration process involves the following steps:
 
 1.  Customer will setup the ADB2C on their subscription based on identity options selected.
 2.  Customer will inform the Community Training  team via [**helpdesk**](https://aka.ms/cthelpdesk) once ADB2C set up is complete.
-3.  Community Training  Team will implement the necessary steps to enable migration to new identity and retaining their progress.
+    Customer have to update the following app settings (create new application settings if not already present):
+    
+    | **Application Setting**                || **Value**                                  |
+    |----------------------------------------||--------------------------------------------|
+    | PhoneAuthMigrationEnabled              || True                                       |
+    | PhoneAuthMigrationEnabledDate          || Enter Enabling Date in 'MM/DD/YYYY' format |
+    | PhoneBaseEndpoint                      || https://phoneverification.azurefd.net      |
+
+    Rename the App Setting of 'idp:PhoneExternalAuthClientId' to 'PhoneAuthClientId'. Don't change the value
+        
+
+4.  Community Training  Team will implement the necessary steps to enable migration to new identity and retaining their progress.
 
 The Migration can happen in either of the two ways:
 

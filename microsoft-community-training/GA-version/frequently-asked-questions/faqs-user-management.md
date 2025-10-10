@@ -251,7 +251,7 @@ As you upload the files, Azure adds the prefix `B2C_1A_` to each.
 
 ### Update the App setting
 
-1. Navigate to [App service](/azure/industry/training-services/microsoft-community-training/settings/configurations-on-the-training-platform#steps-to-set-the-configurations-on-the-platform) configurations.
+1. Navigate to [App service](/azure/industry/training-services/microsoft-community-training/public-preview-version/settings/configurations-on-the-training-platform#steps-to-set-the-configurations-on-the-platform) configurations.
 2. Search for `idp:AzureADB2CExternalAuthPolicy`
 3. Update the value to **B2C_1A_SignUpOrSignInWithPhone**
 4. Save the App settings

@@ -9,7 +9,7 @@ The script and configuration currently only sets up phone based OTP authenticati
 ## Adding Native ADB2C's Phone Auth to your instance
 If the customer has to be migrated to ADB2C Native Phone Authentication from CT Phone Authentication:
 
-1. Follow ***step 1*** to ***step 2 (till sub-step 5)*** from the social auth setup docs [Setup Social Authentication for Community Training](https://learn.microsoft.com/en-us/azure/industry/training-services/microsoft-community-training/infrastructure-management/install-your-platform-instance/configure-login-social-work-school-account#social-account-or-email-based-authentication)
+1. Follow ***step 1*** to ***step 2 (till sub-step 5)*** from the social auth setup docs [Setup Social Authentication for Community Training](/azure/industry/training-services/microsoft-community-training/public-preview-version/infrastructure-management/install-your-platform-instance/configure-login-social-work-school-account#social-account-or-email-based-authentication)
 2. Open [Azure Portal](https://portal.azure.com)
    
 3. Ensure that the account being used has App Creator access in the tenant and Owner access for the subscription.
@@ -37,7 +37,7 @@ If the customer has to be migrated to ADB2C Native Phone Authentication from CT 
 
 8. The script completes successfully when it outputs the ***AuthPolicyName*** and ***GraphApiManagementAppSecret***. Copy the ***GraphApiManagementAppSecret*** and store securely for later use.
 9. Update the following values in the app service configurations.   
-Refer here: [ App Service Configurations](https://learn.microsoft.com/en-us/azure/industry/training-services/microsoft-community-training/settings/configurations-on-the-training-platform#steps-to-set-the-configurations-on-the-platform)
+Refer here: [ App Service Configurations](/azure/industry/training-services/microsoft-community-training/public-preview-version/settings/configurations-on-the-training-platform#steps-to-set-the-configurations-on-the-platform)
     - **idp:AzureADB2CExternalAuthPolicy** - **AuthPolicyName** from the script output as mentioned in step 8.
     - **idpSelection** - 1
 

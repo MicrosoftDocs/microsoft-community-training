@@ -12,7 +12,7 @@ We are excited to share the new product update of Microsoft Community Training w
 
 ## Associated profile fields
 
-As an admin you can now create [dependencies](../../settings/add-additional-profile-fields-for-user-information.md#steps-to-create-associated-profile-fields) among profile fields in MCT. Field dependency means, controlling a fields value based on the other field. For example, there are two fields called Country & State. I want to display only states related specific selected country when I select country.
+As an admin you can now create [dependencies](../../settings/add-additional-profile-fields-for-user-information.md#steps-to-create-associated-profile-fields) among profile fields in MCT. Field dependency means, controlling a fields value based on the other field. For example, there are two fields called Country & State. I want to display only states related specific selected country/region when I select country/region.
 
 :::image type="content" source="../../media/depchooseoptions.png" alt-text="associatedupload":::
 

@@ -6,7 +6,8 @@ ms.author: nikotha
 description: Group Administrators can use bulk upload users feature to save time and add multiple users to specific group in one go.
 ms.service: azure
 ---
-
+> [!IMPORTANT]  
+> Community Training will reach end of support on Tuesday, April 7, 2026. No new deployments are available at this time. Existing Community Training customers will continue to receive security updates and technical support through Tuesday, April 7, 2026 at 11:59 pm. For more information or support, please reach out to our team here: https://aka.ms/cthelpdesk
 # Add multiple users to the group
 
 Group Administrators can use the **Bulk Upload Users** feature to save time and add multiple users to specific group in one go.

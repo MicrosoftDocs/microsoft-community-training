@@ -6,7 +6,8 @@ ms.author: nikotha
 description: The Community Training platform has various levels of access roles for administrators.
 ms.service: azure
 ---
-
+> [!IMPORTANT]  
+> Community Training will reach end of support on Tuesday, April 7, 2026. No new deployments are available at this time. Existing Community Training customers will continue to receive security updates and technical support through Tuesday, April 7, 2026 at 11:59 pm. For more information or support, please reach out to our team here: https://aka.ms/cthelpdesk
 # Restrict content access to Group Administrators
 
 The Community Training platform has various levels of access roles for administrators. A Group Administrator can:

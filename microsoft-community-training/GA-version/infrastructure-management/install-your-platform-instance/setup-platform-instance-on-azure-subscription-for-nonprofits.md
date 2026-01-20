@@ -6,7 +6,8 @@ ms.author: nikotha
 description: If you are a non-profit organization, you can apply for Azure credit grant of $3500 per year which can be used to setup and run an instance of Microsoft Community Training platform for your organization.
 ms.service: azure
 ---
-
+> [!IMPORTANT]  
+> Community Training will reach end of support on Tuesday, April 7, 2026. No new deployments are available at this time. Existing Community Training customers will continue to receive security updates and technical support through Tuesday, April 7, 2026 at 11:59 pm. For more information or support, please reach out to our team here: https://aka.ms/cthelpdesk
 # Setup platform instance on Azure subscription for Nonprofits
 
 If you are a non-profit organization, you can apply for Azure credit grant of $3500 per year which can be used to setup and run an instance of Microsoft Community Training platform for your organization.

@@ -6,7 +6,8 @@ ms.author: nikotha
 description: Deleting or removing a user from a group will only remove the user from the selected group.
 ms.service: azure
 ---
-
+> [!IMPORTANT]  
+> Community Training will reach end of support on Tuesday, April 7, 2026. No new deployments are available at this time. Existing Community Training customers will continue to receive security updates and technical support through Tuesday, April 7, 2026 at 11:59 pm. For more information or support, please reach out to our team here: https://aka.ms/cthelpdesk
 # Delete a user from the group
 
 Deleting or removing a user from a group will only remove the user from the selected group. It will not impact user participation in other groups nor remove any course that was already assigned to the user before being a part of this group.

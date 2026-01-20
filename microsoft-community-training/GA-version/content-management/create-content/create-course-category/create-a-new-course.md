@@ -6,7 +6,8 @@ ms.author: nikotha
 description: This document explains new course creation flow on the Community Training platform. 
 ms.service: azure
 ---
-
+> [!IMPORTANT]  
+> Community Training will reach end of support on Tuesday, April 7, 2026. No new deployments are available at this time. Existing Community Training customers will continue to receive security updates and technical support through Tuesday, April 7, 2026 at 11:59 pm. For more information or support, please reach out to our team here: https://aka.ms/cthelpdesk
 # Create a new course
 
 A Course is a collection of lessons and assessments. Once a course is created, you can upload content and add assessments in a structured format for learners to complete through the web portal or mobile application.  

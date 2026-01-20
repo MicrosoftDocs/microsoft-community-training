@@ -6,7 +6,8 @@ ms.author: nikotha
 description: This document explains certificate template customization flow on the Community Training platform. 
 ms.service: azure
 ---
-
+> [!IMPORTANT]  
+> Community Training will reach end of support on Tuesday, April 7, 2026. No new deployments are available at this time. Existing Community Training customers will continue to receive security updates and technical support through Tuesday, April 7, 2026 at 11:59 pm. For more information or support, please reach out to our team here: https://aka.ms/cthelpdesk
 # Customize the certificate template for the platform
 
 By default, Community Training uses a basic template to issue certificates to learners who have completed a course. Organization can customize the certificate template and put their own branding as required. You can create and assign multiple certificates appropriate to the course. Here's an example of a certificate:

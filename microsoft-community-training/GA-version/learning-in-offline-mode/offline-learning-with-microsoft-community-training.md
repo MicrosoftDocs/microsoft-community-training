@@ -6,7 +6,8 @@ ms.author: cbrahmandam
 description: This article explains how learners can access the training content in offline mode
 ms.service: azure
 ---
-
+> [!IMPORTANT]  
+> Community Training will reach end of support on Tuesday, April 7, 2026. No new deployments are available at this time. Existing Community Training customers will continue to receive security updates and technical support through Tuesday, April 7, 2026 at 11:59 pm. For more information or support, please reach out to our team here: https://aka.ms/cthelpdesk
 # Offline Learning with Community Training
 
 The Community Training team is working to enable learning in offline mode.

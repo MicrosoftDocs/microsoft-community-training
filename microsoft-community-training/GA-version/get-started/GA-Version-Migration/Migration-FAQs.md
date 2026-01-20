@@ -6,7 +6,8 @@ ms.author: cbrahmandam
 description: Community Training is an Azure-powered online learning platform to enable organizations of all sizes and types to run large scale training programs for their internal and external communities.
 ms.service: azure
 ---
-
+> [!IMPORTANT]  
+> Community Training will reach end of support on Tuesday, April 7, 2026. No new deployments are available at this time. Existing Community Training customers will continue to receive security updates and technical support through Tuesday, April 7, 2026 at 11:59 pm. For more information or support, please reach out to our team here: https://aka.ms/cthelpdesk
 This document answers the fewquently asked questions about the Migration to the GA Version of the Community Training. You can always reach out to our [helpdesk](https://aka.ms/cthelpdesk) if you have any additional questions or concerns. 
 
 ### 1. When will Public Preview version of Community Training end?

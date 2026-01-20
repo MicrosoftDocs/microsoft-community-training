@@ -6,7 +6,8 @@ ms.author: nikotha
 description: Overall summary view is designed to give the admin a quick glance at the learner enrollments, learner engagement and course completion.
 ms.service: azure
 ---
-
+> [!IMPORTANT]  
+> Community Training will reach end of support on Tuesday, April 7, 2026. No new deployments are available at this time. Existing Community Training customers will continue to receive security updates and technical support through Tuesday, April 7, 2026 at 11:59 pm. For more information or support, please reach out to our team here: https://aka.ms/cthelpdesk
 # Overall summary view
 
 The overall Summary View is designed to give the admin a quick glance at learner enrollments, learner engagement, and course completion. It provides insights on content quality, facilitates comparative analytics across categories, and enables admins to notice things that require attention.

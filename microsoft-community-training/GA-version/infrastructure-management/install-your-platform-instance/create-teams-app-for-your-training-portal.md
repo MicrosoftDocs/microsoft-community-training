@@ -6,7 +6,8 @@ ms.author: nikotha
 description: Community Training allows organization to enable online learning inside Microsoft Teams across web, mobile and desktop app.
 ms.service: azure
 ---
-
+> [!IMPORTANT]  
+> Community Training will reach end of support on Tuesday, April 7, 2026. No new deployments are available at this time. Existing Community Training customers will continue to receive security updates and technical support through Tuesday, April 7, 2026 at 11:59 pm. For more information or support, please reach out to our team here: https://aka.ms/cthelpdesk
 # Setup Microsoft Teams as learner's endpoint for the platform
 
  Community Training allows organizations to enable online learning inside Microsoft Teams across web, mobile and desktop applications. For more details on the Community Training platform integration with Microsoft Teams, [**visit our website**](https://communitytraining.microsoft.com/teams/).

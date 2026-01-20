@@ -6,7 +6,8 @@ ms.author: nikotha
 description: When you no longer need your training portal, you can delete it by deleting the resource group from the Azure portal.
 ms.service: azure
 ---
-
+> [!IMPORTANT]  
+> Community Training will reach end of support on Tuesday, April 7, 2026. No new deployments are available at this time. Existing Community Training customers will continue to receive security updates and technical support through Tuesday, April 7, 2026 at 11:59 pm. For more information or support, please reach out to our team here: https://aka.ms/cthelpdesk
 # Delete your training platform instance
 
 When you no longer need your training portal, you can delete it by deleting the resource group from the Azure portal.

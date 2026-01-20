@@ -6,7 +6,8 @@ ms.author: nikotha
 description: Enable sign-in for users from a multiple Azure AD organization using a user flow in Azure AD B2C.
 ms.service: azure
 ---
-
+> [!IMPORTANT]  
+> Community Training will reach end of support on Tuesday, April 7, 2026. No new deployments are available at this time. Existing Community Training customers will continue to receive security updates and technical support through Tuesday, April 7, 2026 at 11:59 pm. For more information or support, please reach out to our team here: https://aka.ms/cthelpdesk
 # Add multiple Azure AD(single tenant) to B2C as social account
 
 This article shows you how to enable sign-in for users from a specific Azure AD organization using a user flow in Azure AD B2C.

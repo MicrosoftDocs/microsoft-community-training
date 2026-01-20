@@ -6,7 +6,8 @@ ms.author: nikotha
 description: Group admin are responsible to drive engagement and monitor course completion for learners on the ground.
 ms.service: azure
 ---
-
+> [!IMPORTANT]  
+> Community Training will reach end of support on Tuesday, April 7, 2026. No new deployments are available at this time. Existing Community Training customers will continue to receive security updates and technical support through Tuesday, April 7, 2026 at 11:59 pm. For more information or support, please reach out to our team here: https://aka.ms/cthelpdesk
 # Group View
 
 Group admins are responsible for driving engagement and monitoring course completion for learners on the ground. To support Group admins in these tasks,  Community Training provides group-level analytics to track learning progress for a cohort of learners and take relevant actions.

@@ -6,7 +6,8 @@ ms.author: cbrahmandam
 description: Community Training is an Azure-powered online learning platform to enable organizations of all sizes and types to run large scale training programs for their internal and external communities.
 ms.service: azure
 ---
-
+> [!IMPORTANT]  
+> Community Training will reach end of support on Tuesday, April 7, 2026. No new deployments are available at this time. Existing Community Training customers will continue to receive security updates and technical support through Tuesday, April 7, 2026 at 11:59 pm. For more information or support, please reach out to our team here: https://aka.ms/cthelpdesk
 # Welcome to Community Training
 
 Community Training is an Azure-powered online learning platform that enables organizations of all sizes and types to run large-scale training programs for their internal and external communities such as first-line workers, extended workforces, partner ecosystems, volunteer networks, program beneficiaries, and more.

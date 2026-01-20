@@ -6,7 +6,8 @@ ms.author: nikotha
 description: Similar to the Category View, Course View provides admin a quick glance at the learner enrollments, learner engagement and course completion for a particular course.
 ms.service: azure
 ---
-
+> [!IMPORTANT]  
+> Community Training will reach end of support on Tuesday, April 7, 2026. No new deployments are available at this time. Existing Community Training customers will continue to receive security updates and technical support through Tuesday, April 7, 2026 at 11:59 pm. For more information or support, please reach out to our team here: https://aka.ms/cthelpdesk
 # Course View
 
 Similar to the Category View, Course View provides admins a quick glance at learner enrollments, learner engagement, and course completion for a particular course. It facilitates comparative analytics for learner performance on a particular course and provides insights into content quality.

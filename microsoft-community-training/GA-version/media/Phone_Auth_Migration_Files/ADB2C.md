@@ -6,7 +6,9 @@ ms.author: v-nmadireddi
 description: This document details the instruction to setup ADB2C on Market Place version of Community Training. Primarily to aid in Phone Identity Migration
 ms.service: azure
 ---
-## Steps to setup ADB2C for GA readiness
+> [!IMPORTANT]  
+> Community Training will reach end of support on Tuesday, April 7, 2026. No new deployments are available at this time. Existing Community Training customers will continue to receive security updates and technical support through Tuesday, April 7, 2026 at 11:59 pm. For more information or support, please reach out to our team here: https://aka.ms/cthelpdesk
+# Steps to setup ADB2C for GA readiness
 
 ### Step 1 - Setup your Azure AD B2C
 

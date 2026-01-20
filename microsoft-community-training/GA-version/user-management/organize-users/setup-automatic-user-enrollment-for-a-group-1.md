@@ -6,7 +6,8 @@ ms.author: nikotha
 description: Group administrator can setup rule for a group to automatically add users to the specific group whenever the user's profile information matches the criteria of the rules.
 ms.service: azure
 ---
-
+> [!IMPORTANT]  
+> Community Training will reach end of support on Tuesday, April 7, 2026. No new deployments are available at this time. Existing Community Training customers will continue to receive security updates and technical support through Tuesday, April 7, 2026 at 11:59 pm. For more information or support, please reach out to our team here: https://aka.ms/cthelpdesk
 # Setup automatic user enrollment for a group
 
 Group administrators can setup rules for a group to automatically add users to a specific group whenever the user's profile information matches the criteria of those rules.  

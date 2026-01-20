@@ -6,7 +6,8 @@ ms.author: nikotha
 description: Lesson is a single unit of learning content in the form of Video, PDF, Word or PPT file for a course.
 ms.service: azure
 ---
-
+> [!IMPORTANT]  
+> Community Training will reach end of support on Tuesday, April 7, 2026. No new deployments are available at this time. Existing Community Training customers will continue to receive security updates and technical support through Tuesday, April 7, 2026 at 11:59 pm. For more information or support, please reach out to our team here: https://aka.ms/cthelpdesk
 # Upload content to a course
 
 A Lesson is a single unit of content included in a course and can be a video, PDF, Word or Powerpoint file. You can have one or more lessons for a course, depending on the complexity of the subject.

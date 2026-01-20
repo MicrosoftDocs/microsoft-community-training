@@ -6,7 +6,8 @@ ms.author: nikotha
 description: When the platform is setup with Phone Number or Email Address (aka Social Account) as login identity, by default, anyone with a valid phone number or email address can login to the portal and access the learning content.
 ms.service: azure
 ---
-
+> [!IMPORTANT]  
+> Community Training will reach end of support on Tuesday, April 7, 2026. No new deployments are available at this time. Existing Community Training customers will continue to receive security updates and technical support through Tuesday, April 7, 2026 at 11:59 pm. For more information or support, please reach out to our team here: https://aka.ms/cthelpdesk
 # Restrict portal access to learners outside your training program
 
 When the platform is setup with a phone Number or email address as an identity, anyone with a valid phone number or email address can sign in to the portal and access the learning content by default. There are often scenarios when a training program needs to restrict portal access to internal workforces, identified communities, or an existing list of learners.

@@ -6,7 +6,8 @@ ms.author: nikotha
 description: The Community Training platform allows administrators to send messages and alerts or broadcast information to different group of users via the announcement feature.
 ms.service: azure
 ---
-
+> [!IMPORTANT]  
+> Community Training will reach end of support on Tuesday, April 7, 2026. No new deployments are available at this time. Existing Community Training customers will continue to receive security updates and technical support through Tuesday, April 7, 2026 at 11:59 pm. For more information or support, please reach out to our team here: https://aka.ms/cthelpdesk
 # Send announcement to the users
 
 The Community Training platform allows administrators to send customized messages and alerts or to broadcast information to different groups of users via the announcement feature. Users can view the information and updates sent by the administrators under the **Notice Board section** of the learner experience.

@@ -6,7 +6,8 @@ ms.author: v-samarth
 description: "The Community Training platform now allows administrators to remove learners from Courses, Learning Paths, User Groups which will de-assign them from the relevant content mapped through these segments."
 ms.service: azure
 ---
-
+> [!IMPORTANT]  
+> Community Training will reach end of support on Tuesday, April 7, 2026. No new deployments are available at this time. Existing Community Training customers will continue to receive security updates and technical support through Tuesday, April 7, 2026 at 11:59 pm. For more information or support, please reach out to our team here: https://aka.ms/cthelpdesk
 # De-assignment of Content from the User
 
 The Community Training platform now allows administrators to remove learners from Courses, Learning Paths, and User Groups which will de-assign them from the relevant content mapped through these segments. With this, once the learner is de-assigned from a content, he/she will not be able to view that content.

@@ -6,7 +6,8 @@ ms.author: nikotha
 description: Any new Learning Path created on the Community Training management portal will not be accessible to the leaners unless and until it is published.
 ms.service: azure
 ---
-
+> [!IMPORTANT]  
+> Community Training will reach end of support on Tuesday, April 7, 2026. No new deployments are available at this time. Existing Community Training customers will continue to receive security updates and technical support through Tuesday, April 7, 2026 at 11:59 pm. For more information or support, please reach out to our team here: https://aka.ms/cthelpdesk
 # Publish a Learning Path on the Portal
 
 Any changes made to an existing Learning Path on the Community Training portal, or any new ones created, will not be accessible until the Learning Path is published.

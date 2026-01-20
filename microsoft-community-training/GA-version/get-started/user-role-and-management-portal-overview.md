@@ -6,7 +6,8 @@ ms.author: nikotha
 description: Community Training management portal is a one-stop-shop for all administrative functions like content management, user management, tracking and monitoring the training with analytics, portal settings, and more.
 ms.service: azure
 ---
-
+> [!IMPORTANT]  
+> Community Training will reach end of support on Tuesday, April 7, 2026. No new deployments are available at this time. Existing Community Training customers will continue to receive security updates and technical support through Tuesday, April 7, 2026 at 11:59 pm. For more information or support, please reach out to our team here: https://aka.ms/cthelpdesk
 # User roles and management portal overview
 
 The Community Training management portal is your one-stop-shop for all administrative functions like content management, user management, tracking and monitoring training through analytics, portal settings, and more. It's designed based on role-based access control, which means that features are only available to users based on the permissions they've been granted.

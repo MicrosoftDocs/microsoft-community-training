@@ -6,7 +6,8 @@ ms.author: cbrahmandam
 description: Community Training do not inbuilt support for live training sessions.
 ms.service: azure
 ---
-
+> [!IMPORTANT]  
+> Community Training will reach end of support on Tuesday, April 7, 2026. No new deployments are available at this time. Existing Community Training customers will continue to receive security updates and technical support through Tuesday, April 7, 2026 at 11:59 pm. For more information or support, please reach out to our team here: https://aka.ms/cthelpdesk
 # Platform Extensibility & Integration
 
 ## Live meetings and webinars

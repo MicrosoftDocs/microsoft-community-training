@@ -6,7 +6,8 @@ ms.author: nikotha
 description: Any new course created on the Community Training management portal will not be accessible to the learners unless and until it is published.
 ms.service: azure
 ---
-
+> [!IMPORTANT]  
+> Community Training will reach end of support on Tuesday, April 7, 2026. No new deployments are available at this time. Existing Community Training customers will continue to receive security updates and technical support through Tuesday, April 7, 2026 at 11:59 pm. For more information or support, please reach out to our team here: https://aka.ms/cthelpdesk
 # Publish a course on the training portal
 
 Any new course created on the Community Training management portal will not be accessible to the learners until it is published. This also means that any changes made to the course content (i.e. adding a new lesson, non-graded assessment, and graded assessment) will not come into effect until the new content is published.

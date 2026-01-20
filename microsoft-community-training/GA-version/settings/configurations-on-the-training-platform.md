@@ -6,7 +6,8 @@ ms.author: nikotha
 description: This document details the customizations supported on the Community Training platform for administrator and learner capabilities.
 ms.service: azure
 ---
-
+> [!IMPORTANT]  
+> Community Training will reach end of support on Tuesday, April 7, 2026. No new deployments are available at this time. Existing Community Training customers will continue to receive security updates and technical support through Tuesday, April 7, 2026 at 11:59 pm. For more information or support, please reach out to our team here: https://aka.ms/cthelpdesk
 # Configurations on the training platform
 
 You can customize the learner and administrator experience on the Community Training platform to fit the needs of your specific training program.

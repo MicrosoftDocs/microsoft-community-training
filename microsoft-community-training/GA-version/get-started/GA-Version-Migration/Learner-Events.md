@@ -6,7 +6,8 @@ ms.author: cbms03
 description: This document describes how to enable Learner Events in GA Version.
 ms.service: azure
 ---
-
+> [!IMPORTANT]  
+> Community Training will reach end of support on Tuesday, April 7, 2026. No new deployments are available at this time. Existing Community Training customers will continue to receive security updates and technical support through Tuesday, April 7, 2026 at 11:59 pm. For more information or support, please reach out to our team here: https://aka.ms/cthelpdesk
 # CT Events Infrastructure
 Community Training enables events infrastructure via the Azure Service Bus to enable you to track dynamic learner actions on the training platform.  
 

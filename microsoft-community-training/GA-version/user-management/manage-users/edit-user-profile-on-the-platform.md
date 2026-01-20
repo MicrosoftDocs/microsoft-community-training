@@ -5,7 +5,8 @@ ms.author: nikotha
 description: This document details the flow to edit a learner profile on the Community Training platform.  
 ms.service: azure
 ---
-
+> [!IMPORTANT]  
+> Community Training will reach end of support on Tuesday, April 7, 2026. No new deployments are available at this time. Existing Community Training customers will continue to receive security updates and technical support through Tuesday, April 7, 2026 at 11:59 pm. For more information or support, please reach out to our team here: https://aka.ms/cthelpdesk
 # Edit user profile on the platform
 
 A user's profile on the training platform consists of the mandatory fields first name, last name and unique identity (such as email, phone number or username) and additional profile fields defined by a Global Administrator.

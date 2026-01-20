@@ -6,7 +6,8 @@ ms.author: nikotha
 description: This document explains the flow to enable a custom homepage for your Microsoft Community Training platform. 
 ms.service: azure
 ---
-
+> [!IMPORTANT]  
+> Community Training will reach end of support on Tuesday, April 7, 2026. No new deployments are available at this time. Existing Community Training customers will continue to receive security updates and technical support through Tuesday, April 7, 2026 at 11:59 pm. For more information or support, please reach out to our team here: https://aka.ms/cthelpdesk
 # Set up a Custom Homepage for your CT instance
 
 You can replace the Community Training (CT) home page with any other custom home page that you have built.  This is easily achieved bu following the steps below.

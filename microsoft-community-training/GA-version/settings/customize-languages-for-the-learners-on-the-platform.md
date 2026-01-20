@@ -6,7 +6,8 @@ ms.author: nikotha
 description: By default, the Community Training platform is available in English language to the learners.
 ms.service: azure
 ---
-
+> [!IMPORTANT]  
+> Community Training will reach end of support on Tuesday, April 7, 2026. No new deployments are available at this time. Existing Community Training customers will continue to receive security updates and technical support through Tuesday, April 7, 2026 at 11:59 pm. For more information or support, please reach out to our team here: https://aka.ms/cthelpdesk
 # Customize languages on the platform
 
 By default, the Community Training platform is available in English to the learners. To support native learners, you can enable more languages and configure the default language for your platform instance.

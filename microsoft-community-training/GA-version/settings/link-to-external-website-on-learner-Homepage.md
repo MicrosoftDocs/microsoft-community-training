@@ -5,7 +5,8 @@ ms.author: nikotha
 description: This document details the flow to add a link to an external website on learner's home page on the Community Training platform.  
 ms.service: azure
 ---
-
+> [!IMPORTANT]  
+> Community Training will reach end of support on Tuesday, April 7, 2026. No new deployments are available at this time. Existing Community Training customers will continue to receive security updates and technical support through Tuesday, April 7, 2026 at 11:59 pm. For more information or support, please reach out to our team here: https://aka.ms/cthelpdesk
 # Link to External Website on Learner Home page
 
 Community Training enables you to provide a link to an external website on the learner’s homepage to facilitate quick access to a preferred website. This article describes how to configure this setting.

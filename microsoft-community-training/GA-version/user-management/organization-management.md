@@ -6,6 +6,8 @@ ms.author: nikotha
 description: Community Training supports multiple organizations to be created on the training platform where content and users can be mutually exclusive to each other.
 ms.service: azure
 ---
+> [!IMPORTANT]  
+> Community Training will reach end of support on Tuesday, April 7, 2026. No new deployments are available at this time. Existing Community Training customers will continue to receive security updates and technical support through Tuesday, April 7, 2026 at 11:59 pm. For more information or support, please reach out to our team here: https://aka.ms/cthelpdesk
 # Organization Management
 
 Community Training supports multiple organizations to be created where content and users can be part of siloed organizations within the same instance.

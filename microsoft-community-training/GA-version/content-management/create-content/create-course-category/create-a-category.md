@@ -6,7 +6,8 @@ ms.author: nikotha
 description: A category is a collection of courses on a specific topic. Categories help you organize your learning content for different learners.
 ms.service: azure
 ---
-
+> [!IMPORTANT]  
+> Community Training will reach end of support on Tuesday, April 7, 2026. No new deployments are available at this time. Existing Community Training customers will continue to receive security updates and technical support through Tuesday, April 7, 2026 at 11:59 pm. For more information or support, please reach out to our team here: https://aka.ms/cthelpdesk
 # Create a category
 
 A **category** is a collection of courses on a specific topic helpinghelp you organize your learning content for different learners. You can create a new category and add courses with lessons, non-graded assessments and graded assessments.

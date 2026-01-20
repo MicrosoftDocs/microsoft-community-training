@@ -6,7 +6,8 @@ ms.author: nikotha
 description: This article explains how learners can access the training content using the PWA-based Android mobile application for the  Community Training platform instance setup for your organization.
 ms.service: azure
 ---
-
+> [!IMPORTANT]  
+> Community Training will reach end of support on Tuesday, April 7, 2026. No new deployments are available at this time. Existing Community Training customers will continue to receive security updates and technical support through Tuesday, April 7, 2026 at 11:59 pm. For more information or support, please reach out to our team here: https://aka.ms/cthelpdesk
 # Learner Experience on (PWA-based) mobile app
 
 This article explains how learners can access training content using the [Progressive Web App (PWA) based Android mobile application](../infrastructure-management/install-your-platform-instance/create-publish-mobile-app.md#option-1-creating-a-progressive-web-application-pwa-for-android) for the Community Training setup of your organization.

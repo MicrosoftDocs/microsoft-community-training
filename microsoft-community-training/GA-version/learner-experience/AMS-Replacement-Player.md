@@ -6,7 +6,8 @@ ms.author: cbrahmandam
 description: The document is to help the learners get familiar with the new media player which is a replacement for the Azure MEdia Player
 ms.service: azure
 ---
-
+> [!IMPORTANT]  
+> Community Training will reach end of support on Tuesday, April 7, 2026. No new deployments are available at this time. Existing Community Training customers will continue to receive security updates and technical support through Tuesday, April 7, 2026 at 11:59 pm. For more information or support, please reach out to our team here: https://aka.ms/cthelpdesk
 # The updated Media Player in Community Training
 This article details the features and functionalities of the new player which is implemented as a replacement for the Azure Media Player service. 
 

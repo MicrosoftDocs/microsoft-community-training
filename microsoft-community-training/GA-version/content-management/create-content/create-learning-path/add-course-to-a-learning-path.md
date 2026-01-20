@@ -6,7 +6,8 @@ ms.author: nikotha
 description: A Learning Path is a defined sequence of courses on the training platform to administrator guided training paths to the learners.
 ms.service: azure
 ---
-
+> [!IMPORTANT]  
+> Community Training will reach end of support on Tuesday, April 7, 2026. No new deployments are available at this time. Existing Community Training customers will continue to receive security updates and technical support through Tuesday, April 7, 2026 at 11:59 pm. For more information or support, please reach out to our team here: https://aka.ms/cthelpdesk
 # Add course to a Learning path
 
 A **Learning Path** is a defined sequence of courses on the training portal which provides guided training paths to the learners.

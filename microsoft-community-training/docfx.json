@@ -42,12 +42,17 @@
     "overwrite": [],
     "externalReference": [],
     "globalMetadata": {
-      "breadcrumb_path": "/azure/industry/training-services/microsoft-community-training/breadcrumb/toc.json",
+      "breadcrumb_path": "/azure/industry/training-services/microsoft-community-training/ga-version/breadcrumb/toc.json",
       "extendBreadcrumb": true,
       "uhfHeaderId": "Azure",
       "feedback_system": "Standard"
     },
-    "fileMetadata": {},
+    "fileMetadata": {
+      "breadcrumb_path": {
+        "GA-version/**": "/azure/industry/training-services/microsoft-community-training/ga-version/breadcrumb/toc.json",
+        "Public-Preview-Version/**": "/azure/industry/training-services/microsoft-community-training/public-preview-version/breadcrumb/toc.json"
+      }
+    },
     "template": [],
     "dest": "microsoft-community-training",
     "markdownEngineName": "markdig"

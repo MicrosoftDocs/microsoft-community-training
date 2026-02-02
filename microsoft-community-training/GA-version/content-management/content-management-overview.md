@@ -5,7 +5,7 @@ author: nikotha
 ms.author: nikotha
 description: Community Training platform allows you to create and manage content.
 ms.service: azure
-ms.date: 02/02/2026
+ms.date: 01/20/2026
 ---
 
 # Content Management - Overview

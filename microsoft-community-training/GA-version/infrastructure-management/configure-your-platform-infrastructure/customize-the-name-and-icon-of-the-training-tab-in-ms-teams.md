@@ -1,5 +1,5 @@
 ---
-title: Customize the name and icon of the training tab in MS Teams
+title: Customize the name and icon of the training tab in MS Teams (GA)
 original-url: https://docs.microsoftcommunitytraining.com/docs/customize-the-name-and-icon-of-the-training-tab-in-ms-teams
 author: nikotha
 ms.author: nikotha
@@ -8,7 +8,7 @@ ms.service: azure
 ---
 > [!IMPORTANT]  
 > Community Training will reach end of support on Tuesday, April 7, 2026. No new deployments are available at this time. Existing Community Training customers will continue to receive security updates and technical support through Tuesday, April 7, 2026 at 11:59 pm. For more information or support, please reach out to our team here: https://aka.ms/cthelpdesk
-# Customize the name and icon of the training tab in MS Teams
+# Customize the name and icon of the training tab in MS Teams (GA)
 
 ## **Before you begin**
 

@@ -5,7 +5,7 @@ author: nikotha
 ms.author: nikotha
 description: Managing Administrator to a Learning Path can be done by selecting a Learning Path which you have created and using the Manage Administrator option provided.
 ms.service: azure
-ms.date: 01/20/2026
+ms.date: 11/20/2024
 ---
 
 # Add an Administrator to a Learning Path

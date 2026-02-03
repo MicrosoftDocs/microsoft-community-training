@@ -5,6 +5,7 @@ author: cbms03
 ms.author: cbrahmandam
 description: There are a number of prerequisites such as having a valid subscription type, access policy etc. before you can get started with the platform installation and setup.
 ms.service: azure
+ms.date: 01/20/2026
 ---
 > [!IMPORTANT]  
 > Community Training will reach end of support on Tuesday, April 7, 2026. No new deployments are available at this time. Existing Community Training customers will continue to receive security updates and technical support through Tuesday, April 7, 2026 at 11:59 pm. For more information or support, please reach out to our team here: https://aka.ms/cthelpdesk

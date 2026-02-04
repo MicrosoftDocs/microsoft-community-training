@@ -1,5 +1,5 @@
 ---
-title: Move Course content across training instance
+title: Move Course content across training instance - Public Preview
 original-url: https://docs.microsoftcommunitytraining.com/docs/move-course-content-across-training-instance
 author: nikotha
 ms.author: nikotha

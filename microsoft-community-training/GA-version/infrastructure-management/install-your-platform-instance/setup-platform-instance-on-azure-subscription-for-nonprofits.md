@@ -1,5 +1,5 @@
 ---
-title: Setup platform instance on Azure subscription for Nonprofits
+title: Setup platform instance on Azure subscription for Nonprofits - GA
 original-url: https://docs.microsoftcommunitytraining.com/docs/setup-platform-instance-on-azure-subscription-for-nonprofits
 author: nikotha
 ms.author: nikotha

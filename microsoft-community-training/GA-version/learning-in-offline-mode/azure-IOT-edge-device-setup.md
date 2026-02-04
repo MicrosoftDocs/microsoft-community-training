@@ -1,5 +1,5 @@
 ---
-title: Azure IOT Edge Device Setup
+title: Azure IOT Edge Device Setup - GA
 original-url: https://docs.microsoftcommunitytraining.com/docs/learning-in-offline-mode
 author: cbrahmandam
 ms.author: cbrahmandam

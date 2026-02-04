@@ -1,5 +1,5 @@
 ---
-title: Configurations on the Training Platform
+title: Configurations on the Training Platform - GA
 original-url: https://docs.microsoftcommunitytraining.com/docs/configurations-on-the-training-platform
 author: nikotha
 ms.author: nikotha

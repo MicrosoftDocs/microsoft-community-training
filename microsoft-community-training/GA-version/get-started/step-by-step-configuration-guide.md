@@ -1,5 +1,5 @@
 ---
-title: Step by step configuration guide for platform setup
+title: Step by step configuration guide for platform setup - GA
 original-url: https://docs.microsoftcommunitytraining.com/docs/step-by-step-configuration-guide
 author: cbrahmandam
 ms.author: cbrahmandam

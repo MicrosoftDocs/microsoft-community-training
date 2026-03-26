@@ -7,7 +7,7 @@ description: Community Training helps customers get a head start in their traini
 ms.service: azure
 ---
 > [!IMPORTANT]  
-> Community Training will reach end of support on Tuesday, April 7, 2026. No new deployments are available at this time. Existing Community Training customers will continue to receive security updates and technical support through Tuesday, April 7, 2026 at 11:59 pm. For more information or support, please reach out to our team here: https://aka.ms/cthelpdesk
+> Community Training will reach end of support on Tuesday, April 7, 2026. No new deployments are available at this time. Existing Community Training customers will continue to receive security updates and technical support through Tuesday, April 7, 2026 at 11:59 pm. For more information or support, please reach out to our team here: [Contact Support](mailto:ctprodsup@microsoft.com)
 # Content Marketplace
 
 **Community Training (CT)** allows users to import courses to their training portal via the Content Marketplace. Content Marketplace is a catalogue of top-notch training material from Microsoft available at your fingertips from the admin view.  It includes material on digital literacy, soft skills, Office 365, Azure cloud to the latest in-demand technological tools.
@@ -39,4 +39,4 @@ Hiding this as EMbedding is not currently allowed
 
  [**Import a course from content marketplace to an existing category**](create-a-new-course.md#option-2---add-course-via-content-marketplace).
 
-Please reach out to us [**via HelpDesk**](https://aka.ms/cthelpdesk) if you have any further queries.
+Please reach out to us [**via HelpDesk**]([Contact Support](mailto:ctprodsup@microsoft.com)) if you have any further queries.

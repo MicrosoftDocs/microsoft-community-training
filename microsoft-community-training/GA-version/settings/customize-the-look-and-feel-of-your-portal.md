@@ -7,7 +7,7 @@ description: You can customize the look and feel of your learner experience of t
 ms.service: azure
 ---
 > [!IMPORTANT]  
-> Community Training will reach end of support on Tuesday, April 7, 2026. No new deployments are available at this time. Existing Community Training customers will continue to receive security updates and technical support through Tuesday, April 7, 2026 at 11:59 pm. For more information or support, please reach out to our team here: https://aka.ms/cthelpdesk
+> Community Training will reach end of support on Tuesday, April 7, 2026. No new deployments are available at this time. Existing Community Training customers will continue to receive security updates and technical support through Tuesday, April 7, 2026 at 11:59 pm. For more information or support, please reach out to our team here: [Contact Support](mailto:ctprodsup@microsoft.com)
 # Customize the look and feel of the portal
 
 You can customize the look and feel of your learner experience of the Community Training platform to suit your organization's branding needs.
@@ -90,4 +90,4 @@ Your brand color will appear at the top bar on all the pages of your learning po
 Your footer title and footer message will appear on the bottom bar of the landing page on your learning portal. You can use these to convey additional information about your training program.
 ![Set the footer title and message](../media/image%28268%29.png)
 
-Please reach out to us [**via HelpDesk**](https://aka.ms/cthelpdesk) if you have any further queries.
+Please reach out to us [**via HelpDesk**]([Contact Support](mailto:ctprodsup@microsoft.com)) if you have any further queries.

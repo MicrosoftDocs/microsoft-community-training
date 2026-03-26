@@ -175,4 +175,4 @@ The management portal has content and user related reports built in at [**catego
 1. For assessments, keep the questions simple to help learners revise and retain the training lessons. They must cover key points of the lessons to keep learners engaged and encourage them to complete the course.
 
 
-Please reach out to us [**via HelpDesk**](https://aka.ms/cthelpdesk) if you have any further queries.
+Please reach out to us [**via HelpDesk**]([Contact Support](mailto:ctprodsup@microsoft.com)) if you have any further queries.

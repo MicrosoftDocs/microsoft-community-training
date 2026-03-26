@@ -8,7 +8,7 @@ description: In this article, you’ll learn how to install and deploy Microsoft
 ms.service: azure
 ---
 > [!IMPORTANT]  
-> Community Training will reach end of support on Tuesday, April 7, 2026. No new deployments are available at this time. Existing Community Training customers will continue to receive security updates and technical support through Tuesday, April 7, 2026 at 11:59 pm. For more information or support, please reach out to our team here: https://aka.ms/cthelpdesk
+> Community Training will reach end of support on Tuesday, April 7, 2026. No new deployments are available at this time. Existing Community Training customers will continue to receive security updates and technical support through Tuesday, April 7, 2026 at 11:59 pm. For more information or support, please reach out to our team here: [Contact Support](mailto:ctprodsup@microsoft.com)
 # Detailed step by step installation guide
 
 
@@ -178,5 +178,5 @@ To setup a mobile app for your instance, follow the instructions given in the [*
 To setup Teams for your instance , follow the instructions given in the [**setup Microsoft Teams as learner's endpoint**](../../infrastructure-management/install-your-platform-instance/create-teams-app-for-your-training-portal.md) for the platform article.
 
 
-Please reach out to us [**via HelpDesk**](https://aka.ms/cthelpdesk) if you have any further queries.
+Please reach out to us [**via HelpDesk**]([Contact Support](mailto:ctprodsup@microsoft.com)) if you have any further queries.
 

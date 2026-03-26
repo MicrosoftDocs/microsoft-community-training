@@ -65,4 +65,4 @@ In this topic, you will learn how to delete an existing category in the platform
     > When you delete a category, all the courses under the category will also be deleted.
 
 
-Please reach out to us [**via HelpDesk**](https://aka.ms/cthelpdesk) if you have any further queries.
+Please reach out to us [**via HelpDesk**]([Contact Support](mailto:ctprodsup@microsoft.com)) if you have any further queries.

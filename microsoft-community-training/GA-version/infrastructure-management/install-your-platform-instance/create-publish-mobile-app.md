@@ -7,7 +7,7 @@ description: In this article, we will learn about how to create and publish the 
 ms.service: azure
 ---
 > [!IMPORTANT]  
-> Community Training will reach end of support on Tuesday, April 7, 2026. No new deployments are available at this time. Existing Community Training customers will continue to receive security updates and technical support through Tuesday, April 7, 2026 at 11:59 pm. For more information or support, please reach out to our team here: https://aka.ms/cthelpdesk
+> Community Training will reach end of support on Tuesday, April 7, 2026. No new deployments are available at this time. Existing Community Training customers will continue to receive security updates and technical support through Tuesday, April 7, 2026 at 11:59 pm. For more information or support, please reach out to our team here: [Contact Support](mailto:ctprodsup@microsoft.com)
 # Create and Publish your Mobile App
 
 In this article, we will learn about how to create and publish the Mobile App (available only for Android platform) for your training portal.  
@@ -153,7 +153,7 @@ As you enabled the PWA, in the backend there will be a [service worker](https://
 
 6. If you have an existing android application published to play store and need to update it:
 
-    * Log a [**help desk**](https://aka.ms/cthelpdesk) ticket requesting a key store file for your previous android application.
+    * Log a [**help desk**]([Contact Support](mailto:ctprodsup@microsoft.com)) ticket requesting a key store file for your previous android application.
     * In the “Google Play store Options” mention [**Package ID**](https://developers.google.com/android/management/apps#install_apps) of your previously published android application.
     * Click on “All Settings” and increment your App version and App Version Code by 1 from your existing app version.
     * Scroll to “Signing Key”, choose ‘Use Mine’ and upload the key store file that you received from MCT support team.
@@ -192,7 +192,7 @@ This links protocol & API and enable an app or website to make public, verifiabl
 
 ## Option 2: Requesting a TWA mobile app AAB from the platform team
 
-1. Complete the pre-requisites and visit [**Community Training Helpdesk**](https://aka.ms/cthelpdesk) to request the TWA.
+1. Complete the pre-requisites and visit [**Community Training Helpdesk**]([Contact Support](mailto:ctprodsup@microsoft.com)) to request the TWA.
 ![Steps to create Mobile App for the training portal](../../media/image%2876%29.png)
 
 2. Click on **Sign in** on the top-left corner of the homepage. Use your Azure AD or Social accounts to register and sign in.
@@ -262,4 +262,4 @@ This links protocol & API and enable an app or website to make public, verifiabl
 > * If there is any change/update in login type configuration on your instance then the mobile application needs to be updated. 
 > * Office files are accessible only in TWA.
 
-Please reach out to us [**via HelpDesk**](https://aka.ms/cthelpdesk) if you have any further queries.
+Please reach out to us [**via HelpDesk**]([Contact Support](mailto:ctprodsup@microsoft.com)) if you have any further queries.

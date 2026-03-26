@@ -7,7 +7,7 @@ description: On the Community Training platform, you can add subtitles or captio
 ms.service: azure
 ---
 > [!IMPORTANT]  
-> Community Training will reach end of support on Tuesday, April 7, 2026. No new deployments are available at this time. Existing Community Training customers will continue to receive security updates and technical support through Tuesday, April 7, 2026 at 11:59 pm. For more information or support, please reach out to our team here: https://aka.ms/cthelpdesk
+> Community Training will reach end of support on Tuesday, April 7, 2026. No new deployments are available at this time. Existing Community Training customers will continue to receive security updates and technical support through Tuesday, April 7, 2026 at 11:59 pm. For more information or support, please reach out to our team here: [Contact Support](mailto:ctprodsup@microsoft.com)
 # Add subtitles or captions to video content
 
 On the Community Training platform, you can add subtitles or captions to the video lessons for a course to make your course content more accessible and create an inclusive learning environment. The captions are used to help learners read while they watch and overcome difficulties (if any) in understanding the language of the voice over.
@@ -54,4 +54,4 @@ Once the subtitles or captions are added to the video lessons, it can be viewed 
 1. Captions will be seen on the video in the language that you select
 
 
-Please reach out to us [**via HelpDesk**](https://aka.ms/cthelpdesk) if you have any further queries.
+Please reach out to us [**via HelpDesk**]([Contact Support](mailto:ctprodsup@microsoft.com)) if you have any further queries.

@@ -7,7 +7,7 @@ description: Community Training currently supports 28 languages.
 ms.service: azure
 ---
 > [!IMPORTANT]  
-> Community Training will reach end of support on Tuesday, April 7, 2026. No new deployments are available at this time. Existing Community Training customers will continue to receive security updates and technical support through Tuesday, April 7, 2026 at 11:59 pm. For more information or support, please reach out to our team here: https://aka.ms/cthelpdesk
+> Community Training will reach end of support on Tuesday, April 7, 2026. No new deployments are available at this time. Existing Community Training customers will continue to receive security updates and technical support through Tuesday, April 7, 2026 at 11:59 pm. For more information or support, please reach out to our team here: [Contact Support](mailto:ctprodsup@microsoft.com)
 # Request a new Language
 
  Community Training currently supports 63+ languages on the platform.
@@ -20,7 +20,7 @@ In this article, you'll learn how request new languages for your platform instan
 
 ## Steps to request a new language for the platform
 
-1. Visit the [**Community Training Helpdesk**](https://aka.ms/cthelpdesk/).
+1. Visit the [**Community Training Helpdesk**]([Contact Support](mailto:ctprodsup@microsoft.com)/).
 
 1. Sign in using your Azure AD or Social account.
 
@@ -37,4 +37,4 @@ In this article, you'll learn how request new languages for your platform instan
 
 1. Our support team will get in touch with you to learn more about your requirements in 2-3 business days.
 
-Please reach out to us [**via HelpDesk**](https://aka.ms/cthelpdesk) if you have any further queries.
+Please reach out to us [**via HelpDesk**]([Contact Support](mailto:ctprodsup@microsoft.com)) if you have any further queries.

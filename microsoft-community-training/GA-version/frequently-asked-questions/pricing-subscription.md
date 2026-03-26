@@ -7,7 +7,7 @@ description: Community Training is built on top of Azure platform and available 
 ms.service: azure
 ---
 > [!IMPORTANT]  
-> Community Training will reach end of support on Tuesday, April 7, 2026. No new deployments are available at this time. Existing Community Training customers will continue to receive security updates and technical support through Tuesday, April 7, 2026 at 11:59 pm. For more information or support, please reach out to our team here: https://aka.ms/cthelpdesk
+> Community Training will reach end of support on Tuesday, April 7, 2026. No new deployments are available at this time. Existing Community Training customers will continue to receive security updates and technical support through Tuesday, April 7, 2026 at 11:59 pm. For more information or support, please reach out to our team here: [Contact Support](mailto:ctprodsup@microsoft.com)
 # Pricing & Subscription
 
 ## Azure Subscription
@@ -63,7 +63,7 @@ Here is our recommendation on when to use each plan:
 
 * Premium plan is used when you have higher traffic requirements and want to provide a smooth user experience at scale. 
 
-Please reach out to us if you have additional questions on the hardware configuration selected for each of the plans.[**Microsoft Community Training Helpdesk**](https://aka.ms/cthelpdesk).
+Please reach out to us if you have additional questions on the hardware configuration selected for each of the plans.[**Microsoft Community Training Helpdesk**]([Contact Support](mailto:ctprodsup@microsoft.com)).
 
 <!--
 Note  : HIDING THIS AS THE QUESTION IS ANSWERED IN THE QUESTION ABOVE
@@ -100,4 +100,4 @@ Community Training doesn't charge for bandwidth or streaming costs when the vide
 No. Once the content is downloaded on the device neither learner is charged for the mobile data when viewing the content nor customers are charged for any Azure consumption.
 
 
-Please reach out to us [**via HelpDesk**](https://aka.ms/cthelpdesk) if you have any further queries.
+Please reach out to us [**via HelpDesk**]([Contact Support](mailto:ctprodsup@microsoft.com)) if you have any further queries.

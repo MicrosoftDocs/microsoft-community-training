@@ -7,7 +7,7 @@ description: Community Training do not inbuilt support for live training session
 ms.service: azure
 ---
 > [!IMPORTANT]  
-> Community Training will reach end of support on Tuesday, April 7, 2026. No new deployments are available at this time. Existing Community Training customers will continue to receive security updates and technical support through Tuesday, April 7, 2026 at 11:59 pm. For more information or support, please reach out to our team here: https://aka.ms/cthelpdesk
+> Community Training will reach end of support on Tuesday, April 7, 2026. No new deployments are available at this time. Existing Community Training customers will continue to receive security updates and technical support through Tuesday, April 7, 2026 at 11:59 pm. For more information or support, please reach out to our team here: [Contact Support](mailto:ctprodsup@microsoft.com)
 # Platform Extensibility & Integration
 
 ## Live meetings and webinars
@@ -22,7 +22,7 @@ Post-session, to mark the completion, you can give learners assessment that they
 
 Also, you can replace the live training link with the actual recording of the training session on the platform for people to view and consume the content later.
 
-For more details, please reach out to us [**via HelpDesk**](https://aka.ms/cthelpdesk).
+For more details, please reach out to us [**via HelpDesk**]([Contact Support](mailto:ctprodsup@microsoft.com)).
 
 ### Can I integrate Cisco WebEx, Microsoft Teams, Zoom, etc. with Community Training for live sessions?
 
@@ -66,7 +66,7 @@ Here are the steps to embed the webview of CT in your custom mobile application 
     * `https://<DOMAIN>.azurewebsites.net/home/defaultsignin?whr=uri%3aB2C&referrer=basedomain&domain_hint=DOMAIN`
     * Where Domain is name of your instance. eg: if your instance url is `https://contoso.azurewebsites.net` then replace DOMAIN with 'contoso'
 
-Contact us [**via HelpDesk**](https://aka.ms/cthelpdesk) to get help on the integration.
+Contact us [**via HelpDesk**]([Contact Support](mailto:ctprodsup@microsoft.com)) to get help on the integration.
 
 ### Identity Mapping between external portal to CT (via ADB2C)
 
@@ -94,7 +94,7 @@ Community Training does not come with any job-matching capabilities out of the b
 
 <!--However, it can be integrated with external job portals to push learner progress and course certificates using the REST APIs.
 
-For more information, please reach out to us [**via HelpDesk**](https://aka.ms/cthelpdesk) on how to integrate the platform with external application.
+For more information, please reach out to us [**via HelpDesk**]([Contact Support](mailto:ctprodsup@microsoft.com)) on how to integrate the platform with external application.
 
 Note  : THIS SECTION IS HIDDEN UNTIL THE APIs BECOME AVAILABLE
 -->
@@ -113,7 +113,7 @@ Periodic email or SMS alerts to users such as information on new course addition
 
 <!--For example, customers can leverage the APIs and use third-party tools to extend platform capability and send emails to learners as required. These can be welcome emails when they first sign in to the platform or they can be update emails when a new course is assigned to them.
 -->
-For more details, reach out to us [**via HelpDesk**](https://aka.ms/cthelpdesk).
+For more details, reach out to us [**via HelpDesk**]([Contact Support](mailto:ctprodsup@microsoft.com)).
 
 ### Is there a feature to create additional notifications through emails?
 
@@ -223,4 +223,4 @@ Course content export can be done with the help of the API below. The specificat
 | Response contract | 200 for successful response. <br/>400, 429, 403, 500, 503 for various error response. |
 -->
 
-Please reach out to us [**via HelpDesk**](https://aka.ms/cthelpdesk) if you have any further queries.
+Please reach out to us [**via HelpDesk**]([Contact Support](mailto:ctprodsup@microsoft.com)) if you have any further queries.

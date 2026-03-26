@@ -7,7 +7,7 @@ description: This document is to describe how to enable APIs using Service to SE
 ms.service: azure
 ---
 > [!IMPORTANT]  
-> Community Training will reach end of support on Tuesday, April 7, 2026. No new deployments are available at this time. Existing Community Training customers will continue to receive security updates and technical support through Tuesday, April 7, 2026 at 11:59 pm. For more information or support, please reach out to our team here: https://aka.ms/cthelpdesk
+> Community Training will reach end of support on Tuesday, April 7, 2026. No new deployments are available at this time. Existing Community Training customers will continue to receive security updates and technical support through Tuesday, April 7, 2026 at 11:59 pm. For more information or support, please reach out to our team here: [Contact Support](mailto:ctprodsup@microsoft.com)
 # Enable APIs using Service to Service Authentication (S2S) 
 If you have been using Community Training (CT) APIs in public preview version and intend to continue using them with GA version, then following this documentation will help you accomplish that.
 Community Training (CT) APIs support Service to Service (S2S) authentication to allow any external service to call the APIs without requiring a user to explicitly login to any CT instance. Please follow below steps to call CT APIs using S2S
@@ -170,7 +170,7 @@ Follow the steps mentioned below to Register the Client app.
 
 ## Step 3: Contact CT support team to configure the Azure App Service
 
-Contact CT support by raising a support request via the [helpdesk](https://aka.ms/cthelpdesk) and share following configuration details  
+Contact CT support by raising a support request via the [helpdesk]([Contact Support](mailto:ctprodsup@microsoft.com)) and share following configuration details  
 
 i.**ServiceAuthAudience**: Application ID URI created in “Register Service application” step **ServiceAuthTenantName**: Tenant name retrieved in “Register Service application” step.
 

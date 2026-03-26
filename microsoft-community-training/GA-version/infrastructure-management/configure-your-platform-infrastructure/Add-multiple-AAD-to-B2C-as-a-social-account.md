@@ -7,7 +7,7 @@ description: Enable sign-in for users from a multiple Azure AD organization usin
 ms.service: azure
 ---
 > [!IMPORTANT]  
-> Community Training will reach end of support on Tuesday, April 7, 2026. No new deployments are available at this time. Existing Community Training customers will continue to receive security updates and technical support through Tuesday, April 7, 2026 at 11:59 pm. For more information or support, please reach out to our team here: https://aka.ms/cthelpdesk
+> Community Training will reach end of support on Tuesday, April 7, 2026. No new deployments are available at this time. Existing Community Training customers will continue to receive security updates and technical support through Tuesday, April 7, 2026 at 11:59 pm. For more information or support, please reach out to our team here: [Contact Support](mailto:ctprodsup@microsoft.com)
 # Add multiple Azure AD(single tenant) to B2C as social account
 
 This article shows you how to enable sign-in for users from a specific Azure AD organization using a user flow in Azure AD B2C.
@@ -85,4 +85,4 @@ Similarly, you can add one or more Azure AD (single tenant) to B2C to use those 
 > [!Note]    
 >When you are adding more than one tenant, follow the “[**add custom homepage**](set-up-custom-homepage-for-your-mct-instance.md)” document to add a custom homage and avoid any confusion while selecting the tenant.
 
-Please reach out to us [**via HelpDesk**](https://aka.ms/cthelpdesk) if you have any further queries.
+Please reach out to us [**via HelpDesk**]([Contact Support](mailto:ctprodsup@microsoft.com)) if you have any further queries.

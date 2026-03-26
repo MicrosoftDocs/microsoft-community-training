@@ -7,7 +7,7 @@ description: This document explains the flow to enable a custom homepage for you
 ms.service: azure
 ---
 > [!IMPORTANT]  
-> Community Training will reach end of support on Tuesday, April 7, 2026. No new deployments are available at this time. Existing Community Training customers will continue to receive security updates and technical support through Tuesday, April 7, 2026 at 11:59 pm. For more information or support, please reach out to our team here: https://aka.ms/cthelpdesk
+> Community Training will reach end of support on Tuesday, April 7, 2026. No new deployments are available at this time. Existing Community Training customers will continue to receive security updates and technical support through Tuesday, April 7, 2026 at 11:59 pm. For more information or support, please reach out to our team here: [Contact Support](mailto:ctprodsup@microsoft.com)
 # Set up a Custom Homepage for your CT instance
 
 You can replace the Community Training (CT) home page with any other custom home page that you have built.  This is easily achieved bu following the steps below.
@@ -106,4 +106,4 @@ You need to update **Instrumentation Key** as shown below for your Azure subscri
 > [!Note]    
 >You can have multiple custom home pages for your instance, each home page must have a button which links to the instance's login page.
 
-Please reach out to us [**via HelpDesk**](https://aka.ms/cthelpdesk) if you have any further queries.
+Please reach out to us [**via HelpDesk**]([Contact Support](mailto:ctprodsup@microsoft.com)) if you have any further queries.

@@ -7,7 +7,7 @@ description: Similar to the Category View, Course View provides admin a quick gl
 ms.service: azure
 ---
 > [!IMPORTANT]  
-> Community Training will reach end of support on Tuesday, April 7, 2026. No new deployments are available at this time. Existing Community Training customers will continue to receive security updates and technical support through Tuesday, April 7, 2026 at 11:59 pm. For more information or support, please reach out to our team here: https://aka.ms/cthelpdesk
+> Community Training will reach end of support on Tuesday, April 7, 2026. No new deployments are available at this time. Existing Community Training customers will continue to receive security updates and technical support through Tuesday, April 7, 2026 at 11:59 pm. For more information or support, please reach out to our team here: [Contact Support](mailto:ctprodsup@microsoft.com)
 # Course View
 
 Similar to the Category View, Course View provides admins a quick glance at learner enrollments, learner engagement, and course completion for a particular course. It facilitates comparative analytics for learner performance on a particular course and provides insights into content quality.
@@ -85,4 +85,4 @@ From the lesson grid, you can:
 1. Select the respective column headings to sort the rows by any column.
 2. Select **Download List** to download the data into an Excel sheet.
 
-Please reach out to us [**via HelpDesk**](https://aka.ms/cthelpdesk) if you have any further queries.
+Please reach out to us [**via HelpDesk**]([Contact Support](mailto:ctprodsup@microsoft.com)) if you have any further queries.

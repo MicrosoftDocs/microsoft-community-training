@@ -7,7 +7,7 @@ description: This document is a userguide for phone based identity migration for
 ms.service: azure
 ---
 > [!IMPORTANT]  
-> Community Training will reach end of support on Tuesday, April 7, 2026. No new deployments are available at this time. Existing Community Training customers will continue to receive security updates and technical support through Tuesday, April 7, 2026 at 11:59 pm. For more information or support, please reach out to our team here: https://aka.ms/cthelpdesk
+> Community Training will reach end of support on Tuesday, April 7, 2026. No new deployments are available at this time. Existing Community Training customers will continue to receive security updates and technical support through Tuesday, April 7, 2026 at 11:59 pm. For more information or support, please reach out to our team here: [Contact Support](mailto:ctprodsup@microsoft.com)
 # Community Training Phone based Identity Migration
 
 The Microsoft’s Community Training, in its efforts to provide a better service and security on its platform, is ending the support for the Phone based identity Authentication service by 30th April 2025 and is providing [the Azure ADB2C](https://learn.microsoft.com/en-us/azure/active-directory-b2c/) service as its alternative.
@@ -35,7 +35,7 @@ ADB2C provides following identity options
 The Migration process involves the following steps:
 
 1.  Customer will setup the ADB2C on their subscription based on identity options selected.
-2.  Customer will inform the Community Training  team via [**helpdesk**](https://aka.ms/cthelpdesk) once ADB2C set up is complete.
+2.  Customer will inform the Community Training  team via [**helpdesk**]([Contact Support](mailto:ctprodsup@microsoft.com)) once ADB2C set up is complete.
     Customer have to update the following app settings (create new application settings if not already present):
     
     | **Application Setting**                || **Value**                                  |
@@ -115,7 +115,7 @@ This is for scenarios where you would like the learners to migrate their identit
 
 1.  The learner has reached out to admin informing that the migration has failed.  
 
-    A.  Please raise a ticket with the Community Training  Team on [**Community Training  Helpdesk**](https://aka.ms/cthelpdesk) with following details:  
+    A.  Please raise a ticket with the Community Training  Team on [**Community Training  Helpdesk**]([Contact Support](mailto:ctprodsup@microsoft.com)) with following details:  
       1.  Website name  
       2.  Learner identity (for eg: email/username)  
       3.  Learner Mobile Number on the platform  
@@ -145,4 +145,4 @@ This is for scenarios where you would like the learners to migrate their identit
     A.  This will depend on user sign up options defined in B2C tenant settings.  
 
   
-  Please reach out to us [**via HelpDesk**](https://aka.ms/cthelpdesk) if you have any further queries.
+  Please reach out to us [**via HelpDesk**]([Contact Support](mailto:ctprodsup@microsoft.com)) if you have any further queries.

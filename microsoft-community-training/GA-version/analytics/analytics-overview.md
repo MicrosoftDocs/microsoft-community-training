@@ -7,7 +7,7 @@ description: Community Training provides out of the box rich analytics for track
 ms.service: azure
 ---
 > [!IMPORTANT]  
-> Community Training will reach end of support on Tuesday, April 7, 2026. No new deployments are available at this time. Existing Community Training customers will continue to receive security updates and technical support through Tuesday, April 7, 2026 at 11:59 pm. For more information or support, please reach out to our team here: https://aka.ms/cthelpdesk
+> Community Training will reach end of support on Tuesday, April 7, 2026. No new deployments are available at this time. Existing Community Training customers will continue to receive security updates and technical support through Tuesday, April 7, 2026 at 11:59 pm. For more information or support, please reach out to our team here: [Contact Support](mailto:ctprodsup@microsoft.com)
 # Analytics overview
 
 Community Training provides out-of-the-box rich analytics for tracking progress in learning, course completion, and engagement and performance of learners. These insights enable administrators to monitor progress and improvise training programs. Analytics empower the organization to make improved decisions about their training program which is always supported by data and behavior of users, and in turn, this enables intelligent program administration.
@@ -66,4 +66,4 @@ Community Training also provides administrators the capability to search for spe
    ![image.png](../media/image%28459%29.png)-->
 
 
-Please reach out to us [**via HelpDesk**](https://aka.ms/cthelpdesk) if you have any further queries.
+Please reach out to us [**via HelpDesk**]([Contact Support](mailto:ctprodsup@microsoft.com)) if you have any further queries.

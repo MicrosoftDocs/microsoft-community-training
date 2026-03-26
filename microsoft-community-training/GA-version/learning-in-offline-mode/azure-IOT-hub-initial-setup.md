@@ -7,7 +7,7 @@ description: This article explains how learners can access the training content 
 ms.service: azure
 ---
 > [!IMPORTANT]  
-> Community Training will reach end of support on Tuesday, April 7, 2026. No new deployments are available at this time. Existing Community Training customers will continue to receive security updates and technical support through Tuesday, April 7, 2026 at 11:59 pm. For more information or support, please reach out to our team here: https://aka.ms/cthelpdesk
+> Community Training will reach end of support on Tuesday, April 7, 2026. No new deployments are available at this time. Existing Community Training customers will continue to receive security updates and technical support through Tuesday, April 7, 2026 at 11:59 pm. For more information or support, please reach out to our team here: [Contact Support](mailto:ctprodsup@microsoft.com)
 # Azure IOT Hub Initial Setup
 
 Offline Learning in  Community Training uses Azure IoT Hub to create a network of edge devices that can act as individual hubs that learners can connect to, and experience online learning in an environment with no internet connection.

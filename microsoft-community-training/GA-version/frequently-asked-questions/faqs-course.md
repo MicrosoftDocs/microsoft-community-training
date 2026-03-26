@@ -7,7 +7,7 @@ description: Microsoft provides course content around Digital Literacy, Office 3
 ms.service: azure
 ---
 > [!IMPORTANT]  
-> Community Training will reach end of support on Tuesday, April 7, 2026. No new deployments are available at this time. Existing Community Training customers will continue to receive security updates and technical support through Tuesday, April 7, 2026 at 11:59 pm. For more information or support, please reach out to our team here: https://aka.ms/cthelpdesk
+> Community Training will reach end of support on Tuesday, April 7, 2026. No new deployments are available at this time. Existing Community Training customers will continue to receive security updates and technical support through Tuesday, April 7, 2026 at 11:59 pm. For more information or support, please reach out to our team here: [Contact Support](mailto:ctprodsup@microsoft.com)
 # Content and Course management
 
 ## Content Library
@@ -16,13 +16,13 @@ ms.service: azure
 
 Microsoft provides course content around Digital Literacy, Office 365, etc., which organizations can upload and use in their Community Training platform instances.MS learn courses are also integrated as links
 
-Contact us via **[HelpDesk](https://aka.ms/cthelpdesk)** if you’d like to make any courses from the catalog available in your training portal instance.
+Contact us via **[HelpDesk]([Contact Support](mailto:ctprodsup@microsoft.com))** if you’d like to make any courses from the catalog available in your training portal instance.
 
 #### Can we use any of the content from the catalog?
 
 Yes, all the content hosted in our course catalog is available for customers to use in their own training platform instance.
 
-You can contact us via **[HelpDesk](https://aka.ms/cthelpdesk)** if you have any questions on how to make any courses from the catalog available in your training portal instance.
+You can contact us via **[HelpDesk]([Contact Support](mailto:ctprodsup@microsoft.com))** if you have any questions on how to make any courses from the catalog available in your training portal instance.
 
 Please note - all content hosted in the content library is free of charge and provided under a Creative Common license. So, you can tweak and change the content as per your requirements.
 
@@ -88,7 +88,7 @@ Yes, customers can embed videos from any external platforms such as YouTube, Mic
 
 ### How can I allow external videos to play inside Community Training?
 
-Please reach out to our [**HelpDesk**](https://aka.ms/cthelpdesk) for support on this request. 
+Please reach out to our [**HelpDesk**]([Contact Support](mailto:ctprodsup@microsoft.com)) for support on this request. 
 
 <!--
 1. Login to the Azure portal.
@@ -303,7 +303,7 @@ For scenarios when you have a course available in multiple languages, you can au
 
 You can create content as per the needs of your training program, using any tool of your choice. Microsoft can help you with your content creation by advising you on best practices and tips to create engaging content for your audience.
 
-Contact us via [**HelpDesk**](https://aka.ms/cthelpdesk) and leave your requirements in the ticket description.  
+Contact us via [**HelpDesk**]([Contact Support](mailto:ctprodsup@microsoft.com)) and leave your requirements in the ticket description.  
 
 ### I am not able to bulk upload content on the training portal or bulk upload content is failing
 
@@ -424,4 +424,4 @@ Organization administrators and category administrators can delete a course from
 
 
 
-Please reach out to us [**via HelpDesk**](https://aka.ms/cthelpdesk) if you have any further queries.
+Please reach out to us [**via HelpDesk**]([Contact Support](mailto:ctprodsup@microsoft.com)) if you have any further queries.

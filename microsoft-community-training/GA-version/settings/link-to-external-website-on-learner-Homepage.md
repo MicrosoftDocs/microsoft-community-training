@@ -6,7 +6,7 @@ description: This document details the flow to add a link to an external website
 ms.service: azure
 ---
 > [!IMPORTANT]  
-> Community Training will reach end of support on Tuesday, April 7, 2026. No new deployments are available at this time. Existing Community Training customers will continue to receive security updates and technical support through Tuesday, April 7, 2026 at 11:59 pm. For more information or support, please reach out to our team here: https://aka.ms/cthelpdesk
+> Community Training will reach end of support on Tuesday, April 7, 2026. No new deployments are available at this time. Existing Community Training customers will continue to receive security updates and technical support through Tuesday, April 7, 2026 at 11:59 pm. For more information or support, please reach out to our team here: [Contact Support](mailto:ctprodsup@microsoft.com)
 # Link to External Website on Learner Home page
 
 Community Training enables you to provide a link to an external website on the learner’s homepage to facilitate quick access to a preferred website. This article describes how to configure this setting.
@@ -53,4 +53,4 @@ Community Training enables you to provide a link to an external website on the l
 
 1. Select the available link (**Community Training**, as in the example above) and the web site opens as a new tab on your screen.
 
-Please reach out to us [**via HelpDesk**](https://aka.ms/cthelpdesk) if you have any further queries.
+Please reach out to us [**via HelpDesk**]([Contact Support](mailto:ctprodsup@microsoft.com)) if you have any further queries.

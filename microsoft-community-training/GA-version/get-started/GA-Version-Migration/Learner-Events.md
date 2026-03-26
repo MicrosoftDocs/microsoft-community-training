@@ -7,7 +7,7 @@ description: This document describes how to enable Learner Events in GA Version.
 ms.service: azure
 ---
 > [!IMPORTANT]  
-> Community Training will reach end of support on Tuesday, April 7, 2026. No new deployments are available at this time. Existing Community Training customers will continue to receive security updates and technical support through Tuesday, April 7, 2026 at 11:59 pm. For more information or support, please reach out to our team here: https://aka.ms/cthelpdesk
+> Community Training will reach end of support on Tuesday, April 7, 2026. No new deployments are available at this time. Existing Community Training customers will continue to receive security updates and technical support through Tuesday, April 7, 2026 at 11:59 pm. For more information or support, please reach out to our team here: [Contact Support](mailto:ctprodsup@microsoft.com)
 # CT Events Infrastructure
 Community Training enables events infrastructure via the Azure Service Bus to enable you to track dynamic learner actions on the training platform.  
 
@@ -35,7 +35,7 @@ If you have been using CT events with public preview version and intend to use w
 6.	Copy the Primary Connection String 
 
 ## Step 2: Add Azure Service Bus to your Subscription
-Contact CT support by raising a support request via the [helpdesk](https://aka.ms/cthelpdesk) and share connection string details
+Contact CT support by raising a support request via the [helpdesk]([Contact Support](mailto:ctprodsup@microsoft.com)) and share connection string details
 
 ## Step 3:  Set the scenarios
 

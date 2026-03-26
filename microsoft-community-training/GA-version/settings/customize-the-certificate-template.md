@@ -7,7 +7,7 @@ description: This document explains certificate template customization flow on t
 ms.service: azure
 ---
 > [!IMPORTANT]  
-> Community Training will reach end of support on Tuesday, April 7, 2026. No new deployments are available at this time. Existing Community Training customers will continue to receive security updates and technical support through Tuesday, April 7, 2026 at 11:59 pm. For more information or support, please reach out to our team here: https://aka.ms/cthelpdesk
+> Community Training will reach end of support on Tuesday, April 7, 2026. No new deployments are available at this time. Existing Community Training customers will continue to receive security updates and technical support through Tuesday, April 7, 2026 at 11:59 pm. For more information or support, please reach out to our team here: [Contact Support](mailto:ctprodsup@microsoft.com)
 # Customize the certificate template for the platform
 
 By default, Community Training uses a basic template to issue certificates to learners who have completed a course. Organization can customize the certificate template and put their own branding as required. You can create and assign multiple certificates appropriate to the course. Here's an example of a certificate:
@@ -49,7 +49,7 @@ To customize the certificate template on the platform follow these steps:
 1. You can add multiple certificates as required and assign them to specific courses. [Click here](../settings/enable-course-level-certificate.md) to learn more on enabling course level certificates.
 
 > [!Note]  
-> Please visit [**Community Training Help desk**](https://aka.ms/cthelpdesk) to log a support ticket if you wish to edit the templates of previously issued certificates.
+> Please visit [**Community Training Help desk**]([Contact Support](mailto:ctprodsup@microsoft.com)) to log a support ticket if you wish to edit the templates of previously issued certificates.
 
 > [!TIP]  
 > We recommend using separate templates for Courses when using custom certificates.
@@ -119,4 +119,4 @@ offered by [Instance Name] on [Course Completion Date].
 
 Once the certificate text is updated, you can select **preview** to view the certificate.
 
-Please reach out to us [**via HelpDesk**](https://aka.ms/cthelpdesk) if you have any further queries.
+Please reach out to us [**via HelpDesk**]([Contact Support](mailto:ctprodsup@microsoft.com)) if you have any further queries.

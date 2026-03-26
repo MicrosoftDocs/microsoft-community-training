@@ -55,4 +55,4 @@ In this article, you will learn how to export course content from one training p
 1. Once the courses are imported successfully, you will see the courses in the new instance as an exact replica of the courses in the previous instance i.e. for each course, all the course details (like description, thumbnails, enrollment type, etc.) as well as the content (like lessons, non-graded assessments and graded assessments) will be same.
 
 
-Please reach out to us [**via HelpDesk**](https://aka.ms/cthelpdesk) if you have any further queries.
+Please reach out to us [**via HelpDesk**]([Contact Support](mailto:ctprodsup@microsoft.com)) if you have any further queries.

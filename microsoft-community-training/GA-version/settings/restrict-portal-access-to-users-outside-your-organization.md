@@ -7,7 +7,7 @@ description: When the platform is setup with Phone Number or Email Address (aka 
 ms.service: azure
 ---
 > [!IMPORTANT]  
-> Community Training will reach end of support on Tuesday, April 7, 2026. No new deployments are available at this time. Existing Community Training customers will continue to receive security updates and technical support through Tuesday, April 7, 2026 at 11:59 pm. For more information or support, please reach out to our team here: https://aka.ms/cthelpdesk
+> Community Training will reach end of support on Tuesday, April 7, 2026. No new deployments are available at this time. Existing Community Training customers will continue to receive security updates and technical support through Tuesday, April 7, 2026 at 11:59 pm. For more information or support, please reach out to our team here: [Contact Support](mailto:ctprodsup@microsoft.com)
 # Restrict portal access to learners outside your training program
 
 When the platform is setup with a phone Number or email address as an identity, anyone with a valid phone number or email address can sign in to the portal and access the learning content by default. There are often scenarios when a training program needs to restrict portal access to internal workforces, identified communities, or an existing list of learners.
@@ -44,4 +44,4 @@ When an unauthorized learner (such as a user who was not added to the portal by 
 
  ![Settings screen](../media/Settings%20screen.png)
 
- Please reach out to us [**via HelpDesk**](https://aka.ms/cthelpdesk) if you have any further queries.
+ Please reach out to us [**via HelpDesk**]([Contact Support](mailto:ctprodsup@microsoft.com)) if you have any further queries.

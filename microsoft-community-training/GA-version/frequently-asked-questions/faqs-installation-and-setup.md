@@ -7,7 +7,7 @@ description: There are a number of prerequisites such as having a valid subscrip
 ms.service: azure
 ---
 > [!IMPORTANT]  
-> Community Training will reach end of support on Tuesday, April 7, 2026. No new deployments are available at this time. Existing Community Training customers will continue to receive security updates and technical support through Tuesday, April 7, 2026 at 11:59 pm. For more information or support, please reach out to our team here: https://aka.ms/cthelpdesk
+> Community Training will reach end of support on Tuesday, April 7, 2026. No new deployments are available at this time. Existing Community Training customers will continue to receive security updates and technical support through Tuesday, April 7, 2026 at 11:59 pm. For more information or support, please reach out to our team here: [Contact Support](mailto:ctprodsup@microsoft.com)
 # Platform Setup and Installation
 
 ### What are the prerequisites to deploy the Community Training?
@@ -38,7 +38,7 @@ Community Training is an endpoint-agnostic solution that allows learners to cons
 
 Currently, Community Training supports SSO out-of-box for scenarios where users are managed via Azure AD or customers are using Azure AD B2C for authentication in their existing system.
 
-However, the platform supports SSO with any OAuth 2.0, OpenID Connect, or SAML-based authentication provider. To enable SSO in such scenarios, please contact us via **[Helpdesk](https://aka.ms/cthelpdesk)** and leave your requirements in the ticket description.
+However, the platform supports SSO with any OAuth 2.0, OpenID Connect, or SAML-based authentication provider. To enable SSO in such scenarios, please contact us via **[Helpdesk]([Contact Support](mailto:ctprodsup@microsoft.com))** and leave your requirements in the ticket description.
 
 ### Are there REST APIs available for integration? How can organizations integrate Community Training with their internal systems and existing applications?
 
@@ -91,7 +91,7 @@ You do not need a technical team or a developer to implement the platform.
 
 We are building up a community of learning partners who can assist the organizations in implementing and configuring the platform for their training scenarios.
 
-For further information on the partner ecosystem, please reach out to us [**via help desk**](https://aka.ms/cthelpdesk).
+For further information on the partner ecosystem, please reach out to us [**via help desk**]([Contact Support](mailto:ctprodsup@microsoft.com)).
 
 ### What should I do if I no longer need the platform? How can I download the training content and data before terminating?
 
@@ -158,6 +158,6 @@ If you have a Google account, it can be used to sign in with the Google Store. F
 
 [**Here**](../infrastructure-management/install-your-platform-instance/create-publish-mobile-app.md) is a step-by-step guide on publishing your mobile application.  
 
-If you require further assistance, contact us [**via helpdesk**](https://aka.ms/cthelpdesk).
+If you require further assistance, contact us [**via helpdesk**]([Contact Support](mailto:ctprodsup@microsoft.com)).
 
-Please reach out to us [**via HelpDesk**](https://aka.ms/cthelpdesk) if you have any further queries.
+Please reach out to us [**via HelpDesk**]([Contact Support](mailto:ctprodsup@microsoft.com)) if you have any further queries.

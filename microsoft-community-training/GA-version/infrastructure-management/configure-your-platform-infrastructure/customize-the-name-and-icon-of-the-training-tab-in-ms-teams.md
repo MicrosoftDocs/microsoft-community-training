@@ -7,7 +7,7 @@ description: This article assumes you have followed the steps outlined in the MS
 ms.service: azure
 ---
 > [!IMPORTANT]  
-> Community Training will reach end of support on Tuesday, April 7, 2026. No new deployments are available at this time. Existing Community Training customers will continue to receive security updates and technical support through Tuesday, April 7, 2026 at 11:59 pm. For more information or support, please reach out to our team here: https://aka.ms/cthelpdesk
+> Community Training will reach end of support on Tuesday, April 7, 2026. No new deployments are available at this time. Existing Community Training customers will continue to receive security updates and technical support through Tuesday, April 7, 2026 at 11:59 pm. For more information or support, please reach out to our team here: [Contact Support](mailto:ctprodsup@microsoft.com)
 # Customize the name and icon of the training tab in MS Teams
 
 ## **Before you begin**
@@ -42,4 +42,4 @@ You can download the sample file with instructions from here: [Sample Teams Mani
 2. Follow the instructions in the [Steps to enable learning inside Microsoft Teams document](/azure/industry/training-services/microsoft-community-training/ga-version/infrastructure-management/install-your-platform-instance/create-teams-app-for-your-training-portal), from Step 3 to upload the updated file.
 
 
-Please reach out to us [**via HelpDesk**](https://aka.ms/cthelpdesk) if you have any further queries.
+Please reach out to us [**via HelpDesk**]([Contact Support](mailto:ctprodsup@microsoft.com)) if you have any further queries.

@@ -7,7 +7,7 @@ description: The document is to help the learners get familiar with the new medi
 ms.service: azure
 ---
 > [!IMPORTANT]  
-> Community Training will reach end of support on Tuesday, April 7, 2026. No new deployments are available at this time. Existing Community Training customers will continue to receive security updates and technical support through Tuesday, April 7, 2026 at 11:59 pm. For more information or support, please reach out to our team here: https://aka.ms/cthelpdesk
+> Community Training will reach end of support on Tuesday, April 7, 2026. No new deployments are available at this time. Existing Community Training customers will continue to receive security updates and technical support through Tuesday, April 7, 2026 at 11:59 pm. For more information or support, please reach out to our team here: [Contact Support](mailto:ctprodsup@microsoft.com)
 # The updated Media Player in Community Training
 This article details the features and functionalities of the new player which is implemented as a replacement for the Azure Media Player service. 
 
@@ -49,4 +49,4 @@ The learners can choose from available resolutions from this menu, for a seamles
 ![Playback Speed](../media/AMS_Replacement/PLayback_Speed_Option.png)![Playback Speed Options](../media/AMS_Replacement/Playback_SPeed_Options.png)
 
 
-Please reach out to us [**via HelpDesk**](https://aka.ms/cthelpdesk) if you have any further queries.
+Please reach out to us [**via HelpDesk**]([Contact Support](mailto:ctprodsup@microsoft.com)) if you have any further queries.

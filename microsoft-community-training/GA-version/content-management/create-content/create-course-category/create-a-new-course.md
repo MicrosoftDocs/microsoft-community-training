@@ -7,7 +7,7 @@ description: This document explains new course creation flow on the Community Tr
 ms.service: azure
 ---
 > [!IMPORTANT]  
-> Community Training will reach end of support on Tuesday, April 7, 2026. No new deployments are available at this time. Existing Community Training customers will continue to receive security updates and technical support through Tuesday, April 7, 2026 at 11:59 pm. For more information or support, please reach out to our team here: https://aka.ms/cthelpdesk
+> Community Training will reach end of support on Tuesday, April 7, 2026. No new deployments are available at this time. Existing Community Training customers will continue to receive security updates and technical support through Tuesday, April 7, 2026 at 11:59 pm. For more information or support, please reach out to our team here: [Contact Support](mailto:ctprodsup@microsoft.com)
 # Create a new course
 
 A Course is a collection of lessons and assessments. Once a course is created, you can upload content and add assessments in a structured format for learners to complete through the web portal or mobile application.  
@@ -241,4 +241,4 @@ In this topic, you will learn how to translate a course in the Community Trainin
 
  Once a course translation is created, the administrator can start [**uploading the content for the course**](upload-content-to-a-course.md) as per the translation's defined language.
 
-Please reach out to us [**via HelpDesk**](https://aka.ms/cthelpdesk) if you have any further queries.
+Please reach out to us [**via HelpDesk**]([Contact Support](mailto:ctprodsup@microsoft.com)) if you have any further queries.

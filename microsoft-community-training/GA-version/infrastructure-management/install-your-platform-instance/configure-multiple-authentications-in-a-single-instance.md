@@ -7,7 +7,7 @@ description: Setup multiple authentication modes in a single instance of Communi
 ms.service: azure
 ---
 > [!IMPORTANT]  
-> Community Training will reach end of support on Tuesday, April 7, 2026. No new deployments are available at this time. Existing Community Training customers will continue to receive security updates and technical support through Tuesday, April 7, 2026 at 11:59 pm. For more information or support, please reach out to our team here: https://aka.ms/cthelpdesk
+> Community Training will reach end of support on Tuesday, April 7, 2026. No new deployments are available at this time. Existing Community Training customers will continue to receive security updates and technical support through Tuesday, April 7, 2026 at 11:59 pm. For more information or support, please reach out to our team here: [Contact Support](mailto:ctprodsup@microsoft.com)
 # Configure multiple authentications in a single instance
 
 Many organizations might want to support multiple authentication options to be available for their learners. Community Training now supports adding more than one authentication option for a single platform instance.
@@ -26,7 +26,7 @@ Please refer to the AD B2C Documentation for guidance on link [**here**](https:/
 <!--
 ### Prerequisites
 
-Create a [**CT support ticket**](https://aka.ms/cthelpdesk) requesting for creation of new ClientID and ClientSecret in your [**Key-Vault**](../../analytics/custom-reports/database-schema.md#accessing-key-vault) to be used while configuring New OpenID connect provider.
+Create a [**CT support ticket**]([Contact Support](mailto:ctprodsup@microsoft.com)) requesting for creation of new ClientID and ClientSecret in your [**Key-Vault**](../../analytics/custom-reports/database-schema.md#accessing-key-vault) to be used while configuring New OpenID connect provider.
 
 * Also mention your [**AD B2C Tenant name**](https://learn.microsoft.com/azure/active-directory-b2c/tenant-management#get-your-tenant-name) in description while creating support ticket.
 
@@ -82,7 +82,7 @@ If your instance is already setup to accept [**social login**](configure-login-s
 >[!Note]
 > Please note that learner should use only one mode of authentication (social email, work email) for registering. If a learner uses multiple modes of authentication for registration, the accounts will be treated as different users.
  
-Please reach out to us [**via HelpDesk**](https://aka.ms/cthelpdesk) if you have any further queries.
+Please reach out to us [**via HelpDesk**]([Contact Support](mailto:ctprodsup@microsoft.com)) if you have any further queries.
 
 >[!Note]  
 >Make sure to add the Global admin contact info(Email or Phone Number) before changing the Authentication method.

@@ -7,7 +7,7 @@ description: "By default, learners can only access content that is auto or self 
 ms.service: azure
 ---
 > [!IMPORTANT]  
-> Community Training will reach end of support on Tuesday, April 7, 2026. No new deployments are available at this time. Existing Community Training customers will continue to receive security updates and technical support through Tuesday, April 7, 2026 at 11:59 pm. For more information or support, please reach out to our team here: https://aka.ms/cthelpdesk
+> Community Training will reach end of support on Tuesday, April 7, 2026. No new deployments are available at this time. Existing Community Training customers will continue to receive security updates and technical support through Tuesday, April 7, 2026 at 11:59 pm. For more information or support, please reach out to our team here: [Contact Support](mailto:ctprodsup@microsoft.com)
 # Assign content to users in the group
 
 By default, learners can only access content that is auto or self enrolled. An administrator must assign Amin only enrolled content (Learning Paths and Courses) to learners either individually or to a group.
@@ -76,4 +76,4 @@ The Community Training portal provides role-based permission levels. The table b
     >
     >For example, let's say the administrator has removed **Presentation skills** from the list of assigned courses for the **Marketing group** shown above. This will mean that any new user added to the group will not be auto-enrolled to the Presentation skills course but existing users who are enrolled already will continue to see the course in the **My Courses** section of the learner experience.
 
-    Please reach out to us [**via HelpDesk**](https://aka.ms/cthelpdesk) if you have any further queries.
+    Please reach out to us [**via HelpDesk**]([Contact Support](mailto:ctprodsup@microsoft.com)) if you have any further queries.

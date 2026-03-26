@@ -7,7 +7,7 @@ description: Community Training is an Azure-powered online learning platform to 
 ms.service: azure
 ---
 > [!IMPORTANT]  
-> Community Training will reach end of support on Tuesday, April 7, 2026. No new deployments are available at this time. Existing Community Training customers will continue to receive security updates and technical support through Tuesday, April 7, 2026 at 11:59 pm. For more information or support, please reach out to our team here: https://aka.ms/cthelpdesk
+> Community Training will reach end of support on Tuesday, April 7, 2026. No new deployments are available at this time. Existing Community Training customers will continue to receive security updates and technical support through Tuesday, April 7, 2026 at 11:59 pm. For more information or support, please reach out to our team here: [Contact Support](mailto:ctprodsup@microsoft.com)
 # General FAQs
 
 ## What is Community Training?
@@ -44,7 +44,7 @@ Community Training is available in the following Azure regions:
 
 
  
-For any questions on the availability, please reach out to us [**via HelpDesk**](https://aka.ms/cthelpdesk)
+For any questions on the availability, please reach out to us [**via HelpDesk**]([Contact Support](mailto:ctprodsup@microsoft.com))
 
 ### Who is the target audience for Community Training?
 
@@ -68,7 +68,7 @@ Organizations can use Community Training to host and train their workforces on m
 
  Also, you can host content from [**Microsoft Learn training**](/training/) into the platform to provide a one-stop shop for all training courses to your target audience.
 
-For more details on how to leverage the import of this content on your platform instance, reach out to us [**via HelpDesk**](https://aka.ms/cthelpdesk).
+For more details on how to leverage the import of this content on your platform instance, reach out to us [**via HelpDesk**]([Contact Support](mailto:ctprodsup@microsoft.com)).
 
 ### How to create/add a new course on Community Training
 
@@ -109,7 +109,7 @@ Community Training is offered in two plans Standard and Premium . The pricing va
 
 We have a guided tour available for you to play around and get familiar with the platform's capabilities. Please navigate to the [**interactive demo**](https://communitytraining.microsoft.com/demo/) on the [**product website**](https://communitytraining.microsoft.com/).
 
-If you want access to a demo instance, please reach out to us [**via the helpDesk**](https://aka.ms/cthelpdesk).
+If you want access to a demo instance, please reach out to us [**via the helpDesk**]([Contact Support](mailto:ctprodsup@microsoft.com)).
 
 Note: This is hidden until the new pricing calculator is live
 --->
@@ -136,7 +136,7 @@ Please note - all content hosted in the content library is free of charge and pr
 
 ### How do I request a Microsoft Teams manifest file?
 
-1. Create a support ticket on [**Community Training HelpDesk**](https://aka.ms/cthelpdesk) for a Microsoft Teams app manifest for your training platform instance in the following format:
+1. Create a support ticket on [**Community Training HelpDesk**]([Contact Support](mailto:ctprodsup@microsoft.com)) for a Microsoft Teams app manifest for your training platform instance in the following format:
 
    ![Teams manifest](../media/manifest.JPG)
 
@@ -160,7 +160,7 @@ However, we recommend customers use third-party applications such as Microsoft T
 
 Also, you can replace the live training URL with the actual recording of the training session on the platform for people to view and consume the content later.
 
-For more details, please reach out to us [**via HelpDesk**](https://aka.ms/cthelpdesk).
+For more details, please reach out to us [**via HelpDesk**]([Contact Support](mailto:ctprodsup@microsoft.com)).
 
 ### Does Community Training have any learner-tracking capability?
 
@@ -183,7 +183,7 @@ When you no longer need your training portal, you can delete it by deleting the 
 There are two channels available to the customers to seek help during platform setup and configuration:
 
 1. [**Self-serve documentation website**](/azure/industry/training-services/microsoft-community-training/) which helps customers provide how to guide and explain different capabilities of the platform in detail.
-2. [**24*7 support desk**](https://aka.ms/cthelpdesk) in case customers are not able to find answers to their queries via the documentation site.
+2. [**24*7 support desk**]([Contact Support](mailto:ctprodsup@microsoft.com)) in case customers are not able to find answers to their queries via the documentation site.
 
 ### Can we (Microsoft Partner) host this in the Azure subscription tenant and package it as a training platform for existing Office 365 customers? Does the license allow us to do that?
 
@@ -194,7 +194,7 @@ Yes, Microsoft Partners can set up the platform in their own subscription or on 
 
 For example, Microsoft Partners can leverage the platform to drive Office 365 training for existing or new customers. 
 
-For more information and support, please contact us via  [**HelpDesk**](https://aka.ms/cthelpdesk)** and leave your requirements in the ticket description.
+For more information and support, please contact us via  [**HelpDesk**]([Contact Support](mailto:ctprodsup@microsoft.com))** and leave your requirements in the ticket description.
 
 ### How to invite learners to the training portal instance
 
@@ -206,7 +206,7 @@ There are various ways to invite users and create awareness about the platforms.
 
 #### How can I provide feedback on Community Training and request for new features?
 
-Customers can contact us via [**HelpDesk**](https://aka.ms/cthelpdesk) for any issues or new feature requests. Whenever we receive any feedback, we actively work to address the issue or prioritize the feature asked on the product roadmap.
+Customers can contact us via [**HelpDesk**]([Contact Support](mailto:ctprodsup@microsoft.com)) for any issues or new feature requests. Whenever we receive any feedback, we actively work to address the issue or prioritize the feature asked on the product roadmap.
 
 ### Does the platform provide gamification capabilities to incentivize learners to complete course content?
 
@@ -231,4 +231,4 @@ At present, we do not recommend moving resource groups across different Azure su
 
    ![Correlation_ID](../media/correlation.png)
 
-Please reach out to us [**via HelpDesk**](https://aka.ms/cthelpdesk) if you have any further queries.
+Please reach out to us [**via HelpDesk**]([Contact Support](mailto:ctprodsup@microsoft.com)) if you have any further queries.

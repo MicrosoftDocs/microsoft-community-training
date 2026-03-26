@@ -7,7 +7,7 @@ description: Community Training is an Azure-powered online learning platform to 
 ms.service: azure
 ---
 > [!IMPORTANT]  
-> Community Training will reach end of support on Tuesday, April 7, 2026. No new deployments are available at this time. Existing Community Training customers will continue to receive security updates and technical support through Tuesday, April 7, 2026 at 11:59 pm. For more information or support, please reach out to our team here: https://aka.ms/cthelpdesk
+> Community Training will reach end of support on Tuesday, April 7, 2026. No new deployments are available at this time. Existing Community Training customers will continue to receive security updates and technical support through Tuesday, April 7, 2026 at 11:59 pm. For more information or support, please reach out to our team here: [Contact Support](mailto:ctprodsup@microsoft.com)
 # Migrating Community Training from Public Preview to General Availability
 This document describes the process of migrating customer from CT public preview to CT version which is now generally available
 
@@ -20,7 +20,7 @@ This document describes the process of migrating customer from CT public preview
 Create a new Community Training resource via Azure Portal in your preferred subscription and any resource group of your choice. 
 
 ### Step 2: Contact CT team 
-Contact CT support by raising a support request via the [helpdesk](https://aka.ms/cthelpdesk)
+Contact CT support by raising a support request via the [helpdesk]([Contact Support](mailto:ctprodsup@microsoft.com))
  and share the following information:
 
 1.	New(GA) and existing(public preview) platform URL (typically of the form https://<your-platform-name>.azurefd.net).
@@ -72,5 +72,5 @@ CT will do the necessary step based on support ticket raised as part of above st
 >
 ## FAQs
 #### If you have additional questions, please refer to the [FAQs section for Migration](Migration-FAQs.md). 
-You are always welcome to reach out to the CT Team via the [Helpdesk](https://aka.ms/cthelpdesk).
+You are always welcome to reach out to the CT Team via the [Helpdesk]([Contact Support](mailto:ctprodsup@microsoft.com)).
 

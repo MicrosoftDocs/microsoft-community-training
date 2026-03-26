@@ -7,7 +7,7 @@ description: Community Training platform provides various tools and functionalit
 ms.service: azure
 ---
 > [!IMPORTANT]  
-> Community Training will reach end of support on Tuesday, April 7, 2026. No new deployments are available at this time. Existing Community Training customers will continue to receive security updates and technical support through Tuesday, April 7, 2026 at 11:59 pm. For more information or support, please reach out to our team here: https://aka.ms/cthelpdesk
+> Community Training will reach end of support on Tuesday, April 7, 2026. No new deployments are available at this time. Existing Community Training customers will continue to receive security updates and technical support through Tuesday, April 7, 2026 at 11:59 pm. For more information or support, please reach out to our team here: [Contact Support](mailto:ctprodsup@microsoft.com)
 # Step-by-step configuration guide for platform setup
 
 Community Training provides various tools and functionalities to help you easily create, manage, and monitor learning activities for training programs.
@@ -130,4 +130,4 @@ To view these analytics, go to the **Analytics** tab in the management view of t
 These reports are important for tracking online learning and help administrators to continuously make improvements to the learning program.
 
 
-Please reach out to us [**via HelpDesk**](https://aka.ms/cthelpdesk) if you have any further queries.
+Please reach out to us [**via HelpDesk**]([Contact Support](mailto:ctprodsup@microsoft.com)) if you have any further queries.

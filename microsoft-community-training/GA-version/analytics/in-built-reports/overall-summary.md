@@ -7,7 +7,7 @@ description: Overall summary view is designed to give the admin a quick glance a
 ms.service: azure
 ---
 > [!IMPORTANT]  
-> Community Training will reach end of support on Tuesday, April 7, 2026. No new deployments are available at this time. Existing Community Training customers will continue to receive security updates and technical support through Tuesday, April 7, 2026 at 11:59 pm. For more information or support, please reach out to our team here: https://aka.ms/cthelpdesk
+> Community Training will reach end of support on Tuesday, April 7, 2026. No new deployments are available at this time. Existing Community Training customers will continue to receive security updates and technical support through Tuesday, April 7, 2026 at 11:59 pm. For more information or support, please reach out to our team here: [Contact Support](mailto:ctprodsup@microsoft.com)
 # Overall summary view
 
 The overall Summary View is designed to give the admin a quick glance at learner enrollments, learner engagement, and course completion. It provides insights on content quality, facilitates comparative analytics across categories, and enables admins to notice things that require attention.
@@ -80,4 +80,4 @@ From the category grid, you can:
 2. Select **Download List** to download the data into an Excel sheet.
 3. Select a row to [**view detailed information**](./category-view-report.md) about course enrollments and course completion for the specific category.
 
-Please reach out to us [**via HelpDesk**](https://aka.ms/cthelpdesk) if you have any further queries.
+Please reach out to us [**via HelpDesk**]([Contact Support](mailto:ctprodsup@microsoft.com)) if you have any further queries.

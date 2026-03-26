@@ -75,4 +75,4 @@ In this topic, you will learn how to remove user enrollment from a course.
     > [!WARNING]  
     > When you remove a user's registration (or enrollment) from a course, all the course tracking and progress for the learner is also deleted from the portal.
 
-Please reach out to us [**via HelpDesk**](https://aka.ms/cthelpdesk) if you have any further queries.
+Please reach out to us [**via HelpDesk**]([Contact Support](mailto:ctprodsup@microsoft.com)) if you have any further queries.

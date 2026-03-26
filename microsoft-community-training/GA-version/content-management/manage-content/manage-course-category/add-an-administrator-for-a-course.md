@@ -75,4 +75,4 @@ In this topic, you will learn how to add a course administrator.
     > [!Note]  
     > If the platform has been setup with *Social Account* or *Azure Active Directory* as the login identity then you will need to enter an email address in the above step.
 
-Please reach out to us [**via HelpDesk**](https://aka.ms/cthelpdesk) if you have any further queries.
+Please reach out to us [**via HelpDesk**]([Contact Support](mailto:ctprodsup@microsoft.com)) if you have any further queries.

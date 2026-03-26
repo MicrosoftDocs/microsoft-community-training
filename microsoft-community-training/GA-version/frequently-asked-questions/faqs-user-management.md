@@ -7,7 +7,7 @@ description: Currently, there are 3 forms of login identity supported in the pla
 ms.service: azure
 ---
 > [!IMPORTANT]  
-> Community Training will reach end of support on Tuesday, April 7, 2026. No new deployments are available at this time. Existing Community Training customers will continue to receive security updates and technical support through Tuesday, April 7, 2026 at 11:59 pm. For more information or support, please reach out to our team here: https://aka.ms/cthelpdesk
+> Community Training will reach end of support on Tuesday, April 7, 2026. No new deployments are available at this time. Existing Community Training customers will continue to receive security updates and technical support through Tuesday, April 7, 2026 at 11:59 pm. For more information or support, please reach out to our team here: [Contact Support](mailto:ctprodsup@microsoft.com)
 # Login Types and User Identity
 
 ## Types of login identities
@@ -24,7 +24,7 @@ Currently, there are 3 forms of login identity supported in the platform i.e. Mo
 
 4. **Login via multiple modes** - Community Training supports adding more than one authentication option for a single platform instance. To be able to configure multiple authentications to your instance you need to first create [**AD B2C**](/azure/active-directory-b2c/overview) tenant and register an application to later add a Mobile number, Personal Email, Azure AD login support for your instance.
 
-Apart from the out-of-box identities, the platform can integrate with any existing OAuth 2.0, OpenID Connect, or SAML-based authenticate service for login. For more information, reach out to us [**via HelpDesk**](https://aka.ms/cthelpdesk).
+Apart from the out-of-box identities, the platform can integrate with any existing OAuth 2.0, OpenID Connect, or SAML-based authenticate service for login. For more information, reach out to us [**via HelpDesk**]([Contact Support](mailto:ctprodsup@microsoft.com)).
 
 <!---
 > [!Note]    
@@ -66,7 +66,7 @@ Yes, CT will support login via multiple modes for the same instance, for that yo
 
 You can create Azure AD B2C tenant with a local account setup and let learners generate their own username and password at the time of registration.
 
-For more information, please contact us [**via HelpDesk**](https://aka.ms/cthelpdesk) and leave your requirements in the ticket description.
+For more information, please contact us [**via HelpDesk**]([Contact Support](mailto:ctprodsup@microsoft.com)) and leave your requirements in the ticket description.
 
 ## Mobile number login
 
@@ -104,7 +104,7 @@ To enable Google and Facebook login for the Community Training instance, you nee
 
 Yes, you can deploy Community Training instance with Azure AD B2C setup and enable Azure AD as IDP provider for learners to use their existing work account for sign-in purposes.
 
-For more information, please contact us [**via HelpDesk**](https://aka.ms/cthelpdesk) and leave your requirements in the ticket description.
+For more information, please contact us [**via HelpDesk**]([Contact Support](mailto:ctprodsup@microsoft.com)) and leave your requirements in the ticket description.
 
 ## SSO & Integration with external IDP
 
@@ -114,7 +114,7 @@ Community Training (Community Training) platform supports all the standard OAuth
 
 In case the existing identity system is not OAuth2.0 / OpenID connect-based then enabling Single Sign On between Community Training and the existing system will require custom work as highlighted flow diagram below. Please raise a support ticket for more information and kick-start the SSO discussion.
 
-For all queries regarding SSO and/or custom login, contact us via  **[HelpDesk](https://aka.ms/cthelpdesk)** and leave your requirements in the ticket description.
+For all queries regarding SSO and/or custom login, contact us via  **[HelpDesk]([Contact Support](mailto:ctprodsup@microsoft.com))** and leave your requirements in the ticket description.
 
 ### I am already using OKTA for managing my workforces. How can I enable SSO with Community Training?
 
@@ -127,7 +127,7 @@ Community Training supports single sign-on with OKTA. To enable this, you must s
 
 Community Training can be integrated with any existing OAuth 2.0, OpenID Connect, or SAML-based authenticate service for login using Azure AD B2C.
 
-To enable OAuth 2.0 or SAML, please contact us [**via HelpDesk**](https://aka.ms/cthelpdesk) and leave your requirements in the ticket description.
+To enable OAuth 2.0 or SAML, please contact us [**via HelpDesk**]([Contact Support](mailto:ctprodsup@microsoft.com)) and leave your requirements in the ticket description.
 
 ## Restrict user access
 
@@ -267,4 +267,4 @@ As you upload the files, Azure adds the prefix `B2C_1A_` to each.
 
 You can also learn more in the [Azure AD B2C Architecture Deep Dive Series](https://www.youtube.com/playlist?list=PLOPotgzC07IKXXCTZcrpuLWbVe3y51kfm).
 
-Please reach out to us [**via HelpDesk**](https://aka.ms/cthelpdesk) if you have any further queries.
+Please reach out to us [**via HelpDesk**]([Contact Support](mailto:ctprodsup@microsoft.com)) if you have any further queries.

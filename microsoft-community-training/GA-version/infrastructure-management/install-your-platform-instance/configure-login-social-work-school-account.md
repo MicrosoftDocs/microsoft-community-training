@@ -8,7 +8,7 @@ zone_pivot_groups: "AD-Deployments-Methods"
 ms.service: azure
 ---
 > [!IMPORTANT]  
-> Community Training will reach end of support on Tuesday, April 7, 2026. No new deployments are available at this time. Existing Community Training customers will continue to receive security updates and technical support through Tuesday, April 7, 2026 at 11:59 pm. For more information or support, please reach out to our team here: https://aka.ms/cthelpdesk
+> Community Training will reach end of support on Tuesday, April 7, 2026. No new deployments are available at this time. Existing Community Training customers will continue to receive security updates and technical support through Tuesday, April 7, 2026 at 11:59 pm. For more information or support, please reach out to our team here: [Contact Support](mailto:ctprodsup@microsoft.com)
 # Configure login identity for the platform
 
 ## Prerequisite
@@ -110,7 +110,7 @@ You can create a new Microsoft EntraID (Azure AD) tenant or use an existing one 
     ![Work_School_Login](../../media/Detailed_Installation_Steps/Detailed_Installation_Guide_Step4b.png)
 
 >[!Note]    
->If you are facing any issues while Deploying your AD instance, Please reach out to us [**via HelpDesk**](https://aka.ms/cthelpdesk).
+>If you are facing any issues while Deploying your AD instance, Please reach out to us [**via HelpDesk**]([Contact Support](mailto:ctprodsup@microsoft.com)).
 
 ### Multi-Tenant support for Microsoft EntraID (Azure AD) based Authentication
 
@@ -247,4 +247,4 @@ Here are the steps to create policies based on the Identity Provider:
     5. Select User Attributes and ensure no options are selected.
     6. The portal automatically restarts and the changes take effect.
 
-Please reach out to us [**via HelpDesk**](https://aka.ms/cthelpdesk) if you have any further queries.
+Please reach out to us [**via HelpDesk**]([Contact Support](mailto:ctprodsup@microsoft.com)) if you have any further queries.

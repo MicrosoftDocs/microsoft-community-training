@@ -7,7 +7,7 @@ description: This article explains how to setup IoT edge Device to enable offlin
 ms.service: azure
 ---
 > [!IMPORTANT]  
-> Community Training will reach end of support on Tuesday, April 7, 2026. No new deployments are available at this time. Existing Community Training customers will continue to receive security updates and technical support through Tuesday, April 7, 2026 at 11:59 pm. For more information or support, please reach out to our team here: https://aka.ms/cthelpdesk
+> Community Training will reach end of support on Tuesday, April 7, 2026. No new deployments are available at this time. Existing Community Training customers will continue to receive security updates and technical support through Tuesday, April 7, 2026 at 11:59 pm. For more information or support, please reach out to our team here: [Contact Support](mailto:ctprodsup@microsoft.com)
 # Azure IOT Edge Device Setup
 
 Edge devices using Offline Learning with Community Training will act as hub devices for learners. These devices must be Linux machines running Ubuntu 18.04 version. Once set up, they can be used for training administration in Offline mode.

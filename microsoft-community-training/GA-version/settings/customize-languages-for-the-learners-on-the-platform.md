@@ -7,7 +7,7 @@ description: By default, the Community Training platform is available in English
 ms.service: azure
 ---
 > [!IMPORTANT]  
-> Community Training will reach end of support on Tuesday, April 7, 2026. No new deployments are available at this time. Existing Community Training customers will continue to receive security updates and technical support through Tuesday, April 7, 2026 at 11:59 pm. For more information or support, please reach out to our team here: https://aka.ms/cthelpdesk
+> Community Training will reach end of support on Tuesday, April 7, 2026. No new deployments are available at this time. Existing Community Training customers will continue to receive security updates and technical support through Tuesday, April 7, 2026 at 11:59 pm. For more information or support, please reach out to our team here: [Contact Support](mailto:ctprodsup@microsoft.com)
 # Customize languages on the platform
 
 By default, the Community Training platform is available in English to the learners. To support native learners, you can enable more languages and configure the default language for your platform instance.
@@ -60,4 +60,4 @@ The Community Training platform provides role-based permission levels.  The tabl
 
 1. If the language of your choice is not available on the platform follow the steps in [**this article**](../settings/request-a-new-language.md) to add new languages for your platform instance.
 
-Please reach out to us [**via HelpDesk**](https://aka.ms/cthelpdesk) if you have any further queries.
+Please reach out to us [**via HelpDesk**]([Contact Support](mailto:ctprodsup@microsoft.com)) if you have any further queries.

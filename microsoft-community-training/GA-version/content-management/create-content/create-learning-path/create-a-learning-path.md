@@ -7,7 +7,7 @@ description: A Learning Path is a defined sequence of courses on the training pl
 ms.service: azure
 ---
 > [!IMPORTANT]  
-> Community Training will reach end of support on Tuesday, April 7, 2026. No new deployments are available at this time. Existing Community Training customers will continue to receive security updates and technical support through Tuesday, April 7, 2026 at 11:59 pm. For more information or support, please reach out to our team here: https://aka.ms/cthelpdesk
+> Community Training will reach end of support on Tuesday, April 7, 2026. No new deployments are available at this time. Existing Community Training customers will continue to receive security updates and technical support through Tuesday, April 7, 2026 at 11:59 pm. For more information or support, please reach out to our team here: [Contact Support](mailto:ctprodsup@microsoft.com)
 # Create a Learning path
 
 A **Learning Path** is a defined sequence of courses providing guided training paths to the learners and the ability for instructors to control the way these courses are assigned to them, offering a clear-cut road-map to what they should achieve.
@@ -70,4 +70,4 @@ The Community Training portal provides role-based permission levels. The table b
 Once a Learning Path is created, you can start [**adding content to the Learning Path.**](add-course-to-a-learning-path.md)
 
 
-Please reach out to us [**via HelpDesk**](https://aka.ms/cthelpdesk) if you have any further queries.
+Please reach out to us [**via HelpDesk**]([Contact Support](mailto:ctprodsup@microsoft.com)) if you have any further queries.

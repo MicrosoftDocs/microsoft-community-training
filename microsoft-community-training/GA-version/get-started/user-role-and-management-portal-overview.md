@@ -7,7 +7,7 @@ description: Community Training management portal is a one-stop-shop for all adm
 ms.service: azure
 ---
 > [!IMPORTANT]  
-> Community Training will reach end of support on Tuesday, April 7, 2026. No new deployments are available at this time. Existing Community Training customers will continue to receive security updates and technical support through Tuesday, April 7, 2026 at 11:59 pm. For more information or support, please reach out to our team here: https://aka.ms/cthelpdesk
+> Community Training will reach end of support on Tuesday, April 7, 2026. No new deployments are available at this time. Existing Community Training customers will continue to receive security updates and technical support through Tuesday, April 7, 2026 at 11:59 pm. For more information or support, please reach out to our team here: [Contact Support](mailto:ctprodsup@microsoft.com)
 # User roles and management portal overview
 
 The Community Training management portal is your one-stop-shop for all administrative functions like content management, user management, tracking and monitoring training through analytics, portal settings, and more. It's designed based on role-based access control, which means that features are only available to users based on the permissions they've been granted.
@@ -90,4 +90,4 @@ Here are steps on [how to navigate the portal as a Learner](../learner-experienc
 Organizations can assign specific administrative roles to users and provide access to relevant features on the management portal to help the user to carry out administrative tasks required for the role.
 [**Role-based Admin Functionalities.pdf**](https://github.com/MicrosoftDocs/microsoft-community-training/files/7167101/Role-based.Admin.Functionalities.pdf) <!-- AA: Isn't this already alluded to at the top of this page?-->
 
-Please reach out to us [**via HelpDesk**](https://aka.ms/cthelpdesk) if you have any further queries.
+Please reach out to us [**via HelpDesk**]([Contact Support](mailto:ctprodsup@microsoft.com)) if you have any further queries.

@@ -7,7 +7,7 @@ description: Similar to the overall summary view, Category View provides admin a
 ms.service: azure
 ---
 > [!IMPORTANT]  
-> Community Training will reach end of support on Tuesday, April 7, 2026. No new deployments are available at this time. Existing Community Training customers will continue to receive security updates and technical support through Tuesday, April 7, 2026 at 11:59 pm. For more information or support, please reach out to our team here: https://aka.ms/cthelpdesk
+> Community Training will reach end of support on Tuesday, April 7, 2026. No new deployments are available at this time. Existing Community Training customers will continue to receive security updates and technical support through Tuesday, April 7, 2026 at 11:59 pm. For more information or support, please reach out to our team here: [Contact Support](mailto:ctprodsup@microsoft.com)
 # Category View
 
 Similar to the overall summary view, Category View provides admins a quick glance at learner registrations, and course completion for a particular category. It provides insights on content quality, facilitates comparative analytics across courses in a category, and enables admins to notice things that require attention.
@@ -86,4 +86,4 @@ From the courses grid, you can:
 3. Select a row to [**view detailed information**](./course-view-report.md) about course completion and learner performance for all learners enrolled for the specific course.
 
 
-Please reach out to us [**via HelpDesk**](https://aka.ms/cthelpdesk) if you have any further queries.
+Please reach out to us [**via HelpDesk**]([Contact Support](mailto:ctprodsup@microsoft.com)) if you have any further queries.

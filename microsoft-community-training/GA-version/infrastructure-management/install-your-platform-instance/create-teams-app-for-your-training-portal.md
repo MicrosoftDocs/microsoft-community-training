@@ -7,7 +7,7 @@ description: Community Training allows organization to enable online learning in
 ms.service: azure
 ---
 > [!IMPORTANT]  
-> Community Training will reach end of support on Tuesday, April 7, 2026. No new deployments are available at this time. Existing Community Training customers will continue to receive security updates and technical support through Tuesday, April 7, 2026 at 11:59 pm. For more information or support, please reach out to our team here: https://aka.ms/cthelpdesk
+> Community Training will reach end of support on Tuesday, April 7, 2026. No new deployments are available at this time. Existing Community Training customers will continue to receive security updates and technical support through Tuesday, April 7, 2026 at 11:59 pm. For more information or support, please reach out to our team here: [Contact Support](mailto:ctprodsup@microsoft.com)
 # Setup Microsoft Teams as learner's endpoint for the platform
 
  Community Training allows organizations to enable online learning inside Microsoft Teams across web, mobile and desktop applications. For more details on the Community Training platform integration with Microsoft Teams, [**visit our website**](https://communitytraining.microsoft.com/teams/).
@@ -364,4 +364,4 @@ You may edit the details of the meeting organized in the CT platform from:
 1. Edit the details from the page and select **Send update**.
     :::image type="content" source="../../media/Blended Learning 17.png" alt-text="Send Update":::
 
-Please reach out to us [**via HelpDesk**](https://aka.ms/cthelpdesk) if you have any further queries.
+Please reach out to us [**via HelpDesk**]([Contact Support](mailto:ctprodsup@microsoft.com)) if you have any further queries.

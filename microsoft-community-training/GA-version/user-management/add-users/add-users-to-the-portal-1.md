@@ -7,7 +7,7 @@ description: Community Training management portal provides two ways to add learn
 ms.service: azure
 ---
 > [!IMPORTANT]  
-> Community Training will reach end of support on Tuesday, April 7, 2026. No new deployments are available at this time. Existing Community Training customers will continue to receive security updates and technical support through Tuesday, April 7, 2026 at 11:59 pm. For more information or support, please reach out to our team here: https://aka.ms/cthelpdesk
+> Community Training will reach end of support on Tuesday, April 7, 2026. No new deployments are available at this time. Existing Community Training customers will continue to receive security updates and technical support through Tuesday, April 7, 2026 at 11:59 pm. For more information or support, please reach out to our team here: [Contact Support](mailto:ctprodsup@microsoft.com)
 # Add learners to the platform
 
 The Community Training platform provides two ways to add learners to the portal: Administrators can add learners through a specific group or directly through the **All Users** list. The **All Users** option is available only to Global Administrators.
@@ -90,4 +90,4 @@ Before you begin, please create a group using the steps mentioned [**in this art
 > [!IMPORTANT]  
 > If the platform is setup with the login identity **Social Account** or **Azure Active Directory** then you will need to enter an email address in the above step.
 
-Please reach out to us [**via HelpDesk**](https://aka.ms/cthelpdesk) if you have any further queries.
+Please reach out to us [**via HelpDesk**]([Contact Support](mailto:ctprodsup@microsoft.com)) if you have any further queries.

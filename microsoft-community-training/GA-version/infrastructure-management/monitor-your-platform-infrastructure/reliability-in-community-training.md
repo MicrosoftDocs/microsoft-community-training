@@ -10,7 +10,7 @@ ms.prod: non-product-specific
 ms.date: 10/24/2023
 ---
 > [!IMPORTANT]  
-> Community Training will reach end of support on Tuesday, April 7, 2026. No new deployments are available at this time. Existing Community Training customers will continue to receive security updates and technical support through Tuesday, April 7, 2026 at 11:59 pm. For more information or support, please reach out to our team here: https://aka.ms/cthelpdesk
+> Community Training will reach end of support on Tuesday, April 7, 2026. No new deployments are available at this time. Existing Community Training customers will continue to receive security updates and technical support through Tuesday, April 7, 2026 at 11:59 pm. For more information or support, please reach out to our team here: [Contact Support](mailto:ctprodsup@microsoft.com)
 
 # Reliability in Community Training
 
@@ -106,4 +106,4 @@ Disaster recover is neither active-active nor active-passive, it is based on rec
 ### Capacity and proactive disaster recovery resiliency
 Microsoft and it's customers operate under the shared responsibility model. Once any region is down, not only is the community training instance migrated to the paired region but other product and customer workload is also migrated. This may cause shortage for resources in the paired region or datacenter. Hence, Disaster recovery availability depends on the available capacity of underlying azure resources etc.
 
-Please reach out to us [**via HelpDesk**](https://aka.ms/cthelpdesk) if you have any further queries.
+Please reach out to us [**via HelpDesk**]([Contact Support](mailto:ctprodsup@microsoft.com)) if you have any further queries.

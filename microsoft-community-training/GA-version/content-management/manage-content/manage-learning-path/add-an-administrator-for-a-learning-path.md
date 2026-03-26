@@ -76,4 +76,4 @@ The Community Training portal provides role-based permission levels. The table b
     ![Delete & ok](../../../media/image%28402%29.png)
 
 
-Please reach out to us [**via HelpDesk**](https://aka.ms/cthelpdesk) if you have any further queries.
+Please reach out to us [**via HelpDesk**]([Contact Support](mailto:ctprodsup@microsoft.com)) if you have any further queries.

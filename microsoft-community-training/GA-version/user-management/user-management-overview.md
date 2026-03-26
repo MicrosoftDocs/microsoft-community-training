@@ -7,7 +7,7 @@ description: "Community Training portal allows administrators an easy way to del
 ms.service: azure
 ---
 > [!IMPORTANT]  
-> Community Training will reach end of support on Tuesday, April 7, 2026. No new deployments are available at this time. Existing Community Training customers will continue to receive security updates and technical support through Tuesday, April 7, 2026 at 11:59 pm. For more information or support, please reach out to our team here: https://aka.ms/cthelpdesk
+> Community Training will reach end of support on Tuesday, April 7, 2026. No new deployments are available at this time. Existing Community Training customers will continue to receive security updates and technical support through Tuesday, April 7, 2026 at 11:59 pm. For more information or support, please reach out to our team here: [Contact Support](mailto:ctprodsup@microsoft.com)
 # User Management - Overview
 
 The Community Training portal allows administrators an easy way to delegate and automate administrative tasks like user onboarding, course enrollment, and empower the ground level facilitators/trainers to drive engagement and adoption of the learning program across your training audience.
@@ -139,4 +139,4 @@ Community Training platform provides specific set of features to help administra
 
 1. Limit the number of Global Administrators on the portal as they can read and modify everything on the platform.
 
-Please reach out to us [**via HelpDesk**](https://aka.ms/cthelpdesk) if you have any further queries.
+Please reach out to us [**via HelpDesk**]([Contact Support](mailto:ctprodsup@microsoft.com)) if you have any further queries.

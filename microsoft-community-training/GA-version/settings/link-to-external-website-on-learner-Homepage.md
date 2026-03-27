@@ -1,5 +1,5 @@
 ---
-title: Link to External Website on Learner Home page
+title: Link to External Website on Learner Home page - GA
 author: nikotha
 ms.author: nikotha
 description: This document details the flow to add a link to an external website on learner's home page on the Community Training platform.  

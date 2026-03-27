@@ -1,5 +1,5 @@
 ---
-title: How to integrate with Power BI to build analytics reports
+title: How to integrate with Power BI to build analytics reports - Public Preview
 description: Provides the process for making suggestions or contributions to internal Content & Learning content guidance.
 original-url: https://docs.microsoftcommunitytraining.com/docs/power-bi-integration
 author: nikotha

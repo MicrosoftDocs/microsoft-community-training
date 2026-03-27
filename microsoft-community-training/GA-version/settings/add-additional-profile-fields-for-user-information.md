@@ -1,5 +1,5 @@
 ---
-title: Customize profile information for the learners on the platform
+title: Customize profile information for the learners on the platform - GA
 original-url: https://docs.microsoftcommunitytraining.com/docs/add-additional-profile-fields-for-user-information
 author: nikotha
 ms.author: nikotha

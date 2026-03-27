@@ -1,5 +1,5 @@
 ---
-title: Customize the name and icon of the training tab in MS Teams
+title: Customize the name and icon of the training tab in MS Teams - GA
 original-url: https://docs.microsoftcommunitytraining.com/docs/customize-the-name-and-icon-of-the-training-tab-in-ms-teams
 author: nikotha
 ms.author: nikotha

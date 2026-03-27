@@ -1,5 +1,5 @@
 ---
-title: Add multiple Azure AD(single tenant) to B2C as social account
+title: Add multiple Azure AD(single tenant) to B2C as social account - GA
 original-url: https://docs.microsoftcommunitytraining.com/docs/
 author: nikotha
 ms.author: nikotha

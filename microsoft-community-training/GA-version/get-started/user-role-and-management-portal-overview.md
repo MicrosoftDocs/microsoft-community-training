@@ -1,5 +1,5 @@
 ---
-title: User roles and Management portal overview
+title: User roles and Management portal overview - GA
 original-url: https://docs.microsoftcommunitytraining.com/docs/user-role-and-management-portal-overview
 author: nikotha
 ms.author: nikotha

@@ -1,5 +1,5 @@
 ---
-title: Customize the certificate template for the platform
+title: Customize the certificate template for the platform - GA
 original-url: https://docs.microsoftcommunitytraining.com/docs/customize-the-certificate-template
 author: nikotha
 ms.author: nikotha

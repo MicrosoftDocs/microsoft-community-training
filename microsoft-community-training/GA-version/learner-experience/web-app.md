@@ -1,5 +1,5 @@
 ---
-title: Learner Experience on the web portal
+title: Learner Experience on the web portal - GA
 original-url: https://docs.microsoftcommunitytraining.com/docs/web-app
 author: nikotha
 ms.author: nikotha

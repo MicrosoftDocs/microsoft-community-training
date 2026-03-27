@@ -5,6 +5,7 @@ author: nikotha
 ms.author: nikotha
 description: Editing the details or deleting a Learning Path can be done by selecting a Learning Path which you have created and following the steps given in this article.
 ms.service: azure
+ms.date: 02/03/2026
 ---
 
 # Change Learning Path details

@@ -4,8 +4,6 @@
     items: 
       - name: Get Started
         items:
-          - name: Community Training Retirement Notice
-            href: ga-version/get-started/ga-retirement.md 
           - name: Welcome to Community Training
             href: ga-version/get-started/microsoft-community-training-overview.md 
           - name: User roles and Management portal overview

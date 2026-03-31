@@ -1,5 +1,5 @@
 ---
-title: Detailed step by step installation guide
+title: Detailed step by step installation guide - GA
 original-url: https://docs.microsoftcommunitytraining.com/docs/installation-guide-detailed-steps
 
 author: Charan

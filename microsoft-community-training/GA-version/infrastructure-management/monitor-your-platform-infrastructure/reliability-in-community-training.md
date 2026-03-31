@@ -1,5 +1,5 @@
 ---
-title: Reliability in Community Training
+title: Reliability in Community Training - GA
 description: Find out about reliability in Community Training 
 author: cbrahmandam
 ms.author: cbrahmandam

@@ -1,5 +1,5 @@
 ---
-title: Installation Overview
+title: Installation Overview - GA
 original-url: https://docs.microsoftcommunitytraining.com/docs/installation-overview
 author: nikotha
 ms.author: nikotha

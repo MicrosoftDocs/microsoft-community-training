@@ -5,6 +5,7 @@ author: nikotha
 ms.author: nikotha
 description: Community Training is an Azure-powered online learning platform to enable organizations of all sizes.
 ms.service: azure
+ms.date: 02/03/2026
 ---
 > [!IMPORTANT]  
 > Community Training will reach end of support on Tuesday, April 7, 2026. No new deployments are available at this time. Existing Community Training customers will continue to receive security updates and technical support through Tuesday, April 7, 2026 at 11:59 pm. For more information or support, please reach out to our team here: [Contact Support](mailto:ctprodsup@microsoft.com)

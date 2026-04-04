@@ -5,6 +5,7 @@ author: nikotha
 ms.author: nikotha
 description: Group admin are responsible to drive engagement and monitor course completion for learners on the ground.
 ms.service: azure
+ms.topic: conceptual
 ---
 > [!IMPORTANT]  
 > Community Training will reach end of support on Tuesday, April 7, 2026. No new deployments are available at this time. Existing Community Training customers will continue to receive security updates and technical support through Tuesday, April 7, 2026 at 11:59 pm. For more information or support, please reach out to our team here: [Contact Support](mailto:ctprodsup@microsoft.com)

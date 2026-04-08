@@ -1,7 +1,7 @@
 - name: Community Training Documentation
   items:
-  - name: GA Version 
-    items: 
+  # - name: GA Version 
+  #   items: 
       # - name: Get Started
       #   items:
       #     - name: Community Training Retirement Notice

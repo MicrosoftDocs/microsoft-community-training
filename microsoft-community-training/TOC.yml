@@ -1,115 +1,113 @@
 - name: Community Training Documentation
   items:
-  # - name: GA Version 
-  #   items: 
-      # - name: Get Started
-      #   items:
-      #     - name: Community Training Retirement Notice
-      #       href: ga-version/get-started/ga-retirement.md 
-      #     - name: Welcome to Community Training
-      #       href: ga-version/get-started/microsoft-community-training-overview.md 
-      #     - name: User roles and Management portal overview
-      #       href: ga-version/get-started/user-role-and-management-portal-overview.md
-      #     - name: Step by step configuration guide for platform setup
-      #       href: ga-version/get-started/step-by-step-configuration-guide.md
-      # - name: User Management
-      #   items:
-      #     - name: User Management - Overview
-      #       href: ga-version/user-management/user-management-overview.md
-      #     - name: Organization Management
-      #       href: ga-version/user-management/organization-management.md
-      #     - name: Add users
-      #       items:
-      #       - name: Add learners to the platform
-      #         href: ga-version/user-management/add-users/add-users-to-the-portal-1.md
-      #       - name: Add administrators to the platform
-      #         href: ga-version/user-management/add-users/add-an-administrator-to-the-portal.md
-      #     - name: Organize users
-      #       items:
-      #       - name: Create new group
-      #         href: ga-version/user-management/organize-users/create-a-new-group.md
-      #       - name: Add a single user to the group
-      #         href: ga-version/user-management/organize-users/add-a-single-user-to-the-group.md
-      #       - name: Add multiple users to the group
-      #         href: ga-version/user-management/organize-users/add-multiple-users-to-the-group.md
-      #       - name: Setup automatic user enrollment for a group
-      #         href: ga-version/user-management/organize-users/setup-automatic-user-enrollment-for-a-group-1.md
-      #     - name: Manage users
-      #       items:
-      #       - name: Assign content to users in the group
-      #         href: ga-version/user-management/manage-users/assign-content-to-group-users.md
-      #       - name: De-assign content from users
-      #         href: ga-version/user-management/manage-users/De-assigning-content-from-user.md
-      #       - name: Send announcement to the users
-      #         href: ga-version/user-management/manage-users/send-announcement-to-the-users.md
-      #       - name: Edit user profile on the platform
-      #         href: ga-version/user-management/manage-users/edit-user-profile-on-the-platform.md
-      #       - name: Delete a user from the group
-      #         href: ga-version/user-management/manage-users/remove-user-from-group.md
-      #       - name: Delete a user from the platform
-      #         href: ga-version/user-management/manage-users/remove-user-from-the-platform.md
-      # - name: Content Management
-      #   items:
-      #     - name: Content Management - Overview
-      #       href: ga-version/content-management/content-management-overview.md
-      #     - name: Create Content
-      #       items: 
-      #       - name: Create Course / Category
-      #         items:
-      #           - name: Content Marketplace
-      #             href: ga-version/content-management/create-content/create-course-category/content-marketplace.md 
-      #           - name: Create a category
-      #             href: ga-version/content-management/create-content/create-course-category/create-a-category.md
-      #           - name: Create a new course
-      #             href: ga-version/content-management/create-content/create-course-category/create-a-new-course.md
-      #           - name: Upload content to a course
-      #             href: ga-version/content-management/create-content/create-course-category/upload-content-to-a-course.md
-      #           - name: Add subtitles or captions to video content
-      #             href: ga-version/content-management/create-content/create-course-category/add-subtitles-or-captions-to-video-content.md
-      #           - name: Add assessments to a course
-      #             href: ga-version/content-management/create-content/create-course-category/add-assessments-to-a-course.md
-      #           - name: Add feedback form for a course
-      #             href: ga-version/content-management/create-content/create-course-category/add-feedback-form-for-a-course.md
-      #           - name: Publish a course on the training portal
-      #             href: ga-version/content-management/create-content/create-course-category/publishing-course.md 
-      #       - name: Create Learning Path
-      #         items: 
-      #           - name: Create a Learning path
-      #             href: ga-version/content-management/create-content/create-learning-path/create-a-learning-path.md
-      #           - name: Add course to a Learning path
-      #             href: ga-version/content-management/create-content/create-learning-path/add-course-to-a-learning-path.md
-      #           - name: Publish a Learning Path on the Portal
-      #             href: ga-version/content-management/create-content/create-learning-path/publish-a-learning-path-on-the-portal.md
-      #     - name: Manage Content
-      #       items: 
-      #       - name: Manage Course / Category
-      #         items: 
-      #           - name: Add an administrator for a course
-      #             href: ga-version/content-management/manage-content/manage-course-category/add-an-administrator-for-a-course.md
-      #           - name: Manage Users for a Course
-      #             href: ga-version/content-management/manage-content/manage-course-category/manage-users-for-a-course.md
-      #           - name: Change Course details
-      #             href: ga-version/content-management/manage-content/manage-course-category/change-course-details.md
-      #           - name: Change Category details
-      #             href: ga-version/content-management/manage-content/manage-course-category/change-category-details.md
-      #           - name: Move Course content across training instance
-      #             href: ga-version/content-management/manage-content/manage-course-category/move-course-content-across-training-instance.md 
-      #       - name: Manage Learning Path
-      #         items: 
-      #           - name: Add an Administrator for a Learning Path
-      #             href: ga-version/content-management/manage-content/manage-learning-path/add-an-administrator-for-a-learning-path.md
-      #           - name: Manage Users for a Learning Path
-      #             href: ga-version/content-management/manage-content/manage-learning-path/manage-user-for-a-learning-path.md
-      #           - name: Change Learning Path details
-      #             href: ga-version/content-management/manage-content/manage-learning-path/change-learning-path-details.md
-      # - name: Learner Experience
-      #   items:
-      #     - name: Learner Experience on the web portal
-      #       href: ga-version/learner-experience/web-app.md
-      #     - name: Learner Experience on PWA based mobile app
-      #       href: ga-version/learner-experience/pwa-app.md  
-      #     - name: Replacement player for Azure Media Service/Player  
-      #       href: ga-version/learner-experience/AMS-Replacement-Player.md
+#   - name: GA Version 
+#     items: 
+#       - name: Get Started
+#         items:
+#           - name: Welcome to Community Training
+#             href: ga-version/get-started/microsoft-community-training-overview.md 
+#           - name: User roles and Management portal overview
+#             href: ga-version/get-started/user-role-and-management-portal-overview.md
+#           - name: Step by step configuration guide for platform setup
+#             href: ga-version/get-started/step-by-step-configuration-guide.md
+#       - name: User Management
+#         items:
+#           - name: User Management - Overview
+#             href: ga-version/user-management/user-management-overview.md
+#           - name: Organization Management
+#             href: ga-version/user-management/organization-management.md
+#           - name: Add users
+#             items:
+#             - name: Add learners to the platform
+#               href: ga-version/user-management/add-users/add-users-to-the-portal-1.md
+#             - name: Add administrators to the platform
+#               href: ga-version/user-management/add-users/add-an-administrator-to-the-portal.md
+#           - name: Organize users
+#             items:
+#             - name: Create new group
+#               href: ga-version/user-management/organize-users/create-a-new-group.md
+#             - name: Add a single user to the group
+#               href: ga-version/user-management/organize-users/add-a-single-user-to-the-group.md
+#             - name: Add multiple users to the group
+#               href: ga-version/user-management/organize-users/add-multiple-users-to-the-group.md
+#             - name: Setup automatic user enrollment for a group
+#               href: ga-version/user-management/organize-users/setup-automatic-user-enrollment-for-a-group-1.md
+#           - name: Manage users
+#             items:
+#             - name: Assign content to users in the group
+#               href: ga-version/user-management/manage-users/assign-content-to-group-users.md
+#             - name: De-assign content from users
+#               href: ga-version/user-management/manage-users/De-assigning-content-from-user.md
+#             - name: Send announcement to the users
+#               href: ga-version/user-management/manage-users/send-announcement-to-the-users.md
+#             - name: Edit user profile on the platform
+#               href: ga-version/user-management/manage-users/edit-user-profile-on-the-platform.md
+#             - name: Delete a user from the group
+#               href: ga-version/user-management/manage-users/remove-user-from-group.md
+#             - name: Delete a user from the platform
+#               href: ga-version/user-management/manage-users/remove-user-from-the-platform.md
+#       - name: Content Management
+#         items:
+#           - name: Content Management - Overview
+#             href: ga-version/content-management/content-management-overview.md
+#           - name: Create Content
+#             items: 
+#             - name: Create Course / Category
+#               items:
+#                 - name: Content Marketplace
+#                   href: ga-version/content-management/create-content/create-course-category/content-marketplace.md 
+#                 - name: Create a category
+#                   href: ga-version/content-management/create-content/create-course-category/create-a-category.md
+#                 - name: Create a new course
+#                   href: ga-version/content-management/create-content/create-course-category/create-a-new-course.md
+#                 - name: Upload content to a course
+#                   href: ga-version/content-management/create-content/create-course-category/upload-content-to-a-course.md
+#                 - name: Add subtitles or captions to video content
+#                   href: ga-version/content-management/create-content/create-course-category/add-subtitles-or-captions-to-video-content.md
+#                 - name: Add assessments to a course
+#                   href: ga-version/content-management/create-content/create-course-category/add-assessments-to-a-course.md
+#                 - name: Add feedback form for a course
+#                   href: ga-version/content-management/create-content/create-course-category/add-feedback-form-for-a-course.md
+#                 - name: Publish a course on the training portal
+#                   href: ga-version/content-management/create-content/create-course-category/publishing-course.md 
+#             - name: Create Learning Path
+#               items: 
+#                 - name: Create a Learning path
+#                   href: ga-version/content-management/create-content/create-learning-path/create-a-learning-path.md
+#                 - name: Add course to a Learning path
+#                   href: ga-version/content-management/create-content/create-learning-path/add-course-to-a-learning-path.md
+#                 - name: Publish a Learning Path on the Portal
+#                   href: ga-version/content-management/create-content/create-learning-path/publish-a-learning-path-on-the-portal.md
+#           - name: Manage Content
+#             items: 
+#             - name: Manage Course / Category
+#               items: 
+#                 - name: Add an administrator for a course
+#                   href: ga-version/content-management/manage-content/manage-course-category/add-an-administrator-for-a-course.md
+#                 - name: Manage Users for a Course
+#                   href: ga-version/content-management/manage-content/manage-course-category/manage-users-for-a-course.md
+#                 - name: Change Course details
+#                   href: ga-version/content-management/manage-content/manage-course-category/change-course-details.md
+#                 - name: Change Category details
+#                   href: ga-version/content-management/manage-content/manage-course-category/change-category-details.md
+#                 - name: Move Course content across training instance
+#                   href: ga-version/content-management/manage-content/manage-course-category/move-course-content-across-training-instance.md 
+#             - name: Manage Learning Path
+#               items: 
+#                 - name: Add an Administrator for a Learning Path
+#                   href: ga-version/content-management/manage-content/manage-learning-path/add-an-administrator-for-a-learning-path.md
+#                 - name: Manage Users for a Learning Path
+#                   href: ga-version/content-management/manage-content/manage-learning-path/manage-user-for-a-learning-path.md
+#                 - name: Change Learning Path details
+#                   href: ga-version/content-management/manage-content/manage-learning-path/change-learning-path-details.md
+#       - name: Learner Experience
+#         items:
+#           - name: Learner Experience on the web portal
+#             href: ga-version/learner-experience/web-app.md
+#           - name: Learner Experience on PWA based mobile app
+#             href: ga-version/learner-experience/pwa-app.md  
+#           - name: Replacement player for Azure Media Service/Player  
+#             href: ga-version/learner-experience/AMS-Replacement-Player.md
 
       # - name: Analytics
       #   items:

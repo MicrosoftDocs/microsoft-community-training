@@ -1,11 +1,9 @@
 - name: Community Training Documentation
   items:
-  - name: GA Retirement
+  - name: GA Version
     items: 
-      - name: CT Retirement
-        items:
-          - name: CT Retirement Notice
-            href: ga-version/get-started/ga-retirement.md
+      - name: CT Retirement Notice
+        href: ga-version/get-started/ga-retirement.md
 #           - name: User roles and Management portal overview
 #             href: ga-version/get-started/user-role-and-management-portal-overview.md
 #           - name: Step by step configuration guide for platform setup
